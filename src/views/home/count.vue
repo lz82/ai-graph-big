@@ -66,50 +66,50 @@ export default {
         loop: false,
         easing: 'linear'
       })
-      .add({
-        targets: '.' + this.outCls,
-        keyframes: [
-          {
-            scale: 0,
-            opacity: 0
-          },
-          {
-            scale: 0.5,
-            opacity: 0.5
-          },
-          {
-            scale: 1,
-            opacity: 1
-          },
-          {
-            opacity: 0
-          }
-        ],
-        // loop: false,
-        duration: 2000
-      })
-      .add({
-        targets: '.' + this.inCls,
-        keyframes: [
-          {
-            scale: 0,
-            opacity: 0
-          },
-          {
-            scale: 0.5,
-            opacity: 0.5
-          },
-          {
-            scale: 1,
-            opacity: 1
-          },
-          {
-            opacity: 0
-          }
-        ],
-        // loop: false,
-        duration: 2000
-      }, 300)
+        .add({
+          targets: '.' + this.outCls,
+          keyframes: [
+            {
+              scale: 0,
+              opacity: 0
+            },
+            {
+              scale: 0.5,
+              opacity: 0.5
+            },
+            {
+              scale: 1,
+              opacity: 1
+            },
+            {
+              opacity: 0
+            }
+          ],
+          // loop: false,
+          duration: 2000
+        })
+        .add({
+          targets: '.' + this.inCls,
+          keyframes: [
+            {
+              scale: 0,
+              opacity: 0
+            },
+            {
+              scale: 0.5,
+              opacity: 0.5
+            },
+            {
+              scale: 1,
+              opacity: 1
+            },
+            {
+              opacity: 0
+            }
+          ],
+          // loop: false,
+          duration: 2000
+        }, 300)
       // .add({
       //   targets: '.' + this.contentCls,
       //   scale: {

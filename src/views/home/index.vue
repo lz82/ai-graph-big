@@ -156,7 +156,7 @@ export default {
           img: tagTrade,
           url: '/report/trade'
         }
-      ],
+      ]
     }
   },
 

@@ -47,60 +47,60 @@ export default {
         loop: false,
         easing: 'linear'
       })
-      .add({
-        targets: '.outter-circle',
-        keyframes: [
-          {
-            scale: 0,
-            opacity: 0
+        .add({
+          targets: '.outter-circle',
+          keyframes: [
+            {
+              scale: 0,
+              opacity: 0
+            },
+            {
+              scale: 0.5,
+              opacity: 0.5
+            },
+            {
+              scale: 1,
+              opacity: 1
+            },
+            {
+              opacity: 0
+            }
+          ],
+          // loop: false,
+          duration: 2000
+        })
+        .add({
+          targets: '.inner-circle',
+          keyframes: [
+            {
+              scale: 0,
+              opacity: 0
+            },
+            {
+              scale: 0.5,
+              opacity: 0.5
+            },
+            {
+              scale: 1,
+              opacity: 1
+            },
+            {
+              opacity: 0
+            }
+          ],
+          // loop: false,
+          duration: 2000
+        }, 300)
+        .add({
+          targets: '.content',
+          scale: {
+            value: [0, 1]
           },
-          {
-            scale: 0.5,
-            opacity: 0.5
+          opacity: {
+            value: [0, 1]
           },
-          {
-            scale: 1,
-            opacity: 1
-          },
-          {
-            opacity: 0
-          }
-        ],
-        // loop: false,
-        duration: 2000
-      })
-      .add({
-        targets: '.inner-circle',
-        keyframes: [
-          {
-            scale: 0,
-            opacity: 0
-          },
-          {
-            scale: 0.5,
-            opacity: 0.5
-          },
-          {
-            scale: 1,
-            opacity: 1
-          },
-          {
-            opacity: 0
-          }
-        ],
-        // loop: false,
-        duration: 2000
-      }, 300)
-      .add({
-        targets: '.content',
-        scale: {
-          value: [0, 1]
-        },
-        opacity: {
-          value: [0, 1]
-        },
-        duration: 2000
-      }, '-=1500')
+          duration: 2000
+        }, '-=1500')
     }
   }
 }
