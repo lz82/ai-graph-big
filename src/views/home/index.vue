@@ -431,8 +431,8 @@ export default {
       }
 
       .jp {
-        left: 1390px;
-        top: 450px;
+        left: 1360px;
+        top: 480px;
       }
 
       .korea {
@@ -442,7 +442,7 @@ export default {
 
       .au {
         left: 1250px;
-        top: 660px;
+        top: 650px;
       }
 
     }
