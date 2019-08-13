@@ -41,11 +41,22 @@
           v-if="showUsa"
         />
 
-
     </div>
     <div class="light-wrapper">
       <img id="light" :src="light" alt="">
     </div>
+    <div class="cloud-left">
+      <tag-cloud
+        :tags="tags"
+        v-if="showCloud"
+      />
+    </div>
+    <!-- <div>
+      <tag-cloud
+        class="cloud-right"
+        :tags="tags"
+      />
+    </div> -->
   </div>
 </template>
 
@@ -59,12 +70,27 @@ import light from './img/light.png'
 import anime from 'animejs'
 
 import Count from './count'
+import TagCloud from './tag-cloud'
+
+import tagAward from './img/ball_award.png' // 成果奖项
+// import tagBook from './img/ball_book.png' // 软著
+// import tagData from './img/ball_data.png' // 运营商数据
+import tagEnterprise from './img/ball_enterprise.png' // 科技企业
+import tagExpert from './img/ball_expert.png' // 专家
+import tagInvest from './img/ball_invest.png' // 投资机构
+import tagNews from './img/ball_news.png' // 新闻头条
+import tagPaper from './img/ball_paper.png' // 论文
+import tagPatent from './img/ball_patent.png' // 专利
+import tagPolicy from './img/ball_policy.png' // 政策
+import tagProject from './img/ball_pro.png' // 立项项目
+import tagTrade from './img/ball_trade.png' // 技术交易
 
 export default {
   name: 'Homepage',
 
   components: {
-    Count
+    Count,
+    TagCloud
   },
 
   data () {
@@ -77,7 +103,60 @@ export default {
       showEupo: false,
       showChina: false,
       showCanada: false,
-      showUsa: false
+      showUsa: false,
+      showCloud: false,
+      tags: [
+        {
+          // 成果奖项
+          img: tagAward,
+          url: '/report/award'
+        },
+        {
+          // 科技企业
+          img: tagEnterprise,
+          url: '/report/enterprise'
+        },
+        {
+          // 专家
+          img: tagExpert,
+          url: '/report/expert'
+        },
+        {
+          // 投资机构
+          img: tagInvest,
+          url: '/report/invest'
+        },
+        {
+          // 新闻头条
+          img: tagNews,
+          url: '/report/news'
+        },
+        {
+          // 论文
+          img: tagPaper,
+          url: '/report/paper'
+        },
+        {
+          // 专利
+          img: tagPatent,
+          url: '/report/patent'
+        },
+        {
+          // 政策
+          img: tagPolicy,
+          url: '/report/policy'
+        },
+        {
+          // 立项项目
+          img: tagProject,
+          url: '/report/project'
+        },
+        {
+          // 标准
+          img: tagTrade,
+          url: '/report/trade'
+        }
+      ],
     }
   },
 
@@ -89,16 +168,19 @@ export default {
     }, 900)
     setTimeout(() => {
       this.showEupo = true
-    }, 1700)
+    }, 3100)
     setTimeout(() => {
       this.showChina = true
-    }, 2500)
+    }, 3500)
     setTimeout(() => {
       this.showCanada = true
-    }, 3300)
+    }, 4300)
     setTimeout(() => {
       this.showUsa = true
-    }, 4000)
+    }, 5000)
+    setTimeout(() => {
+      this.showCloud = true
+    }, 2000)
   },
 
   methods: {
@@ -245,6 +327,20 @@ export default {
         object-fit: cover;
         opacity: 0;
       }
+    }
+
+    .cloud-left {
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      z-index: 99;
+    }
+
+    .cloud-right {
+      position: absolute;
+      top: 100px;
+      right: 50px;
+      z-index: 99;
     }
   }
 </style>
