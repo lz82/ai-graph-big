@@ -41,6 +41,62 @@
           v-if="showUsa"
         />
 
+        <Count
+          :num="77886"
+          type="usa"
+          txt="英国"
+          class="cnt england"
+          v-if="showEngland"
+        />
+
+        <Count
+          :num="77886"
+          type="usa"
+          txt="法国"
+          class="cnt france"
+          v-if="showFrance"
+        />
+
+        <Count
+          :num="77886"
+          type="usa"
+          txt="德国"
+          class="cnt ge"
+          v-if="showGe"
+        />
+
+        <Count
+          :num="77886"
+          type="usa"
+          txt="台湾地区"
+          class="cnt tw"
+          v-if="showTW"
+        />
+
+        <Count
+          :num="999999"
+          type="usa"
+          txt="日本"
+          class="cnt jp"
+          v-if="showJP"
+        />
+
+        <Count
+          :num="77886"
+          type="usa"
+          txt="韩国"
+          class="cnt korea"
+          v-if="showKorea"
+        />
+
+        <Count
+          :num="77886"
+          type="usa"
+          txt="澳大利亚"
+          class="cnt au"
+          v-if="showAu"
+        />
+
     </div>
     <div class="light-wrapper">
       <img id="light" :src="light" alt="">
@@ -48,15 +104,19 @@
     <div class="cloud-left">
       <tag-cloud
         :tags="tags"
+        direct="up"
+        v-if="showCloud"
+        id="left"
+      />
+    </div>
+    <div class="cloud-right">
+      <tag-cloud
+        :tags="tags"
+        id="right"
+        direct="down"
         v-if="showCloud"
       />
     </div>
-    <!-- <div>
-      <tag-cloud
-        class="cloud-right"
-        :tags="tags"
-      />
-    </div> -->
   </div>
 </template>
 
@@ -104,6 +164,13 @@ export default {
       showChina: false,
       showCanada: false,
       showUsa: false,
+      showEngland: false,
+      showFrance: false,
+      showGe: false,
+      showTW: false,
+      showJP: false,
+      showKorea: false,
+      showAu: false,
       showCloud: false,
       tags: [
         {
@@ -179,7 +246,21 @@ export default {
       this.showUsa = true
     }, 5000)
     setTimeout(() => {
+      this.showEngland = true
+      this.showFrance = true
+      this.showGe = true
+    }, 5500)
+    setTimeout(() => {
+      this.showTW = true
+      this.showJP = true
+      this.showKorea = true
+    }, 6100)
+    setTimeout(() => {
+      this.showAu = true
+    }, 6500)
+    setTimeout(() => {
       this.showCloud = true
+      this.initCloud()
     }, 2000)
   },
 
@@ -251,6 +332,19 @@ export default {
             value: [46, 0]
           }
         })
+    },
+
+    initCloud () {
+      anime({
+        targets: ['.cloud-left', '.cloud-right'],
+        scale: {
+          value: [0, 1]
+        },
+        opacity: {
+          value: [0, 1]
+        },
+        duration: 2000
+      })
     }
   }
 }
@@ -297,7 +391,7 @@ export default {
 
       .europe {
         left: 930px;
-        top: 430px;
+        top: 460px;
       }
 
       .china {
@@ -314,6 +408,43 @@ export default {
         left: 600px;
         top: 450px;
       }
+
+      .england {
+        left: 950px;
+        top: 330px;
+      }
+
+      .france {
+        left: 920px;
+        top: 400px;
+      }
+
+      .ge {
+        left: 1010px;
+        top: 400px;
+      }
+
+      .tw {
+        left: 1250px;
+        top: 500px;
+
+      }
+
+      .jp {
+        left: 1390px;
+        top: 450px;
+      }
+
+      .korea {
+        left: 1280px;
+        top: 450px;
+      }
+
+      .au {
+        left: 1250px;
+        top: 660px;
+      }
+
     }
 
     .light-wrapper {

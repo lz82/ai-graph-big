@@ -1,6 +1,6 @@
 <template>
   <div class="tag-cloud-wrapper">
-    <canvas :width="containerWidth" :height="containerHeight" id="tagcanvas">
+    <canvas :width="containerWidth" :height="containerHeight" :id="guid">
         <ul id="taglist">
           <li v-for="item in tags" :key="item.url">
             <router-link
@@ -21,7 +21,7 @@ export default {
   props: {
     containerWidth: {
       type: Number,
-      default: 350
+      default: 400
     },
     containerHeight: {
       type: Number,
@@ -29,6 +29,14 @@ export default {
     },
     tags: {
       type: Array
+    },
+    id: {
+      type: String,
+      required: true
+    },
+    direct: {
+      type: String,
+      default: 'up'
     }
   },
 
@@ -44,9 +52,19 @@ export default {
     this.initTag()
   },
 
+  computed: {
+    guid () {
+      return `${this.id}-tagcanvas`
+    },
+
+    tagGuid () {
+      return `${this.id}-taglist`
+    }
+  },
+
   methods: {
     initTag () {
-      window.TagCanvas.initial = [0.01, -0.01]
+      window.TagCanvas.initial = [0.01, this.direct === 'up' ? 0.02 : -0.02]
       window.TagCanvas.outlineColour = 'rgba(255, 255, 255,0.1)'
       window.TagCanvas.maxSpeed = 0.05
       window.TagCanvas.minSpeed = 0.02
@@ -55,22 +73,23 @@ export default {
       window.TagCanvas.imageMode = 'image'
       window.TagCanvas.imageRadius = '50%'
       window.TagCanvas.imageScale = 1
-      window.TagCanvas.radiusY = 1.4
+      window.TagCanvas.radiusY = 2
+      window.TagCanvas.radiusX = 0.6
       window.TagCanvas.activeCursor = 'pointer'
       // window.TagCanvas.radiusZ = 0.5
       window.TagCanvas.outlineMethod = 'size'
       window.TagCanvas.outlineIncrease = 16
       window.TagCanvas.dragControl = true
       window.TagCanvas.shape = 'sphere'
-      window.TagCanvas.lock = 'x'
+      // window.TagCanvas.lock = 'x'
       window.TagCanvas.offsetY = -60
-      window.TagCanvas.Start('tagcanvas', 'taglist')
+      window.TagCanvas.Start(this.guid, this.taglist)
     },
 
     restart () {
       window.TagCanvas.shape = this.shape
       window.TagCanvas.lock = this.lock
-      window.TagCanvas.Start('tagcanvas', this.ttags)
+      window.TagCanvas.Start(this.guid, this.ttags)
     },
 
     changetags (t) {
@@ -84,18 +103,6 @@ export default {
       this.shape = s
       window.TagCanvas.initial = (this.lock === 'x' && [0, 0.2]) || (this.lock === 'y' && [0.2, 0]) || [0.2, 0.2]
       this.restart()
-    },
-
-    mouseOver () {
-      window.TagCanvas.Pause('tagcanvas')
-      // window.TagCanvas.maxSpeed = 0
-      // window.TagCanvas.Start('tagcanvas', this.ttags)
-    },
-
-    mouseLeave () {
-      window.TagCanvas.Resume('tagcanvas')
-      // window.TagCanvas.maxSpeed = 0.05
-      // window.TagCanvas.Start('tagcanvas', this.ttags)
     }
   }
 }
