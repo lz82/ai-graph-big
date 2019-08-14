@@ -1,6 +1,11 @@
 <template>
   <div class="tag-cloud-wrapper">
-    <canvas :width="containerWidth" :height="containerHeight" :id="guid">
+    <canvas
+      :width="containerWidth"
+      :height="containerHeight"
+      :id="guid"
+      @touchmove="onTouch"
+    >
         <ul id="taglist">
           <li v-for="(item, index) in tags" :key="index">
             <router-link
@@ -15,6 +20,7 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
   name: 'TagCloud',
 
@@ -80,30 +86,19 @@ export default {
       window.TagCanvas.outlineMethod = 'size'
       window.TagCanvas.outlineIncrease = 16
       window.TagCanvas.dragControl = true
-      window.TagCanvas.shape = 'hring'
+      // window.TagCanvas.shape = 'hring'
       window.TagCanvas.lock = 'x'
       // window.TagCanvas.offsetY = -60
       window.TagCanvas.Start(this.guid, this.taglist)
     },
 
-    restart () {
-      window.TagCanvas.shape = this.shape
-      window.TagCanvas.lock = this.lock
-      window.TagCanvas.Start(this.guid, this.ttags)
+    onTouch () {
+      this.setLastTime(new Date() - 0)
     },
 
-    changetags (t) {
-      this.ttags = t
-      this.restart()
-    },
-
-    changeshape (s) {
-      var locks = { hcylinder: 'x', vcylinder: 'y', hring: 'x', vring: 'y', sphere: '' }
-      this.lock = locks[s] || ''
-      this.shape = s
-      window.TagCanvas.initial = (this.lock === 'x' && [0, 0.2]) || (this.lock === 'y' && [0.2, 0]) || [0.2, 0.2]
-      this.restart()
-    }
+    ...mapMutations({
+      setLastTime: 'set_last_time'
+    })
   }
 }
 </script>

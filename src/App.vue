@@ -7,10 +7,11 @@
     >
       <video
         class="video"
-        autoplay
+        autoplay="autoplay"
         height="1080"
         width="1920"
-        loop
+        loop="loop"
+        muted
         :src="video"
       />
     </div>
@@ -21,13 +22,14 @@
 import video from '@/assets/map.mp4'
 import anime from 'animejs'
 
+import { mapMutations, mapGetters } from 'vuex'
+
 export default {
   name: 'App',
 
   data () {
     return {
       video: video,
-      lasttime: null,
       isShow: true
     }
   },
@@ -65,21 +67,24 @@ export default {
       this.isShow = false
     })
     document.addEventListener('click', () => {
-      this.lasttime = new Date() - 0
+      this.setLastTime(new Date() - 0)
     })
     this.timer()
   },
 
   methods: {
+    ...mapMutations({
+      setLastTime: 'set_last_time'
+    }),
     timer () {
       setInterval(() => {
         if (!this.isShow) {
-          if (this.lasttime === null) {
-            this.lasttime = new Date() - 0
+          if (this.lastTime === null) {
+            this.setLastTime(new Date() - 0)
           }
           const now = new Date() - 0
 
-          if (now - this.lasttime > 1000 * 30) {
+          if (now - this.lastTime > 1000 * 60) {
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'
@@ -100,12 +105,17 @@ export default {
               //   duration: 300
               // }, 400)
 
-            this.lasttime = now
+            // this.lasttime = now
+            this.setLastTime(new Date() - 0)
             this.isShow = true
           }
         }
       }, 1000)
     }
+  },
+
+  computed: {
+    ...mapGetters(['lastTime'])
   }
 }
 </script>
