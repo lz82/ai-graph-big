@@ -2,7 +2,7 @@
   <div class="tag-cloud-wrapper">
     <canvas :width="containerWidth" :height="containerHeight" :id="guid">
         <ul id="taglist">
-          <li v-for="item in tags" :key="item.url">
+          <li v-for="(item, index) in tags" :key="index">
             <router-link
               :to="item.url"
             >
