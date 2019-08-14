@@ -64,7 +64,7 @@ export default {
 
   methods: {
     initTag () {
-      window.TagCanvas.initial = [0.01, this.direct === 'up' ? 0.02 : -0.02]
+      window.TagCanvas.initial = [0, this.direct === 'up' ? 0.02 : -0.02]
       window.TagCanvas.outlineColour = 'rgba(255, 255, 255,0.1)'
       window.TagCanvas.maxSpeed = 0.05
       window.TagCanvas.minSpeed = 0.02
@@ -80,8 +80,8 @@ export default {
       window.TagCanvas.outlineMethod = 'size'
       window.TagCanvas.outlineIncrease = 16
       window.TagCanvas.dragControl = true
-      window.TagCanvas.shape = 'sphere'
-      // window.TagCanvas.lock = 'x'
+      window.TagCanvas.shape = 'hring'
+      window.TagCanvas.lock = 'x'
       window.TagCanvas.offsetY = -60
       window.TagCanvas.Start(this.guid, this.taglist)
     },

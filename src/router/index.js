@@ -9,6 +9,8 @@ NProgress.configure({
 })
 
 const Homepage = () => import(/* webpackChunkName: "home" */ '@/views/home/index')
+const Category = () => import(/* webpackChunkName: "category" */ '@/views/category')
+const Graph = () => import(/* webpackChunkName: "graph" */ '@/views/graph')
 
 Vue.use(Router)
 
@@ -19,6 +21,16 @@ const router = new Router({
       path: '/',
       name: 'Homepage',
       component: Homepage
+    },
+    {
+      path: '/category',
+      name: 'Category',
+      component: Category
+    },
+    {
+      path: '/graph',
+      name: 'Graph',
+      component: Graph
     }
   ]
 })
