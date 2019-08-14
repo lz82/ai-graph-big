@@ -79,7 +79,7 @@ export default {
           }
           const now = new Date() - 0
 
-          if (now - this.lasttime > 1000 * 5) {
+          if (now - this.lasttime > 1000 * 30) {
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'

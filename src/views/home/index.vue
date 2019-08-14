@@ -176,27 +176,27 @@ export default {
         {
           // 成果奖项
           img: tagAward,
-          url: '/report/award'
+          url: '/category'
         },
         {
           // 科技企业
           img: tagEnterprise,
-          url: '/report/enterprise'
+          url: '/category'
         },
         {
           // 专家
           img: tagExpert,
-          url: '/report/expert'
+          url: '/category'
         },
         {
           // 投资机构
           img: tagInvest,
-          url: '/report/invest'
+          url: '/category'
         },
         {
           // 新闻头条
           img: tagNews,
-          url: '/report/news'
+          url: '/category'
         },
         {
           // 论文
@@ -206,22 +206,22 @@ export default {
         {
           // 专利
           img: tagPatent,
-          url: '/report/patent'
+          url: '/category'
         },
         {
           // 政策
           img: tagPolicy,
-          url: '/report/policy'
+          url: '/category'
         },
         {
           // 立项项目
           img: tagProject,
-          url: '/report/project'
+          url: '/category'
         },
         {
           // 标准
           img: tagTrade,
-          url: '/report/trade'
+          url: '/category'
         }
       ]
     }
@@ -261,7 +261,7 @@ export default {
     setTimeout(() => {
       this.showCloud = true
       this.initCloud()
-    }, 2000)
+    }, 4000)
   },
 
   methods: {
@@ -273,7 +273,8 @@ export default {
           value: [0, 1]
         },
         loop: false,
-        easing: 'linear',
+        // easing: 'linear',
+        easing: 'cubicBezier(.5, .05, .1, .3)',
         // scale: {
         //   value: [0.2, 1]
         // }
@@ -291,7 +292,8 @@ export default {
           value: [0, 1]
         },
         loop: false,
-        easing: 'linear',
+        // easing: 'linear',
+        easing: 'cubicBezier(.5, .05, .1, .3)',
         translateY: {
           value: [-20, 0]
         }
@@ -305,7 +307,8 @@ export default {
       anime.timeline({
         duration: 300,
         loop: false,
-        easing: 'linear'
+        // easing: 'linear'
+        easing: 'cubicBezier(.5, .05, .1, .3)'
       })
         .add({
           targets: '.map-wrapper',
@@ -327,7 +330,8 @@ export default {
             value: [0, 1]
           },
           loop: false,
-          easing: 'linear',
+          // easing: 'linear',
+          easing: 'cubicBezier(.5, .05, .1, .3)',
           translateY: {
             value: [46, 0]
           }
@@ -335,16 +339,58 @@ export default {
     },
 
     initCloud () {
-      anime({
-        targets: ['.cloud-left', '.cloud-right'],
-        scale: {
-          value: [0, 1]
-        },
-        opacity: {
-          value: [0, 1]
-        },
-        duration: 2000
+      // anime({
+      //   targets: ['.cloud-left', '.cloud-right'],
+      //   // scale: {
+      //   //   value: [0, 1]
+      //   // },
+      //   opacity: {
+      //     value: [0, 1]
+      //   },
+      //   easing: 'cubicBezier(.5, .05, .1, .3)',
+      //   duration: 2000
+      // })
+      anime.timeline({
+        easing: 'cubicBezier(.5, .05, .1, .3)'
       })
+        .add({
+          targets: '.cloud-left',
+          translateX: {
+            value: [0, 500]
+          }
+        })
+        .add({
+          targets: '.cloud-right',
+          translateX: {
+            value: [0, -400]
+          }
+        }, 0)
+        .add({
+          targets: '.cloud-left',
+          opacity: {
+            value: [0, 1]
+          },
+          scale: {
+            value: [0, 1]
+          },
+          translateX: {
+            value: [500, 0]
+          },
+          duration: 700
+        })
+        .add({
+          targets: '.cloud-right',
+          opacity: {
+            value: [0, 1]
+          },
+          scale: {
+            value: [0, 1]
+          },
+          translateX: {
+            value: [-400, 0]
+          },
+          duration: 700
+        }, '-=700')
     }
   }
 }
@@ -465,6 +511,7 @@ export default {
       top: 100px;
       left: 50px;
       z-index: 99;
+      opacity: 0;
     }
 
     .cloud-right {
@@ -472,6 +519,7 @@ export default {
       top: 100px;
       right: 50px;
       z-index: 99;
+      opacity: 0;
     }
   }
 </style>
