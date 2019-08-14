@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["graph"],{"38e3":function(a,n,t){"use strict";t.r(n);var e=function(){var a=this,n=a.$createElement,t=a._self._c||n;return t("div",{staticClass:"graph-wrapper"},[a._v("\n  this is graph page\n")])},r=[],c={name:"Graph",data:function(){return{}}},s=c,i=(t("c2c6"),t("2877")),p=Object(i["a"])(s,e,r,!1,null,"173331a6",null);n["default"]=p.exports},c2c6:function(a,n,t){"use strict";var e=t("faf1"),r=t.n(e);r.a},faf1:function(a,n,t){}}]);
+//# sourceMappingURL=graph.2ce0f102.js.map
