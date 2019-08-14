@@ -1,21 +1,263 @@
 <template>
   <div class="graph-wrapper">
     this is graph page
+    <div class="svg"></div>
   </div>
 </template>
 
 <script>
+import * as d3 from 'd3'
+import icon from './img/logo.png'
+import { graphApi } from '@/service'
+// import graphJson from './mock-data/graph.json';
 export default {
   name: 'Graph',
-
   data () {
-    return {}
+    return {
+      forceSimulation: null,
+      svg: null,
+      svgW: 840,
+      svgH: 800,
+      links: null,
+      nodes: null,
+      searchKey: '李飞飞'
+    }
+  },
+
+  mounted () {
+    this.initData()
+  },
+
+  methods: {
+    async getDta () {
+      try {
+        // let json = require('./mock-data/graph.json')
+        // console.log(json)
+        const data = await graphApi.QueryGraphInfoByKeyword(this.searchKey)
+        const temp = data.find(item => item.id === 'lff')
+        console.log(temp)
+        if (temp) {
+          this.nodes = temp.nodes
+          this.links = temp.links
+        }
+      } catch (error) {
+        this.$message.error(error.toString())
+      }
+    },
+
+    async initData () {
+      await this.getDta()
+      this.initSvgContainer()
+      this.initForceSimulation()
+      this.drawSvg()
+    },
+
+    initForceSimulation () {
+      const padding = {
+        top: 20,
+        right: 20,
+        bottom: 20,
+        left: 20
+      }
+
+      this.svg = d3.select('.svg')
+        .append('svg')
+        .attr('width', this.svgW)
+        .attr('height', this.svgH)
+        .append('g')
+        .attr('transform', `translate(${padding.top}, ${padding.left})`)
+    },
+
+    initSvgContainer () {
+      // 力导向图
+      this.forceSimulation = d3.forceSimulation()
+        .alpha(0.05) // 活力  渲染之后再自动动多久
+        .force('link', d3.forceLink().id(data => data.id).distance(data => {
+          return 150 * data.target.value
+        })) // 映射id & 线的长度
+        .force('charge', d3.forceManyBody())
+        .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
+        .force('collide', d3.forceCollide(d => {
+          // console.log(d);
+          if (d.name === '李飞飞') {
+            d.fx = this.svgW / 2 // 设置特定节点固定x坐标
+            d.fy = this.svgH / 2
+          }
+          return 80 * d.value + 5
+        }))
+    },
+
+    drawSvg () {
+      this.forceSimulation.nodes(this.nodes)
+        .on('tick', function (d) {
+          edges
+            .attr('x1', data => data.source.x)
+            .attr('y1', data => data.source.y)
+            .attr('x2', data => data.target.x)
+            .attr('y2', data => data.target.y)
+          gs.attr('transform', data => `translate(${data.x}, ${data.y})`)
+        })
+
+      this.forceSimulation.force('link')
+        .links(this.links)
+
+      // 绘制边
+      const edges = this.svg.append('g')
+        .selectAll('line')
+        .data(this.links)
+        .enter()
+        .append('line')
+        .attr('stroke', (data, index) => '#f1f1f1')
+        .attr('stroke-width', '2px')
+        .attr('target', data => data.target.name)
+        .attr('source', data => data.source.name)
+
+      const gs = this.svg.selectAll('.node')
+        .data(this.nodes)
+        .enter()
+        .append('g')
+        .attr('class', 'node')
+        .attr('name', (data) => data.name)
+        .attr('transform', (data, index) => `translate(${data.x}, ${data.y})`)
+        .call(d3.drag()
+          .on('start', this.started)
+          .on('drag', this.dragged)
+          .on('end', this.ended)
+        )
+
+      gs.append('circle')
+        .attr('class', 'circle-outer')
+        .attr('id', d => 'id-' + d.id)
+        .attr('r', data => {
+          return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
+        })
+        // .attr('fill', data => this.calcColor(data.type))
+        .attr('fill', '#071321')
+        .attr('stroke', '#6abdf3')
+        .attr('stroke-width', '4px')
+        .attr('style', 'cursor: pointer;')
+        .on('click', () => {
+          // this.jump2Detail()
+        })
+
+      gs.append('path')
+        .attr('class', 'circle-inner')
+        .attr('stroke', '#fff')
+        .attr('fill', '#071321')
+        .attr('stroke-dashoffset', '25px')
+        .attr('stroke-dasharray', '10px 2px')
+        .attr('stroke-width', '8px')
+        .attr('d', data => {
+          const id = `id-${data.id}`
+          let outerR = d3.select('#' + id).attr('r') // 外围圆半径***选择器不能数字开头***
+          let innerR = outerR - 8
+          let degree = data.index * 10 / 100 * 360
+          let radian = data.index > 9 ? 60 : degree * Math.PI / 180
+          let x = (Math.sin(radian) * innerR).toFixed(2)
+          let y = -(Math.cos(radian) * innerR).toFixed(2)
+          let lenghty = degree > 180 ? 1 : 0 // 大于180度时候画大角度弧，小于180度的画小角度弧
+          return `M 0 -${innerR} A ${innerR} ${innerR} 0 ${lenghty} 1 ${x} ${y}`
+        })
+
+      gs.append('text')
+        // .text(data => data.name)
+        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:12px')
+        .selectAll('tspan')
+        .data(d => d.name ? d.name.split(' ') : '')
+        .join('tspan')
+        .attr('fill', '#f1f1f1')
+        .attr('x', 0)
+        .attr('y', (d, i, nodes) => {
+          if (nodes) {
+            return `${i - nodes.length / 2 + 0.8}em`
+          } else {
+            return `0em`
+          }
+        })
+        .text(data => data)
+        .on('click', () => {
+          this.jump2Detail()
+        })
+
+      gs.append('image')
+        .attr('href', icon)
+        .attr('width', '20px')
+        .attr('height', '20px')
+      // .attr('preserveAspectRatio','none')
+        .attr('x', '-10')
+        .attr('y', '12')
+    },
+
+    started (d) {
+      if (!d3.event.active) {
+        this.forceSimulation.alphaTarget(0.1).restart()
+      }
+      d3.event.sourceEvent.stopPropagation()
+      d.fx = d.x
+      d.fy = d.y
+    },
+
+    dragged (d) {
+      d.fx = d3.event.x
+      d.fy = d3.event.y
+    },
+
+    ended (d) {
+      if (!d3.event.active) {
+        this.forceSimulation.alphaTarget(0)
+      }
+      d.fx = null
+      d.fy = null
+    },
+
+    jump2Detail () {
+      // this.$router.push(`/graph/${this.$route.params.searchKey}`)
+      this.$router.push({
+        path: `/graph/${this.nodeId}`,
+        query: {
+          keyword: this.keyword
+        }
+      })
+    },
+
+    calcColor (type) {
+      switch (type) {
+        case 'scholar':
+          return '#a5dcff'
+        case 'keyword':
+          return '#9effd7'
+        case 'affiliation':
+          return '#ffd7b3'
+        default:
+          return '#a5dcff'
+      }
+    }
+  },
+
+  watch: {
+    nodes () {
+      this.$nextTick(() => {
+        // document.querySelector('svg').remove()
+        // this.initData()
+      })
+    }
+  },
+
+  computed: {
+    nodeId () {
+      return this.links[0].source.id
+    }
   }
 }
 </script>
 
 <style lang="less" scoped>
   .graph-wrapper {
+    border-radius: 5px;
+    width: 100%;
+    background: #071321;
     display: flex;
+    justify-content: flex-start;
+    touch-action: none;
   }
 </style>
