@@ -79,9 +79,9 @@ export default {
         centeredSlides: true,
         slidesPerView: 'auto',
         speed: 500,
-        // slideToClickedSlide: true,
+        slideToClickedSlide: true,
         autoplay: {
-          delay: 1000,
+          delay: 3000,
           disableOnInteraction: false
         },
         loop: true,
