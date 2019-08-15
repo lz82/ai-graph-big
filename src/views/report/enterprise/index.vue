@@ -11,7 +11,11 @@
               :num="0.28"
             />
           </div>
-          <div class="right"></div>
+          <div class="right">
+            <report-line
+              title="AI企业占比"
+            />
+          </div>
         </div>
       </Card>
 
@@ -63,6 +67,7 @@
 import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import Liquidfill from '@/components/liquidfill'
+import ReportLine from '@/components/report-line'
 
 import Card from './card'
 
@@ -73,7 +78,8 @@ export default {
     PageHeader,
     BtnGroup,
     Card,
-    Liquidfill
+    Liquidfill,
+    ReportLine
   }
 }
 </script>
@@ -102,11 +108,13 @@ export default {
         .left {
           background: rgba(75, 111, 244, 0.2);
           flex: 0 0 140px;
+          height: 100%;
         }
 
         .right {
           background: rgba(75, 111, 244, 0.2);
           flex: 0 0 255px;
+          height: 100%;
         }
       }
     }
