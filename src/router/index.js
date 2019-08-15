@@ -20,17 +20,26 @@ const router = new Router({
     {
       path: '/',
       name: 'Homepage',
-      component: Homepage
+      component: Homepage,
+      meta: {
+        path: 'home'
+      }
     },
     {
       path: '/category',
       name: 'Category',
-      component: Category
+      component: Category,
+      meta: {
+        path: 'home-catetory'
+      }
     },
     {
       path: '/graph',
       name: 'Graph',
-      component: Graph
+      component: Graph,
+      meta: {
+        path: 'home-serch-graph'
+      }
     }
   ]
 })

@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <router-view/>
+    <transition :name="transitionName">
+      <router-view
+        class="router-view"
+      />
+    </transition>
     <div
       id="mask"
       class="mask"
@@ -30,7 +34,8 @@ export default {
   data () {
     return {
       video: video,
-      isShow: true
+      isShow: true,
+      transitionName: ''
     }
   },
 
@@ -118,6 +123,16 @@ export default {
 
   computed: {
     ...mapGetters(['lastTime'])
+  },
+
+  watch: {
+    $route (to, from) {
+      if (to.meta.path.includes(from.meta.path)) {
+        this.transitionName = 'slide-right'
+      } else {
+        this.transitionName = 'slide-left'
+      }
+    }
   }
 }
 </script>
@@ -144,6 +159,17 @@ export default {
      .video {
        z-index: 998;
     }
+   }
+
+   .router-view {
+     width: 1920px;
+     height: 1080px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     overflow: hidden;
    }
  }
 </style>

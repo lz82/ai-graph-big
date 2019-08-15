@@ -72,8 +72,8 @@ export default {
     initTag () {
       window.TagCanvas.initial = [0, 0.02]
       window.TagCanvas.outlineColour = 'rgba(255, 255, 255,0.1)'
-      window.TagCanvas.maxSpeed = 0.05
-      window.TagCanvas.minSpeed = 0.02
+      window.TagCanvas.maxSpeed = 0.03
+      window.TagCanvas.minSpeed = 0.01
       window.TagCanvas.wheelZoom = false
       window.TagCanvas.outlineRadius = 40
       window.TagCanvas.imageMode = 'image'
