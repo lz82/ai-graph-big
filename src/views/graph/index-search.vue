@@ -1,4 +1,3 @@
-
 <template>
   <div class="graph-wrapper">
     <div class="svg"></div>
@@ -7,7 +6,7 @@
 
 <script>
 import * as d3 from 'd3'
-import icon from './img/boshimao.png'
+import icon from './img/logo.png'
 import { graphApi } from '@/service'
 export default {
   name: 'Graph',
@@ -15,13 +14,11 @@ export default {
     return {
       forceSimulation: null,
       svg: null,
-      svgW: 1766,
-      svgH: 1000,
+      svgW: 840,
+      svgH: 800,
       links: null,
       nodes: null,
-      searchKey: '李飞飞',
-      alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -300 // 万有引力
+      searchKey: '李飞飞'
     }
   },
 
@@ -64,8 +61,6 @@ export default {
         .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
-        // .alphaDecay(this.alphaDecay)
-        // .size([1766, 1000])
     },
 
     initSvgContainer () {
@@ -75,7 +70,7 @@ export default {
         .force('link', d3.forceLink().id(data => data.id).distance(data => {
           return 150 * data.target.value
         })) // 映射id & 线的长度
-        .force('charge', d3.forceManyBody().strength(this.chargeStrength))
+        .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
           // console.log(d);
@@ -83,7 +78,7 @@ export default {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 70 * d.value + 5
+          return 80 * d.value + 5
         }))
     },
 
@@ -131,6 +126,7 @@ export default {
         .attr('r', data => {
           return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
         })
+        // .attr('fill', data => this.calcColor(data.type))
         .attr('fill', '#071321')
         .attr('stroke', '#6abdf3')
         .attr('stroke-width', '4px')
@@ -159,6 +155,7 @@ export default {
         })
 
       gs.append('text')
+        // .text(data => data.name)
         .attr('style', 'cursor: pointer; text-anchor: middle;font-size:12px')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
@@ -167,7 +164,7 @@ export default {
         .attr('x', 0)
         .attr('y', (d, i, nodes) => {
           if (nodes) {
-            return `${i - nodes.length / 2 + 1.5}em`
+            return `${i - nodes.length / 2 + 0.8}em`
           } else {
             return `0em`
           }
@@ -181,8 +178,9 @@ export default {
         .attr('href', icon)
         .attr('width', '20px')
         .attr('height', '20px')
+      // .attr('preserveAspectRatio','none')
         .attr('x', '-10')
-        .attr('y', '-25')
+        .attr('y', '12')
     },
 
     started (d) {
@@ -257,9 +255,5 @@ export default {
     justify-content: center;
     align-items: center;
     touch-action: none;
-  }
-  .vue{
-    width: 100%;
-    height: 100%;
   }
 </style>
