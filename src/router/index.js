@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import Search from './modules/search'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
@@ -31,7 +31,8 @@ const router = new Router({
       path: '/graph',
       name: 'Graph',
       component: Graph
-    }
+    },
+    Search
   ]
 })
 
