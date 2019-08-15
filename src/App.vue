@@ -65,7 +65,8 @@ export default {
           }
         })
       this.isShow = false
-      this.$router.push('/')
+      // 开发期间先注释
+      // this.$router.push('/')
     })
     document.addEventListener('click', () => {
       this.setLastTime(new Date() - 0)

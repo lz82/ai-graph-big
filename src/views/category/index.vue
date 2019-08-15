@@ -6,14 +6,20 @@
         class="title"
       />
       <div class="btn">
-        <span>返回</span>
-        <span>回到首页</span>
+        <span @click="onBackClick">返回</span>
+        <span @click="onHomeClick">回到首页</span>
       </div>
     </header>
     <div class="content">
        <swiper :options="swiperOption">
         <swiper-slide v-for="item in cardList" :key="item.id">
-          <img :src="item.pic" alt="" width="450" height="669">
+          <img
+            :src="item.pic"
+            alt=""
+            width="450"
+            height="669"
+            @click="onPicClick(item.url)"
+          />
         </swiper-slide>
         <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
           <span class="swiper-pagination-bullet" style="background: #fff;"></span>
@@ -32,6 +38,8 @@ import 'swiper/dist/css/swiper.css'
 
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
+import { mapMutations } from 'vuex'
+
 import card1 from './img/card.png'
 
 export default {
@@ -48,15 +56,18 @@ export default {
       cardList: [
         {
           id: 1,
-          pic: card1
+          pic: card1,
+          url: '/report/1'
         },
         {
           id: 2,
-          pic: card1
+          pic: card1,
+          url: '/report/2'
         },
         {
           id: 3,
-          pic: card1
+          pic: card1,
+          url: '/report/3'
         }
       ],
       swiperOption: {
@@ -64,6 +75,7 @@ export default {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
+        speed: 500,
         // slideToClickedSlide: true,
         autoplay: {
           delay: 3000
@@ -83,8 +95,33 @@ export default {
           renderBullet (index, className) {
             return `<span class="${className} swiper-pagination-bullet-custom"></span>`
           }
+        },
+        on: {
+          touchStart: () => {
+            console.log('touch...')
+            this.setLastTime(new Date() - 0)
+          }
         }
       }
+    }
+  },
+
+  methods: {
+    ...mapMutations({
+      setLastTime: 'set_last_time'
+    }),
+
+    onPicClick (url) {
+      console.log(url)
+      this.$router.push(url)
+    },
+
+    onBackClick () {
+      this.$router.go(-1)
+    },
+
+    onHomeClick () {
+      this.$router.push('/')
     }
   }
 }
