@@ -11,8 +11,14 @@
       </div>
     </header>
     <div class="content">
-       <swiper :options="swiperOption">
-        <swiper-slide v-for="item in cardList" :key="item.id">
+       <swiper
+        ref="swiper"
+        :options="swiperOption"
+      >
+        <swiper-slide
+          v-for="item in cardList"
+          :key="item.id"
+        >
           <img
             :src="item.pic"
             alt=""
@@ -22,9 +28,6 @@
           />
         </swiper-slide>
         <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
         </div>
       </swiper>
     </div>
@@ -78,7 +81,8 @@ export default {
         speed: 500,
         // slideToClickedSlide: true,
         autoplay: {
-          delay: 3000
+          delay: 1000,
+          disableOnInteraction: false
         },
         loop: true,
         initialSlide: 1,
@@ -98,7 +102,6 @@ export default {
         },
         on: {
           touchStart: () => {
-            console.log('touch...')
             this.setLastTime(new Date() - 0)
           }
         }
@@ -122,6 +125,12 @@ export default {
 
     onHomeClick () {
       this.$router.push('/')
+    }
+  },
+
+  computed: {
+    swiper () {
+      return this.$refs.swiper.swiper
     }
   }
 }
