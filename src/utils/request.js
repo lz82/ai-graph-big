@@ -7,7 +7,7 @@ let sources = []
 
 export function AppPost (url, data) {
   return new Promise((resolve, reject) => {
-    instance.post(url, data,
+    instance.get(url, data,
       {
         // 取消请求
         cancelToken: new CancelToken(function executor (c) {
