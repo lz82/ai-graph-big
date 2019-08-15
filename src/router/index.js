@@ -12,6 +12,8 @@ const Homepage = () => import(/* webpackChunkName: "home" */ '@/views/home/index
 const Category = () => import(/* webpackChunkName: "category" */ '@/views/category')
 const Graph = () => import(/* webpackChunkName: "graph" */ '@/views/graph')
 
+const ReportEnterprise = () => import(/* webpackChunkName: "reportenterprise" */ '@/views/report/enterprise')
+
 Vue.use(Router)
 
 const router = new Router({
@@ -39,6 +41,14 @@ const router = new Router({
       component: Graph,
       meta: {
         path: 'home-serch-graph'
+      }
+    },
+    {
+      path: '/report/enterprise',
+      name: 'ReportEnterprise',
+      component: ReportEnterprise,
+      meta: {
+        path: 'home-category-report'
       }
     }
   ]

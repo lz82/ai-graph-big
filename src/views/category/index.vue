@@ -6,8 +6,7 @@
         class="title"
       />
       <div class="btn">
-        <span @click="onBackClick">返回</span>
-        <span @click="onHomeClick">回到首页</span>
+        <btn-group />
       </div>
     </header>
     <div class="content">
@@ -36,6 +35,7 @@
 
 <script>
 import PageHeader from '@/components/page-header'
+import BtnGroup from '@/components/btn-group'
 
 import 'swiper/dist/css/swiper.css'
 
@@ -50,6 +50,7 @@ export default {
 
   components: {
     PageHeader,
+    BtnGroup,
     swiper,
     swiperSlide
   },
@@ -60,7 +61,7 @@ export default {
         {
           id: 1,
           pic: card1,
-          url: '/report/1'
+          url: '/report/enterprise'
         },
         {
           id: 2,
@@ -156,26 +157,9 @@ export default {
       }
 
       .btn {
-        height: 80px;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
         position: absolute;
         left: 1425px;
         top: 15px;
-        color: #fff;
-        font-size: 16px;
-        span {
-          margin-right: 15px;
-          background: #2e4391;
-          border-radius: 10px;
-          width: 220px;
-          height: 50px;
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: center;
-          align-items: center;
-        }
       }
     }
 
