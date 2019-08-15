@@ -15,7 +15,11 @@
         <swiper-slide v-for="item in cardList" :key="item.id">
           <img :src="item.pic" alt="" width="450" height="669">
         </swiper-slide>
-        <div class="swiper-pagination" slot="pagination"></div>
+        <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
+          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
+          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
+          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
+        </div>
       </swiper>
     </div>
   </div>
@@ -24,13 +28,19 @@
 <script>
 import PageHeader from '@/components/page-header'
 
+import 'swiper/dist/css/swiper.css'
+
+import { swiper, swiperSlide } from 'vue-awesome-swiper'
+
 import card1 from './img/card.png'
 
 export default {
   name: 'Category',
 
   components: {
-    PageHeader
+    PageHeader,
+    swiper,
+    swiperSlide
   },
 
   data () {
@@ -47,10 +57,6 @@ export default {
         {
           id: 3,
           pic: card1
-        },
-        {
-          id: 4,
-          pic: card1
         }
       ],
       swiperOption: {
@@ -58,6 +64,12 @@ export default {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
+        // slideToClickedSlide: true,
+        autoplay: {
+          delay: 3000
+        },
+        loop: true,
+        initialSlide: 1,
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
@@ -66,7 +78,11 @@ export default {
           slideShadows: true
         },
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
+          clickable: true,
+          renderBullet (index, className) {
+            return `<span class="${className} swiper-pagination-bullet-custom"></span>`
+          }
         }
       }
     }
@@ -118,22 +134,35 @@ export default {
     }
 
     .content {
-      padding: 200px;
+      padding: 150px;
     }
   }
 </style>
 
 <style>
-.swiper-inner {
+/* .swiper-inner {
     width: 100%;
     height: 700px;
     padding-top: 60px;
     padding-bottom: 60px;
+  } */
+  .swiper-wrapper {
+    padding: 40px 0;
   }
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 450px;
-    height: 770px;
+    height: 720px;
+  }
+  .swiper-pagination-bullet-custom {
+    width: 60px;
+    height: 10px;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 20px !important;
+  }
+  .swiper-pagination-bullet-custom.swiper-pagination-bullet-active {
+    background: #4b6ff4;
   }
 </style>

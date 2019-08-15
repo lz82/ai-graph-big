@@ -65,6 +65,7 @@ export default {
           }
         })
       this.isShow = false
+      this.$router.push('/')
     })
     document.addEventListener('click', () => {
       this.setLastTime(new Date() - 0)
@@ -84,7 +85,7 @@ export default {
           }
           const now = new Date() - 0
 
-          if (now - this.lastTime > 1000 * 60) {
+          if (now - this.lastTime > 1000 * 60 * 30) {
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'
