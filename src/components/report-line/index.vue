@@ -60,7 +60,7 @@ export default {
         },
         grid: {
           top: '20px',
-          right: '10px',
+          right: '20px',
           bottom: '30px',
           left: '40px'
         }
