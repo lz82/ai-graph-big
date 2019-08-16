@@ -6,19 +6,27 @@
         class="title"
       />
       <div class="btn">
-        <span>返回</span>
-        <span>回到首页</span>
+        <btn-group />
       </div>
     </header>
     <div class="content">
-       <swiper :options="swiperOption">
-        <swiper-slide v-for="item in cardList" :key="item.id">
-          <img :src="item.pic" alt="" width="450" height="669">
+       <swiper
+        ref="swiper"
+        :options="swiperOption"
+      >
+        <swiper-slide
+          v-for="item in cardList"
+          :key="item.id"
+        >
+          <img
+            :src="item.pic"
+            alt=""
+            width="450"
+            height="669"
+            @click="onPicClick(item.url)"
+          />
         </swiper-slide>
         <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
-          <span class="swiper-pagination-bullet" style="background: #fff;"></span>
         </div>
       </swiper>
     </div>
@@ -27,10 +35,13 @@
 
 <script>
 import PageHeader from '@/components/page-header'
+import BtnGroup from '@/components/btn-group'
 
 import 'swiper/dist/css/swiper.css'
 
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
+
+import { mapMutations } from 'vuex'
 
 import card1 from './img/card.png'
 
@@ -39,6 +50,7 @@ export default {
 
   components: {
     PageHeader,
+    BtnGroup,
     swiper,
     swiperSlide
   },
@@ -48,15 +60,18 @@ export default {
       cardList: [
         {
           id: 1,
-          pic: card1
+          pic: card1,
+          url: '/report/enterprise'
         },
         {
           id: 2,
-          pic: card1
+          pic: card1,
+          url: '/report/2'
         },
         {
           id: 3,
-          pic: card1
+          pic: card1,
+          url: '/report/3'
         }
       ],
       swiperOption: {
@@ -64,9 +79,11 @@ export default {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
-        // slideToClickedSlide: true,
+        speed: 500,
+        slideToClickedSlide: true,
         autoplay: {
-          delay: 3000
+          delay: 3000,
+          disableOnInteraction: false
         },
         loop: true,
         initialSlide: 1,
@@ -83,8 +100,38 @@ export default {
           renderBullet (index, className) {
             return `<span class="${className} swiper-pagination-bullet-custom"></span>`
           }
+        },
+        on: {
+          touchStart: () => {
+            this.setLastTime(new Date() - 0)
+          }
         }
       }
+    }
+  },
+
+  methods: {
+    ...mapMutations({
+      setLastTime: 'set_last_time'
+    }),
+
+    onPicClick (url) {
+      console.log(url)
+      this.$router.push(url)
+    },
+
+    onBackClick () {
+      this.$router.go(-1)
+    },
+
+    onHomeClick () {
+      this.$router.push('/')
+    }
+  },
+
+  computed: {
+    swiper () {
+      return this.$refs.swiper.swiper
     }
   }
 }
@@ -110,26 +157,9 @@ export default {
       }
 
       .btn {
-        height: 80px;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
         position: absolute;
         left: 1425px;
         top: 15px;
-        color: #fff;
-        font-size: 16px;
-        span {
-          margin-right: 15px;
-          background: #2e4391;
-          border-radius: 10px;
-          width: 220px;
-          height: 50px;
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: center;
-          align-items: center;
-        }
       }
     }
 

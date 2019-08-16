@@ -13,6 +13,8 @@ const Category = () => import(/* webpackChunkName: "category" */ '@/views/catego
 const Graph = () => import(/* webpackChunkName: "graph" */ '@/views/graph')
 const Search = () => import(/* webpackChunkName: "search" */ '@/views/search-result')
 
+const ReportEnterprise = () => import(/* webpackChunkName: "reportenterprise" */ '@/views/report/enterprise')
+
 Vue.use(Router)
 
 const router = new Router({
@@ -21,12 +23,18 @@ const router = new Router({
     {
       path: '/',
       name: 'Homepage',
-      component: Homepage
+      component: Homepage,
+      meta: {
+        path: 'home'
+      }
     },
     {
       path: '/category',
       name: 'Category',
-      component: Category
+      component: Category,
+      meta: {
+        path: 'home-catetory'
+      }
     },
     {
       path: '/graph',
@@ -37,7 +45,18 @@ const router = new Router({
     {
       path: '/search/:searchKey?',
       name: 'Search',
-      component: Search
+      component: Search,
+      meta: {
+        path: 'home-serch-graph'
+      }
+    },
+    {
+      path: '/report/enterprise',
+      name: 'ReportEnterprise',
+      component: ReportEnterprise,
+      meta: {
+        path: 'home-category-report'
+      }
     }
   ]
 })

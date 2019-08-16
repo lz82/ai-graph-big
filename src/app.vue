@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-    <router-view/>
+    <transition :name="transitionName">
+      <router-view
+        class="router-view"
+      />
+    </transition>
     <div
       id="mask"
       class="mask"
     >
       <video
+        id="video"
         class="video"
         autoplay="autoplay"
         height="1080"
@@ -30,7 +35,8 @@ export default {
   data () {
     return {
       video: video,
-      isShow: true
+      isShow: true,
+      transitionName: ''
     }
   },
 
@@ -44,10 +50,10 @@ export default {
       //   },
       //   duration: 1000
       // })
-
+      document.getElementById('video').pause()
       anime.timeline({
         targets: '.mask',
-        easing: 'cubicBezier(.5, .05, .1, .3)'
+        easing: 'linear'
       })
         // .add({
         //   borderRadius: ['0%', '50%'],
@@ -65,7 +71,8 @@ export default {
           }
         })
       this.isShow = false
-      this.$router.push('/')
+      // 开发期间先注释
+      // this.$router.push('/')
     })
     document.addEventListener('click', () => {
       this.setLastTime(new Date() - 0)
@@ -86,6 +93,7 @@ export default {
           const now = new Date() - 0
 
           if (now - this.lastTime > 1000 * 60 * 30) {
+            document.getElementById('video').play()
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'
@@ -117,6 +125,16 @@ export default {
 
   computed: {
     ...mapGetters(['lastTime'])
+  },
+
+  watch: {
+    $route (to, from) {
+      if (to.meta.path.includes(from.meta.path)) {
+        this.transitionName = 'slide-right'
+      } else {
+        this.transitionName = 'slide-left'
+      }
+    }
   }
 }
 </script>
@@ -143,6 +161,17 @@ export default {
      .video {
        z-index: 998;
     }
+   }
+
+   .router-view {
+     width: 1920px;
+     height: 1080px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     overflow: hidden;
    }
  }
 </style>

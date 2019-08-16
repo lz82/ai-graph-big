@@ -6,8 +6,14 @@
     <div class="title">
       <img :src="title" alt="">
     </div>
-    <div class="map-wrapper">
-        <img id="map" :src="map" alt="">
+    <div class="map-wrapper"
+      @click="onMapClick"
+    >
+        <img
+          id="map"
+          :src="map"
+          alt=""
+        >
 
         <Count
           :num="123999"
@@ -391,6 +397,10 @@ export default {
           },
           duration: 700
         }, '-=700')
+    },
+
+    onMapClick () {
+      this.$router.push('/category')
     }
   }
 }
@@ -406,6 +416,7 @@ export default {
 
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
     .logo {
       text-align: center;
       padding-top: 80px;
@@ -421,7 +432,7 @@ export default {
     .map-wrapper {
       box-sizing: border-box;
       padding-top: 10px;
-      width: 100%;
+      width: 1023px;
       height: 602px;
       background: url('./img/map-shadow.png') center 335px no-repeat fixed;
       text-align: center;
