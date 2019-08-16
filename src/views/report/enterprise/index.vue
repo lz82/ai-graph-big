@@ -70,6 +70,9 @@
         <page-header
           title="人工智能企业"
         />
+        <div class="map">
+          <ReportMap />
+        </div>
       </div>
     </div>
     <div class="right-wrapper">
@@ -85,6 +88,7 @@ import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import Liquidfill from '@/components/liquidfill'
 import ReportLine from '@/components/report-line'
+import ReportMap from '@/components/report-map'
 
 import Card from './card'
 
@@ -96,7 +100,8 @@ export default {
     BtnGroup,
     Card,
     Liquidfill,
-    ReportLine
+    ReportLine,
+    ReportMap
   }
 }
 </script>
