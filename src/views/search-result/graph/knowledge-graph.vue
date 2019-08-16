@@ -124,7 +124,7 @@ export default {
         .attr('class', 'circle-outer')
         .attr('id', d => 'id-' + d.id)
         .attr('r', data => {
-          return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
+          return data.name === '李飞飞' ? 80 : 60 + Math.random() * 10
         })
         // .attr('fill', data => this.calcColor(data.type))
         .attr('fill', '#071321')

@@ -15,8 +15,8 @@ export default {
     return {
       forceSimulation: null,
       svg: null,
-      svgW: 1766,
-      svgH: 1000,
+      svgW: 890,
+      svgH: 890,
       links: null,
       nodes: null,
       searchKey: '李飞飞',
@@ -71,9 +71,9 @@ export default {
     initSvgContainer () {
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
-        .alpha(0.07) // 活力  渲染之后再自动动多久
+        .alpha(0.05) // 活力  渲染之后再自动动多久
         .force('link', d3.forceLink().id(data => data.id).distance(data => {
-          return 170 * data.target.value
+          return 150 * data.target.value
         })) // 映射id & 线的长度
         .force('charge', d3.forceManyBody().strength(this.chargeStrength))
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
@@ -83,7 +83,7 @@ export default {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 80 * d.value + 5
+          return 70 * d.value + 5
         }))
     },
 
@@ -129,7 +129,7 @@ export default {
         .attr('class', 'circle-outer')
         .attr('id', d => 'id-' + d.id)
         .attr('r', data => {
-          return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
+          return data.name === '李飞飞' ? 80 : 60 + Math.random() * 10
         })
         .attr('fill', '#071321')
         .attr('stroke', '#6abdf3')
@@ -252,7 +252,7 @@ export default {
   .graph-wrapper {
     width: 100%;
     height: 100%;
-    background: #071321;
+    // background: #071321;
     display: flex;
     justify-content: center;
     align-items: center;

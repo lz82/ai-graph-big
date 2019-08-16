@@ -1,4 +1,3 @@
-
 <template>
   <div class="graph-wrapper">
     <div class="svg"></div>
@@ -7,7 +6,7 @@
 
 <script>
 import * as d3 from 'd3'
-import icon from './img/boshimao.png'
+// import icon from './img/boshimao.png'
 import { graphApi } from '@/service'
 export default {
   name: 'Graph',
@@ -15,13 +14,11 @@ export default {
     return {
       forceSimulation: null,
       svg: null,
-      svgW: 1766,
-      svgH: 1000,
+      svgW: 840,
+      svgH: 800,
       links: null,
       nodes: null,
-      searchKey: '李飞飞',
-      alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -300 // 万有引力
+      searchKey: '李飞飞'
     }
   },
 
@@ -64,18 +61,16 @@ export default {
         .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
-        // .alphaDecay(this.alphaDecay)
-        // .size([1766, 1000])
     },
 
     initSvgContainer () {
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
-        .alpha(0.07) // 活力  渲染之后再自动动多久
+        .alpha(0.05) // 活力  渲染之后再自动动多久
         .force('link', d3.forceLink().id(data => data.id).distance(data => {
-          return 170 * data.target.value
+          return 160 * data.target.value
         })) // 映射id & 线的长度
-        .force('charge', d3.forceManyBody().strength(this.chargeStrength))
+        .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
           // console.log(d);
@@ -83,7 +78,7 @@ export default {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 80 * d.value + 5
+          return 100 * d.value + 5
         }))
     },
 
@@ -129,20 +124,21 @@ export default {
         .attr('class', 'circle-outer')
         .attr('id', d => 'id-' + d.id)
         .attr('r', data => {
-          return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
+          return data.name === '李飞飞' ? 75 : 60 + Math.random() * 10
         })
-        .attr('fill', '#071321')
+        // .attr('fill', data => this.calcColor(data.type))
+        .attr('fill', '#10172d')
         .attr('stroke', '#6abdf3')
         .attr('stroke-width', '4px')
         .attr('style', 'cursor: pointer;')
         .on('click', () => {
-          // this.jump2Detail()
+          this.jump2Detail()
         })
 
       gs.append('path')
         .attr('class', 'circle-inner')
         .attr('stroke', '#fff')
-        .attr('fill', '#071321')
+        .attr('fill', 'rgba(0,0,0,0)')
         .attr('stroke-dashoffset', '25px')
         .attr('stroke-dasharray', '10px 2px')
         .attr('stroke-width', '8px')
@@ -159,7 +155,8 @@ export default {
         })
 
       gs.append('text')
-        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:12px')
+        // .text(data => data.name)
+        .attr('style', 'cursor: pointer; text-anchor: middle;')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')
@@ -167,7 +164,7 @@ export default {
         .attr('x', 0)
         .attr('y', (d, i, nodes) => {
           if (nodes) {
-            return `${i - nodes.length / 2 + 1.5}em`
+            return `${i - nodes.length / 2 + 0.8}em`
           } else {
             return `0em`
           }
@@ -178,11 +175,12 @@ export default {
         })
 
       gs.append('image')
-        .attr('href', icon)
+        // .attr('href', icon)
         .attr('width', '20px')
         .attr('height', '20px')
+      // .attr('preserveAspectRatio','none')
         .attr('x', '-10')
-        .attr('y', '-25')
+        .attr('y', '12')
     },
 
     started (d) {
@@ -210,7 +208,8 @@ export default {
     jump2Detail () {
       // this.$router.push(`/graph/${this.$route.params.searchKey}`)
       this.$router.push({
-        path: `/graph/${this.nodeId}`,
+        // path: `/graph/${this.nodeId}`,
+        path: `/graph`,
         query: {
           keyword: this.keyword
         }
@@ -252,14 +251,10 @@ export default {
   .graph-wrapper {
     width: 100%;
     height: 100%;
-    background: #071321;
+    // background: #071321;
     display: flex;
     justify-content: center;
     align-items: center;
     touch-action: none;
-  }
-  .vue{
-    width: 100%;
-    height: 100%;
   }
 </style>

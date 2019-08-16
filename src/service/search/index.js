@@ -17,7 +17,7 @@ export function QueryGraphByKeyword (keyword, type) {
 
 // 根据关键词获取论文信息
 export function QueryPaperByKeyword (keyword, type) {
-  return AppPost('/search/paper', {
+  return AppPost('/mock-data/paper-list.json', {
     keyword,
     type
   })

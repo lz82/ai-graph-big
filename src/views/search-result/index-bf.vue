@@ -4,7 +4,7 @@
         <h2 class='comm-title'>{{title}}信息</h2>
         <div class="wiki-wraper">
           <div class="wiki-info">
-            <img src="./img/expert.jpg">
+            <!-- <img src="./img/expert.jpg"> -->
             <div class="expert-intro">
               <h4>李飞飞</h4>
               <p>Stanford University</p>
@@ -101,10 +101,11 @@
       <div class="main-wrap">
         <header>
             <page-header
-              title="知识图谱"
+              title="知识图谱xx"
               class="title"
             />
           </header>
+          <know-graph></know-graph>
       </div>
       <div class="side-right">
         <div class="btn">
@@ -117,21 +118,21 @@
             <h2 class="comm-title">同领域专家</h2>
             <ul>
               <li>
-                <img src='./img/expert.jpg'>
+                <!-- <img src='./img/expert.jpg'> -->
                 <div class="expert-info">
                   <h3>陶大程</h3>
                   <span>National University of Singapore</span>
                 </div>
               </li>
               <li>
-                <img src='./img/expert.jpg'>
+                <!-- <img src='./img/expert.jpg'> -->
                 <div class="expert-info">
                   <h3>陶大程</h3>
                   <span>National University of Singapore</span>
                 </div>
               </li>
               <li>
-                <img src='./img/expert.jpg'>
+                <!-- <img src='./img/expert.jpg'> -->
                 <div class="expert-info">
                   <h3>陶大程</h3>
                   <span>National University of Singapore</span>
@@ -163,12 +164,12 @@
 
 <script>
 import PageHeader from '@/components/page-header'
-// import resultAll from './views/search-result/result-all';
+import KnowGraph from './graph'
 export default {
-  name: 'SearchLayout',
+  name: 'SearchResult',
   components: {
-    PageHeader
-    // resultAll
+    PageHeader,
+    KnowGraph
   },
   data () {
     return {
@@ -227,7 +228,8 @@ export default {
   position: relative;
   width: 1920px;
   height: 1080px;
-  background: url('./img/bg.png') center no-repeat fixed;
+  // background: url('~@/../img/bg.png') center no-repeat fixed;
+  background-color: #10172d;
   background-size: cover;
   display: flex;
   padding: 50px 55px;
@@ -414,13 +416,15 @@ export default {
     }
   }
   .main-wrap{
+    max-width: 910px;
     flex: 0 0 910px;
     text-align: center;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
     header {
-      position: relative;
-
+      display: flex;
+      justify-content: center;
       .title {
         // position: absolute;
         // left: 535px;

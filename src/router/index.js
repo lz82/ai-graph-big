@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Search from './modules/search'
+import Search1 from './modules/search'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
@@ -11,6 +11,7 @@ NProgress.configure({
 const Homepage = () => import(/* webpackChunkName: "home" */ '@/views/home/index')
 const Category = () => import(/* webpackChunkName: "category" */ '@/views/category')
 const Graph = () => import(/* webpackChunkName: "graph" */ '@/views/graph')
+const Search = () => import(/* webpackChunkName: "search" */ '@/views/search-result')
 
 Vue.use(Router)
 
@@ -32,7 +33,12 @@ const router = new Router({
       name: 'Graph',
       component: Graph
     },
-    Search
+    Search1,
+    {
+      path: '/search/:searchKey?',
+      name: 'Search',
+      component: Search
+    }
   ]
 })
 
