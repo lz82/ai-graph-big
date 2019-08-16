@@ -46,7 +46,8 @@ export default {
             rich: {
               a: {
                 color: '#fff',
-                fontSize: 16
+                fontSize: 16,
+                padding: [-10, 0, 0, 3]
               },
               b: {
                 color: '#fff',
