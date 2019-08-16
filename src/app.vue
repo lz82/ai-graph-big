@@ -52,7 +52,7 @@ export default {
 
       anime.timeline({
         targets: '.mask',
-        easing: 'cubicBezier(.5, .05, .1, .3)'
+        easing: 'liner'
       })
         // .add({
         //   borderRadius: ['0%', '50%'],
