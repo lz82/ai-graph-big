@@ -71,7 +71,9 @@
           title="人工智能企业"
         />
         <div class="map">
-          <ReportMap />
+          <ReportMap
+            title="人工智能企业TOP 10"
+          />
         </div>
       </div>
     </div>
