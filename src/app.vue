@@ -10,6 +10,7 @@
       class="mask"
     >
       <video
+        id="video"
         class="video"
         autoplay="autoplay"
         height="1080"
@@ -49,7 +50,7 @@ export default {
       //   },
       //   duration: 1000
       // })
-
+      document.getElementById('video').pause()
       anime.timeline({
         targets: '.mask',
         easing: 'linear'
@@ -92,6 +93,7 @@ export default {
           const now = new Date() - 0
 
           if (now - this.lastTime > 1000 * 60 * 30) {
+            document.getElementById('video').play()
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'
