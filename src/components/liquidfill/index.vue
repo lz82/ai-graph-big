@@ -96,7 +96,7 @@ export default {
       font-size: 16px;
       font-weight: 500;
       color: #fff;
-      padding: 15px 0 45px 0;
+      padding: 0 0 45px 0;
     }
   }
 </style>

@@ -25,21 +25,44 @@ export default {
       option: {
         series: [{
           type: 'line',
-          data: [820, 932, 901, 934, 1290, 1330, 1320],
+          data: [820, 932, 901, 1000],
           lineStyle: {
-            color: 'rgba(255, 255, 255, 0.2)'
+            color: '#4b6ff4'
           },
           areaStyle: {
-            color: 'rgba(255, 255, 255, 0.2)'
-          }
+            color: '#3a55bb'
+          },
+          showSymbol: false
         }],
         xAxis: {
           type: 'category',
           boundaryGap: false,
-          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+          splitLine: {
+            show: false
+          },
+          data: ['2015', '2016', '2017', '2018'],
+          axisLine: {
+            lineStyle: {
+              color: '#4b6ff4'
+            }
+          }
         },
         yAxis: {
-          type: 'value'
+          type: 'value',
+          splitLine: {
+            show: false
+          },
+          axisLine: {
+            lineStyle: {
+              color: '#4b6ff4'
+            }
+          }
+        },
+        grid: {
+          top: '20px',
+          right: '10px',
+          bottom: '30px',
+          left: '40px'
         }
       }
     }
@@ -62,6 +85,7 @@ export default {
 
 <style lang="less" scoped>
   .report-line-wrapper {
+    box-sizing: border-box;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -70,7 +94,7 @@ export default {
       font-size: 16px;
       font-weight: 500;
       color: #fff;
-      padding: 15px 0 10px 0;
+      padding: 0 0 10px 0;
     }
   }
 </style>

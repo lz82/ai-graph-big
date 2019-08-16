@@ -112,15 +112,19 @@ export default {
         height: 100%;
 
         .left {
+          box-sizing: border-box;
           background: rgba(75, 111, 244, 0.2);
           flex: 0 0 140px;
           height: 100%;
+          padding: 15px 5px 0 5px;
         }
 
         .right {
+          box-sizing: border-box;
           background: rgba(75, 111, 244, 0.2);
           flex: 0 0 255px;
           height: 100%;
+          padding: 15px 5px 0 5px;
         }
       }
     }
