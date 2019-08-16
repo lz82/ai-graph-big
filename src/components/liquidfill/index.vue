@@ -15,7 +15,15 @@ export default {
     title: {
       type: String
     },
+    data: {
+      type: Number,
+      required: true
+    },
     num: {
+      type: String,
+      required: true
+    },
+    cnt: {
       type: Number,
       required: true
     }
@@ -27,11 +35,30 @@ export default {
       option: {
         series: [{
           type: 'liquidFill',
-          data: [this.num],
+          data: [this.data],
           radius: '100%',
           label: {
             fontSize: 24,
-            color: this.num > 0.3 ? '#4b6ff4' : '#fff'
+            color: this.num > 0.3 ? '#4b6ff4' : '#fff',
+            formatter: () => {
+              return `{c|${this.cnt}}{a|家}\n{b|${this.num}}`
+            },
+            rich: {
+              a: {
+                color: '#fff',
+                fontSize: 16
+              },
+              b: {
+                color: '#fff',
+                fontSize: 16,
+                marginTop: '10px'
+              },
+              c: {
+                color: '#fff',
+                fontSize: 24,
+                fontWeight: 700
+              }
+            }
           },
           outline: false,
           backgroundStyle: {

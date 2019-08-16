@@ -7,13 +7,15 @@
         <div class="side-container">
           <div class="left">
             <Liquidfill
-              title="AI企业占比"
-              :num="0.28"
+              title="AI企业总数及占比"
+              :data="0.28"
+              num="28%"
+              :cnt="23"
             />
           </div>
           <div class="right">
             <report-line
-              title="AI企业占比"
+              title="AI企业增速"
             />
           </div>
         </div>
@@ -25,8 +27,10 @@
         <div class="side-container">
           <div class="left">
             <Liquidfill
-              title="AI企业占比"
-              :num="0.58"
+              title="AI企业总数及占比"
+              :data="0.58"
+              num="58%"
+              :cnt="6"
             />
           </div>
           <div class="right"></div>
@@ -39,8 +43,10 @@
         <div class="side-container">
           <div class="left">
             <Liquidfill
-              title="AI企业占比"
-              :num="0.78"
+              title="AI企业总数及占比"
+              :data="0.78"
+              num="78%"
+              :cnt="247"
             />
           </div>
           <div class="right"></div>
