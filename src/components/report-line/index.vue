@@ -25,7 +25,7 @@ export default {
       option: {
         series: [{
           type: 'line',
-          data: [820, 932, 901, 1000],
+          data: this.num,
           lineStyle: {
             color: '#4b6ff4'
           },

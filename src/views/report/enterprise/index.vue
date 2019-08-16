@@ -16,6 +16,7 @@
           <div class="right">
             <report-line
               title="AI企业增速"
+              :num="[50, 70, 90, 120]"
             />
           </div>
         </div>
@@ -33,7 +34,12 @@
               :cnt="6"
             />
           </div>
-          <div class="right"></div>
+          <div class="right">
+            <report-line
+              title="AI企业增速"
+              :num="[120, 140, 200, 400]"
+            />
+          </div>
         </div>
       </Card>
 
@@ -49,7 +55,12 @@
               :cnt="247"
             />
           </div>
-          <div class="right"></div>
+          <div class="right">
+            <report-line
+              title="AI企业增速"
+              :num="[200, 500, 700, 1000]"
+            />
+          </div>
         </div>
       </Card>
 
