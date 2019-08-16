@@ -32,7 +32,17 @@ export default {
           areaStyle: {
             color: '#3a55bb'
           },
-          showSymbol: false
+          // showSymbol: false,
+          symbolSize: 1,
+          itemStyle: {
+            normal: {
+              color: '#fff'
+            }
+          },
+          label: {
+            show: true,
+            color: '#fff'
+          }
         }],
         xAxis: {
           type: 'category',
@@ -45,6 +55,9 @@ export default {
             lineStyle: {
               color: '#4b6ff4'
             }
+          },
+          axisLabel: {
+            color: '#fff'
           }
         },
         yAxis: {
@@ -52,7 +65,14 @@ export default {
           splitLine: {
             show: false
           },
+          axisTick: {
+            show: false
+          },
+          axisLabel: {
+            show: false
+          },
           axisLine: {
+            show: false,
             lineStyle: {
               color: '#4b6ff4'
             }
@@ -62,7 +82,7 @@ export default {
           top: '20px',
           right: '20px',
           bottom: '30px',
-          left: '40px'
+          left: '20px'
         }
       }
     }
