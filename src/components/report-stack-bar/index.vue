@@ -1,6 +1,6 @@
 <template>
   <div class="report-stack-bar-wrapper">
-    <div id="chart" ref="mychart" style="width: 100%; height: 200px;"></div>
+    <div id="chart" ref="mychart" style="width: 100%; height: 170px;"></div>
   </div>
 </template>
 

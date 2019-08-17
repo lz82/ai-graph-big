@@ -83,10 +83,22 @@
 
           <Card
             title="AI企业增长"
-            height="290px"
-            style="margin-top: 20px;"
+            height="250px"
+            style="margin-top: 10px;"
           >
             <report-stack-bar />
+          </Card>
+
+          <Card
+            title="AI各领域企业占比"
+            height="350px"
+          >
+          </Card>
+
+          <Card
+            title="技术交易AI企业占比"
+            height="250px"
+          >
           </Card>
         </div>
     </div>
@@ -127,11 +139,12 @@ export default {
     background-size: cover;
     display: flex;
     flex-flow: row nowrap;
-    padding: 50px;
+    padding: 20px 50px 50px;
     box-sizing: border-box;
 
     .left-wrapper {
       flex: 0 0 450px;
+      margin-top: 30px;
 
       .side-container {
         display: flex;
