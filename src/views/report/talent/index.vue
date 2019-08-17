@@ -30,20 +30,36 @@
           height="165px"
         >
           <div class="statistic-wrapper">
-            <p>
-              <span class="num">7643</span>
+            <p class="f4">
+              <count-to
+                class="num"
+                :endVal="7643"
+                :duration="2000"
+              />
               <span class="label">总数</span>
             </p>
-            <p>
-              <span class="num">4000</span>
+            <p class="f4">
+              <count-to
+                class="num"
+                :endVal="3643"
+                :duration="2000"
+              />
               <span class="label">国内</span>
             </p>
-            <p>
-              <span class="num">3000</span>
+            <p class="f4">
+              <count-to
+                class="num"
+                :endVal="4000"
+                :duration="2000"
+              />
               <span class="label">国外</span>
             </p>
-            <p>
-              <span class="num">2000</span>
+            <p class="f4">
+              <count-to
+                class="num"
+                :endVal="2000"
+                :duration="2000"
+              />
               <span class="label">上海</span>
             </p>
           </div>
@@ -69,24 +85,44 @@
           height="165px"
         >
            <div class="statistic-wrapper">
-            <p>
-              <span class="num">7643</span>
+            <p class="f5">
+              <count-to
+                class="num"
+                :endVal="7643"
+                :duration="2000"
+              />
               <span class="label">总数</span>
             </p>
-            <p>
-              <span class="num">4000</span>
+            <p class="f5">
+              <count-to
+                class="num"
+                :endVal="4001"
+                :duration="2000"
+              />
               <span class="label">国内</span>
             </p>
-            <p>
-              <span class="num">3000</span>
+            <p class="f5">
+              <count-to
+                class="num"
+                :endVal="3000"
+                :duration="2000"
+              />
               <span class="label">国外</span>
             </p>
-            <p>
-              <span class="num">2000</span>
+            <p class="f5">
+              <count-to
+                class="num"
+                :endVal="2000"
+                :duration="2000"
+              />
               <span class="label">发明</span>
             </p>
-            <p>
-              <span class="num">2000</span>
+            <p class="f5">
+              <count-to
+                class="num"
+                :endVal="1800"
+                :duration="2000"
+              />
               <span class="label">实用新型</span>
             </p>
           </div>
@@ -103,6 +139,8 @@
 </template>
 
 <script>
+import CountTo from 'vue-count-to'
+
 import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import ReportCard from '@/components/report-card'
@@ -115,7 +153,8 @@ export default {
     PageHeader,
     BtnGroup,
     ReportCard,
-    ReportPannel
+    ReportPannel,
+    CountTo
   },
 
   data () {
@@ -192,6 +231,14 @@ export default {
               font-size: 16px;
               font-weight: 700;
             }
+          }
+
+          .f4 {
+            flex: 0 0 25%;
+          }
+
+          .f5 {
+            flex: 0 0 20%;
           }
         }
     }
