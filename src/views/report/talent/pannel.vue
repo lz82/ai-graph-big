@@ -67,7 +67,7 @@ export default {
         background: #fff;
         top: 50%;
         left: 50%;
-        transform: translateX(80px)
+        transform: translateX(90px)
       }
     }
     .content {
