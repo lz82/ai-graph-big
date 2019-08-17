@@ -157,7 +157,7 @@ import ReportMap from '@/components/report-map'
 import ReportStackBar from '@/components/report-stack-bar'
 import ReportMulitiPie from '@/components/report-muliti-pie'
 
-import Card from './card'
+import Card from '@/components/report-card'
 
 export default {
   name: 'ReportEnterprise',

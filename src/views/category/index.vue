@@ -66,7 +66,7 @@ export default {
         {
           id: 2,
           pic: card1,
-          url: '/report/2'
+          url: '/report/talent'
         },
         {
           id: 3,

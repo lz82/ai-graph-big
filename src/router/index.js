@@ -14,6 +14,7 @@ const Graph = () => import(/* webpackChunkName: "graph" */ '@/views/graph')
 const Search = () => import(/* webpackChunkName: "search" */ '@/views/search-result')
 
 const ReportEnterprise = () => import(/* webpackChunkName: "reportenterprise" */ '@/views/report/enterprise')
+const ReportTalent = () => import(/* webpackChunkName: "reporttalent" */ '@/views/report/talent')
 
 Vue.use(Router)
 
@@ -54,6 +55,14 @@ const router = new Router({
       path: '/report/enterprise',
       name: 'ReportEnterprise',
       component: ReportEnterprise,
+      meta: {
+        path: 'home-category-report'
+      }
+    },
+    {
+      path: '/report/talent',
+      name: 'ReportTalent',
+      component: ReportTalent,
       meta: {
         path: 'home-category-report'
       }

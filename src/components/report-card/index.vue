@@ -1,5 +1,5 @@
 <template>
-  <div class="card-wrapper" :style="{ height: height }">
+  <div class="card-wrapper" :style="{ width: width, height: height }">
     <div class="title">
       {{title}}
     </div>
@@ -11,12 +11,16 @@
 
 <script>
 export default {
-  name: 'Card',
+  name: 'ReportCard',
 
   props: {
     title: {
       type: String,
       required: true
+    },
+    width: {
+      type: String,
+      default: '450px'
     },
     height: {
       type: String,
@@ -31,7 +35,6 @@ export default {
     display: flex;
     flex-flow: column nowrap;
     box-sizing: border-box;
-    width: 450px;
     border: solid 2px #4b6ff4;
     margin-bottom: 20px;
     border-radius: 10px;
