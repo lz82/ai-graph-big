@@ -28,6 +28,7 @@ export default {
   },
 
   data () {
+    const that = this
     return {
       chart: null,
       option: {
@@ -43,10 +44,12 @@ export default {
             label: {
               show: true,
               position: 'center',
-              formatter: '{d}',
+              formatter () {
+                return that.percent
+              },
               color: '#fff',
               fontWeight: 'bolder',
-              fontSize: 16
+              fontSize: 14
             }
           }
         ],
@@ -65,6 +68,12 @@ export default {
     initChart () {
       this.chart = this.$echarts.init(this.$refs.mychart)
       this.chart.setOption(this.option)
+    }
+  },
+
+  computed: {
+    percent () {
+      return (this.num / (this.num + this.other) * 100).toFixed(2) + '%'
     }
   }
 }
