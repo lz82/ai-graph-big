@@ -80,6 +80,14 @@
     <div class="right-wrapper">
        <div class="btn">
           <btn-group />
+
+          <Card
+            title="AI企业增长"
+            height="240px"
+            style="margin-top: 20px;"
+          >
+            <report-stack-bar />
+          </Card>
         </div>
     </div>
   </div>
@@ -91,6 +99,7 @@ import BtnGroup from '@/components/btn-group'
 import Liquidfill from '@/components/liquidfill'
 import ReportLine from '@/components/report-line'
 import ReportMap from '@/components/report-map'
+import ReportStackBar from '@/components/report-stack-bar'
 
 import Card from './card'
 
@@ -103,7 +112,8 @@ export default {
     Card,
     Liquidfill,
     ReportLine,
-    ReportMap
+    ReportMap,
+    ReportStackBar
   }
 }
 </script>

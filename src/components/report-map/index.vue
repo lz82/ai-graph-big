@@ -16,14 +16,6 @@ const mapData = [
   { name: '广东', value: [113.280637, 23.125178, 6] }
 ]
 
-// const rawData = [
-//   { name: '北京', value: 199 },
-//   { name: '新疆', value: 180 },
-//   { name: '河南', value: 137 },
-//   { name: '浙江', value: 114 },
-//   { name: '广东', value: 123 }
-// ]
-
 export default {
   name: 'ReportMap',
 
@@ -38,18 +30,11 @@ export default {
       chart: null,
       geoCoordMap: {},
       option: {
-        grid: {
-          top: '20px',
-          right: '20px',
-          // bottom: '30px',
-          left: '20px'
-        },
         geo: {
           show: true,
           top: '20px',
           left: 0,
           right: 0,
-          // bottom: 0,
           map: 'china',
           label: {
             normal: {
@@ -62,21 +47,12 @@ export default {
             }
           },
           roam: false,
-          // itemStyle: {
-          //   normal: {
-          //     areaColor: '#023677',
-          //     borderColor: '#1180c7'
-          //   },
-          //   emphasis: {
-          //     areaColor: '#4499d0'
-          //   }
-          // }
           itemStyle: {
             normal: {
               borderColor: '#1180c7',
               borderWidth: 5,
-              areaColor: '#10172d'
-              // fontWeightL: 700
+              areaColor: '#10172d',
+              fontWeightL: 700
             },
             emphasis: {
               areaColor: '#10172d'
@@ -88,9 +64,6 @@ export default {
               value: 0,
               itemStyle: {
                 normal: {
-                  opacity: 0
-                },
-                emphasis: {
                   opacity: 0
                 }
               }
@@ -106,7 +79,6 @@ export default {
           label: {
             normal: {
               formatter (val) {
-                console.log(val.name, val.value[2])
                 return `${val.name}\n${val.value[2]}`
               },
               fontWeight: 'bolder',
@@ -146,21 +118,13 @@ export default {
             }
           },
           roam: false,
-          // itemStyle: {
-          //   normal: {
-          //     areaColor: '#031525',
-          //     borderColor: '#3B5077'
-          //   },
-          //   emphasis: {
-          //     areaColor: '#2B91B7'
-          //   }
-          // },
+
           itemStyle: {
             normal: {
               borderColor: '#5ab6e2',
               borderWidth: 1,
-              areaColor: '#10172d'
-              // fontWeightL: 700
+              areaColor: '#10172d',
+              fontWeightL: 700
             },
             emphasis: {
               areaColor: '#10172d'
@@ -180,8 +144,6 @@ export default {
               }
             }
           ]
-          // animation: true
-          // data: rawData
         },
         {
           name: '点',

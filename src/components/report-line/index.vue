@@ -56,6 +56,9 @@ export default {
               color: '#4b6ff4'
             }
           },
+          axisTick: {
+            show: false
+          },
           axisLabel: {
             color: '#fff'
           }
