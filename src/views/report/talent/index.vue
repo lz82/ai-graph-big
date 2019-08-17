@@ -69,6 +69,7 @@
           width="100%"
           height="335px"
         >
+          <word-cloud />
         </report-card>
         <div class="domain-wrapper">
           <report-pannel
@@ -145,6 +146,7 @@ import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import ReportCard from '@/components/report-card'
 import ReportPannel from './pannel'
+import WordCloud from '@/components/word-cloud'
 
 export default {
   name: 'ReportTalent',
@@ -154,7 +156,8 @@ export default {
     BtnGroup,
     ReportCard,
     ReportPannel,
-    CountTo
+    CountTo,
+    WordCloud
   },
 
   data () {

@@ -15,6 +15,7 @@ const Search = () => import(/* webpackChunkName: "search" */ '@/views/search-res
 
 const ReportEnterprise = () => import(/* webpackChunkName: "reportenterprise" */ '@/views/report/enterprise')
 const ReportTalent = () => import(/* webpackChunkName: "reporttalent" */ '@/views/report/talent')
+const ReportInvest = () => import(/* webpackChunkName: "reportinvest" */ '@/views/report/invest')
 
 Vue.use(Router)
 
@@ -63,6 +64,14 @@ const router = new Router({
       path: '/report/talent',
       name: 'ReportTalent',
       component: ReportTalent,
+      meta: {
+        path: 'home-category-report'
+      }
+    },
+    {
+      path: '/report/invest',
+      name: 'ReportInvest',
+      component: ReportInvest,
       meta: {
         path: 'home-category-report'
       }

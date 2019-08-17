@@ -71,7 +71,7 @@ export default {
         {
           id: 3,
           pic: card1,
-          url: '/report/3'
+          url: '/report/invest'
         }
       ],
       swiperOption: {
