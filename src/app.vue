@@ -66,8 +66,11 @@ export default {
         //   duration: 300
         // }, 400)
         .add({
-          scale: {
-            value: [1, 0]
+          // scale: {
+          //   value: [1, 0]
+          // }
+          translateX: {
+            value: [0, '-100%']
           }
         })
       this.isShow = false
@@ -99,8 +102,11 @@ export default {
               easing: 'cubicBezier(.5, .05, .1, .3)'
             })
               .add({
-                scale: {
-                  value: [0, 1]
+                // scale: {
+                //   value: [0, 1]
+                // }
+                translateX: {
+                  value: ['-100%', 0]
                 }
               })
               // .add({
