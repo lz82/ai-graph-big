@@ -1,7 +1,7 @@
 <template>
   <div class="report-map-wrapper">
-    <h3>{{ title }}</h3>
     <div id="chart" ref="mychart" style="width: 850px; height: 800px;"></div>
+    <h3>{{ title }}</h3>
   </div>
 </template>
 
@@ -206,10 +206,10 @@ export default {
     align-items: center;
 
     h3 {
-      font-size: 16px;
+      font-size: 24px;
       font-weight: 500;
       color: #fff;
-      padding: 0 0 45px 0;
+
     }
   }
 </style>
