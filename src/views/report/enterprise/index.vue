@@ -110,6 +110,38 @@
             title="技术交易AI企业占比"
             height="250px"
           >
+            <div class="table">
+              <div class="row header">
+                <span>交易类型</span>
+                <span>2016</span>
+                <span>2017</span>
+                <span>2018</span>
+              </div>
+              <div class="row">
+                <span>技术资讯</span>
+                <span>15%</span>
+                <span>25%</span>
+                <span>35%</span>
+              </div>
+              <div class="row">
+                <span>技术开发</span>
+                <span>18%</span>
+                <span>28%</span>
+                <span>38%</span>
+              </div>
+              <div class="row">
+                <span>技术服务</span>
+                <span>35%</span>
+                <span>45%</span>
+                <span>55%</span>
+              </div>
+              <div class="row">
+                <span>技术转让</span>
+                <span>48%</span>
+                <span>55%</span>
+                <span>67%</span>
+              </div>
+            </div>
           </Card>
         </div>
     </div>
@@ -250,6 +282,23 @@ export default {
           flex: 0 0 23%;
           margin-bottom: 10px;
           margin-right: 8px;
+        }
+      }
+
+      .table {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        .row {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          line-height: 30px;
+        }
+        .header {
+          border-bottom: solid 3px #495377;
+          line-height: 40px;
         }
       }
     }
