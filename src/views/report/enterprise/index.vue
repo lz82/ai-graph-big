@@ -83,7 +83,7 @@
 
           <Card
             title="AI企业增长"
-            height="240px"
+            height="290px"
             style="margin-top: 20px;"
           >
             <report-stack-bar />

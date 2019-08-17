@@ -1,6 +1,6 @@
 <template>
   <div class="report-stack-bar-wrapper">
-    <div id="chart" ref="mychart" style="width: 100%; height: 150px;"></div>
+    <div id="chart" ref="mychart" style="width: 100%; height: 200px;"></div>
   </div>
 </template>
 
@@ -14,9 +14,15 @@ export default {
       option: {
         grid: {
           left: '10px',
-          top: '0px',
+          top: '20px',
           right: '10px',
           bottom: '20px'
+        },
+        legend: {
+          data: ['2016', '2017', '2018'],
+          textStyle: {
+            color: '#fff'
+          }
         },
         xAxis: [
           {
@@ -56,7 +62,7 @@ export default {
             type: 'bar',
             stack: 'AI',
             label: {
-              show: true,
+              show: false,
               formatter: '{a}'
             },
             data: [100, 120, 150, 200]
@@ -66,7 +72,7 @@ export default {
             type: 'bar',
             stack: 'AI',
             label: {
-              show: true,
+              show: false,
               formatter: '{a}'
             },
             data: [100, 120, 150, 200]
@@ -76,7 +82,7 @@ export default {
             type: 'bar',
             stack: 'AI',
             label: {
-              show: true,
+              show: false,
               formatter: '{a}'
             },
             barWidth: '35px',
