@@ -1,6 +1,7 @@
 <template>
   <div class="report-muliti-pie-wrapper">
-    <div id="chart" ref="mychart" style="width: 100%; height: 260px;"></div>
+    <div id="chart" ref="mychart" style="width: 80px; height: 80px;"></div>
+    <h3>{{title}}</h3>
   </div>
 </template>
 
@@ -8,10 +9,49 @@
 export default {
   name: 'ReportMulitiPie',
 
+  props: {
+    title: {
+      type: String,
+      default: 'XXX领域'
+    },
+    num: {
+      type: Number,
+      required: true
+    },
+    other: {
+      type: Number,
+      required: true
+    },
+    color: {
+      type: String
+    }
+  },
+
   data () {
     return {
       chart: null,
-      option: {}
+      option: {
+        series: [
+          {
+            type: 'pie',
+            name: '占比',
+            radius: ['70%', '100%'],
+            data: [
+              { name: '机器学习', value: this.num },
+              { name: '', value: this.other }
+            ],
+            label: {
+              show: true,
+              position: 'center',
+              formatter: '{d}',
+              color: '#fff',
+              fontWeight: 'bolder',
+              fontSize: 16
+            }
+          }
+        ],
+        color: [this.color, '#2a3d85']
+      }
     }
   },
 
@@ -24,7 +64,7 @@ export default {
   methods: {
     initChart () {
       this.chart = this.$echarts.init(this.$refs.mychart)
-      // this.chart.setOption(this.option)
+      this.chart.setOption(this.option)
     }
   }
 }
@@ -33,5 +73,14 @@ export default {
 <style lang="less" scoped>
   .report-muliti-pie-wrapper {
      box-sizing: border-box;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+     h3 {
+       padding: 10px;
+       font-size: 16px;
+       font-weight: 700;
+     }
   }
 </style>

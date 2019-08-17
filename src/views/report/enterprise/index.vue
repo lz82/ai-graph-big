@@ -93,6 +93,17 @@
             title="AI各领域企业占比"
             height="350px"
           >
+            <div class="muliti-pie-wrapper">
+              <report-muliti-pie
+                v-for="(item, index) in mulitiPieList"
+                :key="index"
+                class="pie"
+                :title="item.title"
+                :num="item.num"
+                :other="item.other"
+                :color="item.color"
+              />
+            </div>
           </Card>
 
           <Card
@@ -112,6 +123,7 @@ import Liquidfill from '@/components/liquidfill'
 import ReportLine from '@/components/report-line'
 import ReportMap from '@/components/report-map'
 import ReportStackBar from '@/components/report-stack-bar'
+import ReportMulitiPie from '@/components/report-muliti-pie'
 
 import Card from './card'
 
@@ -125,7 +137,51 @@ export default {
     Liquidfill,
     ReportLine,
     ReportMap,
-    ReportStackBar
+    ReportStackBar,
+    ReportMulitiPie
+  },
+
+  data () {
+    return {
+      mulitiPieList: [
+        {
+          title: '机器学习',
+          num: 500,
+          other: 600,
+          color: '#f4e28f'
+        },
+        {
+          title: '人机混合',
+          num: 500,
+          other: 800,
+          color: '#8cecb9'
+        },
+        {
+          title: '知识系统',
+          num: 500,
+          other: 900,
+          color: '#49c5fe'
+        },
+        {
+          title: '神经网络',
+          num: 500,
+          other: 1000,
+          color: '#e97383'
+        },
+        {
+          title: '自然语言',
+          num: 500,
+          other: 1100,
+          color: '#f4e28f'
+        },
+        {
+          title: '视觉技术',
+          num: 800,
+          other: 600,
+          color: '#8cecb9'
+        }
+      ]
+    }
   }
 }
 </script>
@@ -184,6 +240,18 @@ export default {
       flex-flow: column nowrap;
       align-items: center;
       padding: 20px;
+
+      .muliti-pie-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        // justify-content: space-ar;
+
+        .pie {
+          flex: 0 0 23%;
+          margin-bottom: 10px;
+          margin-right: 8px;
+        }
+      }
     }
   }
 </style>
