@@ -342,7 +342,7 @@ export default {
             name: 'left',
             type: 'gauge',
             endAngle: 45,
-            radius: '40%',
+            radius: '50%',
             center: ['20%', '55%'], // 默认全局居中
             min: 0,
             max: this.left.max || 10000,
@@ -500,7 +500,7 @@ export default {
             type: 'gauge',
             startAngle: 140,
             endAngle: -45,
-            radius: '40%',
+            radius: '50%',
             center: ['80%', '55%'], // 默认全局居中
             min: 0,
             max: this.right.max || 10000,
