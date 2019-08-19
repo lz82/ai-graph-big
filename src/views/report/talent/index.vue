@@ -27,10 +27,10 @@
         <report-pannel
           title="专家分布"
           width="100%"
-          height="165px"
+          height="265px"
         >
-          <div class="statistic-wrapper">
-            <p class="f4">
+          <!-- <div class="statistic-wrapper"> -->
+            <!-- <p class="f4">
               <count-to
                 class="num"
                 :endVal="7643"
@@ -61,7 +61,13 @@
                 :duration="2000"
               />
               <span class="label">上海</span>
-            </p>
+            </p> -->
+          <div class="gauge-wrapper" style="width:100%;">
+            <report-gauge
+              :left="expertGauge.left"
+              :middle="expertGauge.middle"
+              :right="expertGauge.right"
+            />
           </div>
         </report-pannel>
         <report-card
@@ -145,6 +151,7 @@ import CountTo from 'vue-count-to'
 import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import ReportCard from '@/components/report-card'
+import ReportGauge from '@/components/report-gauge'
 import ReportPannel from './pannel'
 import WordCloud from '@/components/word-cloud'
 
@@ -156,12 +163,31 @@ export default {
     BtnGroup,
     ReportCard,
     ReportPannel,
+    ReportGauge,
     CountTo,
     WordCloud
   },
 
   data () {
-    return {}
+    return {
+      expertGauge: {
+        left: {
+          title: '国内',
+          max: 10000,
+          num: 4000
+        },
+        middle: {
+          title: '总数',
+          max: 20000,
+          num: 10000
+        },
+        right: {
+          title: '国外',
+          max: 10000,
+          num: 6000
+        }
+      }
+    }
   }
 }
 </script>
