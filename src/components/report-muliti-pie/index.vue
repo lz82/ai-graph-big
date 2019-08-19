@@ -42,16 +42,19 @@ export default {
               { name: '', value: this.other }
             ],
             label: {
-              show: true,
+              // show: true,
               position: 'center',
               formatter () {
-                return `{a|${that.percent}}\n{b|${that.title}}`
+                console.log(that)
+                const a = that.percent
+                const b = that.title
+                return `{a|${a}}\n{b|${b}}`
               },
               rich: {
                 a: {
                   color: '#fff',
-                  fontSize: 18,
-                  fontWeight: 'border'
+                  fontSize: 16
+                  // fontWeight: 'border'
                 },
                 b: {
                   color: '#fff',
