@@ -1,6 +1,6 @@
 <template>
   <div class="word-cloud-wrapper">
-    <div ref="mychart" style="width: 100%; height: 240px;"></div>
+    <div ref="mychart" style="width: 100%; height: 160px;"></div>
   </div>
 </template>
 

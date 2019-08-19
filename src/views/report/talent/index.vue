@@ -73,7 +73,7 @@
         <report-card
           title="科研热点"
           width="100%"
-          height="335px"
+          height="235px"
         >
           <word-cloud />
         </report-card>
