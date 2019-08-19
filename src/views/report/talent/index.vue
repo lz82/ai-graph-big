@@ -172,17 +172,17 @@ export default {
     return {
       expertGauge: {
         left: {
-          title: '国内',
+          title: '国外',
           max: 10000,
           num: 4000
         },
         middle: {
-          title: '总数',
+          title: '专家总数',
           max: 20000,
           num: 10000
         },
         right: {
-          title: '国外',
+          title: '上海',
           max: 10000,
           num: 6000
         }
