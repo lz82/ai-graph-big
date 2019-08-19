@@ -53,7 +53,7 @@ export default {
             fontSize: 16,
             color: '#fff'
           },
-          left: '47%'
+          left: '44%'
         },
         {
           x: '75%',
@@ -88,14 +88,14 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#03B7C9']
+                  [1, '#4b6ff4']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 width: 1
               },
               length: -15,
@@ -105,14 +105,14 @@ export default {
               show: true,
               length: 5,
               lineStyle: {
-                color: '#03B7C9'
+                color: '#4b6ff4'
               }
             },
             axisLabel: {
               show: true,
               distance: -40,
               textStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 fontSize: '15',
                 fontWeight: 'bold'
               },
@@ -219,13 +219,14 @@ export default {
             detail: {
               show: true,
               offsetCenter: [0, '60%'],
+              color: '#fff',
               textStyle: {
                 fontSize: 16
               }
             },
             itemStyle: {
               normal: {
-                color: '#03B7C9'
+                color: '#fff'
               }
             },
             data: [{
@@ -249,14 +250,14 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#03B7C9']
+                  [1, '#4b6ff4']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 width: 1
               },
               length: -15,
@@ -266,14 +267,14 @@ export default {
               show: true,
               length: 5,
               lineStyle: {
-                color: '#03B7C9'
+                color: '#4b6ff4'
               }
             },
             axisLabel: {
               show: true,
               distance: -40,
               textStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 fontSize: '14',
                 fontWeight: 'bold'
               },
@@ -376,13 +377,14 @@ export default {
             detail: {
               show: true,
               offsetCenter: ['10%', '60%'],
+              color: '#fff',
               textStyle: {
                 fontSize: 16
               }
             },
             itemStyle: {
               normal: {
-                color: '#03B7C9'
+                color: '#fff'
               }
             },
             data: [{
@@ -406,30 +408,30 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#03B7C9']
+                  [1, '#4b6ff4']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 width: 1
               },
               length: -15,
               splitNumber: 10
             },
             splitLine: {
-              show: false,
-              length: -20,
+              show: true,
+              length: 5,
               lineStyle: {
-                color: '#03B7C9'
+                color: '#4b6ff4'
               }
             },
             axisLabel: {
-              distance: -10,
+              distance: -30,
               textStyle: {
-                color: '#03B7C9',
+                color: '#4b6ff4',
                 fontSize: '15',
                 fontWeight: 'bold'
               },
@@ -535,11 +537,12 @@ export default {
               offsetCenter: ['-20%', '60%'],
               textStyle: {
                 fontSize: 16
-              }
+              },
+              color: '#fff'
             },
             itemStyle: {
               normal: {
-                color: '#03B7C9'
+                color: '#fff'
               }
             },
             data: [{
