@@ -184,10 +184,8 @@ export default {
             endAngle: -20,
             radius: '50%',
             center: ['50%', '55%'], // 默认全局居中
-
             min: 0,
             max: this.middle.max || 10000,
-
             axisLine: {
               show: false,
               lineStyle: {
@@ -215,7 +213,8 @@ export default {
               show: false
             },
             pointer: {
-              show: true
+              show: true,
+              width: 6
             },
             detail: {
               show: true,
@@ -235,7 +234,7 @@ export default {
           },
 
           {
-            // 国内外圈
+            // left外圈
             type: 'gauge',
             center: ['20%', '55%'], // 默认全局居中
             radius: '70%',
@@ -298,7 +297,7 @@ export default {
             }]
           },
           {
-            // 国内白线
+            // left白线
             type: 'gauge',
             center: ['20%', '55%'], // 默认全局居中
             radius: '60%',
@@ -339,7 +338,7 @@ export default {
             }
           },
           {
-            name: '国内专家',
+            name: 'left',
             type: 'gauge',
             endAngle: 45,
             radius: '40%',
@@ -371,11 +370,12 @@ export default {
               show: false
             },
             pointer: {
-              show: true
+              show: true,
+              width: 6
             },
             detail: {
               show: true,
-              offsetCenter: [0, '60%'],
+              offsetCenter: ['10%', '60%'],
               textStyle: {
                 fontSize: 16
               }
@@ -390,7 +390,7 @@ export default {
             }]
           },
           {
-            // 国外外圈
+            // right外圈
             type: 'gauge',
             center: ['80%', '55%'], // 默认全局居中
             radius: '70%',
@@ -452,7 +452,7 @@ export default {
               value: this.right.num
             }]
           }, {
-            // 国外白线
+            // right白线
             type: 'gauge',
             center: ['80%', '55%'], // 默认全局居中
             radius: '60%',
@@ -494,7 +494,7 @@ export default {
             }
           },
           {
-            name: '国外专家',
+            name: 'right',
             type: 'gauge',
             startAngle: 140,
             endAngle: -45,
@@ -527,11 +527,12 @@ export default {
               show: false
             },
             pointer: {
-              show: true
+              show: true,
+              width: 6
             },
             detail: {
               show: true,
-              offsetCenter: [0, '60%'],
+              offsetCenter: ['-20%', '60%'],
               textStyle: {
                 fontSize: 16
               }
