@@ -49,7 +49,7 @@
               title="AI企业增速"
               height="195px"
               :xaxis="domainList"
-              :legend="[2017, 2018]"
+              :legend="['2017', '2018']"
               :series="creativeData"
             />
           </div>
