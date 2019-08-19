@@ -37,34 +37,58 @@ export default {
     series: {
       type: Array,
       required: true
-    },
-    color: reportConfig.colorList
+    }
   },
 
   data () {
     return {
       chart: null,
       option: {
+        color: reportConfig.colorList,
         legend: {
           data: this.legend,
           textStyle: {
+            color: 'rgba(255, 255, 255, 0.7)',
             fontSize: 8
-          }
+          },
+          itemWidth: 10,
+          itemHeight: 6
         },
         grid: {
-          left: '10px',
-          right: '10px',
-          top: '10px',
+          left: '20px',
+          right: '20px',
+          top: '30px',
           bottom: '10px',
           containLabel: true
         },
         xAxis: {
           type: 'category',
           boundaryGap: false,
-          data: this.xaxis
+          data: this.xaxis,
+          axisLabel: {
+            color: '#fff'
+          },
+          axisTick: {
+            show: false
+          },
+          axisLine: {
+            show: false
+          }
         },
         yAxis: {
-          type: 'value'
+          type: 'value',
+          splitLine: {
+            show: false
+          },
+          axisLabel: {
+            show: false
+          },
+          axisTick: {
+            show: false
+          },
+          axisLine: {
+            show: false
+          }
         },
         series: []
       }

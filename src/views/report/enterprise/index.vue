@@ -14,9 +14,15 @@
             />
           </div>
           <div class="right">
-            <report-line
+            <!-- <report-line
               title="AI企业增速"
               :num="[200, 500, 700, 1000]"
+            /> -->
+            <report-muliti-line
+              title="AI企业增速"
+              height="195px"
+              :legend="domainList"
+              :series="bigData"
             />
           </div>
         </div>
@@ -41,9 +47,9 @@
             /> -->
             <report-bar
               title="AI企业增速"
-              height="220px"
-              :xaxis="[2017, 2018]"
-              :legend="domainList"
+              height="195px"
+              :xaxis="domainList"
+              :legend="[2017, 2018]"
               :series="creativeData"
             />
           </div>
@@ -163,6 +169,7 @@ import ReportLine from '@/components/report-line'
 import ReportMap from '@/components/report-map'
 import ReportStackBar from '@/components/report-stack-bar'
 import ReportMulitiPie from '@/components/report-muliti-pie'
+import ReportMulitiLine from '@/components/report-muliti-line'
 import ReportBar from '@/components/report-bar'
 
 import Card from '@/components/report-card'
@@ -179,7 +186,8 @@ export default {
     ReportMap,
     ReportStackBar,
     ReportMulitiPie,
-    ReportBar
+    ReportBar,
+    ReportMulitiLine
   },
 
   data () {
@@ -239,32 +247,16 @@ export default {
         {
           name: '神经网络',
           data: [1000, 1200, 1400, 1600]
-        },
-        {
-          name: '自然语言',
-          data: [1000, 1200, 1400, 1600]
-        },
-        {
-          name: '视觉技术',
-          data: [1000, 1200, 1400, 1600]
         }
       ],
       creativeData: [
         {
-          name: '机器学习',
-          data: [1000, 2000]
+          name: '2017',
+          data: [1000, 2000, 3000, 4000]
         },
         {
-          name: '人机混合',
-          data: [1200, 2200]
-        },
-        {
-          name: '知识系统',
-          data: [800, 2400]
-        },
-        {
-          name: '神经网络',
-          data: [1600, 2600]
+          name: '2018',
+          data: [1200, 2200, 3200, 4200]
         }
       ]
     }

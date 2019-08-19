@@ -9,11 +9,11 @@
 import reportConfig from '@/config/report'
 
 const labelOption = {
-  align: 'left',
+  align: 'center',
   distance: 15,
   fontSize: 8,
   formatter: '{c}',
-  position: 'insideBottom',
+  position: 'inside',
   rotate: 90,
   show: true,
   verticalAlign: 'middle'
@@ -57,7 +57,7 @@ export default {
       option: {
         color: reportConfig.colorList,
         grid: {
-          top: '10px',
+          top: '20px',
           bottom: '50px',
           left: '10px',
           right: '10px'
@@ -76,6 +76,7 @@ export default {
             type: 'category',
             data: this.xaxis,
             axisLine: {
+              show: false,
               lineStyle: {
                 color: '#4b6ff4'
               }
@@ -84,7 +85,8 @@ export default {
               show: false
             },
             axisLabel: {
-              color: '#fff'
+              color: '#fff',
+              fontSize: 8
             }
           }
         ],
@@ -129,7 +131,8 @@ export default {
           type: 'bar',
           barGap: 0,
           label: labelOption,
-          data: item.data
+          data: item.data,
+          barWidth: '15px'
         }
       })
       this.chart.setOption(this.option)
