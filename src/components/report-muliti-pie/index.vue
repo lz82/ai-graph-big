@@ -1,7 +1,7 @@
 <template>
   <div class="report-muliti-pie-wrapper">
     <div id="chart" ref="mychart" style="width: 80px; height: 80px;"></div>
-    <h3>{{title}}</h3>
+    <h3>{{num}}</h3>
   </div>
 </template>
 
@@ -45,11 +45,19 @@ export default {
               show: true,
               position: 'center',
               formatter () {
-                return that.percent
+                return `{a|${that.percent}}\n{b|${that.title}}`
               },
-              color: '#fff',
-              fontWeight: 'bolder',
-              fontSize: 14
+              rich: {
+                a: {
+                  color: '#fff',
+                  fontSize: 18,
+                  fontWeight: 'border'
+                },
+                b: {
+                  color: '#fff',
+                  fontSize: 12
+                }
+              }
             }
           }
         ],
