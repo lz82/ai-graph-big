@@ -8,17 +8,6 @@
 <script>
 import reportConfig from '@/config/report'
 
-const labelOption = {
-  align: 'center',
-  distance: 15,
-  fontSize: 8,
-  formatter: '{c}',
-  position: 'inside',
-  rotate: 90,
-  show: true,
-  verticalAlign: 'middle'
-}
-
 export default {
   name: 'ReportBar',
 
@@ -48,14 +37,38 @@ export default {
     series: {
       type: Array,
       required: true
+    },
+    color: {
+      type: Array,
+      default () {
+        return reportConfig.colorList
+      }
+    },
+    rotate: {
+      type: Number,
+      default: 0
+    },
+    position: {
+      type: String,
+      default: 'right'
     }
   },
 
   data () {
     return {
       chart: null,
+      labelOption: {
+        align: 'center',
+        distance: 15,
+        fontSize: 8,
+        formatter: '{c}',
+        position: this.position,
+        rotate: this.rotate,
+        show: true,
+        verticalAlign: 'middle'
+      },
       option: {
-        color: reportConfig.colorList,
+        color: this.color,
         grid: {
           top: '20px',
           bottom: '50px',
@@ -131,9 +144,10 @@ export default {
           name: item.name,
           type: 'bar',
           barGap: 0,
-          label: labelOption,
+          label: this.labelOption,
           data: item.data,
-          barWidth: '15px'
+          barWidth: '15px',
+          stack: item.stack ? item.stack : ''
         }
       })
       this.chart.setOption(this.option)

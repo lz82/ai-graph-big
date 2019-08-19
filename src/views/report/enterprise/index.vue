@@ -48,9 +48,12 @@
             <report-bar
               title="AI企业增速"
               height="195px"
+              :rotate="90"
+              position="inside"
               :xaxis="domainList"
               :legend="['2017', '2018']"
               :series="creativeData"
+              :color="['rgba(233,115,131, 0.7)', 'rgb(233,115,131)']"
             />
           </div>
         </div>
@@ -69,9 +72,12 @@
             />
           </div>
           <div class="right">
-            <report-line
+            <report-bar
               title="AI企业增速"
-              :num="[200, 500, 700, 1000]"
+              height="195px"
+              :xaxis="domainList"
+              :legend="['2015', '2016', '2017', '2018']"
+              :series="highTech"
             />
           </div>
         </div>
@@ -165,7 +171,7 @@
 import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import Liquidfill from '@/components/liquidfill'
-import ReportLine from '@/components/report-line'
+// import ReportLine from '@/components/report-line'
 import ReportMap from '@/components/report-map'
 import ReportStackBar from '@/components/report-stack-bar'
 import ReportMulitiPie from '@/components/report-muliti-pie'
@@ -182,7 +188,7 @@ export default {
     BtnGroup,
     Card,
     Liquidfill,
-    ReportLine,
+    // ReportLine,
     ReportMap,
     ReportStackBar,
     ReportMulitiPie,
@@ -257,6 +263,28 @@ export default {
         {
           name: '2018',
           data: [1200, 2200, 3200, 4200]
+        }
+      ],
+      highTech: [
+        {
+          name: '2015',
+          data: [1000, 2000, 3000, 4000],
+          stack: 'cnt'
+        },
+        {
+          name: '2016',
+          data: [1100, 2200, 3200, 4200],
+          stack: 'cnt'
+        },
+        {
+          name: '2017',
+          data: [1200, 2400, 3400, 4400],
+          stack: 'cnt'
+        },
+        {
+          name: '2018',
+          data: [1300, 2600, 3600, 4800],
+          stack: 'cnt'
         }
       ]
     }
