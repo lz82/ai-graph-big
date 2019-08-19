@@ -35,33 +35,33 @@ export default {
       option: {
         title: [{
           x: '12%',
-          bottom: 10,
+          bottom: '10px',
           text: this.left.title,
           textStyle: {
-            fontWeight: 'normal',
-            fontSize: 16,
+            fontWeight: 'border',
+            fontSize: 18,
             color: '#fff'
           },
           left: '17%'
         },
         {
           x: '42%',
-          bottom: 10,
+          bottom: '10px',
           text: this.middle.title,
           textStyle: {
-            fontWeight: 'normal',
-            fontSize: 16,
+            fontWeight: 'border',
+            fontSize: 18,
             color: '#fff'
           },
           left: '44%'
         },
         {
           x: '75%',
-          bottom: 10,
+          bottom: '10px',
           text: this.right.title,
           textStyle: {
-            fontWeight: 'normal',
-            fontSize: 16,
+            fontWeight: 'border',
+            fontSize: 18,
             color: '#fff'
           },
           left: '77%'

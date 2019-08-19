@@ -72,7 +72,7 @@ export default {
     }
     .content {
       flex: 1 1 auto;
-      margin-top: 20px;
+      margin-top: 10px;
     }
 
   }
