@@ -556,7 +556,9 @@ export default {
 
   mounted () {
     this.$nextTick(() => {
-      this.initChart()
+      setTimeout(() => {
+        this.initChart()
+      }, 300)
     })
   },
 
