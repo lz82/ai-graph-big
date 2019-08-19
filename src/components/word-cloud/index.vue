@@ -6,6 +6,7 @@
 
 <script>
 import 'echarts-wordcloud'
+import reportConfig from '@/config/report'
 
 export default {
   name: 'WordCloud',
@@ -36,8 +37,7 @@ export default {
                 // Color can be a callback function or a color string
                 color: function () {
                   // Random color
-                  const colorList = ['#f4e28f', '#8cecb9', '#49c5fe', '#e97383', '#7E48DA']
-                  return colorList[Math.floor(Math.random() * 5)]
+                  return reportConfig.colorList[Math.floor(Math.random() * 5)]
                 }
               }
             },

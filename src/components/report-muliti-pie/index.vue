@@ -45,7 +45,6 @@ export default {
               // show: true,
               position: 'center',
               formatter () {
-                console.log(that)
                 const a = that.percent
                 const b = that.title
                 return `{a|${a}}\n{b|${b}}`

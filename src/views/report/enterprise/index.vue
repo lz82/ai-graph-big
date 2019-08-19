@@ -16,7 +16,7 @@
           <div class="right">
             <report-line
               title="AI企业增速"
-              :num="[50, 70, 90, 120]"
+              :num="[200, 500, 700, 1000]"
             />
           </div>
         </div>
@@ -35,9 +35,16 @@
             />
           </div>
           <div class="right">
-            <report-line
+            <!-- <report-line
               title="AI企业增速"
-              :num="[120, 140, 200, 400]"
+              :num="[200, 500, 700, 1000]"
+            /> -->
+            <report-bar
+              title="AI企业增速"
+              height="220px"
+              :xaxis="[2017, 2018]"
+              :legend="domainList"
+              :series="creativeData"
             />
           </div>
         </div>
@@ -156,6 +163,7 @@ import ReportLine from '@/components/report-line'
 import ReportMap from '@/components/report-map'
 import ReportStackBar from '@/components/report-stack-bar'
 import ReportMulitiPie from '@/components/report-muliti-pie'
+import ReportBar from '@/components/report-bar'
 
 import Card from '@/components/report-card'
 
@@ -170,7 +178,8 @@ export default {
     ReportLine,
     ReportMap,
     ReportStackBar,
-    ReportMulitiPie
+    ReportMulitiPie,
+    ReportBar
   },
 
   data () {
@@ -211,6 +220,51 @@ export default {
           num: 800,
           other: 600,
           color: '#8cecb9'
+        }
+      ],
+      domainList: ['机器学习', '人机混合', '知识系统', '神经网络'],
+      bigData: [
+        {
+          name: '机器学习',
+          data: [1000, 1200, 1400, 1600]
+        },
+        {
+          name: '人机混合',
+          data: [1000, 1200, 1400, 1600]
+        },
+        {
+          name: '知识系统',
+          data: [1000, 1200, 1400, 1600]
+        },
+        {
+          name: '神经网络',
+          data: [1000, 1200, 1400, 1600]
+        },
+        {
+          name: '自然语言',
+          data: [1000, 1200, 1400, 1600]
+        },
+        {
+          name: '视觉技术',
+          data: [1000, 1200, 1400, 1600]
+        }
+      ],
+      creativeData: [
+        {
+          name: '机器学习',
+          data: [1000, 2000]
+        },
+        {
+          name: '人机混合',
+          data: [1200, 2200]
+        },
+        {
+          name: '知识系统',
+          data: [800, 2400]
+        },
+        {
+          name: '神经网络',
+          data: [1600, 2600]
         }
       ]
     }

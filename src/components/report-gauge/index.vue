@@ -189,7 +189,7 @@ export default {
             axisLine: {
               show: false,
               lineStyle: {
-                width: 20,
+                width: 10,
                 shadowBlur: 0,
                 color: [
                   [0.2, '#f4e28f'],
@@ -349,7 +349,7 @@ export default {
             axisLine: {
               show: false,
               lineStyle: {
-                width: 20,
+                width: 10,
                 shadowBlur: 0,
                 color: [
                   [0.2, '#f4e28f'],
@@ -507,7 +507,7 @@ export default {
             axisLine: {
               show: false,
               lineStyle: {
-                width: 20,
+                width: 10,
                 shadowBlur: 0,
                 color: [
                   [0.2, '#f4e28f'],
