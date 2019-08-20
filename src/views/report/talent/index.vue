@@ -106,6 +106,7 @@
             title="专家领域分布"
             width="100%"
           >
+            <report-timeline />
           </report-pannel>
         </div>
       </div>
@@ -193,6 +194,7 @@ import ReportGauge from '@/components/report-gauge'
 import ReportMulitiLine from '@/components/report-muliti-line'
 import ReportMulitiPie from '@/components/report-muliti-pie'
 import ReportStackBar from '@/components/report-stack-bar'
+import ReportTimeline from '@/components/report-timeline'
 import ReportPannel from './pannel'
 import WordCloud from '@/components/word-cloud'
 import ReportConfig from '@/config/report'
@@ -212,7 +214,8 @@ export default {
     WordCloud,
     ReportMulitiLine,
     ReportMulitiPie,
-    ReportStackBar
+    ReportStackBar,
+    ReportTimeline
   },
 
   data () {
@@ -337,6 +340,19 @@ export default {
           data: [100, 120, 150, 200, 310, 450]
         }
       ]
+    }
+  },
+
+  mounted () {
+    this.$nextTick(() => {
+      this.initChart()
+    })
+  },
+
+  methods: {
+    initChart () {
+      this.chart = this.$echarts.init(this.$refs.mychart)
+      this.chart.setOption(this.option)
     }
   }
 }
