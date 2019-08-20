@@ -5,6 +5,22 @@
 </template>
 
 <script>
+// const color = [
+//   [0.2, 'rgba(233, 115, 131, 0.2)'],
+//   [0.4, 'rgba(233, 115, 131, 0.4)'],
+//   [0.6, 'rgba(233, 115, 131, 0.6)'],
+//   [0.8, 'rgba(233, 115, 131, 0.8)'],
+//   [1, 'rgba(233, 115, 131, 1)']
+// ]
+
+const color = [
+  [0.2, 'rgba(140, 236, 185, 0.2)'],
+  [0.4, 'rgba(140, 236, 185, 0.4)'],
+  [0.6, 'rgba(140, 236, 185, 0.6)'],
+  [0.8, 'rgba(140, 236, 185, 0.8)'],
+  [1, 'rgba(140, 236, 185, 1)']
+]
+
 export default {
   name: 'ReportGauge',
 
@@ -42,7 +58,7 @@ export default {
             fontSize: 18,
             color: '#fff'
           },
-          left: '17%'
+          left: '15%'
         },
         {
           x: '42%',
@@ -53,7 +69,7 @@ export default {
             fontSize: 18,
             color: '#fff'
           },
-          left: '44%'
+          left: '42%'
         },
         {
           x: '75%',
@@ -64,7 +80,7 @@ export default {
             fontSize: 18,
             color: '#fff'
           },
-          left: '77%'
+          left: '75%'
         }
         ],
         tooltip: {
@@ -191,13 +207,7 @@ export default {
               lineStyle: {
                 width: 10,
                 shadowBlur: 0,
-                color: [
-                  [0.2, '#f4e28f'],
-                  [0.4, '#8cecb9'],
-                  [0.6, '#49c5fe'],
-                  [0.8, '#7E48DA'],
-                  [1, '#e97383']
-                ]
+                color: color
               }
             },
             axisTick: {
@@ -221,7 +231,7 @@ export default {
               offsetCenter: [0, '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 16
+                fontSize: 24
               }
             },
             itemStyle: {
@@ -351,13 +361,7 @@ export default {
               lineStyle: {
                 width: 10,
                 shadowBlur: 0,
-                color: [
-                  [0.2, '#f4e28f'],
-                  [0.4, '#8cecb9'],
-                  [0.6, '#49c5fe'],
-                  [0.8, '#7E48DA'],
-                  [1, '#e97383']
-                ]
+                color: color
               }
             },
             axisTick: {
@@ -379,7 +383,7 @@ export default {
               offsetCenter: ['10%', '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 16
+                fontSize: 24
               }
             },
             itemStyle: {
@@ -509,13 +513,7 @@ export default {
               lineStyle: {
                 width: 10,
                 shadowBlur: 0,
-                color: [
-                  [0.2, '#f4e28f'],
-                  [0.4, '#8cecb9'],
-                  [0.6, '#49c5fe'],
-                  [0.8, '#7E48DA'],
-                  [1, '#e97383']
-                ]
+                color: color
               }
             },
             axisTick: {
@@ -536,7 +534,7 @@ export default {
               show: true,
               offsetCenter: ['-20%', '60%'],
               textStyle: {
-                fontSize: 16
+                fontSize: 24
               },
               color: '#fff'
             },
