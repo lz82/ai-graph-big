@@ -1,6 +1,6 @@
 <template>
   <div class="report-muliti-line-wrapper">
-    <h3>{{ title }}</h3>
+    <h3 v-if="title">{{ title }}</h3>
     <div ref="mychart" :style="{width: width, height: height}"></div>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: false
     },
     width: {
       type: String,
@@ -37,6 +37,14 @@ export default {
     series: {
       type: Array,
       required: true
+    },
+    isstack: {
+      type: Boolean,
+      default: false
+    },
+    left: {
+      type: String,
+      default: '20px'
     }
   },
 
@@ -55,7 +63,7 @@ export default {
           itemHeight: 6
         },
         grid: {
-          left: '20px',
+          left: this.left,
           right: '20px',
           top: '30px',
           bottom: '10px',
@@ -81,7 +89,8 @@ export default {
             show: false
           },
           axisLabel: {
-            show: false
+            show: false,
+            color: '#fff'
           },
           axisTick: {
             show: false
@@ -108,7 +117,10 @@ export default {
         return {
           name: item.name,
           type: 'line',
-          stack: 'total',
+          stack: this.isstack ? 'total' : '',
+          smooth: true,
+          symbol: 'circle',
+          symbolSize: 8,
           data: item.data
         }
       })

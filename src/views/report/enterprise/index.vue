@@ -23,6 +23,7 @@
               height="195px"
               :legend="domainList"
               :series="bigData"
+              :isstack="true"
             />
           </div>
         </div>
@@ -179,6 +180,9 @@ import ReportMulitiLine from '@/components/report-muliti-line'
 import ReportBar from '@/components/report-bar'
 
 import Card from '@/components/report-card'
+import ReportConfig from '@/config/report'
+
+const { colorList } = ReportConfig
 
 export default {
   name: 'ReportEnterprise',
@@ -203,44 +207,44 @@ export default {
           title: '机器学习',
           num: 500,
           other: 600,
-          color: '#f4e28f'
+          color: colorList[0]
         },
         {
           title: '人机混合',
           num: 500,
           other: 800,
-          color: '#8cecb9'
+          color: colorList[1]
         },
         {
           title: '知识系统',
           num: 500,
           other: 900,
-          color: '#49c5fe'
+          color: colorList[2]
         },
         {
           title: '神经网络',
           num: 500,
           other: 1000,
-          color: '#e97383'
+          color: colorList[3]
         },
         {
           title: '自然语言',
           num: 500,
           other: 1100,
-          color: '#f4e28f'
+          color: colorList[4]
         },
         {
           title: '视觉技术',
           num: 800,
           other: 600,
-          color: '#8cecb9'
+          color: colorList[5]
         }
       ],
       domainList: ['机器学习', '人机混合', '知识系统', '神经网络'],
       bigData: [
         {
           name: '机器学习',
-          data: [1000, 1200, 1400, 1600]
+          data: [1000, 1600, 1800, 2600]
         },
         {
           name: '人机混合',

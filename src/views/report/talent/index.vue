@@ -13,14 +13,33 @@
       <div class="left-wrapper">
         <report-card
           title="论文增长"
+          width="100%"
           height="310px"
         >
+          <report-muliti-line
+            height="220px"
+            :legend="domainList"
+            :xaxis="['2014', '2015', '2016', '2017', '2018']"
+            :series="paperRateData"
+          />
         </report-card>
 
         <report-card
           title="论文分布"
+          width="100%"
           height="520px"
         >
+          <div class="muliti-pie-wrapper">
+            <report-muliti-pie
+              v-for="(item, index) in paperLocation"
+              :key="index"
+              class="pie"
+              :title="item.title"
+              :num="item.num"
+              :other="item.other"
+              :color="item.color"
+            />
+          </div>
         </report-card>
       </div>
       <div class="mid-wrapper">
@@ -152,8 +171,13 @@ import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import ReportCard from '@/components/report-card'
 import ReportGauge from '@/components/report-gauge'
+import ReportMulitiLine from '@/components/report-muliti-line'
+import ReportMulitiPie from '@/components/report-muliti-pie'
 import ReportPannel from './pannel'
 import WordCloud from '@/components/word-cloud'
+import ReportConfig from '@/config/report'
+
+const { colorList } = ReportConfig
 
 export default {
   name: 'ReportTalent',
@@ -165,11 +189,14 @@ export default {
     ReportPannel,
     ReportGauge,
     CountTo,
-    WordCloud
+    WordCloud,
+    ReportMulitiLine,
+    ReportMulitiPie
   },
 
   data () {
     return {
+      domainList: ['机器学习', '人机混合', '知识系统', '神经网络', '人脸识别', '声音识别'],
       expertGauge: {
         left: {
           title: '国外',
@@ -186,7 +213,72 @@ export default {
           max: 10000,
           num: 6000
         }
-      }
+      },
+      // '机器学习', '人机混合', '知识系统', '神经网络'
+      paperRateData: [
+        {
+          name: '机器学习',
+          data: [1000, 1600, 1800, 2600, 2800]
+        },
+        {
+          name: '人机混合',
+          data: [1000, 2200, 2400, 2600, 3000]
+        },
+        {
+          name: '知识系统',
+          data: [1200, 3300, 3400, 3600, 4000]
+        },
+        {
+          name: '神经网络',
+          data: [1400, 4200, 4400, 4600, 5000]
+        },
+        {
+          name: '人脸识别',
+          data: [1300, 3300, 3400, 3600, 4000]
+        },
+        {
+          name: '声音识别',
+          data: [4000, 4200, 4400, 4600, 5000]
+        }
+      ],
+      paperLocation: [
+        {
+          title: '机器学习',
+          num: 500,
+          other: 600,
+          color: colorList[0]
+        },
+        {
+          title: '人机混合',
+          num: 500,
+          other: 800,
+          color: colorList[1]
+        },
+        {
+          title: '知识系统',
+          num: 500,
+          other: 900,
+          color: colorList[2]
+        },
+        {
+          title: '神经网络',
+          num: 500,
+          other: 1000,
+          color: colorList[3]
+        },
+        {
+          title: '自然语言',
+          num: 500,
+          other: 1100,
+          color: colorList[4]
+        },
+        {
+          title: '视觉技术',
+          num: 800,
+          other: 600,
+          color: colorList[5]
+        }
+      ]
     }
   }
 }
@@ -225,18 +317,29 @@ export default {
       padding-top: 30px;
 
       .left-wrapper {
-        flex: 0 0 450px;
+        flex: 0 0 32%;
+
+        .muliti-pie-wrapper {
+          display: flex;
+          flex-flow: row wrap;
+
+          .pie {
+            flex: 0 0 23%;
+            margin-bottom: 10px;
+            margin-right: 8px;
+          }
+        }
       }
 
       .mid-wrapper {
-        flex: 0 0 660px;
+        flex: 0 0 32%;
         height: 100%;
         display: flex;
         flex-flow: column nowrap;
       }
 
       .right-wrapper {
-        flex: 0 0 670px;
+        flex: 0 0 32%;
         height: 100%;
       }
 
