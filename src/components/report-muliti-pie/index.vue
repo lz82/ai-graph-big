@@ -1,7 +1,7 @@
 <template>
   <div class="report-muliti-pie-wrapper">
-    <div id="chart" ref="mychart" style="width: 80px; height: 80px;"></div>
-    <h3>{{num}}</h3>
+    <div id="chart" ref="mychart" :style="{width: width, height: height}"></div>
+    <h3 :style="{fontSize: numsize}">{{num}}</h3>
   </div>
 </template>
 
@@ -24,6 +24,26 @@ export default {
     },
     color: {
       type: String
+    },
+    width: {
+      type: String,
+      default: '80px'
+    },
+    height: {
+      type: String,
+      default: '80px'
+    },
+    titlesize: {
+      type: Number,
+      default: 12
+    },
+    percentsize: {
+      type: Number,
+      default: 16
+    },
+    numsize: {
+      type: String,
+      default: '16px'
     }
   },
 
@@ -52,12 +72,11 @@ export default {
               rich: {
                 a: {
                   color: '#fff',
-                  fontSize: 16
-                  // fontWeight: 'border'
+                  fontSize: this.percentsize
                 },
                 b: {
                   color: '#fff',
-                  fontSize: 12
+                  fontSize: this.titlesize
                 }
               }
             }
@@ -98,7 +117,6 @@ export default {
      align-items: center;
      h3 {
        padding: 10px;
-       font-size: 16px;
        font-weight: 700;
      }
   }

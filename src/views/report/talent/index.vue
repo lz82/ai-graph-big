@@ -38,6 +38,11 @@
               :num="item.num"
               :other="item.other"
               :color="item.color"
+              width="170px"
+              height="170px"
+              :titlesize="18"
+              :percentsize="24"
+              numsize="28px"
             />
           </div>
         </report-card>
@@ -324,9 +329,9 @@ export default {
           flex-flow: row wrap;
 
           .pie {
-            flex: 0 0 23%;
+            flex: 0 0 30%;
             margin-bottom: 10px;
-            margin-right: 8px;
+            margin-right: 10px;
           }
         }
       }
