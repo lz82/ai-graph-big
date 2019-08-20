@@ -49,6 +49,10 @@ export default {
     empty: {
       type: Boolean,
       default: false
+    },
+    legendsize: {
+      type: Number,
+      default: 10
     }
   },
 
@@ -61,7 +65,7 @@ export default {
           data: this.legend,
           textStyle: {
             color: 'rgba(255, 255, 255, 0.7)',
-            fontSize: 8
+            fontSize: this.legendsize
           },
           itemWidth: 10,
           itemHeight: 6

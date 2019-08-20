@@ -163,13 +163,20 @@
           width="100%"
           height="660px"
         >
-          <report-muliti-line
-            height="260px"
-            :legend="patentList"
-            :xaxis="['2014', '2015', '2016', '2017', '2018']"
-            :series="patentRateList"
-            :empty="true"
-          />
+        <div class="patent-wrappr">
+            <report-muliti-line
+              height="260px"
+              :legend="patentList"
+              :xaxis="['2014', '2015', '2016', '2017', '2018']"
+              :series="patentRateList"
+              :empty="true"
+            />
+            <report-stack-bar
+              :xaxis="domainList"
+              :series="patentDomainList"
+              height="280px"
+            />
+          </div>
         </report-card>
       </div>
     </div>
@@ -185,6 +192,7 @@ import ReportCard from '@/components/report-card'
 import ReportGauge from '@/components/report-gauge'
 import ReportMulitiLine from '@/components/report-muliti-line'
 import ReportMulitiPie from '@/components/report-muliti-pie'
+import ReportStackBar from '@/components/report-stack-bar'
 import ReportPannel from './pannel'
 import WordCloud from '@/components/word-cloud'
 import ReportConfig from '@/config/report'
@@ -203,7 +211,8 @@ export default {
     CountTo,
     WordCloud,
     ReportMulitiLine,
-    ReportMulitiPie
+    ReportMulitiPie,
+    ReportStackBar
   },
 
   data () {
@@ -313,6 +322,20 @@ export default {
           name: '特定模型的计算机系统',
           data: [1300, 3300, 3400, 3600, 4000]
         }
+      ],
+      patentDomainList: [
+        {
+          name: '2016',
+          data: [100, 120, 150, 200, 170, 320]
+        },
+        {
+          name: '2017',
+          data: [100, 120, 150, 200, 180, 400]
+        },
+        {
+          name: '2018',
+          data: [100, 120, 150, 200, 310, 450]
+        }
       ]
     }
   }
@@ -376,13 +399,20 @@ export default {
       .right-wrapper {
         flex: 0 0 32%;
         height: 100%;
+
+        .patent-wrappr {
+          display: flex;
+          height: 100%;
+          flex-flow: column nowrap;
+          justify-content: space-between;
+        }
       }
 
       .statistic-wrapper {
           display: flex;
           flex-flow: row nowrap;
           height: 100%;
-          justify-content: space-around;
+          justify-content: space-between;
           align-items: center;
 
           p {

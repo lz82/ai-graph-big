@@ -1,12 +1,41 @@
 <template>
   <div class="report-stack-bar-wrapper">
-    <div id="chart" ref="mychart" style="width: 100%; height: 170px;"></div>
+    <div id="chart" ref="mychart" :style="{width: width, height: height}"></div>
   </div>
 </template>
 
 <script>
+import ReportConfig from '@/config/report'
+
 export default {
   name: 'ReportStackBar',
+
+  props: {
+    width: {
+      type: String,
+      default: '100%'
+    },
+    height: {
+      type: String,
+      default: '170px'
+    },
+    legend: {
+      type: Array,
+      default () {
+        return ['2016', '2017', '2018']
+      }
+    },
+    xaxis: {
+      type: Array,
+      default () {
+        return ['机器学习', '语言识别', 'AR技术', '人脸识别']
+      }
+    },
+    series: {
+      type: Array,
+      required: true
+    }
+  },
 
   data () {
     return {
@@ -19,7 +48,7 @@ export default {
           bottom: '20px'
         },
         legend: {
-          data: ['2016', '2017', '2018'],
+          data: this.legend,
           textStyle: {
             color: '#fff'
           }
@@ -36,7 +65,7 @@ export default {
             axisLine: {
               show: false
             },
-            data: ['机器学习', '语言识别', 'AR技术', '人脸识别']
+            data: this.xaxis
           }
         ],
         yAxis: [
@@ -56,40 +85,8 @@ export default {
             }
           }
         ],
-        series: [
-          {
-            name: '2016',
-            type: 'bar',
-            stack: 'AI',
-            label: {
-              show: false,
-              formatter: '{a}'
-            },
-            data: [100, 120, 150, 200]
-          },
-          {
-            name: '2017',
-            type: 'bar',
-            stack: 'AI',
-            label: {
-              show: false,
-              formatter: '{a}'
-            },
-            data: [100, 120, 150, 200]
-          },
-          {
-            name: '2018',
-            type: 'bar',
-            stack: 'AI',
-            label: {
-              show: false,
-              formatter: '{a}'
-            },
-            barWidth: '35px',
-            data: [100, 120, 150, 200]
-          }
-        ],
-        color: ['#4b6ff4', '#efe18b', '#e66f8d']
+        series: [],
+        color: ReportConfig.colorList
       }
     }
   },
@@ -103,6 +100,19 @@ export default {
   methods: {
     initChart () {
       this.chart = this.$echarts.init(this.$refs.mychart)
+      this.option.series = this.series.map(item => {
+        return {
+          name: item.name,
+          type: 'bar',
+          stack: 'total',
+          label: {
+            show: true,
+            formatter: '{c}'
+          },
+          barWidth: '35px',
+          data: item.data
+        }
+      })
       this.chart.setOption(this.option)
     }
   }

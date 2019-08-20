@@ -22,6 +22,7 @@
               title="AI企业增速"
               height="195px"
               :legend="domainList"
+              :legendsize="8"
               :series="bigData"
               :isstack="true"
             />
@@ -106,7 +107,9 @@
             height="250px"
             style="margin-top: 10px;"
           >
-            <report-stack-bar />
+            <report-stack-bar
+              :series="aiAddRate"
+            />
           </Card>
 
           <Card
@@ -289,6 +292,20 @@ export default {
           name: '2018',
           data: [1300, 2600, 3600, 4800],
           stack: 'cnt'
+        }
+      ],
+      aiAddRate: [
+        {
+          name: '2016',
+          data: [100, 120, 150, 200]
+        },
+        {
+          name: '2017',
+          data: [100, 120, 150, 200]
+        },
+        {
+          name: '2018',
+          data: [100, 120, 150, 200]
         }
       ]
     }
