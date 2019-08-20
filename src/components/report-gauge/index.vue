@@ -231,7 +231,8 @@ export default {
               offsetCenter: [0, '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 24
+                fontSize: 24,
+                fontWeight: 700
               }
             },
             itemStyle: {
@@ -384,7 +385,8 @@ export default {
               offsetCenter: ['10%', '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 24
+                fontSize: 24,
+                fontWeight: 700
               }
             },
             itemStyle: {
@@ -536,7 +538,8 @@ export default {
               show: true,
               offsetCenter: ['-20%', '60%'],
               textStyle: {
-                fontSize: 24
+                fontSize: 24,
+                fontWeight: 700
               },
               color: '#fff'
             },
