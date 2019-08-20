@@ -21,8 +21,8 @@ export default {
             shape: 'star',
             left: 'center',
             top: 'center',
-            width: '70%',
-            height: '80%',
+            width: '90%',
+            height: '90%',
             right: null,
             bottom: null,
             sizeRange: [12, 60],
@@ -37,11 +37,43 @@ export default {
                 // Color can be a callback function or a color string
                 color: function () {
                   // Random color
-                  return reportConfig.colorList[Math.floor(Math.random() * 5)]
+                  return reportConfig.colorList[Math.floor(Math.random() * 6)]
                 }
               }
             },
             data: [
+              {
+                name: '机22器学习',
+                value: 366
+              },
+              {
+                name: '人脸22识别',
+                value: 66
+              },
+              {
+                name: '声音22识别',
+                value: 366
+              },
+              {
+                name: '学习22系统',
+                value: 123
+              },
+              {
+                name: 'AlphaGo22',
+                value: 787
+              },
+              {
+                name: '智能22音箱',
+                value: 156
+              },
+              {
+                name: '无人22驾驶',
+                value: 123
+              },
+              {
+                name: '智轨22列车',
+                value: 345
+              },
               {
                 name: '机器学习',
                 value: 366
@@ -88,6 +120,26 @@ export default {
               },
               {
                 name: 'AR技术',
+                value: 155
+              },
+              {
+                name: '智轨列车',
+                value: 345
+              },
+              {
+                name: '3D1打印',
+                value: 56
+              },
+              {
+                name: '天使1粒子',
+                value: 23
+              },
+              {
+                name: '新1引力波',
+                value: 234
+              },
+              {
+                name: 'AR1技术',
                 value: 155
               }
             ]

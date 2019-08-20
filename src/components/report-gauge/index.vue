@@ -54,7 +54,7 @@ export default {
           bottom: '10px',
           text: this.left.title,
           textStyle: {
-            fontWeight: 'border',
+            // fontWeight: 'border',
             fontSize: 18,
             color: '#fff'
           },
@@ -65,18 +65,18 @@ export default {
           bottom: '10px',
           text: this.middle.title,
           textStyle: {
-            fontWeight: 'border',
+            // fontWeight: 'border',
             fontSize: 18,
             color: '#fff'
           },
-          left: '42%'
+          left: '43%'
         },
         {
           x: '75%',
           bottom: '10px',
           text: this.right.title,
           textStyle: {
-            fontWeight: 'border',
+            // fontWeight: 'border',
             fontSize: 18,
             color: '#fff'
           },
@@ -91,7 +91,7 @@ export default {
             // 中间外部刻度
             type: 'gauge',
             center: ['50%', '55%'], // 默认全局居中
-            radius: '80%',
+            radius: '90%',
             splitNumber: 10, // 刻度数量
             min: 0,
             max: this.middle.max || 10000,
@@ -126,10 +126,10 @@ export default {
             },
             axisLabel: {
               show: true,
-              distance: -40,
+              distance: -30,
               textStyle: {
                 color: '#4b6ff4',
-                fontSize: '15',
+                fontSize: 12,
                 fontWeight: 'bold'
               },
               formatter (val) {
@@ -157,7 +157,7 @@ export default {
             endAngle: -20,
             type: 'gauge',
             center: ['50%', '55%'], // 默认全局居中
-            radius: '70%',
+            radius: '80%',
             min: 0,
             max: this.middle.max || 10000,
             splitNumber: 0,
@@ -198,7 +198,7 @@ export default {
             type: 'gauge',
             startAngle: 200,
             endAngle: -20,
-            radius: '50%',
+            radius: '70%',
             center: ['50%', '55%'], // 默认全局居中
             min: 0,
             max: this.middle.max || 10000,
@@ -231,7 +231,7 @@ export default {
               offsetCenter: [0, '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 24,
+                fontSize: 30,
                 fontWeight: 700
               }
             },
@@ -250,7 +250,7 @@ export default {
             // left外圈
             type: 'gauge',
             center: ['20%', '55%'], // 默认全局居中
-            radius: '70%',
+            radius: '80%',
             splitNumber: 10, // 刻度数量
             min: 0,
             max: this.left.max || 10000,
@@ -287,7 +287,7 @@ export default {
               distance: -40,
               textStyle: {
                 color: '#4b6ff4',
-                fontSize: '14',
+                fontSize: 12,
                 fontWeight: 'bold'
               },
               formatter (val) {
@@ -313,7 +313,7 @@ export default {
             // left白线
             type: 'gauge',
             center: ['20%', '55%'], // 默认全局居中
-            radius: '60%',
+            radius: '70%',
             min: 0,
             max: this.left.max || 10000,
             endAngle: 45,
@@ -354,7 +354,7 @@ export default {
             name: 'left',
             type: 'gauge',
             endAngle: 45,
-            radius: '50%',
+            radius: '60%',
             center: ['20%', '55%'], // 默认全局居中
             min: 0,
             max: this.left.max || 10000,
@@ -385,7 +385,7 @@ export default {
               offsetCenter: ['10%', '60%'],
               color: '#fff',
               textStyle: {
-                fontSize: 24,
+                fontSize: 30,
                 fontWeight: 700
               }
             },
@@ -403,7 +403,7 @@ export default {
             // right外圈
             type: 'gauge',
             center: ['80%', '55%'], // 默认全局居中
-            radius: '70%',
+            radius: '80%',
             splitNumber: 10, // 刻度数量
             min: 0,
             max: this.right.max || 10000,
@@ -440,7 +440,7 @@ export default {
               distance: -30,
               textStyle: {
                 color: '#4b6ff4',
-                fontSize: '15',
+                fontSize: 12,
                 fontWeight: 'bold'
               },
               formatter (val) {
@@ -465,7 +465,7 @@ export default {
             // right白线
             type: 'gauge',
             center: ['80%', '55%'], // 默认全局居中
-            radius: '60%',
+            radius: '70%',
             min: 0,
             max: this.right.max || 10000,
             startAngle: 140,
@@ -508,7 +508,7 @@ export default {
             type: 'gauge',
             startAngle: 140,
             endAngle: -45,
-            radius: '50%',
+            radius: '60%',
             center: ['80%', '55%'], // 默认全局居中
             min: 0,
             max: this.right.max || 10000,
@@ -538,7 +538,7 @@ export default {
               show: true,
               offsetCenter: ['-20%', '60%'],
               textStyle: {
-                fontSize: 24,
+                fontSize: 30,
                 fontWeight: 700
               },
               color: '#fff'
