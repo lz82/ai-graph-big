@@ -163,6 +163,13 @@
           width="100%"
           height="660px"
         >
+          <report-muliti-line
+            height="260px"
+            :legend="patentList"
+            :xaxis="['2014', '2015', '2016', '2017', '2018']"
+            :series="patentRateList"
+            :empty="true"
+          />
         </report-card>
       </div>
     </div>
@@ -202,6 +209,7 @@ export default {
   data () {
     return {
       domainList: ['机器学习', '人机混合', '知识系统', '神经网络', '人脸识别', '声音识别'],
+      patentList: ['电数字数据处理', '数字信息的传输', '图像通信', '图像数据处理或产生', '特定模型的计算机系统'],
       expertGauge: {
         left: {
           title: '国外',
@@ -282,6 +290,28 @@ export default {
           num: 800,
           other: 600,
           color: colorList[5]
+        }
+      ],
+      patentRateList: [
+        {
+          name: '电数字数据处理',
+          data: [1000, 1600, 1800, 2600, 2800]
+        },
+        {
+          name: '数字信息的传输',
+          data: [1000, 2200, 2400, 2600, 3000]
+        },
+        {
+          name: '图像通信',
+          data: [1200, 3300, 3400, 3600, 4000]
+        },
+        {
+          name: '图像数据处理或产生',
+          data: [1400, 4200, 4400, 4600, 5000]
+        },
+        {
+          name: '特定模型的计算机系统',
+          data: [1300, 3300, 3400, 3600, 4000]
         }
       ]
     }

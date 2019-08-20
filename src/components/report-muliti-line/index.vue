@@ -45,6 +45,10 @@ export default {
     left: {
       type: String,
       default: '20px'
+    },
+    empty: {
+      type: Boolean,
+      default: false
     }
   },
 
@@ -113,13 +117,21 @@ export default {
   methods: {
     initChart () {
       this.chart = this.$echarts.init(this.$refs.mychart)
-      this.option.series = this.series.map(item => {
+      this.option.series = this.series.map((item, index) => {
         return {
           name: item.name,
           type: 'line',
           stack: this.isstack ? 'total' : '',
           smooth: true,
-          symbol: 'circle',
+          symbol: this.empty ? 'emptyCircle' : 'circle', // 'circle',
+          itemStyle: {
+            borderColor: reportConfig.colorList[index]
+            // color: this.empty ? '#0F162D' : reportConfig.colorList[index]
+            // opacity: 0.5
+          },
+          lineStyle: {
+            color: reportConfig.colorList[index]
+          },
           symbolSize: 8,
           data: item.data
         }
