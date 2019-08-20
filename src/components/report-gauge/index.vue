@@ -239,6 +239,7 @@ export default {
                 color: '#fff'
               }
             },
+            animationDuration: 3000,
             data: [{
               value: this.middle.num
             }]
@@ -391,6 +392,7 @@ export default {
                 color: '#fff'
               }
             },
+            animationDuration: 3000,
             data: [{
               value: this.left.num
             }]
@@ -543,6 +545,7 @@ export default {
                 color: '#fff'
               }
             },
+            animationDuration: 3000,
             data: [{
               value: this.right.num
             }]
