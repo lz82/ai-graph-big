@@ -50,7 +50,7 @@ export default {
       //   },
       //   duration: 1000
       // })
-      document.getElementById('video').pause()
+      // document.getElementById('video').pause()
       anime.timeline({
         targets: '.mask',
         easing: 'linear'
@@ -66,8 +66,11 @@ export default {
         //   duration: 300
         // }, 400)
         .add({
-          scale: {
-            value: [1, 0]
+          // scale: {
+          //   value: [1, 0]
+          // }
+          translateX: {
+            value: [0, '-100%']
           }
         })
       this.isShow = false
@@ -93,14 +96,17 @@ export default {
           const now = new Date() - 0
 
           if (now - this.lastTime > 1000 * 60 * 30) {
-            document.getElementById('video').play()
+            // document.getElementById('video').play()
             anime.timeline({
               targets: '.mask',
               easing: 'cubicBezier(.5, .05, .1, .3)'
             })
               .add({
-                scale: {
-                  value: [0, 1]
+                // scale: {
+                //   value: [0, 1]
+                // }
+                translateX: {
+                  value: ['-100%', 0]
                 }
               })
               // .add({
@@ -129,11 +135,11 @@ export default {
 
   watch: {
     $route (to, from) {
-      // if (to.meta.path.includes(from.meta.path)) {
+      if (to.meta.path.includes(from.meta.path)) {
       this.transitionName = 'slide-right'
-      // } else {
-      // this.transitionName = 'slide-left'
-      // }
+      } else {
+      this.transitionName = 'slide-left'
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="liquidfill-wrapper">
     <h3>{{ title }}</h3>
-    <div id="chart" ref="mychart" style="width: 100%; height: 100%;"></div>
+    <div id="chart" ref="mychart" style="width: 100%; height: 80%;"></div>
   </div>
 </template>
 
