@@ -56,6 +56,10 @@ export default {
           {
             type: 'pie',
             name: '占比',
+            hoverAnimation: false,
+            animation: true,
+            animationDuration: 2000,
+            selectedMode: false,
             radius: ['70%', '100%'],
             data: [
               { name: '机器学习', value: this.num },
