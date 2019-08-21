@@ -36,9 +36,11 @@ export default {
             type: 'graph',
             layout: 'force',
             force: {
-              initLayout: 'circular',
-              repulsion: 1000,
-              edgeLength: 250,
+              // initLayout: 'circular',
+              repulsion: 200,
+              gravity: 0.02,
+              layoutAnimation: 1000,
+              edgeLength: [250, 360],
               focusNodeAdjacency: true
             },
             roam: false,
@@ -50,6 +52,10 @@ export default {
             data: [
               {
                 name: 'AI投资总额',
+                x: 500,
+                y: 450,
+                fixed: true,
+                value: '1000万',
                 symbolSize: 220,
                 draggable: true,
                 category: 0,
@@ -72,8 +78,8 @@ export default {
               },
               {
                 name: '汽车交通',
-                symbolSize: 200,
-                draggable: true,
+                symbolSize: 150,
+                // draggable: true,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[1],
@@ -93,7 +99,7 @@ export default {
               },
               {
                 name: '游戏',
-                symbolSize: 200,
+                symbolSize: 150,
                 category: 1,
                 itemStyle: {
                   normal: {
@@ -114,7 +120,7 @@ export default {
               },
               {
                 name: '电子商务',
-                symbolSize: 210,
+                symbolSize: 150,
                 category: 1,
                 itemStyle: {
                   normal: {
@@ -156,7 +162,7 @@ export default {
               },
               {
                 name: '社交网络',
-                symbolSize: 200,
+                symbolSize: 150,
                 category: 2,
                 itemStyle: {
                   normal: {
@@ -177,7 +183,7 @@ export default {
               }
               // {
               //   name: '医疗健康',
-              //   symbolSize: 80,
+              //   symbolSize: 150,
               //   category: 2,
               //   itemStyle: {
               //     normal: {
@@ -188,11 +194,10 @@ export default {
               //       color: '#001c43'
               //     }
               //   }
-
               // },
               // {
               //   name: '教育',
-              //   symbolSize: 80,
+              //   symbolSize: 150,
               //   itemStyle: {
               //     normal: {
               //       borderColor: '#82dffe',
@@ -202,13 +207,11 @@ export default {
               //       color: '#001c43'
 
               //     }
-              //   },
-              //   category: 2
-
+              //   }
               // },
               // {
               //   name: '物流',
-              //   symbolSize: 80,
+              //   symbolSize: 180,
               //   itemStyle: {
               //     normal: {
               //       borderColor: '#82dffe',
@@ -217,44 +220,49 @@ export default {
               //       shadowColor: '#04f2a7',
               //       color: '#001c43'
               //     }
-              //   },
-              //   category: 2
-
+              //   }
               // }
             ],
             links: [
               {
                 source: 'AI投资总额',
-                target: '汽车交通'
-
+                target: '汽车交通',
+                value: 400
               },
               {
                 source: 'AI投资总额',
-                target: '游戏'
+                target: '游戏',
+                value: 150
               },
               {
                 source: 'AI投资总额',
-                target: '电子商务'
+                target: '电子商务',
+                value: 100
               },
               {
                 source: 'AI投资总额',
-                target: '硬件'
+                target: '硬件',
+                value: 100
               },
               {
                 source: 'AI投资总额',
-                target: '社交网络'
+                target: '社交网络',
+                value: 100
               },
               {
                 source: 'AI投资总额',
-                target: '医疗健康'
+                target: '医疗健康',
+                value: 100
               },
               {
                 source: 'AI投资总额',
-                target: '教育'
+                target: '教育',
+                value: 100
               },
               {
                 source: 'AI投资总额',
-                target: '物流'
+                target: '物流',
+                value: 100
               }
             ],
             lineStyle: {
