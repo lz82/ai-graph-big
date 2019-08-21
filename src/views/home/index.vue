@@ -182,27 +182,27 @@ export default {
         {
           // 成果奖项
           img: tagAward,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 科技企业
           img: tagEnterprise,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 专家
           img: tagExpert,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 投资机构
           img: tagInvest,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 新闻头条
           img: tagNews,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 论文
@@ -212,22 +212,22 @@ export default {
         {
           // 专利
           img: tagPatent,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 政策
           img: tagPolicy,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 立项项目
           img: tagProject,
-          url: '/category'
+          url: '/search/吴恩达'
         },
         {
           // 标准
           img: tagTrade,
-          url: '/category'
+          url: '/search/吴恩达'
         }
       ]
     }

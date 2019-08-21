@@ -8,9 +8,9 @@
           <div class="left">
             <Liquidfill
               title="AI企业总数及占比"
-              :data="0.28"
-              num="28%"
-              :cnt="23"
+              :data="0.17"
+              num="17.22%"
+              :cnt="31"
             />
           </div>
           <div class="right">
@@ -37,9 +37,9 @@
           <div class="left">
             <Liquidfill
               title="AI企业总数及占比"
-              :data="0.58"
-              num="58%"
-              :cnt="6"
+              :data="0.1"
+              num="9.66%"
+              :cnt="169"
             />
           </div>
           <div class="right">
@@ -68,9 +68,9 @@
           <div class="left">
             <Liquidfill
               title="AI企业总数及占比"
-              :data="0.78"
-              num="78%"
-              :cnt="247"
+              :data="0.12"
+              num="11.26%"
+              :cnt="417"
             />
           </div>
           <div class="right">
@@ -141,28 +141,28 @@
                 <span>2018</span>
               </div>
               <div class="row">
-                <span>技术资讯</span>
-                <span>15%</span>
-                <span>25%</span>
-                <span>35%</span>
+                <span>技术咨询</span>
+                <span>6.99%</span>
+                <span>5.75%</span>
+                <span>5.83%</span>
               </div>
               <div class="row">
                 <span>技术开发</span>
-                <span>18%</span>
-                <span>28%</span>
-                <span>38%</span>
+                <span>8.32%</span>
+                <span>8.06%</span>
+                <span>7.62%</span>
               </div>
               <div class="row">
                 <span>技术服务</span>
-                <span>35%</span>
-                <span>45%</span>
-                <span>55%</span>
+                <span>7.62%</span>
+                <span>7.01%</span>
+                <span>5.81%</span>
               </div>
               <div class="row">
                 <span>技术转让</span>
-                <span>48%</span>
-                <span>55%</span>
-                <span>67%</span>
+                <span>10.28%</span>
+                <span>8.48%</span>
+                <span>8.7%</span>
               </div>
             </div>
           </Card>
@@ -207,105 +207,105 @@ export default {
     return {
       mulitiPieList: [
         {
-          title: '机器学习',
-          num: 500,
-          other: 600,
+          title: 'AI基础',
+          num: 12481,
+          other: 24149,
           color: colorList[0]
         },
         {
           title: '人机混合',
-          num: 500,
-          other: 800,
+          num: 2900,
+          other: 33730,
           color: colorList[1]
         },
         {
-          title: '知识系统',
-          num: 500,
-          other: 900,
+          title: '机器学习',
+          num: 5521,
+          other: 31109,
           color: colorList[2]
         },
         {
           title: '神经网络',
-          num: 500,
-          other: 1000,
+          num: 2671,
+          other: 33959,
           color: colorList[3]
         },
         {
           title: '自然语言',
-          num: 500,
-          other: 1100,
+          num: 4456,
+          other: 32174,
           color: colorList[4]
         },
         {
           title: '视觉技术',
-          num: 800,
-          other: 600,
+          num: 8601,
+          other: 28029,
           color: colorList[5]
         }
       ],
-      domainList: ['机器学习', '人机混合', '知识系统', '神经网络'],
+      domainList: ['AI基础', '人机混合', '机器学习', '视觉技术'],
       bigData: [
         {
-          name: '机器学习',
-          data: [1000, 1600, 1800, 2600]
+          name: 'AI基础',
+          data: [15, 23, 12, 20]
         },
         {
           name: '人机混合',
-          data: [1000, 1200, 1400, 1600]
+          data: [6, 7, 1, 7]
         },
         {
-          name: '知识系统',
-          data: [1000, 1200, 1400, 1600]
+          name: '机器学习',
+          data: [8, 13, 5, 9]
         },
         {
-          name: '神经网络',
-          data: [1000, 1200, 1400, 1600]
+          name: '视觉技术',
+          data: [13, 19, 8, 12]
         }
       ],
       creativeData: [
         {
           name: '2017',
-          data: [1000, 2000, 3000, 4000]
+          data: [98, 16, 32, 52]
         },
         {
           name: '2018',
-          data: [1200, 2200, 3200, 4200]
+          data: [103, 19, 27, 58]
         }
       ],
       highTech: [
         {
           name: '2015',
-          data: [1000, 2000, 3000, 4000],
+          data: [101, 25, 55, 85],
           stack: 'cnt'
         },
         {
           name: '2016',
-          data: [1100, 2200, 3200, 4200],
+          data: [219, 69, 92, 143],
           stack: 'cnt'
         },
         {
           name: '2017',
-          data: [1200, 2400, 3400, 4400],
+          data: [291, 87, 164, 196],
           stack: 'cnt'
         },
         {
           name: '2018',
-          data: [1300, 2600, 3600, 4800],
+          data: [237, 55, 97, 140],
           stack: 'cnt'
         }
       ],
       aiAddRate: [
         {
           name: '2016',
-          data: [100, 120, 150, 200]
+          data: [7898, 5668, 4552, 3554]
         },
         {
           name: '2017',
-          data: [100, 120, 150, 200]
+          data: [9889, 4059, 5559, 7078]
         },
         {
           name: '2018',
-          data: [100, 120, 150, 200]
+          data: [12481, 2900, 5521, 8061]
         }
       ]
     }
@@ -390,6 +390,11 @@ export default {
           justify-content: space-around;
           align-items: center;
           line-height: 30px;
+          span {
+            // display: flex;
+            flex: 0 0 25%;
+            text-align: center;
+          }
         }
         .header {
           border-bottom: solid 3px #495377;
