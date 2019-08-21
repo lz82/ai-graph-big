@@ -8,6 +8,14 @@
 <script>
 import 'echarts/map/js/china'
 
+const mapData = [
+  { name: '北京', value: [116.46, 39.92, 2] },
+  { name: '新疆', value: [87.617733, 43.792818, 3] },
+  { name: '河南', value: [113.665412, 34.757975, 4] },
+  { name: '浙江', value: [120.153576, 30.287459, 5] },
+  { name: '广东', value: [113.280637, 23.125178, 6] }
+]
+
 export default {
   name: 'ReportMap',
 
@@ -26,13 +34,6 @@ export default {
         { name: '河南', value: 137 },
         { name: '浙江', value: 114 },
         { name: '广东', value: 123 }
-      ],
-      mapData: [
-        { name: '北京', value: [116.46, 39.92, 2] },
-        { name: '新疆', value: [87.617733, 43.792818, 3] },
-        { name: '河南', value: [113.665412, 34.757975, 4] },
-        { name: '浙江', value: [120.153576, 30.287459, 5] },
-        { name: '广东', value: [113.280637, 23.125178, 6] }
       ],
       geoCoordMap: {},
       option: {
@@ -62,7 +63,14 @@ export default {
           name: '散点',
           type: 'scatter',
           coordinateSystem: 'geo',
-          data: this.mapData,
+          data: mapData,
+          // data: [
+          //   { name: '北京', value: [116.46, 39.92, 2] },
+          //   { name: '新疆', value: [87.617733, 43.792818, 3] },
+          //   { name: '河南', value: [113.665412, 34.757975, 4] },
+          //   { name: '浙江', value: [120.153576, 30.287459, 5] },
+          //   { name: '广东', value: [113.280637, 23.125178, 6] }
+          // ],
           symbolSize: 24,
           geoIndex: 0,
           // symbolSize: function (val) {

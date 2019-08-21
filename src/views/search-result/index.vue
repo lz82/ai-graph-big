@@ -1,84 +1,23 @@
 <template>
     <div class="search-layout-wrapper">
       <div class="side-bar side-left">
+        <h2 class='comm-title'>{{title}}信息</h2>
         <!-- expert info -->
-        <expert-info></expert-info>
+        <expert-info v-if="isExpert()"></expert-info>
         <!-- tab bar  -->
-        <transition :name="transitionName">
-          <tab-bar></tab-bar>
-        </transition>
-        <!-- tab con -->
-        <div class="tabConWrap">
-            <div class="conItem">
-              <!-- 论文 -->
-              <ul v-if="showPaper">
-                <li>
-                  <h3>1、互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-                 <li>
-                  <h3>互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-              </ul>
-             <!-- <paper-list v-if="showPaper"></paper-list> -->
-              <!-- 专利 -->
-              <ul v-if="showPatent">
-                <li>
-                  <h3>2、互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-                 <li>
-                  <h3>互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-              </ul>
-              <!-- 标准 -->
-              <ul v-if="showStandard">
-                <li>
-                  <h3>3、互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-                 <li>
-                  <h3>互联网时代中职计算机网络课程教学模式探索</h3>
-                  <p><span>专利权人：xxx</span> <span>分类号：G06</span></p>
-                  <div class="remark">
-                    摘要：下一些过去沿用的授课模式受到冲击,在中式受到冲击,在中职的多的问题逐渐暴露看了......
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <tab-bar v-bind:class="{'tab-wrap-expert':isExpert(),'tab-wrap-key':!isExpert()}"></tab-bar>
       </div>
       <div class="main-wrap">
         <header>
             <page-header
-              title="知识图谱xx"
+              title="知识图谱"
               class="title"
             />
           </header>
           <know-graph></know-graph>
       </div>
       <div class="side-right">
-        <div class="btn">
-          <span>返回</span>
-          <span>回到首页</span>
-        </div>
+        <btn-group></btn-group>
         <div class="side-bar side-right-con">
           <!-- 同领域专家 -->
           <expert-pannel></expert-pannel>
@@ -109,20 +48,21 @@ import ExpertRec from './component/pannel-expert-rec'
 import ExpertPannel from './component/pannel-expert'
 import TechPannel from './component/pannel-tech'
 import OrgPannel from './component/pannel-org'
-// import PaperList from './component/list-paper'
+import BtnGroup from '@/components/btn-group'
+import { searchApi } from '@/service'
 export default {
   name: 'SearchResult',
   components: {
     PageHeader,
     ExpertInfo,
     TabBar,
-    // PaperList,
     KnowGraph,
     HotPannel,
     ExpertRec,
     ExpertPannel,
     TechPannel,
-    OrgPannel
+    OrgPannel,
+    BtnGroup
   },
   data () {
     return {
@@ -131,38 +71,53 @@ export default {
         { name: '专利' },
         { name: '标准' }
       ],
+      type: 'expert',
       nowIndex: 0,
-      title: '关键词',
+      title: '专家',
       activeName: 'all',
       keyword: this.$route.params.searchKey,
-      transitionName: 'slide-left'
+      transitionName: 'slide-left',
+      paperList: [],
+      patentList: [],
+      standardList: []
     }
   },
 
+  created () {
+    this.getData()
+  },
+
   methods: {
+    async getData () {
+      try {
+        const data = await searchApi.QueryDataByKeyword(this.keyword, this.type)
+        if (data) {
+          console.log(data)
+          this.paperList = data.paperList
+          this.patentList = data.patentList
+          this.standardList = data.standardList
+        }
+      } catch (error) {
+
+      }
+    },
+
     switchTab (item, index) {
       this.nowIndex = index
       // this.$root.evenHub.$emit('switchTab',item, index)
+    },
+
+    isExpert () {
+      return this.title === '专家'
     }
   },
-  computed: {
-    showPaper () {
-      return this.nowIndex === 0
-    },
-    showPatent () {
-      return this.nowIndex === 1
-    },
-    showStandard () {
-      return this.nowIndex === 2
-    }
-  },
+
   watch: {
     routerKey () {
       return this.$route.params.searchKey
     },
 
     $route (to, from) {
-      console.log(to)
       if (to.meta.index > from.meta.index) {
         this.transitionName = 'slide-left'
       } else {
@@ -172,7 +127,14 @@ export default {
   }
 }
 </script>
-
+<style>
+.tab-wrap-expert{
+  height: 485px;
+}
+.tab-wrap-key{
+  height: 770px;
+}
+</style>
 <style lang="less"  scoped>
 @import '~@/style/variables.less';
 .search-layout-wrapper{
@@ -281,35 +243,4 @@ border-radius: 5px 5px;
 background-color: #4b6ff4;
 height: 20px!important;
 }
-  /* tab con */
-.tabConWrap{
-  height: 770px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding: 5px 8px 5px 0px;
-}
-.conItem li{
-  width: 410px;
-  height: 140px;
-  border: 1px solid #4b6ff4;
-  border-radius: 5px;
-  background: rgba(46,67,145,0.3);
-  color: #fff;
-  padding:20px 15px;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
-  box-sizing: border-box;
-}
-.conItem li h3{
-    font-size: 16px;
-    padding-bottom: 15px;
-  }
-.conItem li p{
-    font-size: 14px;
-    line-height: 26px;
-  }
-.conItem li .remark{
-    font-size:14px;
-    line-height: 26px;
-  }
 </style>

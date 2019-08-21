@@ -129,11 +129,11 @@ export default {
 
   watch: {
     $route (to, from) {
-      if (to.meta.path.includes(from.meta.path)) {
-        this.transitionName = 'slide-right'
-      } else {
-        this.transitionName = 'slide-left'
-      }
+      // if (to.meta.path.includes(from.meta.path)) {
+      this.transitionName = 'slide-right'
+      // } else {
+      // this.transitionName = 'slide-left'
+      // }
     }
   }
 }

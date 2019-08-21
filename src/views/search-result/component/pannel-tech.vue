@@ -2,8 +2,7 @@
   <div class="teach-wrapper text-wrapper">
     <h2 class="comm-title">相关技术推荐</h2>
     <ul>
-      <li>Object recognition</li>
-      <li>Supervised learning</li>
+      <li v-for="item in list" :key="item">{{item}}</li>
     </ul>
   </div>
 </template>
@@ -12,7 +11,7 @@ export default {
   name: 'PannelTech',
   data () {
     return {
-      list: ['Object recognition', 'Supervised learning', 'Computer vision', 'learning (artificial intelligence)']
+      list: ['Object recognition', 'Supervised learning', 'learning (artificial intelligence)', 'Computer vision']
     }
   }
 

@@ -1,8 +1,11 @@
 import { AppPost } from '@/utils/request'
-
+const keyMap = {
+  '吴恩达': 'wed'
+}
 // 根据关键字获取介绍
-export function QueryIntroByKeyword (keyword) {
-  return AppPost('/search/intro', {
+export function QueryDataByKeyword (keyword, type) {
+  const jsonUrl = `/mock-data/${keyMap[keyword]}.json`
+  return AppPost(jsonUrl, {
     keyword
   })
 }

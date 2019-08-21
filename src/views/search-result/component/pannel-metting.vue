@@ -1,5 +1,5 @@
 <template>
-
+<div class="meet-wrapper"></div>
 </template>
 <script>
 export default {

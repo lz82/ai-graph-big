@@ -2,878 +2,1055 @@
 	"success": true,
 	"data": [
 		{
-    "id": "lff",
-		"nodes": [{
-			"id": "2039688_scholar",
-			"name": "Tianrui Li",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1407034_scholar",
-			"name": "黎铭",
-			"type": "scholar",
-			"value": 0.66667,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018961510_keyword",
-			"name": "cascades",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "8455914_scholar",
-			"name": "Ángel Rodríguez-Vázquez",
-			"type": "scholar",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "239563_scholar",
-			"name": "张史梁",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1972433_scholar",
-			"name": "翁巨扬",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1744898_scholar",
-			"name": "Luis Gómez-Chova",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "407323_keyword",
-			"name": "Deep learning",
-			"type": "keyword",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2024037_scholar",
-			"name": "Aleix Martínez",
-			"type": "scholar",
-			"value": 0.6,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1830818_scholar",
-			"name": "蒂埃里.德诺",
-			"type": "scholar",
-			"value": 0.76667,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2110420_scholar",
-			"name": "孙仕亮",
-			"type": "scholar",
-			"value": 0.53333,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "968452_scholar",
-			"name": "李学龙",
-			"type": "scholar",
-			"value": 0.62245,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020031314_keyword",
-			"name": "Supervised learning",
-			"type": "keyword",
-			"value": 0.625,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020045615_keyword",
-			"name": "object recognition",
-			"type": "keyword",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018847356_keyword",
-			"name": "Pattern recognition",
-			"type": "keyword",
-			"value": 0.8879,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "287062_keyword",
-			"name": "Human pose estimation",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "910641_scholar",
-			"name": "张向荣",
-			"type": "scholar",
-			"value": 0.7,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2042862_scholar",
-			"name": "林元庆",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "645570_scholar",
-			"name": "Mingbo Zhao",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018819637_keyword",
-			"name": "Support Vector Machines",
-			"type": "keyword",
-			"value": 0.9235,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1888415_scholar",
-			"name": "Shimon Ullman",
-			"type": "scholar",
-			"value": 0.8,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020039005_keyword",
-			"name": "Neural network",
-			"type": "keyword",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2102178_scholar",
-			"name": "张孟杰",
-			"type": "scholar",
-			"value": 0.8,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "4013038_scholar",
-			"name": "Lifeng He",
-			"type": "scholar",
-			"value": 0.57143,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2045914_scholar",
-			"name": "Sanyang Liu ",
-			"type": "scholar",
-			"value": 0.91667,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "715311_scholar",
-			"name": "周志华",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2036784_scholar",
-			"name": "张长水",
-			"type": "scholar",
-			"value": 0.76667,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "8187649_scholar",
-			"name": "Pablo González-De-Santos ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2102267_scholar",
-			"name": "Bohyung Han",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "6594633_scholar",
-			"name": "Robert Bogue ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018884576_keyword",
-			"name": "recurrent neural nets",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2131178_scholar",
-			"name": "Michèle Lavagna ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "320369_scholar",
-			"name": "Hongmei Chen",
-			"type": "scholar",
-			"value": 0.54545,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1967983_scholar",
-			"name": "杜谦",
-			"type": "scholar",
-			"value": 0.7,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018948469_keyword",
-			"name": "big data",
-			"type": "keyword",
-			"value": 0.9138,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "114223315_affiliation",
-			"name": "Baidu Inc",
-			"type": "affiliation",
-			"value": 0.5,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2023488_scholar",
-			"name": "孙大文",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2081995_scholar",
-			"name": "Stefano Debei ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020037235_keyword",
-			"name": "data mining",
-			"type": "keyword",
-			"value": 0.906,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2053970_scholar",
-			"name": "Ben Taskar",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "378898_scholar",
-			"name": "Terrance Boult",
-			"type": "scholar",
-			"value": 0.8,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1908615_scholar",
-			"name": "Lorenzo Bruzzone",
-			"type": "scholar",
-			"value": 0.8,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "6236847_scholar",
-			"name": "Gonzalo Pajares ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020043191_keyword",
-			"name": "computer vision",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "320330_scholar",
-			"name": "Clément Farabet",
-			"type": "scholar",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018918649_keyword",
-			"name": "Feature extraction",
-			"type": "keyword",
-			"value": 0.95,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2037676_scholar",
-			"name": "Jun Zhu",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2102383_scholar",
-			"name": "Timothée Cour",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1089336_scholar",
-			"name": "Mohamed Cheriet ",
-			"type": "scholar",
-			"value": 0.6,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "60012708_affiliation",
-			"name": "Stanford University",
-			"type": "affiliation",
-			"value": 0.5,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2031654_scholar",
-			"name": "Tianbao Yang ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "291156_keyword",
-			"name": "Crowdsourcing",
-			"type": "keyword",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018819609_keyword",
-			"name": "e-learning",
-			"type": "keyword",
-			"value": 0.9132,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020031313_keyword",
-			"name": "learning (artificial intelligence)",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "135967_scholar",
-			"name": "Alexander Toshev",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "932921_scholar",
-			"name": "刘德荣",
-			"type": "scholar",
-			"value": 0.51515,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018785928_keyword",
-			"name": "Unsupervised learning",
-			"type": "keyword",
-			"value": 0.9333,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2084714_scholar",
-			"name": "Lubomir Bourdev",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018905565_keyword",
-			"name": "Object detection",
-			"type": "keyword",
-			"value": 0.8047,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "824182_scholar",
-			"name": "Chuan Luo",
-			"type": "scholar",
-			"value": 0.57576,
-			"releExpert": null,
-			"releSubject": null
-		}, {
 			"id": "2116449_scholar",
-			"name": "李飞飞",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "6799834_scholar",
-			"name": "Luis Emmi ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "643444_scholar",
-			"name": "袁媛",
-			"type": "scholar",
-			"value": 0.54082,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1704151_scholar",
-			"name": "Hpvasantha vasantha Rupasinghe ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C020042120_keyword",
-			"name": "Machine Learning",
-			"type": "keyword",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "366996_scholar",
-			"name": "Michal Wozniak",
-			"type": "scholar",
-			"value": 0.59091,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "136951_scholar",
-			"name": "Sergio Escalera",
-			"type": "scholar",
-			"value": 0.5102,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C019203844_keyword",
-			"name": "Experiential Learning",
-			"type": "keyword",
-			"value": 0.9151,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "C018963337_keyword",
-			"name": "cascades",
-			"type": "keyword",
-			"value": 0.75,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2024514_scholar",
-			"name": "De Xu ",
-			"type": "scholar",
-			"value": 1.0,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "1974839_scholar",
-			"name": "Xiaoyuan Jing ",
-			"type": "scholar",
-			"value": 0.66667,
-			"releExpert": null,
-			"releSubject": null
-		}, {
-			"id": "2009359_scholar",
-			"name": "Masashi Sugiyama",
-			"type": "scholar",
-			"value": 0.58333,
-			"releExpert": null,
-			"releSubject": null
-		}],
-		"links": [{
-			"source": "C020043191_keyword",
-			"target": "136951_scholar",
-			"value": 0.5102,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "2131178_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "135967_scholar",
-			"target": "C018963337_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "1704151_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1967983_scholar",
-			"value": 0.7,
-			"type": "scholar"
-		}, {
-			"source": "2042862_scholar",
-			"target": "2031654_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "8187649_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "715311_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "C020042120_keyword",
-			"value": 1.0,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "2023488_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1744898_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "C018819609_keyword",
-			"value": 0.9132,
-			"type": "keyword"
-		}, {
-			"source": "135967_scholar",
-			"target": "C020039005_keyword",
-			"value": 1.0,
-			"type": "keyword"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1407034_scholar",
-			"value": 0.66667,
-			"type": "scholar"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "320369_scholar",
-			"value": 0.54545,
-			"type": "scholar"
-		}, {
-			"source": "C020045615_keyword",
-			"target": "378898_scholar",
-			"value": 0.8,
-			"type": "scholar"
-		}, {
-			"source": "C020045615_keyword",
-			"target": "1888415_scholar",
-			"value": 0.8,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1089336_scholar",
-			"value": 0.6,
-			"type": "scholar"
-		}, {
-			"source": "291156_keyword",
-			"target": "C019203844_keyword",
-			"value": 0.9151,
-			"type": "keyword"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "2110420_scholar",
-			"value": 0.53333,
-			"type": "scholar"
-		}, {
-			"source": "C020045615_keyword",
-			"target": "2024037_scholar",
-			"value": 0.6,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "645570_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "135967_scholar",
-			"target": "C018884576_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "C018905565_keyword",
-			"value": 0.8047,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "6594633_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "C018847356_keyword",
-			"value": 0.8879,
-			"type": "keyword"
-		}, {
-			"source": "2116449_scholar",
-			"target": "2037676_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "643444_scholar",
-			"value": 0.54082,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "291156_keyword",
-			"value": 1.0,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "320330_scholar",
-			"value": 0.75,
-			"type": "scholar"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "2039688_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "2042862_scholar",
-			"target": "2102383_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1974839_scholar",
-			"value": 0.66667,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "4013038_scholar",
-			"value": 0.57143,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "C018785928_keyword",
-			"value": 0.9333,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "6236847_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "2036784_scholar",
-			"value": 0.76667,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "968452_scholar",
-			"value": 0.62245,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "6799834_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "135967_scholar",
-			"target": "407323_keyword",
-			"value": 1.0,
-			"type": "keyword"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "C018918649_keyword",
-			"value": 0.95,
-			"type": "keyword"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1830818_scholar",
-			"value": 0.76667,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "1908615_scholar",
-			"value": 0.8,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "910641_scholar",
-			"value": 0.7,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "C020045615_keyword",
-			"value": 1.0,
-			"type": "keyword"
-		}, {
-			"source": "2116449_scholar",
-			"target": "2102267_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "2084714_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020045615_keyword",
-			"target": "2102178_scholar",
-			"value": 0.8,
-			"type": "scholar"
-		}, {
-			"source": "2042862_scholar",
-			"target": "239563_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "932921_scholar",
-			"value": 0.51515,
-			"type": "scholar"
-		}, {
-			"source": "291156_keyword",
-			"target": "C018948469_keyword",
-			"value": 0.9138,
-			"type": "keyword"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "2009359_scholar",
-			"value": 0.58333,
-			"type": "scholar"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "8455914_scholar",
-			"value": 0.75,
-			"type": "scholar"
-		}, {
-			"source": "135967_scholar",
-			"target": "C018961510_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "2116449_scholar",
-			"target": "C020031313_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "2081995_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "60012708_affiliation",
-			"value": 0.5,
-			"type": "affiliation"
-		}, {
-			"source": "2042862_scholar",
-			"target": "114223315_affiliation",
-			"value": 0.5,
-			"type": "affiliation"
-		}, {
-			"source": "2116449_scholar",
-			"target": "135967_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "C018819637_keyword",
-			"value": 0.9235,
-			"type": "keyword"
-		}, {
-			"source": "2116449_scholar",
-			"target": "C020043191_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "824182_scholar",
-			"value": 0.57576,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "2042862_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "2042862_scholar",
-			"target": "2116449_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020045615_keyword",
-			"target": "1972433_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "C020031314_keyword",
-			"target": "2045914_scholar",
-			"value": 0.91667,
-			"type": "scholar"
-		}, {
-			"source": "2042862_scholar",
-			"target": "2053970_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "2116449_scholar",
-			"target": "C020031314_keyword",
-			"value": 0.625,
-			"type": "keyword"
-		}, {
-			"source": "C020043191_keyword",
-			"target": "2024514_scholar",
-			"value": 1.0,
-			"type": "scholar"
-		}, {
-			"source": "135967_scholar",
-			"target": "287062_keyword",
-			"value": 0.75,
-			"type": "keyword"
-		}, {
-			"source": "C020031313_keyword",
-			"target": "366996_scholar",
-			"value": 0.59091,
-			"type": "scholar"
-		}, {
-			"source": "291156_keyword",
-			"target": "C020037235_keyword",
-			"value": 0.906,
-			"type": "keyword"
-		}],
-		"expertReco": null,
-		"subjectReco": null,
-		"journalsReco": null,
-		"institutionsReco": null
-  }
-  ],
+			"nodes": [
+				{
+					"id": "2039688_scholar",
+					"name": "Tianrui Li",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1407034_scholar",
+					"name": "黎铭",
+					"type": "scholar",
+					"value": 0.66667,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018961510_keyword",
+					"name": "cascades",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "8455914_scholar",
+					"name": "Ángel Rodríguez-Vázquez",
+					"type": "scholar",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "239563_scholar",
+					"name": "张史梁",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3"
+				},
+				{
+					"id": "666666_scholar",
+					"name": "鱼鱼鱼",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3-4"
+				},
+				{
+					"id": "1972433_scholar",
+					"name": "翁巨扬",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1744898_scholar",
+					"name": "Luis Gómez-Chova",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "407323_keyword",
+					"name": "Deep learning",
+					"type": "keyword",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2024037_scholar",
+					"name": "Aleix Martínez",
+					"type": "scholar",
+					"value": 0.6,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1830818_scholar",
+					"name": "蒂埃里.德诺",
+					"type": "scholar",
+					"value": 0.76667,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2110420_scholar",
+					"name": "孙仕亮",
+					"type": "scholar",
+					"value": 0.53333,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "968452_scholar",
+					"name": "李学龙",
+					"type": "scholar",
+					"value": 0.62245,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020031314_keyword",
+					"name": "Supervised learning",
+					"type": "keyword",
+					"value": 0.625,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020045615_keyword",
+					"name": "object recognition",
+					"type": "keyword",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "C018847356_keyword",
+					"name": "Pattern recognition",
+					"type": "keyword",
+					"value": 0.8879,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "287062_keyword",
+					"name": "Human pose estimation",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "910641_scholar",
+					"name": "张向荣",
+					"type": "scholar",
+					"value": 0.7,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2042862_scholar",
+					"name": "林元庆",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1"
+				},
+				{
+					"id": "645570_scholar",
+					"name": "Mingbo Zhao",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018819637_keyword",
+					"name": "Support Vector Machines",
+					"type": "keyword",
+					"value": 0.9235,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1888415_scholar",
+					"name": "Shimon Ullman",
+					"type": "scholar",
+					"value": 0.8,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020039005_keyword",
+					"name": "Neural network",
+					"type": "keyword",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2102178_scholar",
+					"name": "张孟杰",
+					"type": "scholar",
+					"value": 0.8,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "4013038_scholar",
+					"name": "Lifeng He",
+					"type": "scholar",
+					"value": 0.57143,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2045914_scholar",
+					"name": "Sanyang Liu ",
+					"type": "scholar",
+					"value": 0.91667,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 3
+				},
+				{
+					"id": "715311_scholar",
+					"name": "周志华",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2036784_scholar",
+					"name": "张长水",
+					"type": "scholar",
+					"value": 0.76667,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "8187649_scholar",
+					"name": "Pablo González-De-Santos ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2102267_scholar",
+					"name": "Bohyung Han",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "6594633_scholar",
+					"name": "Robert Bogue ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018884576_keyword",
+					"name": "recurrent neural nets",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2131178_scholar",
+					"name": "Michèle Lavagna ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "320369_scholar",
+					"name": "Hongmei Chen",
+					"type": "scholar",
+					"value": 0.54545,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1967983_scholar",
+					"name": "杜谦",
+					"type": "scholar",
+					"value": 0.7,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018948469_keyword",
+					"name": "big data",
+					"type": "keyword",
+					"value": 0.9138,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "114223315_affiliation",
+					"name": "Baidu Inc",
+					"type": "affiliation",
+					"value": 0.5,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3"
+				},
+				{
+					"id": "2023488_scholar",
+					"name": "孙大文",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2081995_scholar",
+					"name": "Stefano Debei ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020037235_keyword",
+					"name": "data mining",
+					"type": "keyword",
+					"value": 0.906,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2053970_scholar",
+					"name": "Ben Taskar",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3"
+				},
+				{
+					"id": "378898_scholar",
+					"name": "Terrance Boult",
+					"type": "scholar",
+					"value": 0.8,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1908615_scholar",
+					"name": "Lorenzo Bruzzone",
+					"type": "scholar",
+					"value": 0.8,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "6236847_scholar",
+					"name": "Gonzalo Pajares ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020043191_keyword",
+					"name": "computer vision",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "320330_scholar",
+					"name": "Clément Farabet",
+					"type": "scholar",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018918649_keyword",
+					"name": "Feature extraction",
+					"type": "keyword",
+					"value": 0.95,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2037676_scholar",
+					"name": "Jun Zhu",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "2102383_scholar",
+					"name": "Timothée Cour",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3"
+				},
+				{
+					"id": "1089336_scholar",
+					"name": "Mohamed Cheriet ",
+					"type": "scholar",
+					"value": 0.6,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "60012708_affiliation",
+					"name": "Stanford University",
+					"type": "affiliation",
+					"value": 0.5,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "2031654_scholar",
+					"name": "Tianbao Yang ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": "1-3"
+				},
+				{
+					"id": "291156_keyword",
+					"name": "Crowdsourcing",
+					"type": "keyword",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018819609_keyword",
+					"name": "e-learning",
+					"type": "keyword",
+					"value": 0.9132,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020031313_keyword",
+					"name": "learning (artificial intelligence)",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "135967_scholar",
+					"name": "Alexander Toshev",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "932921_scholar",
+					"name": "刘德荣",
+					"type": "scholar",
+					"value": 0.51515,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018785928_keyword",
+					"name": "Unsupervised learning",
+					"type": "keyword",
+					"value": 0.9333,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "2084714_scholar",
+					"name": "Lubomir Bourdev",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null,
+					"path": 2
+				},
+				{
+					"id": "C018905565_keyword",
+					"name": "Object detection",
+					"type": "keyword",
+					"value": 0.8047,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "824182_scholar",
+					"name": "Chuan Luo",
+					"type": "scholar",
+					"value": 0.57576,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2116449_scholar",
+					"name": "李飞飞",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "6799834_scholar",
+					"name": "Luis Emmi ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "643444_scholar",
+					"name": "袁媛",
+					"type": "scholar",
+					"value": 0.54082,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1704151_scholar",
+					"name": "Hpvasantha vasantha Rupasinghe ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C020042120_keyword",
+					"name": "Machine Learning",
+					"type": "keyword",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "366996_scholar",
+					"name": "Michal Wozniak",
+					"type": "scholar",
+					"value": 0.59091,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "136951_scholar",
+					"name": "Sergio Escalera",
+					"type": "scholar",
+					"value": 0.5102,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C019203844_keyword",
+					"name": "Experiential Learning",
+					"type": "keyword",
+					"value": 0.9151,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "C018963337_keyword",
+					"name": "cascades",
+					"type": "keyword",
+					"value": 0.75,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2024514_scholar",
+					"name": "De Xu ",
+					"type": "scholar",
+					"value": 1.0,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "1974839_scholar",
+					"name": "Xiaoyuan Jing ",
+					"type": "scholar",
+					"value": 0.66667,
+					"releExpert": null,
+					"releSubject": null
+				},
+				{
+					"id": "2009359_scholar",
+					"name": "Masashi Sugiyama",
+					"type": "scholar",
+					"value": 0.58333,
+					"releExpert": null,
+					"releSubject": null
+				}
+			],
+			"links": [
+				{
+					"source": "C020043191_keyword",
+					"target": "136951_scholar",
+					"value": 0.5102,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "2131178_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "C018963337_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "1704151_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1967983_scholar",
+					"value": 0.7,
+					"type": "scholar"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "2031654_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "8187649_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "715311_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "C020042120_keyword",
+					"value": 1.0,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "2023488_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1744898_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "C018819609_keyword",
+					"value": 0.9132,
+					"type": "keyword"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "C020039005_keyword",
+					"value": 1.0,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1407034_scholar",
+					"value": 0.66667,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "320369_scholar",
+					"value": 0.54545,
+					"type": "scholar"
+				},
+				{
+					"source": "C020045615_keyword",
+					"target": "378898_scholar",
+					"value": 0.8,
+					"type": "scholar"
+				},
+				{
+					"source": "C020045615_keyword",
+					"target": "1888415_scholar",
+					"value": 0.8,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1089336_scholar",
+					"value": 0.6,
+					"type": "scholar"
+				},
+				{
+					"source": "291156_keyword",
+					"target": "C019203844_keyword",
+					"value": 0.9151,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "2110420_scholar",
+					"value": 0.53333,
+					"type": "scholar"
+				},
+				{
+					"source": "C020045615_keyword",
+					"target": "2024037_scholar",
+					"value": 0.6,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "645570_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "C018884576_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "C018905565_keyword",
+					"value": 0.8047,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "6594633_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "C018847356_keyword",
+					"value": 0.8879,
+					"type": "keyword"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "2037676_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "643444_scholar",
+					"value": 0.54082,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "291156_keyword",
+					"value": 1.0,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "320330_scholar",
+					"value": 0.75,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "2039688_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "2102383_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1974839_scholar",
+					"value": 0.66667,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "4013038_scholar",
+					"value": 0.57143,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "C018785928_keyword",
+					"value": 0.9333,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "6236847_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "2036784_scholar",
+					"value": 0.76667,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "968452_scholar",
+					"value": 0.62245,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "6799834_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "407323_keyword",
+					"value": 1.0,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "C018918649_keyword",
+					"value": 0.95,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1830818_scholar",
+					"value": 0.76667,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "1908615_scholar",
+					"value": 0.8,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "910641_scholar",
+					"value": 0.7,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "C020045615_keyword",
+					"value": 1.0,
+					"type": "keyword"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "2102267_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "2084714_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020045615_keyword",
+					"target": "2102178_scholar",
+					"value": 0.8,
+					"type": "scholar"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "239563_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "239563_scholar",
+					"target": "666666_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "932921_scholar",
+					"value": 0.51515,
+					"type": "scholar"
+				},
+				{
+					"source": "291156_keyword",
+					"target": "C018948469_keyword",
+					"value": 0.9138,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "2009359_scholar",
+					"value": 0.58333,
+					"type": "scholar"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "8455914_scholar",
+					"value": 0.75,
+					"type": "scholar"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "C018961510_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "C020031313_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "2081995_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "60012708_affiliation",
+					"value": 0.5,
+					"type": "affiliation"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "114223315_affiliation",
+					"value": 0.5,
+					"type": "affiliation"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "135967_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "C018819637_keyword",
+					"value": 0.9235,
+					"type": "keyword"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "C020043191_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "824182_scholar",
+					"value": 0.57576,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "2042862_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "2116449_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020045615_keyword",
+					"target": "1972433_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "C020031314_keyword",
+					"target": "2045914_scholar",
+					"value": 0.91667,
+					"type": "scholar"
+				},
+				{
+					"source": "2042862_scholar",
+					"target": "2053970_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "2116449_scholar",
+					"target": "C020031314_keyword",
+					"value": 0.625,
+					"type": "keyword"
+				},
+				{
+					"source": "C020043191_keyword",
+					"target": "2024514_scholar",
+					"value": 1.0,
+					"type": "scholar"
+				},
+				{
+					"source": "135967_scholar",
+					"target": "287062_keyword",
+					"value": 0.75,
+					"type": "keyword"
+				},
+				{
+					"source": "C020031313_keyword",
+					"target": "366996_scholar",
+					"value": 0.59091,
+					"type": "scholar"
+				},
+				{
+					"source": "291156_keyword",
+					"target": "C020037235_keyword",
+					"value": 0.906,
+					"type": "keyword"
+				}
+			],
+			"expertReco": null,
+			"subjectReco": null,
+			"journalsReco": null,
+			"institutionsReco": null
+		}
+	],
 	"message": ""
 }
