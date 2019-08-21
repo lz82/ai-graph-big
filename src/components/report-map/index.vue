@@ -89,7 +89,7 @@ export default {
           //   { name: '浙江', value: [120.153576, 30.287459, 5] },
           //   { name: '广东', value: [113.280637, 23.125178, 6] }
           // ],
-          symbolSize: 24,
+          // symbolSize: 24,
           geoIndex: 0,
           // symbolSize: function (val) {
           //   return val[2] / 10
