@@ -1,11 +1,51 @@
 <template>
+<div class="tab-wrapper">
   <ul class="tab-bar">
     <li class="item" v-for="(item, index) in tabBarData" :class="{'active': nowIndex===index}" @click='switchTab(item, index)' :key="index">
       {{item.name}}
     </li>
   </ul>
+  <!-- tab con -->
+  <div class="tabConWrap">
+      <div class="conItem">
+        <!-- 论文 -->
+        <ul v-if="showPaper">
+          <li v-for="item in paperList" :key="item.id">
+            <h3>{{item.title}}</h3>
+            <p>
+              <span v-html="'作者：'+item.author"></span>
+              <span>发表时间：2109-08-09</span>
+              <span>被引指数：G06</span>
+            </p>
+            <div class="remark">摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+          </li>
+        </ul>
+        <!-- 专利 -->
+        <ul v-if="showPatent">
+          <li v-for="item in paperList" :key="item.id">
+            <h3>{{item.title}}</h3>
+            <p><span v-html="'专利权人：'+item.author"></span> <span>分类号：G06</span></p>
+            <div class="remark">2摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+          </li>
+        </ul>
+        <!-- 标准 -->
+        <ul v-if="showStandard">
+          <li v-for="item in paperList" :key="item.id">
+            <h3>{{item.title}}</h3>
+            <p>
+              <span v-html="'标准号：'+item.author"></span>
+              <span>发布时间：2109-08-09</span>
+              <span>状态：xxx</span>
+            </p>
+            <div class="remark">3摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
 </template>
 <script>
+import { searchApi } from '@/service'
 export default {
   name: 'TabBar',
 
@@ -16,27 +56,46 @@ export default {
         { name: '专利' },
         { name: '标准' }
       ],
-      nowIndex: 0
+      nowIndex: 0,
+      keyword: '李飞飞',
+      type: 'expert',
+      paperList: []
     }
+  },
+
+  created () {
+    this.getData()
   },
 
   methods: {
     switchTab (item, index) {
       this.nowIndex = index
       // this.$root.evenHub.$emit('switchTab',item, index)
+    },
+
+    async getData () {
+      try {
+        const data = await searchApi.QueryPaperByKeyword(this.keyword, this.type)
+        if (data) {
+          // console.log(data)
+          this.paperList = data.list
+        }
+      } catch (error) {
+        this.$message.error(error.toString())
+      }
     }
   },
 
   computed: {
-    // showPaper () {
-    //   return this.nowIndex === 0
-    // },
-    // showPatent () {
-    //   return this.nowIndex === 1
-    // },
-    // showStandard () {
-    //   return this.nowIndex === 2
-    // }
+    showPaper () {
+      return this.nowIndex === 0 && this.paperList.length > 0
+    },
+    showPatent () {
+      return this.nowIndex === 1
+    },
+    showStandard () {
+      return this.nowIndex === 2
+    }
   }
 }
 </script>
@@ -58,6 +117,45 @@ export default {
   .tab-bar .item.active{
     color: @fontColor;
     border-bottom:3px solid #fff;
-    padding-bottom:19px;
+    padding-bottom:16px;
+  }
+   /* tab con */
+.tabConWrap{
+  // height: 770px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 5px 8px 5px 0px;
+}
+.conItem li{
+  width: 410px;
+  height: 140px;
+  border: 1px solid #4b6ff4;
+  border-radius: 5px;
+  background: rgba(46,67,145,0.3);
+  color: #fff;
+  padding:20px 15px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+.conItem li h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+.conItem li p{
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+  }
+.conItem li .remark{
+    font-size:14px;
+    line-height: 26px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-align: justify;
   }
 </style>

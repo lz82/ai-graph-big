@@ -1,8 +1,13 @@
 import { AppPost } from '@/utils/request'
 
+const keyMap = {
+  '吴恩达': 'wed'
+}
+
 // 根据关键词搜索图谱信息
 export function QueryGraphDetailByKeyword (id) {
-  return AppPost('/mock-data/graph-detail.json', {
+  const jsonUrl = `/mock-data/${keyMap[id]}.json`
+  return AppPost(jsonUrl, {
     id
   })
 }

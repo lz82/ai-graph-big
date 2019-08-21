@@ -1,6 +1,6 @@
 <template>
 <div class="expert-info-wrapper">
-  <h2 class='comm-title'>{{title}}信息</h2>
+  <!-- <h2 class='comm-title'>{{title}}信息</h2> -->
   <div class="wiki-wraper">
     <div class="wiki-info">
       <img :src='info.headImg'>

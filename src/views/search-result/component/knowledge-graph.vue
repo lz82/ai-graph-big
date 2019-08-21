@@ -1,6 +1,8 @@
 <template>
   <div class="graph-wrapper">
-    <div class="svg"></div>
+    <div class="svg">
+      <svg class='graph' width="840" height="800"></svg>
+    </div>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ import * as d3 from 'd3'
 // import icon from './img/boshimao.png'
 import { graphApi } from '@/service'
 export default {
-  name: 'Graph',
+  name: 'KnowGraph',
   data () {
     return {
       forceSimulation: null,
@@ -18,7 +20,7 @@ export default {
       svgH: 800,
       links: null,
       nodes: null,
-      searchKey: '李飞飞'
+      searchKey: this.$route.path.split('/')[2]
     }
   },
 
@@ -27,13 +29,12 @@ export default {
   },
 
   methods: {
-    async getDta () {
+    async getData () {
       try {
         const data = await graphApi.QueryGraphInfoByKeyword(this.searchKey)
-        const temp = data.find(item => item.id === 'lff')
-        if (temp) {
-          this.nodes = temp.nodes
-          this.links = temp.links
+        if (data) {
+          this.nodes = data.nodes
+          this.links = data.links
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -41,9 +42,9 @@ export default {
     },
 
     async initData () {
-      await this.getDta()
-      this.initSvgContainer()
+      await this.getData()
       this.initForceSimulation()
+      this.initSvgContainer()
       this.drawSvg()
     },
 
@@ -55,10 +56,10 @@ export default {
         left: 20
       }
 
-      this.svg = d3.select('.svg')
-        .append('svg')
-        .attr('width', this.svgW)
-        .attr('height', this.svgH)
+      this.svg = d3.select('svg.graph')
+        // .append('svg')
+        // .attr('width', this.svgW)
+        // .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
     },
@@ -67,9 +68,12 @@ export default {
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
         .alpha(0.05) // 活力  渲染之后再自动动多久
-        .force('link', d3.forceLink().id(data => data.id).distance(data => {
+        .force('link', d3.forceLink().id(data => data.id)) // 映射id & 线的长度
+        /*
+        .distance(data => {
           return 160 * data.target.value
-        })) // 映射id & 线的长度
+        })
+        */
         .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
@@ -118,7 +122,9 @@ export default {
           .on('start', this.started)
           .on('drag', this.dragged)
           .on('end', this.ended)
-        )
+        ).on('click', () => {
+          this.jump2Detail()
+        })
 
       gs.append('circle')
         .attr('class', 'circle-outer')
@@ -131,10 +137,11 @@ export default {
         .attr('stroke', '#6abdf3')
         .attr('stroke-width', '4px')
         .attr('style', 'cursor: pointer;')
-        .on('click', () => {
-          this.jump2Detail()
-        })
+        // .on('click', () => {
+        //   this.jump2Detail()
+        // })
 
+      // 进度齿轮
       gs.append('path')
         .attr('class', 'circle-inner')
         .attr('stroke', '#fff')
@@ -170,9 +177,9 @@ export default {
           }
         })
         .text(data => data)
-        .on('click', () => {
-          this.jump2Detail()
-        })
+        // .on('click', () => {
+        //   this.jump2Detail()
+        // })
 
       gs.append('image')
         // .attr('href', icon)
@@ -208,10 +215,9 @@ export default {
     jump2Detail () {
       // this.$router.push(`/graph/${this.$route.params.searchKey}`)
       this.$router.push({
-        // path: `/graph/${this.nodeId}`,
-        path: `/graph`,
+        path: `/graph/${this.nodeId}`,
         query: {
-          keyword: this.keyword
+          keyword: this.searchKey
         }
       })
     },
@@ -230,18 +236,19 @@ export default {
     }
   },
 
-  watch: {
-    nodes () {
-      this.$nextTick(() => {
-        // document.querySelector('svg').remove()
-        // this.initData()
-      })
-    }
-  },
+  // watch: {
+  //   nodes () {
+  //     this.$nextTick(() => {
+  //       // document.querySelector('svg').remove()
+  //       // this.initData()
+  //     })
+  //   }
+  // },
 
   computed: {
     nodeId () {
-      return this.links[0].source.id
+      // return this.links[0].source.id
+      return 0
     }
   }
 }

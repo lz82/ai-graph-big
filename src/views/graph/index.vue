@@ -1,27 +1,66 @@
 
 <template>
-  <div class="graph-wrapper">
-    <div class="svg"></div>
+  <div>
+    <div class="graph-wrapper">
+      <div class="graph-left">
+        <header>
+          <page-header :title="title" class="title"></page-header>
+        </header>
+        <div class="svg">
+          <svg class='graph-detail' width='1360' height='1000'></svg>
+        </div>
+      </div>
+      <div class="side-right">
+        <btn-group></btn-group>
+        <transition :name="transitionName">
+          <div class="side-right-con" v-show="showPannel()">
+            <relate-pannel v-show="getRelatedWord() !== undefined && getRelatedWord().length>0" title="相关学科词" :list='getRelatedWord()'></relate-pannel>
+            <relate-pannel v-show="getRelatedExpert() !== undefined && getRelatedExpert().length>0" title="相关专家" :list='getRelatedExpert()'></relate-pannel>
+          </div>
+        </transition>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import * as d3 from 'd3'
-import icon from './img/boshimao.png'
+import icoExpert from './img/ico-expert.png'
+// import icoOrg from './img/ico-org.png'
+// import icoProject from './img/ico-project.png'
+// import icoPatent from './img/ico-patent.png'
+// import icoPaper from './img/ico-paper.png'
+// import icoAchieve from './img/ico-achieve.png'
+// import icoKeyword from './img/ico-keyword.png'
+import PageHeader from '@/components/page-header'
+import BtnGroup from '@/components/btn-group'
+import RelatePannel from './relate-pannel'
 import { graphApi } from '@/service'
 export default {
-  name: 'Graph',
+  name: 'GraphDetail',
+  components: {
+    PageHeader,
+    BtnGroup,
+    RelatePannel
+  },
+
   data () {
     return {
+      title: '知识图谱',
       forceSimulation: null,
+      transitionName: '',
       svg: null,
-      svgW: 1766,
+      svgW: 1360,
       svgH: 1000,
       links: null,
       nodes: null,
-      searchKey: '李飞飞',
+      colorList: ['#4b6ff4', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4'],
+      rediusList: [60, 50, 40, 30, 20],
+      keyword: this.$route.query.keyword, // 如：李飞飞
+      currentWord: this.$route.path.split('/')[2], // id
+      // currentWord: '2116449_scholar',
       alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -300 // 万有引力
+      chargeStrength: -400 // 万有引力
     }
   },
 
@@ -30,13 +69,14 @@ export default {
   },
 
   methods: {
-    async getDta () {
+
+    async getData () {
       try {
-        const data = await graphApi.QueryGraphInfoByKeyword(this.searchKey)
-        const temp = data.find(item => item.id === 'lff')
+        const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          this.nodes = temp.nodes
-          this.links = temp.links
+          console.log(temp)
+          this.nodes = temp.graphData.nodes
+          this.links = temp.graphData.links
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -44,7 +84,7 @@ export default {
     },
 
     async initData () {
-      await this.getDta()
+      await this.getData()
       this.initSvgContainer()
       this.initForceSimulation()
       this.drawSvg()
@@ -58,10 +98,11 @@ export default {
         left: 20
       }
 
-      this.svg = d3.select('.svg')
-        .append('svg')
-        .attr('width', this.svgW)
-        .attr('height', this.svgH)
+      this.svg = d3.select('svg.graph-detail')
+        // .append('svg')
+        .attr('viewBox', '-100 -100 1500 1300')
+        // .attr('width', this.svgW)
+        // .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
         // .alphaDecay(this.alphaDecay)
@@ -69,26 +110,36 @@ export default {
     },
 
     initSvgContainer () {
+      console.log('initSvgContainer')
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
-        .alpha(0.07) // 活力  渲染之后再自动动多久
+        // .alpha(0.07) // 活力  渲染之后再自动动多久
         .force('link', d3.forceLink().id(data => data.id).distance(data => {
-          return 170 * data.target.value
+          // console.log(data)
+          if (data.target.name === 'Jun Zhu') {
+            return 300
+          } else {
+            return 10
+          }
         })) // 映射id & 线的长度
         .force('charge', d3.forceManyBody().strength(this.chargeStrength))
+        .force('xPos', d3.forceX(this.svgW / 2))
+        .force('yPos', d3.forceY(this.svgH / 2))
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
           // console.log(d);
-          if (d.name === '李飞飞') {
+          if (d.name === this.keyword) {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 80 * d.value + 5
+          return 100
+          // return 70 * d.value + 5
         }))
     },
 
     drawSvg () {
-      this.forceSimulation.nodes(this.nodes)
+      this.forceSimulation
+        .nodes(this.nodes)
         .on('tick', function (d) {
           edges
             .attr('x1', data => data.source.x)
@@ -98,7 +149,8 @@ export default {
           gs.attr('transform', data => `translate(${data.x}, ${data.y})`)
         })
 
-      this.forceSimulation.force('link')
+      this.forceSimulation
+        .force('link')
         .links(this.links)
 
       // 绘制边
@@ -107,7 +159,7 @@ export default {
         .data(this.links)
         .enter()
         .append('line')
-        .attr('stroke', (data, index) => '#f1f1f1')
+        .attr('stroke', (data, index) => 'rgba(255,255,255,0.6)')
         .attr('stroke-width', '2px')
         .attr('target', data => data.target.name)
         .attr('source', data => data.source.name)
@@ -129,37 +181,28 @@ export default {
         .attr('class', 'circle-outer')
         .attr('id', d => 'id-' + d.id)
         .attr('r', data => {
-          return data.name === '李飞飞' ? 55 : 40 + Math.random() * 10
+          return this.rediusList[data.level - 1]
         })
-        .attr('fill', '#071321')
-        .attr('stroke', '#6abdf3')
+        .attr('fill', '#10162d')
+        .attr('stroke', d => {
+          if (d.name === this.keyword) { // 中心词
+            return '#4b6ff4'
+          } else {
+            return this.colorList[d.colorIdx]
+          }
+        })
         .attr('stroke-width', '4px')
         .attr('style', 'cursor: pointer;')
-        .on('click', () => {
-          // this.jump2Detail()
+        .on('click', (d) => {
+          this.showDetail(d.id)
         })
 
-      gs.append('path')
-        .attr('class', 'circle-inner')
-        .attr('stroke', '#fff')
-        .attr('fill', '#071321')
-        .attr('stroke-dashoffset', '25px')
-        .attr('stroke-dasharray', '10px 2px')
-        .attr('stroke-width', '8px')
-        .attr('d', data => {
-          const id = `id-${data.id}`
-          let outerR = d3.select('#' + id).attr('r') // 外围圆半径***选择器不能数字开头***
-          let innerR = outerR - 8
-          let degree = data.index * 10 / 100 * 360
-          let radian = data.index > 9 ? 60 : degree * Math.PI / 180
-          let x = (Math.sin(radian) * innerR).toFixed(2)
-          let y = -(Math.cos(radian) * innerR).toFixed(2)
-          let lenghty = degree > 180 ? 1 : 0 // 大于180度时候画大角度弧，小于180度的画小角度弧
-          return `M 0 -${innerR} A ${innerR} ${innerR} 0 ${lenghty} 1 ${x} ${y}`
-        })
-
-      gs.append('text')
-        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:12px')
+      gs.filter(d => {
+        if (d.level && d.level < 4) {
+          return this
+        }
+      }).append('text')
+        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:20px;')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')
@@ -173,21 +216,36 @@ export default {
           }
         })
         .text(data => data)
-        .on('click', () => {
-          this.jump2Detail()
+        .on('click', (data, index, nodes) => {
+          const id = nodes[0].parentNode['id']
+          this.showDetail(id)
         })
 
-      gs.append('image')
-        .attr('href', icon)
-        .attr('width', '20px')
-        .attr('height', '20px')
-        .attr('x', '-10')
-        .attr('y', '-25')
+      gs.filter(d => {
+        if ((d.level && d.level < 4)) {
+          return this
+        }
+      }).append('image')
+        .attr('href', icoExpert)
+        .attr('width', '30px')
+        .attr('height', '30px')
+        .attr('x', '-15')
+        .attr('y', '-35')
+      gs.filter(d => {
+        if ((d.level && d.level > 3)) {
+          return this
+        }
+      }).append('image')
+        .attr('href', icoExpert)
+        .attr('width', '30px')
+        .attr('height', '30px')
+        .attr('x', '-15')
+        .attr('y', '-15')
     },
 
     started (d) {
       if (!d3.event.active) {
-        this.forceSimulation.alphaTarget(0.1).restart()
+        this.forceSimulation.alphaTarget(0.3).restart()
       }
       d3.event.sourceEvent.stopPropagation()
       d.fx = d.x
@@ -207,36 +265,39 @@ export default {
       d.fy = null
     },
 
-    jump2Detail () {
-      // this.$router.push(`/graph/${this.$route.params.searchKey}`)
-      this.$router.push({
-        path: `/graph/${this.nodeId}`,
-        query: {
-          keyword: this.keyword
-        }
-      })
+    showDetail (id) {
+      // console.log('id1==' + this.currentWord)
+      this.currentWord = id
+      // console.log('id2==' + this.currentWord)
+      console.log(this.getRelatedWord())
+      console.log(this.getRelatedExpert())
     },
 
-    calcColor (type) {
-      switch (type) {
-        case 'scholar':
-          return '#a5dcff'
-        case 'keyword':
-          return '#9effd7'
-        case 'affiliation':
-          return '#ffd7b3'
-        default:
-          return '#a5dcff'
+    getRelatedWord () {
+      if (this.links) {
+        const temp = this.links.filter(item => item.source.id === this.currentWord && item.target.type === 'keyword')
+        if (temp) {
+          return temp.map(item => item.target.name)
+        } else {
+          return []
+        }
       }
-    }
-  },
+    },
 
-  watch: {
-    nodes () {
-      this.$nextTick(() => {
-        // document.querySelector('svg').remove()
-        // this.initData()
-      })
+    getRelatedExpert () {
+      if (this.links) {
+        const temp = this.links.filter(item => item.source.id === this.currentWord && item.target.type === 'expert')
+        if (temp) {
+          return temp.map(item => item.target.name)
+        } else {
+          return []
+        }
+      }
+    },
+
+    showPannel () {
+      return (this.getRelatedWord() !== undefined && this.getRelatedWord().length > 0) ||
+      (this.getRelatedExpert() !== undefined && this.getRelatedExpert().length > 0)
     }
   },
 
@@ -244,19 +305,52 @@ export default {
     nodeId () {
       return this.links[0].source.id
     }
+  },
+
+  watch: {
+    $route (to, from) {
+      console.log(to)
+      console.log(from)
+      if (to.meta.path.includes(from.meta.path)) {
+        this.transitionName = 'slide-right'
+      } else {
+        this.transitionName = 'slide-left'
+      }
+    }
   }
 }
 </script>
-
 <style lang="less" scoped>
+ @import '~@/style/variables.less';
   .graph-wrapper {
     width: 100%;
     height: 100%;
-    background: #071321;
+    background: url('../home/img/bg.png') center no-repeat fixed;
+    background-size: cover;
+    color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     touch-action: none;
+    padding: 10px 55px;
+    box-sizing: border-box;
+    header{
+      display: flex;
+      justify-content: center;
+    }
+    .side-right{
+      width: 350px;
+      .side-right-con{
+        padding: 0px 30px 35px;
+        border-radius: 5px;
+        border:1px solid @borderColor;
+        background: @bgColor;
+        box-sizing: border-box;
+      }
+    }
+    .svg{
+      width: 1460px;
+      height: 100%;
+    }
   }
   .vue{
     width: 100%;
