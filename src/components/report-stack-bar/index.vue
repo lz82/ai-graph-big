@@ -28,7 +28,7 @@ export default {
     xaxis: {
       type: Array,
       default () {
-        return ['机器学习', '语言识别', 'AR技术', '人脸识别']
+        return ['AI基础', '人机混合', '机器学习', '视觉技术']
       }
     },
     series: {

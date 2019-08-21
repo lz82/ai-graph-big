@@ -55,10 +55,9 @@ export default {
                 x: 500,
                 y: 450,
                 fixed: true,
-                value: '1000万',
+                value: '8500万',
                 symbolSize: 220,
                 draggable: true,
-                category: 0,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[0],
@@ -71,7 +70,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|1000万}\n{title|AI投资总额}'
+                    return '{num|8500万}\n{title|AI投资总额}'
                   },
                   rich: rich
                 }
@@ -92,7 +91,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|200万}\n{title|汽车交通}'
+                    return '{num|12.46%}\n{title|汽车交通}'
                   },
                   rich: rich
                 }
@@ -100,7 +99,6 @@ export default {
               {
                 name: '游戏',
                 symbolSize: 150,
-                category: 1,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[2],
@@ -113,7 +111,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|100万}\n{title|游戏}'
+                    return '{num|1.26%}\n{title|游戏}'
                   },
                   rich: rich
                 }
@@ -121,7 +119,6 @@ export default {
               {
                 name: '电子商务',
                 symbolSize: 150,
-                category: 1,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[3],
@@ -134,7 +131,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|140万}\n{title|电子商务}'
+                    return '{num|4.64}\n{title|电子商务}'
                   },
                   rich: rich
                 }
@@ -142,7 +139,6 @@ export default {
               {
                 name: '硬件',
                 symbolSize: 160,
-                category: 1,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[4],
@@ -155,15 +151,14 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|100万}\n{title|硬件}'
+                    return '{num|7.04%}\n{title|硬件}'
                   },
                   rich: rich
                 }
               },
               {
-                name: '社交网络',
+                name: '文娱传媒',
                 symbolSize: 150,
-                category: 2,
                 itemStyle: {
                   normal: {
                     borderColor: colorList[5],
@@ -176,52 +171,132 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|100万}\n{title|社交网络}'
+                    return '{num|4.40%}\n{title|文娱传媒}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '医疗健康',
+                symbolSize: 150,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[0],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[0],
+                    color: '#001c43'
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|16.87%}\n{title|医疗健康}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '教育',
+                symbolSize: 150,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[2],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[2],
+                    color: '#001c43'
+
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|16.87%}\n{title|教育}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '物流',
+                symbolSize: 180,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[1],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[1],
+                    color: '#001c43'
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|15.32%}\n{title|物流}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '企业服务',
+                symbolSize: 200,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[2],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[2],
+                    color: '#001c43'
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|21.38%}\n{title|企业服务}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '金融',
+                symbolSize: 200,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[3],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[3],
+                    color: '#001c43'
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|6.46%}\n{title|金融}'
+                  },
+                  rich: rich
+                }
+              },
+              {
+                name: '本地生活',
+                symbolSize: 200,
+                itemStyle: {
+                  normal: {
+                    borderColor: colorList[4],
+                    borderWidth: 4,
+                    shadowBlur: 10,
+                    shadowColor: colorList[4],
+                    color: '#001c43'
+                  }
+                },
+                label: {
+                  show: true,
+                  formatter () {
+                    return '{num|3.95%}\n{title|本地生活}'
                   },
                   rich: rich
                 }
               }
-              // {
-              //   name: '医疗健康',
-              //   symbolSize: 150,
-              //   category: 2,
-              //   itemStyle: {
-              //     normal: {
-              //       borderColor: '#b457ff',
-              //       borderWidth: 4,
-              //       shadowBlur: 10,
-              //       shadowColor: '#b457ff',
-              //       color: '#001c43'
-              //     }
-              //   }
-              // },
-              // {
-              //   name: '教育',
-              //   symbolSize: 150,
-              //   itemStyle: {
-              //     normal: {
-              //       borderColor: '#82dffe',
-              //       borderWidth: 4,
-              //       shadowBlur: 10,
-              //       shadowColor: '#04f2a7',
-              //       color: '#001c43'
-
-              //     }
-              //   }
-              // },
-              // {
-              //   name: '物流',
-              //   symbolSize: 180,
-              //   itemStyle: {
-              //     normal: {
-              //       borderColor: '#82dffe',
-              //       borderWidth: 4,
-              //       shadowBlur: 10,
-              //       shadowColor: '#04f2a7',
-              //       color: '#001c43'
-              //     }
-              //   }
-              // }
             ],
             links: [
               {
@@ -246,7 +321,7 @@ export default {
               },
               {
                 source: 'AI投资总额',
-                target: '社交网络',
+                target: '文娱传媒',
                 value: 100
               },
               {
@@ -262,6 +337,21 @@ export default {
               {
                 source: 'AI投资总额',
                 target: '物流',
+                value: 100
+              },
+              {
+                source: 'AI投资总额',
+                target: '企业服务',
+                value: 100
+              },
+              {
+                source: 'AI投资总额',
+                target: '金融',
+                value: 100
+              },
+              {
+                source: 'AI投资总额',
+                target: '本地生活',
                 value: 100
               }
             ],

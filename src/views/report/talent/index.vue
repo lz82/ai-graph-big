@@ -21,6 +21,7 @@
             :legend="domainList"
             :xaxis="['2014', '2015', '2016', '2017', '2018']"
             :series="paperRateData"
+            :isstack="true"
           />
         </report-card>
 
@@ -120,7 +121,7 @@
             <p class="f5">
               <count-to
                 class="num"
-                :endVal="7643"
+                :endVal="206491"
                 :duration="2000"
               />
               <span class="label">总数</span>
@@ -128,7 +129,7 @@
             <p class="f5">
               <count-to
                 class="num"
-                :endVal="4001"
+                :endVal="203656"
                 :duration="2000"
               />
               <span class="label">国内</span>
@@ -136,7 +137,7 @@
             <p class="f5">
               <count-to
                 class="num"
-                :endVal="3000"
+                :endVal="2835"
                 :duration="2000"
               />
               <span class="label">国外</span>
@@ -144,7 +145,7 @@
             <p class="f5">
               <count-to
                 class="num"
-                :endVal="2000"
+                :endVal="188205"
                 :duration="2000"
               />
               <span class="label">发明</span>
@@ -152,7 +153,7 @@
             <p class="f5">
               <count-to
                 class="num"
-                :endVal="1800"
+                :endVal="8935"
                 :duration="2000"
               />
               <span class="label">实用新型</span>
@@ -220,124 +221,124 @@ export default {
 
   data () {
     return {
-      domainList: ['机器学习', '人机混合', '知识系统', '神经网络', '人脸识别', '声音识别'],
+      domainList: ['AI基础', '人机混合', '机器学习', '神经网络', '自然语言', '视觉技术'],
       patentList: ['电数字数据处理', '数字信息的传输', '图像通信', '图像数据处理或产生', '特定模型的计算机系统'],
       expertGauge: {
         left: {
           title: '国外',
-          max: 10000,
-          num: 4000
+          max: 4000,
+          num: 2177
         },
         middle: {
           title: '专家总数',
-          max: 20000,
-          num: 10000
+          max: 4000,
+          num: 3909
         },
         right: {
           title: '上海',
-          max: 10000,
-          num: 6000
+          max: 4000,
+          num: 728
         }
       },
       // '机器学习', '人机混合', '知识系统', '神经网络'
       paperRateData: [
         {
-          name: '机器学习',
-          data: [1000, 1600, 1800, 2600, 2800]
+          name: 'AI基础',
+          data: [610755, 685194, 762288, 844475, 914764]
         },
         {
           name: '人机混合',
-          data: [1000, 2200, 2400, 2600, 3000]
+          data: [64941, 71576, 77164, 82221, 85285]
         },
         {
-          name: '知识系统',
-          data: [1200, 3300, 3400, 3600, 4000]
+          name: '机器学习',
+          data: [422833, 471502, 519005, 566482, 595997]
         },
         {
           name: '神经网络',
-          data: [1400, 4200, 4400, 4600, 5000]
+          data: [75830, 81419, 87478, 93534, 96344]
         },
         {
-          name: '人脸识别',
-          data: [1300, 3300, 3400, 3600, 4000]
+          name: '自然语言处理',
+          data: [104096, 110939, 117607, 123651, 127216]
         },
         {
-          name: '声音识别',
-          data: [4000, 4200, 4400, 4600, 5000]
+          name: '视觉技术',
+          data: [89898, 100065, 110496, 121023, 128461]
         }
       ],
       paperLocation: [
         {
-          title: '机器学习',
-          num: 500,
-          other: 600,
+          title: 'AI基础',
+          num: 914764,
+          other: 1033303,
           color: colorList[0]
         },
         {
           title: '人机混合',
-          num: 500,
-          other: 800,
+          num: 85285,
+          other: 1862782,
           color: colorList[1]
         },
         {
-          title: '知识系统',
-          num: 500,
-          other: 900,
+          title: '机器学习',
+          num: 595997,
+          other: 1352070,
           color: colorList[2]
         },
         {
           title: '神经网络',
-          num: 500,
-          other: 1000,
+          num: 96344,
+          other: 1851723,
           color: colorList[3]
         },
         {
           title: '自然语言',
-          num: 500,
-          other: 1100,
+          num: 127216,
+          other: 1820851,
           color: colorList[4]
         },
         {
           title: '视觉技术',
-          num: 800,
-          other: 600,
+          num: 128461,
+          other: 1819606,
           color: colorList[5]
         }
       ],
       patentRateList: [
         {
           name: '电数字数据处理',
-          data: [1000, 1600, 1800, 2600, 2800]
+          data: [3.164353, 3.261976, 3.456366, 3.639984, 3.725667]
         },
         {
           name: '数字信息的传输',
-          data: [1000, 2200, 2400, 2600, 3000]
+          data: [2.292256, 2.499687, 2.680336, 2.933993, 3.054230]
         },
         {
           name: '图像通信',
-          data: [1200, 3300, 3400, 3600, 4000]
+          data: [2.544068, 2.635484, 2.699838, 2.904174, 2.376577]
         },
         {
           name: '图像数据处理或产生',
-          data: [1400, 4200, 4400, 4600, 5000]
+          data: [2.642465, 2.696356, 2.943495, 3.247728, 3.450711]
         },
         {
           name: '特定模型的计算机系统',
-          data: [1300, 3300, 3400, 3600, 4000]
+          data: [2.729974, 2.950365, 3.331022, 3.71206, 3.879669]
         }
       ],
       patentDomainList: [
         {
           name: '2016',
-          data: [100, 120, 150, 200, 170, 320]
+          data: [124463, 20616, 43693, 7062, 14767, 39378]
         },
         {
           name: '2017',
-          data: [100, 120, 150, 200, 180, 400]
+          data: [153918, 24076, 50511, 8849, 16530, 46901]
         },
         {
           name: '2018',
-          data: [100, 120, 150, 200, 310, 450]
+          data: [192047, 28105, 58927, 12114, 19064, 54901]
         }
       ]
     }
@@ -436,7 +437,7 @@ export default {
             flex-flow: column nowrap;
             align-items: center;
             .num {
-              font-size: 32px;
+              font-size: 26px;
               font-weight: 700;
               padding-bottom: 10px;
             }
