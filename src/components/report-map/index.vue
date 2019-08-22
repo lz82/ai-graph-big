@@ -33,13 +33,6 @@ export default {
   data () {
     return {
       chart: null,
-      rawData: [
-        { name: '北京', value: 199 },
-        { name: '新疆', value: 180 },
-        { name: '河南', value: 137 },
-        { name: '浙江', value: 114 },
-        { name: '广东', value: 123 }
-      ],
       geoCoordMap: {},
       option: {
         geo: {
@@ -99,19 +92,21 @@ export default {
           // symbolSize: function (val) {
           //   return val[2] / 10
           // },
-          symbolSize: 16,
+          symbolSize: 8,
           label: {
             normal: {
               formatter (val) {
                 // return `${val.name}-${val.value[2]}`
-                // return `${val.name}`
-                return `${val.value[2]}`
+                return `${val.name}`
+                // return `${val.value[2]}`
               },
               fontWeight: 'bolder',
-              fontSize: 24,
+              fontSize: 12,
               show: true,
-              align: 'right',
-              position: 'left'
+              align: 'center',
+              position: 'bottom',
+              distance: 0,
+              offset: [0, 10]
             },
             emphasis: {
               show: true
@@ -178,11 +173,11 @@ export default {
           zlevel: 6
         },
         {
-          name: 'Top 5',
+          name: 'Top 10',
           type: 'effectScatter',
           coordinateSystem: 'geo',
           data: mapData,
-          symbolSize: 16,
+          symbolSize: 12,
           showEffectOn: 'render',
           rippleEffect: {
             brushType: 'stroke'
