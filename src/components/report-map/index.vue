@@ -9,11 +9,16 @@
 import 'echarts/map/js/china'
 
 const mapData = [
-  { name: '北京', value: [116.46, 39.92, 2] },
-  { name: '新疆', value: [87.617733, 43.792818, 3] },
-  { name: '河南', value: [113.665412, 34.757975, 4] },
-  { name: '浙江', value: [120.153576, 30.287459, 5] },
-  { name: '广东', value: [113.280637, 23.125178, 6] }
+  { name: '广东', value: [113.12244, 23.009505, 8705] },
+  { name: '江苏', value: [118.8062, 31.9208, 7835] },
+  { name: '浙江', value: [119.5313, 29.8773, 4556] },
+  { name: '北京', value: [116.4551, 40.2539, 4462] },
+  { name: '上海', value: [121.4648, 31.2891, 3998] },
+  { name: '安徽', value: [117.29, 32.0581, 2780] },
+  { name: '四川', value: [103.9526, 30.7617, 2279] },
+  { name: '山东', value: [117.1582, 36.8701, 2185] },
+  { name: '天津', value: [117.4219, 39.4189, 1784] },
+  { name: '湖北', value: [114.3896, 30.6628, 1573] }
 ]
 
 export default {
@@ -98,13 +103,15 @@ export default {
           label: {
             normal: {
               formatter (val) {
-                return `${val.name}\n${val.value[2]}`
+                // return `${val.name}-${val.value[2]}`
+                // return `${val.name}`
+                return `${val.value[2]}`
               },
               fontWeight: 'bolder',
               fontSize: 24,
               show: true,
-              align: 'center',
-              position: 'top'
+              align: 'right',
+              position: 'left'
             },
             emphasis: {
               show: true

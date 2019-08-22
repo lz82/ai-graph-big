@@ -37,7 +37,7 @@ export default {
           {
             type: 'category',
             inverse: false,
-            data: ['领域A', '领域B', '领域C', '领域D', '领域E'],
+            data: ['企业服务', '医疗健康', '物流', '汽车交通', '硬件'],
             axisLine: {
               show: false
             },
@@ -103,23 +103,23 @@ export default {
             symbolOffset: [0, 0],
             data: [
               {
-                value: 60,
+                value: 18185454,
                 symbol: 'image://' + '/img/a.png'
               },
               {
-                value: 85,
+                value: 14350268,
                 symbol: 'image://' + '/img/a.png'
               },
               {
-                value: 120,
+                value: 13035680,
                 symbol: 'image://' + '/img/a.png'
               },
               {
-                value: 140,
+                value: 10597534,
                 symbol: 'image://' + '/img/a.png'
               },
               {
-                value: 160,
+                value: 5991822,
                 symbol: 'image://' + '/img/a.png'
               }
             ],
@@ -128,10 +128,10 @@ export default {
                 show: true,
                 textStyle: {
                   color: '#FFF',
-                  fontSize: 14
+                  fontSize: 8
                 },
                 position: 'right',
-                offset: [15, 0]
+                offset: [1, 0]
               }
             }
           },

@@ -103,83 +103,89 @@ export default {
 
   data () {
     return {
-      domainList: ['机器学习', '人机混合', '知识系统', '神经网络', '人脸识别', '声音识别'],
+      domainList: ['企业服务', '医疗健康', '物流', '汽车交通', '硬件', '游戏'],
       rateData: [
         {
-          name: '机器学习',
-          data: [1000, 1200, 1400, 1600, 1800]
+          name: '企业服务',
+          data: [4051413, 9554573, 3173906, 4726037, 18185454]
         },
         {
-          name: '人机混合',
-          data: [2000, 2300, 1400, 1600, 1800]
+          name: '医疗健康',
+          data: [463295, 981635, 1446306, 2303757, 14350269]
         },
         {
-          name: '知识系统',
-          data: [3000, 2400, 1400, 1600, 1800]
+          name: '物流',
+          data: [7289, 176275, 562201, 8412038, 13035680]
         },
         {
-          name: '神经网络',
-          data: [4000, 2500, 1400, 1600, 1800]
+          name: '汽车交通',
+          data: [1426877, 388712, 2923063, 16487486, 10597534]
         },
         {
-          name: '人脸识别',
-          data: [5000, 1600, 1400, 1600, 1800]
+          name: '硬件',
+          data: [4242899, 922026, 34563790, 2915478, 5991822]
         },
         {
-          name: '声音识别',
-          data: [6000, 1700, 1400, 1600, 1800]
+          name: '游戏',
+          data: [1850856, 65346, 5974256, 558474, 1074092]
         }
       ],
       petentRate: [
         {
           name: '天使轮',
-          value: 100
+          value: 3047
         },
         {
           name: 'A轮',
-          value: 80
-        },
-        {
-          name: 'A+轮',
-          value: 70
+          value: 3935
         },
         {
           name: 'B轮',
-          value: 60
+          value: 1550
         },
         {
           name: 'C轮',
-          value: 50
+          value: 634
         },
         {
-          name: 'IPO',
-          value: 10
+          name: 'D轮',
+          value: 297
+        },
+        {
+          name: '并购投资',
+          value: 706
         }
       ],
       investList: [
         {
-          name: '红杉资本',
-          domain: '机器学习',
-          fund: '上投摩根基金公司',
-          company: '上海科技发展有限公司'
+          name: '高通',
+          domain: '硬件',
+          fund: 36488396,
+          company: 'RealWear | OneWeb'
         },
         {
-          name: '红杉资本',
-          domain: '机器学习',
-          fund: '上投摩根基金公司',
-          company: '上海科技发展有限公司'
+          name: '微软',
+          domain: '社交网络',
+          fund: 18029104,
+          company: 'OpenAI | Markforged'
         },
         {
-          name: '红杉资本',
-          domain: '机器学习',
-          fund: '上投摩根基金公司',
-          company: '上海科技发展有限公司'
+          name: '高瓴资本',
+          domain: '物流',
+          fund: 11438700,
+          company: '贝壳找房 | 呆萝卜'
         },
         {
-          name: '红杉资本',
-          domain: '机器学习',
-          fund: '上投摩根基金公司',
-          company: '上海科技发展有限公司'
+          name: '英特尔投资',
+          domain: '汽车交通',
+          fund: 10610196,
+          company: 'Exo Imaging | TriEye'
+        },
+        {
+          name: '软银愿景基金',
+          domain: '房产服务',
+          fund: 7909010,
+          company: 'Grab | 车好多集团'
         }
       ]
     }
