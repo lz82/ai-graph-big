@@ -40,14 +40,17 @@ const router = new Router({
     {
       path: '/graph/:searchKey',
       name: 'Graph',
-      component: GraphDetail
+      component: GraphDetail,
+      meta: {
+        path: 'home-graph'
+      }
     },
     {
       path: '/search/:searchKey?',
       name: 'Search',
       component: Search,
       meta: {
-        path: 'home-serch-graph'
+        path: 'home-serch'
       }
     },
     {

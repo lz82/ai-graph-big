@@ -91,6 +91,7 @@ export default {
     img{
       width: 130px;
       height: 150px;
+      border-radius: 5px;
     }
     // wiki data
     .wiki-data{

@@ -6,9 +6,7 @@
         <header>
           <page-header :title="title" class="title"></page-header>
         </header>
-        <div class="svg">
-          <svg class='graph-detail' width='1360' height='1000'></svg>
-        </div>
+        <div class="svg-detail-wrapper"></div>
       </div>
       <div class="side-right">
         <btn-group></btn-group>
@@ -51,11 +49,11 @@ export default {
       transitionName: '',
       svg: null,
       svgW: 1360,
-      svgH: 1000,
+      svgH: 1060,
       links: null,
       nodes: null,
-      colorList: ['#4b6ff4', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4'],
-      rediusList: [60, 50, 40, 30, 20],
+      colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
+      rediusList: [70, 60, 50, 40, 30],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       // currentWord: '2116449_scholar',
@@ -74,9 +72,8 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          console.log(temp)
-          this.nodes = temp.graphData.nodes
-          this.links = temp.graphData.links
+          this.nodes = temp.graphData.fakeNodes
+          this.links = temp.graphData.fakeLinks
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -85,8 +82,8 @@ export default {
 
     async initData () {
       await this.getData()
-      this.initSvgContainer()
       this.initForceSimulation()
+      this.initSvgContainer()
       this.drawSvg()
     },
 
@@ -98,11 +95,11 @@ export default {
         left: 20
       }
 
-      this.svg = d3.select('svg.graph-detail')
-        // .append('svg')
+      this.svg = d3.select('.svg-detail-wrapper')
+        .append('svg')
         .attr('viewBox', '-100 -100 1500 1300')
-        // .attr('width', this.svgW)
-        // .attr('height', this.svgH)
+        .attr('width', this.svgW)
+        .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
         // .alphaDecay(this.alphaDecay)
@@ -114,12 +111,12 @@ export default {
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
         // .alpha(0.07) // 活力  渲染之后再自动动多久
-        .force('link', d3.forceLink().id(data => data.id).distance(data => {
-          // console.log(data)
-          if (data.target.name === 'Jun Zhu') {
+        .force('link', d3.forceLink().id(data => data.code).distance(data => {
+          // 无分支的节点
+          if (data.target.name === '荣誉' || data.target.name === '组织') {
             return 300
           } else {
-            return 10
+            return 80
           }
         })) // 映射id & 线的长度
         .force('charge', d3.forceManyBody().strength(this.chargeStrength))
@@ -127,13 +124,12 @@ export default {
         .force('yPos', d3.forceY(this.svgH / 2))
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
-          // console.log(d);
           if (d.name === this.keyword) {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 100
-          // return 70 * d.value + 5
+          return 135 - d.level * 20
+          // return 60 * d.value + 5
         }))
     },
 
@@ -159,7 +155,7 @@ export default {
         .data(this.links)
         .enter()
         .append('line')
-        .attr('stroke', (data, index) => 'rgba(255,255,255,0.6)')
+        .attr('stroke', (data, index) => 'rgba(255,255,255,0.4)')
         .attr('stroke-width', '2px')
         .attr('target', data => data.target.name)
         .attr('source', data => data.source.name)
@@ -176,26 +172,22 @@ export default {
           .on('drag', this.dragged)
           .on('end', this.ended)
         )
+        .on('click', (d) => {
+          this.showDetail(d.code)
+        })
 
       gs.append('circle')
         .attr('class', 'circle-outer')
-        .attr('id', d => 'id-' + d.id)
+        .attr('id', d => 'id-' + d.code)
         .attr('r', data => {
           return this.rediusList[data.level - 1]
         })
         .attr('fill', '#10162d')
         .attr('stroke', d => {
-          if (d.name === this.keyword) { // 中心词
-            return '#4b6ff4'
-          } else {
-            return this.colorList[d.colorIdx]
-          }
+          return this.colorList[d.colorIdx]
         })
         .attr('stroke-width', '4px')
         .attr('style', 'cursor: pointer;')
-        .on('click', (d) => {
-          this.showDetail(d.id)
-        })
 
       gs.filter(d => {
         if (d.level && d.level < 4) {
@@ -217,7 +209,7 @@ export default {
         })
         .text(data => data)
         .on('click', (data, index, nodes) => {
-          const id = nodes[0].parentNode['id']
+          const id = nodes[0].parentNode['code']
           this.showDetail(id)
         })
 
@@ -275,7 +267,7 @@ export default {
 
     getRelatedWord () {
       if (this.links) {
-        const temp = this.links.filter(item => item.source.id === this.currentWord && item.target.type === 'keyword')
+        const temp = this.links.filter(item => item.source.code === this.currentWord && item.target.type === 'keyword')
         if (temp) {
           return temp.map(item => item.target.name)
         } else {
@@ -286,7 +278,7 @@ export default {
 
     getRelatedExpert () {
       if (this.links) {
-        const temp = this.links.filter(item => item.source.id === this.currentWord && item.target.type === 'expert')
+        const temp = this.links.filter(item => item.source.code === this.currentWord && item.target.type === 'expert')
         if (temp) {
           return temp.map(item => item.target.name)
         } else {
@@ -303,7 +295,7 @@ export default {
 
   computed: {
     nodeId () {
-      return this.links[0].source.id
+      return this.links[0].source.code
     }
   },
 
@@ -347,7 +339,7 @@ export default {
         box-sizing: border-box;
       }
     }
-    .svg{
+    .svg-detail-wrapper{
       width: 1460px;
       height: 100%;
     }
