@@ -7,40 +7,32 @@
 <script>
 import * as d3 from 'd3'
 // import icon from './img/boshimao.png'
-import { graphApi } from '@/service'
+// import { graphApi } from '@/service'
 export default {
   name: 'KnowGraph',
+  props: {
+    nodes: Array,
+    links: Array
+  },
   data () {
     return {
       forceSimulation: null,
       svg: null,
       svgW: 840,
       svgH: 800,
-      links: null,
-      nodes: null,
       searchKey: this.$route.path.split('/')[2]
     }
   },
 
   mounted () {
     this.initData()
+    console.log(this.nodes)
+    console.log(this.links)
   },
 
   methods: {
-    async getData () {
-      try {
-        const data = await graphApi.QueryGraphInfoByKeyword(this.searchKey)
-        if (data) {
-          this.nodes = data.nodes
-          this.links = data.links
-        }
-      } catch (error) {
-        this.$message.error(error.toString())
-      }
-    },
-
     async initData () {
-      await this.getData()
+      // await this.getData()
       this.initForceSimulation()
       this.initSvgContainer()
       this.drawSvg()
@@ -66,7 +58,7 @@ export default {
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
         .alpha(0.05) // 活力  渲染之后再自动动多久
-        .force('link', d3.forceLink().id(data => data.id)) // 映射id & 线的长度
+        .force('link', d3.forceLink().id(data => data.code)) // 映射id & 线的长度
         /*
         .distance(data => {
           return 160 * data.target.value
@@ -76,11 +68,12 @@ export default {
         .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
         .force('collide', d3.forceCollide(d => {
           // console.log(d);
-          if (d.name === '李飞飞') {
+          if (d.name === this.searchKey) {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 100 * d.value + 5
+          return 60 * Math.random() + 100
+          // return 100 * d.value + 5
         }))
     },
 
@@ -126,9 +119,9 @@ export default {
 
       gs.append('circle')
         .attr('class', 'circle-outer')
-        .attr('id', d => 'id-' + d.id)
+        .attr('id', d => 'id-' + d.code)
         .attr('r', data => {
-          return data.name === '李飞飞' ? 75 : 60 + Math.random() * 10
+          return data.name === this.searchKey ? 85 : 60 + Math.random() * 10
         })
         // .attr('fill', data => this.calcColor(data.type))
         .attr('fill', '#10172d')
@@ -148,7 +141,7 @@ export default {
         .attr('stroke-dasharray', '10px 2px')
         .attr('stroke-width', '8px')
         .attr('d', data => {
-          const id = `id-${data.id}`
+          const id = `id-${data.code}`
           let outerR = d3.select('#' + id).attr('r') // 外围圆半径***选择器不能数字开头***
           let innerR = outerR - 8
           let degree = data.index * 10 / 100 * 360
@@ -161,7 +154,7 @@ export default {
 
       gs.append('text')
         // .text(data => data.name)
-        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:20px')
+        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:24px')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')
@@ -234,19 +227,9 @@ export default {
     }
   },
 
-  // watch: {
-  //   nodes () {
-  //     this.$nextTick(() => {
-  //       // document.querySelector('svg').remove()
-  //       // this.initData()
-  //     })
-  //   }
-  // },
-
   computed: {
     nodeId () {
-      // return this.links[0].source.id
-      return 0
+      return this.links[0].source.id
     }
   }
 }

@@ -23,13 +23,14 @@
 
 <script>
 import * as d3 from 'd3'
-import icoExpert from './img/ico-expert.png'
-// import icoOrg from './img/ico-org.png'
-// import icoProject from './img/ico-project.png'
-// import icoPatent from './img/ico-patent.png'
-// import icoPaper from './img/ico-paper.png'
-// import icoAchieve from './img/ico-achieve.png'
-// import icoKeyword from './img/ico-keyword.png'
+/* eslint-disable no-unused-vars */
+import expertIco from './img/ico-expert.png'
+import orgIco from './img/ico-org.png'
+import projectIco from './img/ico-project.png'
+import patentIco from './img/ico-patent.png'
+import paperIco from './img/ico-paper.png'
+import honorIco from './img/ico-honor.png'
+import keywordIco from './img/ico-keyword.png'
 import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import RelatePannel from './relate-pannel'
@@ -52,13 +53,22 @@ export default {
       svgH: 1060,
       links: null,
       nodes: null,
-      colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
-      rediusList: [70, 60, 50, 40, 30],
+      fontSizeList: [26, 24, 20, 20, 20, 15],
+      // typeList: ['expert', 'keyword', 'org', 'paper', 'patent', 'project', 'honor'], // 专家expert，关键词keyword，机构org，论文paper，专利patent，项目project，荣誉honor
+      // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
+      colorList: ['#6abdf3', '#49C5FE', '#F4E28F', '#E97383', '#7E48DA', '#8CECB9', '#1E90FF'],
+      rediusList: [100, 80, 50, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
-      // currentWord: '2116449_scholar',
       alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -400 // 万有引力
+      chargeStrength: -400, // 万有引力
+      paperIco: paperIco, // 论文小图标
+      orgIco: orgIco,
+      expertIco: expertIco,
+      projectIco: projectIco,
+      patentIco: patentIco,
+      honorIco: honorIco,
+      keywordIco: keywordIco
     }
   },
 
@@ -72,8 +82,9 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          this.nodes = temp.graphData.fakeNodes
-          this.links = temp.graphData.fakeLinks
+          console.log(temp)
+          this.nodes = temp.graph.fakeNodes
+          this.links = temp.graph.fakeLinks
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -107,7 +118,6 @@ export default {
     },
 
     initSvgContainer () {
-      console.log('initSvgContainer')
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
         // .alpha(0.07) // 活力  渲染之后再自动动多久
@@ -128,7 +138,7 @@ export default {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 135 - d.level * 20
+          return 145 - d.level * 20
           // return 60 * d.value + 5
         }))
     },
@@ -173,16 +183,18 @@ export default {
           .on('end', this.ended)
         )
         .on('click', (d) => {
-          this.showDetail(d.code)
+          this.clickHandel(d)
         })
 
       gs.append('circle')
-        .attr('class', 'circle-outer')
-        .attr('id', d => 'id-' + d.code)
+        .attr('class', 'circle-node')
         .attr('r', data => {
           return this.rediusList[data.level - 1]
         })
-        .attr('fill', '#10162d')
+        .attr('fill', d => {
+          return '#10162d'
+          // return this.colorList[d.colorIdx]
+        })
         .attr('stroke', d => {
           return this.colorList[d.colorIdx]
         })
@@ -194,7 +206,10 @@ export default {
           return this
         }
       }).append('text')
-        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:20px;')
+        .attr('style', d => {
+          console.log(d)
+          return `cursor: pointer; text-anchor: middle;font-size:${this.fontSizeList[d.level - 1]}px`
+        })
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')
@@ -202,35 +217,47 @@ export default {
         .attr('x', 0)
         .attr('y', (d, i, nodes) => {
           if (nodes) {
-            return `${i - nodes.length / 2 + 1.5}em`
+            return `${i - nodes.length / 2 + 1.8}em`
           } else {
             return `0em`
           }
         })
         .text(data => data)
-        .on('click', (data, index, nodes) => {
-          const id = nodes[0].parentNode['code']
-          this.showDetail(id)
-        })
+        // .on('click', (data, index, nodes) => {
+        //   const id = nodes[0].parentNode['code']
+        //   this.clickHandel(id)
+        // })
 
       gs.filter(d => {
         if ((d.level && d.level < 4)) {
           return this
         }
       }).append('image')
-        .attr('href', icoExpert)
-        .attr('width', '30px')
-        .attr('height', '30px')
-        .attr('x', '-15')
-        .attr('y', '-35')
+        .attr('href', d => {
+          return this[`${d.type}Ico`]
+        })
+        .attr('width', d => {
+          return `${this.fontSizeList[d.level] * 2}px`
+        })
+        .attr('height', d => {
+          return `${this.fontSizeList[d.level] * 2}px`
+        })
+        .attr('x', '-20')
+        .attr('y', '-40')
       gs.filter(d => {
         if ((d.level && d.level > 3)) {
           return this
         }
       }).append('image')
-        .attr('href', icoExpert)
-        .attr('width', '30px')
-        .attr('height', '30px')
+        .attr('href', d => {
+          return this[`${d.type}Ico`]
+        })
+        .attr('width', d => {
+          return `${this.fontSizeList[d.level] * 2}px`
+        })
+        .attr('height', d => {
+          return `${this.fontSizeList[d.level] * 2}px`
+        })
         .attr('x', '-15')
         .attr('y', '-15')
     },
@@ -257,12 +284,16 @@ export default {
       d.fy = null
     },
 
-    showDetail (id) {
-      // console.log('id1==' + this.currentWord)
-      this.currentWord = id
-      // console.log('id2==' + this.currentWord)
-      console.log(this.getRelatedWord())
-      console.log(this.getRelatedExpert())
+    clickHandel (d) {
+      if (d.level < 4) {
+        if (d.name === this.keyword) {
+          this.$router.push(`/search/${this.keyword}`)
+        } else {
+          this.currentWord = d.id
+        }
+      } else {
+        this.currentWord = d.id
+      }
     },
 
     getRelatedWord () {

@@ -13,17 +13,18 @@
 <script>
 export default {
   name: 'HotPannel',
-
+  inject: ['routerRefresh'], // 在子组件中注入在父组件中出创建的属性
   data () {
     return {
-      list1: ['神经网络', '机器学习', '支持向量机', '人脸识别', '模式识别', '深度学习', '卷积神经网络', '人工智能', '计算机视觉', '自然语言处理'],
+      list1: ['知识库', '机器学习', '支持向量机', '人脸识别', '模式识别', '深度学习', '卷积神经网络', '人工智能', '计算机视觉', '自然语言处理'],
       list2: ['吴恩达', '周志华', '韩家炜', 'Geoffrey Hinton', 'Yoshua Bengio', 'Yann Lecun', 'Michael I. Jordan', '谭铁牛', '李飞飞', 'Sebastian Thrun']
     }
   },
 
   methods: {
     goSearch (keyword) {
-      // this.$router.push(`/search/result/${keyword}`)
+      this.$router.push(`/search/${keyword}`)
+      this.routerRefresh()
     }
   }
 }

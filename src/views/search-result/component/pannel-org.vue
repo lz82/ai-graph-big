@@ -11,10 +11,12 @@
 <script>
 export default {
   name: 'OrgPannel',
+  props: {
+    list: Array
+  },
   data () {
     return {
-      title: '合作机构',
-      list: ['Courant Institute of Mathematical Sciences']
+      title: '合作机构'
     }
   }
 

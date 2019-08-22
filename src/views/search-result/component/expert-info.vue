@@ -1,6 +1,5 @@
 <template>
 <div class="expert-info-wrapper">
-  <!-- <h2 class='comm-title'>{{title}}信息</h2> -->
   <div class="wiki-wraper">
     <div class="wiki-info">
       <img :src='info.headImg'>
@@ -35,29 +34,12 @@
 <script>
 export default {
   name: 'ExpertInfo',
+  props: {
+    info: Object
+  },
 
   data () {
     return {
-      title: '专家',
-      info: {
-        citedSituation: null,
-        country: '美国',
-        fwciinedx: 13.89,
-        hIndex: 57,
-        headImg: 'http://192.168.200.199:8095/img/expert_logo/2019-03/2019-03-13-16-40-00__ac93a0d6-a1d0-42fb-874f-4a6b5d6eeb60.jpg',
-        id: 2116449,
-        institution: 'Stanford University',
-        journalSend: null,
-        name: '李飞飞',
-        number1: 40,
-        number10: 94,
-        subjectArea: '计算机科学',
-        subjectMatch: null,
-        top10Citations: 0.673759,
-        top1Citations: 0.368794,
-        totalCitations: 22347,
-        totalIssues: 156
-      }
     }
   },
 

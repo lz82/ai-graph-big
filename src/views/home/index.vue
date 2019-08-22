@@ -182,12 +182,12 @@ export default {
         {
           // 成果奖项
           img: tagAward,
-          url: '/search/吴恩达'
+          url: '/search/知识库'
         },
         {
           // 科技企业
           img: tagEnterprise,
-          url: '/search/吴恩达'
+          url: '/search/吴恩达?type=expert'
         },
         {
           // 专家
