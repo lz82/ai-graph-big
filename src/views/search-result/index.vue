@@ -50,6 +50,7 @@ import TechPannel from './component/pannel-tech'
 import OrgPannel from './component/pannel-org'
 import BtnGroup from '@/components/btn-group'
 import { searchApi } from '@/service'
+import appConfig from '@/config'
 export default {
   name: 'SearchResult',
   components: {
@@ -66,6 +67,7 @@ export default {
   },
   data () {
     return {
+      baseURL: appConfig.baseUrl,
       tabBarData: [
         { name: '论文' },
         { name: '专利' },

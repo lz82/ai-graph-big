@@ -52,8 +52,8 @@ export default {
       svgH: 1060,
       links: null,
       nodes: null,
-      colorList: ['#4b6ff4', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4'],
-      rediusList: [65, 50, 40, 30, 20],
+      colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
+      rediusList: [70, 60, 50, 40, 30],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       // currentWord: '2116449_scholar',
@@ -72,9 +72,8 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          console.log(temp)
-          this.nodes = temp.graphData.nodes
-          this.links = temp.graphData.links
+          this.nodes = temp.graphData.fakeNodes
+          this.links = temp.graphData.fakeLinks
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -129,7 +128,7 @@ export default {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
             d.fy = this.svgH / 2
           }
-          return 120 - d.level * 20
+          return 135 - d.level * 20
           // return 60 * d.value + 5
         }))
     },
@@ -185,11 +184,7 @@ export default {
         })
         .attr('fill', '#10162d')
         .attr('stroke', d => {
-          if (d.name === this.keyword) { // 中心词
-            return '#4b6ff4'
-          } else {
-            return this.colorList[d.colorIdx]
-          }
+          return this.colorList[d.colorIdx]
         })
         .attr('stroke-width', '4px')
         .attr('style', 'cursor: pointer;')
