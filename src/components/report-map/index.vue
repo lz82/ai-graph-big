@@ -2,6 +2,100 @@
   <div class="report-map-wrapper">
     <div id="chart" ref="mychart" style="width: 850px; height: 800px;"></div>
     <h3>{{ title }}</h3>
+    <transition-group name="fade" mode="out-in" tag="div">
+      <div class="table" v-if="showTop10" key="10">
+        <div class="row header">
+          <span>地区</span>
+          <span>数量</span>
+        </div>
+        <div class="row">
+          <span>广东</span>
+          <span>8705</span>
+        </div>
+        <div class="row">
+          <span>江苏</span>
+          <span>7835</span>
+        </div>
+        <div class="row">
+          <span>浙江</span>
+          <span>4556</span>
+        </div>
+        <div class="row">
+          <span>北京</span>
+          <span>4462</span>
+        </div>
+        <div class="row">
+          <span>上海</span>
+          <span>3998</span>
+        </div>
+        <div class="row">
+          <span>安徽</span>
+          <span>2780</span>
+        </div>
+        <div class="row">
+          <span>四川</span>
+          <span>2279</span>
+        </div>
+        <div class="row">
+          <span>山东</span>
+          <span>2185</span>
+        </div>
+        <div class="row">
+          <span>天津</span>
+          <span>1784</span>
+        </div>
+        <div class="row">
+          <span>湖北</span>
+          <span>1573</span>
+        </div>
+      </div>
+      <div class="table" v-else key="20">
+        <div class="row header">
+          <span>地区</span>
+          <span>数量</span>
+        </div>
+        <div class="row">
+          <span>福建</span>
+          <span>1344</span>
+        </div>
+        <div class="row">
+          <span>湖南</span>
+          <span>1016</span>
+        </div>
+        <div class="row">
+          <span>河南</span>
+          <span>954</span>
+        </div>
+        <div class="row">
+          <span>重庆</span>
+          <span>917</span>
+        </div>
+        <div class="row">
+          <span>辽宁</span>
+          <span>802</span>
+        </div>
+        <div class="row">
+          <span>陕西</span>
+          <span>798</span>
+        </div>
+        <div class="row">
+          <span>河北</span>
+          <span>618</span>
+        </div>
+        <div class="row">
+          <span>广西</span>
+          <span>475</span>
+        </div>
+        <div class="row">
+          <span>江西</span>
+          <span>378</span>
+        </div>
+        <div class="row">
+          <span>黑龙江</span>
+          <span>314</span>
+        </div>
+      </div>
+    </transition-group>
   </div>
 </template>
 
@@ -18,7 +112,17 @@ const mapData = [
   { name: '四川', value: [103.9526, 30.7617, 2279] },
   { name: '山东', value: [117.1582, 36.8701, 2185] },
   { name: '天津', value: [117.4219, 39.4189, 1784] },
-  { name: '湖北', value: [114.3896, 30.6628, 1573] }
+  { name: '湖北', value: [114.3896, 30.6628, 1573] },
+  { name: '福建', value: [119.4543, 25.9222, 1344] },
+  { name: '湖南', value: [113.0823, 28.2568, 1016] },
+  { name: '河南', value: [113.4668, 34.6234, 954] },
+  { name: '重庆', value: [108.384366, 30.439702, 917] },
+  { name: '辽宁', value: [123.1238, 42.1216, 802] },
+  { name: '陕西', value: [109.1162, 34.2004, 798] },
+  { name: '河北', value: [114.4995, 38.1006, 618] },
+  { name: '广西', value: [108.479, 23.1152, 475] },
+  { name: '江西', value: [116.0046, 28.6633, 378] },
+  { name: '黑龙江', value: [127.9688, 45.368, 314] }
 ]
 
 export default {
@@ -33,13 +137,7 @@ export default {
   data () {
     return {
       chart: null,
-      rawData: [
-        { name: '北京', value: 199 },
-        { name: '新疆', value: 180 },
-        { name: '河南', value: 137 },
-        { name: '浙江', value: 114 },
-        { name: '广东', value: 123 }
-      ],
+      showTop10: true,
       geoCoordMap: {},
       option: {
         geo: {
@@ -99,19 +197,21 @@ export default {
           // symbolSize: function (val) {
           //   return val[2] / 10
           // },
-          symbolSize: 16,
+          symbolSize: 8,
           label: {
             normal: {
               formatter (val) {
                 // return `${val.name}-${val.value[2]}`
-                // return `${val.name}`
-                return `${val.value[2]}`
+                return `${val.name}`
+                // return `${val.value[2]}`
               },
               fontWeight: 'bolder',
-              fontSize: 24,
+              fontSize: 12,
               show: true,
-              align: 'right',
-              position: 'left'
+              align: 'center',
+              position: 'bottom',
+              distance: 0,
+              offset: [0, 10]
             },
             emphasis: {
               show: true
@@ -178,11 +278,11 @@ export default {
           zlevel: 6
         },
         {
-          name: 'Top 5',
+          name: 'Top 10',
           type: 'effectScatter',
           coordinateSystem: 'geo',
           data: mapData,
-          symbolSize: 16,
+          symbolSize: 12,
           showEffectOn: 'render',
           rippleEffect: {
             brushType: 'stroke'
@@ -213,6 +313,9 @@ export default {
     this.$nextTick(() => {
       this.initChart()
     })
+    setInterval(() => {
+      this.showTop10 = !this.showTop10
+    }, 5000)
   },
 
   methods: {
@@ -230,12 +333,38 @@ export default {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-
+    position: relative;
     h3 {
       font-size: 24px;
       font-weight: 700;
       color: #fff;
+    }
+    .table {
+      position: absolute;
+      width: 200px;
+      height: 300px;
+      border: solid 1px #fff;
+      left: 10px;
+      bottom: -90px;
 
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      color: #fff;
+
+      .row {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        span {
+          flex: 0 0 50%;
+          text-align: center;
+          line-height: 26px;
+        }
+      }
+      .header {
+        border-bottom: solid 1px #fff;
+      }
     }
   }
 </style>

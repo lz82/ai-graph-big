@@ -211,7 +211,6 @@ export default {
     },
 
     $route (to, from) {
-      console.log(to)
       if (to.meta.index > from.meta.index) {
         this.transitionName = 'slide-left'
       } else {

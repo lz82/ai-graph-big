@@ -147,7 +147,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-muliti-report-wrapper {
+  .report-muliti-line-wrapper {
     box-sizing: border-box;
     display: flex;
     flex-flow: column nowrap;

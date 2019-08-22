@@ -332,8 +332,6 @@ export default {
 
   watch: {
     $route (to, from) {
-      console.log(to)
-      console.log(from)
       if (to.meta.path.includes(from.meta.path)) {
         this.transitionName = 'slide-right'
       } else {

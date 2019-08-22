@@ -16,7 +16,7 @@
       </div>
       <div class="content">
         <report-card
-          title="近10年各领域投资额增长"
+          title="近5年各领域投资额增长"
           width="100%"
           height="310px"
         >
@@ -59,7 +59,7 @@
               <div class="row header">
                 <span>机构名称</span>
                 <span>主投领域</span>
-                <span>基金</span>
+                <span>基金规模</span>
                 <span>被投明星企业</span>
               </div>
               <template
@@ -122,8 +122,8 @@ export default {
           data: [1426877, 388712, 2923063, 16487486, 10597534]
         },
         {
-          name: '硬件',
-          data: [4242899, 922026, 34563790, 2915478, 5991822]
+          name: '电子商务',
+          data: [475664, 574718, 889006, 6086419, 3946528]
         },
         {
           name: '游戏',
@@ -158,33 +158,33 @@ export default {
       ],
       investList: [
         {
-          name: '高通',
+          name: '高通Qualcomm Ventures',
           domain: '硬件',
-          fund: 36488396,
+          fund: '60.2亿',
           company: 'RealWear | OneWeb'
         },
         {
-          name: '微软',
+          name: '微软Microsoft',
           domain: '社交网络',
-          fund: 18029104,
+          fund: '124.1亿',
           company: 'OpenAI | Markforged'
         },
         {
           name: '高瓴资本',
           domain: '物流',
-          fund: 11438700,
+          fund: '122.3亿',
           company: '贝壳找房 | 呆萝卜'
         },
         {
-          name: '英特尔投资',
+          name: '英特尔投资Intel Capital ',
           domain: '汽车交通',
-          fund: 10610196,
+          fund: '16亿',
           company: 'Exo Imaging | TriEye'
         },
         {
           name: '软银愿景基金',
           domain: '房产服务',
-          fund: 7909010,
+          fund: '567.1亿',
           company: 'Grab | 车好多集团'
         }
       ]

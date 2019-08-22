@@ -107,7 +107,8 @@ export default {
           stack: 'total',
           label: {
             show: true,
-            formatter: '{c}'
+            formatter: '{c}',
+            position: 'right'
           },
           barWidth: '35px',
           data: item.data

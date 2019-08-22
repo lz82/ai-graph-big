@@ -43,47 +43,27 @@ export default {
             },
             data: [
               {
-                name: '机22器学习',
+                name: '无人驾驶',
                 value: 366
               },
               {
-                name: '人脸22识别',
-                value: 66
-              },
-              {
-                name: '声音22识别',
-                value: 366
-              },
-              {
-                name: '学习22系统',
-                value: 123
-              },
-              {
-                name: 'AlphaGo22',
+                name: '推荐系统',
                 value: 787
               },
               {
-                name: '智能22音箱',
+                name: '词嵌入',
                 value: 156
               },
               {
-                name: '无人22驾驶',
-                value: 123
-              },
-              {
-                name: '智轨22列车',
+                name: '人脸识别',
                 value: 345
               },
               {
-                name: '机器学习',
+                name: '知识图谱',
                 value: 366
               },
               {
-                name: '人脸识别',
-                value: 66
-              },
-              {
-                name: '声音识别',
+                name: '图神经网络',
                 value: 366
               },
               {
@@ -91,8 +71,8 @@ export default {
                 value: 123
               },
               {
-                name: 'AlphaGo',
-                value: 787
+                name: '机器翻译',
+                value: 687
               },
               {
                 name: '智能音箱',
@@ -103,15 +83,15 @@ export default {
                 value: 123
               },
               {
-                name: '智轨列车',
+                name: '迁移学习',
                 value: 345
               },
               {
-                name: '3D打印',
+                name: '卷积神经',
                 value: 56
               },
               {
-                name: '天使粒子',
+                name: '人机混合',
                 value: 23
               },
               {
@@ -125,22 +105,6 @@ export default {
               {
                 name: '智轨列车',
                 value: 345
-              },
-              {
-                name: '3D1打印',
-                value: 56
-              },
-              {
-                name: '天使1粒子',
-                value: 23
-              },
-              {
-                name: '新1引力波',
-                value: 234
-              },
-              {
-                name: 'AR1技术',
-                value: 155
               }
             ]
           }

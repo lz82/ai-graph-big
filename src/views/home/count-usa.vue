@@ -36,7 +36,6 @@ export default {
   },
 
   mounted () {
-    console.log('count mounted...')
     this.init()
   },
 
