@@ -315,7 +315,7 @@ export default {
     })
     setInterval(() => {
       this.showTop10 = !this.showTop10
-    }, 3000)
+    }, 5000)
   },
 
   methods: {
