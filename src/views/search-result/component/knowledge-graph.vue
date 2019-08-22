@@ -1,8 +1,6 @@
 <template>
   <div class="graph-wrapper">
-    <div class="svg">
-      <svg class='graph' width="840" height="800"></svg>
-    </div>
+    <div class="svg-wrapper"></div>
   </div>
 </template>
 
@@ -56,10 +54,10 @@ export default {
         left: 20
       }
 
-      this.svg = d3.select('svg.graph')
-        // .append('svg')
-        // .attr('width', this.svgW)
-        // .attr('height', this.svgH)
+      this.svg = d3.select('.svg-wrapper')
+        .append('svg')
+        .attr('width', this.svgW)
+        .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
     },
@@ -163,7 +161,7 @@ export default {
 
       gs.append('text')
         // .text(data => data.name)
-        .attr('style', 'cursor: pointer; text-anchor: middle;')
+        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:20px')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')

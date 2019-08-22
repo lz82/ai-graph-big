@@ -7,17 +7,17 @@ const getBaseUrl = env => {
     // development
     case 'dev':
       return {
-        baseUrl: 'http://localhost:8080'
+        baseUrl: 'http://localhost:8899'
       }
     // production
     case 'prod':
       return {
-        baseUrl: 'http://localhost:8080'
+        baseUrl: 'http://localhost:8899'
       }
     // default: dev
     default:
       return {
-        baseUrl: 'http://localhost:8080'
+        baseUrl: 'http://localhost:8899'
       }
   }
 }
