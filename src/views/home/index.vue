@@ -16,15 +16,15 @@
         >
 
         <Count
-          :num="123999"
+          :num="57390"
           type="europe"
-          txt="欧洲专利局"
+          txt="欧洲"
           class="cnt europe"
           v-if="showEupo"
         />
 
         <Count
-          :num="223344"
+          :num="200784"
           type="china"
           txt="中国"
           class="cnt china"
@@ -32,7 +32,7 @@
         />
 
         <Count
-          :num="556677"
+          :num="12050"
           type="canada"
           txt="加拿大"
           class="cnt canada"
@@ -40,7 +40,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="189106"
           type="usa"
           txt="美国"
           class="cnt usa"
@@ -48,7 +48,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="10581"
           type="usa"
           txt="英国"
           class="cnt england"
@@ -56,7 +56,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="4003"
           type="usa"
           txt="法国"
           class="cnt france"
@@ -64,7 +64,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="17445"
           type="usa"
           txt="德国"
           class="cnt ge"
@@ -72,7 +72,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="13763"
           type="usa"
           txt="台湾地区"
           class="cnt tw"
@@ -80,7 +80,7 @@
         />
 
         <Count
-          :num="999999"
+          :num="116875"
           type="usa"
           txt="日本"
           class="cnt jp"
@@ -88,7 +88,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="48719"
           type="usa"
           txt="韩国"
           class="cnt korea"
@@ -96,7 +96,7 @@
         />
 
         <Count
-          :num="77886"
+          :num="11130"
           type="usa"
           txt="澳大利亚"
           class="cnt au"
@@ -267,7 +267,7 @@ export default {
     setTimeout(() => {
       this.showCloud = true
       this.initCloud()
-    }, 4000)
+    }, 2500)
   },
 
   methods: {

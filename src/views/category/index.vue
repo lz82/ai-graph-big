@@ -79,14 +79,14 @@ export default {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
-        speed: 500,
-        slideToClickedSlide: true,
+        speed: 1500,
+        slideToClickedSlide: false,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false
         },
         loop: true,
-        initialSlide: 1,
+        initialSlide: 0,
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
