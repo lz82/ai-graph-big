@@ -130,7 +130,6 @@ export default {
   },
 
   mounted () {
-    console.log(this.legend)
     this.$nextTick(() => {
       this.initChart()
     })

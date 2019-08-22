@@ -116,7 +116,6 @@ export default {
     }),
 
     onPicClick (url) {
-      console.log(url)
       this.$router.push(url)
     },
 

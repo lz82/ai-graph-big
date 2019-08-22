@@ -107,7 +107,6 @@ export default {
     },
 
     initSvgContainer () {
-      console.log('initSvgContainer')
       // 力导向图
       this.forceSimulation = d3.forceSimulation()
         // .alpha(0.07) // 活力  渲染之后再自动动多久
@@ -301,8 +300,6 @@ export default {
 
   watch: {
     $route (to, from) {
-      console.log(to)
-      console.log(from)
       if (to.meta.path.includes(from.meta.path)) {
         this.transitionName = 'slide-right'
       } else {

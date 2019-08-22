@@ -16,7 +16,7 @@ const rich = {
     align: 'center'
   },
   title: {
-    fontSize: 20,
+    fontSize: 26,
     color: '#fff',
     align: 'center'
   }

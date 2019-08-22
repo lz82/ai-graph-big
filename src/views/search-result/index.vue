@@ -94,7 +94,6 @@ export default {
       try {
         const data = await searchApi.QueryDataByKeyword(this.keyword, this.type)
         if (data) {
-          console.log(data)
           this.paperList = data.paperList
           this.patentList = data.patentList
           this.standardList = data.standardList

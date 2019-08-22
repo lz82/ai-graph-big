@@ -31,7 +31,7 @@
       </Card>
 
       <Card
-        title="上海市创新大赛企业"
+        title="上海双创企业"
       >
         <div class="side-container">
           <div class="left">
@@ -62,7 +62,7 @@
       </Card>
 
       <Card
-        title="高新技术企业"
+        title="上海高新技术企业"
       >
         <div class="side-container">
           <div class="left">
@@ -93,7 +93,7 @@
         />
         <div class="map">
           <ReportMap
-            title="人工智能企业TOP 10"
+            title="人工智能企业国内分布"
           />
         </div>
       </div>

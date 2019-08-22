@@ -16,7 +16,7 @@
       </div>
       <div class="content">
         <report-card
-          title="近10年各领域投资额增长"
+          title="近5年各领域投资额增长"
           width="100%"
           height="310px"
         >
@@ -59,7 +59,7 @@
               <div class="row header">
                 <span>机构名称</span>
                 <span>主投领域</span>
-                <span>基金</span>
+                <span>基金规模(万元)</span>
                 <span>被投明星企业</span>
               </div>
               <template
@@ -122,8 +122,8 @@ export default {
           data: [1426877, 388712, 2923063, 16487486, 10597534]
         },
         {
-          name: '硬件',
-          data: [4242899, 922026, 34563790, 2915478, 5991822]
+          name: '电子商务',
+          data: [475664, 574718, 889006, 6086419, 3946528]
         },
         {
           name: '游戏',
