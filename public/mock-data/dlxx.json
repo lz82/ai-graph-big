@@ -162,7 +162,7 @@
       {
         "id": 1998749,
         "name": "Yap-peng Tan",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-01-10-13-14__3f436677-8188-4eb2-b980-0997a655e21e.jpg",
+        "headImg": "/img/expert_logo/2019-04/2019-04-01-10-13-14__3f436677-8188-4eb2-b980-0997a655e21e.jpg",
         "institution": "Nanyang Technological University",
         "subjectArea": null,
         "country": null,
@@ -181,7 +181,7 @@
       {
         "id": 2026525,
         "name": "林宙辰",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2018-01/2018-01-19-09-27-04__deb04e95-d2b3-4776-9818-ed91616cee57.jpg",
+        "headImg": "/img/expert_logo/2018-01/2018-01-19-09-27-04__deb04e95-d2b3-4776-9818-ed91616cee57.jpg",
         "institution": "Shanghai Jiaotong University",
         "subjectArea": null,
         "country": null,
@@ -200,7 +200,7 @@
       {
         "id": 183827,
         "name": "Matthias Seeger",
-        "headImg": "http://192.168.200.130:8032/img/null",
+        "headImg": "/img/null",
         "institution": "Amazon",
         "subjectArea": null,
         "country": null,

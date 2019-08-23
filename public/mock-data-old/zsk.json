@@ -1,0 +1,1050 @@
+{
+  "subjectVO": {
+    "id": "C018932782",
+    "subjectWord": "知识库",
+    "subjectWordEn": null,
+    "wiki": "知识库（Knowledge base）是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。"
+  },
+  "mapVO": {
+    "nodes": [
+      {
+        "id": "C018932782_keyword",
+        "name": "Knowledge Bases",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018804304_keyword",
+        "name": "Expert System",
+        "type": "keyword",
+        "value": 0.8584,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018827506_keyword",
+        "name": "Knowledge acquisition",
+        "type": "keyword",
+        "value": 0.8385,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020037235_keyword",
+        "name": "data mining",
+        "type": "keyword",
+        "value": 0.7707,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018874645_keyword",
+        "name": "semantic networks",
+        "type": "keyword",
+        "value": 0.8325,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018890891_keyword",
+        "name": "Ontology",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "C018932782_keyword",
+        "target": "C018874645_keyword",
+        "value": 0.8325,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018827506_keyword",
+        "value": 0.8385,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018890891_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C020037235_keyword",
+        "value": 0.7707,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018804304_keyword",
+        "value": 0.8584,
+        "type": "keyword"
+      }
+    ],
+    "expertReco": [
+      {
+        "id": 909754,
+        "name": "董欣",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-13-16-45-26__23b68030-c51d-4f2d-a9f9-f19a12714d70.jpg",
+        "institution": "Amazon",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 878634,
+        "name": "Kang Liu",
+        "headImg": "http://192.168.200.130:8032/img/null",
+        "institution": "Institute of Automation Chinese Academy of Sciences",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 460934,
+        "name": "Sebastian Riedel",
+        "headImg": "http://192.168.200.130:8032/img/null",
+        "institution": "UCL",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      }
+    ],
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "mapInfo": {
+    "nodes": [
+      {
+        "id": "211186_scholar",
+        "name": "林鸿飞",
+        "type": "scholar",
+        "value": 0.63889,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018883638_keyword",
+        "name": "Cluster Analysis",
+        "type": "keyword",
+        "value": 0.9534,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018903429_keyword",
+        "name": "Natural Language Processing",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "379802_scholar",
+        "name": "Vincenzo Loia ",
+        "type": "scholar",
+        "value": 0.51515,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1982557_scholar",
+        "name": "Tzung pei Hong ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2014786_scholar",
+        "name": "Robert Stevens",
+        "type": "scholar",
+        "value": 0.51064,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018890891_keyword",
+        "name": "Ontology",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "3201410_scholar",
+        "name": "Enrico Motta ",
+        "type": "scholar",
+        "value": 0.69697,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018811890_keyword",
+        "name": "Genetic Algorithm (GA)",
+        "type": "keyword",
+        "value": 0.8006,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018850084_keyword",
+        "name": "knowledge representation languages",
+        "type": "keyword",
+        "value": 0.6967,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1090812_scholar",
+        "name": "Zhiwu Liang",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "867104_scholar",
+        "name": "王大鹏",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018900485_keyword",
+        "name": "Association rules",
+        "type": "keyword",
+        "value": 0.8952,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "279963_scholar",
+        "name": "Andrew Kusiak",
+        "type": "scholar",
+        "value": 0.59434,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020039005_keyword",
+        "name": "Neural network",
+        "type": "keyword",
+        "value": 0.8848,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "859473_scholar",
+        "name": "Haiyang Jiang ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "432725_scholar",
+        "name": "Beijiu Cheng ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018948469_keyword",
+        "name": "big data",
+        "type": "keyword",
+        "value": 0.8307,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020042104_keyword",
+        "name": "Artificial Intelligence",
+        "type": "keyword",
+        "value": 0.8413,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "343855_scholar",
+        "name": "陈华均",
+        "type": "scholar",
+        "value": 0.5303,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2065691_scholar",
+        "name": "Changhua Hu",
+        "type": "scholar",
+        "value": 0.7,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2034984_scholar",
+        "name": "石勇",
+        "type": "scholar",
+        "value": 0.54717,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018882261_keyword",
+        "name": "text mining",
+        "type": "keyword",
+        "value": 0.9739,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "165059_scholar",
+        "name": "Andreas Holzinger ",
+        "type": "scholar",
+        "value": 0.50314,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018932782_keyword",
+        "name": "Knowledge Bases",
+        "type": "keyword",
+        "value": 0.8048,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020043264_keyword",
+        "name": "Reasoning",
+        "type": "keyword",
+        "value": 0.7224,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018804304_keyword",
+        "name": "Expert System",
+        "type": "keyword",
+        "value": 0.8584,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1109818_scholar",
+        "name": "Gerhard Weikum",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "39486_scholar",
+        "name": "周志杰",
+        "type": "scholar",
+        "value": 0.6,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020037235_keyword",
+        "name": "data mining",
+        "type": "keyword",
+        "value": 0.7707,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2740076_scholar",
+        "name": "Mohammad hossein fazel Zarandi ",
+        "type": "scholar",
+        "value": 0.6,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "194659_scholar",
+        "name": "Abdeslem hassen Meniai ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "573538_scholar",
+        "name": "杨剑波",
+        "type": "scholar",
+        "value": 0.7,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "7133718_scholar",
+        "name": "Rafael Valencia-García",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "56448_scholar",
+        "name": "Fabian Suchanek",
+        "type": "scholar",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018918649_keyword",
+        "name": "Feature extraction",
+        "type": "keyword",
+        "value": 0.874,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "375234_scholar",
+        "name": "Mladen Kezunovic",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "441374_scholar",
+        "name": "Meihui Wang",
+        "type": "scholar",
+        "value": 0.64894,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018789728_keyword",
+        "name": "Knowledge Representation",
+        "type": "keyword",
+        "value": 0.6959,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018874645_keyword",
+        "name": "semantic networks",
+        "type": "keyword",
+        "value": 0.8325,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "86501_scholar",
+        "name": "杨志豪",
+        "type": "scholar",
+        "value": 0.55556,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018783399_keyword",
+        "name": "Fault diagnosis",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020042120_keyword",
+        "name": "Machine Learning",
+        "type": "keyword",
+        "value": 0.8704,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "5981_scholar",
+        "name": "Shinmu Tseng",
+        "type": "scholar",
+        "value": 0.60692,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1847648_scholar",
+        "name": "Ioannis yiannis Kompatsiaris ",
+        "type": "scholar",
+        "value": 0.67021,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1808615_scholar",
+        "name": "Tim Finin",
+        "type": "scholar",
+        "value": 0.71212,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "270968_scholar",
+        "name": "Changshing Lee ",
+        "type": "scholar",
+        "value": 0.64894,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018827506_keyword",
+        "name": "Knowledge acquisition",
+        "type": "keyword",
+        "value": 0.8385,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2116951_scholar",
+        "name": "Fabio Ciravegna ",
+        "type": "scholar",
+        "value": 0.52778,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "C018827506_keyword",
+        "target": "194659_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018890891_keyword",
+        "target": "1847648_scholar",
+        "value": 0.67021,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "2065691_scholar",
+        "value": 0.7,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "211186_scholar",
+        "value": 0.63889,
+        "type": "scholar"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C020037235_keyword",
+        "value": 0.7707,
+        "type": "keyword"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "C018783399_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018804304_keyword",
+        "value": 0.8584,
+        "type": "keyword"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "C018932782_keyword",
+        "value": 0.8048,
+        "type": "keyword"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "1808615_scholar",
+        "value": 0.71212,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "859473_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "C020042120_keyword",
+        "value": 0.8704,
+        "type": "keyword"
+      },
+      {
+        "source": "C018890891_keyword",
+        "target": "270968_scholar",
+        "value": 0.64894,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "165059_scholar",
+        "value": 0.50314,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "867104_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018827506_keyword",
+        "value": 0.8385,
+        "type": "keyword"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "343855_scholar",
+        "value": 0.5303,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "C018900485_keyword",
+        "value": 0.8952,
+        "type": "keyword"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "1090812_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "2740076_scholar",
+        "value": 0.6,
+        "type": "scholar"
+      },
+      {
+        "source": "C018890891_keyword",
+        "target": "2014786_scholar",
+        "value": 0.51064,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "2034984_scholar",
+        "value": 0.54717,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "1109818_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "2116951_scholar",
+        "value": 0.52778,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "5981_scholar",
+        "value": 0.60692,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "279963_scholar",
+        "value": 0.59434,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "C018811890_keyword",
+        "value": 0.8006,
+        "type": "keyword"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "7133718_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "C020042104_keyword",
+        "value": 0.8413,
+        "type": "keyword"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "C018882261_keyword",
+        "value": 0.9739,
+        "type": "keyword"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "56448_scholar",
+        "value": 0.66667,
+        "type": "scholar"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018874645_keyword",
+        "value": 0.8325,
+        "type": "keyword"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "432725_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "C018789728_keyword",
+        "value": 0.6959,
+        "type": "keyword"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "C018918649_keyword",
+        "value": 0.874,
+        "type": "keyword"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "3201410_scholar",
+        "value": 0.69697,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "573538_scholar",
+        "value": 0.7,
+        "type": "scholar"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "C018903429_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "379802_scholar",
+        "value": 0.51515,
+        "type": "scholar"
+      },
+      {
+        "source": "C018890891_keyword",
+        "target": "441374_scholar",
+        "value": 0.64894,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "375234_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "C020039005_keyword",
+        "value": 0.8848,
+        "type": "keyword"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "1982557_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "C018883638_keyword",
+        "value": 0.9534,
+        "type": "keyword"
+      },
+      {
+        "source": "C018890891_keyword",
+        "target": "C020043264_keyword",
+        "value": 0.7224,
+        "type": "keyword"
+      },
+      {
+        "source": "C018804304_keyword",
+        "target": "39486_scholar",
+        "value": 0.6,
+        "type": "scholar"
+      },
+      {
+        "source": "C020037235_keyword",
+        "target": "C018948469_keyword",
+        "value": 0.8307,
+        "type": "keyword"
+      },
+      {
+        "source": "C018932782_keyword",
+        "target": "C018890891_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018827506_keyword",
+        "target": "86501_scholar",
+        "value": 0.55556,
+        "type": "scholar"
+      },
+      {
+        "source": "C018874645_keyword",
+        "target": "C018850084_keyword",
+        "value": 0.6967,
+        "type": "keyword"
+      }
+    ],
+    "expertReco": null,
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "paperVO": [],
+  "patentVO": null,
+  "bookVO": [],
+  "standardVO": [
+    {
+      "id": "79",
+      "nameCN": "自动声纹（说话人识别）技术规程",
+      "nameEN": "Technology specification for automatic voiceprint recognition(speaker recognition)",
+      "standardNo": "SJ/T 11380-2008",
+      "categoryNoCN": "L;L71,电子元器件与信息技术, 信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "本标准规定了声纹识别（系统）的术语与定义、数据交换格式与应用编程接口（VPR-API ",
+      "summaryAll": "本标准规定了声纹识别（系统）的术语与定义、数据交换格式与应用编程接口（VPR-API 1.0）。本标准适用于各种计算机、网络和智能设备配置的声纹识别系统。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2018-03-10",
+      "implementDate": "2018-03-10"
+    },
+    {
+      "id": "46",
+      "nameCN": "information service in mobile network <mark class=highlight>based</mark>",
+      "nameEN": "General technological framework for logistic information service in mobile network based on M2M technology",
+      "standardNo": "GB/T 32404-2015",
+      "categoryNoCN": "M;M21,通信、广播,通信网",
+      "categoryNoIN": "33;33.030",
+      "summary": "本标准规定了基于M2M技术的移动通信网物流信息服务的总体技术框架，对服务于物流行业的M",
+      "summaryAll": "本标准规定了基于M2M技术的移动通信网物流信息服务的总体技术框架，对服务于物流行业的M2M系统的总体架构、各模块功能、系统工作流程、通信模块、安全体系等进行规范，为基于M2M技术的物流信息服务的工作提供标准支撑。 本标准适用于面向物流信息服务的M2M业务系统。  ",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2015-12-31",
+      "implementDate": "2016-03-01"
+    },
+    {
+      "id": "43",
+      "nameCN": "storage and management - Part 2:Object - <mark class=highlight>based</mark>",
+      "nameEN": "Information technology - Cloud data storage and management - Part 2:Object - based cloud storage application interface",
+      "standardNo": "GB/T 31916.2-2015",
+      "categoryNoCN": "L;L79,电子元器件与信息技术,信息处理技术",
+      "categoryNoIN": "35;35.100.05",
+      "summary": " 本部分给出了基于对象的云数据存储（以下简称云存储）体系结构，规定了基于对 象的云存储",
+      "summaryAll": " 本部分给出了基于对象的云数据存储（以下简称云存储）体系结构，规定了基于对 象的云存储的应用接口通用要求和应用接口定义。 本部分适用于基于对象的云存储的设计、开发和使用。  ",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2015-09-11",
+      "implementDate": "2016-05-01"
+    },
+    {
+      "id": "44",
+      "nameCN": "storage and management-Part 5:Key-Value <mark class=highlight>based</mark>",
+      "nameEN": "Information technology -Cloud data storage and management-Part 5:Key-Value based cloud data management application interface",
+      "standardNo": "GB/T 31916.5-2015",
+      "categoryNoCN": "L;L79,电子元器件与信息技术,信息处理技术",
+      "categoryNoIN": "35;35.100.05",
+      "summary": "本部分给出了键值数据模型，规定了键值的云数据管理应用接口通用要求和接口定义。 本部分适",
+      "summaryAll": "本部分给出了键值数据模型，规定了键值的云数据管理应用接口通用要求和接口定义。 本部分适用于基于键值的云数据管理系统的设计、开发和使用。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2015-09-11",
+      "implementDate": "2016-05-01"
+    },
+    {
+      "id": "15",
+      "nameCN": "信息技术 生物特征识别数据交换格式 第4部分：指纹图像数据",
+      "nameEN": "Information technology―Biometric data interchange formats―Part 4: Finger image data",
+      "standardNo": "GB/T 26237.4-2014",
+      "categoryNoCN": "L;L71,电子元器件与信息技术，信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "本部分规定了一个用来从一个或多个符合ISO/IEC 19785-1 CBEFF数据结构",
+      "summaryAll": "本部分规定了一个用来从一个或多个符合ISO/IEC 19785-1 CBEFF数据结构的 指/掌纹图像区域进行存储、记录和传输信息的数据记录交换格式，可用来进行指纹图像数据的交换和比较。本部分定义了可用于个体认证和鉴定的指纹图像数据交换的测量内容、格式和单位。该信息由 一些必选项和可选项构成，包括扫描参数、压缩或未压缩图像以及供方规定的信息，且可以在使用自动 设备和系统进行基于指纹图像区域进行鉴定和认证的组织之间进行交换9按照本部分进行编译和格式化的信息可在机读媒介上记录或使用数据通信设施进行传输。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2014-12-05",
+      "implementDate": "2015-05-01"
+    },
+    {
+      "id": "16",
+      "nameCN": "信息技术 生物特征识别数据交换格式 第5部分：人脸图像数据",
+      "nameEN": "Information technology-Biometric data interchange formats- Part 5:Face image data",
+      "standardNo": "GB/T 26237.5-2014",
+      "categoryNoCN": "L;L70,电子元器件与信息技术，信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "本部分: 一一规定了一张/多张相片和人脸图像短视频流的存储、记录和传输的数据格式。规定",
+      "summaryAll": "本部分: 一一规定了一张/多张相片和人脸图像短视频流的存储、记录和传输的数据格式。规定了人脸图像拍摄时的场景约束; 一一规定了人脸图像的拍摄方法; 规定了数字人脸图像的存储格式; 提供了人脸图像拍摄的最佳范例。 本部分适用于人脸图像数据的记录、存储和传输。 ",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2014-12-05",
+      "implementDate": "2015-05-01"
+    },
+    {
+      "id": "17",
+      "nameCN": "信息技术 生物特征识别数据交换格式 第6部分：虹膜图像数据",
+      "nameEN": "Information technology—Biometric data interchange formats—Part 6: Iris image data",
+      "standardNo": "GB/T 26237.6-2014",
+      "categoryNoCN": "L;L71,电子元器件与信息技术, 信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求",
+      "summaryAll": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求，工业机器人和工业机器人系统已在GB 11291.1中定义。集成包括以下方面： a) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废； b) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废的必要条件； c) 工业机器人系统或单元的部件设备。 本部分描述了与这些系统有关的基本危险和危险情况，并提出了消除和充分降低与这些危险相关的风险要求。虽然噪声波定为是工业机器人的一种主要危险，但是本部分不予考虑。本部\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0000舴凌\u0000\u0000\u0000\u0000\u0000\u0000￾￿凔￿￿￿￿\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2014-12-05",
+      "implementDate": "2015-05-01"
+    },
+    {
+      "id": "19",
+      "nameCN": "信息技术 生物特征识别数据交换格式 第8部分：指纹型骨架数据",
+      "nameEN": "Information technology―Biometric data interchange formats―Part 8: Finger pattern skeletal data",
+      "standardNo": "GB/T 26237.8-2014",
+      "categoryNoCN": "L;L70,电子元器件与信息技术,信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "本部分规定了基于指纹型骨架模式的指纹识别数据交换格式，适用于自动指纹识别的各种应用领域",
+      "summaryAll": "本部分规定了基于指纹型骨架模式的指纹识别数据交换格式，适用于自动指纹识别的各种应用领域。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2014-09-03",
+      "implementDate": "2015-02-01"
+    },
+    {
+      "id": "20",
+      "nameCN": "信息技术 生物特征识别数据交换格式 第9部分：血管图像数据",
+      "nameEN": "Information technology―Biometric data interchange formats―Part 9: Vascular image data",
+      "standardNo": "GB/T 26237.9-2014",
+      "categoryNoCN": "L;L70,电子元器件与信息技术,信息处理技术",
+      "categoryNoIN": "35;35.020",
+      "summary": "本部分规定的信息交换格式可以记录在机器可读的媒体上，也可以在数据通信设备上进行传输。",
+      "summaryAll": "本部分规定的信息交换格式可以记录在机器可读的媒体上，也可以在数据通信设备上进行传输。 ",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2014-07-08",
+      "implementDate": "2014-12-01"
+    },
+    {
+      "id": "24",
+      "nameCN": "工业机器人 用户编程指令",
+      "nameEN": "Industrial robot - User programme instruction",
+      "standardNo": "GB/T 29824-2013",
+      "categoryNoCN": "J;J28,机械,通用零部件",
+      "categoryNoIN": "25;25.040.30",
+      "summary": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬",
+      "summaryAll": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬运机器人、喷涂机器人、装配机器人（包含但不是全部）等工业机器人。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2013-11-12",
+      "implementDate": "2014-04-01"
+    },
+    {
+      "id": "11",
+      "nameCN": "健康信息学 电子健康记录体系架构需求",
+      "nameEN": "Health informatics - Requirements for an electronic health record architecture",
+      "standardNo": "GB/T 24466-2009",
+      "categoryNoCN": "C;C07,医药、卫生、劳动保护,医药、卫生、劳动保护综合",
+      "categoryNoIN": "35;35.240.80",
+      "summary": "本标准给出了电子健康记录体系架构(EHRA)的临床需求和技术需求集合，用于支持跨部门、",
+      "summaryAll": "本标准给出了电子健康记录体系架构(EHRA)的临床需求和技术需求集合，用于支持跨部门、跨国家和跨医疗保健服务模型使用、共享和交换电子健康记录。本标准给出了体系架构需求而不是体系架构本身。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2009-10-15",
+      "implementDate": "2009-12-01"
+    },
+    {
+      "id": "9",
+      "nameCN": "中文语音识别系统通用技术规范",
+      "nameEN": "General specification for Chinese speech recognition system",
+      "standardNo": "GB/T 21023-2007",
+      "categoryNoCN": "L;L71,电子元器件与信息技术, 信息处理技术",
+      "categoryNoIN": "35;35.040",
+      "summary": "本标准规定了中文语音识别系统的基本术语、分类、技术指标、测试方法、输入/输出以及中文语",
+      "summaryAll": "本标准规定了中文语音识别系统的基本术语、分类、技术指标、测试方法、输入/输出以及中文语音识别标准库等。　　本标准适用于各种计算机、网络和终端设备配置的中文语音识别系统。本标准的制定和实施主要用于指导中文语音识别系统的研制、应用和测试。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2007-06-29",
+      "implementDate": "2007-11-01"
+    },
+    {
+      "id": "3",
+      "nameCN": "信息技术 词汇 第29部分:人工智能 语音识别与合成",
+      "nameEN": "Information technology-Vocabulary-Part 29:Artificial intelligence-Speech recognition and synthesis",
+      "standardNo": "GB/T 5271.29-2006",
+      "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
+      "categoryNoIN": "35;35.240.20",
+      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关语音识别和语音合成的概念。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2006-03-14",
+      "implementDate": "2006-07-01"
+    }
+  ]
+}

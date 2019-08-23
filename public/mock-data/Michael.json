@@ -2,7 +2,7 @@
   "expertVO": {
     "id": 1972463,
     "name": "Michael I. Jordan",
-    "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-22-10-37-04__3e40059d-c927-4f70-9a44-35f4d687269b.jpg",
+    "headImg": "/img/expert_logo/2019-04/2019-04-22-10-37-04__3e40059d-c927-4f70-9a44-35f4d687269b.jpg",
     "institution": "UC Berkeley",
     "subjectArea": "计算机科学",
     "country": "美国",
@@ -119,7 +119,7 @@
       {
         "id": 356571,
         "name": "Hong Yan",
-        "headImg": "http://192.168.200.130:8032/img/null",
+        "headImg": "/img/null",
         "institution": "City University of Hong Kong",
         "subjectArea": null,
         "country": null,
@@ -138,7 +138,7 @@
       {
         "id": 1978600,
         "name": "丁宏强",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-03-15-45-30__81c3c465-eac2-456f-a20c-031df61a9898.jpg",
+        "headImg": "/img/expert_logo/2019-04/2019-04-03-15-45-30__81c3c465-eac2-456f-a20c-031df61a9898.jpg",
         "institution": "University of Texas at Arlington",
         "subjectArea": null,
         "country": null,
@@ -157,7 +157,7 @@
       {
         "id": 957989,
         "name": "David Blei",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-11-14-57-37__4ba8ee2a-4e05-4c2e-ad8b-5fa6a3748ac3.jpg",
+        "headImg": "/img/expert_logo/2019-04/2019-04-11-14-57-37__4ba8ee2a-4e05-4c2e-ad8b-5fa6a3748ac3.jpg",
         "institution": "Columbia University in the City of New York",
         "subjectArea": null,
         "country": null,

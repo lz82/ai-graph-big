@@ -17,11 +17,11 @@ export function AppPost (url, data) {
       }
     )
       .then(res => {
-        if (res.data.success) {
-          resolve(res.data)
-        } else {
-          reject(new Error(`${res.msg}`))
-        }
+        // if (res.data.success) {
+        resolve(res.data)
+        // } else {
+        //   reject(new Error(`${res.msg}`))
+        // }
       })
       .catch(err => {
         reject(err)

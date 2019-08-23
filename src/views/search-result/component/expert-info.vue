@@ -2,7 +2,7 @@
 <div class="expert-info-wrapper">
   <div class="wiki-wraper">
     <div class="wiki-info">
-      <img :src="'http://localhost:8899'+info.headImg">
+      <img :src="baseURL + info.headImg">
       <div class="expert-intro">
         <h4>{{info.name}}</h4>
         <p>{{info.institution}}</p>
@@ -32,6 +32,7 @@
 </div>
 </template>
 <script>
+import appConfig from '@/config'
 export default {
   name: 'ExpertInfo',
   props: {
@@ -40,6 +41,7 @@ export default {
 
   data () {
     return {
+      baseURL: appConfig.baseUrl
     }
   },
 

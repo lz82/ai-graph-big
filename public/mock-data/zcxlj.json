@@ -232,7 +232,7 @@
       {
         "id": 251536,
         "name": "葛树志",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-02/2019-02-18-14-52-07__86e37e2a-183c-4da7-8c91-140e68f50c37.jpg",
+        "headImg": "/img/expert_logo/2019-02/2019-02-18-14-52-07__86e37e2a-183c-4da7-8c91-140e68f50c37.jpg",
         "institution": "National University of Singapore",
         "subjectArea": null,
         "country": null,
@@ -251,7 +251,7 @@
       {
         "id": 2024560,
         "name": "杨强",
-        "headImg": "http://192.168.200.130:8032/img/supplement/2024560.jpg",
+        "headImg": "/img/supplement/2024560.jpg",
         "institution": "Hong Kong University of Science and Technology",
         "subjectArea": null,
         "country": null,
@@ -270,7 +270,7 @@
       {
         "id": 1909312,
         "name": "曾国雄",
-        "headImg": "http://192.168.200.130:8032/img/null",
+        "headImg": "/img/null",
         "institution": "National Taipei University",
         "subjectArea": null,
         "country": null,

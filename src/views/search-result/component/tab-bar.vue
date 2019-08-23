@@ -19,7 +19,7 @@
             <p>
               <span v-html="'作者：'+item.author"></span>
               <span>发表时间：{{item.publishDate}}</span>
-              <span>被引指数：{{item.citedIndex}}</span>
+              <!-- <span>被引指数：{{item.citedIndex}}</span> -->
             </p>
             <div class="remark">摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
           </li>

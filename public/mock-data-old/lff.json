@@ -1,0 +1,2176 @@
+{
+  "success": true,
+  "message": "",
+  "expertVO": {
+    "id": 2116449,
+    "name": "李飞飞",
+    "headImg": "/img/expert_logo/2019-03/2019-03-13-16-40-00__ac93a0d6-a1d0-42fb-874f-4a6b5d6eeb60.jpg",
+    "institution": "Stanford University",
+    "subjectArea": "计算机科学",
+    "country": "美国",
+    "totalIssues": 156,
+    "totalCitations": 22347,
+    "top1Citations": 0.368794,
+    "number1": 40,
+    "top10Citations": 0.673759,
+    "number10": 94,
+    "hIndex": 57,
+    "journalSend": null,
+    "subjectMatch": null,
+    "citedSituation": null,
+    "fwciinedx": 13.89
+  },
+  "mapVO": {
+    "nodes": [
+      {
+        "code": "0",
+        "name": "吴恩达",
+        "type": "expert",
+        "level": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "1",
+        "name": "荣誉",
+        "type": "honor",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "2",
+        "name": "组织",
+        "type": "org",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "3",
+        "name": "三维重建",
+        "type": "keyword",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "20",
+        "name": "深度学习",
+        "type": "keyword",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "37",
+        "name": "强化学习",
+        "type": "keyword",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "code": "54",
+        "name": "语义识别",
+        "type": "keyword",
+        "level": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      }
+    ],
+    "relations": [
+      {
+        "id": 1,
+        "source": "0",
+        "target": "1",
+        "value": 1.0,
+        "type": "expert"
+      },
+      {
+        "id": 2,
+        "source": "0",
+        "target": "2",
+        "value": 1.0,
+        "type": "expert"
+      },
+      {
+        "id": 3,
+        "source": "0",
+        "target": "3",
+        "value": 1.0,
+        "type": "expert"
+      },
+      {
+        "id": 20,
+        "source": "0",
+        "target": "20",
+        "value": 1.0,
+        "type": "expert"
+      },
+      {
+        "id": 37,
+        "source": "0",
+        "target": "37",
+        "value": 1.0,
+        "type": "expert"
+      },
+      {
+        "id": 54,
+        "source": "0",
+        "target": "54",
+        "value": 1.0,
+        "type": "expert"
+      }
+    ],
+    "expertReco": [
+      {
+        "id": 8526,
+        "name": "颜水成",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-19-10-12-43__c6c48347-d481-4f11-9385-79f495de8785.jpg",
+        "institution": "National University of Singapore",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 2037377,
+        "name": "张世富",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-02-14-45-03__93ee0293-426b-46c3-95d2-9a641cebe1bb.jpg",
+        "institution": "Columbia University in the City of New York",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 1936883,
+        "name": "陶大程",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-19-09-40-48__79f99f72-9808-4d59-9893-39b5b9270883.jpg",
+        "institution": "The University of Sydney",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      }
+    ],
+    "subjectReco": [
+      "Object recognition",
+      "Supervised learning",
+      "Computer vision",
+      "learning (artificial intelligence)"
+    ],
+    "journalsReco": null,
+    "institutionsReco": [
+      "Courant Institute of Mathematical Sciences"
+    ]
+  },
+  "mapInfo": {
+    "nodes": [
+      {
+        "id": 1,
+        "code": "0",
+        "name": "吴恩达",
+        "type": "expert",
+        "level": "1",
+        "colorIdx": "0",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 2,
+        "code": "1",
+        "name": "荣誉",
+        "type": "honor",
+        "level": "2",
+        "colorIdx": "5",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 3,
+        "code": "2",
+        "name": "组织",
+        "type": "org",
+        "level": "2",
+        "colorIdx": "6",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 4,
+        "code": "3",
+        "name": "三维重建",
+        "type": "keyword",
+        "level": "2",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 5,
+        "code": "4",
+        "name": "论文",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 6,
+        "code": "5",
+        "name": "专利",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 7,
+        "code": "6",
+        "name": "Min Sun",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 8,
+        "code": "7",
+        "name": "Ashutosh Saxena",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 9,
+        "code": "8",
+        "name": "物体检测",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 10,
+        "code": "9",
+        "name": "视频分析",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 11,
+        "code": "10",
+        "name": "无人驾驶",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 12,
+        "code": "11",
+        "name": "随机过程",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 13,
+        "code": "12",
+        "name": "Silvio Savarese",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 14,
+        "code": "13",
+        "name": "Gary R. Bradski",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 15,
+        "code": "14",
+        "name": "Juan Carlos Niebles",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 16,
+        "code": "15",
+        "name": "Kuo-Hao Zeng",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 17,
+        "code": "16",
+        "name": "Hema Swetha Koppula",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 18,
+        "code": "17",
+        "name": "Ashesh Jain",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 19,
+        "code": "18",
+        "name": "Yun Jiang",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 20,
+        "code": "19",
+        "name": "Marcus Lim",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "1",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 21,
+        "code": "20",
+        "name": "深度学习",
+        "type": "keyword",
+        "level": "2",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 22,
+        "code": "21",
+        "name": "论文",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 23,
+        "code": "22",
+        "name": "专利",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 24,
+        "code": "23",
+        "name": "Adam Coates",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 25,
+        "code": "24",
+        "name": "Sebastian Thrun",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 26,
+        "code": "25",
+        "name": "机器翻译",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 27,
+        "code": "26",
+        "name": "语音识别",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 28,
+        "code": "27",
+        "name": "机器人",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 29,
+        "code": "28",
+        "name": "无人驾驶",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 30,
+        "code": "29",
+        "name": "Sanjeev Satheesh",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 31,
+        "code": "30",
+        "name": "Anuroop Sriram",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 32,
+        "code": "31",
+        "name": "Zhenyao Zhu",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 33,
+        "code": "32",
+        "name": "Eric Battenberg ",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 34,
+        "code": "33",
+        "name": "Wolfram Burgard",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 35,
+        "code": "34",
+        "name": "Dieter Fox",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 36,
+        "code": "35",
+        "name": "Michael Montemerlo",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 37,
+        "code": "36",
+        "name": "David Stavens",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "2",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 38,
+        "code": "37",
+        "name": "强化学习",
+        "type": "keyword",
+        "level": "2",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 39,
+        "code": "38",
+        "name": "论文",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 40,
+        "code": "39",
+        "name": "专利",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 41,
+        "code": "40",
+        "name": "Pieter Abbeel",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 42,
+        "code": "41",
+        "name": "Michael I. Jordan",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 43,
+        "code": "42",
+        "name": "强化学习",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 44,
+        "code": "43",
+        "name": "机器人",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 45,
+        "code": "44",
+        "name": "最优化",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 46,
+        "code": "45",
+        "name": "贝叶斯无参优化",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 47,
+        "code": "46",
+        "name": "Sergey Levine",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 48,
+        "code": "47",
+        "name": "Chelsea Finn",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 49,
+        "code": "48",
+        "name": "Kenneth Y. Goldberg",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 50,
+        "code": "49",
+        "name": "Sachin Patil",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 51,
+        "code": "50",
+        "name": "Martin J. Wainwright",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 52,
+        "code": "51",
+        "name": "John C. Duchi",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 53,
+        "code": "52",
+        "name": "David M. Blei",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 54,
+        "code": "53",
+        "name": "John W. Paisley",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "3",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 55,
+        "code": "54",
+        "name": "语义识别",
+        "type": "keyword",
+        "level": "2",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 56,
+        "code": "55",
+        "name": "论文",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 57,
+        "code": "56",
+        "name": "专利",
+        "type": "paper",
+        "level": "3",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 58,
+        "code": "57",
+        "name": "Christopher D. Manning",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 59,
+        "code": "58",
+        "name": "Richard Socher",
+        "type": "expert",
+        "level": "3",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 60,
+        "code": "59",
+        "name": "机器翻译",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 61,
+        "code": "60",
+        "name": "语义角色标注",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 62,
+        "code": "61",
+        "name": "问答系统",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 63,
+        "code": "62",
+        "name": "机器翻译",
+        "type": "keyword",
+        "level": "4",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 64,
+        "code": "63",
+        "name": "Daniel Jurafsky",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 65,
+        "code": "64",
+        "name": "Daniel M. Cer",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 66,
+        "code": "65",
+        "name": "Aria Haghighi ",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 67,
+        "code": "66",
+        "name": "Kristina Toutanova",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 68,
+        "code": "67",
+        "name": "Caiming Xiong",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 69,
+        "code": "68",
+        "name": "Victor Zhong",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 70,
+        "code": "69",
+        "name": "James Bradbury",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      },
+      {
+        "id": 71,
+        "code": "70",
+        "name": "Victor O. K. Li",
+        "type": "expert",
+        "level": "5",
+        "colorIdx": "4",
+        "keyword": "Andrew Y Ng",
+        "layout": null
+      }
+    ],
+    "relations": [
+      {
+        "id": 1,
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "id": 2,
+        "source": "0",
+        "target": "2"
+      },
+      {
+        "id": 3,
+        "source": "0",
+        "target": "3"
+      },
+      {
+        "id": 20,
+        "source": "0",
+        "target": "20"
+      },
+      {
+        "id": 37,
+        "source": "0",
+        "target": "37"
+      },
+      {
+        "id": 54,
+        "source": "0",
+        "target": "54"
+      },
+      {
+        "id": 4,
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "id": 5,
+        "source": "3",
+        "target": "5"
+      },
+      {
+        "id": 6,
+        "source": "3",
+        "target": "6"
+      },
+      {
+        "id": 7,
+        "source": "3",
+        "target": "7"
+      },
+      {
+        "id": 8,
+        "source": "6",
+        "target": "8"
+      },
+      {
+        "id": 9,
+        "source": "6",
+        "target": "9"
+      },
+      {
+        "id": 10,
+        "source": "7",
+        "target": "10"
+      },
+      {
+        "id": 11,
+        "source": "7",
+        "target": "11"
+      },
+      {
+        "id": 12,
+        "source": "8",
+        "target": "12"
+      },
+      {
+        "id": 13,
+        "source": "8",
+        "target": "13"
+      },
+      {
+        "id": 14,
+        "source": "9",
+        "target": "14"
+      },
+      {
+        "id": 15,
+        "source": "9",
+        "target": "15"
+      },
+      {
+        "id": 16,
+        "source": "10",
+        "target": "16"
+      },
+      {
+        "id": 17,
+        "source": "10",
+        "target": "17"
+      },
+      {
+        "id": 18,
+        "source": "11",
+        "target": "18"
+      },
+      {
+        "id": 19,
+        "source": "11",
+        "target": "19"
+      },
+      {
+        "id": 21,
+        "source": "20",
+        "target": "21"
+      },
+      {
+        "id": 22,
+        "source": "20",
+        "target": "22"
+      },
+      {
+        "id": 23,
+        "source": "20",
+        "target": "23"
+      },
+      {
+        "id": 24,
+        "source": "20",
+        "target": "24"
+      },
+      {
+        "id": 25,
+        "source": "23",
+        "target": "25"
+      },
+      {
+        "id": 26,
+        "source": "23",
+        "target": "26"
+      },
+      {
+        "id": 27,
+        "source": "24",
+        "target": "27"
+      },
+      {
+        "id": 28,
+        "source": "24",
+        "target": "28"
+      },
+      {
+        "id": 29,
+        "source": "25",
+        "target": "29"
+      },
+      {
+        "id": 30,
+        "source": "25",
+        "target": "30"
+      },
+      {
+        "id": 31,
+        "source": "26",
+        "target": "31"
+      },
+      {
+        "id": 32,
+        "source": "26",
+        "target": "32"
+      },
+      {
+        "id": 33,
+        "source": "27",
+        "target": "33"
+      },
+      {
+        "id": 34,
+        "source": "27",
+        "target": "34"
+      },
+      {
+        "id": 35,
+        "source": "28",
+        "target": "35"
+      },
+      {
+        "id": 36,
+        "source": "28",
+        "target": "36"
+      },
+      {
+        "id": 38,
+        "source": "37",
+        "target": "38"
+      },
+      {
+        "id": 39,
+        "source": "37",
+        "target": "39"
+      },
+      {
+        "id": 40,
+        "source": "37",
+        "target": "40"
+      },
+      {
+        "id": 41,
+        "source": "37",
+        "target": "41"
+      },
+      {
+        "id": 42,
+        "source": "40",
+        "target": "42"
+      },
+      {
+        "id": 43,
+        "source": "40",
+        "target": "43"
+      },
+      {
+        "id": 44,
+        "source": "41",
+        "target": "44"
+      },
+      {
+        "id": 45,
+        "source": "41",
+        "target": "45"
+      },
+      {
+        "id": 46,
+        "source": "42",
+        "target": "46"
+      },
+      {
+        "id": 47,
+        "source": "42",
+        "target": "47"
+      },
+      {
+        "id": 48,
+        "source": "43",
+        "target": "48"
+      },
+      {
+        "id": 49,
+        "source": "43",
+        "target": "49"
+      },
+      {
+        "id": 50,
+        "source": "44",
+        "target": "50"
+      },
+      {
+        "id": 51,
+        "source": "44",
+        "target": "51"
+      },
+      {
+        "id": 52,
+        "source": "45",
+        "target": "52"
+      },
+      {
+        "id": 53,
+        "source": "45",
+        "target": "53"
+      },
+      {
+        "id": 55,
+        "source": "54",
+        "target": "55"
+      },
+      {
+        "id": 56,
+        "source": "54",
+        "target": "56"
+      },
+      {
+        "id": 57,
+        "source": "54",
+        "target": "57"
+      },
+      {
+        "id": 58,
+        "source": "54",
+        "target": "58"
+      },
+      {
+        "id": 59,
+        "source": "57",
+        "target": "59"
+      },
+      {
+        "id": 60,
+        "source": "57",
+        "target": "60"
+      },
+      {
+        "id": 61,
+        "source": "58",
+        "target": "61"
+      },
+      {
+        "id": 62,
+        "source": "58",
+        "target": "62"
+      },
+      {
+        "id": 63,
+        "source": "59",
+        "target": "63"
+      },
+      {
+        "id": 64,
+        "source": "59",
+        "target": "64"
+      },
+      {
+        "id": 65,
+        "source": "60",
+        "target": "65"
+      },
+      {
+        "id": 66,
+        "source": "60",
+        "target": "66"
+      },
+      {
+        "id": 67,
+        "source": "61",
+        "target": "67"
+      },
+      {
+        "id": 68,
+        "source": "61",
+        "target": "68"
+      },
+      {
+        "id": 69,
+        "source": "62",
+        "target": "69"
+      },
+      {
+        "id": 70,
+        "source": "62",
+        "target": "70"
+      }
+    ],
+    "expertReco": null,
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "paperVO": [
+    {
+      "id": "Periodical_dnzsyjs-itrzyksb201908048",
+      "title": "\"互联网+\"时代中职计算机网络课程教学模式探索",
+      "summary": "\"互联网+\"下一些过去沿用的授课模式受到冲击,在中职的计算机网络实际授课中,诸多的问题",
+      "summaryAll": "\"互联网+\"下一些过去沿用的授课模式受到冲击,在中职的计算机网络实际授课中,诸多的问题逐渐暴露出来,\"互联网+\"对于课程授课是一种机遇,也制造新的问题.该文是结合计算机网络的相关授课问题,结合\"互联网+\"要求和特征,在课程授课中对网络平台以及信息化手段展开充分利用,促进课程授课的整体改善,积极加强对教学效果的提升.希望本文的教学,对中职开展计算机网络的实际授课是有所促进的.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "\"互联网+\",中职,计算机网络课程,教学模式",
+      "citedIndex": 0,
+      "publishDate": "2019-08-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_jxkf201808072",
+      "title": "采煤机电气部件安全运行与故障诊断研究",
+      "summary": "以采煤机的电机作为主要研究对象,分析了采煤机电气部件的常见故障及故障诊断方法.根据电气",
+      "summaryAll": "以采煤机的电机作为主要研究对象,分析了采煤机电气部件的常见故障及故障诊断方法.根据电气故障诊断的要求,设计了数据采集硬件电路和上位机显示系统.该系统基本上可以实现对采煤机关键部件的故障诊断,为采煤机电气部件的安全运行提供可靠保障.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "采煤机,故障诊断,数据传输,上位机",
+      "citedIndex": 0,
+      "publishDate": "2018-08-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_sdjr-x201804113",
+      "title": "探究P2P网络借贷的运行模式与风险管控",
+      "summary": "在信息化的时代背景下,P2P网络借贷服务呈现井喷式增长,借贷的数量和金额也持续扩大,但",
+      "summaryAll": "在信息化的时代背景下,P2P网络借贷服务呈现井喷式增长,借贷的数量和金额也持续扩大,但是因为国家关于P2P网络借贷的法律规定不是很完善,导致网络借贷行业的发展缺少严格的监管,其运行模式往往呈现出门槛低、审核松、非法催还、利息高等问题,对于贷款人而言意味着很高的风险.本文主要对P2P网络借贷的运行模式与风险管控展开深入研究,为网络借贷的规范发展提供借鉴.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "P2P网络借贷,运行方式,风险控制",
+      "citedIndex": 0,
+      "publishDate": "2018-04-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xtgcllysj201803016",
+      "title": "基于序贯博弈谈判机制的分布式多项目调度",
+      "summary": "设计有效的全局资源分配协调机制是解决分布式多项目调度问题的关键.基于多Agent系统建",
+      "summaryAll": "设计有效的全局资源分配协调机制是解决分布式多项目调度问题的关键.基于多Agent系统建立以单项目完工时间为优化目标的局部调度模型,并设计基于正向逆向调度改进的遗传算法求解初始局部调度计划;综合考虑每个项目单位延期成本的差异,建立以多项目总延期成本为优化目标的全局决策模型,设计多回合序贯博弈谈判机制协调全局资源分配,并调整单项目局部进度计划;开展示例分析和不同参数下问题集的实验研究.结果表明:基于正向逆向调度改进的遗传算法求解初始局部调度具有较好的问题规模适应性和较高的求解精度;全局资源冲突越强,造成多项目延期越大且项目延期完工的风险也越大;采用序贯博弈谈判机制相比无博弈随机分配协调机制可以有效地降低多项目的总延期损失成本.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "分布式多项目调度,资源冲突,遗传算法,序贯博弈谈判机制,延期成本",
+      "citedIndex": 0,
+      "publishDate": "2018-03-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_D01658794",
+      "title": "基于传感器网络的分布式估计和跟踪",
+      "summary": "\n\n         ",
+      "summaryAll": "\n\n          ",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "\n\n          ",
+      "citedIndex": 0,
+      "publishDate": "2018-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_jyxdh201749090",
+      "title": "虚拟学习社区中认知负荷的优化控制研究",
+      "summary": "信息技术深刻改变着人类社会的运作方式,移动互联网几乎遍布了世界的每个角落,虚拟学习社区",
+      "summaryAll": "信息技术深刻改变着人类社会的运作方式,移动互联网几乎遍布了世界的每个角落,虚拟学习社区作为当今网络中重要的研究性学习环境,对推动网络文化的繁荣发展产生了重要影响.如何合理设计社区学习资源,促进社区学习者认知资源的合理分配和学习效果的提升已经成为虚拟学习社区研究中的焦点问题.本文基于认知负荷理论和模型、多媒体学习生成理论模型分析了虚拟学习社区中学习者认知负荷的产生,构建了虚拟学习社区中学习者认知负荷的生成模型,同时基于模型提出了虚拟学习社区中认知负荷的优化控制策略.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "虚拟学习社区,认知负荷,生成模型,优化控制",
+      "citedIndex": 0,
+      "publishDate": "2017-12-07",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zhptwksszz201705011",
+      "title": "能谱CT在诊断鉴别肝癌与FNH中的应用价值",
+      "summary": "目的 探究能谱CT在诊断鉴别肝癌与肝脏局灶性结节性增生(FNH)中的应用价值.方法 回",
+      "summaryAll": "目的 探究能谱CT在诊断鉴别肝癌与肝脏局灶性结节性增生(FNH)中的应用价值.方法 回顾性分析2014年5月至2016年4月57例肝脏占位性病变患者的能谱CT扫描结果,其中肝癌患者35例(肝癌组),FNH患者22例(FNH组).数据采用SPSS 18.0统计学软件进行分析处理,对比分析两组患者不同能量水平下病灶—肝组织对比噪声比(CNR)、标准化碘浓度(NIC)、病灶与肝组织碘浓度比值(LNR)等采用均数 ±标准差(-x±s)表示,组间比较采用t检验.P<0.05表明差异有统计学意义.结果 动脉期两组患者CNR在50 keV最佳:肝癌组(3.6±1.2),FNH组(8.3±2.2),同能量水平下肝癌患者CNR均显著低于FNH组,P<0.05;门静脉期最佳CNR分别为:肝癌组70keV(1.9±0.1),FNH组50keV(1.2±0.3),其趋势与动脉期相似,除部分能量点外其CNR值均随单光子能量上升而逐渐降低.NIC动脉期:肝癌组(0.3±0.1),FNH组(0.5±0.1);静脉期:肝癌组(0.5±0.2),FNH组(0.9±0.2).LNR动脉期:肝癌组(2.9±0.3),FNH组(6.1±0.1);静脉期:肝癌组(1.1±0.1),FNH组(1.4±0.2);结果均显示肝癌组患者显著低于FNH组患者,P<0.05.结论 能谱CT在诊断鉴别肝癌与FNH中能给出较为精确的参考,显著提高诊断的准确率,具有较大的临床价值.Objective To explore the clinical value of energy spectrum CT in the differential diagnosis of liver cancer and hepatic focal nodular hyperplasia (FNH). Methods A retrospective study was conducted in 57 patients with hepatoproliferative lesions (including 35 cases of hepatocellular carcinoma (HCC) and 22 cases of FNH) from May 2014 to April 2016.Statistical analysis were performed by using SPSS 18.0 software.Clinical data of patients, including contrast-to-noise ratio ( CNR), normalized iodine concentration (NIC), and lesion-to-normal ratio (LNR) , were expressed as -x ±s and compared between two groups at different energy levels by using t test.A P value <0.05 was considered as statistically significant difference. Results CNR value was optimal at 50 keV in HCC group (3.6 ±1.2), significantly lower than that in FNH (8.3 ±2.2) under the same energy, P <0.05.The optimal CNR was 70keV, (1.9 ±0.1)in group of portal vein HCC and 50keV, (1.2 ±0.3)in group of FNH, respectively.In all patients, the trend of CNR values was similar in both portal vein and arterial phase , in which the CNR values decreased following with the increase of single photon energy , except for very few energy points .NIC values of the two groups were: arterial phase, liver cancer group(0.3 ±0.1), FNH(0.5 ±0.1);venous phase, liver cancer group (0.5 ±0.2), FNH(0.9 ±0.2).LNR values of the two groups were: arterial phase, liver cancer group (2.9 ±0.3), FNH(6.1 ±0.1);venous phase, liver cancer group (1.1 ±0.1), FNH (1.4 ±0.2).The NIC values in all patients of the HCC group were significantly lower than those of the FNH group when compared between the portal vein and arterial phase , P <0.05. Conclusion The energy spectrum CT is more accurate and has great clinical value in the differential diagnosis of hepatocellular carcinoma and FNH .",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "癌,肝细胞,腹腔镜检查,局限性结节状增生,诊断,Carcinoma,Hepatocellular,Laparoscopy,Focal Nodular Hyperplasia,Diagnosis",
+      "citedIndex": 0,
+      "publishDate": "2017-10-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_tzycy201709052",
+      "title": "推行党建工作网络化管理模式,促进企业持续发展",
+      "summary": "在企业实际发展的过程中,传统的党建工作管理方式已经无法满足其持续发展需求,因此,在党建",
+      "summaryAll": "在企业实际发展的过程中,传统的党建工作管理方式已经无法满足其持续发展需求,因此,在党建工作中,相关机构应当注重网络化管理模式的创建,明确各类工作要求与目的,树立正确观念,创新管理体系,促进企业的持续发展与进步.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "党建工作,网络化管理模式,企业持续发展",
+      "citedIndex": 0,
+      "publishDate": "2017-09-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_ysyj201701088",
+      "title": "奥尔夫音乐教学法对学前专业学生的价值浅探",
+      "summary": "奥尔夫音乐教育是世界著名的三大音乐教育体系之一.经过多年的实践,奥尔夫音乐教学法已经由",
+      "summaryAll": "奥尔夫音乐教育是世界著名的三大音乐教育体系之一.经过多年的实践,奥尔夫音乐教学法已经由幼儿园和中小学音乐教育领域逐步拓展到大学艺术教育领域.文章基于对奥尔夫教学法本体简介,着重探讨了奥尔夫音乐教学法对学前专业学生的价值,最后简要分析了高师学前教育专业实施奥尔夫音乐教学法应注意的一些问题.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "奥尔夫教学法,学前教育专业,音乐教学",
+      "citedIndex": 0,
+      "publishDate": "2017-02-25",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3261630",
+      "title": "基于无监督神经网络的置换混叠图像盲分离",
+      "summary": "盲源分离又称为盲分离，是在不需要太多的源信号和信道先验信息的情况下，仅根据观测到的混合",
+      "summaryAll": "盲源分离又称为盲分离，是在不需要太多的源信号和信道先验信息的情况下，仅根据观测到的混合输出信号，分离出各输入源信号的过程，是信号处理领域的一个前沿问题，广泛应用于图像处理、医学信号处理、语音辨识与分离等领域。置换混叠图像的盲分离属于盲源分离的一种特殊情况，图像混叠以置换的方式，而非传统叠加的方式，故针对传统叠加方式混叠的图像盲分离算法不再适用于此类置换方式混叠的图像。因此，研究这种置换图像的盲分离需要新的理论和方法。因为置换混叠图像是在置换区域位置、大小、个数、类型等先验知识未知的情况下，仅根据置换混叠图像的本身信息分离出置换区域的图像，是一个具有挑战性的问题。而无监督神经网络是在先验知识未知的情况下，只通过输入数据自动发现输入数据内部特征，进而找到数据的特征差异。所以本文采用无监督神经网络模型来分离置换混叠图像，利用无监督的稀疏自动编码器模型分离含噪声的置换混叠图像，其次，利用无监督的受限玻尔兹曼机模型分离含模糊的置换混叠图像。<br>　　本文主要研究内容概括如下:<br>　　(1)对于含噪声的置换混叠图像，因为置换区域和被置换区域存在噪声差异，并且噪声不能稀疏表示，所以我们选用稀疏自动编码器算法来分离含噪声的置换混叠图像。首先，将含噪声的置换混叠图像分成小块，再将各个小块转化成可操作的数据集。其次，利用前向传播构建稀疏自动编码器网络结构，利用输入数据集训练网络，获得解码后的图像。最后，将解码后的图像与输入图像作差得到差图像，根据差图像利用最大类间方差法选取合适的闽值，对其进行阈值化操作，获得含噪声的置换图像。实验结果表明，该算法在噪声类型和方差大小不同时，能有效地分离置换区域位置、大小、个数不同的置换混叠图像。<br>　　(2)对于含模糊的置换混叠图像，提出基于受限玻尔兹曼机的置换混叠图像盲分离算法。首先，将含模糊的置换混叠图像转化成可操作的数据集。其次，构建受限玻尔兹曼机网络模型并训练，获得概率矩阵。最后，利用训练好的网络重构输入数据集，根据重构数据集与输入数据集的特征差异，分离出含模糊的置换区域图像。实验结果表明，该算法在置换区域位置、大小、个数、模糊类型和模糊度不同的情况下，能有效的分离置换混叠图像。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "盲源分离算法,置换混叠图像,图像处理,无监督神经网络,稀疏编码器,受限玻尔兹曼机",
+      "citedIndex": 0,
+      "publishDate": "2017-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_syhg201603010",
+      "title": "甘油和乙醇制复合甘油醚的热力学数据估算与反应分析",
+      "summary": "采用Benson和Joback基团贡献法、Rozicka-Domalski法等对甘油和",
+      "summaryAll": "采用Benson和Joback基团贡献法、Rozicka-Domalski法等对甘油和乙醇制复合甘油醚反应体系的相关热力学数据进行了估算,计算了相关反应的反应焓变、反应吉布斯自由能变及平衡常数.分别考察并比较了液相和气相反应体系中温度和原料组成对转化率、收率以及平衡组成的影响.实验结果表明,该反应是放热反应,低温有利于反应进行;3个反应在液相中的平衡常数较气相中大1～2个数量级,说明在热力学上液相反应进行的程度大于气相反应进行的程度;平衡转化率和收率在液相时受温度的影响小,在气相时随温度的升高而减小;无论是液相还是气相反应体系,适宜的原料配比n(甘油)∶n(乙醇)均为1∶4.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TQ4,TQ0,复合甘油醚,燃料添加剂,甘油,乙醇,热力学,基团贡献法,composite glycerin ethers,fuel additives,glycerin,ethanol,thermodynamics,group contribution method",
+      "citedIndex": 0,
+      "publishDate": "2016-03-15",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3095124",
+      "title": "基于C8051单片机的配平控制器系统设计与实现",
+      "summary": "配平控制器在自动驾驶控制领域中具有重要的作用，配平控制器属于自动驾驶系统中计算机的一部",
+      "summaryAll": "配平控制器在自动驾驶控制领域中具有重要的作用，配平控制器属于自动驾驶系统中计算机的一部分，计算机主要负责将各传感器、操纵台及有关操纵杆、开关所发出的控制信号进行综合、转换、计算、放大，并将信号输送到舵机伺服阀，有多级及其它操纵机构操纵直升机完成对各种飞行动作的控制。配平控制器主要是将前端也就是伺服放大器的交流信号输出的大小，按照一定的数学关系控制输出脉冲方波，从而驱动舵机对应的配平电路，实现自动配平。<br>　　在通常的设计中，配平控制器一般都是采用固定的模拟器件来实现，只能实现固定的频率的输出而且配平公式也很单一，不能去做动态的修改。本文针对这些问题，提出了用单片机来实现配平控制器，并且可以动态配置输出配平信号的参数。<br>　　本文的研究分为两部分:首先设计配平控制器硬件电路，然后在此硬件基础上开发单片机软件程序以及上位机程序。利用上位机程序发送配置指令给单片机，单片机接收到上位机发送的参数时就可以动态调整配平信号的输出。<br>　　所做的工作具体如下：<br>　　1.利用VS软件设计开发UI界面，可以按照设计的协议配置单片机。<br>　　2.设计了配平控制器硬件电路，并在此基础上进行验证。<br>　　3.在基于C8051的单片机配平控制电路板上面进行配平控制功能验证，并且在Keil-MDK开发环境下，利用在线仿真器，实现程序的在线调试和下载，效果能达到实际要求。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "自动驾驶系统,配平控制器,系统设计,单片机",
+      "citedIndex": 0,
+      "publishDate": "2016-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_D01010674",
+      "title": "甘油和乙醇制备复合甘油醚反应过程的研究",
+      "summary": "迅速发展的生物柴油产业带来了副产物甘油的大量过剩,如何合理的利用这些过剩的副产品甘油,",
+      "summaryAll": "迅速发展的生物柴油产业带来了副产物甘油的大量过剩,如何合理的利用这些过剩的副产品甘油,寻找合理的有效的途径将其转化为更有商业价值的化工产品是全球普遍关注的一大热点。其中，用生物质甘油生产烷基甘油醚用于燃料添加剂就是这样一条高附加值的甘油转化途径。<br>　　生物质甘油与同样是生物质能源的乙醇醚化生成单乙基甘油醚(MEGE)、二乙基甘油醚(DEGE)和三乙基甘油醚(TEGE)。高乙基甘油醚(DEGE和TEGE)是一种有价值的新型燃料含氧添加剂，掺入柴油中能够降低柴油黏度，改善柴油低温性能，还能够提高内燃机的燃烧性能促进柴油完全燃烧并减少污染排放物，还能替代对人体有毒以及环境有危害的甲基叔丁基醚(MTBE)提高柴油的十六烷值。<br>　　本文对甘油和乙醇制复合甘油醚的反应进行了热力学计算与分析，旨在为这类复杂反应预测产物的分布和选择合成目标产物的最佳实验条件奠定基础，为实验提供理论指导，对工业化生产提供有参考价值的基础数据。<br>　　本文首先使用基团贡献法对甘油和乙醇制复合甘油醚反应体系中各物质的标准摩尔生成焓、标准熵以及气体和液体的摩尔热容等相关热力学数据进行了估算，在此基础上计算了相关反应的反应焓变、反应吉布斯自由能变及平衡常数,从热力学角度系统地研究了该反应的方向和限度。在298.15～653K、压力1MPa的条件下详细地研究了相态、温度及原料组成对复合甘油醚合成过程中的平衡转化率、平衡收率以及平衡组成的影响，确定了甘油和乙醇制复合甘油醚体系最适宜的反应条件。<br>　　论文主要结论如下:<br>　　(1)甘油与乙醇制复合甘油醚的反应在298K～650K的范围内都可以自发进行。<br>　　(2)甘油和乙醇制复合甘油醚的反应是三阶梯串联反应，三个反应之间的协同效应使得体系中乙醇的转化率得到提升。<br>　　(3)甘油和乙醇制复合甘油醚的体系最适宜的反应条件：458～483.15K，n(Gl):n(ethanol)为1:4。在此条件下，甘油的平衡转化率为100％，DEGE的平衡收率几乎为0，TEGE的平衡收率接近100%。<br>　　(4)在热力学上，甘油经过反应Ⅰ、反应Ⅱ和反应Ⅲ连续与乙醇反应后，绝大多数均转化成为TEGE，这与实验中很难生成TEGE的结果不一致。其原因是：该体系达到热力学平衡，水的平衡组成在竟然高达60%，大量的水抑制了反应向右进行生成DEGE和TEGE。<br>　　(5)如何在线脱除水分以解决水抑制问题是该反应体系工业化过程要解决的关键问题。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "甘油,乙醇,复合甘油醚,燃料添加剂,反应热力学",
+      "citedIndex": 0,
+      "publishDate": "2016-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_cgjsxb201511020",
+      "title": "基于博弈理论的农田能量异构网络节点协同资源利用",
+      "summary": "针对无线传感器网络中耗能不均问题，以及可再生能源节点在农田无线传感器网络中应用的具体情",
+      "summaryAll": "针对无线传感器网络中耗能不均问题，以及可再生能源节点在农田无线传感器网络中应用的具体情况，将博弈理论引入无线传感器网络能耗问题研究中，建立了基于博弈理论的节点成簇方法，实现提高可再生能源利用率、均衡非可再生能源节点能耗的目标。方法首先建立簇收益与簇内节点收益评估模型，进行簇收益计算、簇内的两类能量异构节点个体收益的计算。在计算簇收益和节点收益的基础上进行节点成簇博弈，使得成簇方案向收益更高的策略空间进行跳转，最终达到博弈中的均衡状态。仿真实验表明，通过博弈进行无线传感器网络成簇，能够充分利用可再生能源节点能量，降低和均衡非可再生能源节点能耗，最终达到延长网络寿命的目标。Farmland Wireless sensor networks have the problem of uneven energy consumption. And with the intro?duction of renewable energy nodes,the farmland wireless sensor networks need a more rational energy collaboration strategy among energy heterogeneous nodes. The Game Theory was introduced in this paper to deal with the collab?orative energy utilization problem in the energy heterogeneous network,and ultimately to achieve the goal of renew?able energy utilization improving and non-renewable energy consumption balance. This method established cluster and cluster nodes payoff assessment model for cluster payoff calculation,as well as payoff calculation of cluster nodes with different energy types. On the basis of payoff calculation,nodes clustered by game theory. Nodes jump to cluster strategy spaces with higher payoff,and at last get the game equilibrium. The simulation result shows that wireless sensor network clustering by game theory can take full advantage of renewable energy node energy and bal?ance the energy consumption of non-renewable energy nodes,therefore to extend the network lifetime.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TN9,TP3,无线传感器网络,能量协同利用,博弈理论,能量异构,wireless sensor network,collaborative energy utilization,game theory,energy heterogeneous",
+      "citedIndex": 0,
+      "publishDate": "2015-11-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_kyaqyhb201505025",
+      "title": "集合相交法对出水钻孔水源的分析与判别",
+      "summary": "及时准确判断矿井突水成因,查找突水水源,是解决和预防突水灾害的关键. 以某矿东钻机在正",
+      "summaryAll": "及时准确判断矿井突水成因,查找突水水源,是解决和预防突水灾害的关键. 以某矿东钻机在正常钻进过程中突发井喷的现象为研究背景,通过现场测定出水流量、水温、pH值、电导率,以及室内水化学分析,综合流量、pH值动态分析和水化学分析,初步对井喷钻孔进行水源分析;通过对比分析,依次得到不同分析方法下最有可能的出水含水层,采用集合相交的方法综合分析各可能出水含水层,初步判断出水水源为太原组灰岩含水层.To timely and accurately judge the cause of mine water inrush and find out the water inrush source are the key to solve and prevent water inrush disaster. In this paper, preliminary analysis was made on the water source of the blowout borehole by taking the sudden blowout phenomenon in normal drilling process of the east drilling machine in a mine as study background and through the site measurement of water flow, temperature, pH value and conductivity and indoor hydro-chemical analysis of water samples and the dynamic and hydro-chemical analysis of the integrated water flow and pH value. Through comparison and analysis, the most possible water inrush aquifer was successively obtained by different analysis method, then comprehensive analysis was made on each possible water inrush aquifer with set intersection method, and the preliminarily judgment was that the water inrush source was the Taiyuan limestone aquifer.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "P64,TU9,钻孔出水,动态分析,水化学分析,集合相交,水源判别,borehole water inrush,dynamic analysis,hydro-chemical analysis,set intersection method,discrimination of water source",
+      "citedIndex": 0,
+      "publishDate": "2015-10-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_hqsgkj201513192",
+      "title": "马利冷却塔一机双塔运行研究",
+      "summary": "本文通过某厂2台自然通风马利塔性能数据进行分析，比较了在一机一塔、一机双塔工况下冷却塔",
+      "summaryAll": "本文通过某厂2台自然通风马利塔性能数据进行分析，比较了在一机一塔、一机双塔工况下冷却塔的冷却效率变化情况，发现在一机双塔工况下，冷却效率下降较多，但机组真空得到明显改善，对于整个机组的经济性来说是有利的。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TP3,TE6,冷却塔,性能试验,一机一塔,一机双塔",
+      "citedIndex": 0,
+      "publishDate": "2015-05-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zgkjzh201508042",
+      "title": "高压调节阀门流量运行特性研究",
+      "summary": "本文通过对某厂汽轮机高压调节阀门流量运行性能的测试，考察了高压调节阀门单阀运行及顺序阀",
+      "summaryAll": "本文通过对某厂汽轮机高压调节阀门流量运行性能的测试，考察了高压调节阀门单阀运行及顺序阀运行时，各阀门开度、机组负荷与主蒸汽流量三者之间的变化关系，通过数据及相应曲线分析，发现机组原始设定阀门重叠度不合理，影响了机组跟负荷反应速率，针对此现象提出了整改建议。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TK3,TK2,高压调节阀,阀门开度,主蒸汽流量,重叠度",
+      "citedIndex": 0,
+      "publishDate": "2015-04-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_tjjy201502052",
+      "title": "浅论体态律动在学前教育中的应用",
+      "summary": "体态律动是20世纪初瑞士作曲家、音乐教育家爱弥尔·雅克·达尔克罗兹(Emile Jaq",
+      "summaryAll": "体态律动是20世纪初瑞士作曲家、音乐教育家爱弥尔·雅克·达尔克罗兹(Emile JaquesDalcroze,1865-1950)创立的一种名为Eurhythmic的教学体系.\"Eurhythmic\"是一个源于古希腊的词语,意思为\"良好的流动\",是指对音乐节奏的理解不仅限于其快慢、徐缓,更联系着自身的体感,加深在体内感受到的音乐节奏生命,其目的是通过自身的感受、情绪、身体、动作和意志去体察音乐.在中国称之为\"体态律动\",在《牛津音乐指南》中解释为\"由爱弥尔·雅克·达尔克罗兹创造的一种通过身体运动表达音乐节奏形式的方法\".体态律动内容包括基本体能训练、节奏音感的培养、动作的模仿、自然韵律的表现、即兴反应的练习、空间练习及即兴能力的培养,因此,很有必要将体态律动的相关内容加入学前教育中.但体态律动的教学思想与活动在我国的学前教育中开展的不是很多.本文从三个方面简要介绍其理论基础、核心内容及对教师的要求.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "G83,G61",
+      "citedIndex": 0,
+      "publishDate": "2015-01-21",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zsjjeqy201502045",
+      "title": "中国地区产业上游度的测算",
+      "summary": "本文借用Pol Antràs(2012)中构建的产业上游度的测算方法度量了中国1997",
+      "summaryAll": "本文借用Pol Antràs(2012)中构建的产业上游度的测算方法度量了中国1997年124个、2002 年125 个以及2007 年135 个细分行业的上游度,我们也用2002及2007年的中国地区上游度数据证实了地区的上游度测量结果的稳定性,尽管使用的是更加大类的42各行业的产业分类. 最后,本文探究了产业上游度与地区经济发展状况和产业特征的联系,最后针对产业升级给出相关政策建议.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "F27,F12,上游度,价值链,产业升级",
+      "citedIndex": 0,
+      "publishDate": "2015-01-20",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y2773727",
+      "title": "水下机器人AUV环境地图构建与定位技术研究",
+      "summary": "随着人口数量的增长，陆地可利用资源变得越来越少，人们的视线开始转向海洋，但是海洋世界存",
+      "summaryAll": "随着人口数量的增长，陆地可利用资源变得越来越少，人们的视线开始转向海洋，但是海洋世界存在气压大、可见度低、环境恶劣等问题，人们无法轻易进入海洋世界。为解决这一难题，人们开始研究出一种新型自主性水下机器人(Autonomous Underwater Vehicle，AUV)使之成为开采海洋资源的水下工具。但是，AUV在进行水下任务时存在两个缺陷:第一，在没有具体的环境信息的条件下，水下机器人是无法进行水下作业、定位、路径规划、行为决策等一系列的自主性任务;第二，在水下环境中还存在环境极其复杂多变、干扰多、噪声大，仅仅凭借里程计等内部传感器是无法实现高精度的导航技术。同时定位与地图构建技术(Simultaneous localization and mapping，SLAM)通过建立运动模型和观测模型对水下机器人的定位信息和外界环境信息进行提取及更新，实现AUV导航。<br>　　目前，为了实现AUV同时定位与环境地图构建技术所应用范围最广泛的方法就是扩展卡尔曼滤波算法(Extended Kalman Filter，EKF)，但是，随着对EKF算法的深入研究，发现EKF算法存在局限性:一是EKF基本原理是将非线性系统线性化，然后用线性系统进行卡尔曼滤波，解决非线性系统状态估计问题，但是在非线性系统线性化过程中忽略了该过程引起的模型误差，将引起滤波误差。另一个局限是它要求噪声统计是已知的，然而在大多数非线性系统中噪声统计是未知的，如果把错误的噪声统计（均值和方差）应用到EKF算法中，会使滤波误差增大，甚至使滤波发散。<br>　　为解决这些局限性，提出构建一种基于虚拟噪声模型来补偿EKF算法。本文重点阐述了基于虚拟噪声补偿的EKF算法的基本原理，并且搭建matlab仿真实验平台，对传统EKF算法和基于虚拟噪声补偿的EKF算法在模拟水下环境的条件下进行对比，并用图表对照来证明改进算法的有效性、可行性、优越性。仿真实验证明，基于虚拟噪声补偿的EKF算法显著提高了非线性滤波的性能，解决了AUV应用SLAM技术精确性和鲁棒性的问题。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "水下机器人,地图构建,定位技术,虚拟噪声模型,扩展卡尔曼滤波算法",
+      "citedIndex": 0,
+      "publishDate": "2015-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_D810299",
+      "title": "布匹疵点标记在线检测与含疵样片定位的研究",
+      "summary": "现代服装品牌对服装设计、原材料质量、制作加工工艺等要求越来越高，布匹在加工织造过程中产",
+      "summaryAll": "现代服装品牌对服装设计、原材料质量、制作加工工艺等要求越来越高，布匹在加工织造过程中产生的疵点是影响服装原材料质量的重要因素。因此，如何在服装加工过程中对布匹上的疵点进行检测、定位、标识，并与自动排料、自动裁剪等工艺流程结合起来，实现服装加工过程中的疵点自动定位与含疵样片自动剔除，对提高服装制造业的自动化程度有重要意义。因此，根据企业需求，提出开展自动化的疵点识别与含疵样片的定位研究工作。<br>　　本文的研究对象是已经在验布机上经过初步检验并做过简单标记的牛仔布匹，主要研究目的是对疵点标记进行识别和定位，提取后续自动排料系统中样片信息并与疵点信息进行匹配，从而实现含疵样片的定位和样片信息的提取，为含疵样片的剔除与替换样片的加工提供参考信息。本课题主要开展了如下研究：<br>　　首先，进行了系统总体方案的设计。对企业自动铺布过程进行分析，结合机器视觉技术，选择合适的图像采集硬件结构，将图像采集模块加装在自动铺布机上，实现自动铺布与自动验布过程的同步性。通过实验验证，本文设计的图像采集系统可实现准确、实时的采集图像，为后期疵点标记及含疵样片的定位做了前期准备。<br>　　其次，进行了图像处理及疵点标记特征提取。通过对采集的各种图像疵点标记特征进行试验，采用中值滤波、最大熵阈值分割、数学形态学运算相结合的图像处理方式，较好地保留了疵点标记信息；然后对图像采用线性扫描的方式，提取疵点标记的位置特征信息，实现了对疵点标记的识别与分类。<br>　　第三，将集合论方法应用到含疵样片的定位研究中，实现疵点在排料系统中的定位。首先提取排料图样片的坐标信息，建立每个样片坐标数据集合；然后运用集合论中求交集的方法采和粗精分级定位方法，判断疵点标记的坐标数据集合与样片坐标数据集合交集是否为零：交集为零，代表此样片属于正常样片；交集不为零，代表属于含疵样片；最后记录含疵样片的序号及信息，为后续的样片补裁和替换提供依据。<br>　　本文研究可以实现疵点标记在自动铺布环节中的识别和定位，与自动排料和自动裁剪工艺流程紧密结合，将疵点检测的理论研究与服装生产的实际操作相结合，通过系列实验验证，此地那的在线检测与定位方法可行、有效，提高服装加工的效率。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "布匹产品,疵点标记,在线检测,含疵样片,自动定位",
+      "citedIndex": 0,
+      "publishDate": "2015-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_dfwhzk201418113",
+      "title": "自然通风马利冷却塔一机双塔性能研究",
+      "summary": "本文通过某厂2台自然通风马利塔性能数据进行分析，比较了在一机一塔、一机双塔工况下冷却塔",
+      "summaryAll": "本文通过某厂2台自然通风马利塔性能数据进行分析，比较了在一机一塔、一机双塔工况下冷却塔的冷却效率变化情况，发现在一机双塔工况下，冷却效率下降较多，因此不建议厂家继续采用一机双塔运行。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TP3,TE6,冷却塔,性能试验,一机一塔,一机双塔",
+      "citedIndex": 0,
+      "publishDate": "2014-09-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_dgykz201408007",
+      "title": "基于优化的多机协同目标被动跟踪与控制方法",
+      "summary": "为提高“战术隐身”和“静默攻击”环境下目标的可观测性和跟踪定位精度，研究并完成了基于滚",
+      "summaryAll": "为提高“战术隐身”和“静默攻击”环境下目标的可观测性和跟踪定位精度，研究并完成了基于滚动时域优化（ RHO）的纯方位角被动测量的UAV协同最优目标跟踪问题。对于双机协同最优跟踪的情况，观测UAV的空间相对布局对于被动定位与跟踪的质量起着极为重要的作用，采用最优控制的思想求取最优估计的控制量，实时调整UAV的航向，达到最优目标跟踪，并进行了仿真验证，结果证明了该方法的有效性。To improve the observability and locating precision of targets under electronic silence and tactic invisibility,the optimal passive target tracking by multiple Unmanned Aerial Vehicles (UAVs) using Receding Horizon Optimization ( RHO) was studied.With respect to optimal tracking by dual cooperative UAVs,the spacial layout of the UAVs has great effect on the quality of passive target locating and tracking .To realize the optimal target tracking,the RHO was used to obtain the optimal control solution,and the headings of UAVs were adjusted in real time .Simulation results demonstrate the effectiveness of this method .",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TP2,V24,目标跟踪,滚动时域优化,无人机,信息熵,协同控制,target tracking,moving horizon optimization,UAV,information entropy,synergetic control",
+      "citedIndex": 0,
+      "publishDate": "2014-08-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_jsnykx201408145",
+      "title": "农田能量异构无线传感器网络簇首选择机制",
+      "summary": "农田无线传感器网络监测过程中，太阳能电池供电的无线传感器网络有着很多优势，同时也存在着",
+      "summaryAll": "农田无线传感器网络监测过程中，太阳能电池供电的无线传感器网络有着很多优势，同时也存在着成本较高的问题。在农田无线传感器网络监测中加入部分太阳能节点进行监测，可以降低成本并延长网络寿命。研究了农田环境中太阳能供电节点与干电池供电节点同时存在时无线传感器网络成簇过程，在LEACH算法的基础上改进了一种簇首选择方法，每一轮通过2次选举，达到优先利用太阳能节点，提高太阳能节点使用效率的目的。仿真结果表明，通过此方法可以提高太阳能的利用率，减缓节点死亡速度，延长网络寿命。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "TP2,X83,无线传感器网络,能量异构,太阳能供电,簇首选择,2次选举",
+      "citedIndex": 0,
+      "publishDate": "2014-08-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_ysyj201402057",
+      "title": "试论学前儿童艺术教育的价值",
+      "summary": "改革开放三十多年以来,随着社会政治、经济、文化的发展,我国的学前儿童艺术教育取得了骄人",
+      "summaryAll": "改革开放三十多年以来,随着社会政治、经济、文化的发展,我国的学前儿童艺术教育取得了骄人的成绩,并得到了长足的发展.我国儿童艺术教育经历了从复苏阶段,到发展阶段,到全面探索阶段的历程.追溯历史,是为了借鉴历史经验,并理清现在存在的问题.分析学前儿童艺术教育的历史,总结对比艺术教育的作用与意义,从而探求儿童艺术教育的真正价值所在.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "R24,R22,学前教育,儿童艺术教育,教育价值",
+      "citedIndex": 0,
+      "publishDate": "2014-05-25",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_hqsgkj201410033",
+      "title": "我国碳金融发展的博弈论研究--基于“囚徒困境”分析",
+      "summary": "本文首先概述了碳金融概念的兴起与国内外碳金融市场的发展状况；考虑到全球温室气体排放存在",
+      "summaryAll": "本文首先概述了碳金融概念的兴起与国内外碳金融市场的发展状况；考虑到全球温室气体排放存在外部性以及全球碳减排责任共担的理性特征而处于“囚徒困境”状态，故建立完全信息静态博弈模型，探讨博弈双方达到最大效益的最优解，并进一步分析基于减排责任共担的中国碳金融单人博弈；最后，提出促进我国碳金融市场发展的对策建议。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "D92,TN9,碳金融,囚徒困境,博弈,减排责任共担",
+      "citedIndex": 0,
+      "publishDate": "2014-04-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zsdxxb201401020",
+      "title": "利用SSR及ISSR分子标记研究苜蓿属及其近缘植物的亲缘关系",
+      "summary": "利用30对SSR引物和12个ISSR引物对苜蓿属（Medicago）及其近缘植物共11",
+      "summaryAll": "利用30对SSR引物和12个ISSR引物对苜蓿属（Medicago）及其近缘植物共11个物种的亲缘关系进行研究。通过遗传多样性研究及UPGMA聚类分析显示，“阔荚类群”（subgen．Platycapos）的4个种在两种分子标记下都聚为一支，符合其相似的形态学特征；“阔荚类群”在SSR分子标记中与胡卢巴属（Trigonella）聚成一支，网脉胡卢巴（T．cancellata）在ISSR分子标记中聚在“阔荚类群”中；两种分子标记中，“紫花苜蓿复合体”（Medicago sativa complex）3个种间的遗传距离都最短；南苜蓿（M．polymorpha）在两种分子标记下的聚类结果有所不同，SSR分子标记下与胡卢巴属的亲缘关系更近。研究说明苜蓿属与胡卢巴属具有很近的亲缘关系，苜蓿属内不同物种与胡卢巴属的亲缘关系有远有近，其中苜蓿属中的“阔荚类群”与胡卢巴属的关系最近，苜蓿属中其他物种与胡卢巴属的亲缘关系较远。The genetic relationships among 1 1 species of Medicago and relative species were studied by using 30 pair of SSR primers and 12 ISSR primers.Based on genetic diversity analysis and UPGMA clus-ter analysis the results showed that 4 species of subgen.Platycapos were clustered together,related to their similar morphological characteristics;species of subgen.Platycapos were clustered with Trigonella, while T.cancellata were nested in subgen.Platycapos clade;the genetic distances among 3species of M. sativa complex were shortest;M.polymorpha was closer to Trigonella in ISSR results.Thus Trigonella had close genetic relationship with Medicago,especially species of subgen.Platycapos,and relatively farther from other species in Medicago.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "R28,S81,苜蓿属,近缘植物,分子标记,亲缘关系,Medicago,relative species,microsatellite markers,genetic relationships",
+      "citedIndex": 0,
+      "publishDate": "2014-01-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_D572783",
+      "title": "宫崎骏的动画作品——《龙猫》的解读与分析",
+      "summary": "作为21世纪的一个新兴产业,动画已逐步成为各国文化产业中不可缺少的组成部分。日本的动画",
+      "summaryAll": "作为21世纪的一个新兴产业,动画已逐步成为各国文化产业中不可缺少的组成部分。日本的动画产业一直位于全球前列,而宫崎骏大师更是其中一颗璀璨的明星,他所创作的动画对日本动画产业的发展起到巨大的推动作用。<br>　　本文以艺术学理论为基础,以宫崎骏的动画作品《龙猫》为研究文本,通过对《龙猫》的分析研究,探寻宫崎骏动画世界的秘密。首先,本文对宫崎骏本人做了简要概述,并对他的作品《龙猫》进行文本分析,深入解剖宫崎骏动画的主题思想;其次,从题材、角色、场景、色彩等四个方面出发,对《龙猫》的艺术特色进行了详细分析,研究宫崎骏如何将民族特征、人生经历融入进自己的动画创作之中,使观众在欣赏动画的同时,也能从中得到收获;最后,通过以上分析,探讨宫崎骏动画对于我国动画发展的启示性意义。",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "宫崎骏,日本漫画家,动画作品,主题思想,艺术特色",
+      "citedIndex": 0,
+      "publishDate": "2014-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zglcyxyxzz201311001",
+      "title": "低剂量CT扫描技术在头颈部CTA中的应用价值研究",
+      "summary": "目的:探讨低剂量CT(低管电压)扫描技术在头颈部CTA中的临床应用价值.方法:将55例",
+      "summaryAll": "目的:探讨低剂量CT(低管电压)扫描技术在头颈部CTA中的临床应用价值.方法:将55例BMI＜22.9 kg/m2的成年头颈部血管受检者随机分成两组,分别采用常规剂量(120 kV、175 mA)和低剂量(80 kV、175 mA)进行64排螺旋CT扫描,利用InSpace、Neuro DSA、3D图像后处理软件对图像进行后处理,分析两组受检者的图像质量和诊断价值评估,并使用卡方检验对两组数据进行统计学比较.同时,记录两组患者所接受的辐射剂量值.结果:结果显示常规剂量图像质量略高于低剂量组,但无统计学意义(P＞0.05).信噪比方面低剂量组图像颗粒略增粗,但不影响诊断质量,无统计学意义(P＞0.05).两组患者的BMI值无统计学差异(乃0.05).低剂量组所接受的辐射剂量远低于常规剂量组,CTDlvol与DLP值分别下降71.22％和72.03％.两组病例中分别有1例图像质量为差的病例,经调查系人为因素所致,未纳入本研究统计学范畴.结论:低剂量CTA扫描技术完全可以运用于头颈部血管性病变的斑块筛查、血管狭窄度评估及支架植入术后评估等,同时可大大降低受检者的医源性辐射剂量.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "R81,R44,脑血管障碍,体层摄影术,螺旋计算机,血管造影术,Cerebrovascular disorders,Tomography,spiral computed,Angiography",
+      "citedIndex": 0,
+      "publishDate": "2013-11-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xkcdx-s201330048",
+      "title": "新课标下初中生英语写作能力的培养",
+      "summary": "初中英语写作是反映初中生对英语词汇、语法、句型等方面综合运用能力的考查,可以全面反映学",
+      "summaryAll": "初中英语写作是反映初中生对英语词汇、语法、句型等方面综合运用能力的考查,可以全面反映学生的英语基础知识是否扎实,能否灵活运用英语来表达自己的思想,写作方式是否合乎英语思维等,是对学习并真正掌握和运用英语的大检阅.初中英语教师应该从多方面培养学生良好的写作习惯,形成正确的语感,将英语写作训练作为一项重要的教学任务,让学生通过英语写作提高他们对英语语言的驾驭能力.",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "keywords": "G63,G4,英语写作,写作技巧,语感",
+      "citedIndex": 0,
+      "publishDate": "2013-10-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    }
+  ],
+  "patentVO": [
+    {
+      "id": "CN201811592317.3",
+      "title": "一种具有缓解视疲劳的山楂制品及其制备方法",
+      "summary": "本发明涉及一种具有缓解视疲劳的山楂制品，其包括主料和辅料，所述主料由下述重量份原料组成",
+      "summaryAll": "本发明涉及一种具有缓解视疲劳的山楂制品，其包括主料和辅料，所述主料由下述重量份原料组成：山楂200‑800份、菊花50‑200份、金银花10‑100份、大枣200‑1000份、枸杞200‑1000份；所述辅料包括叶黄素、玉米黄质、白砂糖、蜂蜜和果葡糖浆等。该山楂制品可以制作为山楂膏、山楂固体颗粒制品，山楂液体饮品等，可以直接食用，可以滩涂于面包片上、饼干上，或冲水饮用，长期食用具有消除视力疲劳，助消化、补充能量，润肤养颜、营养丰富等功能。",
+      "categoryNo": "A23",
+      "patentNo": "CN201811592317.3",
+      "applicant": "河南科高中标检测技术有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811524331.X",
+      "title": "一种基于环境温度调节的燃机污染物排放优化调整方法",
+      "summary": "本发明涉及一种基于环境温度调节的燃机污染物排放优化调整方法，属于燃气轮机燃烧控制领域。",
+      "summaryAll": "本发明涉及一种基于环境温度调节的燃机污染物排放优化调整方法，属于燃气轮机燃烧控制领域。本发明包括数据采集系统和污染物排放优化控制装置，数据采集系统实时采集环境参数（温度、湿度、大气压）、天然气进气参数（温度、压力、流量）及燃机燃烧状态数据（压力脉动、污染物排放）等参数。当环境温度发生改变导致机组污染物排放浓度波动时，污染物排放优化控制装置根据采集的实时数据及系统边界值进行分析，得出燃机污染物（NO",
+      "categoryNo": "F02",
+      "patentNo": "CN201811524331.X",
+      "applicant": "华电电力科学研究院有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811388640.9",
+      "title": "一种水稻种子丸粒化包裹方法",
+      "summary": "本发明涉及一种水稻种子丸粒化包裹方法，步骤如下：⑴选取水稻种子；⑵将防虫杀菌剂、生长营",
+      "summaryAll": "本发明涉及一种水稻种子丸粒化包裹方法，步骤如下：⑴选取水稻种子；⑵将防虫杀菌剂、生长营养剂、蓄水抗旱剂、包衣剂和除草剂混合均匀；⑶将水稻种子放入包衣容器中进行丸粒化；⑷将丸粒后的水稻种子倒入丸粒化机内，一边加入粘结剂，一边加入填充剂，每80～100秒重复一次，9～10min后即得丸粒化稻种。本方法步骤简单，操作容易，减少劳动力，节约成本，本发明意义是非常重大的，丸粒化不仅可以提高种子的质量，而且还可以减少农民的劳动量,而且也会极大的促进社会的进步。",
+      "categoryNo": "A01",
+      "patentNo": "CN201811388640.9",
+      "applicant": "国家粳稻工程技术研究中心",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811388641.3",
+      "title": "一种直播水稻种子丸粒化包裹材料",
+      "summary": "本发明涉及一种直播水稻种子丸粒化包裹材料，其组成成分及重量份数为：防虫杀菌剂10～20",
+      "summaryAll": "本发明涉及一种直播水稻种子丸粒化包裹材料，其组成成分及重量份数为：防虫杀菌剂10～20份，生长营养剂5～8份，蓄水抗旱剂5～10份，包衣剂15～25份，粘结剂5～8份，填充剂5～10份，除草剂3～7份。本包裹材料能够用机器设备进行精确播种，减少劳动力，节约成本。本发明意义是非常重大的，丸粒化不仅可以提高种子的质量，而且还可以减少农民的劳动量,而且也会极大的促进社会的进步。",
+      "categoryNo": "A01",
+      "patentNo": "CN201811388641.3",
+      "applicant": "国家粳稻工程技术研究中心",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811330822.0",
+      "title": "一种直播水稻缓释肥",
+      "summary": "本发明公开了一种直播水稻缓释肥，由下述重量份数的原料组成：尿素40‑50份，脲酶缓释剂",
+      "summaryAll": "本发明公开了一种直播水稻缓释肥，由下述重量份数的原料组成：尿素40‑50份，脲酶缓释剂8‑12份，焦磷酸钾K10‑15份、氯化钙4‑6份、硫酸镁3‑6份，硫酸锌4‑6份，百草枯10‑15份，杀虫双10‑12份，硝酸抑制剂4‑6份。本发明的优点是：缓释肥一次适量施用可免追肥或少追肥，省时、省力，水稻平均每亩增产10‑11％，作物品质也好于同类，在降低生产成本、节约能源、减少污染方面优势明显。",
+      "categoryNo": "C05",
+      "patentNo": "CN201811330822.0",
+      "applicant": "沈阳工学院",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811330805.7",
+      "title": "一种水稻直播专用肥",
+      "summary": "本发明公开了一种水稻直播专用肥，由下述重量份数的原料组成：氯化铵10‑20份、五氧化二",
+      "summaryAll": "本发明公开了一种水稻直播专用肥，由下述重量份数的原料组成：氯化铵10‑20份、五氧化二磷20‑30份、焦磷酸钾10‑20份、钠4‑6份、镁6‑10份、硫3‑5份、钙6‑10份、乙草胺6‑10份、多菌灵8‑10份、壮秧剂5‑10份和粘结剂4‑6份。本发明的优点是：根据直播水稻存在的问题，配方中增加了乙草胺和壮秧剂，使得稻苗即使生长周期短也可以长得比较壮，不减产；增加乙草胺可以减少杂草的数量，保证稻苗的营养。粘结剂的增加也保证了肥料的效力。",
+      "categoryNo": "C05",
+      "patentNo": "CN201811330805.7",
+      "applicant": "沈阳工学院",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811265055.X",
+      "title": "一种燃机燃烧状态诊断及调整方法",
+      "summary": "本发明涉及一种燃机燃烧状态诊断及调整方法，适合GE公司9E类型燃机，属于GE公司9E类",
+      "summaryAll": "本发明涉及一种燃机燃烧状态诊断及调整方法，适合GE公司9E类型燃机，属于GE公司9E类型燃机关键核心技术领域。提供一种自主研发的、独有的针对GE公司9E类型燃机的燃烧状态诊断及调整的方法是目前急需解决的问题。本发明首先提供了准确判断9E类型燃机燃烧状态的方法，此诊断方法包括了两大诊断方向：燃烧稳定性诊断、燃烧排放诊断，4个指标参数：1）火检强度指标、2）排烟温度指标、3）NO",
+      "categoryNo": "F02",
+      "patentNo": "CN201811265055.X",
+      "applicant": "华电电力科学研究院有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811190994.2",
+      "title": "镭雕精准测量定位治具",
+      "summary": "本发明公开了镭雕精准测量定位治具，包括底座，底座上设有导轨，导轨上设有夹紧块安装座，夹",
+      "summaryAll": "本发明公开了镭雕精准测量定位治具，包括底座，底座上设有导轨，导轨上设有夹紧块安装座，夹紧块安装座端面设有气缸，气缸的缸体固定在夹紧块安装座上，另一端固定连接雕刻设备，夹紧块安装座上方固定设有滚轮状夹紧块，所述夹紧块为高弹性橡胶块，所述的底座上设有导向柱，导向柱上设有玻璃产品放置台，所述夹紧块安装座位于底座与玻璃产品放置台之间的空间内。达到精准定位和夹紧，可以有效地避免玻璃产品表面出现划痕，有利于节省成本，提高良品率。",
+      "categoryNo": "B23",
+      "patentNo": "CN201811190994.2",
+      "applicant": "安徽胜利精密制造科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811017249.8",
+      "title": "一种便携式火箭飞行时序测试仪",
+      "summary": "本发明涉及一种便携式火箭飞行时序测试仪，属于火箭时序控制技术领域。所述时序测试仪中的微",
+      "summaryAll": "本发明涉及一种便携式火箭飞行时序测试仪，属于火箭时序控制技术领域。所述时序测试仪中的微控制器内部集成的三种功能不同的定时器，一种定时器用于生成自检方波，与多路复用器配合能够完成对N路时序检测通道的自检；一种定时器用于捕获飞行时序计时零点并记录N路飞行时序节点，一种定时器用于捕获和测试时序脉冲信号，此两种定时器配合光耦隔离器件，可以获得每路火工品的飞行时序节点以及时序脉冲宽度，并将测试结果存储在FLASH芯片上。本发明所述时序测试仪可直接从箭上电缆网与各路火工品的对接端测试整个模拟飞行阶段的飞行时序，而且具有体积小、重量轻以及通用性强等优点。",
+      "categoryNo": "G05",
+      "patentNo": "CN201811017249.8",
+      "applicant": "西安航天动力技术研究所",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810975765.5",
+      "title": "一种健康营养与高稳定性亚麻荠籽毛油的制备工艺",
+      "summary": "本发明属于油脂加工技术领域，具体涉及一种健康营养与高稳定性亚麻荠籽毛油的制备工艺。该工",
+      "summaryAll": "本发明属于油脂加工技术领域，具体涉及一种健康营养与高稳定性亚麻荠籽毛油的制备工艺。该工艺包括下列步骤：除杂、水分调整、低温压榨、浸出、有机溶剂的回收以及毛油混合。该工艺采用了有机溶剂正己烷和丙酮依次浸出的方法，所得亚麻荠籽油最大限度保留了亚麻荠籽中的营养伴随物，所述营养伴随物具有抗心脑血管疾病及消炎等生理活性，极大提高了亚麻荠籽油的营养健康价值。",
+      "categoryNo": "C11",
+      "patentNo": "CN201810975765.5",
+      "applicant": "河南省科高植物天然产物开发工程技术有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810933199.1",
+      "title": "一种婴幼儿泳池无药一体化水处理器",
+      "summary": "本发明公开了一种婴幼儿泳池无药一体化水处理器，包括底座、循环水泵、砂缸、AOT灭菌设备",
+      "summaryAll": "本发明公开了一种婴幼儿泳池无药一体化水处理器，包括底座、循环水泵、砂缸、AOT灭菌设备和智能控制系统；循环水进水管连通循环水泵的进水口，循环水泵的出水口与砂缸的进水口连通，砂缸的出水口与AOT灭菌设备的进水口连通，AOT灭菌设备的出水口连通有循环水出水管；泵出水口外接头与砂缸进水口外接头之间的管路上设置有第一压力传送器，砂缸出水口外接头与AOT灭菌设备的进水口之间的管路上设置有第二压力传送器；AOT灭菌设备上设置有光照传感器；第一压力传送器、第二压力传送器和光照传感器与智能控制系统电连接。本发明光催化氧化AOT杀菌技术不添加任何化学药剂，可以把水中有害物质彻底分解成水和二氧化碳，无二次污染物，杀菌过程安全高效。",
+      "categoryNo": "C02",
+      "patentNo": "CN201810933199.1",
+      "applicant": "河北保定太行集团有限责任公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810848315.X",
+      "title": "一种置换混叠图像盲分离方法及装置",
+      "summary": "本发明涉及一种置换混叠图像盲分离方法及装置，该方法包括：根据至少两个已知置换区域位置的",
+      "summaryAll": "本发明涉及一种置换混叠图像盲分离方法及装置，该方法包括：根据至少两个已知置换区域位置的含噪声的置换混叠图像，获取训练数据集；构建卷积神经网络，将获取的训练数据集输入到卷积神经网络进行训练，获得训练好的卷积神经网络；将待检测的置换混叠图像进行预处理，并输入到训练好的卷积神经网络，获取图像特征图；对图像特征图进行优化，并将优化后的图像特征图与原待检测的置换混叠图像进行点乘操作，得到分离效果图。本发明采用卷积神经网络对置换混叠图像自动提取特征，提取的特征稳定，不受人为因素的影响，提高了图像分离的准确性；并且，通过将分离问题转为分类问题进行解决，简化了分离过程，提高了分离速度。",
+      "categoryNo": "G06",
+      "patentNo": "CN201810848315.X",
+      "applicant": "河南师范大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810802407.4",
+      "title": "一种生姜保健果冻及其制备方法",
+      "summary": "本发明公开了一种生姜保健果冻，由以下重量份数的原料制成：胶凝剂5‑10份、胶凝用水80",
+      "summaryAll": "本发明公开了一种生姜保健果冻，由以下重量份数的原料制成：胶凝剂5‑10份、胶凝用水80‑100份、蔗糖5‑10份、蜂蜜3‑5份、山梨酸钾0.0002‑0.0004份、中药膏10‑20份；所述中药膏由以下重量份数的原料制成：生姜20‑30份、山药5‑10份、枸杞3‑5份、酸枣仁3‑5份、茯苓3‑5份、黄精3‑5份、山茱萸2‑4份、熟地黄2‑4份、阿胶粉1‑3份，中药用水600‑800份；本发明还公开了该生姜保健果冻的制备方法。本发明制得的生姜保健果冻含有丰富的维生素和微量元素，不仅美味可口，而且营养价值高，具有滋阴补肾、益气补血的作用，女性长期食用，具有美容养颜、抗衰老之功效。",
+      "categoryNo": "A23",
+      "patentNo": "CN201810802407.4",
+      "applicant": "河南姜生堂生物科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810622697.4",
+      "title": "导电线线头绝缘保护装置",
+      "summary": "一种导电线线头绝缘保护装置，包括空心管、弹性封盖、开合件，空心管为两端开口的空心管体，",
+      "summaryAll": "一种导电线线头绝缘保护装置，包括空心管、弹性封盖、开合件，空心管为两端开口的空心管体，空心管的侧壁上沿着轴向方向开设第一长切口，与第一长切口相对的侧壁上设置第一对折折痕，开合件设置在第一对折折痕两侧的侧壁上，弹性封盖设置于空心管的一个开口端，弹性封盖为圆柱体，在圆柱体的内部设置圆锥形空心空腔，在圆柱体的侧壁上开设第二长切口，第二长切口与第一长切口位于同一直线内，以通过开合件带动空心管和弹性封盖同步打开，本发明可通过夹取动作完成导线的绝缘包裹，使导线在拔出时始终处在空心管及弹性封盖内部，避免了由于人员技术水平不同导致的导线拔出时发生短路的事故，同时该过程节省了大量时间，提升客户体验。",
+      "categoryNo": "H02",
+      "patentNo": "CN201810622697.4",
+      "applicant": "国网宁夏电力有限公司宁东供电公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810610350.8",
+      "title": "一种新型橙红色发光材料钐掺杂多硼酸钆钠的制备方法与应用",
+      "summary": "本发明公开了一种新型钐离子掺杂多硼酸钆钠橙红色发光材料及其制备方法与应用。本发明提供的",
+      "summaryAll": "本发明公开了一种新型钐离子掺杂多硼酸钆钠橙红色发光材料及其制备方法与应用。本发明提供的新型荧光粉的结构式为Na",
+      "categoryNo": "C09",
+      "patentNo": "CN201810610350.8",
+      "applicant": "河南理工大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810560452.3",
+      "title": "一种新型橙红色发光材料钐掺杂磷酸钽锶钠的制备方法与应用",
+      "summary": "本发明公开了一种新型橙红色晶体发光材料N",
+      "summaryAll": "本发明公开了一种新型橙红色晶体发光材料Na",
+      "categoryNo": "C09",
+      "patentNo": "CN201810560452.3",
+      "applicant": "河南理工大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810518492.1",
+      "title": "一种新型发光晶体材料K",
+      "summary": "本发明公开了一种新型发光晶体材料",
+      "summaryAll": "本发明公开了一种新型发光晶体材料K",
+      "categoryNo": "C09",
+      "patentNo": "CN201810518492.1",
+      "applicant": "河南理工大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810441873.4",
+      "title": "配合无级变速花鼓的电控调速系统",
+      "summary": "本发明公开了一种配合无级变速花鼓的电控调速系统，该系统通过采集骑行时的踏频以及后轮速度",
+      "summaryAll": "本发明公开了一种配合无级变速花鼓的电控调速系统，该系统通过采集骑行时的踏频以及后轮速度等参数，采用电机带动蜗杆蜗轮以及齿轮调速机构输出转矩带动花鼓上的花键轴套实时转动，通过花鼓的花键轴套转动到合适的位置，使花鼓输出合适的速比。本发明内部机械结构采用电机输出端连接蜗轮蜗杆再连接齿轮进行转矩输出的方式，可节省横向跨距，减小整个机构的宽度。",
+      "categoryNo": "F16",
+      "patentNo": "CN201810441873.4",
+      "applicant": "江苏铱拜科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810422227.3",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，环设在所述基板的外周缘，所述边框沿厚度方向的一侧设有嵌槽；导电金属片，包括弹性卡接部和包覆部，所述弹性卡接部与所述包覆部连接，所述弹性卡接部嵌入所述嵌槽内以通过所述弹性卡接部的弹性形变卡接在所述嵌槽内，所述包覆部包覆在所述塑胶边框的外表面。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H04",
+      "patentNo": "CN201810422227.3",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810421718.6",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，环设在所述基板外周缘，所述塑胶边框上设有凸缘；导电金属片，设置在所述塑胶边框的外表面，所述导电金属片上设有活动卡扣，所述活动卡扣与所述凸缘卡接以使得所述导电金属片与所述塑胶边框可拆卸。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H04",
+      "patentNo": "CN201810421718.6",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810421716.7",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，环设在所述基板外周缘，所述塑胶边框外表面设有凹槽，所述凹槽两侧的侧壁上设有安装孔；导电金属片，设置在所述凹槽内，所述导电金属片边缘设有定位部，所述定位部穿入所述安装孔内以使得所述导电金属片与所述塑胶边框的固定连接。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810421716.7",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810421688.9",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，环设在所述基板外周缘，所述塑胶边框具有第一拐角、第二拐角、第三拐角以及第四拐角，所述第一拐角和第二拐角位于所述塑胶边框的第一端部，所述第三拐角与所述第四拐角位于所述塑胶边框的第二端部，所述塑胶边框的第一拐角与所述第二拐角之间设有通槽；导电金属片，嵌入所述通槽内，所述导电金属片两端分别延伸至所述第一拐角和第二拐角；导电金属层，设置在所述第一拐角和所述第二拐角处，且与所述导电金属片连接，所述导电金属层的外表面设有保护件本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810421688.9",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810422225.4",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中壳体组件，包括：基板；塑胶边框，环设在所述基板外周缘，所述塑胶边框上设有扣孔；导电金属片，设置在所述塑胶边框的外表面，所述导电金属片上设有活动卡扣，所述活动卡扣与所述扣孔卡接以使得所述导电金属片与所述塑胶边框可拆卸。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810422225.4",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810416609.5",
+      "title": "天线组件、壳体组件及电子设备",
+      "summary": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体和天线结构，玻璃",
+      "summaryAll": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体和天线结构，玻璃壳体包括玻璃盖板以及设置在玻璃盖板下方的玻璃后壳，玻璃盖板以及玻璃后壳之间设有收容空间，收容空间的周缘环绕一侧壁，天线结构设置在收容空间侧壁的内部，其中收容空间侧壁的内部设有腔体，天线结构设置在腔体内，天线结构设有馈电点与接地点。本申请实施例在玻璃壳体的收容空间侧壁内部的腔体内设置天线结构，可以在电子设备尺寸不变的情况下，增加净空区域，且位于侧壁内部的天线结构在发生摩擦、跌落或碰撞时，天线不易变形，且对天线结构的防水效果更佳。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810416609.5",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810416604.2",
+      "title": "天线组件、壳体组件及电子设备",
+      "summary": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体、第一密封件、第",
+      "summaryAll": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体、第一密封件、第二密封件和天线结构，玻璃壳体具有相对设置的第一开口和第二开口，以及自第一开口向第二开口延伸的收容空间，第一密封件和第二密封件分别设置在第一开口与第二开口处，天线结构设置在第一密封件以及第二密封件上，其中天线结构上设有馈电点和接地点。本申请实施例在用于密封玻璃壳体两侧开口处的密封件上设置天线结构，可以在电子设备尺寸不变的情况下，增加净空区域，且当某一设置有天线结构的密封件发生损坏时，只用更换对应的密封件即可，可以降低设备维护成本。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810416604.2",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810416616.5",
+      "title": "天线组件、壳体组件及电子设备",
+      "summary": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃盖板以及设置在玻璃盖",
+      "summaryAll": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃盖板以及设置在玻璃盖板下方的玻璃后壳，玻璃盖板以及玻璃后壳之间设有收容空间，收容空间的周缘环绕一侧壁，天线结构设置在收容空间侧壁的外表面，其中收容空间侧壁的外表面设有槽体，天线结构设置在槽体内，天线结构设有馈电点与接地点。本申请实施例在玻璃壳体的收容空间侧壁外表面的槽体内设置天线结构，可以在电子设备尺寸不变的情况下，增加净空区域，且位于玻璃壳体的收容空间侧壁外表面的天线结构不被其他组件遮挡，能更好的提升天线结构辐射信号的强度，减少其他器件对天线结构造成的影响。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810416616.5",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810415170.4",
+      "title": "天线组件、壳体组件及电子设备",
+      "summary": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体和天线结构，玻璃",
+      "summaryAll": "本申请公开了一种天线组件、壳体组件及电子设备。该天线组件包括：玻璃壳体和天线结构，玻璃壳体包括玻璃盖板以及设置在玻璃盖板下方的玻璃后壳，玻璃盖板以及玻璃后壳之间设有收容空间，收容空间的周缘环绕一侧壁，天线结构设置在收容空间侧壁的内表面，其中收容空间侧壁的内表面设有缝隙，天线结构设置在缝隙内，天线结构设有馈电点与接地点。本申请实施例在玻璃壳体的收容空间侧壁内表面的缝隙内设置天线结构，可以在电子设备尺寸不变的情况下，增加净空区域，且位于侧壁内表面的天线结构在发生摩擦、跌落或碰撞时，天线不易变形，且对天线结构的防水效果更佳。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810415170.4",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810411539.4",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中一种壳体组件包括：第一基板；第二",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中一种壳体组件包括：第一基板；第二基板，与所述第一基板固定连接，所述第二基板采用非金属材料制成，所述第二基板包括边框，所述边框环绕在所述第一基板的周缘，所述边框包括第一侧边框以及第二侧边框，所述边框在所述第一侧边框与所述第二侧边框之间设有拐角部；金属结构，包括第一金属部，设在所述第一侧边框外表面；第二金属部，设在所述第二侧边框外表面；以及连接部，连接在所述第一金属部与所述第二金属部之间，所述连接部设在所述拐角部内表面，或所述连接部设在所述拐角部内。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H04",
+      "patentNo": "CN201810411539.4",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810410362.6",
+      "title": "壳体组件、天线组件、天线组件的制作方法及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件、天线组件的制作方法及电子设备。其中天线组件包括",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件、天线组件的制作方法及电子设备。其中天线组件包括第一基板、第二基板和天线结构，第一基板与第二基板固定连接，第二基板采用非金属材料制成，第二基板包括边框，边框环绕在第一基板的周缘，边框设有收容空间；天线结构包括天线本体、馈电结构和接地结构，天采用注入金属浆料的方式在收容空间内形成天线结构，馈电结构从边框位置朝向第二基板内部方向延伸，接地结构从边框位置朝向第二基板内部方向延伸并与第一基板连接。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810410362.6",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810411015.5",
+      "title": "壳体组件、天线组件及电子设备",
+      "summary": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中天线组件包括第一基板、第二基板和",
+      "summaryAll": "本申请实施例提供一种壳体组件、天线组件及电子设备。其中天线组件包括第一基板、第二基板和第一天线结构，第二基板与第一基板固定连接，第二基板包括边框，边框环绕在第一基板的周缘，边框包括第一边、第二边以及拐角部，拐角部具有第一端、第二端、第一侧部、第二侧部、以及位于第一侧部和第二侧部之间的凸起部，第一端与第一边连接，第二端与第二边连接；第一天线结构设置在拐角部的外表面且位于凸起部一侧，凸起部凸出于第一金属片。本申请实施例可以增加天线结构在电子设备内的净空区域，提升天线结构的辐射信号强度，降低了天线结构破损的可能性。",
+      "categoryNo": "H01",
+      "patentNo": "CN201810411015.5",
+      "applicant": "OPPO广东移动通信有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>李</mark><mark class=highlight>飞</mark><mark class=highlight>飞</mark>",
+      "pct": ""
+    }
+  ],
+  "bookVO": [
+    {
+      "id": "m.20121101-ZDLW-889-0511",
+      "title": "网络安全技术与实训",
+      "author": "杨文虎, <mark class=highlight>李飞飞</mark>",
+      "summary": "本书围绕网络安全的定义、标准、模型以及常见的网络安全威胁进行系统介绍和分析，从网络管理",
+      "summaryAll": "本书围绕网络安全的定义、标准、模型以及常见的网络安全威胁进行系统介绍和分析，从网络管理与安全防护入手，详细讲述和分析入侵检测、数据加密、身份验证、防火墙以及无线网安全等多方面的理论与技术，同时结合现场工程应用，将网络安全管理技术与主流系统软硬件结合，强调对实践能力的培养。",
+      "publisher": "人民邮电出版社",
+      "categoryNo": "978-7-115-24981-4",
+      "publishDate": "2011-07-01",
+      "category": "工业技术|自动化技术、计算机技术|计算技术、计算机技术|计算机的应用|计算机网络|计算机网络安全"
+    },
+    {
+      "id": "m.20070713-m002-w011-104",
+      "title": "做人做事的心机全集",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "summary": "本书围绕着敢想敢做，时刻想着“出人头地”的“心机”、做事做到位的“心机”、权力场上要进",
+      "summaryAll": "本书围绕着敢想敢做，时刻想着“出人头地”的“心机”、做事做到位的“心机”、权力场上要进退自如的“心机”、职场上要出奇制胜的“心机”、办公室里能屈能伸的“心机”、情场上要获取爱情的“心机”等主题，介绍了做人做事的种种心机手段和各种手段产生的内在规律。",
+      "publisher": "中国国际广播出版社",
+      "categoryNo": "978-7-5078-2782-8",
+      "publishDate": "2007-04-01",
+      "category": ""
+    },
+    {
+      "id": "m.20100205-m802-w008-016",
+      "title": "做人做事的“心机”全集",
+      "author": "<mark class=highlight>李飞飞</mark>",
+      "summary": "本书围绕着敢想敢做，时刻想着“出人头地”的“心机”、做事做到位的“心机”、权力场上要进",
+      "summaryAll": "本书围绕着敢想敢做，时刻想着“出人头地”的“心机”、做事做到位的“心机”、权力场上要进退自如的“心机”、职场上要出奇制胜的“心机”、办公室里能屈能伸的“心机”、情场上要获取爱情的“心机”等主题，介绍了做人做事的种种心机手段和各种手段产生的内在规律。",
+      "publisher": "中国国际广播出版社",
+      "categoryNo": "978-7-5078-2782-8",
+      "publishDate": "2007-04-01",
+      "category": "哲学、宗教|心理学|个性心理学（人格心理学）|信念、意志、行为"
+    }
+  ],
+  "standardVO": []
+}

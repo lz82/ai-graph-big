@@ -3,7 +3,7 @@
     <h2 class="comm-title">同领域专家</h2>
     <ul>
       <li v-for="item in list" :key="item.id">
-        <img :src='item.headImg' alt="">
+        <img :src="baseURL + item.headImg" alt="">
         <div class="expert-info">
           <h3>{{item.name}}</h3>
           <span>{{ item.institution }}</span>
@@ -13,6 +13,7 @@
   </div>
 </template>
 <script>
+import appConfig from '@/config'
 export default {
   name: 'ExpertPannel',
 
@@ -21,6 +22,7 @@ export default {
   },
   data () {
     return {
+      baseURL: appConfig.baseUrl
     }
   }
 

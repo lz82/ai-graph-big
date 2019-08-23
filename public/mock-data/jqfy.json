@@ -92,7 +92,7 @@
       {
         "id": 1074780,
         "name": "刘群",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-02/2019-02-21-16-30-50__207b0969-37da-4d28-a908-417cc0af47c1.jpg",
+        "headImg": "/img/expert_logo/2019-02/2019-02-21-16-30-50__207b0969-37da-4d28-a908-417cc0af47c1.jpg",
         "institution": "Dublin City University",
         "subjectArea": null,
         "country": null,
@@ -111,7 +111,7 @@
       {
         "id": 267673,
         "name": "Benjamin Van",
-        "headImg": "http://192.168.200.130:8032/img/null",
+        "headImg": "/img/null",
         "institution": "Johns Hopkins University",
         "subjectArea": null,
         "country": null,
@@ -130,7 +130,7 @@
       {
         "id": 408584,
         "name": "蒋伟",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-26-14-57-29__159e85e8-35d3-4c76-8162-89571ef21fcf.jpg",
+        "headImg": "/img/expert_logo/2019-03/2019-03-26-14-57-29__159e85e8-35d3-4c76-8162-89571ef21fcf.jpg",
         "institution": "University of Notre Dame",
         "subjectArea": null,
         "country": null,

@@ -2,7 +2,7 @@
   "expertVO": {
     "id": 197239,
     "name": "韩家炜",
-    "headImg": "http://192.168.200.130:8032/img/expert_logo/2017-08/2017-08-28-14-52-30__b2567d11-0c45-4c6a-a764-5a5cec935eb4.jpg",
+    "headImg": "/img/expert_logo/2017-08/2017-08-28-14-52-30__b2567d11-0c45-4c6a-a764-5a5cec935eb4.jpg",
     "institution": "University of Illinois at Urbana-Champaign",
     "subjectArea": "计算机科学",
     "country": "美国",
@@ -119,7 +119,7 @@
       {
         "id": 224535,
         "name": "Swagatam Das",
-        "headImg": "http://192.168.200.130:8032/img/null",
+        "headImg": "/img/null",
         "institution": "Indian Statistical Institute, Kolkata",
         "subjectArea": null,
         "country": null,
@@ -138,7 +138,7 @@
       {
         "id": 860117,
         "name": "高静",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-25-09-52-16__de395ebf-eb59-42ea-8c95-403974c9e143.jpg",
+        "headImg": "/img/expert_logo/2019-03/2019-03-25-09-52-16__de395ebf-eb59-42ea-8c95-403974c9e143.jpg",
         "institution": "University at Buffalo State University of New York",
         "subjectArea": null,
         "country": null,
@@ -157,7 +157,7 @@
       {
         "id": 338504,
         "name": "翟成祥",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-01/2019-01-22-10-28-01__3b3250f0-36fd-4e0f-92d7-79400d581015.jpg",
+        "headImg": "/img/expert_logo/2019-01/2019-01-22-10-28-01__3b3250f0-36fd-4e0f-92d7-79400d581015.jpg",
         "institution": "University of Illinois at Urbana-Champaign",
         "subjectArea": null,
         "country": null,

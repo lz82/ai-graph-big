@@ -289,10 +289,10 @@ export default {
         if (d.name === this.keyword) {
           this.$router.push(`/search/${this.keyword}`)
         } else {
-          this.currentWord = d.id
+          this.currentWord = d.code
         }
       } else {
-        this.currentWord = d.id
+        this.currentWord = d.code
       }
     },
 

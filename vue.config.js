@@ -9,7 +9,6 @@ module.exports = {
     },
     port: 8899,
     open: true
-  },
-
-  publicPath: '/preview/'
+  }
+  // publicPath: '/preview/'
 }

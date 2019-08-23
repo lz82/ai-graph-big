@@ -2,7 +2,7 @@
   "expertVO": {
     "id": 1819539,
     "name": "Yoshua Bengio",
-    "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-04/2019-04-17-09-50-38__0bfc2fd8-5b17-41fd-a0e9-5a3dde48326a.jpg",
+    "headImg": "/img/expert_logo/2019-04/2019-04-17-09-50-38__0bfc2fd8-5b17-41fd-a0e9-5a3dde48326a.jpg",
     "institution": "Universite de Montreal",
     "subjectArea": "计算机科学",
     "country": "加拿大",
@@ -189,7 +189,7 @@
       {
         "id": 2017250,
         "name": "曹进德",
-        "headImg": "http://192.168.200.130:8032/img/domain_logo/2017250.jpg",
+        "headImg": "/img/domain_logo/2017250.jpg",
         "institution": "Southeast University",
         "subjectArea": null,
         "country": null,
@@ -208,7 +208,7 @@
       {
         "id": 914005,
         "name": "王子栋",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-21-13-26-15__512381b6-9622-4ec3-8ccc-3e1e534cc672.jpg",
+        "headImg": "/img/expert_logo/2019-03/2019-03-21-13-26-15__512381b6-9622-4ec3-8ccc-3e1e534cc672.jpg",
         "institution": "Brunel University London",
         "subjectArea": null,
         "country": null,
@@ -227,7 +227,7 @@
       {
         "id": 376304,
         "name": "黄煦涛",
-        "headImg": "http://192.168.200.130:8032/img/domain_logo/35513984600.jpg",
+        "headImg": "/img/domain_logo/35513984600.jpg",
         "institution": "University of Illinois at Urbana-Champaign",
         "subjectArea": null,
         "country": null,

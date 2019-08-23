@@ -162,7 +162,7 @@
       {
         "id": 2017250,
         "name": "曹进德",
-        "headImg": "http://192.168.200.130:8032/img/domain_logo/2017250.jpg",
+        "headImg": "/img/domain_logo/2017250.jpg",
         "institution": "Southeast University",
         "subjectArea": null,
         "country": null,
@@ -181,7 +181,7 @@
       {
         "id": 1976111,
         "name": "韩清龙",
-        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-02/2019-02-22-10-21-35__e73b09f4-1397-40f9-8a94-b1d3f352a7dc.jpg",
+        "headImg": "/img/expert_logo/2019-02/2019-02-22-10-21-35__e73b09f4-1397-40f9-8a94-b1d3f352a7dc.jpg",
         "institution": "Griffith University, Gold Coast",
         "subjectArea": null,
         "country": null,
