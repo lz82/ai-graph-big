@@ -1,7 +1,8 @@
 import { AppPost } from '@/utils/request'
 
 const keyMap = {
-  '吴恩达': 'wed'
+  '吴恩达': 'wed',
+  '知识库': 'zsk'
 }
 
 // 根据关键词搜索图谱信息

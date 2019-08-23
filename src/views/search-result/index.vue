@@ -1,11 +1,14 @@
 <template>
     <div class="search-layout-wrapper">
       <div class="side-bar side-left">
-        <h2 class='comm-title'>{{title}}信息</h2>
+        <h2 class='comm-title'>{{getTitlt()}}</h2>
         <!-- expert info -->
-        <expert-info v-if="isExpert()"></expert-info>
+        <expert-info v-if="result && result.expertInfo" :info='result.expertInfo'></expert-info>
         <!-- tab bar  -->
-        <tab-bar v-bind:class="{'tab-wrap-expert':isExpert(),'tab-wrap-key':!isExpert()}"></tab-bar>
+        <tab-bar v-if="result"
+          :tabContent='result'
+          :class="{'tab-wrap-expert':isExpert(),'tab-wrap-key':!isExpert()}">
+        </tab-bar>
       </div>
       <div class="main-wrap">
         <header>
@@ -14,25 +17,29 @@
               class="title"
             />
           </header>
-          <know-graph></know-graph>
+          <know-graph
+            v-if="result"
+            :nodes='result.graphInfo.fakeNodes'
+            :links='result.graphInfo.fakeLinks'>
+          </know-graph>
       </div>
       <div class="side-right">
         <btn-group></btn-group>
         <div class="side-bar side-right-con">
           <!-- 同领域专家 -->
-          <expert-pannel></expert-pannel>
+          <expert-pannel v-if="showRelatedExpert" :list='result.graphInfo.expertReco'></expert-pannel>
 
           <!-- 相关技术推荐 -->
-          <tech-pannel></tech-pannel>
+          <tech-pannel v-if="showRelatedTech" :list='result.graphInfo.subjectReco'></tech-pannel>
 
           <!-- 合作机构 -->
-          <org-pannel></org-pannel>
+          <org-pannel v-if="showRelatedOrg" :list='result.graphInfo.institutionsReco'></org-pannel>
 
           <!-- 热词推荐 -->
-          <hot-pannel></hot-pannel>
+          <hot-pannel v-if="showHot"></hot-pannel>
 
           <!-- 专家推荐 -->
-          <expert-rec></expert-rec>
+          <!-- <expert-rec></expert-rec> -->
         </div>
       </div>
     </div>
@@ -44,7 +51,7 @@ import ExpertInfo from './component/expert-info'
 import TabBar from './component/tab-bar'
 import KnowGraph from './component/knowledge-graph'
 import HotPannel from './component/pannel-hot'
-import ExpertRec from './component/pannel-expert-rec'
+// import ExpertRec from './component/pannel-expert-rec'
 import ExpertPannel from './component/pannel-expert'
 import TechPannel from './component/pannel-tech'
 import OrgPannel from './component/pannel-org'
@@ -59,7 +66,7 @@ export default {
     TabBar,
     KnowGraph,
     HotPannel,
-    ExpertRec,
+    // ExpertRec,
     ExpertPannel,
     TechPannel,
     OrgPannel,
@@ -67,26 +74,29 @@ export default {
   },
   data () {
     return {
+      routerAlive: true,
       baseURL: appConfig.baseUrl,
       tabBarData: [
         { name: '论文' },
         { name: '专利' },
         { name: '标准' }
       ],
-      type: 'expert',
+      type: '',
       nowIndex: 0,
-      title: '专家',
       activeName: 'all',
       keyword: this.$route.params.searchKey,
       transitionName: 'slide-left',
-      paperList: [],
-      patentList: [],
-      standardList: []
+      result: null
     }
   },
 
-  created () {
-    this.getData()
+  provide () { // 在父组件中创建属性
+    return {
+      routerRefresh: this.routerRefresh
+    }
+  },
+  async mounted () {
+    await this.getData()
   },
 
   methods: {
@@ -94,12 +104,11 @@ export default {
       try {
         const data = await searchApi.QueryDataByKeyword(this.keyword, this.type)
         if (data) {
-          this.paperList = data.paperList
-          this.patentList = data.patentList
-          this.standardList = data.standardList
+          // console.log(data)
+          this.result = data
         }
       } catch (error) {
-
+        this.$message.error(error.toString())
       }
     },
 
@@ -108,11 +117,53 @@ export default {
       // this.$root.evenHub.$emit('switchTab',item, index)
     },
 
+    getTitlt () {
+      console.log(this.type)
+      // return this.type === 'expert' ? '专家' : '关键词'
+      return this.result && this.result.expertInfo ? '专家信息' : `${this.keyword}相关信息`
+    },
+
     isExpert () {
-      return this.title === '专家'
+      return this.result && this.result.expertInfo
+    },
+
+    routerRefresh () {
+      this.routerAlive = false
+      this.$nextTick(() => { this.routerAlive = true })
     }
   },
 
+  computed: {
+    showRelatedExpert () {
+      return this.type !== 'other' &&
+        this.result &&
+        this.result.graphInfo &&
+        this.result.graphInfo.expertReco &&
+        this.result.graphInfo.expertReco.length > 0
+    },
+
+    showRelatedTech () {
+      return this.type !== 'other' &&
+        this.result &&
+        this.result.graphInfo &&
+        this.result.graphInfo.subjectReco &&
+        this.result.graphInfo.subjectReco.length > 0
+    },
+
+    showRelatedOrg () {
+      return this.result &&
+        this.result.graphInfo &&
+        this.result.graphInfo.institutionsReco &&
+        this.result.graphInfo.institutionsReco.length > 0
+    },
+
+    showHot () {
+      return true
+      // return !this.showRelatedExpert &&
+      //   !this.showRelatedTech &&
+      //   !this.showRelatedOrg
+    }
+  },
   watch: {
     routerKey () {
       return this.$route.params.searchKey
