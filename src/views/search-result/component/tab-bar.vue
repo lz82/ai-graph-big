@@ -14,7 +14,7 @@
       <div class="conItem">
         <!-- 论文 -->
         <ul v-if="showPaper">
-          <li v-for="item in tabContent.paperList" :key="item.id">
+          <li v-for="item in tabContent.paperVO" :key="item.id">
             <h3>{{item.title}}</h3>
             <p>
               <span v-html="'作者：'+item.author"></span>
@@ -26,7 +26,7 @@
         </ul>
         <!-- 专利 -->
         <ul v-if="showPatent">
-          <li v-for="item in tabContent.patentList" :key="item.id">
+          <li v-for="item in tabContent.patentVO" :key="item.id">
             <h3>{{item.title}}</h3>
             <p>
               <span v-html="'专利权人：'+item.inventor"></span>
@@ -37,7 +37,7 @@
         </ul>
         <!-- 标准 -->
         <ul v-if="showStandard">
-          <li v-for="item in tabContent.standardList" :key="item.id">
+          <li v-for="item in tabContent.standardVO" :key="item.id">
             <h3 v-html="item.nameCN"></h3>
             <p>
               <span>标准号：{{item.standardNo}}</span>
@@ -52,7 +52,6 @@
   </div>
 </template>
 <script>
-import { searchApi } from '@/service'
 export default {
   name: 'TabBar',
 
@@ -69,41 +68,22 @@ export default {
     }
   },
 
-  created () {
-    this.getData()
-  },
-
   methods: {
     switchTab (item, index) {
       this.nowIndex = index
       // this.$root.evenHub.$emit('switchTab',item, index)
-    },
-
-    async getData () {
-      try {
-        const data = await searchApi.QueryPaperByKeyword(
-          this.keyword,
-          this.type
-        )
-        if (data) {
-          // console.log(data)
-          this.paperList = data.list
-        }
-      } catch (error) {
-        this.$message.error(error.toString())
-      }
     }
   },
 
   computed: {
     showPaper () {
-      return this.nowIndex === 0 && this.tabContent.paperList.length > 0
+      return this.nowIndex === 0 && this.tabContent.paperVO.length > 0
     },
     showPatent () {
-      return this.nowIndex === 1 && this.tabContent.patentList.length > 0
+      return this.nowIndex === 1 && this.tabContent.patentVO.length > 0
     },
     showStandard () {
-      return this.nowIndex === 2 && this.tabContent.standardList.length > 0
+      return this.nowIndex === 2 && this.tabContent.standardVO.length > 0
     }
   }
 }

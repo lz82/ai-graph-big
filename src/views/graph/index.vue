@@ -83,8 +83,8 @@ export default {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
           console.log(temp)
-          this.nodes = temp.graph.fakeNodes
-          this.links = temp.graph.fakeLinks
+          this.nodes = temp.mapInfo.nodes
+          this.links = temp.mapInfo.relations
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -136,9 +136,9 @@ export default {
         .force('collide', d3.forceCollide(d => {
           if (d.name === this.keyword) {
             d.fx = this.svgW / 2 // 设置特定节点固定x坐标
-            d.fy = this.svgH / 2
+            d.fy = this.svgH / 2.5
           }
-          return 145 - d.level * 20
+          return 135 - d.level * 20
           // return 60 * d.value + 5
         }))
     },
@@ -359,7 +359,7 @@ export default {
       justify-content: center;
     }
     .side-right{
-      width: 350px;
+      width: 450px;
       .side-right-con{
         padding: 0px 30px 35px;
         border-radius: 5px;
@@ -369,7 +369,7 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1460px;
+      width: 1360px;
       height: 100%;
     }
   }

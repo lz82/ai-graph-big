@@ -229,7 +229,7 @@ export default {
 
   computed: {
     nodeId () {
-      return this.links[0].source.id
+      return this.links[0].source.code
     }
   }
 }

@@ -1,0 +1,1558 @@
+{
+  "expertVO": {
+    "id": 715311,
+    "name": "周志华",
+    "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-21-13-48-56__b194d586-5ae6-449d-95a4-e7d184f98423.jpg",
+    "institution": "Nanjing University",
+    "subjectArea": "计算机科学",
+    "country": "中国",
+    "totalIssues": 423,
+    "totalCitations": 18722,
+    "top1Citations": 0.085106,
+    "number1": 36,
+    "top10Citations": 0.43026,
+    "number10": 182,
+    "hIndex": 66,
+    "journalSend": null,
+    "subjectMatch": null,
+    "citedSituation": null,
+    "fwciinedx": 3.602
+  },
+  "mapVO": {
+    "nodes": [
+      {
+        "id": "60033100_affiliation",
+        "name": "Nanjing University",
+        "type": "affiliation",
+        "value": 0.5,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "5981_scholar",
+        "name": "Shinmu Tseng",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2365737_scholar",
+        "name": "Giorgio Fumera",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2121551_scholar",
+        "name": "张艳宁",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2372995_scholar",
+        "name": "Truhoang Cao",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "715311_scholar",
+        "name": "周志华",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2332229_scholar",
+        "name": "Rong Jin",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "715311_scholar",
+        "target": "60033100_affiliation",
+        "value": 0.5,
+        "type": "affiliation"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "5981_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2121551_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2332229_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2372995_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2365737_scholar",
+        "value": 1,
+        "type": "scholar"
+      }
+    ],
+    "expertReco": [
+      {
+        "id": 1918347,
+        "name": "Pierre F. Baldi",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-05/2019-05-05-09-57-55__1964d92b-fd31-450d-bcf2-55df57ec6e06.jpg",
+        "institution": "UC Irvine",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 2024560,
+        "name": "杨强",
+        "headImg": "http://192.168.200.130:8032/img/supplement/2024560.jpg",
+        "institution": "Hong Kong University of Science and Technology",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 8526,
+        "name": "颜水成",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-19-10-12-43__c6c48347-d481-4f11-9385-79f495de8785.jpg",
+        "institution": "National University of Singapore",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      }
+    ],
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": [
+      "Hong Kong University of Science and Technology",
+      "National Laboratory for Novel Software Technology",
+      "Tianjin University"
+    ]
+  },
+  "mapInfo": {
+    "nodes": [
+      {
+        "id": "C018882261_keyword",
+        "name": "text mining",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018932782_keyword",
+        "name": "Knowledge Bases",
+        "type": "keyword",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "60033100_affiliation",
+        "name": "Nanjing University",
+        "type": "affiliation",
+        "value": 0.5,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018967851_keyword",
+        "name": "sparse representation",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018883638_keyword",
+        "name": "Cluster Analysis",
+        "type": "keyword",
+        "value": 0.51705,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018791541_keyword",
+        "name": "Rough sets",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2365737_scholar",
+        "name": "Giorgio Fumera",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018943336_keyword",
+        "name": "image denoising",
+        "type": "keyword",
+        "value": 0.83333,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020037235_keyword",
+        "name": "data mining",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018964560_keyword",
+        "name": "image restoration technique",
+        "type": "keyword",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2372995_scholar",
+        "name": "Truhoang Cao",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018890891_keyword",
+        "name": "Ontology",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018811890_keyword",
+        "name": "Genetic Algorithm (GA)",
+        "type": "keyword",
+        "value": 0.55682,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018942155_keyword",
+        "name": "Clustering algorithms",
+        "type": "keyword",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2121551_scholar",
+        "name": "张艳宁",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "18571_keyword",
+        "name": "Recommendation",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020031314_keyword",
+        "name": "Supervised learning",
+        "type": "keyword",
+        "value": 0.625,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018819609_keyword",
+        "name": "e-learning",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018847356_keyword",
+        "name": "Pattern recognition",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2616_keyword",
+        "name": "Fuzzy set",
+        "type": "keyword",
+        "value": 0.50568,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2558127_keyword",
+        "name": "Tmall",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "205273_keyword",
+        "name": "Semantic space",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "124184_keyword",
+        "name": "Utility mining",
+        "type": "keyword",
+        "value": 0.50568,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "641532_keyword",
+        "name": "Multiple Classifier Systems",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018874645_keyword",
+        "name": "semantic networks",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "715311_scholar",
+        "name": "周志华",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2332229_scholar",
+        "name": "Rong Jin",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "308509_keyword",
+        "name": "Entity disambiguation",
+        "type": "keyword",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "5981_scholar",
+        "name": "Shinmu Tseng",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "271984_keyword",
+        "name": "Named entity",
+        "type": "keyword",
+        "value": 0.58333,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018972432_keyword",
+        "name": "Gesture recognition",
+        "type": "keyword",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C019388244_keyword",
+        "name": "bagging",
+        "type": "keyword",
+        "value": 0.875,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "2365737_scholar",
+        "target": "C018972432_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2121551_scholar",
+        "target": "C018942155_keyword",
+        "value": 0.66667,
+        "type": "keyword"
+      },
+      {
+        "source": "2332229_scholar",
+        "target": "C018819609_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "2365737_scholar",
+        "target": "C020031314_keyword",
+        "value": 0.625,
+        "type": "keyword"
+      },
+      {
+        "source": "2332229_scholar",
+        "target": "C018882261_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "2372995_scholar",
+        "target": "C018932782_keyword",
+        "value": 0.66667,
+        "type": "keyword"
+      },
+      {
+        "source": "2121551_scholar",
+        "target": "C018943336_keyword",
+        "value": 0.83333,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2332229_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "2372995_scholar",
+        "target": "271984_keyword",
+        "value": 0.58333,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2365737_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "2372995_scholar",
+        "target": "C018874645_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2121551_scholar",
+        "target": "C018791541_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "2332229_scholar",
+        "target": "205273_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2372995_scholar",
+        "target": "308509_keyword",
+        "value": 0.66667,
+        "type": "keyword"
+      },
+      {
+        "source": "5981_scholar",
+        "target": "2616_keyword",
+        "value": 0.50568,
+        "type": "keyword"
+      },
+      {
+        "source": "5981_scholar",
+        "target": "124184_keyword",
+        "value": 0.50568,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "60033100_affiliation",
+        "value": 0.5,
+        "type": "affiliation"
+      },
+      {
+        "source": "5981_scholar",
+        "target": "C018811890_keyword",
+        "value": 0.55682,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2121551_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "2332229_scholar",
+        "target": "2558127_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2332229_scholar",
+        "target": "18571_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2365737_scholar",
+        "target": "C019388244_keyword",
+        "value": 0.875,
+        "type": "keyword"
+      },
+      {
+        "source": "2121551_scholar",
+        "target": "C018964560_keyword",
+        "value": 0.66667,
+        "type": "keyword"
+      },
+      {
+        "source": "5981_scholar",
+        "target": "C020037235_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "2365737_scholar",
+        "target": "C018847356_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "5981_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "5981_scholar",
+        "target": "C018883638_keyword",
+        "value": 0.51705,
+        "type": "keyword"
+      },
+      {
+        "source": "715311_scholar",
+        "target": "2372995_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "2372995_scholar",
+        "target": "C018890891_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "2365737_scholar",
+        "target": "641532_keyword",
+        "value": 0.75,
+        "type": "keyword"
+      },
+      {
+        "source": "2121551_scholar",
+        "target": "C018967851_keyword",
+        "value": 1,
+        "type": "keyword"
+      }
+    ],
+    "expertReco": null,
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "paperVO": [
+    {
+      "id": "Periodical_csjt201901004",
+      "title": "面向2035年广州市交通发展战略问题思考",
+      "summary": "在城市发展的不同时期,及时总结并聚焦重大交通问题,有助于找准战略方向.坚持问题导向和目",
+      "summaryAll": "在城市发展的不同时期,及时总结并聚焦重大交通问题,有助于找准战略方向.坚持问题导向和目标导向相统一,总结广州市过去两轮交通发展战略对城市的影响和新时代背景下的城市发展诉求,从现状与未来两个角度聚焦战略问题.从城市综合交通枢纽、交通网络、公共财政、体制机制和新技术等五个方面进行问题提炼,为广州市开展新一轮交通发展战略规划提供参考.认为广州市正处在从\"机动本位\"向\"场所本位\"发展的重要转型期,需要重点解决城市综合交通枢纽能级的提升、道路出行体验的改善、公共财政的可持续发展、高质量的体制机制以及如何用好交通新技术等关键问题,推动广州交通从高速发展向高质量发展转变.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "交通战略,交通调查分析,高质量发展,交通枢纽,可持续发展,广州市",
+      "citedIndex": 0,
+      "publishDate": "2019-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_lnhg201808017",
+      "title": "400万吨/年常减压装置降能改造研究设计",
+      "summary": "对于某炼厂常减压装置由于原油变化带来的能耗高问题,采用炼油工艺模拟软件PRO/II,建",
+      "summaryAll": "对于某炼厂常减压装置由于原油变化带来的能耗高问题,采用炼油工艺模拟软件PRO/II,建立换热网络模型.根据调整后的原油评价数据,初馏塔、加热炉、常压塔、减压塔操作参数以及产品馏分分布的要求作为装置降能改造设计的基础输入参数,以流程模拟软件计算的结果为设计依据,按照施工周期短、设备变动小、改造投资少的原则对现有换热网络进行改造设计.通过装置投产后的标定数据,对设计值进行校核,结果显示模拟结果与生产数据基本一致.常减压装置换热终温提高了15℃,综合能耗由原来的11.50 kg EO/t降低到9.554 kg EO/t标准油.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "常减压装置,综合能耗,换热网络,流程模拟",
+      "citedIndex": 0,
+      "publishDate": "2018-08-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_bfwx-x201807080",
+      "title": "虚拟现实技术在微课制作中的应用",
+      "summary": "随着网络与远程教育的发展,微课以一种新型的教学形式进入教学领域,改变了传统的课堂教学模",
+      "summaryAll": "随着网络与远程教育的发展,微课以一种新型的教学形式进入教学领域,改变了传统的课堂教学模式,对新教学改革带来了很大的冲击.虚拟现实技术是通过计算机将虚拟环境模拟使产生一种虚拟的三维环境,人们通过听觉、触觉、嗅觉与虚拟环境形成一种交互式的信息融合.虚拟现实技术在微课制作中应用,不仅能丰富教学内容,还可以通过虚拟现实技术的交互作用让学生感受虚拟现场的氛围,激发学生学习的积极性.本文对虚拟现实技术在微课制作中的应用进行探索,首先阐述了相关的概念,其次解析了虚拟现实技术,最后分析了虚拟现实技术在微课中的应用.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "微课,虚拟现实技术,微课制作,应用",
+      "citedIndex": 0,
+      "publishDate": "2018-07-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_rmhh201806011",
+      "title": "地面沉降对大清河系尾闾防洪能力影响研究",
+      "summary": "地面沉降是当今城市化进程中不容忽视的环境地质问题,不但造成水利设施破坏、地下水质和地质",
+      "summaryAll": "地面沉降是当今城市化进程中不容忽视的环境地质问题,不但造成水利设施破坏、地下水质和地质环境恶化、标高损失等一系列问题,还会引发城市内涝和河道泄流能力降低,危及城乡防洪安全.选取沉降最严重的大清河系尾闾骨干防洪工程,通过建立一维河网和二维蓄滞洪区衔接数学模型,分别模拟计算地面沉降前1982年和沉降后2010年地形条件下50 a一遇洪水演进过程,利用特征点水力参数对比统计,分析近30 a地面沉降对区域防洪的影响.研究表明:地面沉降后行洪河道和蓄滞洪区水位明显降低,入海总水量减少,但河道堤防超高大幅减小,区域防洪风险大大增加.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "地面沉降,防洪能力,数值模拟,大清河系",
+      "citedIndex": 0,
+      "publishDate": "2018-06-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xdcsgdjt201706015",
+      "title": "广州地铁6号线开通对既有线网的影响研究",
+      "summary": "随着国内各大城市地铁的高速发展,科学评估新线开通运营对既有线网的影响具有重要意义.研究",
+      "summaryAll": "随着国内各大城市地铁的高速发展,科学评估新线开通运营对既有线网的影响具有重要意义.研究广州地铁6号线开通运营对既有线网产生的影响,建立了一套评价方法.结果显示,6号线开通提高了全网的连通效率,降低了网络结构的脆弱性.6号线对既有线路和换乘站点的运营影响与6号线和既有线路之间的线路走向关系、客流间相互作用等因素相关,可大致分为补给和分流2类.最后探讨了不同类型线路、站点在面对新线开通时可采取的应对措施.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "地铁,新线,网络,拓扑结构,客流特征,影响",
+      "citedIndex": 0,
+      "publishDate": "2017-06-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_juanz201718070",
+      "title": "怎样做好高校电子文档的管理工作的几点思考",
+      "summary": "随着信息网络时代的到来，各行各业的档案管理工作都逐渐步入电子化轨道。对高校档案管理工作",
+      "summaryAll": "随着信息网络时代的到来，各行各业的档案管理工作都逐渐步入电子化轨道。对高校档案管理工作而言，电子文档包含如文书档案、教学、组织等电子文件以及如学术会议、重要活动、重要领导人来访等相关数码相片。多而繁杂的电子文档对档案部门在接收、整理、保管、利用等方面都提出了更高标准。本文首先论述高校电子文档的特殊性，然后分析高校电子文档管理工作的不足，最后着重探讨高校电子文档管理的有效策略。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "电子文档,特殊性,管理策略",
+      "citedIndex": 0,
+      "publishDate": "2017-06-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xbzy201701032",
+      "title": "广东省地质灾害防治信息化平台建设探析",
+      "summary": "广东省地质灾害多发,区域灾害防治信息化平台的建设对于减少地区生命财产安全十分重要.本文",
+      "summaryAll": "广东省地质灾害多发,区域灾害防治信息化平台的建设对于减少地区生命财产安全十分重要.本文从广东省地质灾害防治信息化基础设施现状、数据资源现状、应用系统现状3个方面分析,找出其中存在的6个问题,同时结合广东省已有地质灾害防治信息化成果和实际工作需求,设计一体化、可持续扩展的地质灾害防治信息化技术框架,并从7各方面提出建设地质灾害防治信息化平台的基本内容,最终达到数据集成化、成果可视化、信息综合化、系统一体化,实现广东省地质灾害防治各类信息资源及服务资源的充分共享,成为地区进行决策的有力支撑,更为有效的保障人民生命财产安全.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "地质灾害,信息化,系统建设,广东省",
+      "citedIndex": 0,
+      "publishDate": "2017-02-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_mkaq201702029",
+      "title": "一种煤矿胶轮车运输监控系统",
+      "summary": "针对煤矿胶轮车运输监控系统布线困难、运行参数不能上传等问题,提出一种基于ZigBee技",
+      "summaryAll": "针对煤矿胶轮车运输监控系统布线困难、运行参数不能上传等问题,提出一种基于ZigBee技术和3G网络技术的煤矿胶轮车运输监控系统,系统实现煤矿胶轮车自身运行参数与周围环境参数的本地存储和无线上传功能,有效的解决了煤矿胶轮车运行参数和环境参数不能上传的问题.介绍了车载ZigBee终端设备、ZigBee路由设备、3G终端设备的软硬件设计.For the problems that wiring difficulties and running parameters can not upload for the present coal mine vehicle transportation monitoring system,the paper proposes a coal mine rubbler-tyred vehicle transportation monitoring system based on ZigBee and 3G technology.This system realizes the local storage and upload function of the coal rubber-tyred vehicle running parameters and environmental parameters,and solves the problems that running parameters and environmental parameters can not upload.In this paper,the software and hardware design of ZigBee terminal equipment,ZigBee route equipment,and 3G terminal equipment are introduced in the paper.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "ZigBee,CDMA2000,Fatfs,胶轮车运输,MicroSD,数据上传,ZigBee,CDMA2000,Fatfs,rubber-tyred vehicle transportation,MicroSD,data upload",
+      "citedIndex": 0,
+      "publishDate": "2017-02-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3270819",
+      "title": "恶性子宫内膜息肉的临床特点分析",
+      "summary": "目的:<br>　　评估子宫内膜息肉发生癌前病变及癌变的几率，分析其发生癌前病变及癌变的",
+      "summaryAll": "目的:<br>　　评估子宫内膜息肉发生癌前病变及癌变的几率，分析其发生癌前病变及癌变的危险因素，进而探索子宫内膜息肉合适的治疗指征。<br>　　材料和方法:<br>　　回顾性分析2015年1月1日～2015年12月31日在浙江大学医学院附属妇产科医院超声提示子宫内膜息肉可疑并行宫腔镜下内膜息肉切除术，病理证实为子宫内膜息肉的1847例患者的临床资料。根据宫腔镜切除息肉的最终病理报告，将研究组分为两组:良性子宫内膜息肉组和恶性子宫内膜息肉组。记录以上所有子宫内膜息肉患者的临床资料，包括:确诊年龄、是否绝经、绝经年限、临床症状、身高、体重、孕产次、合并其他疾病如高血压、糖尿病、宫颈息肉、性激素相关性疾病（如子宫肌瘤、子宫内膜异位症）、既往子宫内膜息肉病史、激素替代治疗(HRT)、超声检查结果及宫腔镜手术记录等。计算子宫内膜息肉的恶变率，并对两组上述资料进行单因素及多因素非条件Logistic回归分析，分析子宫内膜息肉发生癌前病变及癌变的相关危险因素。<br>　　结果:<br>　　1847例子宫内膜息肉患者宫腔镜术后病理结果为良性的有1820例(98.54％)，癌前病变/癌的有27例(1.46％)。经单因素分析发现与子宫内膜息肉发生癌前病变/癌变的相关因素包括年龄、是否绝经、异常阴道流血、高血压病、糖尿病、激素替代、息肉数目及息肉直径(＞1.5cm)（P均＜0.05）。将单因素分析中有意义的危险因素纳入logistic多因素回归分析，结果表明年龄、异常阴道流血、激素替代及单发息肉直径与子宫内膜息肉恶变显著相关（OR值分别为1.10，4.01，48.94，1.73，P均＜0.05），是子宫内膜息肉发生癌前病变/癌变的独立危险因素。而绝经年龄、绝经年限、体重指数、孕产次、宫颈息肉、性激素相关性疾病（如子宫肌瘤、子宫内膜异位症）、既往子宫内膜息肉病史、宫腔内单发息肉的位置与子宫内膜息肉恶变无明显相关性。<br>　　结论:<br>　　子宫内膜息肉的恶变率为1.46％。患者年龄较大、有异常阴道流血、激素替代及单发息肉直径大(＞1.5cm)为息肉发生癌前病变/癌变的独立危险因素。因此，对于具有发生癌前病变/癌变危险因素的子宫内膜息肉患者，宜尽早干预如手术治疗，而无危险因素者可随访观察。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "子宫内膜息肉,癌前病变,恶变率,临床特点",
+      "citedIndex": 0,
+      "publishDate": "2017-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3280148",
+      "title": "胃癌微环境和胶原重构的特点及胶原受体DDR2对胃癌生长和侵袭的影响",
+      "summary": "胃癌是世界范围内发病率列第四位的恶性肿瘤，居肿瘤相关死因的第三位。尽管胃癌的治疗在近年",
+      "summaryAll": "胃癌是世界范围内发病率列第四位的恶性肿瘤，居肿瘤相关死因的第三位。尽管胃癌的治疗在近年来取得了较大进展，患者的预后仍然较差，5年总体生存率仅为29.6％。预后评估在确定胃癌治疗方案时具有重要作用，对预后较差的患者宜采用较激进的治疗方案，以最大限度地清除肿瘤，延长患者生存期;而对预后较好的患者，治疗方式则不宜过于激进，以避免过度治疗。在胃癌预后评估方面，目前使用最广泛的是TNM分期，该指标包含肿瘤侵犯深度（T分期）、淋巴结转移（N分期）和远处转移（M分期）三个方面，是最重要的预后指标。然而，即使TNM分期完全相同的胃癌患者，其预后也不尽相同，甚至可能存在较大差异。因此，寻找新的胃癌预后指标具有十分重要的意义。<br>　　以往的胃癌预后指标，包括TNM分期在内，多为反映癌细胞生物行为的指标。而肿瘤组织除了由癌细胞构成的实质以外，还包含一定量的间质成分。肿瘤间质形成肿瘤细胞赖以生存的微环境，对肿瘤的生长、侵袭和转移方面具有重要影响。因此，反映肿瘤间质或微环境特点的某些指标也可能用于胃癌预后的评估。肿瘤间质比率(TSP，tumor stroma percentage)和Klintrup-M(a)kinen分级（KM分级）是近年来受到较多关注的两个肿瘤微环境相关的预后指标。其中TSP反映肿瘤间质在肿瘤组织中所占的比率（百分比），而KM分级通过衡量肿瘤侵袭前沿炎细胞浸润数量来反映肿瘤微环境内炎症反应的程度，KM分级越高则炎症反应程度越显著。既往研究发现，上述两个指标可较好地用于对某些肿瘤预后的评估。有学者进一步将TSP和KM分级结合起来，提出了一个新的评估肿瘤微环境的指标——Glasgow微环境评分(Glasgow microenvironment score，GMS)。在该评分系统中，高KM分级定义为0分（无论TSP如何），低KM分级/低TSP为1分，低KM/高TSP为2分。研究证实，GMS的预后价值较高，明显优于单一的TSP或KM分级。然而，GMS在胃癌能否成为评估预后有用指标，目前尚不清楚。<br>　　目的：<br>　　在本研究中，我们考察了GMS与胃癌患者生存期的关系，提出胃癌存在两种典型的肿瘤微环境:炎症性微环境和促纤维增生性微环境。其中，具有炎症性微环境的病例预后较好，而促纤维增生性微环境与胃癌的快速进展密切相关，此类患者预后极差。促纤维增生性微环境的一个重要特点在于富含大量胶原纤维，而迄今尚不清楚胃癌微环境中胶原纤维发生了何种病理改变，胶原纤维对胃癌细胞的生物行为有何影响也缺乏研究。我们进而以胶原纤维为对象，探讨了胶原纤维含量与胃癌预后的关系，从质和量的角度系统阐述了胃癌组织内胶原重构的特征以及胶原纤维的构筑表型，并检测了胶原对胃癌侵袭和增殖的影响。同时，由于胶原纤维位于细胞外，其对细胞的影响需通过细胞表面的胶原受体发挥作用，而盘状结构域受体2(DDR2，discoidin domain receptor2)是一种重要的胶原受体，有关DDR2在胃癌中的作用和意义尚缺乏研究。本课题继而通过三维立体培养，模拟含Ⅰ型胶原的肿瘤微环境，初步探讨了DDR2对胃癌细胞增殖和侵袭的影响，明确其在胃癌进展中的意义。<br>　　方法和结果:<br>　　1.基于组织形态学观察评估225例胃癌的GMS，其中32例为GMS0分，111例为GMS1分，82例为GMS2分。GMS0分的患者其5年OS和DFS分别为78.1％和62.5％，显著高于GMS1分者（5年OS:54.1％;5年DFS:45.9％），而GMS2分的患者预后最差，其5年OS和DFS均为24.4％。采用Cox多因素回归分析发现，GMS是胃癌的独立预后因素。<br>　　2.免疫组织化学染色显示，GMS0分的胃癌更易于出现错配修复基因表达缺失(P=0.042)，癌细胞表达PD-L1的阳性率更高(P=0.030);显色原位杂交提示，GMS0分的胃癌伴有EB病毒感染的几率也更高（P=0.037）。<br>　　3.免疫组织化学染色显示，GMS2分的胃癌含有更多的肿瘤相关纤维母细胞(P＜0.001);苦味酸-天狼星红染色和双光子显微镜观察发现，GMS2分的胃癌组织内胶原纤维更为丰富（P＜0.001），其成熟度也明显更低。<br>　　4.对TCGA数据库中155例胃癌评估GMS后，进行mRNA表达谱聚类分析，发现GMS0分的胃癌有282个基因高表达，其中涉及炎症相关信号通路的基因最为多见;GMS2分的胃癌有1589个基因高表达，高表达基因主要是涉及细胞-细胞以及细胞-ECM之间相互作用的基因。<br>　　5.查询网络公共数据库(Kaplan-Meier Plotter)发现，胃癌组织中Ⅰ型胶原的mRNA表达水平与胃癌的总体生存密切相关（P＜0.001），表达水平越高患者预后越差。而对225例胃癌Ⅰ型胶原的含量评估后也证实，富含胶原的胃癌5年-OS及5年-DFS率更低(P＜0.001)。体外侵袭实验发现，增加Ⅰ型胶原浓度可促进胃癌细胞的侵袭;动物实验发现，增加Ⅰ型胶原的浓度可促进裸鼠胃癌皮下移植瘤的生长。<br>　　6.胃癌组织中存在明显的胶原重构现象，包括胶原纤维的含量明显增加以及成熟度下降;同时，胶原纤维的形态发生明显改变:其直径更为粗大，弯曲度下降，嗜酸性下降，致密度增加。<br>　　7.胶原纤维的相关参数，无论是反映单条纤维结构的参数（长度、宽度、直度），还是反映一组纤维的组织特点的参数（排列值、密度），在胃癌组织中均明显上升。同时，胶原纤维的长度、宽度和密度与患者的预后密切相关，其中宽度的预后价值最大。<br>　　8.胶原受体DDR2可表达于胃癌细胞，表达量与预后密切相关，其中表达量较低的患者预后较差，但DDR2表达不是独立的预后因素。同时，癌细胞DDR2低表达的胃癌，间质中Ⅰ型胶原的含量明显更高。<br>　　9.在Ⅰ型胶原微环境中进行三维培养时，下调胃癌细胞DDR2的表达可提高其克隆形成率，并促进癌细胞的增殖和侵袭，而上调DDR2表达后，胃癌细胞的增殖和侵袭明显被抑制。<br>　　10.裸鼠皮下移植瘤实验发现，下调胃癌细胞DDR2的表达后，成瘤率明显增加，且移植瘤体积明显增大;而上调DDR2表达后，移植瘤生长被抑制。<br>　　结论:<br>　　1.GMS可作为胃癌预后评估的有用指标。胃癌存在两类典型的肿瘤微环境:炎症性微环境和促纤维增生性微环境。具有炎症性微环境的胃癌预后较好，PD-L1表达阳性率和EB病毒感染率更高，也更易于出现错配修复基因的表达缺失;具有促纤维增生性微环境的胃癌含有丰富的肿瘤相关成纤维细胞和大量胶原纤维，预后较差。<br>　　2.Ⅰ型胶原纤维可促进胃癌的生长和侵袭，其含量与胃癌预后密切相关。同时，胃癌间质中的胶原纤维发生了明显的重构，表现为含量的增加（量变）和成熟度的降低（质变），其形态和构筑特点（胶原纤维的长度、宽度、直度、密度和排列）也发生了明显的变化，构筑表型的改变可用于胃癌预后的评估。<br>　　3.胃癌细胞表达DDR2，在Ⅰ型胶原微环境中DDR2的表达可抑制胃癌细胞的增殖和侵袭。在胃癌组织中，间质Ⅰ型胶原的含量与癌细胞DDR2的表达负相关。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "胃癌,微环境评分,胶原重构,盘状结构域受体2,细胞增殖,细胞侵袭",
+      "citedIndex": 0,
+      "publishDate": "2017-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_mkjd201606014",
+      "title": "一种新型矿用本质安全型声光报警器的设计",
+      "summary": "针对目前煤矿现有声光报警器存在的问题,设计了一种新型矿用本质安全型声光报警器.着重介绍",
+      "summaryAll": "针对目前煤矿现有声光报警器存在的问题,设计了一种新型矿用本质安全型声光报警器.着重介绍了该声光报警器的开关量检测、声光报警、RS-485接口、电源、看门狗等硬件电路设计及软件流程设计.经过测试,该声光报警器性能稳定,较拷贝固定音频文件进行声光报警的设备具有较大的改进,它不仅可进行多种固定的语音播报、光闪烁报警,还可实现来自于RS-485接口任意数据的声光报警和数据队列管理功能.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "SYS6628语音合成芯片,队列管理,MKL152128微控制器",
+      "citedIndex": 0,
+      "publishDate": "2016-12-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zggxjsqy-z201611022",
+      "title": "Excel在路基断面测量及土石方计算中的应用",
+      "summary": "中交一航局鹤大高速公路ZT08标位于吉林省抚松县最北端,该标段场地狭小、林木茂盛、山高",
+      "summaryAll": "中交一航局鹤大高速公路ZT08标位于吉林省抚松县最北端,该标段场地狭小、林木茂盛、山高沟深,需穿越大面积原始森林.路基多以挖方和半填半挖为主,因此对测量土石方工作产生了较高的难度.文章介绍了Excel散点图和路基坐标法断面计算的结合应用,同时通过AutoCAD及Excel在路基断面测量及土石方计算中的优缺点进行了对比.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "P20,U41,Excel数据处理,路基断面测量,土石方计算,Excel散点图,路基工程,高速公路",
+      "citedIndex": 0,
+      "publishDate": "2016-11-05",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_gtxjs201610016",
+      "title": "PDM-CO-OFDM系统中的一种联合同步和信道估计方法",
+      "summary": "为了提高基于偏振复用的相干光正交频分复用(PDM-CO-OFDM)系统的定时同步和信道",
+      "summaryAll": "为了提高基于偏振复用的相干光正交频分复用(PDM-CO-OFDM)系统的定时同步和信道估计性能,提出了一种花费较少训练序列开销的联合定时同步和信道估计方法,并结合DFT-Spread技术,仿真实现了该方法在正交相移键控调制的59.1Gb/s PDM-CO-OFDM系统中的运用.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "CO-OFDM,PDM,定时同步,信道估计,正交训练序列,CO-OFDM,PDM,timing synchronization,channel estimation,orthogonal training sequences",
+      "citedIndex": 0,
+      "publishDate": "2016-10-15",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zggxjsqy-z201606025",
+      "title": "Excel在路基断面测量及土石方计算中的应用",
+      "summary": "中交一航局鹤大高速公路ZT08标段场地狭小、林木茂盛、山高沟深穿越大面积原始森林.路基",
+      "summaryAll": "中交一航局鹤大高速公路ZT08标段场地狭小、林木茂盛、山高沟深穿越大面积原始森林.路基多以挖方和半填半挖为主,地形变化极大,因此对测量土石方工作难度较高.文章通过项目中常用的Excel数据处理软件的常用功能,针对不同形式的路基、横断面及平面测量后既需要数据处理又需要通过AutoCAD绘图形成平面图、断面图的繁杂工作方式进行改变.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "U41,P28,Excel数据处理,路基土石方断面计算,土石方计算,Excel散点图,测量土石方",
+      "citedIndex": 0,
+      "publishDate": "2016-06-05",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_zggxjsqy201611022",
+      "title": "Excel在路基断面测量及土石方计算中的应用",
+      "summary": "中交一航局鹤大高速公路ZT08标位于吉林省抚松县最北端，该标段场地狭小、林木茂盛、山高",
+      "summaryAll": "中交一航局鹤大高速公路ZT08标位于吉林省抚松县最北端，该标段场地狭小、林木茂盛、山高沟深，需穿越大面积原始森林。路基多以挖方和半填半挖为主，因此对测量土石方工作产生了较高的难度。文章介绍了Excel散点图和路基坐标法断面计算的结合应用，同时通过AutoCAD及Excel在路基断面测量及土石方计算中的优缺点进行了对比。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "P20,U41,Excel数据处理,路基断面测量,土石方计算,Excel散点图,路基工程,高速公路",
+      "citedIndex": 0,
+      "publishDate": "2016-06-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3096075",
+      "title": "宽带PDM-CO-OFDM系统中符号同步与信道估计的研究",
+      "summary": "随着云计算和物联网的发展，新兴的多媒体业务促使人们对通信的需求急剧增长，对信息基础设施",
+      "summaryAll": "随着云计算和物联网的发展，新兴的多媒体业务促使人们对通信的需求急剧增长，对信息基础设施造成压力，推动着光纤主干传输网容量的增加。提高光纤信道的传输速率和频谱利用率，以降低每比特信息的传输成本是驱使光网络传输能力提高的动力。采取相干光正交频分复用(coherent optical-orthogonal frequencydivision multiplexing，CO-OFDM)技术结合偏振复用技术(polarization divisionmultiplexing，PDM)能在提高频谱利用率的同时不会大幅度牺牲传输距离，能够满足未来超大容量长距离光通信的要求。开展PDM-CO-OFDM系统中的数字信号处理（digital signal processing，DSP）技术的研究，补偿系统中的各种损伤，对超宽带光通信系统的发展及应用具有重要意义。本文对PDM-CO-OFDM系统中DSP模块的符号同步与信道估计算法进行了研究与分析，主要成果如下:<br>　　1.提出了一种改进的符号同步算法，能解决传统的符号同步算法在光纤信道中受色散影响而偏移实际同步点的问题。数值仿真结果证明，改进的符号同步算法可获得精确的符号同步点。且该符号同步算法中用到的训练序列还可用于信道估计，减少了训练序列开销。<br>　　2.提出了针对PDM-CO-OFDM系统的基于低开销训练序列结构的信道估计算法。这对序列在两个偏振方向相应频率点上的正交性使得该信道估计算法仅需要一个训练序列块即可准确地获得PDM信道状态信息，有效传输速率由此得到了提高。数值仿真结果证明，改进的算法较偏振复用系统中传统的信道估计算法能获得更好的性能，尤其在光信噪比较低时优势更加明显。<br>　　3.基于改进的符号同步算法和信道估计算法，提出了一种联合符号同步与信道估计方法。数值仿真结果证明，该方法利用符号同步过程中估计的信道信息可以进一步改善信道估计性能。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "光通信系统,相干光正交频分复用,偏振复用,符号同步,信道估计",
+      "citedIndex": 0,
+      "publishDate": "2016-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_swcyjs201506008",
+      "title": "新功能生物元器件的筛选、设计与功能鉴定",
+      "summary": "合成生物学与基因工程、代谢工程最显著的区别,在于能够将大量生物元器件进行快速、随意的组",
+      "summaryAll": "合成生物学与基因工程、代谢工程最显著的区别,在于能够将大量生物元器件进行快速、随意的组装,而实现这一目标的前提,是将生物元件或器件进行详细地功能表征与标准化.目前合成生物学面临的主要挑战之一,是可用的生物元件和模块(器件)种类局限、数量不足、表征描述不清楚、通用性程度不高.为此,有必要在功能元件的挖掘、表征、设计、改造与标准化方面开展系统研究.文章对重要天然产物合成途径的生物元件进行了挖掘与功能表征,并对氧化还原代谢的功能元件进行了设计与改造.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TP3,TH",
+      "citedIndex": 0,
+      "publishDate": "2015-12-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Conference_9254533",
+      "title": "大数据与机器学习",
+      "summary": "　　本报告将讨论大数据时代智能数据分析技术所面临的一些挑战，以及机器学习在大数据时代所",
+      "summaryAll": "　　本报告将讨论大数据时代智能数据分析技术所面临的一些挑战，以及机器学习在大数据时代所不可替代的作用。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TP3,S96",
+      "citedIndex": 0,
+      "publishDate": "2015-10-20",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_caiz201526078",
+      "title": "高职计算机专业信息化教学的应用方法及技巧探究",
+      "summary": "在高职计算机专业的教学中,引入信息化教学手段,能够有效提升教学的实效性和先进性.基于上",
+      "summaryAll": "在高职计算机专业的教学中,引入信息化教学手段,能够有效提升教学的实效性和先进性.基于上述背景,本文采用理论结合案例分析的模式,着重探究了“微信平台教学”、“网络数字视频教学”、“数字录播教学”三种前沿的信息化教学方法,在高职计算机专业教学中的应用及技巧,以期为高职计算机专业教学信息化教学手段的创新给出一些参考.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "G64,H31,高职计算机专业,信息化教学,微信平台,网络数字视频,数字录播",
+      "citedIndex": 0,
+      "publishDate": "2015-09-20",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_hbydjs201506068",
+      "title": "基于VB的污水处理系统设计研究",
+      "summary": "文章主要介绍了一种基于VB的污水处理系统的设计方案，在具体的研究中，以VB语言作为前台",
+      "summaryAll": "文章主要介绍了一种基于VB的污水处理系统的设计方案，在具体的研究中，以VB语言作为前台管理程序，采用ACCESS作为后台数据库，从沉池、消毒和污水流量等方面入手，详细阐述了系统的设计需求，并为系统设计了完善的功能模块，整个系统能够实现对工厂沉淀池污水的智能化处理，具有一定的可操作性和实用性。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "X70,X50,VB,ACCESS,污水处理",
+      "citedIndex": 0,
+      "publishDate": "2015-06-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_jsysc201504043",
+      "title": "多Agent系统在软件总线技术中的应用研究",
+      "summary": "作为分布式人工智能研究领域的课题,Agent越来越受到科研人员的关注。基于上述背景,介",
+      "summaryAll": "作为分布式人工智能研究领域的课题,Agent越来越受到科研人员的关注。基于上述背景,介绍了一种多Agent软件总线系统,并对其中的功能和结构设计进行了简要分析,以期为多Agent系统在软件总线技术中的深入应用提供些许借鉴。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TP3,人工智能,软件技术,总线技术",
+      "citedIndex": 0,
+      "publishDate": "2015-04-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_tynxb201502034",
+      "title": "道路太阳能利用系统的试验研究",
+      "summary": "基于扩大太阳能利用范围和同时进行路面融雪化冰的需求,在天津某一空地搭建道路太阳能利用小",
+      "summaryAll": "基于扩大太阳能利用范围和同时进行路面融雪化冰的需求,在天津某一空地搭建道路太阳能利用小型试验平台,设计数据自动采集程序,对系统进行为期一年的数据监测.结果表明:在夏季,系统吸收太阳能辐射热可降低路面温度2.8℃,沥青路面的平均吸热效率可达37％,平均蓄热效率为l7％;在秋季,系统停止运行,储存在地下换热器附近的热量向周围土壤扩散,土壤温度持续下降,到秋季结束,土壤温度下降了4.4℃;在冬季,储存在地下土壤中的热量通过系统向路面放热,可提高路面温度4.1℃,有效防止路面积雪冻冰.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "U41,O21,太阳辐射,沥青路面温度,路面吸热效率,系统蓄热效率,地下土壤温度,solar radiation,asphalt pavement temperature,heat absorptivity of pavement,heat storage efficiency of system,underground soil temperature",
+      "citedIndex": 0,
+      "publishDate": "2015-02-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Thesis_Y3037949",
+      "title": "聊天系统文本情感细粒度分类研究与应用",
+      "summary": "近年来，信息化的高速推进及人际交流的日益迫切使得微信、QQ、电商、网游及远程教育得到迅",
+      "summaryAll": "近年来，信息化的高速推进及人际交流的日益迫切使得微信、QQ、电商、网游及远程教育得到迅猛发展。朋友、同事、亲人之间的交往，买卖双方之间的交易，游戏玩家之间的沟通，学生与培训人员之间的交流等都离不开即时聊天工具。即时聊天系统中的沟通交流也成为人际交流的重要组成部分，同时受到人们越来越大的关注，各个软件的开发人员也在聊天工具功能的完善方面不断改进。本课题是将自然语言处理技术和虚拟人技术结合起来并应用到聊天系统，增强聊天工具的实用性与趣味性。通过虚拟人聊天系统中的文本分析，实现了其对系统中虚拟人的控制并使其呈现出相应的表情和动作。文本控制虚拟人的研究涉及到自然语言处理技术和虚拟人技术。目前通过文本实现对虚拟人动作的控制部分已经完成，本论文的主要工作是研究文本对虚拟人表情的控制，即通过对输入文本的情感分类研究，识别出输入文本的情感类别，进而控制虚拟人并使其呈现出相应的表情。<br>　　本论文的主要研究目标是研究并设计出基于用户输入的文本，呈现不同面部表情的个性化虚拟人聊天系统，主要包括三个方面的内容:<br>　　一是聊天系统中聊天消息特点的分析研究。首先，研究了聊天消息中表情符号的特点及使用情况，统计分析了群聊天和私人聊天过程中表情符号使用的异同;其次，分析了聊天内容中语句的特点;最后，对聊天内容中出现各类情感状态进行了统计。<br>　　二是聊天系统中聊天消息的处理研究。聊天消息的处理包括表情符号的处理、情感字典的建立及文本信息处理等。具体而言，包括文本分词、停用词剔除、文本表示、特征提取等。借助ICTCLAS中文分词工具，本文实现了文本分词;利用自行构建的停用词表，本文实现了停用词剔除;在文本向量空间模型的基础上，使用TF-IDF特征提取算法，本文实现了文本特征的提取。<br>　　三是聊天系统中文本情感细粒度分类的算法研究。本文详细论述了基于情感字典的文本情感细粒度分类算法、基于表情符号的文本情感细粒度分类算法、基于朴素贝叶斯文本情感细粒度分类算法及多重组合文本情感细粒度分类算法等四种文本情感分类算法，并对四种文本情感分类算法的分类结果进行了测试。结果表明，多重组合文本情感细粒度分类算法效果最好，效率最高。<br>　　最后，本文将多重组合文本情感分类算法应用于虚拟人聊天系统中以控制虚拟人的表情。在实际使用中发现，多重组合文本情感分类算法的高效率及高准确率基本上能够满足聊天系统对实时性及准确性的要求，同时增强了聊天系统的趣味性，在实际应用中有一定的研究意义与应用价值。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "即时聊天系统,文本信息,虚拟人,面部表情",
+      "citedIndex": 0,
+      "publishDate": "2015-01-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xdqyjy201420471",
+      "title": "浅析经济危机对苏中船舶类专业的影响",
+      "summary": "在2011年船舶行业经济危机的影响下，搜集苏中院校船舶类专业近4年的相关数据，对苏中院",
+      "summaryAll": "在2011年船舶行业经济危机的影响下，搜集苏中院校船舶类专业近4年的相关数据，对苏中院校船舶类专业的专业设置、招生、就业等情况进行综合分析与研究。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "U67,U66,苏中,船舶类专业,经济危机",
+      "citedIndex": 0,
+      "publishDate": "2014-10-16",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_mkjd201405017",
+      "title": "基于CDMA2000网络的矿用机车通信终端设计",
+      "summary": "针对煤矿胶轮车运输难以监管的现状,提出基于CDMA2000网络的矿用机车通信终端设计,",
+      "summaryAll": "针对煤矿胶轮车运输难以监管的现状,提出基于CDMA2000网络的矿用机车通信终端设计,给出了硬件设计和软件设计流程.该通信终端通过煤矿应用表明,具有语音通话、机车环境和运行参数上传、调度信息下发显示及语音合成播报功能,且其语音通话稳定,TCP上下行数据信息传输可靠,实时性高,解决了煤矿胶轮车运输监管的难题.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TP3,TM9,胶轮车,CDMA2000网络,通信终端",
+      "citedIndex": 0,
+      "publishDate": "2014-10-10",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_scdz201402005",
+      "title": "芦山Ms7.0地震引起的水位同震响应特征分析",
+      "summary": "根据过去几十年国内外的科研成果，基于全国地下流体前兆台网数据库的统计，本文整理了中国大",
+      "summaryAll": "根据过去几十年国内外的科研成果，基于全国地下流体前兆台网数据库的统计，本文整理了中国大陆井水位观测网中对芦山Ms7.0级地震水位同震响应的台站信息，分析震中距与水位同震最大振幅的相关性，探讨水位同震阶变台站的分布与构造应力场的关系，认识芦山地震对区域应力场可能存在的影响。得到如下结论：①震中距是水位阶降和500 km范围内水位阶升的主要影响因素；②大陆范围内，水位震荡和水位阶升的影响因素，除震级、震中距外，还取决于井区水文地质条件、构造部位和井孔的特性；③在芦山Ms7.0级地震震中距500 km范围附近，水位同震阶升占据主体，区域压应力相对集中。但是在地震发生的10个月内，水位同震阶变集中区域未发生显著地震，此区域因为压应力相对集中而引发较强地震的可能性不大。According to the researching results over the past decades and the national underground fluid precursory network database,in this paper we collect and study the co-seismic response of water level data observed in main-land of China caused by the Ms7. 0 Lushan Earthquake. We analyze the correlation between the maximum water level change amplitudes and the epicentral distances and discuss the relationship between the distribution of co-seis-mic response wells and tectonic stress field. We recognize that the M7. 0 Lushan Earthquake make the regional stress field re-distributed. We conclude that:①The epicentral distance is the key factor to affect the step increas-ing and decreasing of water level within the range of 500 kilometer. ②In the continental regions the factors influen-cing the water level variations are mainly seismic magnitudes,epicentral distance,hydrological and geological con-ditions,geological structure and well response characters. ③Within the range of 500 km epicentral distance,the most of the co-seismic step increasing variation was caused by the M7 . 0 Lushan Earthquake and the regional com-pressive stress was relatively concentrated. But during the period of 10 months after the M7. 0 Lushan Earthquake, there were no any earthquakes with magnitudes of more than Ms4. 0 occurred in this area. It is impossible that the relative centralized compressive stress causes strong earthquake.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "P31,TP3,芦山地震,水位同震,地下水位,同震效应,M7. 0 Lushan Earthquake,co-seismic water level,underground water level,co-seismic response",
+      "citedIndex": 0,
+      "publishDate": "2014-06-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_syyfyx201405018",
+      "title": "衡阳市2010-2012年疑似预防接种异常反应监测分析",
+      "summary": "目的 分析衡阳市2010-2012年疑似预防接种异常反应(adverse event ",
+      "summaryAll": "目的 分析衡阳市2010-2012年疑似预防接种异常反应(adverse event following immunization,AEFI)的发生特征,评价AEFI监测系统运转情况及预防接种安全性.方法 通过全国AEFI监测系统,收集衡阳市2010年1月1日-2012年12月31日报告的AEFI个案数据,采用描述性方法进行流行病学分析.结果 衡阳市共报告AEFI病例817例,＜3岁病例占76.38％(624/817);男女性别比为1.36:1;主要集中在4-5月份和11-12月份;国家免疫规划(hational immunization program,NIP)疫苗接种后发生的AEFI占67.93％;病例分类以一般反应为主,占94.00％;疫苗分布以无细胞百白破最常见,占21.42％;94.74％的AEFI反应发生在疫苗接种后＜1d,临床损害以发热和局部红肿/硬结为主,各占78.21％、21.79％,异常反应中以过敏性皮疹为主,占60.98％;病人转归,治愈占99.76％,好转占0.24％;病例报告覆盖全市12个县(市)区,48 h及时报告率为98.53％,48 h及时调查率为100％,3d内调查表报告率87.76％.结论 衡阳市AEFI监测系统运转情况总体正常,但监测质量有待进一步提高.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "R18,R51,疑似预防接种异常反应,疫苗,监测",
+      "citedIndex": 0,
+      "publishDate": "2014-05-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Conference_8642790",
+      "title": "半监督学习研究进展",
+      "summary": "　　传统监督学习通常需使用大量有标记的数据样本作为训练例，而在很多现实问题中，人们虽能",
+      "summaryAll": "　　传统监督学习通常需使用大量有标记的数据样本作为训练例，而在很多现实问题中，人们虽能容易地获得大批数据样本，但为数据提供标记却需耗费很多人力物力。那么，在仅有少量有标记数据时，可否通过对大量未标记数据进行利用来提升学习性能呢？为此，半监督学习成为近十多年来机器学习的一大研究热点。本报告将简介这方面的一些研究进展。",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TP3,TP1",
+      "citedIndex": 0,
+      "publishDate": "2013-11-20",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_kjzx201328101",
+      "title": "浅析经济危机对苏南船舶类专业招生的影响",
+      "summary": "在2011年船舶行业经济危机的影响下,搜集苏南院校船舶类专业近4年的招生数据,对苏南院",
+      "summaryAll": "在2011年船舶行业经济危机的影响下,搜集苏南院校船舶类专业近4年的招生数据,对苏南院校船舶类专业的招生情况进行综合分析与研究.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "TU9,P63,苏南,船舶类专业,招生",
+      "citedIndex": 0,
+      "publishDate": "2013-10-01",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xbdzxb201303021",
+      "title": "中国大陆井水位观测网对甘肃岷县漳县6.6级地震同震响应特征分析",
+      "summary": "基于全国地下流体前兆台网数据库的统计,本文了整理中国大陆井水位观测网中对甘肃岷县漳县6",
+      "summaryAll": "基于全国地下流体前兆台网数据库的统计,本文了整理中国大陆井水位观测网中对甘肃岷县漳县6.6级地震水位同震响应的台站特征.分析结果是:(1)岷县漳县6.6级地震烈度Ⅵ度区的1.5倍的范围内主要由静态应变引起的水位同震变化仅有一个台站,水位同震阶升幅度仅1.5 cm,静态应变触发地震的可能性不大;(2)震中距大于1 000 km的远震响应均为水位阶升,但是其同震变化幅度小于0.3 cm,为含水层被压缩引起;(3)该地震引起的水位同震变化的观测井较少,分布范围大,整体上以水位同震阶升占据主体,其分布主要在静态应力变化引起的范围之外,并且与构造带的对应关系无规律可循,此次地震静态应变范围内的应力应该已经得到释放.",
+      "author": "<mark class=highlight>周志华</mark>",
+      "keywords": "P31,P54,岷县漳县6.6级地震,水位,同震响应,Ms6.6 Minxian-Zhangxian earthquake,water level,coseismic changes",
+      "citedIndex": 0,
+      "publishDate": "2013-09-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    }
+  ],
+  "patentVO": [
+    {
+      "id": "CN201910261897.6",
+      "title": "一种多用途带露营功能的房车",
+      "summary": "一种多用途带露营功能的房车，本申请房车主体底部外有船身空腔，船身空腔内布置有甲板，船身",
+      "summaryAll": "一种多用途带露营功能的房车，本申请房车主体底部外有船身空腔，船身空腔内布置有甲板，船身空腔上盖有挡水板，房车主体前侧为驾驶室，房车主体后端有后门，房车主体两侧的转轴各安装有一对防水轮胎，房车主体顶部有收纳室，收纳室内有蓄电池设备室，收纳室的四个角各设置一个升降气缸，收纳室顶部有露营支架，露营支架的四个支脚固定在对应升降气缸的伸缩杆端部，露营支架的后端和两侧各有一个活动遮阳板，活动遮阳板底部有收缩杆，收缩杆底端与露营支架的对应支架相连，露营支架收起后盖住收纳室。本发明申请其顶部设置有可变现露营设备可以直接变形使用，露营设备底部设置有雨水收集系统，可以用于雨水收集，房车主体设计为水路两用，必要时候可以作为船使用。",
+      "categoryNo": "B60",
+      "patentNo": "CN201910261897.6",
+      "applicant": "上海宝冶集团南京建筑有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910216181.4",
+      "title": "一种显示屏清洗机构",
+      "summary": "本发明提供一种显示屏清洗机构，包括基架、移动载台组件，以及位于基架上的第一伸缩驱动装置",
+      "summaryAll": "本发明提供一种显示屏清洗机构，包括基架、移动载台组件，以及位于基架上的第一伸缩驱动装置和清洗装置，所述清洗装置包括清洗滚轮，清洁布、清洁布缠绕轮和清洁布收集轮，所述清洁布缠绕轮和清洁布收集轮位于所述清洗滚轮的上端，所述清洁布缠绕在所述清洁布缠绕轮后，经过所述清洗滚轮，再缠绕在所述清洁布收集轮上；所述移动载台组件位于所述清洗装置的下端，所述移动载台组件包括互相连接的载台驱动装置和显示屏放置载台，显示屏放置于所述显示屏放置载台上，所述显示屏放置载台在所述载台驱动装置的驱动下水平移动，使得所述载台移动速度与所述清洗滚轮转动速度相等，所述清洁布与所述显示屏放置载台上的显示屏实现同步运动。",
+      "categoryNo": "B08",
+      "patentNo": "CN201910216181.4",
+      "applicant": "深圳精智达技术股份有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910091801.6",
+      "title": "一种耐腐蚀硅芯管",
+      "summary": "本发明涉及一种耐腐蚀硅芯管，包括内层和外层；其中外层外表面、内层内表面均设置耐腐蚀保护",
+      "summaryAll": "本发明涉及一种耐腐蚀硅芯管，包括内层和外层；其中外层外表面、内层内表面均设置耐腐蚀保护层；所述耐腐蚀保护层包括高密度聚乙烯74.5‑80wt%、活性炭纤维7‑15wt%、抑菌微胶囊6‑15wt%、分散剂2‑3.5wt%。本发明的硅芯管设置耐腐蚀保护层，耐腐蚀保护层中设置芯材为大蒜精油或者芥末精油的抑菌微胶囊。大蒜精油或者芥末精油具有良好的抑菌效果，可以有效抑制霉菌等微生物的生长，保护硅芯管；而且大蒜精油、芥末精油具有一定刺激性，可以减少小动物的咬噬的可能性；另外耐腐蚀保护层中还设置负载有硫酸镁溶液的活性炭纤维，具有很好的吸湿能力，使硅芯管周围环境保持干燥，从而破坏了霉菌等微生物的生长环境，减少了霉菌等微生物的生长，从而保护了硅芯管不被微生物腐蚀。",
+      "categoryNo": "G02",
+      "patentNo": "CN201910091801.6",
+      "applicant": "江苏诺贝尔塑业有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050578.0",
+      "title": "基于反相合成的分级多孔被动式辐射冷却结构及冷却方法",
+      "summary": "本发明公开了一种基于反相合成的分级多孔被动式辐射冷却结构及冷却方法：聚偏氟乙烯‑六氟丙",
+      "summaryAll": "本发明公开了一种基于反相合成的分级多孔被动式辐射冷却结构及冷却方法：聚偏氟乙烯‑六氟丙烯、丙酮、水混合为前体溶液；前体溶液放进二号容器内，丙酮蒸发，聚偏氟乙烯‑六氟丙烯和水分离，在聚偏氟乙烯‑六氟丙烯中形成直径不一的微孔，形成冷却材料层；冷却材料层上覆盖遮盖层；冷却材料层与遮盖层之间形成隔热腔体层；上述传热材料层、冷却材料层、隔热腔体层和遮盖层构成被动式辐射冷却结构，将被动式辐射冷却结构通过传热材料层与被冷却体接触，遮盖层暴露在室外，使得冷却材料层将吸收的被冷却体的热量以红外线形式发射出去。本发明能够解决制冷能耗大或者无法采用主动式制冷的问题，为某些场合和设备提供被动式降温的方法。",
+      "categoryNo": "F25",
+      "patentNo": "CN201910050578.0",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050574.2",
+      "title": "一种基于高分子材料的冬暖夏凉的被动式帐篷及制作方法",
+      "summary": "本发明公开了一种基于高分子材料的冬暖夏凉的被动式帐篷及制作方法，包括铝箔层，所述铝箔层",
+      "summaryAll": "本发明公开了一种基于高分子材料的冬暖夏凉的被动式帐篷及制作方法，包括铝箔层，所述铝箔层的光面附着有调温材料层，所述铝箔层的另一面设置有吸热材料层；所述调温材料层一侧设置有铝箔层，另一侧设置有PE材料层，所述调温材料层和PE材料层之间设置有隔热空腔；隔热空腔可以起到室内外隔热的作用。本发明在夏季反射太阳光、并发射内部空间热量到太空；冬季吸收室外太阳能以红外线的形式发射到室内，同时，将室内热量以红外线的形式反射回室内，使室内的热量不会发射出去从而起到冬暖夏凉的目的。",
+      "categoryNo": "B32",
+      "patentNo": "CN201910050574.2",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050583.1",
+      "title": "利用吹膜机大规模生产SiO",
+      "summary": "本发明公开了一种利用吹膜机大规模生产Si",
+      "summaryAll": "本发明公开了一种利用吹膜机大规模生产SiO",
+      "categoryNo": "B29",
+      "patentNo": "CN201910050583.1",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050580.8",
+      "title": "生物可降解红外发射被动式辐射冷却结构及冷却方法",
+      "summary": "本发明公开了一种生物可降解红外发射被动式辐射冷却结构及冷却方法：将乙基纤维素、乙醇、水",
+      "summaryAll": "本发明公开了一种生物可降解红外发射被动式辐射冷却结构及冷却方法：将乙基纤维素、乙醇、水混合，搅拌为前提溶液；将前提溶液放在容器内，乙醇蒸发，乙基纤维素和水分离，乙基纤维素中形成微孔，形成冷却材料层；冷却材料层附着在传热材料层表面；冷却材料层上覆盖一层具有高透光率的材料板，作为保护层；冷却材料层与保护层之间形成隔热腔体层；传热材料层、冷却材料层、隔热腔体层和保护层构成被动式辐射冷却结构，传热材料层与被冷却体接触；保护层暴露在室外。本发明有利于环境保护，能够解决制冷能耗大或者无法采用主动式制冷的问题，同时解决普通化学材料无法再生、对环境影响大的问题。",
+      "categoryNo": "F25",
+      "patentNo": "CN201910050580.8",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050584.6",
+      "title": "耐高温高红外发射的被动式辐射冷却结构及冷却方法",
+      "summary": "本发明公开了一种耐高温高红外发射的被动式辐射冷却结构及冷却方法：将聚苯乙烯溶解于四氢呋",
+      "summaryAll": "本发明公开了一种耐高温高红外发射的被动式辐射冷却结构及冷却方法：将聚苯乙烯溶解于四氢呋喃中，完全溶解后，加纯净水，称为前体溶液；四氢呋喃蒸发，聚苯乙烯和水分离，聚苯乙烯中形成微孔，形成冷却材料层；冷却材料附着在传热材料层表面；冷却材料层上覆盖遮盖层；冷却材料层与遮盖层之间形成隔热腔体层；传热材料层、冷却材料层、隔热腔体层和遮盖层构成被动式辐射冷却结构，传热材料层与被冷却体接触，遮盖层暴露在室外，冷却材料层将被冷却体热量以红外线形式发射出去，将透射进来的太阳光反射回去。本发明能够为某些场合和设备提供被动式降温，起到冷却的作用。",
+      "categoryNo": "F25",
+      "patentNo": "CN201910050584.6",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050579.5",
+      "title": "基于复合材料的被动式辐射冷却结构及冷却方法",
+      "summary": "本发明公开了一种基于复合材料的被动式辐射冷却结构及冷却方法：包括传热材料层、反射材料层",
+      "summaryAll": "本发明公开了一种基于复合材料的被动式辐射冷却结构及冷却方法：包括传热材料层、反射材料层、发射材料层、隔热腔体层和遮盖材料层，传热材料层用于将热量从被冷却体向外传递，反射材料层用于将透进的太阳光反射回去同时将来自于传热材料层的热量向外传递，发射材料层用于将反射材料层传递的热量以红外线的形式发射出去，隔热腔体层用于阻止外界环境的热量传递给被冷却体，遮盖材料层与发射材料层之间形成隔热腔体层，遮盖材料层用于保证发射材料层发射的红外线发射出去。本发明能够为某些场合和设备提供被动式降温，起到冷却的作用。",
+      "categoryNo": "B32",
+      "patentNo": "CN201910050579.5",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201910050582.7",
+      "title": "基于生物塑料的分级多孔被动式辐射冷却结构及冷却方法",
+      "summary": "本发明公开了一种基于生物塑料的分级多孔被动式辐射冷却结构及冷却方法：将醋酸纤维素溶解于",
+      "summaryAll": "本发明公开了一种基于生物塑料的分级多孔被动式辐射冷却结构及冷却方法：将醋酸纤维素溶解于丙酮中，完全溶解后，加纯净水，称为前体溶液；前体溶液放进容器内，丙酮蒸发，醋酸纤维素和水分离，在醋酸纤维素中形成直径不一的微孔，形成冷却材料层；冷却材料层附着在传热材料层表面；冷却材料层上覆盖一层具有高透光率的材料板，作为遮盖层；冷却材料层与遮盖层之间形成隔热腔体层；传热材料层、冷却材料层、隔热腔体层和遮盖层构成被动式辐射冷却结构，传热材料层与被冷却体接触，遮盖层暴露在室外，尽量保证上方及周围无遮挡。本发明能够为某些场合和设备提供被动式降温，起到冷却的作用。",
+      "categoryNo": "F25",
+      "patentNo": "CN201910050582.7",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811624464.4",
+      "title": "一种己内酰胺生产过程中含盐有机废液处理装置及其方法",
+      "summary": "本发明公开了一种己内酰胺生产过程中含盐有机废液处理装置，包括焚烧炉、鼓风机、静电除尘器",
+      "summaryAll": "本发明公开了一种己内酰胺生产过程中含盐有机废液处理装置，包括焚烧炉、鼓风机、静电除尘器、引风机和烟囱，在焚烧炉前还设置有酸碱中和反应槽、浓废液槽、浓废液泵、吸收槽，吸收槽的气相进口与浓废液槽的气相出口连接，浓废液槽的液相进口与酸碱中和反应槽的出口相连，浓废液槽的液相出口与浓废液泵的进口连接，浓废液泵的出口与焚烧炉的液相进口相连，焚烧炉的气相出口与静电除尘器的进口连接，静电除尘器的出口与引风机的进口连接，引风机的出口与烟囱的进口相连，焚烧炉的气相进口与鼓风机的出口连接。本发明还公开了使用该装置处理己内酰胺生产过程中含盐有机废液的方法。发明具有结构简单、处理效果好、能耗低的优点。",
+      "categoryNo": "F23",
+      "patentNo": "CN201811624464.4",
+      "applicant": "衢州巨化锦纶有限责任公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811612304.8",
+      "title": "一种车载健康检测系统及其方法",
+      "summary": "本发明公开了一种车载健康检测系统及其方法，属于车载电子技术领域，包括云服务器、车载电脑",
+      "summaryAll": "本发明公开了一种车载健康检测系统及其方法，属于车载电子技术领域，包括云服务器、车载电脑和体检设备，解决了通过方向盘监测和监视驾驶员的心率并建立健康综合报告的技术问题，本发明以端管云的系统构架，建立社区性的健康监督机制，有利于驾驶员监督自己的健康状况；本发明在方向盘中设置心率采集终端，结构简单，安装方便，驾驶员可以在手不离开方向盘的情况下直接检测自己的心率，直观的查看心电图，实时监控自己的健康状态。",
+      "categoryNo": "H04",
+      "patentNo": "CN201811612304.8",
+      "applicant": "南京美均电子科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811523653.2",
+      "title": "一种全球城市三维空间交通坐标体系系统及构建方法",
+      "summary": "本发明公开了一种全球城市三维空间交通坐标体系系统，包括获取模块、处理模块以及构建模块；",
+      "summaryAll": "本发明公开了一种全球城市三维空间交通坐标体系系统，包括获取模块、处理模块以及构建模块；获取模块用于，获取M个城市中的N个可横向对比的指标，并根据N个指标生成基础数矩阵A；处理模块用于，通过对基础数矩阵A进行特征提取处理，得到特征值以及特征值对应的特征向量，并根据特征向量创建主特征矩阵P；构建模块用于，根据基础数矩阵A和主特征矩阵P，构建三维空间交通坐标系。采用本发明提供的实施例能够将各类城市交通发展水平与城市特征之间的关系，展现在一个坐标体系内，为正在试图找到突破点的发展中城市提供了一个更加直观清楚的机会。",
+      "categoryNo": "G06",
+      "patentNo": "CN201811523653.2",
+      "applicant": "广州市交通规划研究院",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811524406.4",
+      "title": "一种基于全球城市三维坐标的交通综合竞争力分析方法及系统",
+      "summary": "本发明公开了一种基于全球城市三维坐标的交通综合竞争力分析方法及系统，包括获取M个城市中",
+      "summaryAll": "本发明公开了一种基于全球城市三维坐标的交通综合竞争力分析方法及系统，包括获取M个城市中的N个可横向对比的指标，并根据N个指标生成基础数矩阵A；将基础数矩阵A输入至预设的全球城市三维空间交通坐标体系；对矩阵Q进行标准化处理，得到矩阵T；通过对矩阵T坐标的信息熵进行计算，得到信息熵E；根据矩阵Q的坐标信息和信息熵E，到权重矩阵W中元素的值；根据矩阵Q和权重矩阵W中元素的值，计算得到元素对应城市交通的综合竞争力，能够对各类城市的交通综合竞争力进行分析，从而实现了通过简单方便的计算方法算出对各类城市的交通综合竞争力。",
+      "categoryNo": "G06",
+      "patentNo": "CN201811524406.4",
+      "applicant": "广州市交通规划研究院",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811496728.2",
+      "title": "一种自行式地应力测试用空芯包体安装装置",
+      "summary": "本发明提出了一种自行式地应力测试用空芯包体安装装置，其中安装装置采用两段式钢筒结构，每",
+      "summaryAll": "本发明提出了一种自行式地应力测试用空芯包体安装装置，其中安装装置采用两段式钢筒结构，每段钢筒设置限位器用于分别固定每段钢筒，同时每段钢筒内设轴向向推进器，控制器控制轴向推进器与限位器彼此配合将空芯包体送入小孔实现安装过程，同时使用者通过显示器观察方位角度，并控制调位器调节空芯包体方位以对准小孔，能轻松调整空芯包体相对小孔的位置。应用本发明的安装装置在地应力测试时对测孔的深度几乎无限制，安装过程自动化程度高，一次成功率高，操作简便。",
+      "categoryNo": "G01",
+      "patentNo": "CN201811496728.2",
+      "applicant": "湖南科技大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811477799.8",
+      "title": "一种解决城市道路交通拥堵问题的方法",
+      "summary": "本发明提出了一种解决城市道路交通拥堵问题的方法。获取目标区域现状道路网络、车速等交通基",
+      "summaryAll": "本发明提出了一种解决城市道路交通拥堵问题的方法。获取目标区域现状道路网络、车速等交通基础设施及运作数据；建立目标区域宏观、中观和微观的综合交通仿真模型；基于现状全程行驶平均车速，优化调整综合交通仿真模型中路段设计车速参数值，仿真测算区域全程行驶平均车速、路段服务水平、交叉口服务水平等交通运作指标；比较分析优化调整前后主要交通运作指标，获取车辆最佳行驶车速。本发明技术方案的有益效果是制定车辆最佳行驶速度的方法，达到缓解交通拥堵、促进交通安全水平提高和提升对环境保护作用。",
+      "categoryNo": "G06",
+      "patentNo": "CN201811477799.8",
+      "applicant": "广州市交通规划研究院",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811418600.4",
+      "title": "一种三相BLDC电机六步控制的开环切换闭环的控制方法",
+      "summary": "本发明公开了一种三相BLDC电机六步控制的开环切换闭环的控制方法，属于视频监控技术领域",
+      "summaryAll": "本发明公开了一种三相BLDC电机六步控制的开环切换闭环的控制方法，属于视频监控技术领域，驱动至开环目标转速的时候设定一个PWM占宽比区间，在进入该区间，驱动PWM占宽比大于最大负荷时闭环理论的PWM占宽比，在区间的末端设定为略小于最小负荷下的PWM占宽比，整个区间占宽比时递减的，当合理设置此区间的时间长度，必然存在一刻使PWM电压上升段过零点在整个换相周期的约中间位置，并且PWM电压下降段过零点在整个换相周期的约中间位置，将此刻作为从开环切入闭环的理想时刻，实现可靠的开环切换到闭环的技术问题，本发明无需位置传感器,通过计算反向电动势上升过零点时刻与反向电动势下降过零点时刻得到开环切换闭环的可靠切换方法。",
+      "categoryNo": "H02",
+      "patentNo": "CN201811418600.4",
+      "applicant": "南京美均电子科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811320014.6",
+      "title": "冲击载荷下岩石封闭裂隙水压瞬态变化测试装置和方法",
+      "summary": "本发明属于岩石性能测试技术领域，公开一种冲击载荷下岩石封闭裂隙水压瞬态变化测试装置和方",
+      "summaryAll": "本发明属于岩石性能测试技术领域，公开一种冲击载荷下岩石封闭裂隙水压瞬态变化测试装置和方法，包括冲击装置、用于夹设岩石试件的第一压头和第二压头，第一压头和第二压头设于冲击装置内；第一压头、岩石试件和第二压头中设有顺次连通的水流通道，水流通道的始端贯穿第一压头并在贯穿口通过管道接有泵送水流的压力泵，水流通道的末端贯穿第二压头；第一压头的水流通道段内设有第一止回阀，第二压头的水流通道段内设有相对于第一止回阀反向设置的第二止回阀；第二止回阀与岩石试件之间的水流通道段内设有压力传感器，压力传感器与一数据采集仪信号连接。通过本装置得出岩石水压瞬态变化，可更好地揭示裂隙水压破岩机理。",
+      "categoryNo": "G01",
+      "patentNo": "CN201811320014.6",
+      "applicant": "湖南科技大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811320013.1",
+      "title": "地应力测试用空芯包体小孔安装对中调整装置和使用方法",
+      "summary": "本发明属于岩体地应力测试技术领域，公开一种地应力测试用空芯包体小孔安装对中调整装置和使",
+      "summaryAll": "本发明属于岩体地应力测试技术领域，公开一种地应力测试用空芯包体小孔安装对中调整装置和使用方法，包括空芯包体应力计，空芯包体应力计的导向杆第一端部处安装有至少两个可通过充气朝小孔径向发生膨胀来调节导向杆位置的调位脚，各调位脚对应接有通气管，通气管末端连有充气装置，导向杆第二端部处设有可视化系统用于探测小孔环境。通过设置调位脚及可对调位脚充气的充气装置，结合可视化系统即时监测导向杆与小孔中心的相对位置状况，可适时调整导向杆作位置偏移，快速完成空芯包体与小孔的对中安装，且可一次对中安装到位，装置整体结构简单，辅助对中安装过程简便。",
+      "categoryNo": "G01",
+      "patentNo": "CN201811320013.1",
+      "applicant": "湖南科技大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811320022.0",
+      "title": "霍普金森压杆系统",
+      "summary": "本发明属于材料动态力学性能试验技术领域，公开一种霍普金森压杆系统，包括第一压杆和第二压",
+      "summaryAll": "本发明属于材料动态力学性能试验技术领域，公开一种霍普金森压杆系统，包括第一压杆和第二压杆，试件夹设在第一压杆和第二压杆之间，第一压杆和第二压杆在夹设试件的端部均包覆有支撑套，试件两端也分别被两个所述支撑套包裹，支撑套由一弹性薄板弯曲而成，在支撑套的弯曲结合处设有可开合支撑套的锁钩。通过设置可开合的支撑套包裹压杆和试件，使试件在冲击试验过程中与两根压杆始终保持接触，而不发生滑动或掉落问题，确保试件支撑稳定；第二压杆加载装置信号控制发声装置动作，使声控开关和漏电保护器连锁反应，及时将锁钩上提与支撑套脱离，支撑套随之打开，试件自由掉落，第二压杆即使发生回弹也无法接触到试件，不会对试件产生二次撞击。",
+      "categoryNo": "G01",
+      "patentNo": "CN201811320022.0",
+      "applicant": "湖南科技大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811297728.X",
+      "title": "建筑物换气次数测试方法",
+      "summary": "本发明涉及建筑领域，为解决专用建筑物换气密性检测设备贵、价格高的问题，提出简便测试建筑",
+      "summaryAll": "本发明涉及建筑领域，为解决专用建筑物换气密性检测设备贵、价格高的问题，提出简便测试建筑物换气次数提供可行的方法，本发明，建筑物换气次数测试方法，步骤如下：步骤一，开启入户门，在密闭材料上开风管孔；步骤二，风管通过风管孔进入室内，在室外风管上安装风量调节阀和风量测试装置，风管与风机相连接；步骤三，将一根橡胶管也顺着风管孔送入室内，橡胶管室外部分与压差计一端相连接，压差计另一端连接另一根橡胶管与室外空气通联；步骤四，采用压差计测试屋内外压差，根据测试的压差值，控制风量调节阀，采用风量测试装置测试给定压差下的风机风量。本发明主要应用于建筑物换气次数测试场合。",
+      "categoryNo": "G01",
+      "patentNo": "CN201811297728.X",
+      "applicant": "天津大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201811075420.0",
+      "title": "一种用于浇筑墩柱的混凝土材料、外加剂及使用方法",
+      "summary": "本发明涉及一种用于浇筑墩柱的混凝土材料、外加剂及混凝土材料的使用方法。用于浇筑墩柱的混",
+      "summaryAll": "本发明涉及一种用于浇筑墩柱的混凝土材料、外加剂及混凝土材料的使用方法。用于浇筑墩柱的混凝土材料包含下列重量份的材料：硅酸盐水泥80～120份、石子350～420份、砂220～280份、外加剂2～26份；水40～120份，其中，所述外加剂包括下列重量份的材料：木质素磺酸盐10～20份、粉煤灰50～70份、硝酸钙1～5份、亚硝酸钠0.5～2份、沸石粉1～5份、麻纤维1～5份。本发明通过采用外加剂，使得混泥土用于浇筑大型墩柱时，可由较好的外观质量，有效避免出现离析、开裂、蜂窝、麻面、空洞及气泡等现象。可用于桥梁、高铁、高架桥等墩柱的混凝土材料，与钢筋一起混合使用还具有抗震功效。",
+      "categoryNo": "C04",
+      "patentNo": "CN201811075420.0",
+      "applicant": "北京城建十六建筑工程有限责任公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810983657.2",
+      "title": "一种有机固废垃圾的无害化处理装置",
+      "summary": "本发明公开了一种有机固废垃圾的无害化处理装置，包括壳体、粉碎装置、脱水装置、压块装置、",
+      "summaryAll": "本发明公开了一种有机固废垃圾的无害化处理装置，包括壳体、粉碎装置、脱水装置、压块装置、净化装置、控制装置、电源；壳体包括粉碎腔、脱水腔、挤压腔、净化腔，壳体上端设置有进料斗，壳体底部设置有底座；粉碎装置包括粉碎刀和粉碎电机；脱水装置包括旋转筒和旋转电机；压块装置包括气缸、连接架、挤压板；控制装置包括控制器、处理器、遥控器；控制器与粉碎电机、旋转电机连接，遥控器、处理器与控制器连接；电源装置为粉碎电机、旋转电机提供电源；本发明能够对有机固废垃圾进行无害化处理，不会产生二次污染，适宜大量推广。",
+      "categoryNo": "B30",
+      "patentNo": "CN201810983657.2",
+      "applicant": "深圳市环境监测中心站",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810983658.7",
+      "title": "一种POPs污染土壤的热脱附修复处理装置及方法",
+      "summary": "本发明为一种POPs污染土壤的热脱附修复处理装置及方法，所述装置主要包括预处理装置、热",
+      "summaryAll": "本发明为一种POPs污染土壤的热脱附修复处理装置及方法，所述装置主要包括预处理装置、热脱装置、除尘装置、喷淋装置、冷却装置、吸附装置、排放塔和控制系统，预处理装置、热脱装置、除尘装置、喷淋装置、冷却装置、吸附装置、排放塔依次连接，控制系统与预处理装置、热脱装置、除尘装置、喷淋装置、冷却装置、吸附装置连接；所述方法包括：预处理、热脱附修复处理、脱附后的尾气处理；本发明加入PID气体探测器和FID探测器能够有效地探测出土壤中的污染物类别从而做出对热修复处理时的温度进行调节，能够有效地节约运行成本，适合大量推广。",
+      "categoryNo": "B09",
+      "patentNo": "CN201810983658.7",
+      "applicant": "深圳市环境监测中心站",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810889330.9",
+      "title": "一种面向动态环境的自适应在线推荐方法",
+      "summary": "本发明公开一种面向动态环境的自适应在线推荐方法，通过将推荐任务建模成一个在线多分类问题",
+      "summaryAll": "本发明公开一种面向动态环境的自适应在线推荐方法，通过将推荐任务建模成一个在线多分类问题，然后使用自适应在线分类方法进行推荐。首先，获取应用场景的历史数据集。接着，选择分类器和损失函数，并计算出分类器在历史数据集上的最优参数作为初始值。然后，在每个回合根据分类器的预测决定推荐项目，并通过一个自适应方法更新分类器参数。该自适应方法包含一个元方法和多个专家方法。与现有技术相比，本发明能自适应地进行在线推荐，适用于变化速度和幅度无法事先预测的动态环境。",
+      "categoryNo": "G06",
+      "patentNo": "CN201810889330.9",
+      "applicant": "南京大学",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810758712.8",
+      "title": "一种延长辅食营养素补充食品保质期的工艺",
+      "summary": "本发明公开了一种延长辅食营养素补充食品保质期的工艺，包括包埋碳酸钙的制备和辅食营养素补",
+      "summaryAll": "本发明公开了一种延长辅食营养素补充食品保质期的工艺，包括包埋碳酸钙的制备和辅食营养素补充食品的制备。本发明利用玉米油、棕榈油、大豆油等植物油将碳酸钙包埋得到包埋碳酸钙，再以其为营养素钙的来源，制作得到的辅食营养素补充食品的保质期较未包埋碳酸钙的保质期明显延长。通过加速试验（40℃±2℃，相对湿度75%±5%）考察，当包埋碳酸钙的包埋浓度为10%时，其稳定性最佳，辅食营养素补充食品由未包埋时的15天延长至6个月；通过长期试验（常温放置）考察，当包埋碳酸钙的包埋浓度为10%时，保质期可达到18个月以上。本发明工艺简单、操作简便、可行性高，可以大大延长辅食营养素补充食品的保质期，具有广阔的应用前景。",
+      "categoryNo": "A23",
+      "patentNo": "CN201810758712.8",
+      "applicant": "天添爱(青岛)生物科技有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810676674.1",
+      "title": "一种PE双壁管及其制备方法",
+      "summary": "本发明涉及一种PE双壁管，其管壁由双层结构构成，内层为：高密度聚乙烯100质量份、氯化",
+      "summaryAll": "本发明涉及一种PE双壁管，其管壁由双层结构构成，内层为：高密度聚乙烯100质量份、氯化聚乙烯5‑20质量份、聚甲基丙烯酸甲酯5‑15质量份、轻质碳酸钙1‑10质量份、抗氧化剂0.1‑1质量份、增塑剂0.2‑1.5质量份。外层为：低密度聚乙烯100质量份、氯化聚乙烯10‑30质量份、聚1‑丁酯7‑30质量份、甲基丙烯酸‑丁二烯‑苯乙烯共聚物5‑20质量份、荧光剂5‑10质量份、增塑剂0.2‑1.5质量份、抗氧化剂0.5‑2质量份以及紫外线吸收剂0.5‑2质量份。本发明的PE双壁管管壁内层材料以刚性高的高密度聚乙烯为主，提高波纹管的环刚度，外层材料以提高抗冲性能好的低密度聚乙烯为主，配方为半硬质。通过对管壁内外层配方差异化的设计，提高管壁强度的同时也提高了其抗冲击性和韧性，提高了PE双壁管的力学性能。",
+      "categoryNo": "C08",
+      "patentNo": "CN201810676674.1",
+      "applicant": "江苏诺贝尔塑业有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810643199.8",
+      "title": "一种防鼠咬PVC管及其制备方法",
+      "summary": "本发明涉及一种防鼠咬PVC管，其特征在于：其组成和含量为：聚氯乙烯100质量份、氯化聚",
+      "summaryAll": "本发明涉及一种防鼠咬PVC管，其特征在于：其组成和含量为：聚氯乙烯100质量份、氯化聚氯乙烯10‑20质量份、聚乙烯‑丙烯酸酯橡胶15‑30质量份、大蒜素微胶囊10‑18质量份、聚丙烯酸钠5‑12质量份、尿素1‑5质量份、轻质碳酸钙0.2‑1.5质量份、加工改性剂1‑2.5质量份、冲击改性剂2‑10质量份、润滑剂0.5‑1.5质量份以及紫外线吸收剂0.2‑2.5质量份。本发明提供的PVC实壁管含有大蒜素微胶囊。大蒜素味辣且具有刺鼻的气味，老鼠比较厌恶，从而起到防鼠咬的作用。同时大蒜素来源广泛，取自天然，具有环保和高性价比的优点。而采用微胶囊可以有效的对大蒜素起到封装的作用，减少不必要的损耗，延长防鼠咬的功效。同时大蒜素还可以防止白蚁等其他动物的咬噬，也可以有效抑制霉菌等微生物的生长。",
+      "categoryNo": "C08",
+      "patentNo": "CN201810643199.8",
+      "applicant": "江苏诺贝尔塑业有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810644501.1",
+      "title": "一种环保阻燃PVC实壁管及其制备方法",
+      "summary": "本发明涉及一种环保阻燃PVC实壁管，其组成和含量为：聚氯乙烯100质量份、聚乙烯‑丙烯",
+      "summaryAll": "本发明涉及一种环保阻燃PVC实壁管，其组成和含量为：聚氯乙烯100质量份、聚乙烯‑丙烯酸酯橡胶12‑28质量份、尿素5‑18质量份、聚碳酸丙烯酯9‑15质量份、芳香族聚碳酸酯5‑12质量份、硬脂酸钙1‑5质量份、聚酰胺1‑5质量份、加工改性剂1‑2质量份、冲击改性剂3‑9质量份、润滑剂0.1‑0.8质量份以及紫外线吸收剂1‑3质量份。本发明提供的PVC实壁管尿素及聚碳酸丙烯酯。其中尿素具有很强的吸湿和保湿的作用，从而一定程度上增加了PVC实壁管周边环境的湿度，降低了温度，提高了PVC实壁管的阻燃性；而聚碳酸丙烯酯在燃烧条件下会受热分解产生大量二氧化碳，从而稀释了PVC实壁管周边环境中的氧浓度，达到阻燃的目的。且两者均不含卤素和磷，解决了污染环境的问题。",
+      "categoryNo": "C08",
+      "patentNo": "CN201810644501.1",
+      "applicant": "江苏诺贝尔塑业有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    },
+    {
+      "id": "CN201810643206.4",
+      "title": "一种耐磨抗冲击的PVC管及其制备方法",
+      "summary": "本发明涉及一种耐磨抗冲击的PVC管，其特征在于：包括PVC基材以及设置在所述PVC基材",
+      "summaryAll": "本发明涉及一种耐磨抗冲击的PVC管，其特征在于：包括PVC基材以及设置在所述PVC基材表面的耐磨层，所述耐磨层含有100质量份的聚氨酯、50‑70质量份的聚酰胺、20‑30质量份的聚丙烯酸酯共聚物、5‑15质量份的玻璃微珠以及5‑10质量份的分散剂。聚酰胺在纺织领域有较广泛的应用，其为尼龙的主要材料，具有很好的耐磨性，且价格便宜。聚酰胺与耐磨性很好的聚氨酯、玻璃微珠共同构成的涂层耐磨性能良好。聚酰胺采用刚性较好的聚己二酰己二胺，在赋予涂层耐磨性的同时也兼顾的抗冲击性。同时加入玻璃化温度为20‑40℃的聚丙烯酸酯共聚物进一步提高了耐磨层的抗冲击能力。",
+      "categoryNo": "C08",
+      "patentNo": "CN201810643206.4",
+      "applicant": "江苏诺贝尔塑业有限公司",
+      "type": "",
+      "countryCode": "CN",
+      "legalStatus": "",
+      "inventor": "<mark class=highlight>周</mark><mark class=highlight>志</mark><mark class=highlight>华</mark>",
+      "pct": ""
+    }
+  ],
+  "bookVO": [
+    {
+      "id": "m.20180122-XRT-GXKX-0442",
+      "title": "新形势下广西北部湾经济区发展研究：与珠三角经济区发展相比较",
+      "author": "<mark class=highlight>周志华</mark>",
+      "summary": "",
+      "summaryAll": "",
+      "publisher": "广西科学技术出版社",
+      "categoryNo": "978-7-5551-0766-8",
+      "publishDate": "2017-07-01",
+      "category": ""
+    },
+    {
+      "id": "m.20181203-HXGY-RXJC-1449",
+      "title": "办公建筑环保低碳评价技术",
+      "author": "陈冠益，<mark class=highlight>周志华</mark>等",
+      "summary": "本书以建筑全寿命周期内减碳为目标，主要介绍了环保低碳建筑的建设背景及意义、国内外建筑环",
+      "summaryAll": "本书以建筑全寿命周期内减碳为目标，主要介绍了环保低碳建筑的建设背景及意义、国内外建筑环保低碳的发展概况、办公建筑环保低碳评价方法、办公建筑环保低碳评价内容、办公建筑环保低碳评价案例，以及办公建筑环保低碳评价技术及政策建议。",
+      "publisher": "化学工业出版社",
+      "categoryNo": "978-7-122-29054-0",
+      "publishDate": "2017-05-01",
+      "category": "工业技术|建筑科学|建筑设计|房屋细部构造设计|特种构造"
+    },
+    {
+      "id": "m.20111108-YPT-889-0057",
+      "title": "凯米斯琦的化学DIY",
+      "author": "龙琪, <mark class=highlight>周志华</mark>",
+      "summary": "本书叙述的内容，全是你渴望知道的有趣的生活常识。化学作为一门基础学科，它的进步不断加深",
+      "summaryAll": "本书叙述的内容，全是你渴望知道的有趣的生活常识。化学作为一门基础学科，它的进步不断加深人类对物质世界的认识，不断提高人类改造物质世界的能力，并不断改善人类的生活。",
+      "publisher": "南京师范大学出版社",
+      "categoryNo": "978-7-5651-0114-4",
+      "publishDate": "2010-04-01",
+      "category": ""
+    },
+    {
+      "id": "7-306-01715-2",
+      "title": "大学英语六级考试词汇速成",
+      "author": "<mark class=highlight>周志华</mark> ... [等]",
+      "summary": "",
+      "summaryAll": "",
+      "publisher": "中山大学出版社",
+      "categoryNo": "7-306-01715-2",
+      "publishDate": "2001-01-01",
+      "category": "语言、文字|常用外国语|英语|语义、词汇、词义|基本词汇"
+    }
+  ],
+  "standardVO": []
+}

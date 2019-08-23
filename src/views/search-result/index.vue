@@ -3,7 +3,7 @@
       <div class="side-bar side-left">
         <h2 class='comm-title'>{{getTitlt()}}</h2>
         <!-- expert info -->
-        <expert-info v-if="result && result.expertInfo" :info='result.expertInfo'></expert-info>
+        <expert-info v-if="result && result.expertVO" :info='result.expertVO'></expert-info>
         <!-- tab bar  -->
         <tab-bar v-if="result"
           :tabContent='result'
@@ -19,21 +19,21 @@
           </header>
           <know-graph
             v-if="result"
-            :nodes='result.graphInfo.fakeNodes'
-            :links='result.graphInfo.fakeLinks'>
+            :nodes='result.mapVO.nodes'
+            :links='result.mapVO.relations'>
           </know-graph>
       </div>
       <div class="side-right">
         <btn-group></btn-group>
         <div class="side-bar side-right-con">
           <!-- 同领域专家 -->
-          <expert-pannel v-if="showRelatedExpert" :list='result.graphInfo.expertReco'></expert-pannel>
+          <expert-pannel v-if="showRelatedExpert" :list='result.mapVO.expertReco'></expert-pannel>
 
           <!-- 相关技术推荐 -->
-          <tech-pannel v-if="showRelatedTech" :list='result.graphInfo.subjectReco'></tech-pannel>
+          <tech-pannel v-if="showRelatedTech" :list='result.mapVO.subjectReco'></tech-pannel>
 
           <!-- 合作机构 -->
-          <org-pannel v-if="showRelatedOrg" :list='result.graphInfo.institutionsReco'></org-pannel>
+          <org-pannel v-if="showRelatedOrg" :list='result.mapVO.institutionsReco'></org-pannel>
 
           <!-- 热词推荐 -->
           <hot-pannel v-if="showHot"></hot-pannel>
@@ -120,11 +120,11 @@ export default {
     getTitlt () {
       console.log(this.type)
       // return this.type === 'expert' ? '专家' : '关键词'
-      return this.result && this.result.expertInfo ? '专家信息' : `${this.keyword}相关信息`
+      return this.result && this.result.expertVO ? '专家信息' : `${this.keyword}相关信息`
     },
 
     isExpert () {
-      return this.result && this.result.expertInfo
+      return this.result && this.result.expertVO
     },
 
     routerRefresh () {
@@ -137,31 +137,31 @@ export default {
     showRelatedExpert () {
       return this.type !== 'other' &&
         this.result &&
-        this.result.graphInfo &&
-        this.result.graphInfo.expertReco &&
-        this.result.graphInfo.expertReco.length > 0
+        this.result.mapVO &&
+        this.result.mapVO.expertReco &&
+        this.result.mapVO.expertReco.length > 0
     },
 
     showRelatedTech () {
       return this.type !== 'other' &&
         this.result &&
-        this.result.graphInfo &&
-        this.result.graphInfo.subjectReco &&
-        this.result.graphInfo.subjectReco.length > 0
+        this.result.mapVO &&
+        this.result.mapVO.subjectReco &&
+        this.result.mapVO.subjectReco.length > 0
     },
 
     showRelatedOrg () {
       return this.result &&
-        this.result.graphInfo &&
-        this.result.graphInfo.institutionsReco &&
-        this.result.graphInfo.institutionsReco.length > 0
+        this.result.mapVO &&
+        this.result.mapVO.institutionsReco &&
+        this.result.mapVO.institutionsReco.length > 0
     },
 
     showHot () {
-      return true
-      // return !this.showRelatedExpert &&
-      //   !this.showRelatedTech &&
-      //   !this.showRelatedOrg
+      // return true
+      return !this.showRelatedExpert &&
+        !this.showRelatedTech &&
+        !this.showRelatedOrg
     }
   },
   watch: {

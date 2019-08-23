@@ -2,7 +2,7 @@
 <div class="expert-info-wrapper">
   <div class="wiki-wraper">
     <div class="wiki-info">
-      <img :src='info.headImg'>
+      <img :src="'http://localhost:8899'+info.headImg">
       <div class="expert-intro">
         <h4>{{info.name}}</h4>
         <p>{{info.institution}}</p>

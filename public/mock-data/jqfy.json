@@ -1,0 +1,1154 @@
+{
+  "subjectVO": {
+    "id": "C020039473",
+    "subjectWord": "机器翻译",
+    "subjectWordEn": null,
+    "wiki": "机器翻译（Machine Translation），又称为自动翻译，是利用计算机将一种自然语言(源语言)转换为另一种自然语言(目标语言)的过程。它是计算语言学的一个分支，是人工智能的终极目标之一，具有重要的科学研究价值。"
+  },
+  "mapVO": {
+    "nodes": [
+      {
+        "id": "C020042120_keyword",
+        "name": "Machine Learning",
+        "type": "keyword",
+        "value": 0.7986,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "407323_keyword",
+        "name": "Deep learning",
+        "type": "keyword",
+        "value": 0.8075,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020039473_keyword",
+        "name": "machine translation",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018903429_keyword",
+        "name": "Natural Language Processing",
+        "type": "keyword",
+        "value": 0.8845,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018787109_keyword",
+        "name": "Speech recognition",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "291156_keyword",
+        "name": "Crowdsourcing",
+        "type": "keyword",
+        "value": 0.8134,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "C020039473_keyword",
+        "target": "C018787109_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "407323_keyword",
+        "value": 0.8075,
+        "type": "keyword"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "C020042120_keyword",
+        "value": 0.7986,
+        "type": "keyword"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "291156_keyword",
+        "value": 0.8134,
+        "type": "keyword"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "C018903429_keyword",
+        "value": 0.8845,
+        "type": "keyword"
+      }
+    ],
+    "expertReco": [
+      {
+        "id": 1074780,
+        "name": "刘群",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-02/2019-02-21-16-30-50__207b0969-37da-4d28-a908-417cc0af47c1.jpg",
+        "institution": "Dublin City University",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 267673,
+        "name": "Benjamin Van",
+        "headImg": "http://192.168.200.130:8032/img/null",
+        "institution": "Johns Hopkins University",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      },
+      {
+        "id": 408584,
+        "name": "蒋伟",
+        "headImg": "http://192.168.200.130:8032/img/expert_logo/2019-03/2019-03-26-14-57-29__159e85e8-35d3-4c76-8162-89571ef21fcf.jpg",
+        "institution": "University of Notre Dame",
+        "subjectArea": null,
+        "country": null,
+        "totalIssues": null,
+        "totalCitations": null,
+        "top1Citations": null,
+        "number1": null,
+        "top10Citations": null,
+        "number10": null,
+        "hIndex": null,
+        "journalSend": null,
+        "subjectMatch": null,
+        "citedSituation": null,
+        "fwciinedx": null
+      }
+    ],
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "mapInfo": {
+    "nodes": [
+      {
+        "id": "1838213_scholar",
+        "name": "Mark john francis Gales",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1986845_scholar",
+        "name": "Wendy webber Chapman",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1972771_scholar",
+        "name": "Daniel Rubin",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018903429_keyword",
+        "name": "Natural Language Processing",
+        "type": "keyword",
+        "value": 0.8845,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018892767_keyword",
+        "name": "Speech enhancement",
+        "type": "keyword",
+        "value": 0.9553,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1055115_scholar",
+        "name": "Erik Cambria",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "407323_keyword",
+        "name": "Deep learning",
+        "type": "keyword",
+        "value": 0.8075,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1843480_scholar",
+        "name": "Brian Kingsbury",
+        "type": "scholar",
+        "value": 0.58333,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1893211_scholar",
+        "name": "Hermann Ney",
+        "type": "scholar",
+        "value": 0.83333,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "305302_keyword",
+        "name": "Convolutional neural network",
+        "type": "keyword",
+        "value": 0.9467,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018787109_keyword",
+        "name": "Speech recognition",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2117202_scholar",
+        "name": "Paolo Rosso",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "339293_scholar",
+        "name": "Ziyuan Tong",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2010020_scholar",
+        "name": "Jinghe Lang ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020039473_keyword",
+        "name": "machine translation",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "6256132_scholar",
+        "name": "Antonio Cianci ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2118276_scholar",
+        "name": "Tomohiro Nakatani",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018819637_keyword",
+        "name": "Support Vector Machines",
+        "type": "keyword",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020039005_keyword",
+        "name": "Neural network",
+        "type": "keyword",
+        "value": 0.9239,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1265417_scholar",
+        "name": "Wei Ding",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2010526_scholar",
+        "name": "Keisuke Kinoshita",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "4768049_scholar",
+        "name": "Salvatore giovanni Vitale ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "715311_scholar",
+        "name": "周志华",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "23592_scholar",
+        "name": "Diane Cook",
+        "type": "scholar",
+        "value": 0.55833,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1937237_scholar",
+        "name": "Bhiksha Raj ",
+        "type": "scholar",
+        "value": 0.66667,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2750276_scholar",
+        "name": "Luc De Raedt",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2420535_scholar",
+        "name": "Scott andrew Crossley",
+        "type": "scholar",
+        "value": 0.78571,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "417590_scholar",
+        "name": "邓力",
+        "type": "scholar",
+        "value": 0.51852,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "98415_keyword",
+        "name": "Sentiment analysis",
+        "type": "keyword",
+        "value": 0.8062,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020042104_keyword",
+        "name": "Artificial Intelligence",
+        "type": "keyword",
+        "value": 0.7816,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018948469_keyword",
+        "name": "big data",
+        "type": "keyword",
+        "value": 0.9138,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2467379_scholar",
+        "name": "Run Wang ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2046398_scholar",
+        "name": "Hongfang Liu ",
+        "type": "scholar",
+        "value": 0.57143,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018882261_keyword",
+        "name": "text mining",
+        "type": "keyword",
+        "value": 0.9248,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1914599_scholar",
+        "name": "Junichi Imura ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "3209441_scholar",
+        "name": "Birger Kollmeier ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020037235_keyword",
+        "name": "data mining",
+        "type": "keyword",
+        "value": 0.906,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "4478128_scholar",
+        "name": "Lawrence Deng",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "4121547_scholar",
+        "name": "Ying hsien Huang ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2070165_scholar",
+        "name": "Guergana Savova",
+        "type": "scholar",
+        "value": 0.92857,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "10311_scholar",
+        "name": "Ralf Schlüter",
+        "type": "scholar",
+        "value": 0.59259,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "40940_scholar",
+        "name": "Ilsun You ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020043191_keyword",
+        "name": "computer vision",
+        "type": "keyword",
+        "value": 0.9021,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "4250085_scholar",
+        "name": "Hongqing Liu ",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018918649_keyword",
+        "name": "Feature extraction",
+        "type": "keyword",
+        "value": 0.9383,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "2118481_scholar",
+        "name": "Siani Pearson ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "773833_scholar",
+        "name": "Lan Zhu ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "964787_scholar",
+        "name": "Mor Peleg",
+        "type": "scholar",
+        "value": 1,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "291156_keyword",
+        "name": "Crowdsourcing",
+        "type": "keyword",
+        "value": 0.8134,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018811202_keyword",
+        "name": "Hidden Markov models",
+        "type": "keyword",
+        "value": 0.9679,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "3143505_scholar",
+        "name": "Kazuhiro Nakadai",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1787042_scholar",
+        "name": "Daniel Povey",
+        "type": "scholar",
+        "value": 0.62963,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1698932_scholar",
+        "name": "Faïez Gargouri ",
+        "type": "scholar",
+        "value": 0.58333,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C020042120_keyword",
+        "name": "Machine Learning",
+        "type": "keyword",
+        "value": 0.7986,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "366996_scholar",
+        "name": "Michal Wozniak",
+        "type": "scholar",
+        "value": 0.90833,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C019203844_keyword",
+        "name": "Experiential Learning",
+        "type": "keyword",
+        "value": 0.9151,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "381285_scholar",
+        "name": "André de",
+        "type": "scholar",
+        "value": 0.50833,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "C018827506_keyword",
+        "name": "Knowledge acquisition",
+        "type": "keyword",
+        "value": 0.9051,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1888596_scholar",
+        "name": "Taghi Khoshgoftaar",
+        "type": "scholar",
+        "value": 0.575,
+        "releExpert": null,
+        "releSubject": null
+      },
+      {
+        "id": "1463432_scholar",
+        "name": "Jungwon Lee ",
+        "type": "scholar",
+        "value": 0.75,
+        "releExpert": null,
+        "releSubject": null
+      }
+    ],
+    "relations": [
+      {
+        "source": "C020042120_keyword",
+        "target": "23592_scholar",
+        "value": 0.55833,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1838213_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "715311_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "2467379_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "10311_scholar",
+        "value": 0.59259,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "2070165_scholar",
+        "value": 0.92857,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "964787_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "1888596_scholar",
+        "value": 0.575,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "4121547_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1463432_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "1265417_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1787042_scholar",
+        "value": 0.62963,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "2750276_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "1972771_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "40940_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "2010526_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "2046398_scholar",
+        "value": 0.57143,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "2420535_scholar",
+        "value": 0.78571,
+        "type": "scholar"
+      },
+      {
+        "source": "291156_keyword",
+        "target": "C019203844_keyword",
+        "value": 0.9151,
+        "type": "keyword"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "366996_scholar",
+        "value": 0.90833,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "C018892767_keyword",
+        "value": 0.9553,
+        "type": "keyword"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "1055115_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "2117202_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "C018811202_keyword",
+        "value": 0.9679,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "339293_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "C018882261_keyword",
+        "value": 0.9248,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1937237_scholar",
+        "value": 0.66667,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "98415_keyword",
+        "value": 0.8062,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "3209441_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "C020042120_keyword",
+        "value": 0.7986,
+        "type": "keyword"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "C020042104_keyword",
+        "value": 0.7816,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1698932_scholar",
+        "value": 0.58333,
+        "type": "scholar"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "C018903429_keyword",
+        "value": 0.8845,
+        "type": "keyword"
+      },
+      {
+        "source": "291156_keyword",
+        "target": "C020043191_keyword",
+        "value": 0.9021,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1843480_scholar",
+        "value": 0.58333,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "4250085_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "407323_keyword",
+        "value": 0.8075,
+        "type": "keyword"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "381285_scholar",
+        "value": 0.50833,
+        "type": "scholar"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "C018819637_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "2118481_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C020042120_keyword",
+        "target": "C018918649_keyword",
+        "value": 0.9383,
+        "type": "keyword"
+      },
+      {
+        "source": "291156_keyword",
+        "target": "C018948469_keyword",
+        "value": 0.9138,
+        "type": "keyword"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "291156_keyword",
+        "value": 0.8134,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "2010020_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1893211_scholar",
+        "value": 0.83333,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "C018827506_keyword",
+        "value": 0.9051,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "2118276_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "407323_keyword",
+        "target": "C020039005_keyword",
+        "value": 0.9239,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "4768049_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C020039473_keyword",
+        "target": "C018787109_keyword",
+        "value": 1,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "3143505_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018903429_keyword",
+        "target": "1986845_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "773833_scholar",
+        "value": 0.75,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "1914599_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "4478128_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "407323_keyword",
+        "target": "305302_keyword",
+        "value": 0.9467,
+        "type": "keyword"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "417590_scholar",
+        "value": 0.51852,
+        "type": "scholar"
+      },
+      {
+        "source": "C018787109_keyword",
+        "target": "6256132_scholar",
+        "value": 1,
+        "type": "scholar"
+      },
+      {
+        "source": "291156_keyword",
+        "target": "C020037235_keyword",
+        "value": 0.906,
+        "type": "keyword"
+      }
+    ],
+    "expertReco": null,
+    "subjectReco": null,
+    "journalsReco": null,
+    "institutionsReco": null
+  },
+  "paperVO": [
+    {
+      "id": "Periodical_zwxxxb201704007",
+      "title": "基于动态词对齐的交互式<mark class=highlight>机器翻译</mark>",
+      "summary": "在传统的<mark class=highlight>机器翻译</mark>(<mark class=highlight>machine</mark> <mark class=highlight>translation</mark>,<mark class=highlight>MT</mark>)与计算机辅助翻译",
+      "summaryAll": "在传统的机器翻译(machine translation,MT)与计算机辅助翻译(computer aided translation,CAT)中,译员与翻译引擎之间的交互受到很大限制,于是产生了交互式机器翻译(interactive machine translation,IMT)技术.但传统的模型只考虑当前源语与部分翻译的目标语的信息,没有将用户交互后的对齐信息加入到之后的预测模型中.该文基于词预测交互式机器翻译的研究思路,将用户交互翻译过程中的鼠标点选行为转化为中间译文的词对齐信息,进而在翻译交互过程中实现了对译文的动态词对齐标注,并在词对齐信息和输入译文的约束下提高了传统词预测的准确性.The traditional interactive machine translation (IMT ) is focused on the current source language and the partial translation of the target language ,neglecting the feedback from the translators to better predict the subse-quent translations .This paper investigates the translation selection clicks ,and proposes a dynamic word alignment model for the partial translation .Experiment indicates this method improves the word prediction accuracy during the interactive machine translation process .",
+      "author": "马斌",
+      "keywords": "交互式<mark class=highlight>机器翻译</mark>,词对齐,预测模型,interactive <mark class=highlight>machine</mark> <mark class=highlight>translation</mark>",
+      "citedIndex": 0,
+      "publishDate": "2017-07-30",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_yyzlyj201606003",
+      "title": "从<mark class=highlight>机器翻译</mark>历程看自然语言处理研究的发展策略",
+      "summary": "<mark class=highlight>Machine</mark> <mark class=highlight>translation</mark> (<mark class=highlight>MT</mark>) is one of the",
+      "summaryAll": "本文试图从超脱细节的宏观角度，对机器翻译的发展历程进行扼要的总结和深刻的评介，着重于刻画各个时期在基本方法和核心技术上的主要特征，从而勾勒出机器翻译的全过程演进脉络。在上述考察和分析的基础上，文章对国内机器翻译乃至自然语言处理研究的近期发展策略提出了若干建议。Machine translation (MT) is one of the major research fi elds of natural language processing (NLP), and it always spearheads the research frontier in NLP. In this paper, after a systematic survey of the development history of MT from a macroscopic perspective, with particular emphasis on the main development path of underlying methodologies and core technologies in MT, we drew a general picture of the milestones that marked the key points of a long journey for both theoretical study and practical accomplishment for the past seven decades. The latest fruitful development achieved in the area of MT application shows that, the paradigm shift from the tradi-tional linguistic rule-based approaches to the so-called empirical approach, based on increasingly available amounts of “raw data” in the form of massive collections of texts and their translations, compounded by the phenomenal advancement of computer technology, will become the driving force that will potentially lead to the breakthrough in MT. Based on the above observation and analysis, some sug-gestions on the short-term development strategy for machine translation as well as natural language processing in China are proposed.",
+      "author": "孙茂松",
+      "keywords": "TP3,G2,<mark class=highlight>机器翻译</mark>,自然语言处理,发展历史,策略,<mark class=highlight>machine</mark> <mark class=highlight>translation</mark>",
+      "citedIndex": 0,
+      "publishDate": "2016-12-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    },
+    {
+      "id": "Periodical_xajzkjdxxb-shkx201604014",
+      "title": "基于统计方法的多译本翻译质量评测",
+      "summary": "<mark class=highlight>translations</mark> (<mark class=highlight>MT</mark>) and the human <mark class=highlight>translations</mark>",
+      "summaryAll": "研究以《傲慢与偏见》的人机译本为例，使用问卷调查法和统计学的方法，试图寻找一种有效对比和评测机器翻译与人工翻译质量的方法。将定性定量分析相结合，通过测算统计学上的基本概念，如均值、标准差、中数、众数、极值、偏度、峰度等，分析了各个译本的得分集中趋势、离散程度和分布情况等。结果表明，机器翻译在处理短句时，能产生质量非常高的译句，但整体上与人工译本仍存在较大差距，其总的翻译得分基本处于最底端。人工译本得分基本呈正态分布，各译本相互之间差异不显著。通过讨论分析文学翻译的限制因素，发现时代因素对翻译的影响很大。同时，研究发现，在翻译文学作品应综合考虑原作的语义和语篇信息结构，较完整地保留原有风格，并适应读者群的阅读习惯，方能实现较好的翻译质量。此外，设计有效的问卷可以客观评估翻译质量，对改善机器翻译和人工翻译质量具有借鉴意义。Based on various translation versions ofPride and Prejudice, this paper presents a statistic approach to evaluate comparatively the qualities of both machine translations (MT) and the human translations (HT) by using data retrieved from a large-scale questionnaire. With the combination of quantitative and qualitative analysis, several statistical concepts (means, standard variance, median, mode, extremum, skewness and kurtoness) are applied to measure the concentric tendency, distribution and discrete degree of the scores. Results show that MT could produce some translations of high qualities when rendering simple and short sentences. However, most MT scores are at the lower end of qualities and have a long way to go in comparison with HT. On the other hand, all the four human translations are normally distributed and no significant difference is found between them. The analysis of the restraints in literary translation reveals that the age factor has greater impact on translation. The textual information structure, the semantic meanings, and the styles of the source text, should be taken into account to adapt to the reading habit of target readers. Besides, a questionnaire, if necessary, can serve as an efficient method to evaluate qualities of translation and provide some reference to improve both MT and HT.",
+      "author": "张英贤",
+      "keywords": "H31,H05,<mark class=highlight>机器翻译</mark>,翻译评价,问卷调查,傲慢与偏见,统计,<mark class=highlight>machine</mark>",
+      "citedIndex": 0,
+      "publishDate": "2016-08-28",
+      "subject": "",
+      "sourceDB": "",
+      "journals": null,
+      "categoryNo": null,
+      "fundProject": null
+    }
+  ],
+  "patentVO": null,
+  "bookVO": [],
+  "standardVO": [
+    {
+      "id": "1",
+      "nameCN": "机器人与机器人装备 工业机器人的安全要求 第2部分：机器人系统与集成",
+      "nameEN": "Robots and robotic devices―Safety requirements for industrial robots―Part 2: Robot systems and integration",
+      "standardNo": "GB 11291.2-2013",
+      "categoryNoCN": "J;J28,机械,通用零部件",
+      "categoryNoIN": "25;25.040.30",
+      "summary": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求",
+      "summaryAll": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求，工业机器人和工业机器人系统已在GB 11291.1中定义。集成包括以下方面： a) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废； b) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废的必要条件； c) 工业机器人系统或单元的部件设备。 本部分描述了与这些系统有关的基本危险和危险情况，并提出了消除和充分降低与这些危险相关的风险要求。虽然噪声波定为是工业机器人的一种主要危险，但是本部分不予考虑。本部分也规定了对作为集成制造系统的部分的工业机器人系统的要求。本部分不专门涉及关于加工过程中的危险（如激光辐射、弹出碎片、焊接烟雾）其他标准适用于这些加工过程中的危险。",
+      "draftUnit": "",
+      "mandatoryStandard": "是",
+      "status": "现行",
+      "publishDate": "2013-12-17",
+      "implementDate": "2014-11-01"
+    },
+    {
+      "id": "7",
+      "nameCN": "工业机器人 性能规范及其试验方法",
+      "nameEN": "Industrial robots - Performance criteria and related test methods",
+      "standardNo": "GB/T 12642-2013",
+      "categoryNoCN": "J;J28,机械,通用零部件",
+      "categoryNoIN": "25;25.040.30",
+      "summary": "本标准适用于 ISO 8373:1994 中定义的所有工业机器人，本标准术语“机器人”",
+      "summaryAll": "本标准适用于 ISO 8373:1994 中定义的所有工业机器人，本标准术语“机器人”指的是工业机器人。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2013-11-12",
+      "implementDate": "2014-03-15"
+    },
+    {
+      "id": "24",
+      "nameCN": "工业机器人 用户编程指令",
+      "nameEN": "Industrial robot - User programme instruction",
+      "standardNo": "GB/T 29824-2013",
+      "categoryNoCN": "J;J28,机械,通用零部件",
+      "categoryNoIN": "25;25.040.30",
+      "summary": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬",
+      "summaryAll": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬运机器人、喷涂机器人、装配机器人（包含但不是全部）等工业机器人。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2013-11-12",
+      "implementDate": "2014-04-01"
+    },
+    {
+      "id": "25",
+      "nameCN": "机器人通信总线协议",
+      "nameEN": "Robot General Bus communication protocol",
+      "standardNo": "GB/T 29825-2013",
+      "categoryNoCN": "J;J28,机械,通用零部件",
+      "categoryNoIN": "25;25.040.30",
+      "summary": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式",
+      "summaryAll": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式定义、工作流程。 本标准主要适用于模块化机器人系统中不同功能模块构件之间的数据交互和信息共享。应用于非模块化机器人中的通信总线亦可参照使用本标准。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2013-11-12",
+      "implementDate": "2014-04-01"
+    },
+    {
+      "id": "8",
+      "nameCN": "工业机器人 性能试验实施规范",
+      "nameEN": "Industrial robot - Detailed implementation specification for performance and related test",
+      "standardNo": "GB/T 20868-2007",
+      "categoryNoCN": "J;J07,机械,机械综合",
+      "categoryNoIN": "25;25.040.30",
+      "summary": "本标准提供了制造商和用户等使用GB/T 12642-2001对工业机器人进行性能试验时",
+      "summaryAll": "本标准提供了制造商和用户等使用GB/T 12642-2001对工业机器人进行性能试验时的实施细则和操作步骤。　　本标准供工业机器人制造厂商、试验部门、机器人用户使用。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2007-01-18",
+      "implementDate": "2007-08-01"
+    },
+    {
+      "id": "3",
+      "nameCN": "信息技术 词汇 第29部分:人工智能 语音识别与合成",
+      "nameEN": "Information technology-Vocabulary-Part 29:Artificial intelligence-Speech recognition and synthesis",
+      "standardNo": "GB/T 5271.29-2006",
+      "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
+      "categoryNoIN": "35;35.240.20",
+      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关语音识别和语音合成的概念。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2006-03-14",
+      "implementDate": "2006-07-01"
+    },
+    {
+      "id": "4",
+      "nameCN": "technolgy—Vocabulary—Part 31:Artificial intelligence—<mark class=highlight>Machine</mark>",
+      "nameEN": "Information technolgy—Vocabulary—Part 31:Artificial intelligence—Machine learning",
+      "standardNo": "GB/T 5271.31-2006",
+      "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
+      "categoryNoIN": "35;35.240.20",
+      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关人工智能中机器学习的概念。",
+      "draftUnit": "",
+      "mandatoryStandard": "否",
+      "status": "现行",
+      "publishDate": "2006-03-14",
+      "implementDate": "2006-07-01"
+    }
+  ]
+}
