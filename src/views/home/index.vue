@@ -216,7 +216,7 @@ export default {
         {
           // 吴恩达
           img: tagWed,
-          url: '/report/吴恩达'
+          url: '/search/吴恩达'
         },
         {
           // William T. Freeman
@@ -268,7 +268,7 @@ export default {
         {
           // 推荐系统
           img: tagTjxt,
-          url: '/report/推荐系统'
+          url: '/search/推荐系统'
         },
         {
           // 无人驾驶
