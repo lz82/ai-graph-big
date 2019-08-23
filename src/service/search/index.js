@@ -15,7 +15,7 @@ const keyMap = {
   '支持向量机': 'zcxlj',
   '可解释人工智能': 'kjsrgzn',
   'Geoffrey Hinton': 'Geoffrey',
-  'Michael I.Jordan': 'Michael',
+  'Michael I. Jordan': 'Michael',
   'SebastianThrun': 'Sebastian',
   'William T. Freeman': 'William',
   'Yann Lecun': 'Yann',

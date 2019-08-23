@@ -154,7 +154,7 @@ export default {
 
       gs.append('text')
         // .text(data => data.name)
-        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:24px')
+        .attr('style', 'cursor: pointer; text-anchor: middle;font-size:22px')
         .selectAll('tspan')
         .data(d => d.name ? d.name.split(' ') : '')
         .join('tspan')

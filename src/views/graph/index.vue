@@ -64,7 +64,7 @@ export default {
         '支持向量机',
         '可解释人工智能',
         'Geoffrey Hinton',
-        'Michael I.Jordan',
+        'Michael I. Jordan',
         'SebastianThrun',
         'William T. Freeman',
         'Yann Lecun',
@@ -301,8 +301,9 @@ export default {
 
     clickHandel (d) {
       if (d.level < 4) {
+        console.log(d.name)
         if (this.centerWord.includes(d.name)) {
-          this.$router.push(`/search/${this.keyword}`)
+          this.$router.push(`/search/${d.name}`)
         } else {
           this.currentWord = d.code
         }
