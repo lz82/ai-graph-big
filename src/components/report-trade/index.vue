@@ -8,6 +8,9 @@
 import reportConfig from '@/config/report'
 const { colorList } = reportConfig
 
+const bg = 'rgba(26, 21, 45, 1)'
+const borderWidth = 2
+
 const rich = {
   num: {
     fontWeight: 700,
@@ -64,7 +67,7 @@ export default {
                     borderWidth: 6,
                     shadowBlur: 20,
                     shadowColor: colorList[0],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -85,7 +88,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[1],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -105,7 +108,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[2],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -125,7 +128,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[3],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -145,7 +148,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[4],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -165,7 +168,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[5],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -185,7 +188,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[0],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -205,7 +208,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[2],
-                    color: '#001c43'
+                    color: bg
 
                   }
                 },
@@ -226,7 +229,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[1],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -246,7 +249,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[2],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -266,7 +269,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[3],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -286,7 +289,7 @@ export default {
                     borderWidth: 4,
                     shadowBlur: 10,
                     shadowColor: colorList[4],
-                    color: '#001c43'
+                    color: bg
                   }
                 },
                 label: {
@@ -358,7 +361,7 @@ export default {
             lineStyle: {
               normal: {
                 opacity: 0.9,
-                width: 5,
+                width: borderWidth,
                 curveness: 0
               }
             }
