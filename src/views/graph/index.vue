@@ -10,8 +10,8 @@
       </div>
       <div class="side-right">
         <btn-group></btn-group>
-        <transition name="slide-fade" mode="in-out">
-          <div class="side-right-con" v-show="showPannel()" :key="currentWord">
+        <transition name="slide-fade">
+          <div class="side-right-con" v-show="showPannel()">
             <relate-pannel v-show="getRelatedWord() !== undefined && getRelatedWord().length>0" title="相关学科词" :list='getRelatedWord()'></relate-pannel>
             <relate-pannel v-show="getRelatedExpert() !== undefined && getRelatedExpert().length>0" title="相关专家" :list='getRelatedExpert()'></relate-pannel>
           </div>

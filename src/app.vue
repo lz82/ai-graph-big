@@ -75,7 +75,7 @@ export default {
         })
       this.isShow = false
       // 开发期间先注释
-      // this.$router.push('/')
+      this.$router.push('/')
     })
     document.addEventListener('click', () => {
       this.setLastTime(new Date() - 0)
@@ -95,7 +95,7 @@ export default {
           }
           const now = new Date() - 0
 
-          if (now - this.lastTime > 1000 * 60 * 30) {
+          if (now - this.lastTime > 1000 * 60 * 5) {
             // document.getElementById('video').play()
             anime.timeline({
               targets: '.mask',

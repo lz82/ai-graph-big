@@ -437,7 +437,7 @@ export default {
             flex-flow: column nowrap;
             align-items: center;
             .num {
-              font-size: 26px;
+              font-size: 22px;
               font-weight: 700;
               padding-bottom: 10px;
             }
