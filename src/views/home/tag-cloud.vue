@@ -11,7 +11,7 @@
             <router-link
               :to="item.url"
             >
-              <img :src="item.img" width="64px" height='64px'>
+              <img :src="item.img" width="72px" height='72px'>
             </router-link>
           </li>
         </ul>
@@ -70,7 +70,7 @@ export default {
 
   methods: {
     initTag () {
-      window.TagCanvas.initial = [0, 0.02]
+      window.TagCanvas.initial = [0, 0.03]
       window.TagCanvas.outlineColour = 'rgba(255, 255, 255,0.1)'
       window.TagCanvas.maxSpeed = 0.03
       window.TagCanvas.minSpeed = 0.01
