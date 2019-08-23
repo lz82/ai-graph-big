@@ -11,6 +11,8 @@ const { colorList } = reportConfig
 const bg = 'rgba(26, 21, 45, 1)'
 const borderWidth = 2
 
+const newColor = ['#5efde8', '#61ff65', '#ffbe61', '#ff67e4', '#8fa4ff']
+
 const rich = {
   num: {
     fontWeight: 700,
@@ -64,7 +66,7 @@ export default {
                 itemStyle: {
                   normal: {
                     borderColor: colorList[0],
-                    borderWidth: 6,
+                    borderWidth: 4,
                     shadowBlur: 20,
                     shadowColor: colorList[0],
                     color: bg
@@ -184,10 +186,10 @@ export default {
                 symbolSize: 150,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[0],
+                    borderColor: newColor[0],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[0],
+                    shadowColor: newColor[0],
                     color: bg
                   }
                 },
@@ -204,10 +206,10 @@ export default {
                 symbolSize: 150,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[2],
+                    borderColor: newColor[1],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[2],
+                    shadowColor: newColor[1],
                     color: bg
 
                   }
@@ -225,10 +227,10 @@ export default {
                 symbolSize: 180,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[1],
+                    borderColor: newColor[2],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[1],
+                    shadowColor: newColor[2],
                     color: bg
                   }
                 },
@@ -245,10 +247,10 @@ export default {
                 symbolSize: 200,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[2],
+                    borderColor: newColor[3],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[2],
+                    shadowColor: newColor[3],
                     color: bg
                   }
                 },
@@ -265,10 +267,10 @@ export default {
                 symbolSize: 200,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[3],
+                    borderColor: newColor[4],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[3],
+                    shadowColor: newColor[4],
                     color: bg
                   }
                 },
@@ -285,10 +287,10 @@ export default {
                 symbolSize: 200,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[4],
+                    borderColor: colorList[5],
                     borderWidth: 4,
                     shadowBlur: 10,
-                    shadowColor: colorList[4],
+                    shadowColor: colorList[5],
                     color: bg
                   }
                 },
