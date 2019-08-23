@@ -15,7 +15,7 @@
         <!-- 论文 -->
         <ul v-if="showPaper">
           <li v-for="item in tabContent.paperVO" :key="item.id">
-            <h3>{{item.title}}</h3>
+            <h3 v-html="item.title"></h3>
             <p>
               <span v-html="'作者：'+item.author"></span>
               <span>发表时间：{{item.publishDate}}</span>
@@ -27,7 +27,7 @@
         <!-- 专利 -->
         <ul v-if="showPatent">
           <li v-for="item in tabContent.patentVO" :key="item.id">
-            <h3>{{item.title}}</h3>
+            <h3 v-html="item.title"></h3>
             <p>
               <span v-html="'专利权人：'+item.inventor"></span>
               <span>分类号：{{item.categoryNo}}</span>
