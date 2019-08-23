@@ -2,6 +2,14 @@
 <template>
   <div>
     <div class="graph-wrapper">
+      <div class="graph-side">
+        <ul>
+          <li v-for="(item, index) in typeList" :key="index">
+            <img :src="getIcon(item.key)" alt="">
+            <span>{{item.name}}</span>
+          </li>
+        </ul>
+      </div>
       <div class="graph-left">
         <header>
           <page-header :title="title" class="title"></page-header>
@@ -12,8 +20,7 @@
         <btn-group></btn-group>
         <transition name="slide-fade" mode="in-out">
           <div class="side-right-con" v-show="showPannel()" :key="currentWord">
-            <relate-pannel v-show="getRelatedWord() !== undefined && getRelatedWord().length>0" title="相关学科词" :list='getRelatedWord()'></relate-pannel>
-            <relate-pannel v-show="getRelatedExpert() !== undefined && getRelatedExpert().length>0" title="相关专家" :list='getRelatedExpert()'></relate-pannel>
+            <relate-pannel v-show="popList && popList.length>0" :title="popTitle" :list='popList'></relate-pannel>
           </div>
         </transition>
       </div>
@@ -24,7 +31,7 @@
 <script>
 import * as d3 from 'd3'
 /* eslint-disable no-unused-vars */
-import expertIco from './img/ico-expert.png'
+import expertIco1 from './img/ico-expert.png'
 import orgIco from './img/ico-org.png'
 import projectIco from './img/ico-project.png'
 import patentIco from './img/ico-patent.png'
@@ -35,6 +42,7 @@ import PageHeader from '@/components/page-header'
 import BtnGroup from '@/components/btn-group'
 import RelatePannel from './relate-pannel'
 import { graphApi } from '@/service'
+import appConfig from '@/config'
 export default {
   name: 'GraphDetail',
   components: {
@@ -49,27 +57,13 @@ export default {
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 1360,
+      svgW: 1160,
       svgH: 1060,
       links: null,
       nodes: null,
+      typeList: appConfig.typeList,
+      centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
-      centerWord: ['李飞飞', '吴恩达', '周志华', '韩家炜', '知识库', '度量学习', '机器翻译',
-        'Feifei Li',
-        '目标检测',
-        '人脸识别',
-        '推荐系统',
-        '无人驾驶',
-        '循环神经网络',
-        '支持向量机',
-        '可解释人工智能',
-        'Geoffrey Hinton',
-        'Michael I. Jordan',
-        'SebastianThrun',
-        'William T. Freeman',
-        'Yann Lecun',
-        'Yoshua Bengio'],
-      // typeList: ['expert', 'keyword', 'org', 'paper', 'patent', 'project', 'honor'], // 专家expert，关键词keyword，机构org，论文paper，专利patent，项目project，荣誉honor
       // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
       colorList: ['#6abdf3', '#49C5FE', '#F4E28F', '#E97383', '#7E48DA', '#8CECB9', '#1E90FF'],
       rediusList: [100, 80, 50, 40, 20],
@@ -79,11 +73,14 @@ export default {
       chargeStrength: -400, // 万有引力
       paperIco: paperIco, // 论文小图标
       orgIco: orgIco,
-      expertIco: expertIco,
+      expertIco: expertIco1,
       projectIco: projectIco,
       patentIco: patentIco,
       honorIco: honorIco,
-      keywordIco: keywordIco
+      keywordIco: keywordIco,
+      popList: [],
+      popTitle: '',
+      graphFlag: true
     }
   },
 
@@ -133,148 +130,163 @@ export default {
     },
 
     initSvgContainer () {
+      try {
       // 力导向图
-      this.forceSimulation = d3.forceSimulation()
+        this.forceSimulation = d3.forceSimulation()
         // .alpha(0.07) // 活力  渲染之后再自动动多久
-        .force('link', d3.forceLink().id(data => data.code).distance(data => {
+          .force('link', d3.forceLink().id(data => data.code).distance(data => {
           // 无分支的节点
-          if (data.target.name === '荣誉' || data.target.name === '组织') {
-            return 300
-          } else {
-            return 80
-          }
-        })) // 映射id & 线的长度
-        .force('charge', d3.forceManyBody().strength(this.chargeStrength))
-        .force('xPos', d3.forceX(this.svgW / 2))
-        .force('yPos', d3.forceY(this.svgH / 2))
-        .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
-        .force('collide', d3.forceCollide(d => {
-          if (d.name === this.keyword) {
-            d.fx = this.svgW / 2 // 设置特定节点固定x坐标
-            d.fy = this.svgH / 2.5
-          }
-          return 135 - d.level * 20
-          // return 60 * d.value + 5
-        }))
+            if (data.target.name === '荣誉' || data.target.name === '组织') {
+              return 300
+            } else {
+              return 80
+            }
+          })) // 映射id & 线的长度
+          .force('charge', d3.forceManyBody().strength(this.chargeStrength))
+          .force('xPos', d3.forceX(this.svgW / 2))
+          .force('yPos', d3.forceY(this.svgH / 2))
+          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
+          .force('collide', d3.forceCollide(d => {
+            if (d.name === this.keyword) {
+              d.fx = this.svgW / 2 // 设置特定节点固定x坐标
+              d.fy = this.svgH / 2.5
+            }
+            return 135 - d.level * 20
+          }))
+      } catch (error) {
+        console.log('initSvgContainer===' + error)
+      }
     },
 
     drawSvg () {
-      this.forceSimulation
-        .nodes(this.nodes)
-        .on('tick', function (d) {
-          edges
-            .attr('x1', data => data.source.x)
-            .attr('y1', data => data.source.y)
-            .attr('x2', data => data.target.x)
-            .attr('y2', data => data.target.y)
-          gs.attr('transform', data => `translate(${data.x}, ${data.y})`)
-        })
+      try {
+        let that = this
+        this.forceSimulation
+          .nodes(this.nodes)
+          .on('tick', function (d) {
+            if (!that.graphFlag) {
+              console.log(that.graphFlag)
+              return
+            }
+            edges
+              .attr('x1', data => data.source.x)
+              .attr('y1', data => data.source.y)
+              .attr('x2', data => data.target.x)
+              .attr('y2', data => data.target.y)
+            gs.attr('transform', data => `translate(${data.x}, ${data.y})`)
+          })
+        this.forceSimulation
+          .force('link')
+          .links(this.links)
 
-      this.forceSimulation
-        .force('link')
-        .links(this.links)
+        // 绘制边
+        const edges = this.svg.append('g')
+          .selectAll('line')
+          .data(this.links)
+          .enter()
+          .append('line')
+          .attr('stroke', (data, index) => 'rgba(255,255,255,0.4)')
+          .attr('stroke-width', '2px')
+          .attr('target', data => data.target.name)
+          .attr('source', data => data.source.name)
 
-      // 绘制边
-      const edges = this.svg.append('g')
-        .selectAll('line')
-        .data(this.links)
-        .enter()
-        .append('line')
-        .attr('stroke', (data, index) => 'rgba(255,255,255,0.4)')
-        .attr('stroke-width', '2px')
-        .attr('target', data => data.target.name)
-        .attr('source', data => data.source.name)
+        const gs = this.svg.selectAll('.node')
+          .data(this.nodes)
+          .enter()
+          .append('g')
+          .attr('class', 'node')
+          .attr('name', (data) => data.name)
+          .attr('transform', (data, index) => `translate(${data.x}, ${data.y})`)
+          .call(d3.drag()
+            .on('start', this.started)
+            .on('drag', this.dragged)
+            .on('end', this.ended)
+          )
+          .on('click', (d) => {
+            this.clickHandel(d)
+          })
 
-      const gs = this.svg.selectAll('.node')
-        .data(this.nodes)
-        .enter()
-        .append('g')
-        .attr('class', 'node')
-        .attr('name', (data) => data.name)
-        .attr('transform', (data, index) => `translate(${data.x}, ${data.y})`)
-        .call(d3.drag()
-          .on('start', this.started)
-          .on('drag', this.dragged)
-          .on('end', this.ended)
-        )
-        .on('click', (d) => {
-          this.clickHandel(d)
-        })
+        gs.append('circle')
+          .attr('class', 'circle-node')
+          .attr('r', data => {
+            return this.rediusList[data.level - 1]
+          })
+          .attr('fill', d => {
+            return '#10162d'
+            // return this.colorList[d.colorIdx]
+          })
+          .attr('stroke', d => {
+            return this.colorList[d.colorIdx]
+          })
+          .attr('stroke-width', '4px')
+          .attr('style', 'cursor: pointer;')
 
-      gs.append('circle')
-        .attr('class', 'circle-node')
-        .attr('r', data => {
-          return this.rediusList[data.level - 1]
-        })
-        .attr('fill', d => {
-          return '#10162d'
-          // return this.colorList[d.colorIdx]
-        })
-        .attr('stroke', d => {
-          return this.colorList[d.colorIdx]
-        })
-        .attr('stroke-width', '4px')
-        .attr('style', 'cursor: pointer;')
-
-      gs.filter(d => {
-        if (d.level && d.level < 4) {
-          return this
-        }
-      }).append('text')
-        .attr('style', d => {
-          console.log(d)
-          return `cursor: pointer; text-anchor: middle;font-size:${this.fontSizeList[d.level - 1]}px`
-        })
-        .selectAll('tspan')
-        .data(d => d.name ? d.name.split(' ') : '')
-        .join('tspan')
-        .attr('fill', '#f1f1f1')
-        .attr('x', 0)
-        .attr('y', (d, i, nodes) => {
-          if (nodes) {
-            return `${i - nodes.length / 2 + 1.8}em`
-          } else {
-            return `0em`
+        gs.filter(d => {
+          if (d.level && d.level < 4) {
+            return this
           }
-        })
-        .text(data => data)
-        // .on('click', (data, index, nodes) => {
-        //   const id = nodes[0].parentNode['code']
-        //   this.clickHandel(id)
-        // })
+        }).append('text')
+          .attr('style', d => {
+            console.log(d)
+            return `cursor: pointer; text-anchor: middle;font-size:${this.fontSizeList[d.level - 1]}px`
+          })
+          .selectAll('tspan')
+          .data(d => d.name ? d.name.split(' ') : '')
+          .join('tspan')
+          .attr('fill', '#f1f1f1')
+          .attr('x', 0)
+          .attr('y', (d, i, nodes) => {
+            if (nodes) {
+              return `${i - nodes.length / 2 + 1.8}em`
+            } else {
+              return `0em`
+            }
+          })
+          .text(data => data)
+          // .on('click', (data, index, nodes) => {
+          //   const id = nodes[0].parentNode['code']
+          //   this.clickHandel(id)
+          // })
 
-      gs.filter(d => {
-        if ((d.level && d.level < 4)) {
-          return this
-        }
-      }).append('image')
-        .attr('href', d => {
-          return this[`${d.type}Ico`]
-        })
-        .attr('width', d => {
-          return `${this.fontSizeList[d.level] * 2}px`
-        })
-        .attr('height', d => {
-          return `${this.fontSizeList[d.level] * 2}px`
-        })
-        .attr('x', '-20')
-        .attr('y', '-40')
-      gs.filter(d => {
-        if ((d.level && d.level > 3)) {
-          return this
-        }
-      }).append('image')
-        .attr('href', d => {
-          return this[`${d.type}Ico`]
-        })
-        .attr('width', d => {
-          return `${this.fontSizeList[d.level] * 2}px`
-        })
-        .attr('height', d => {
-          return `${this.fontSizeList[d.level] * 2}px`
-        })
-        .attr('x', '-15')
-        .attr('y', '-15')
+        gs.filter(d => {
+          if ((d.level && d.level < 4)) {
+            return this
+          }
+        }).append('image')
+          .attr('href', d => {
+            return this[`${d.type}Ico`]
+          })
+          .attr('width', d => {
+            return `${this.fontSizeList[d.level] * 2}px`
+          })
+          .attr('height', d => {
+            return `${this.fontSizeList[d.level] * 2}px`
+          })
+          .attr('x', '-20')
+          .attr('y', '-40')
+        gs.filter(d => {
+          if ((d.level && d.level > 3)) {
+            return this
+          }
+        }).append('image')
+          .attr('href', d => {
+            return this[`${d.type}Ico`]
+          })
+          .attr('width', d => {
+            return `${this.fontSizeList[d.level] * 2}px`
+          })
+          .attr('height', d => {
+            return `${this.fontSizeList[d.level] * 2}px`
+          })
+          .attr('x', '-15')
+          .attr('y', d => {
+            console.log(d)
+            return d.level === 5 ? '-15' : '-20'
+          })
+      } catch (error) {
+        console.log('drawSvg===' + error)
+        this.graphFlag = false
+      }
     },
 
     started (d) {
@@ -301,42 +313,30 @@ export default {
 
     clickHandel (d) {
       if (d.level < 4) {
-        console.log(d.name)
-        if (this.centerWord.includes(d.name)) {
+        if (this.centerWordMap.hasOwnProperty(d.name)) {
           this.$router.push(`/search/${d.name}`)
         } else {
           this.currentWord = d.code
+          this.showLayout(d)
         }
       } else {
         this.currentWord = d.code
+        this.showLayout(d)
       }
     },
 
-    getRelatedWord () {
-      if (this.links) {
-        const temp = this.links.filter(item => item.source.code === this.currentWord && item.target.type === 'keyword')
-        if (temp) {
-          return temp.map(item => item.target.name)
-        } else {
-          return []
-        }
-      }
-    },
-
-    getRelatedExpert () {
-      if (this.links) {
-        const temp = this.links.filter(item => item.source.code === this.currentWord && item.target.type === 'expert')
-        if (temp) {
-          return temp.map(item => item.target.name)
-        } else {
-          return []
-        }
-      }
+    showLayout (node) {
+      console.log(node.layout)
+      this.popList = node.layoutList
+      this.popTitle = node.name
     },
 
     showPannel () {
-      return (this.getRelatedWord() !== undefined && this.getRelatedWord().length > 0) ||
-      (this.getRelatedExpert() !== undefined && this.getRelatedExpert().length > 0)
+      return this.popList && this.popList.length
+    },
+
+    getIcon (type) {
+      return this[`${type}Ico`]
     }
   },
 
@@ -374,6 +374,23 @@ export default {
       display: flex;
       justify-content: center;
     }
+    .graph-side{
+      color: #fff;
+      margin-top: 60px;
+      border-radius: 5px;
+      padding: 15px;
+      box-sizing: border-box;
+      li{
+        line-height: 40px;
+      }
+      img{
+        width: 25px;
+        vertical-align: middle;
+      }
+      span{
+        padding-left: 15px;
+      }
+    }
     .side-right{
       width: 450px;
       .side-right-con{
@@ -385,7 +402,7 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1360px;
+      width: 1160px;
       height: 100%;
     }
   }
