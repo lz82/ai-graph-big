@@ -54,6 +54,21 @@ export default {
       links: null,
       nodes: null,
       fontSizeList: [26, 24, 20, 20, 20, 15],
+      centerWord: ['李飞飞', '吴恩达', '周志华', '韩家炜', '知识库', '度量学习', '机器翻译',
+        'Feifei Li',
+        '目标检测',
+        '人脸识别',
+        '推荐系统',
+        '无人驾驶',
+        '循环神经网络',
+        '支持向量机',
+        '可解释人工智能',
+        'Geoffrey Hinton',
+        'Michael I.Jordan',
+        'SebastianThrun',
+        'William T. Freeman',
+        'Yann Lecun',
+        'Yoshua Bengio'],
       // typeList: ['expert', 'keyword', 'org', 'paper', 'patent', 'project', 'honor'], // 专家expert，关键词keyword，机构org，论文paper，专利patent，项目project，荣誉honor
       // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
       colorList: ['#6abdf3', '#49C5FE', '#F4E28F', '#E97383', '#7E48DA', '#8CECB9', '#1E90FF'],
@@ -286,7 +301,7 @@ export default {
 
     clickHandel (d) {
       if (d.level < 4) {
-        if (d.name === this.keyword) {
+        if (this.centerWord.includes(d.name)) {
           this.$router.push(`/search/${this.keyword}`)
         } else {
           this.currentWord = d.code
