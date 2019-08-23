@@ -109,7 +109,7 @@
     </div>
     <div class="cloud-left">
       <tag-cloud
-        :tags="tags"
+        :tags="expertTags"
         direct="up"
         v-if="showCloud"
         id="left"
@@ -117,7 +117,7 @@
     </div>
     <div class="cloud-right">
       <tag-cloud
-        :tags="tags"
+        :tags="keywordTags"
         id="right"
         direct="down"
         v-if="showCloud"
@@ -138,18 +138,27 @@ import anime from 'animejs'
 import Count from './count'
 import TagCloud from './tag-cloud'
 
-import tagAward from './img/ball_award.png' // 成果奖项
-// import tagBook from './img/ball_book.png' // 软著
-// import tagData from './img/ball_data.png' // 运营商数据
-import tagEnterprise from './img/ball_enterprise.png' // 科技企业
-import tagExpert from './img/ball_expert.png' // 专家
-import tagInvest from './img/ball_invest.png' // 投资机构
-import tagNews from './img/ball_news.png' // 新闻头条
-import tagPaper from './img/ball_paper.png' // 论文
-import tagPatent from './img/ball_patent.png' // 专利
-import tagPolicy from './img/ball_policy.png' // 政策
-import tagProject from './img/ball_pro.png' // 立项项目
-import tagTrade from './img/ball_trade.png' // 技术交易
+import tagGH from './img/ball/expert/gh.png'
+import tagHjw from './img/ball/expert/hjw.png'
+import tagLiff from './img/ball/expert/lifeifei.png'
+import tagMj from './img/ball/expert/mj.png'
+import tagSt from './img/ball/expert/st.png'
+import tagWed from './img/ball/expert/wed.png'
+import tagWf from './img/ball/expert/wf.png'
+import tagYb from './img/ball/expert/yb.png'
+import tagYl from './img/ball/expert/yl.png'
+import tagZzh from './img/ball/expert/zzh.png'
+
+import tagDlxx from './img/ball/keyword/dlxx.png'
+import tagJqfy from './img/ball/keyword/jqfy.png'
+import tagKjsrgzn from './img/ball/keyword/kjsrgzn.png'
+import tagMbjc from './img/ball/keyword/mbjc.png'
+import tagRlsb from './img/ball/keyword/rlsb.png'
+import tagTjxt from './img/ball/keyword/tjxt.png'
+import tagWrjs from './img/ball/keyword/wrjs.png'
+import tagXhsjwl from './img/ball/keyword/xhsjwl.png'
+import tagZcxlj from './img/ball/keyword/zcxlj.png'
+import tagZsk from './img/ball/keyword/zsk.png'
 
 export default {
   name: 'Homepage',
@@ -178,56 +187,108 @@ export default {
       showKorea: false,
       showAu: false,
       showCloud: false,
-      tags: [
+      expertTags: [
         {
-          // 成果奖项
-          img: tagAward,
-          url: '/search/吴恩达'
+          // Geoffrey Hinton
+          img: tagGH,
+          url: '/search/Geoffrey Hinton'
         },
         {
-          // 科技企业
-          img: tagEnterprise,
-          url: '/search/吴恩达'
+          // 韩家炜
+          img: tagHjw,
+          url: '/search/韩家炜'
         },
         {
-          // 专家
-          img: tagExpert,
-          url: '/search/吴恩达'
+          // 李飞飞
+          img: tagLiff,
+          url: '/search/李飞飞'
         },
         {
-          // 投资机构
-          img: tagInvest,
-          url: '/search/吴恩达'
+          // Michael I.Jordan
+          img: tagMj,
+          url: '/search/Michael I.Jordan'
         },
         {
-          // 新闻头条
-          img: tagNews,
-          url: '/search/吴恩达'
+          // SebastianThrun
+          img: tagSt,
+          url: '/search/SebastianThrun'
         },
         {
-          // 论文
-          img: tagPaper,
-          url: '/report/paper'
+          // 吴恩达
+          img: tagWed,
+          url: '/report/吴恩达'
         },
         {
-          // 专利
-          img: tagPatent,
-          url: '/search/吴恩达'
+          // William T. Freeman
+          img: tagWf,
+          url: '/search/William T. Freeman'
         },
         {
-          // 政策
-          img: tagPolicy,
-          url: '/search/吴恩达'
+          // Yoshua Bengio
+          img: tagYb,
+          url: '/search/Yoshua Bengio'
         },
         {
-          // 立项项目
-          img: tagProject,
-          url: '/search/吴恩达'
+          // Yann Lecun
+          img: tagYl,
+          url: '/search/Yann Lecun'
         },
         {
-          // 标准
-          img: tagTrade,
-          url: '/search/吴恩达'
+          // 周志华
+          img: tagZzh,
+          url: '/search/周志华'
+        }
+      ],
+      keywordTags: [
+        {
+          // 度量学习
+          img: tagDlxx,
+          url: '/search/度量学习'
+        },
+        {
+          // 机器翻译
+          img: tagJqfy,
+          url: '/search/机器翻译'
+        },
+        {
+          // 可解释人工智能
+          img: tagKjsrgzn,
+          url: '/search/可解释人工智能'
+        },
+        {
+          // 目标检测
+          img: tagMbjc,
+          url: '/search/目标检测'
+        },
+        {
+          // 人脸识别
+          img: tagRlsb,
+          url: '/search/人脸识别'
+        },
+        {
+          // 推荐系统
+          img: tagTjxt,
+          url: '/report/推荐系统'
+        },
+        {
+          // 无人驾驶
+          img: tagWrjs,
+          url: '/search/无人驾驶'
+        },
+        {
+          // 循环神经网络
+          img: tagXhsjwl,
+          url: '/search/循环神经网络'
+        },
+        {
+          // 支持向量机
+          img: tagZcxlj,
+          url: '/search/支持向量机'
+        },
+        {
+          // 知识库
+          img: tagZsk,
+          url: '/search/知识库'
         }
       ]
     }

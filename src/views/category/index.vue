@@ -43,7 +43,9 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
 import { mapMutations } from 'vuex'
 
-import card1 from './img/card.png'
+import picEnterprise from './img/enterprise.png'
+import picTalent from './img/talent.png'
+import picInvest from './img/invest.png'
 
 export default {
   name: 'Category',
@@ -60,17 +62,17 @@ export default {
       cardList: [
         {
           id: 1,
-          pic: card1,
+          pic: picEnterprise,
           url: '/report/enterprise'
         },
         {
           id: 2,
-          pic: card1,
+          pic: picTalent,
           url: '/report/talent'
         },
         {
           id: 3,
-          pic: card1,
+          pic: picInvest,
           url: '/report/invest'
         }
       ],
