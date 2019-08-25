@@ -31,6 +31,9 @@
           >
             <h4 class="title sub">人工智能</h4>
             <h3 class="title">{{item.title}}</h3>
+            <div class="img-container">
+              <img :src="r1" alt="" width="450px">
+            </div>
           </div>
         </swiper-slide>
         <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
@@ -53,6 +56,7 @@ import { mapMutations } from 'vuex'
 import picEnterprise from './img/enterprise.png'
 import picTalent from './img/talent.png'
 import picInvest from './img/invest.png'
+import r1 from './img/r1.png'
 
 export default {
   name: 'Category',
@@ -67,6 +71,8 @@ export default {
   data () {
     return {
       picEnterprise: picEnterprise,
+      picTalent: picTalent,
+      r1: r1,
       cardList: [
         {
           id: 1,
@@ -184,7 +190,7 @@ export default {
         height: 670px;
         border: solid 2px #2e4391;
         border-radius: 10px;
-        background: transparent;
+        background: rgba(46,67,145, 0.4);
         padding: 20px 0;
 
         .title {
