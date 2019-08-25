@@ -14,6 +14,10 @@ const getBaseUrl = env => {
       return {
         baseUrl: 'http://localhost:8899'
       }
+    case 'qa':
+      return {
+        baseUrl: 'http://192.168.200:8899'
+      }
     // default: dev
     default:
       return {

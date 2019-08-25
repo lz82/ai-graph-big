@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --modern",
+    "build:qa": "vue-cli-service build --mode qa --modern",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -21,7 +22,7 @@
     "vue": "^2.6.10",
     "vue-awesome-swiper": "^3.1.3",
     "vue-count-to": "^1.0.13",
-    "vue-router": "^3.0.3",
+    "vue-router": "^3.0.7",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
