@@ -77,13 +77,13 @@ export default {
 
   computed: {
     showPaper () {
-      return this.nowIndex === 0 && this.tabContent.paperVO.length > 0
+      return this.nowIndex === 0 && this.tabContent.paperVO && this.tabContent.paperVO.length > 0
     },
     showPatent () {
-      return this.nowIndex === 1 && this.tabContent.patentVO.length > 0
+      return this.nowIndex === 1 && this.tabContent.patentVO && this.tabContent.patentVO.length > 0
     },
     showStandard () {
-      return this.nowIndex === 2 && this.tabContent.standardVO.length > 0
+      return this.nowIndex === 2 && this.tabContent.standardVO.length && this.tabContent.standardVO.length > 0
     }
   }
 }
