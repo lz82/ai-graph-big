@@ -7,31 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "1909015_scholar",
-        "name": "Wolfgang Schade",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "5015007_keyword",
-        "name": "CBRE-test",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"推荐系统","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"知识库","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"协同过滤","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"用户建模","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Joseph A. Konstan","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Bamshad Mobasher","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "5015007_keyword",
-        "target": "1909015_scholar",
-        "value": 1,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": null,
     "subjectReco": [
       "Collaborative filtering",

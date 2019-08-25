@@ -20,101 +20,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "1972463_scholar",
-        "name": "Michael I. Jordan",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "60025038_affiliation",
-        "name": "University of California, Berkeley",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2078059_scholar",
-        "name": "Simon Lacoste-Julien",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2046440_scholar",
-        "name": "David Kim",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2077978_scholar",
-        "name": "Michael Cafarella",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2083856_scholar",
-        "name": "Minyu Huang",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "14540_scholar",
-        "name": "Alexandre D'Aspremont",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"Michael I. Jordan","type":"expert","level":"1","colorIdx":"0"},
+      {"code":"1","name":"荣誉","type":"honor","level":"2","colorIdx":"5"},
+      {"code":"2","name":"机构","type":"org","level":"2","colorIdx":"6"},
+      {"code":"3","name":"深度学习","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"4","name":"文本分类","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"5","name":"无监督学习","type":"keyword","level":"2","colorIdx":"3"}
+      ],
     "relations": [
-      {
-        "source": "1972463_scholar",
-        "target": "2078059_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1972463_scholar",
-        "target": "14540_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1972463_scholar",
-        "target": "2077978_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1972463_scholar",
-        "target": "2046440_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1972463_scholar",
-        "target": "60025038_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "1972463_scholar",
-        "target": "2083856_scholar",
-        "value": 1,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 356571,
@@ -352,7 +271,37 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [],
+  "paperVO": [{
+		"title": "Cost-Effective Incentive Allocation via Structured Counterfactual Inference.EI",
+		"author": "Romain Lopez, Chenchen Li, Xiang Yan, Junwu Xiong, Michael I. Jordan, Yuan Qi, Le Song",
+		"publishDate": "2019",
+		"summaryAll": "We address a practical problem ubiquitous in modern industry, in which a mediator tries to learn a policy for allocating strategic financial incentives for customers in a marketing campaign and observes only bandit feedback. In contrast to traditional policy optimization frameworks, we rely on a specific assumption for the reward structure and we incorporate budget constraints. We develop a new two-step method for solving this constrained counterfactual policy optimization problem. "
+	},
+	{
+		"title": "Challenges with EM in application to weakly identifiable mixture models.EI",
+		"author": "Raaz Dwivedi, Nhat Ho, Koulik Khamaru, Martin J. Wainwright, Michael I. Jordan, Bin Yu",
+		"publishDate": "2019",
+		"summaryAll": "We study a class of weakly identifiable location-scale mixture models for which the maximum likelihood estimates based on $n$ i.i.d. samples are known to have lower accuracy than the classical $n^{- frac{1}{2}}$ error. We investigate whether the Expectation-Maximization (EM) algorithm also converges slowly for these models. We first demonstrate via simulation studies a broad range of over-specified mixture models for which the EM algorithm converges very slowly, both in one and higher dimensions. "
+	},
+	{
+		"title": "Bridging Theory and Algorithm for Domain Adaptation.EI",
+		"author": "Yuchen Zhang, Tianle Liu, Mingsheng Long, Michael I. Jordan",
+		"publishDate": "2019",
+		"summaryAll": "This paper addresses the problem of unsupervised domain adaption from theoretical and algorithmic perspectives. Existing domain adaptation theories naturally imply minimax optimization algorithms, which connect well with the adversarial-learning based domain adaptation methods. However, several disconnections still form the gap between theory and algorithm. "
+	},
+	{
+		"title": "Is There an Analog of Nesterov Acceleration for MCMC?EI",
+		"author": "Yi-An Ma, Niladri S. Chatterji, Xiang Cheng, Nicolas Flammarion, Peter Bartlett, Michael I. Jordan",
+		"publishDate": "2019",
+		"summaryAll": "We formulate gradient-based Markov chain Monte Carlo (MCMC) sampling as optimization on the space of probability measures, with Kullback-Leibler (KL) divergence as the objective function. We show that an underdamped form of the Langevin algorithm perform accelerated gradient descent in this metric. To characterize the convergence of the algorithm, we construct a Lyapunov functional and exploit hypocoercivity of the underdamped Langevin algorithm. "
+	},
+	{
+		"title": "Boundary Attack++: Query-Efficient Decision-Based Adversarial Attack.EI",
+		"author": "Jianbo Chen, Michael I. Jordan",
+		"publishDate": "2019",
+		"summaryAll": "Decision-based adversarial attack studies the generation of adversarial examples that solely rely on output labels of a target model. In this paper, decision-based adversarial attack was formulated as an optimization problem. Motivated by zeroth-order optimization, we develop Boundary Attack++, a family of algorithms based on a novel estimate of gradient direction using binary information at the decision boundary. "
+	}
+],
   "patentVO": null,
   "bookVO": [],
   "standardVO": []

@@ -57,7 +57,7 @@ export default {
       try {
         // 力导向图
         this.forceSimulation = d3.forceSimulation()
-          .alpha(0.05) // 活力  渲染之后再自动动多久
+          .alpha(0.5) // 活力  渲染之后再自动动多久
           .force('link', d3.forceLink().id(data => data.code)) // 映射id & 线的长度
           /*
           .distance(data => {
@@ -148,7 +148,7 @@ export default {
             const id = `id-${data.code}`
             let outerR = d3.select('#' + id).attr('r') // 外围圆半径***选择器不能数字开头***
             let innerR = outerR - 8
-            let degree = data.index * 10 / 100 * 360
+            let degree = (data.index * 1 + 1) * 10 / 100 * 360 // 根据index生成的角度弧度
             let radian = data.index > 9 ? 60 : degree * Math.PI / 180
             let x = (Math.sin(radian) * innerR).toFixed(2)
             let y = -(Math.cos(radian) * innerR).toFixed(2)

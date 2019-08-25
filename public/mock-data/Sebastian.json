@@ -20,171 +20,22 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2002170_scholar",
-        "name": "Rodney allen Brooks",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2067390_scholar",
-        "name": "Pieter Abbeel",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1926352_scholar",
-        "name": "Martial Hebert",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1997754_scholar",
-        "name": "Dieter Fox",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031749_keyword",
-        "name": "Perception",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "60012708_affiliation",
-        "name": "Stanford University",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020032888_keyword",
-        "name": "Robot",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "29810_scholar",
-        "name": "Karen Havenstrite",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1882157_scholar",
-        "name": "Sebastian Thrun",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"Sebastian Thrun","type":"expert","level":"1","colorIdx":"0"},
+      {"code":"1","name":"荣誉","type":"honor","level":"2","colorIdx":"5"},
+      {"code":"2","name":"机构","type":"org","level":"2","colorIdx":"6"},
+      {"code":"3","name":"机器人","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"4","name":"无人驾驶","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"5","name":"深度学习","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"6","name":"信息过滤","type":"keyword","level":"2","colorIdx":"4"}
+      ],
     "relations": [
-      {
-        "source": "1882157_scholar",
-        "target": "60012708_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "407323_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "2067390_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "C020031749_keyword",
-        "value": 0.75,
-        "type": "keyword"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "1926352_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "C020032888_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "1997754_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "29810_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "C020042120_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "2002170_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1882157_scholar",
-        "target": "C020039005_keyword",
-        "value": 1,
-        "type": "keyword"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"},
+      {"id":"5","source":"0","target":"6"}
+      ],
     "expertReco": [
       {
         "id": 2017250,
@@ -256,828 +107,1122 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "2067390_scholar",
-        "name": "Pieter Abbeel",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "157617_scholar",
-        "name": "Qinglai Wei",
-        "type": "scholar",
-        "value": 0.57471,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018838938_keyword",
-        "name": "Visual servoing",
-        "type": "keyword",
-        "value": 0.9346,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "6231884_scholar",
-        "name": "Nicolas christian Buchs",
-        "type": "scholar",
-        "value": 0.52174,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "224496_scholar",
-        "name": "Frank Lewis",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031284_keyword",
-        "name": "robotics",
-        "type": "keyword",
-        "value": 0.9257,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "305302_keyword",
-        "name": "Convolutional neural network",
-        "type": "keyword",
-        "value": 0.9467,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2038492_scholar",
-        "name": "Michael Cohen",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031314_keyword",
-        "name": "Supervised learning",
-        "type": "keyword",
-        "value": 0.6,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "826141_scholar",
-        "name": "Tom Williamson ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2111090_scholar",
-        "name": "Christian Plagemann",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1926352_scholar",
-        "name": "Martial Hebert",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "867168_scholar",
-        "name": "王鼎",
-        "type": "scholar",
-        "value": 0.64943,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
-        "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "23592_scholar",
-        "name": "Diane Cook",
-        "type": "scholar",
-        "value": 0.55833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "6594633_scholar",
-        "name": "Robert Bogue ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020043284_keyword",
-        "name": "adaptive control",
-        "type": "keyword",
-        "value": 0.8656,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1076235_scholar",
-        "name": "Jie Zhao ",
-        "type": "scholar",
-        "value": 0.54348,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042104_keyword",
-        "name": "Artificial Intelligence",
-        "type": "keyword",
-        "value": 0.9436,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "29810_scholar",
-        "name": "Karen Havenstrite",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2027991_scholar",
-        "name": "余昭旭",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2002170_scholar",
-        "name": "Rodney allen Brooks",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031244_keyword",
-        "name": "Path planning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1897078_scholar",
-        "name": "Patricia Melin",
-        "type": "scholar",
-        "value": 0.50575,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020037235_keyword",
-        "name": "data mining",
-        "type": "keyword",
-        "value": 0.9552,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031749_keyword",
-        "name": "Perception",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2046901_scholar",
-        "name": "Zhiming Wang",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "25517_scholar",
-        "name": "Dan Goldman",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020043191_keyword",
-        "name": "computer vision",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2125473_scholar",
-        "name": "Neil Lawrence",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
-        "type": "keyword",
-        "value": 0.873,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2091182_scholar",
-        "name": "Chee khiang Pang ",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "60012708_affiliation",
-        "name": "Stanford University",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1673137_scholar",
-        "name": "Ozgur Kisi",
-        "type": "scholar",
-        "value": 0.52874,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020032888_keyword",
-        "name": "Robot",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1882157_scholar",
+        "id": 1,
+        "code": 0,
         "name": "Sebastian Thrun",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "type": "expert",
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3155388_scholar",
-        "name": "Rupert Egensperger",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 2,
+        "code": 1,
+        "name": "荣誉",
+        "type": "honor",
+        "level": 2,
+        "colorIdx": 5,
+        "keyword": "Sebastian",
+        "layout": "2006年 选为国家工程学院成员/2007年 选入勒奥波特迪纳科学院/2005年 美国国家科学基金会颁发的杰出5项职业奖之一/1999-2003年 奥林巴斯奖/2001年 德国社会表彰模式奖/2012年全球前100名思想家奖，max-Planck-研究奖/2011年 首个AAAI ed Fgenbaum奖中最具创造力的人之一/2011年 被FAST公司选为商界第五位最具创造力的人/2012年 美国教育界独创性奖",
+        "layoutList": [
+          "2006年 选为国家工程学院成员",
+          "2007年 选入勒奥波特迪纳科学院",
+          "2005年 美国国家科学基金会颁发的杰出5项职业奖之一",
+          "1999-2003年 奥林巴斯奖",
+          "2001年 德国社会表彰模式奖",
+          "2012年全球前100名思想家奖，max-Planck-研究奖",
+          "2011年 首个AAAI ed Fgenbaum奖中最具创造力的人之一",
+          "2011年 被FAST公司选为商界第五位最具创造力的人",
+          "2012年 美国教育界独创性奖"
+        ]
       },
       {
-        "id": "932921_scholar",
-        "name": "刘德荣",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 3,
+        "code": 2,
+        "name": "组织",
+        "type": "org",
+        "level": 2,
+        "colorIdx": 6,
+        "keyword": "Sebastian",
+        "layout": "斯坦福大学\n佐治亚理工学院（兼职）",
+        "layoutList": [
+          "斯坦福大学\n佐治亚理工学院（兼职）"
+        ]
       },
       {
-        "id": "C018785928_keyword",
-        "name": "Unsupervised learning",
+        "id": 4,
+        "code": 3,
+        "name": "机器人",
         "type": "keyword",
-        "value": 0.8,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": "机器人（Robot）是自动执行工作的机器装置。它既可以接受人类指挥，又可以运行预先编排的程序，也可以根据以人工智能技术制定的原则纲领行动。它的任务是协助或取代人类工作的工作，例如生产业、建筑业，或是危险的工作。",
+        "layoutList": [
+          "机器人（Robot）是自动执行工作的机器装置。它既可以接受人类指挥，又可以运行预先编排的程序，也可以根据以人工智能技术制定的原则纲领行动。它的任务是协助或取代人类工作的工作，例如生产业、建筑业，或是危险的工作。"
+        ]
       },
       {
-        "id": "23586_keyword",
-        "name": "Scene understanding",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": "Policy-contingent abstraction for robust robot control.\nAutomatic calibration of RGBD and thermal cameras.\nAutomatic Online Calibration of Cameras and Lasers.\nUnsupervised Intrinsic Calibration of Depth Sensors via SLAM.\nTracking-Based Semi-Supervised Learning.\nPath Planning for Autonomous Vehicles in Unknown Semi-structured Environments.\nAleksandr Segal, Dirk Hähnel, Sebastian Thrun:",
+        "layoutList": [
+          "Policy-contingent abstraction for robust robot control.\nAutomatic calibration of RGBD and thermal cameras.\nAutomatic Online Calibration of Cameras and Lasers.\nUnsupervised Intrinsic Calibration of Depth Sensors via SLAM.\nTracking-Based Semi-Supervised Learning.\nPath Planning for Autonomous Vehicles in Unknown Semi-structured Environments.\nAleksandr Segal, Dirk Hähnel, Sebastian Thrun:"
+        ]
       },
       {
-        "id": "60015481_affiliation",
-        "name": "University of Washington, Seattle",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
+        "id": 6,
+        "code": 6,
+        "name": "Wolfram Burgard",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": "(1961年生于德国盖尔森基兴)是一名德国机器人学家。他是阿尔伯特·路德维格斯大学弗赖堡分校的正式教授，在那里他领导着自主智能系统实验室。众所周知，他对同时定位和映射(SLAM)问题做出了重大贡献，同时也为机器人技术做出了各种各样的贡献。 ",
+        "layoutList": [
+          "(1961年生于德国盖尔森基兴)是一名德国机器人学家。他是阿尔伯特·路德维格斯大学弗赖堡分校的正式教授，在那里他领导着自主智能系统实验室。众所周知，他对同时定位和映射(SLAM)问题做出了重大贡献，同时也为机器人技术做出了各种各样的贡献。 "
+        ]
       },
       {
-        "id": "2079372_scholar",
-        "name": "Shwetak Patel",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1278002_scholar",
-        "name": "yì Wáng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "138174_scholar",
-        "name": "Chengdong Wu",
-        "type": "scholar",
-        "value": 0.54348,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "410277_scholar",
-        "name": "Min Liu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "433065_scholar",
-        "name": "吴翠红",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "366996_scholar",
-        "name": "Michal Wozniak",
-        "type": "scholar",
-        "value": 0.90833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "381285_scholar",
-        "name": "André de",
-        "type": "scholar",
-        "value": 0.50833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2049173_scholar",
-        "name": "Liyuan Li",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "87177_scholar",
-        "name": "Wenling Jiao ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1888596_scholar",
-        "name": "Taghi Khoshgoftaar",
-        "type": "scholar",
-        "value": 0.575,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1997754_scholar",
+        "id": 7,
+        "code": 7,
         "name": "Dieter Fox",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": "德国机器人专家和西雅图华盛顿大学计算机科学与工程系教授。他最令人称道的贡献等几个领域的机器人,人工智能,机器学习,无处不在的计算。Sebastian Thrun Wolfram Burgard和他是这本书的作者之一。",
+        "layoutList": [
+          "德国机器人专家和西雅图华盛顿大学计算机科学与工程系教授。他最令人称道的贡献等几个领域的机器人,人工智能,机器学习,无处不在的计算。Sebastian Thrun Wolfram Burgard和他是这本书的作者之一。"
+        ]
       },
       {
-        "id": "417721_scholar",
-        "name": "Bin Li",
-        "type": "scholar",
-        "value": 0.54348,
-        "releExpert": null,
-        "releSubject": null
+        "id": 8,
+        "code": 8,
+        "name": "同步定位与地图构建",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "432115_scholar",
-        "name": "葛晓敏",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 9,
+        "code": 9,
+        "name": "贝叶斯",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 10,
+        "code": 10,
+        "name": "目标识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 11,
+        "code": 11,
+        "name": "多目标跟踪",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 12,
+        "name": "Cyrill Stachniss",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 13,
+        "name": "Giorgio Grisetti",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 14,
+        "name": "Kristian Kersting",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 15,
+        "name": "Christian Plagemann",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 16,
+        "name": "Xiaofeng Ren",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 17,
+        "name": "Liefeng Bo",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 18,
+        "name": "Armin B. Cremers",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 19,
+        "name": "Dirk Schulz",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 20,
+        "code": 20,
+        "name": "无人驾驶",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。",
+        "layoutList": [
+          "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 21,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": "A probabilistic framework for car detection in images using context and scale./Traffic light mapping, localization, and state detection for autonomous vehicles. /Towards fully autonomous driving: Systems and algorithms./Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments./Assisted Highway Lane Changing with RASCL./A probabilistic approach to mixed open-loop and closed-loop control, with application to extreme autonomous driving.",
+        "layoutList": [
+          "A probabilistic framework for car detection in images using context and scale.",
+          "Traffic light mapping, localization, and state detection for autonomous vehicles. ",
+          "Towards fully autonomous driving: Systems and algorithms.",
+          "Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments.",
+          "Assisted Highway Lane Changing with RASCL.",
+          "A probabilistic approach to mixed open-loop and closed-loop control, with application to extreme autonomous driving."
+        ]
+      },
+      {
+        "id": 22,
+        "code": 23,
+        "name": "Michael Montemerlo",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": "他在移动机器人的有效概率方法领域做出了贡献。他就读于卡内基梅隆大学，1997年获得学士和硕士学位，2003年获得博士学位。他的论文导师是威廉·l·惠特克(William L. Whittaker)和塞巴斯蒂安·特龙(Sebastian Thrun)，两人都将指导DARPA Grand Challenge的获奖团队。在Thrun的领导下，Montemerlo成为斯坦福大学为Stanley编写软件的团队的领导者。",
+        "layoutList": [
+          "他在移动机器人的有效概率方法领域做出了贡献。他就读于卡内基梅隆大学，1997年获得学士和硕士学位，2003年获得博士学位。他的论文导师是威廉·l·惠特克(William L. Whittaker)和塞巴斯蒂安·特龙(Sebastian Thrun)，两人都将指导DARPA Grand Challenge的获奖团队。在Thrun的领导下，Montemerlo成为斯坦福大学为Stanley编写软件的团队的领导者。"
+        ]
+      },
+      {
+        "id": 23,
+        "code": 24,
+        "name": "David Stavens",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": "(DavidStavens)是一位美国企业家和科学家。他是Udacity的联合创始人和首席执行官，也是斯坦利的共同创建者，斯坦利是DARPA大挑战第二次无人驾驶汽车竞赛的赢家。斯塔文斯在机器人、机器学习和人工智能领域发表了论文。 ",
+        "layoutList": [
+          "(DavidStavens)是一位美国企业家和科学家。他是Udacity的联合创始人和首席执行官，也是斯坦利的共同创建者，斯坦利是DARPA大挑战第二次无人驾驶汽车竞赛的赢家。斯塔文斯在机器人、机器学习和人工智能领域发表了论文。 "
+        ]
+      },
+      {
+        "id": 24,
+        "code": 25,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 26,
+        "name": "路径规划",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 27,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 28,
+        "name": "路径规划",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 29,
+        "name": "Nicholas Roy",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 30,
+        "name": "Matt MacMahon",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 31,
+        "name": "Hendrik Dahlkamp",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 32,
+        "name": "Dirk Hähnel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 33,
+        "name": "Scott Ettinger",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 34,
+        "name": "David Orenstein",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 34,
+        "code": 35,
+        "name": "Jan Becker",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 35,
+        "code": 36,
+        "name": "Ganymed Stanek",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 37,
+        "name": "深度学习",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": "深度学习是机器学习的技术和研究领域之一，通过建立具有层次结构的人工神经网络，在计算系统中实现人工智能 。由于阶层ANN能够对输入信息进行逐层提取和筛选，因此深度学习具有表征学习能力 ，可以实现端到端的监督学习和非监督学习。",
+        "layoutList": [
+          "深度学习是机器学习的技术和研究领域之一，通过建立具有层次结构的人工神经网络，在计算系统中实现人工智能 。由于阶层ANN能够对输入信息进行逐层提取和筛选，因此深度学习具有表征学习能力 ，可以实现端到端的监督学习和非监督学习。"
+        ]
+      },
+      {
+        "id": 37,
+        "code": 38,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": "Deep Learning for Single-View Instance Recognition./Dermatologist-level classification of skin cancer with deep neural networks./Skin Cancer Detection and Tracking Using Data Synthesis and Deep Learning./Learning to Track at 100 FPS with Deep Regression Networks.",
+        "layoutList": [
+          "Deep Learning for Single-View Instance Recognition.",
+          "Dermatologist-level classification of skin cancer with deep neural networks.",
+          "Skin Cancer Detection and Tracking Using Data Synthesis and Deep Learning.",
+          "Learning to Track at 100 FPS with Deep Regression Networks."
+        ]
+      },
+      {
+        "id": 38,
+        "code": 40,
+        "name": "Silvio Savarese",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": "Silvio Savarese是斯坦福大学计算机科学副教授和首届Mindtree Faculty Scholar。他获得了博士学位。他于2005年在加州理工学院获得电气工程专业，并于2005年至2008年在伊利诺伊大学厄巴纳 - 香槟分校担任贝克曼研究所研究员。他于2008年加入斯坦福大学，之后于2008年至2013年担任密歇根大学安娜堡分校电子与计算机工程副助理教授。他的研究兴趣包括计算机视觉，机器人知觉和机器学习。他获得了多项奖项，包括2016年CVPR的最佳学生论文奖，James R. Croes 2013年获得奖牌，2012年获得TRW汽车捐赠研究奖，2011年获得NSF职业奖，2010年获得谷歌研究奖。2002年，他因杰出的研究计划获得了Walker von Brimer奖。",
+        "layoutList": [
+          "Silvio Savarese是斯坦福大学计算机科学副教授和首届Mindtree Faculty Scholar。他获得了博士学位。他于2005年在加州理工学院获得电气工程专业，并于2005年至2008年在伊利诺伊大学厄巴纳 - 香槟分校担任贝克曼研究所研究员。他于2008年加入斯坦福大学，之后于2008年至2013年担任密歇根大学安娜堡分校电子与计算机工程副助理教授。他的研究兴趣包括计算机视觉，机器人知觉和机器学习。他获得了多项奖项，包括2016年CVPR的最佳学生论文奖，James R. Croes 2013年获得奖牌，2012年获得TRW汽车捐赠研究奖，2011年获得NSF职业奖，2010年获得谷歌研究奖。2002年，他因杰出的研究计划获得了Walker von Brimer奖。"
+        ]
+      },
+      {
+        "id": 39,
+        "code": 41,
+        "name": "David Held",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": "生于 1951，是一个专业从事政治理论和国际关系的英国政治科学家。他目前担任达勒姆大学政治和国际关系教授和大学学院硕士。他也是一个访问学者，在Libera大学的政治学教授， 以前他曾担任政治学教授格雷厄姆·瓦利斯和伦敦经济学院全球治理研究中心联合主任在世界主义，特别是世界主义民主的发展中占有突出地位。他一直是全球化、全球治理问题的积极学者，也是学术期刊“全球政策”(GlobalPolicy)的联合主编。",
+        "layoutList": [
+          "生于 1951，是一个专业从事政治理论和国际关系的英国政治科学家。他目前担任达勒姆大学政治和国际关系教授和大学学院硕士。他也是一个访问学者，在Libera大学的政治学教授， 以前他曾担任政治学教授格雷厄姆·瓦利斯和伦敦经济学院全球治理研究中心联合主任在世界主义，特别是世界主义民主的发展中占有突出地位。他一直是全球化、全球治理问题的积极学者，也是学术期刊“全球政策”(GlobalPolicy)的联合主编。"
+        ]
+      },
+      {
+        "id": 40,
+        "code": 42,
+        "name": "自监督学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 43,
+        "name": "迁移学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 44,
+        "name": "强化学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 45,
+        "name": "无人驾驶",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 46,
+        "name": "Yuke Zhu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 47,
+        "name": "Fei-Fei Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 48,
+        "name": "Jitendra Malik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 49,
+        "name": "Amir Roshan Zamir",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 48,
+        "code": 50,
+        "name": "Pieter Abbeel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 49,
+        "code": 51,
+        "name": "Carlos Florensa",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 52,
+        "name": "Jesse Levinson",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 53,
+        "name": "Dirk Langer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 54,
+        "name": "信息过滤",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": "信息过滤有很多定义，Belkin和Croft的文章给出了这样的定义：信息过滤是用以描述一系列将信息传递给需要它的用户处理过程的总称。",
+        "layoutList": [
+          "信息过滤有很多定义，Belkin和Croft的文章给出了这样的定义：信息过滤是用以描述一系列将信息传递给需要它的用户处理过程的总称。"
+        ]
+      },
+      {
+        "id": 53,
+        "code": 55,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": "Learning to Segment and Track in RGBD./Multi-view image and ToF sensor fusion for dense 3D reconstruction./High-quality scanning using time-of-flight depth superresolution./The Information-Form Data Association Filter./Recovering Articulated Object Models from 3D Range Data.",
+        "layoutList": [
+          "Learning to Segment and Track in RGBD.",
+          "Multi-view image and ToF sensor fusion for dense 3D reconstruction.",
+          "High-quality scanning using time-of-flight depth superresolution.",
+          "The Information-Form Data Association Filter.",
+          "Recovering Articulated Object Models from 3D Range Data."
+        ]
+      },
+      {
+        "id": 54,
+        "code": 56,
+        "name": "Daphne Koller",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": "(1968年8月27日出生) 是斯坦福大学计算机科学系的一名以色列裔美国教授和麦克阿瑟奖学金获得者。她也是在线教育平台Coursera的创始人之一。她的一般研究领域是人工智能及其在生物医学科学中的应用。她的工作重点是表现、推理、学习和决策，最近她开始关注计算机视觉和计算生物学。和医生一起。斯坦福大学的安娜·佩恩(AnnaPenn)开发了物理评分，它使用各种数据元素来预测早产婴儿是否有可能有健康问题。在2004年麻省理工学院技术审查的一篇题为“关于贝叶斯机器学习主题的\"10个将改变您的世界的新兴技术\"”的文章中介绍了Koller。",
+        "layoutList": [
+          "(1968年8月27日出生) 是斯坦福大学计算机科学系的一名以色列裔美国教授和麦克阿瑟奖学金获得者。她也是在线教育平台Coursera的创始人之一。她的一般研究领域是人工智能及其在生物医学科学中的应用。她的工作重点是表现、推理、学习和决策，最近她开始关注计算机视觉和计算生物学。和医生一起。斯坦福大学的安娜·佩恩(AnnaPenn)开发了物理评分，它使用各种数据元素来预测早产婴儿是否有可能有健康问题。在2004年麻省理工学院技术审查的一篇题为“关于贝叶斯机器学习主题的\"10个将改变您的世界的新兴技术\"”的文章中介绍了Koller。"
+        ]
+      },
+      {
+        "id": 55,
+        "code": 57,
+        "name": "Zoubin Ghahramani",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": "Zoubin Ghahramani在宾夕法尼亚大学学习计算机科学和认知科学，1995年获得麻省理工学院博士学位，并且是多伦多大学的博士后研究员。他的学术生涯包括同时担任伦敦Gatsby计算神经科学部门的创始成员之一，并担任CMU机器学习部门的教员超过10年。他目前的研究重点是非参数贝叶斯建模和统计机器学习。他还致力于生物信息学，计量经济学和各种大规模数据建模问题的应用。他在计算机科学，统计学，工程学和神经科学等领域拥有200多种出版物。他曾在JMLR，JAIR，统计年鉴，机器学习的编辑委员会任职，贝叶斯分析，IEEE模式分析与机器智能交易（副主编）。他还曾担任国际机器学习协会理事会成员，并担任NIPS，ICML和AISTATS会议的计划主席。",
+        "layoutList": [
+          "Zoubin Ghahramani在宾夕法尼亚大学学习计算机科学和认知科学，1995年获得麻省理工学院博士学位，并且是多伦多大学的博士后研究员。他的学术生涯包括同时担任伦敦Gatsby计算神经科学部门的创始成员之一，并担任CMU机器学习部门的教员超过10年。他目前的研究重点是非参数贝叶斯建模和统计机器学习。他还致力于生物信息学，计量经济学和各种大规模数据建模问题的应用。他在计算机科学，统计学，工程学和神经科学等领域拥有200多种出版物。他曾在JMLR，JAIR，统计年鉴，机器学习的编辑委员会任职，贝叶斯分析，IEEE模式分析与机器智能交易（副主编）。他还曾担任国际机器学习协会理事会成员，并担任NIPS，ICML和AISTATS会议的计划主席。"
+        ]
+      },
+      {
+        "id": 56,
+        "code": 58,
+        "name": "知识库",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 60,
+        "name": "神经网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 61,
+        "name": "关联规则学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 62,
+        "name": "贝叶斯",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 63,
+        "name": "Joseph Y. Halpern",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 64,
+        "name": "Adam J. Grove",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 62,
+        "code": 65,
+        "name": "Nir Friedman",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 63,
+        "code": 66,
+        "name": "Eran Segal",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 64,
+        "code": 67,
+        "name": "David A. Knowles",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 65,
+        "code": 68,
+        "name": "Konstantina Palla",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 66,
+        "code": 69,
+        "name": "David L. Wild",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 67,
+        "code": 70,
+        "name": "Wei Chu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 4,
+        "keyword": "Sebastian",
+        "layout": null,
+        "layoutList": null
       }
     ],
     "relations": [
       {
-        "source": "C020032888_keyword",
-        "target": "6594633_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "C020042120_keyword",
-        "target": "23592_scholar",
-        "value": 0.55833,
-        "type": "scholar"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2091182_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "C020042120_keyword",
-        "target": "715311_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 19,
+        "source": 0,
+        "target": 20
       },
       {
-        "source": "C020039005_keyword",
-        "target": "432115_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 35,
+        "source": 0,
+        "target": 37
       },
       {
-        "source": "C020032888_keyword",
-        "target": "6231884_scholar",
-        "value": 0.52174,
-        "type": "scholar"
+        "id": 51,
+        "source": 0,
+        "target": 54
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C020043284_keyword",
-        "value": 0.8656,
-        "type": "keyword"
+        "id": 4,
+        "source": 3,
+        "target": 4
       },
       {
-        "source": "1882157_scholar",
-        "target": "407323_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 5,
+        "source": 3,
+        "target": 6
       },
       {
-        "source": "1882157_scholar",
-        "target": "2067390_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 6,
+        "source": 3,
+        "target": 7
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2049173_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 7,
+        "source": 6,
+        "target": 8
       },
       {
-        "source": "C020042120_keyword",
-        "target": "1888596_scholar",
-        "value": 0.575,
-        "type": "scholar"
+        "id": 8,
+        "source": 6,
+        "target": 9
       },
       {
-        "source": "1997754_scholar",
-        "target": "2079372_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 9,
+        "source": 7,
+        "target": 10
       },
       {
-        "source": "C020039005_keyword",
-        "target": "867168_scholar",
-        "value": 0.64943,
-        "type": "scholar"
+        "id": 10,
+        "source": 7,
+        "target": 11
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2027991_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 11,
+        "source": 8,
+        "target": 12
       },
       {
-        "source": "1926352_scholar",
-        "target": "C018785928_keyword",
-        "value": 0.8,
-        "type": "keyword"
+        "id": 12,
+        "source": 8,
+        "target": 13
       },
       {
-        "source": "C020032888_keyword",
-        "target": "417721_scholar",
-        "value": 0.54348,
-        "type": "scholar"
+        "id": 13,
+        "source": 9,
+        "target": 14
       },
       {
-        "source": "C020032888_keyword",
-        "target": "C020031244_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 14,
+        "source": 9,
+        "target": 15
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1673137_scholar",
-        "value": 0.52874,
-        "type": "scholar"
+        "id": 15,
+        "source": 10,
+        "target": 16
       },
       {
-        "source": "1882157_scholar",
-        "target": "1997754_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 16,
+        "source": 10,
+        "target": 17
       },
       {
-        "source": "1882157_scholar",
-        "target": "29810_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 17,
+        "source": 11,
+        "target": 18
       },
       {
-        "source": "C020039005_keyword",
-        "target": "932921_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 18,
+        "source": 11,
+        "target": 19
       },
       {
-        "source": "1882157_scholar",
-        "target": "C020039005_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 20,
+        "source": 20,
+        "target": 21
       },
       {
-        "source": "C020042120_keyword",
-        "target": "366996_scholar",
-        "value": 0.90833,
-        "type": "scholar"
+        "id": 21,
+        "source": 20,
+        "target": 23
       },
       {
-        "source": "1882157_scholar",
-        "target": "60012708_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 22,
+        "source": 20,
+        "target": 24
       },
       {
-        "source": "1926352_scholar",
-        "target": "C020043191_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 23,
+        "source": 23,
+        "target": 25
       },
       {
-        "source": "1882157_scholar",
-        "target": "1926352_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 24,
+        "source": 23,
+        "target": 26
       },
       {
-        "source": "1882157_scholar",
-        "target": "C020032888_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 25,
+        "source": 24,
+        "target": 27
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C018811890_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 26,
+        "source": 24,
+        "target": 28
       },
       {
-        "source": "C020039005_keyword",
-        "target": "410277_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 27,
+        "source": 25,
+        "target": 29
       },
       {
-        "source": "C020039005_keyword",
-        "target": "87177_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 28,
+        "source": 25,
+        "target": 30
       },
       {
-        "source": "1926352_scholar",
-        "target": "23586_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 29,
+        "source": 26,
+        "target": 31
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2046901_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 30,
+        "source": 26,
+        "target": 32
       },
       {
-        "source": "C020039005_keyword",
-        "target": "157617_scholar",
-        "value": 0.57471,
-        "type": "scholar"
+        "id": 31,
+        "source": 27,
+        "target": 33
       },
       {
-        "source": "C020039005_keyword",
-        "target": "433065_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 32,
+        "source": 27,
+        "target": 34
       },
       {
-        "source": "1997754_scholar",
-        "target": "2038492_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 33,
+        "source": 28,
+        "target": 35
       },
       {
-        "source": "1997754_scholar",
-        "target": "25517_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 34,
+        "source": 28,
+        "target": 36
       },
       {
-        "source": "1997754_scholar",
-        "target": "2125473_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 36,
+        "source": 37,
+        "target": 38
       },
       {
-        "source": "C020042120_keyword",
-        "target": "381285_scholar",
-        "value": 0.50833,
-        "type": "scholar"
+        "id": 37,
+        "source": 37,
+        "target": 40
       },
       {
-        "source": "C020032888_keyword",
-        "target": "138174_scholar",
-        "value": 0.54348,
-        "type": "scholar"
+        "id": 38,
+        "source": 37,
+        "target": 41
       },
       {
-        "source": "C020042120_keyword",
-        "target": "C018819637_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 39,
+        "source": 40,
+        "target": 42
       },
       {
-        "source": "C020032888_keyword",
-        "target": "1076235_scholar",
-        "value": 0.54348,
-        "type": "scholar"
+        "id": 40,
+        "source": 40,
+        "target": 43
       },
       {
-        "source": "1926352_scholar",
-        "target": "C020031314_keyword",
-        "value": 0.6,
-        "type": "keyword"
+        "id": 41,
+        "source": 41,
+        "target": 44
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1897078_scholar",
-        "value": 0.50575,
-        "type": "scholar"
+        "id": 42,
+        "source": 41,
+        "target": 45
       },
       {
-        "source": "1882157_scholar",
-        "target": "2002170_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 43,
+        "source": 42,
+        "target": 46
       },
       {
-        "source": "1997754_scholar",
-        "target": "2111090_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 44,
+        "source": 42,
+        "target": 47
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1278002_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 45,
+        "source": 43,
+        "target": 48
       },
       {
-        "source": "C020039005_keyword",
-        "target": "224496_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 46,
+        "source": 43,
+        "target": 49
       },
       {
-        "source": "1882157_scholar",
-        "target": "C020031749_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 47,
+        "source": 44,
+        "target": 50
       },
       {
-        "source": "C020032888_keyword",
-        "target": "C020031284_keyword",
-        "value": 0.9257,
-        "type": "keyword"
+        "id": 48,
+        "source": 44,
+        "target": 51
       },
       {
-        "source": "C020032888_keyword",
-        "target": "C020042104_keyword",
-        "value": 0.9436,
-        "type": "keyword"
+        "id": 49,
+        "source": 45,
+        "target": 52
       },
       {
-        "source": "1882157_scholar",
-        "target": "C020042120_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 50,
+        "source": 45,
+        "target": 53
       },
       {
-        "source": "C020032888_keyword",
-        "target": "3155388_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 52,
+        "source": 54,
+        "target": 55
       },
       {
-        "source": "1997754_scholar",
-        "target": "60015481_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 53,
+        "source": 54,
+        "target": 57
       },
       {
-        "source": "C020032888_keyword",
-        "target": "C018838938_keyword",
-        "value": 0.9346,
-        "type": "keyword"
+        "id": 54,
+        "source": 54,
+        "target": 58
       },
       {
-        "source": "C020032888_keyword",
-        "target": "826141_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 55,
+        "source": 57,
+        "target": 59
       },
       {
-        "source": "407323_keyword",
-        "target": "305302_keyword",
-        "value": 0.9467,
-        "type": "keyword"
+        "id": 56,
+        "source": 57,
+        "target": 60
       },
       {
-        "source": "C020042120_keyword",
-        "target": "C020037235_keyword",
-        "value": 0.9552,
-        "type": "keyword"
+        "id": 57,
+        "source": 58,
+        "target": 61
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C018918649_keyword",
-        "value": 0.873,
-        "type": "keyword"
+        "id": 58,
+        "source": 58,
+        "target": 62
+      },
+      {
+        "id": 61,
+        "source": 60,
+        "target": 65
+      },
+      {
+        "id": 62,
+        "source": 60,
+        "target": 66
+      },
+      {
+        "id": 63,
+        "source": 61,
+        "target": 67
+      },
+      {
+        "id": 64,
+        "source": 61,
+        "target": 68
+      },
+      {
+        "id": 65,
+        "source": 62,
+        "target": 69
+      },
+      {
+        "id": 66,
+        "source": 62,
+        "target": 70
       }
-    ],
+    ]
+  ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

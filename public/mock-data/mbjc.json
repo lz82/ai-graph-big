@@ -7,45 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "1794383_scholar",
-        "name": "Desmond Higham ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "358324_keyword",
-        "name": "Matrix logarithm",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1316079_scholar",
-        "name": "Peter Grindrod ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"目标检测","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"人脸识别","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"边缘检测","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"图像分类","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Ross B. Girshick","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Bastian Leibe","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "358324_keyword",
-        "target": "1316079_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "358324_keyword",
-        "target": "1794383_scholar",
-        "value": 1,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": null,
     "subjectReco": [
       "Computer vision",

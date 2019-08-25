@@ -7,157 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 0.8793,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1954356_scholar",
-        "name": "杨瓞仁",
-        "type": "scholar",
-        "value": 0.52778,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018956191_keyword",
-        "name": "Face recognition",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "46192_scholar",
-        "name": "鲁继文 ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
-        "type": "keyword",
-        "value": 0.9464,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "349010_scholar",
-        "name": "张大鹏",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "622342_scholar",
-        "name": "Junlin Hu",
-        "type": "scholar",
-        "value": 0.61111,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
-        "type": "keyword",
-        "value": 0.8838,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
-        "type": "keyword",
-        "value": 0.8838,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "217232_keyword",
-        "name": "Metric learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1365947_scholar",
-        "name": "左旺孟",
-        "type": "scholar",
-        "value": 0.86111,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
-    "relations": [
-      {
-        "source": "217232_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.8793,
-        "type": "keyword"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "622342_scholar",
-        "value": 0.61111,
-        "type": "scholar"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "1954356_scholar",
-        "value": 0.52778,
-        "type": "scholar"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "C018819637_keyword",
-        "value": 0.8838,
-        "type": "keyword"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "407323_keyword",
-        "value": 0.9464,
-        "type": "keyword"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "C018956191_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "46192_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "C018918649_keyword",
-        "value": 0.8838,
-        "type": "keyword"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "1365947_scholar",
-        "value": 0.86111,
-        "type": "scholar"
-      },
-      {
-        "source": "217232_keyword",
-        "target": "349010_scholar",
-        "value": 0.58333,
-        "type": "scholar"
-      }
-    ],
+      {"code":"0","name":"度量学习","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"推荐系统","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"信息检索","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"分类","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Kilian Q. Weinberger","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"李航","type":"expert","level":"2","colorIdx":"0"}
+      ],
+    "relations":[
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 1998749,

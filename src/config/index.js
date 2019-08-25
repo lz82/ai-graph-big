@@ -23,10 +23,6 @@ const getBaseUrl = env => {
 }
 
 const centerWordMap = {
-  '李飞飞': 'lff',
-  '吴恩达': 'wed',
-  '周志华': 'zzh',
-  '韩家炜': 'hjw',
   '知识库': 'zsk',
   '度量学习': 'dlxx',
   '机器翻译': 'jqfy',
@@ -37,9 +33,13 @@ const centerWordMap = {
   '循环神经网络': 'xhsjwl',
   '支持向量机': 'zcxlj',
   '可解释性': 'kjsx',
+  '李飞飞': 'lff',
+  '吴恩达': 'wed',
+  '周志华': 'zzh',
+  '韩家炜': 'hjw',
   'Geoffrey Hinton': 'Geoffrey',
   'Michael I. Jordan': 'Michael',
-  'SebastianThrun': 'Sebastian',
+  'Sebastian Thrun': 'Sebastian',
   'William T. Freeman': 'William',
   'Yann Lecun': 'Yann',
   'Yoshua Bengio': 'Yoshua'

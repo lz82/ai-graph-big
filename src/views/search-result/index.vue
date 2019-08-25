@@ -1,12 +1,13 @@
 <template>
     <div class="search-layout-wrapper">
       <div class="side-bar side-left">
-        <h2 class='comm-title'>{{getTitlt()}}</h2>
+        <h2 class='comm-title' v-html="getTitle"></h2>
         <!-- expert info -->
         <expert-info v-if="result && result.expertVO" :info='result.expertVO'></expert-info>
         <!-- tab bar  -->
         <tab-bar v-if="result"
           :tabContent='result'
+          :keyword='keyword'
           :class="{'tab-wrap-expert':isExpert(),'tab-wrap-key':!isExpert()}">
         </tab-bar>
       </div>
@@ -117,12 +118,6 @@ export default {
       // this.$root.evenHub.$emit('switchTab',item, index)
     },
 
-    getTitlt () {
-      console.log(this.type)
-      // return this.type === 'expert' ? '专家' : '关键词'
-      return this.result && this.result.expertVO ? '专家信息' : `${this.keyword}相关信息`
-    },
-
     isExpert () {
       return this.result && this.result.expertVO
     },
@@ -130,10 +125,27 @@ export default {
     routerRefresh () {
       this.routerAlive = false
       this.$nextTick(() => { this.routerAlive = true })
+    },
+
+    getSubTitle (param) {
+      switch (param) {
+        case '知识库':
+          return param + '<span class="subTitle"> Knowledge Base</span>'
+        case '循环神经网络':
+          return param + '<span class="subTitle"> Recurrent Neural Networks</span>'
+        case '支持向量机':
+          return param + '<span class="subTitle"> Support Vector Machine（SVM）</span>'
+        default:
+          return param
+      }
     }
   },
 
   computed: {
+    getTitle () {
+      console.log(this.type)
+      return this.result && this.result.expertVO ? '专家信息' : this.getSubTitle(this.keyword)
+    },
     showRelatedExpert () {
       return this.type !== 'other' &&
         this.result &&
@@ -208,7 +220,7 @@ export default {
     flex: 0 0 450px;
     padding: 30px 10px 30px 20px;
     h2{
-      font-size: 20px;
+      font-size: 28px;
       color: @fontColor;
     }
   }
@@ -272,6 +284,10 @@ export default {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+}
+.side-left .subTitle{
+  font-size: 16px!important;
+  font-weight: normal;
 }
   /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar

@@ -21,96 +21,78 @@
     "fwciinedx": 13.89
   },
   "mapVO": {
-     "nodes": [
+    "nodes": [
       {
-        "id": 1,
-        "code": 0,
-        "name": "Feifei Li",
+        "code": "0",
+        "name": "李飞飞",
         "type": "expert",
-        "level": 1,
-        "colorIdx": 0,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "1",
+        "colorIdx": "0"
       },
       {
-        "id": 2,
-        "code": 1,
+        "code": "1",
         "name": "荣誉",
         "type": "honor",
-        "level": 2,
-        "colorIdx": 5,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "2",
+        "colorIdx": "5"
       },
       {
-        "id": 3,
-        "code": 2,
-        "name": "组织",
+        "code": "2",
+        "name": "机构",
         "type": "org",
-        "level": 2,
-        "colorIdx": 6,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "2",
+        "colorIdx": "6"
       },
       {
-        "id": 4,
-        "code": 3,
+        "code": "3",
         "name": "计算机视觉",
         "type": "keyword",
-        "level": 2,
-        "colorIdx": 1,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "2",
+        "colorIdx": "1"
       },
       {
-        "id": 21,
-        "code": 20,
+        "code": "4",
         "name": "神经网络",
         "type": "keyword",
-        "level": 2,
-        "colorIdx": 2,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "2",
+        "colorIdx": "2"
       },
       {
-        "id": 38,
-        "code": 37,
+        "code": "5",
         "name": "无监督学习",
         "type": "keyword",
-        "level": 2,
-        "colorIdx": 3,
-        "keyword": "李飞飞",
-        "layout": null
+        "level": "2",
+        "colorIdx": "3"
       }
     ],
     "relations": [
       {
-        "id": 1,
-        "source": 0,
-        "target": 1
+        "id": "0",
+        "source": "0",
+        "target": "1"
       },
       {
-        "id": 2,
-        "source": 0,
-        "target": 2
+        "id": "1",
+        "source": "0",
+        "target": "2"
       },
       {
-        "id": 3,
-        "source": 0,
-        "target": 3
+        "id": "2",
+        "source": "0",
+        "target": "3"
       },
       {
-        "id": 20,
-        "source": 0,
-        "target": 20
+        "id": "3",
+        "source": "0",
+        "target": "4"
       },
       {
-        "id": 37,
-        "source": 0,
-        "target": 37
+        "id": "4",
+        "source": "0",
+        "target": "5"
       }
     ],
-  "expertReco": [
+    "expertReco": [
       {
         "id": 8526,
         "name": "颜水成",
@@ -183,14 +165,48 @@
   "mapInfo": {
     "nodes": [
       {
+        "id": 49,
+        "code": 51,
+        "name": "Caidi Cao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "李飞飞",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 52,
+        "name": "Xiaoxue Zang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "李飞飞",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 53,
+        "name": "MarynelVázquez",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "李飞飞",
+        "layout": null,
+        "layoutList": null
+      },
+      {
         "id": 1,
         "code": 0,
-        "name": "Feifei Li",
+        "name": "李飞飞",
         "type": "expert",
         "level": 1,
         "colorIdx": 0,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 2,
@@ -200,7 +216,14 @@
         "level": 2,
         "colorIdx": 5,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "2014年IBM教员奖/2011年Alfred Sloan教员奖/2012年Yahoo Labs FREP奖/2009年NSF职业成就奖/2006年微软研究院新教员奖学金获得者",
+        "layoutList": [
+          "2014年IBM教员奖",
+          "2011年Alfred Sloan教员奖",
+          "2012年Yahoo Labs FREP奖",
+          "2009年NSF职业成就奖",
+          "2006年微软研究院新教员奖学金获得者"
+        ]
       },
       {
         "id": 3,
@@ -210,7 +233,10 @@
         "level": 2,
         "colorIdx": 6,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "斯坦福大学",
+        "layoutList": [
+          "斯坦福大学"
+        ]
       },
       {
         "id": 4,
@@ -220,7 +246,10 @@
         "level": 2,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是是指用摄影机和电脑代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图形处理，使电脑处理成为更适合人眼观察或传送给仪器检测的图像。作为一个科学学科，计算机视觉研究相关的理论和技术，试图建立能够从图像或者多维数据中获取‘信息’的人工智能系统。这里所 指的信息指Shannon定义的，可以用来帮助做一个“决定”的信息。因为感知可以看作是从感官信号中提 取信息，所以计算机视觉也可以看作是研究如何使人工系统从图像或多维数据中“感知”的科学。",
+        "layoutList": [
+          "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是是指用摄影机和电脑代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图形处理，使电脑处理成为更适合人眼观察或传送给仪器检测的图像。作为一个科学学科，计算机视觉研究相关的理论和技术，试图建立能够从图像或者多维数据中获取‘信息’的人工智能系统。这里所 指的信息指Shannon定义的，可以用来帮助做一个“决定”的信息。因为感知可以看作是从感官信号中提 取信息，所以计算机视觉也可以看作是研究如何使人工系统从图像或多维数据中“感知”的科学。"
+        ]
       },
       {
         "id": 5,
@@ -230,497 +259,518 @@
         "level": 3,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "Visual Relationships as Functions: Enabling Few-Shot Scene Graph Prediction./Learning Multimodal Representations for Contact-Rich Tasks.\nInformation Maximizing Visual Question Generation./Image Generation From Scene Graphs./Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation./Peeking into the Future: Predicting Future Person Activities and Locations in Videos./Information Maximizing Visual Question Generation.",
+        "layoutList": [
+          "Visual Relationships as Functions: Enabling Few-Shot Scene Graph Prediction.",
+          "Learning Multimodal Representations for Contact-Rich Tasks.\nInformation Maximizing Visual Question Generation.",
+          "Image Generation From Scene Graphs.",
+          "Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation.",
+          "Peeking into the Future: Predicting Future Person Activities and Locations in Videos.",
+          "Information Maximizing Visual Question Generation."
+        ]
       },
       {
         "id": 6,
-        "code": 5,
-        "name": "专利",
-        "type": "paper",
+        "code": 6,
+        "name": "李佳",
+        "type": "expert",
         "level": 3,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "斯坦福大学计算机科学系教授，主要研究方向对象识别、计算机视觉、机器学习、分类、特征提取等。",
+        "layoutList": [
+          "斯坦福大学计算机科学系教授，主要研究方向对象识别、计算机视觉、机器学习、分类、特征提取等。"
+        ]
       },
       {
         "id": 7,
-        "code": 6,
-        "name": "Li-Jia Li",
+        "code": 7,
+        "name": "朱玉可",
         "type": "expert",
         "level": 3,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "目前是斯坦福大学的博士生。他的目标是为理解视觉世界并与之互动的通用机器人建立智能。研究是机器人、计算机视觉和机器学习的交叉。致力于开发通用机器人的感知和控制方法和机制。在斯坦福大学视觉与学习实验室工作。师从李飞飞教授，西尔维奥·萨瓦雷斯教授。",
+        "layoutList": [
+          "目前是斯坦福大学的博士生。他的目标是为理解视觉世界并与之互动的通用机器人建立智能。研究是机器人、计算机视觉和机器学习的交叉。致力于开发通用机器人的感知和控制方法和机制。在斯坦福大学视觉与学习实验室工作。师从李飞飞教授，西尔维奥·萨瓦雷斯教授。"
+        ]
       },
       {
         "id": 8,
-        "code": 7,
-        "name": "Yuke Zhu",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 9,
         "code": 8,
         "name": "图像检索",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 10,
+        "id": 9,
         "code": 9,
         "name": "立体视觉",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 11,
+        "id": 10,
         "code": 10,
         "name": "监督学习",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 12,
+        "id": 11,
         "code": 11,
         "name": "物体识别",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 13,
+        "id": 12,
         "code": 12,
         "name": "Nam S. Vo",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 14,
+        "id": 13,
         "code": 13,
         "name": "Lu Jiang",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 15,
+        "id": 14,
         "code": 14,
         "name": "Min Sun",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 16,
+        "id": 15,
         "code": 15,
-        "name": "Mingsheng Long ",
+        "name": "Mingsheng Long",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 17,
+        "id": 16,
         "code": 16,
         "name": "Krishnan Srinivasan",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 18,
+        "id": 17,
         "code": 17,
         "name": "Animesh Garg",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 19,
+        "id": 18,
         "code": 18,
         "name": "Xu Zhang",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 20,
+        "id": 19,
         "code": 19,
         "name": "Li-Min Zhu",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 21,
+        "id": 20,
         "code": 20,
         "name": "神经网络",
         "type": "keyword",
         "level": 2,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "人工神经网络（Artificial Neural Networks，简写为ANNs）也简称为神经网络（NNs）或称作连接模型（Connection Model），它是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。",
+        "layoutList": [
+          "人工神经网络（Artificial Neural Networks，简写为ANNs）也简称为神经网络（NNs）或称作连接模型（Connection Model），它是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。"
+        ]
       },
       {
-        "id": 22,
+        "id": 21,
         "code": 21,
         "name": "论文",
         "type": "paper",
         "level": 3,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "Hiding Data With Deep Networks./Neural Graph Matching Networks for Fewshot 3D Action Recognition./Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels./Tool Detection and Operative Skill Assessment in Surgical Videos Using Region-Based Convolutional Neural Networks./Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks./Hiding Data With Deep Networks.",
+        "layoutList": [
+          "Hiding Data With Deep Networks.",
+          "Neural Graph Matching Networks for Fewshot 3D Action Recognition.",
+          "Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels.",
+          "Tool Detection and Operative Skill Assessment in Surgical Videos Using Region-Based Convolutional Neural Networks.",
+          "Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks.",
+          "Hiding Data With Deep Networks."
+        ]
       },
       {
-        "id": 23,
-        "code": 22,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 24,
+        "id": 22,
         "code": 23,
         "name": "Jonathan Krause",
         "type": "expert",
         "level": 3,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "斯坦福大学五年级CS博士生，由李飞飞担任导师。从事计算机视觉方面的工作，专注于细粒度识别，并对深度学习有进一步的兴趣。是ImageNet研究团队的一员。2011年毕业于加州理工学院，获得计算机科学学士学位，之后来到斯坦福大学。曾Daphne Koller和Andrew Ng的实验室工作，并在谷歌、Adobe和NASA实习。",
+        "layoutList": [
+          "斯坦福大学五年级CS博士生，由李飞飞担任导师。从事计算机视觉方面的工作，专注于细粒度识别，并对深度学习有进一步的兴趣。是ImageNet研究团队的一员。2011年毕业于加州理工学院，获得计算机科学学士学位，之后来到斯坦福大学。曾Daphne Koller和Andrew Ng的实验室工作，并在谷歌、Adobe和NASA实习。"
+        ]
       },
       {
-        "id": 25,
+        "id": 23,
         "code": 24,
         "name": "Shuran Song",
         "type": "expert",
         "level": 3,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "哥伦比亚大学计算机科学系的助理教授。研究兴趣主要在于人工智能，重点是计算机视觉和机器人技术。工作重点是为3D视觉场景理解领域建立完整的研究基础设施：从开发基础算法到在实际的现实机器人应用中部署它们; 从构建大型三维数据集到设计有效的三维数据表示。 ",
+        "layoutList": [
+          "哥伦比亚大学计算机科学系的助理教授。研究兴趣主要在于人工智能，重点是计算机视觉和机器人技术。工作重点是为3D视觉场景理解领域建立完整的研究基础设施：从开发基础算法到在实际的现实机器人应用中部署它们; 从构建大型三维数据集到设计有效的三维数据表示。 "
+        ]
       },
       {
-        "id": 26,
+        "id": 24,
         "code": 25,
         "name": "深度学习",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 27,
+        "id": 25,
         "code": 26,
         "name": "图像识别",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 28,
+        "id": 26,
         "code": 27,
         "name": "立体视觉",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 29,
+        "id": 27,
         "code": 28,
         "name": "物体识别",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 30,
+        "id": 28,
         "code": 29,
         "name": "Timnit Gebru",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 31,
+        "id": 29,
         "code": 30,
         "name": "Duyun Chen",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 32,
+        "id": 30,
         "code": 31,
         "name": "Amy Jin",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 33,
+        "id": 31,
         "code": 32,
         "name": "Serena Yeung",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 34,
+        "id": 32,
         "code": 33,
         "name": "Andy Zeng",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 35,
+        "id": 33,
         "code": 34,
         "name": "Jianxiong Xiao",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 36,
+        "id": 34,
         "code": 35,
         "name": "Linguang Zhang",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 37,
+        "id": 35,
         "code": 36,
         "name": "Angel X. Chang",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 38,
+        "id": 36,
         "code": 37,
         "name": "无监督学习",
         "type": "keyword",
         "level": 2,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "半监督学习(Semi-Supervised Learning，SSL)是模式识别和机器学习领域研究的重点问题，是监督学习与无监督学习相结合的一种学习方法。半监督学习使用大量的未标记数据，以及同时使用标记数据，来进行模式识别工作。当使用半监督学习时，将会要求尽量少的人员来从事工作，同时，又能够带来比较高的准确性，因此，半监督学习目前正越来越受到人们的重视。",
+        "layoutList": [
+          "半监督学习(Semi-Supervised Learning，SSL)是模式识别和机器学习领域研究的重点问题，是监督学习与无监督学习相结合的一种学习方法。半监督学习使用大量的未标记数据，以及同时使用标记数据，来进行模式识别工作。当使用半监督学习时，将会要求尽量少的人员来从事工作，同时，又能够带来比较高的准确性，因此，半监督学习目前正越来越受到人们的重视。"
+        ]
       },
       {
-        "id": 39,
+        "id": 37,
         "code": 38,
         "name": "论文",
         "type": "paper",
         "level": 3,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks./Finding \"It\": Weakly-Supervised Reference-Aware Visual Grounding in Instructional Videos./Thoracic Disease Identification and Localization With Limited Supervision./Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision./Unsupervised Learning of Long-Term Motion Dynamics for Videos. /Unsupervised Visual-Linguistic Reference Resolution in Instructional Videos.",
+        "layoutList": [
+          "Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks.",
+          "Finding \"It\": Weakly-Supervised Reference-Aware Visual Grounding in Instructional Videos.",
+          "Thoracic Disease Identification and Localization With Limited Supervision.",
+          "Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision.",
+          "Unsupervised Learning of Long-Term Motion Dynamics for Videos. ",
+          "Unsupervised Visual-Linguistic Reference Resolution in Instructional Videos."
+        ]
       },
       {
-        "id": 40,
-        "code": 39,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 41,
+        "id": 38,
         "code": 40,
         "name": "Alexandre Alahi",
         "type": "expert",
         "level": 3,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "斯坦福视觉实验室李飞飞教授的博士生，主要从事计算机视觉和机器学习方面的工作，主要研究视频中的人类事件描述，以及文本和图像数据的联合处理。",
+        "layoutList": [
+          "斯坦福视觉实验室李飞飞教授的博士生，主要从事计算机视觉和机器学习方面的工作，主要研究视频中的人类事件描述，以及文本和图像数据的联合处理。"
+        ]
       },
       {
-        "id": 42,
+        "id": 39,
         "code": 41,
         "name": "Juan Carlos Niebles",
         "type": "expert",
         "level": 3,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": "2007年在伊利诺伊大学香槟分校获得电子和计算机工程硕士学位，2011年在普林斯顿大学获得电子工程博士学位。自2015年以来，他是斯坦福大学人工智能实验室的高级研究科学家和斯坦福-丰田人工智能研究中心的副主任。2011年至2019年，他还是哥伦比亚北大学电气和电子工程副教授。",
+        "layoutList": [
+          "2007年在伊利诺伊大学香槟分校获得电子和计算机工程硕士学位，2011年在普林斯顿大学获得电子工程博士学位。自2015年以来，他是斯坦福大学人工智能实验室的高级研究科学家和斯坦福-丰田人工智能研究中心的副主任。2011年至2019年，他还是哥伦比亚北大学电气和电子工程副教授。"
+        ]
       },
       {
-        "id": 43,
+        "id": 40,
         "code": 42,
         "name": "对抗网络",
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 44,
+        "id": 41,
         "code": 43,
         "name": "强化学习",
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 45,
+        "id": 42,
         "code": 44,
         "name": "视频处理",
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 46,
+        "id": 43,
         "code": 45,
         "name": "自然语言处理",
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 47,
+        "id": 44,
         "code": 46,
         "name": "Agrim Gupta",
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 48,
+        "id": 45,
         "code": 47,
         "name": "Silvio Savarese",
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 49,
+        "id": 46,
         "code": 48,
         "name": "Sven Kreiss",
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 50,
+        "id": 47,
         "code": 49,
         "name": "Yuejiang Liu",
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": 51,
+        "id": 48,
         "code": 50,
         "name": "Zhangjie Cao",
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
         "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 52,
-        "code": 51,
-        "name": "Caidi Cao",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 53,
-        "code": 52,
-        "name": "Xiaoxue Zang",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "李飞飞",
-        "layout": null
-      },
-      {
-        "id": 54,
-        "code": 53,
-        "name": "MarynelVázquez",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "李飞飞",
-        "layout": null
+        "layout": null,
+        "layoutList": null
       }
     ],
     "relations": [
@@ -740,12 +790,12 @@
         "target": 3
       },
       {
-        "id": 20,
+        "id": 19,
         "source": 0,
         "target": 20
       },
       {
-        "id": 37,
+        "id": 35,
         "source": 0,
         "target": 37
       },
@@ -757,240 +807,225 @@
       {
         "id": 5,
         "source": 3,
-        "target": 5
+        "target": 6
       },
       {
         "id": 6,
         "source": 3,
-        "target": 6
-      },
-      {
-        "id": 7,
-        "source": 3,
         "target": 7
       },
       {
-        "id": 8,
+        "id": 7,
         "source": 6,
         "target": 8
       },
       {
-        "id": 9,
+        "id": 8,
         "source": 6,
         "target": 9
       },
       {
-        "id": 10,
+        "id": 9,
         "source": 7,
         "target": 10
       },
       {
-        "id": 11,
+        "id": 10,
         "source": 7,
         "target": 11
       },
       {
-        "id": 12,
+        "id": 11,
         "source": 8,
         "target": 12
       },
       {
-        "id": 13,
+        "id": 12,
         "source": 8,
         "target": 13
       },
       {
-        "id": 14,
+        "id": 13,
         "source": 9,
         "target": 14
       },
       {
-        "id": 15,
+        "id": 14,
         "source": 9,
         "target": 15
       },
       {
-        "id": 16,
+        "id": 15,
         "source": 10,
         "target": 16
       },
       {
-        "id": 17,
+        "id": 16,
         "source": 10,
         "target": 17
       },
       {
-        "id": 18,
+        "id": 17,
         "source": 11,
         "target": 18
       },
       {
-        "id": 19,
+        "id": 18,
         "source": 11,
         "target": 19
       },
       {
-        "id": 21,
+        "id": 20,
         "source": 20,
         "target": 21
       },
       {
-        "id": 22,
-        "source": 20,
-        "target": 22
-      },
-      {
-        "id": 23,
+        "id": 21,
         "source": 20,
         "target": 23
       },
       {
-        "id": 24,
+        "id": 22,
         "source": 20,
         "target": 24
       },
       {
-        "id": 25,
+        "id": 23,
         "source": 23,
         "target": 25
       },
       {
-        "id": 26,
+        "id": 24,
         "source": 23,
         "target": 26
       },
       {
-        "id": 27,
+        "id": 25,
         "source": 24,
         "target": 27
       },
       {
-        "id": 28,
+        "id": 26,
         "source": 24,
         "target": 28
       },
       {
-        "id": 29,
+        "id": 27,
         "source": 25,
         "target": 29
       },
       {
-        "id": 30,
+        "id": 28,
         "source": 25,
         "target": 30
       },
       {
-        "id": 31,
+        "id": 29,
         "source": 26,
         "target": 31
       },
       {
-        "id": 32,
+        "id": 30,
         "source": 26,
         "target": 32
       },
       {
-        "id": 33,
+        "id": 31,
         "source": 27,
         "target": 33
       },
       {
-        "id": 34,
+        "id": 32,
         "source": 27,
         "target": 34
       },
       {
-        "id": 35,
+        "id": 33,
         "source": 28,
         "target": 35
       },
       {
-        "id": 36,
+        "id": 34,
         "source": 28,
         "target": 36
       },
       {
-        "id": 38,
+        "id": 36,
         "source": 37,
         "target": 38
       },
       {
-        "id": 39,
-        "source": 37,
-        "target": 39
-      },
-      {
-        "id": 40,
+        "id": 37,
         "source": 37,
         "target": 40
       },
       {
-        "id": 41,
+        "id": 38,
         "source": 37,
         "target": 41
       },
       {
-        "id": 42,
+        "id": 39,
         "source": 40,
         "target": 42
       },
       {
-        "id": 43,
+        "id": 40,
         "source": 40,
         "target": 43
       },
       {
-        "id": 44,
+        "id": 41,
         "source": 41,
         "target": 44
       },
       {
-        "id": 45,
+        "id": 42,
         "source": 41,
         "target": 45
       },
       {
-        "id": 46,
+        "id": 43,
         "source": 42,
         "target": 46
       },
       {
-        "id": 47,
+        "id": 44,
         "source": 42,
         "target": 47
       },
       {
-        "id": 48,
+        "id": 45,
         "source": 43,
         "target": 48
       },
       {
-        "id": 49,
+        "id": 46,
         "source": 43,
         "target": 49
       },
       {
-        "id": 50,
+        "id": 47,
         "source": 44,
         "target": 50
       },
       {
-        "id": 51,
+        "id": 48,
         "source": 44,
         "target": 51
       },
       {
-        "id": 52,
+        "id": 49,
         "source": 45,
         "target": 52
       },
       {
-        "id": 53,
+        "id": 50,
         "source": 45,
         "target": 53
       }
     ]
-  ,
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

@@ -7,92 +7,25 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "975508_scholar",
-        "name": "Andrzej Skowron",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "25612_keyword",
-        "name": "Approximation space",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "408136_scholar",
-        "name": "Feng Feng",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2388837_scholar",
-        "name": "Bijan Davvaz",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "377481_scholar",
-        "name": "James Peters",
-        "type": "scholar",
-        "value": 0.8,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2079562_scholar",
-        "name": "Qingguo Li",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"人脸识别","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"目标检测","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"表情识别","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"度量学习","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"山世光","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"李子青","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "25612_keyword",
-        "target": "408136_scholar",
-        "value": 0.53333,
-        "type": "scholar"
-      },
-      {
-        "source": "25612_keyword",
-        "target": "377481_scholar",
-        "value": 0.8,
-        "type": "scholar"
-      },
-      {
-        "source": "25612_keyword",
-        "target": "975508_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "25612_keyword",
-        "target": "2079562_scholar",
-        "value": 0.53333,
-        "type": "scholar"
-      },
-      {
-        "source": "25612_keyword",
-        "target": "2388837_scholar",
-        "value": 0.53333,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 170862,
         "name": "Fatih Tasgetiren M.",
-        "headImg": "/img/null",
+        "headImg": "/img/expert_logo/2019-06/FatihTasgetiren.png",
         "institution": "Yasar Universitesi",
         "subjectArea": null,
         "country": null,

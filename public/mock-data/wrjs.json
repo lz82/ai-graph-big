@@ -7,31 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "249924_keyword",
-        "name": "driverless car",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "108830_scholar",
-        "name": "Rodrigo Benenson",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"无人驾驶","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"目标检测","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"机器人","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"强化学习","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Sebastian Thrun","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Michael Montemerlo","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "249924_keyword",
-        "target": "108830_scholar",
-        "value": 1,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

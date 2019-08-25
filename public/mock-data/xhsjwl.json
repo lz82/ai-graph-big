@@ -7,157 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 0.796,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1838213_scholar",
-        "name": "Mark john francis Gales",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "31119_scholar",
-        "name": "Xunying Liu",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018884576_keyword",
-        "name": "recurrent neural nets",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1206955_scholar",
-        "name": "王钧",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "355143_scholar",
-        "name": "曾志刚",
-        "type": "scholar",
-        "value": 0.53571,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
-        "type": "keyword",
-        "value": 0.7788,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "305302_keyword",
-        "name": "Convolutional neural network",
-        "type": "keyword",
-        "value": 0.8147,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018787109_keyword",
-        "name": "Speech recognition",
-        "type": "keyword",
-        "value": 0.8549,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1122482_scholar",
-        "name": "Xie Chen",
-        "type": "scholar",
-        "value": 0.53571,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"循环神经网络","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"自然语言处理","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"卷积神经网络","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"图神经网络","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Geoffrey E. Hinton","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Alex (Sandy) Pentland","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "C018884576_keyword",
-        "target": "1838213_scholar",
-        "value": 0.57143,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "1206955_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "305302_keyword",
-        "value": 0.8147,
-        "type": "keyword"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "407323_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "355143_scholar",
-        "value": 0.53571,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.796,
-        "type": "keyword"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "C018787109_keyword",
-        "value": 0.8549,
-        "type": "keyword"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "31119_scholar",
-        "value": 0.57143,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "C020039005_keyword",
-        "value": 0.7788,
-        "type": "keyword"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "1122482_scholar",
-        "value": 0.53571,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 2017250,
@@ -1332,7 +1195,49 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [],
+  "paperVO": [{
+		"title": "Bidirectional recurrent neural networks",
+		"author": "M. Schuster,K.K. Paliwal",
+		"publishDate": "1997",
+		"summaryAll": "In the first part of this paper, a regular recurrent neural network (RNN) is extended to a bidirectional recurrent neural network (BRNN). The BRNN can be trained without the limitation of using input information just up to a preset future frame. "
+	},
+	{
+		"title": "Conditional Random Fields as Recurrent Neural Networks.",
+		"author": "Shuai Zheng,Sadeep Jayasumana,Bernardino Romera-Paredes,Vibhav Vineet,Zhizhong Su,Dalong Du,Chang Huang,Philip H. S. Torr",
+		"publishDate": "2015",
+		"summaryAll": "Pixel-level labelling tasks, such as semantic segmentation, play a central role in image understanding. Recent approaches have attempted to harness the capabilities of deep learning techniques for image recognition to tackle pixel-level labelling tasks. "
+	},
+	{
+		"title": "Bidirectional recurrent neural networks",
+		"author": "M. Schuster,K.K. Paliwal",
+		"publishDate": "1997",
+		"summaryAll": "In the first part of this paper, a regular recurrent neural network (RNN) is extended to a bidirectional recurrent neural network (BRNN). The BRNN can be trained without the limitation of using input information just up to a preset future frame. "
+	},
+	{
+		"title": "Conditional Random Fields as Recurrent Neural Networks.",
+		"author": "Shuai Zheng,Sadeep Jayasumana,Bernardino Romera-Paredes,Vibhav Vineet,Zhizhong Su,Dalong Du,Chang Huang,Philip H. S. Torr",
+		"publishDate": "2015",
+		"summaryAll": "Pixel-level labelling tasks, such as semantic segmentation, play a central role in image understanding. Recent approaches have attempted to harness the capabilities of deep learning techniques for image recognition to tackle pixel-level labelling tasks."
+	},
+	{
+		"title": "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks",
+		"author": "Alex Graves,Santiago Fernández,Faustino Gomez,Jürgen Schmidhuber",
+		"publishDate": "2006",
+		"summaryAll": "Many real-world sequence learning tasks require the prediction of sequences of labels from noisy, unsegmented input data. In speech recognition, for example, an acoustic signal is transcribed into words or sub-word units. Recurrent neural networks (RNNs) are powerful "
+	},
+	{
+		"title": "",
+		"author": "Aäron Van Den Oord,Nal Kalchbrenner,Koray Kavukcuoglu",
+		"publishDate": "2016",
+		"summaryAll": "Modeling the distribution of natural images is a landmark problem in unsupervised learning. This task requires an image model that is at once expressive, tractable and scalable. "
+	},
+	{
+		"title": "Reservoir computing approaches to recurrent neural network training",
+		"author": "Mantas Lukosevicius,Herbert Jaeger",
+		"publishDate": "2009",
+		"summaryAll": "Echo State Networks and Liquid State Machines introduced a new paradigm in artificial recurrent neural network (RNN) training, where an RNN (the reservoir ) is generated randomly and only a readout is trained."
+	}
+],
   "patentVO": null,
   "bookVO": [],
   "standardVO": [
@@ -1343,7 +1248,7 @@
       "standardNo": "GB/T 32404-2015",
       "categoryNoCN": "M;M21,通信、广播,通信网",
       "categoryNoIN": "33;33.030",
-      "summary": "本标准规定了基于M2M技术的移动通信网物流信息服务的总体技术框架，对服务于物流行业的M",
+      "summaryAll": "本标准规定了基于M2M技术的移动通信网物流信息服务的总体技术框架，对服务于物流行业的M",
       "summaryAll": "本标准规定了基于M2M技术的移动通信网物流信息服务的总体技术框架，对服务于物流行业的M2M系统的总体架构、各模块功能、系统工作流程、通信模块、安全体系等进行规范，为基于M2M技术的物流信息服务的工作提供标准支撑。 本标准适用于面向物流信息服务的M2M业务系统。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1358,7 +1263,7 @@
       "standardNo": "GB/T 32405-2015",
       "categoryNoCN": "M;M32,通信、广播,通信设备",
       "categoryNoIN": "33;33.030",
-      "summary": "本标准规定了移动通信网面向物流信息服务的M2M协议，对面向物流信息服务的M2M协议的结",
+      "summaryAll": "本标准规定了移动通信网面向物流信息服务的M2M协议，对面向物流信息服务的M2M协议的结",
       "summaryAll": "本标准规定了移动通信网面向物流信息服务的M2M协议，对面向物流信息服务的M2M协议的结构、定义、交互机制、安全机制等进行了规范。 本标准适用于提供网络信息服务的移动通信网，也可供其他物联网业务参考使用。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1373,7 +1278,7 @@
       "standardNo": "GB/T 32406-2015",
       "categoryNoCN": "M;M21,通信、广播,通信网",
       "categoryNoIN": "33;33.030",
-      "summary": "本标准规定了移动通信网面向物流信息服务的M2M平台技术要求，对面向物流信息服务的M2M",
+      "summaryAll": "本标准规定了移动通信网面向物流信息服务的M2M平台技术要求，对面向物流信息服务的M2M",
       "summaryAll": "本标准规定了移动通信网面向物流信息服务的M2M平台技术要求，对面向物流信息服务的M2M 平台架构、功能要求、性能要求、可靠性要求以及安全性要求进行了规范。 本标准适用于面向物流信息服务的M2M平台。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1388,7 +1293,7 @@
       "standardNo": "GB/T 32407-2015",
       "categoryNoCN": "M;M32,通信、广播,通信设备",
       "categoryNoIN": "33;33.050.01",
-      "summary": "本标准规定了服务于物流行业的M2M通信模块的功能要求、接口要求和性能要求。 本标准适用",
+      "summaryAll": "本标准规定了服务于物流行业的M2M通信模块的功能要求、接口要求和性能要求。 本标准适用",
       "summaryAll": "本标准规定了服务于物流行业的M2M通信模块的功能要求、接口要求和性能要求。 本标准适用于服务于物流行业的M2M通信模块，也可供其他物联网领域参考。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1403,7 +1308,7 @@
       "standardNo": "GB/T 30246.5-2014",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭网络终端设备中家用和类似用途电器（以下简称网络家电）的通用要求，以及该",
+      "summaryAll": "本部分规定了家庭网络终端设备中家用和类似用途电器（以下简称网络家电）的通用要求，以及该",
       "summaryAll": "本部分规定了家庭网络终端设备中家用和类似用途电器（以下简称网络家电）的通用要求，以及该类产品的功能、性能、软硬件接口、安全性、标志、产品编号等的技术规范。 本部分适用于家庭及类似室内场所网络中使用的家用和类似用途电器。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1418,7 +1323,7 @@
       "standardNo": "GB/T 30246.1-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分适用于家庭或类似的室内场所的网络构建。 ",
+      "summaryAll": "本部分适用于家庭或类似的室内场所的网络构建。 ",
       "summaryAll": "本部分适用于家庭或类似的室内场所的网络构建。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1433,7 +1338,7 @@
       "standardNo": "GB/T 30246.2-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭网络系统中控制终端的定义、功能、服务需求、系统模型及要求，为控制终端的",
+      "summaryAll": "本部分规定了家庭网络系统中控制终端的定义、功能、服务需求、系统模型及要求，为控制终端的",
       "summaryAll": "本部分规定了家庭网络系统中控制终端的定义、功能、服务需求、系统模型及要求，为控制终端的实现提供了技术依据及规范。 本部分适用于家庭或类似的室内场所的网络构建。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1448,7 +1353,7 @@
       "standardNo": "GB/T 30246.3-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分提出了家庭内部网关的参考模型、设备类型和通用要求，以及家庭内部多媒体网关、家庭内",
+      "summaryAll": "本部分提出了家庭内部网关的参考模型、设备类型和通用要求，以及家庭内部多媒体网关、家庭内",
       "summaryAll": "本部分提出了家庭内部网关的参考模型、设备类型和通用要求，以及家庭内部多媒体网关、家庭内部控制网关和家庭内部主网关的功能需求。 本部分适用于家庭内部或类似场所家庭网络中的家庭内部网关设备。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1463,7 +1368,7 @@
       "standardNo": "GB/T 30246.4-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭网络终端音视频及多媒体设备的通用要求，包括功能、流程、安全性等的技术规",
+      "summaryAll": "本部分规定了家庭网络终端音视频及多媒体设备的通用要求，包括功能、流程、安全性等的技术规",
       "summaryAll": "本部分规定了家庭网络终端音视频及多媒体设备的通用要求，包括功能、流程、安全性等的技术规范。 本部分适用于家庭网络及类似场所网络中使用的音视频及多媒体终端设备。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1478,7 +1383,7 @@
       "standardNo": "GB/T 30246.6-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭多媒体与数据网络的通信协议，包括交互模型、设备管理、媒体管理、媒体传输",
+      "summaryAll": "本部分规定了家庭多媒体与数据网络的通信协议，包括交互模型、设备管理、媒体管理、媒体传输",
       "summaryAll": "本部分规定了家庭多媒体与数据网络的通信协议，包括交互模型、设备管理、媒体管理、媒体传输机制以及其与控制网络的跨网应用和通信协议。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1493,7 +1398,7 @@
       "standardNo": "GB/T 30246.7-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭控制网络通信协议的协议结构、通用要求、帧格式等内容。 本部分适用于家庭",
+      "summaryAll": "本部分规定了家庭控制网络通信协议的协议结构、通用要求、帧格式等内容。 本部分适用于家庭",
       "summaryAll": "本部分规定了家庭控制网络通信协议的协议结构、通用要求、帧格式等内容。 本部分适用于家庭或类似的室内场所构建的网络。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1508,7 +1413,7 @@
       "standardNo": "GB/T 30246.8-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分适用于家庭或类似的室内场所的网络构建。 ",
+      "summaryAll": "本部分适用于家庭或类似的室内场所的网络构建。 ",
       "summaryAll": "本部分适用于家庭或类似的室内场所的网络构建。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1523,7 +1428,7 @@
       "standardNo": "GB/T 30246.9-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分提出了家庭网络设备描述文件的二进制表述形式，规定了二进制形式的设备描述文件的数据",
+      "summaryAll": "本部分提出了家庭网络设备描述文件的二进制表述形式，规定了二进制形式的设备描述文件的数据",
       "summaryAll": "本部分提出了家庭网络设备描述文件的二进制表述形式，规定了二进制形式的设备描述文件的数据类型、格式和文件结构。 本部分适用于符合家庭控制网络范围内的家庭网络的构建。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1538,7 +1443,7 @@
       "standardNo": "GB/T 30246.11-2013",
       "categoryNoCN": "L;L78,电子元器件与信息技术,信息处理技术",
       "categoryNoIN": "33;33.040.40",
-      "summary": "本部分规定了家庭控制网络接口的测试方法和检验程序。 本部分适用于家庭网络终端设备、控制",
+      "summaryAll": "本部分规定了家庭控制网络接口的测试方法和检验程序。 本部分适用于家庭网络终端设备、控制",
       "summaryAll": "本部分规定了家庭控制网络接口的测试方法和检验程序。 本部分适用于家庭网络终端设备、控制终端的测试。  ",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1553,7 +1458,7 @@
       "standardNo": "GB/T 29825-2013",
       "categoryNoCN": "J;J28,机械,通用零部件",
       "categoryNoIN": "25;25.040.30",
-      "summary": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式",
+      "summaryAll": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式",
       "summaryAll": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式定义、工作流程。 本标准主要适用于模块化机器人系统中不同功能模块构件之间的数据交互和信息共享。应用于非模块化机器人中的通信总线亦可参照使用本标准。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1568,7 +1473,7 @@
       "standardNo": "GB/T 5271.34-2006",
       "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
       "categoryNoIN": "35;35.240.20",
-      "summary": "本部分定义了有关<mark class=highlight>神经网络</mark>及其组成部分、连接机制和功能的概念。",
+      "summaryAll": "本部分定义了有关<mark class=highlight>神经网络</mark>及其组成部分、连接机制和功能的概念。",
       "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关神经网络及其组成部分、连接机制和功能的概念。",
       "draftUnit": "",
       "mandatoryStandard": "否",

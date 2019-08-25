@@ -2,10 +2,10 @@
   <div class="hot-pannel-wrapper">
     <h3 class="comm-title">热词推荐</h3>
     <ul>
-      <li v-for="item in list1" :key="item" @click="goSearch(item)">{{item}}</li>
+      <li v-for="item in list1" :key="item">{{item}}</li>
     </ul>
     <ul>
-      <li v-for="item in list2" :key="item" @click="goSearch(item)">{{item}}</li>
+      <li v-for="item in list2" :key="item">{{item}}</li>
     </ul>
   </div>
 </template>
@@ -50,7 +50,6 @@ export default {
         margin-right: 20px;
         line-height: 30px;
         cursor: pointer;
-        text-decoration: underline;
       }
     }
   }

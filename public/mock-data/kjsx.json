@@ -7,31 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "3856325_keyword",
-        "name": "explainability",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "488536_scholar",
-        "name": "Yaǧmur Güçlütürk",
-        "type": "scholar",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"可解释性","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"知识库","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"概率图模型","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"决策树","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Francisco Herrera","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Pieter Abbeel","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "3856325_keyword",
-        "target": "488536_scholar",
-        "value": 0.625,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

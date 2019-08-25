@@ -17,7 +17,7 @@
           <li v-for="item in tabContent.paperVO" :key="item.id">
             <h3 v-html="item.title"></h3>
             <p>
-              <span v-html="'作者：'+item.author"></span>
+              <span v-html="'作者：'+keyword"></span>
               <span>发表时间：{{item.publishDate}}</span>
               <!-- <span>被引指数：{{item.citedIndex}}</span> -->
             </p>
@@ -56,15 +56,14 @@ export default {
   name: 'TabBar',
 
   props: {
-    tabContent: Object
+    tabContent: Object,
+    keyword: String
   },
 
   data () {
     return {
       tabBarData: [{ name: '论文' }, { name: '专利' }, { name: '标准' }],
-      nowIndex: 0,
-      keyword: '李飞飞',
-      type: 'expert'
+      nowIndex: 0
     }
   },
 
@@ -136,6 +135,10 @@ export default {
   .conItem li h3 {
     font-size: 16px;
     padding-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 390px;
   }
   .conItem li p {
     font-size: 14px;

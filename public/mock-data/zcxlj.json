@@ -7,227 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "2034984_scholar",
-        "name": "石勇",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "8018115_scholar",
-        "name": "Soman",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2124892_scholar",
-        "name": "田英杰",
-        "type": "scholar",
-        "value": 0.82609,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
-        "type": "keyword",
-        "value": 0.8034,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018783399_keyword",
-        "name": "Fault diagnosis",
-        "type": "keyword",
-        "value": 0.8003,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 0.9276,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "244069_scholar",
-        "name": "Bijaya ketan Panigrahi ",
-        "type": "scholar",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
-        "type": "keyword",
-        "value": 0.8295,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "3292434_scholar",
-        "name": "Alessandra Lumini",
-        "type": "scholar",
-        "value": 0.52174,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1907317_scholar",
-        "name": "Naiyang Deng",
-        "type": "scholar",
-        "value": 0.65217,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "500242_scholar",
-        "name": "Huiling Chen",
-        "type": "scholar",
-        "value": 0.63043,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1089336_scholar",
-        "name": "Mohamed Cheriet ",
-        "type": "scholar",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2101120_scholar",
-        "name": "Zengyuan Li ",
-        "type": "scholar",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1972661_scholar",
-        "name": "Cȩdric Richard ",
-        "type": "scholar",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"支持向量机","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"集成学习","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"最优化方法","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"决策树","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Andrew Zisserman","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Thorsten Joachims","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "C018819637_keyword",
-        "target": "2124892_scholar",
-        "value": 0.82609,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "2101120_scholar",
-        "value": 0.54167,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1907317_scholar",
-        "value": 0.65217,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C018783399_keyword",
-        "value": 0.8003,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "2034984_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C018918649_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C020039005_keyword",
-        "value": 0.8034,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1089336_scholar",
-        "value": 0.625,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C018811890_keyword",
-        "value": 0.8295,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "500242_scholar",
-        "value": 0.63043,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.9276,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "8018115_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1972661_scholar",
-        "value": 0.54167,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "3292434_scholar",
-        "value": 0.52174,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "244069_scholar",
-        "value": 0.625,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 251536,
@@ -1785,7 +1578,49 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [],
+  "paperVO": [{
+		"title": "LIBSVM: A library for support vector machines",
+		"author": "Chih-Chung Chang,Chih-Jen Lin",
+		"publishDate": "2011",
+		"summaryAll": "LIBSVM is a library for Support Vector Machines (SVMs). We have been actively developing this package since the year 2000. The goal is to help users to easily apply SVM to their applications. LIBSVM has gained wide popularity in machine learning and many other areas. In this arti..."
+	},
+	{
+		"title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+		"author": "Christopher J. C. Burges",
+		"publishDate": "1998",
+		"summaryAll": "The tutorial starts with an overview of the concepts of VC dimensionand structural risk minimization. We then describe linear Support Vector Machines (SVMs) for separable and non-separable data, working through a non-trivial example in detail."
+	},
+	{
+		"title": "An introduction to support Vector Machines: and other kernel-based learning methods",
+		"author": "Nello Cristianini,John Shawe-Taylor",
+		"publishDate": "1999",
+		"summaryAll": "From the publisher: This is the first comprehensive introductionto Support Vector Machines (SVMs), a new generation learning systembased on recent advances in statistical learning theory. "
+	},
+	{
+		"title": "Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond",
+		"author": "Bernhard Scholkopf,Alexander J. Smola",
+		"publishDate": "2005",
+		"summaryAll": "From the Publisher:In the 1990s, a new type of learning algorithm was developed, based on results from statistical learning theory: the Support Vector Machine (SVM). "
+	},
+	{
+		"title": "A tutorial on support vector machines for pattern recognition",
+		"author": "C. Burgess",
+		"publishDate": "1998",
+		"summaryAll": "The tutorial starts with an overview of the concepts of VC dimension and structural risk minimization. We then describe linear Support Vector Machines (SVMs) for separable and non-separable data, working through a non-trivial example in detail. We describe a mechanical analogy, and discuss when SVM solutions are unique and when they are global. "
+	},
+	{
+		"title": "A comparison of methods for multiclass support vector machines.",
+		"author": "Chih-Wei Hsu,Chih-Jen Lin",
+		"publishDate": "2002",
+		"summaryAll": "Support vector machines (SVMs) were originally designed for binary classification. How to effectively extend it for multiclass classification is still an ongoing research issue. "
+	},
+	{
+		"title": "A comparison of methods for multi-class support vector machines",
+		"author": "C. W. Hsu,C. J. Lin",
+		"publishDate": "2002",
+		"summaryAll": "Abstract—Support vector machines (SVMs) were originally designed for binary classification. How to effectively extend it for multiclass classification is still an ongoing research issue. "
+	}
+],
   "patentVO": null,
   "bookVO": [],
   "standardVO": [
@@ -1796,7 +1631,7 @@
       "standardNo": "GB 11291.2-2013",
       "categoryNoCN": "J;J28,机械,通用零部件",
       "categoryNoIN": "25;25.040.30",
-      "summary": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求",
+      "summaryAll": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求",
       "summaryAll": "GB 11291的本部分规定了工业机器人、工业机器人系统和工业机器人单元集成的安全要求，工业机器人和工业机器人系统已在GB 11291.1中定义。集成包括以下方面： a) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废； b) 工业机器人系统或单元的设计、制造、安装、运行、维护和报废的必要条件； c) 工业机器人系统或单元的部件设备。 本部分描述了与这些系统有关的基本危险和危险情况，并提出了消除和充分降低与这些危险相关的风险要求。虽然噪声波定为是工业机器人的一种主要危险，但是本部分不予考虑。本部分也规定了对作为集成制造系统的部分的工业机器人系统的要求。本部分不专门涉及关于加工过程中的危险（如激光辐射、弹出碎片、焊接烟雾）其他标准适用于这些加工过程中的危险。",
       "draftUnit": "",
       "mandatoryStandard": "是",
@@ -1811,7 +1646,7 @@
       "standardNo": "GB/T 12642-2013",
       "categoryNoCN": "J;J28,机械,通用零部件",
       "categoryNoIN": "25;25.040.30",
-      "summary": "本标准适用于 ISO 8373:1994 中定义的所有工业机器人，本标准术语“机器人”",
+      "summaryAll": "本标准适用于 ISO 8373:1994 中定义的所有工业机器人，本标准术语“机器人”",
       "summaryAll": "本标准适用于 ISO 8373:1994 中定义的所有工业机器人，本标准术语“机器人”指的是工业机器人。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1826,7 +1661,7 @@
       "standardNo": "GB/T 29824-2013",
       "categoryNoCN": "J;J28,机械,通用零部件",
       "categoryNoIN": "25;25.040.30",
-      "summary": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬",
+      "summaryAll": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬",
       "summaryAll": "本标准规定了面向用户的工业机器人编程基本指令。 本标准适用于弧焊机器人、点焊机器人、搬运机器人、喷涂机器人、装配机器人（包含但不是全部）等工业机器人。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1841,7 +1676,7 @@
       "standardNo": "GB/T 29825-2013",
       "categoryNoCN": "J;J28,机械,通用零部件",
       "categoryNoIN": "25;25.040.30",
-      "summary": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式",
+      "summaryAll": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式",
       "summaryAll": " 本标准规定了模块化机器人系统中的一种通信总线的数据格式和程序规范，包括协议层次、格式定义、工作流程。 本标准主要适用于模块化机器人系统中不同功能模块构件之间的数据交互和信息共享。应用于非模块化机器人中的通信总线亦可参照使用本标准。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1856,7 +1691,7 @@
       "standardNo": "GB/T 20868-2007",
       "categoryNoCN": "J;J07,机械,机械综合",
       "categoryNoIN": "25;25.040.30",
-      "summary": "本标准提供了制造商和用户等使用GB/T 12642-2001对工业机器人进行性能试验时",
+      "summaryAll": "本标准提供了制造商和用户等使用GB/T 12642-2001对工业机器人进行性能试验时",
       "summaryAll": "本标准提供了制造商和用户等使用GB/T 12642-2001对工业机器人进行性能试验时的实施细则和操作步骤。　　本标准供工业机器人制造厂商、试验部门、机器人用户使用。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1871,7 +1706,7 @@
       "standardNo": "GB/T 5271.29-2006",
       "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
       "categoryNoIN": "35;35.240.20",
-      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
       "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关语音识别和语音合成的概念。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1886,7 +1721,7 @@
       "standardNo": "GB/T 5271.31-2006",
       "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
       "categoryNoIN": "35;35.240.20",
-      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
       "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关人工智能中机器学习的概念。",
       "draftUnit": "",
       "mandatoryStandard": "否",
@@ -1901,7 +1736,7 @@
       "standardNo": "GB/T 5271.34-2006",
       "categoryNoCN": "L;L60,电子元器件与信息技术,计算机",
       "categoryNoIN": "35;35.240.20",
-      "summary": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
+      "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目",
       "summaryAll": "GB/T 5271的本部分给出了与信息处理领域相关的概念的术语和定义，并明确了这些条目之间的关系。　　为方便将此标准翻译成其他语言，给出的定义尽可能避免语言上的特殊性。　　本部分定义了有关神经网络及其组成部分、连接机制和功能的概念。",
       "draftUnit": "",
       "mandatoryStandard": "否",

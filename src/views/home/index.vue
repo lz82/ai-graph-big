@@ -206,7 +206,7 @@ export default {
         {
           // Michael I.Jordan
           img: tagMj,
-          url: '/search/Michael I.Jordan'
+          url: '/search/Michael I. Jordan'
         },
         {
           // SebastianThrun

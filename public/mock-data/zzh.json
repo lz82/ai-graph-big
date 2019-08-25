@@ -19,102 +19,22 @@
     "fwciinedx": 3.602
   },
   "mapVO": {
-    "nodes": [
-      {
-        "id": "60033100_affiliation",
-        "name": "Nanjing University",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "5981_scholar",
-        "name": "Shinmu Tseng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2365737_scholar",
-        "name": "Giorgio Fumera",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2121551_scholar",
-        "name": "张艳宁",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2372995_scholar",
-        "name": "Truhoang Cao",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
-        "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2332229_scholar",
-        "name": "Rong Jin",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+    "nodes":[
+      {"code":"0","name":"周志华","type":"expert","level":"1","colorIdx":"0"},
+      {"code":"1","name":"荣誉","type":"honor","level":"2","colorIdx":"5"},
+      {"code":"2","name":"机构","type":"org","level":"2","colorIdx":"6"},
+      {"code":"3","name":"监督学习","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"4","name":"强化学习","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"5","name":"多实例学习","type":"keyword","level":"2","colorIdx":"3"}
+      ],
     "relations": [
-      {
-        "source": "715311_scholar",
-        "target": "60033100_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "715311_scholar",
-        "target": "5981_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "715311_scholar",
-        "target": "2121551_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "715311_scholar",
-        "target": "2332229_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "715311_scholar",
-        "target": "2372995_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "715311_scholar",
-        "target": "2365737_scholar",
-        "value": 1,
-        "type": "scholar"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      
+      ],
     "expertReco": [
       {
         "id": 1918347,
@@ -185,450 +105,877 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "C018882261_keyword",
-        "name": "text mining",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018932782_keyword",
-        "name": "Knowledge Bases",
-        "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "60033100_affiliation",
-        "name": "Nanjing University",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018967851_keyword",
-        "name": "sparse representation",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018883638_keyword",
-        "name": "Cluster Analysis",
-        "type": "keyword",
-        "value": 0.51705,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018791541_keyword",
-        "name": "Rough sets",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2365737_scholar",
-        "name": "Giorgio Fumera",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018943336_keyword",
-        "name": "image denoising",
-        "type": "keyword",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020037235_keyword",
-        "name": "data mining",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018964560_keyword",
-        "name": "image restoration technique",
-        "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2372995_scholar",
-        "name": "Truhoang Cao",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018890891_keyword",
-        "name": "Ontology",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
-        "type": "keyword",
-        "value": 0.55682,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018942155_keyword",
-        "name": "Clustering algorithms",
-        "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2121551_scholar",
-        "name": "张艳宁",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "18571_keyword",
-        "name": "Recommendation",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020031314_keyword",
-        "name": "Supervised learning",
-        "type": "keyword",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819609_keyword",
-        "name": "e-learning",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018847356_keyword",
-        "name": "Pattern recognition",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2616_keyword",
-        "name": "Fuzzy set",
-        "type": "keyword",
-        "value": 0.50568,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2558127_keyword",
-        "name": "Tmall",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "205273_keyword",
-        "name": "Semantic space",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "124184_keyword",
-        "name": "Utility mining",
-        "type": "keyword",
-        "value": 0.50568,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "641532_keyword",
-        "name": "Multiple Classifier Systems",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018874645_keyword",
-        "name": "semantic networks",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
+        "id": 1,
+        "code": 0,
         "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "type": "expert",
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2332229_scholar",
-        "name": "Rong Jin",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 2,
+        "code": 1,
+        "name": "荣誉",
+        "type": "honor",
+        "level": 2,
+        "colorIdx": 5,
+        "keyword": "周志华",
+        "layout": "2019年 IEEE计算机学会Edward J. McCluskey技术成就奖/2017年 欧洲科学院 外籍会员/2017年 IEEE计算智能杂志 2017杰出论文奖/2016年 ACM 研究员/2016年 IEEE ICDM 杰出服务奖/2016年 AAAS 研究员/2016年 PAKDD 杰出贡献奖/2016年 AAAI 研究员/2013年 ACM杰出科学家/2013年 IEEE计算智能协会 杰出早期职业奖/2013年 IEEE 院士/2012年 IAPR 研究员/2012年 PAKDD 2012数据挖掘竞赛大奖获得者团队负责人/2010年 IET IEE 研究员/2009年 ISIBM 杰出成就奖/模式识别杂志 2006 - 2010年被引用最多的文章",
+        "layoutList": [
+          "2019年 IEEE计算机学会Edward J. McCluskey技术成就奖",
+          "2017年 欧洲科学院 外籍会员",
+          "2017年 IEEE计算智能杂志 2017杰出论文奖",
+          "2016年 ACM 研究员",
+          "2016年 IEEE ICDM 杰出服务奖",
+          "2016年 AAAS 研究员",
+          "2016年 PAKDD 杰出贡献奖",
+          "2016年 AAAI 研究员",
+          "2013年 ACM杰出科学家",
+          "2013年 IEEE计算智能协会 杰出早期职业奖",
+          "2013年 IEEE 院士",
+          "2012年 IAPR 研究员",
+          "2012年 PAKDD 2012数据挖掘竞赛大奖获得者团队负责人",
+          "2010年 IET IEE 研究员",
+          "2009年 ISIBM 杰出成就奖",
+          "模式识别杂志 2006 - 2010年被引用最多的文章"
+        ]
       },
       {
-        "id": "308509_keyword",
-        "name": "Entity disambiguation",
+        "id": 3,
+        "code": 2,
+        "name": "组织",
+        "type": "org",
+        "level": 2,
+        "colorIdx": 6,
+        "keyword": "周志华",
+        "layout": "南京大学",
+        "layoutList": [
+          "南京大学"
+        ]
+      },
+      {
+        "id": 4,
+        "code": 3,
+        "name": "半监督学习",
         "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": "半监督学习(Semi-Supervised Learning，SSL)是模式识别和机器学习领域研究的重点问题，是监督学习与无监督学习相结合的一种学习方法。半监督学习使用大量的未标记数据，以及同时使用标记数据，来进行模式识别工作。当使用半监督学习时，将会要求尽量少的人员来从事工作，同时，又能够带来比较高的准确性，因此，半监督学习目前正越来越受到人们的重视。",
+        "layoutList": [
+          "半监督学习(Semi-Supervised Learning，SSL)是模式识别和机器学习领域研究的重点问题，是监督学习与无监督学习相结合的一种学习方法。半监督学习使用大量的未标记数据，以及同时使用标记数据，来进行模式识别工作。当使用半监督学习时，将会要求尽量少的人员来从事工作，同时，又能够带来比较高的准确性，因此，半监督学习目前正越来越受到人们的重视。"
+        ]
       },
       {
-        "id": "5981_scholar",
-        "name": "Shinmu Tseng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": "Learning From Semi-Supervised Weak-Label Data./Tri-net for Semi-Supervised Deep Learning. /Learning Safe Prediction for Semi-Supervised Regression./Reliable Weakly Supervised Learning: Maximize Gain and Maintain Safeness./Towards Safe Semi-Supervised Learning for Multivariate Performance Measures./New Semi-Supervised Classification Method Based on Modified Cluster Assumption./Semi-supervised learning by disagreement.",
+        "layoutList": [
+          "Learning From Semi-Supervised Weak-Label Data.",
+          "Tri-net for Semi-Supervised Deep Learning. ",
+          "Learning Safe Prediction for Semi-Supervised Regression.",
+          "Reliable Weakly Supervised Learning: Maximize Gain and Maintain Safeness.",
+          "Towards Safe Semi-Supervised Learning for Multivariate Performance Measures.",
+          "New Semi-Supervised Classification Method Based on Modified Cluster Assumption.",
+          "Semi-supervised learning by disagreement."
+        ]
       },
       {
-        "id": "271984_keyword",
-        "name": "Named entity",
+        "id": 6,
+        "code": 6,
+        "name": "李宇峰",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": "周志华教授领导的 LAMDA实验室的一名教师。2006年6月和2013年6月分别获得了南京大学计算机科学学士学位和博士学位。",
+        "layoutList": [
+          "周志华教授领导的 LAMDA实验室的一名教师。2006年6月和2013年6月分别获得了南京大学计算机科学学士学位和博士学位。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 7,
+        "name": "周博文",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": "目前在墨尔本大学攻读博士学位。导师是Rajkumar Buyya教授。",
+        "layoutList": [
+          "目前在墨尔本大学攻读博士学位。导师是Rajkumar Buyya教授。"
+        ]
+      },
+      {
+        "id": 8,
+        "code": 8,
+        "name": "支持向量机",
         "type": "keyword",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018972432_keyword",
-        "name": "Gesture recognition",
+        "id": 9,
+        "code": 9,
+        "name": "半监督学习",
         "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C019388244_keyword",
-        "name": "bagging",
+        "id": 10,
+        "code": 10,
+        "name": "神经网络",
         "type": "keyword",
-        "value": 0.875,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 11,
+        "code": 11,
+        "name": "自然语言处理",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 12,
+        "name": "Ivor W. Tsang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 13,
+        "name": "James T. Kwok",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 14,
+        "name": "Hai Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 15,
+        "name": "Wei Tong",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 16,
+        "name": "Jing Huang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 17,
+        "name": "Xiaodong He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 18,
+        "name": "Lidan Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 19,
+        "name": "Minwei Feng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 20,
+        "code": 20,
+        "name": "强化学习",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。",
+        "layoutList": [
+          "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 21,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": "Reinforcement Learning Experience Reuse with Policy Residual./Dual Set Multi-Label Learning./Dynamic Regret of Strongly Adaptive Methods.",
+        "layoutList": [
+          "Reinforcement Learning Experience Reuse with Policy Residual.",
+          "Dual Set Multi-Label Learning.",
+          "Dynamic Regret of Strongly Adaptive Methods."
+        ]
+      },
+      {
+        "id": 22,
+        "code": 23,
+        "name": "俞扬",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": "博士，南京大学副教授，博士生导师。主要研究领域为人工智能、机器学习、强化学习。分别于2004年和2011年获得南京大学计算机科学与技术系学士学位和博士学位。2011年8月加入南京大学计算机科学与技术系、机器学习与数据挖掘研究所（LAMDA）从事教学与科研工作。",
+        "layoutList": [
+          "博士，南京大学副教授，博士生导师。主要研究领域为人工智能、机器学习、强化学习。分别于2004年和2011年获得南京大学计算机科学与技术系学士学位和博士学位。2011年8月加入南京大学计算机科学与技术系、机器学习与数据挖掘研究所（LAMDA）从事教学与科研工作。"
+        ]
+      },
+      {
+        "id": 23,
+        "code": 24,
+        "name": "赵谦",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": "西安交通大学  数学与统计学院  信息科学系副教授，2009年在西安交大获得学士学位，之后在Zongben Xu教授下获得西安交通大学数学与统计学院博士学位。",
+        "layoutList": [
+          "西安交通大学  数学与统计学院  信息科学系副教授，2009年在西安交大获得学士学位，之后在Zongben Xu教授下获得西安交通大学数学与统计学院博士学位。"
+        ]
+      },
+      {
+        "id": 24,
+        "code": 25,
+        "name": "参数优化",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 26,
+        "name": "演化计算",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 27,
+        "name": "演化计算",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 28,
+        "name": "推荐系统",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 29,
+        "name": "Yi-Qi Hu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 30,
+        "name": "Jun-Da Liao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 31,
+        "name": "Ke Tang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 32,
+        "name": "Yaochu Jin",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 33,
+        "name": "Jing-Cheng Shi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 34,
+        "name": "Chao Bian",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 34,
+        "code": 35,
+        "name": "Bingdong Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 35,
+        "code": 36,
+        "name": "Xin Yao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 37,
+        "name": "多实例学习",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": "在机器学习中，多示例学习(Multiple Instance Learning 简称 MIL)是由监督型学习算法演变出的一种方法，定义“包”为多个示例的集合，具有广泛的应用。学习者不是接收一组单独标记的实例，而是接收一组带标签的包，每个包含许多实例。在多实例二进制分类的简单情况下，如果包中的所有实例都是否定的，则可以将包标记为否定。另一方面，如果袋子中至少有一个是正面的，则袋子被标记为阳性。",
+        "layoutList": [
+          "在机器学习中，多示例学习(Multiple Instance Learning 简称 MIL)是由监督型学习算法演变出的一种方法，定义“包”为多个示例的集合，具有广泛的应用。学习者不是接收一组单独标记的实例，而是接收一组带标签的包，每个包含许多实例。在多实例二进制分类的简单情况下，如果包中的所有实例都是否定的，则可以将包标记为否定。另一方面，如果袋子中至少有一个是正面的，则袋子被标记为阳性。"
+        ]
+      },
+      {
+        "id": 37,
+        "code": 38,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": "Scalable Algorithms for Multi-Instance Learning./Discover Multiple Novel Labels in Multi-Instance Multi-Label Learning./Multi-Instance Learning with Key Instance Shift./An empirical study on image bag generators for multi-instance learning./Fast Multi-Instance Multi-Label Learning./Learning with Augmented Multi-Instance View./Scalable Multi-instance Learning.",
+        "layoutList": [
+          "Scalable Algorithms for Multi-Instance Learning.",
+          "Discover Multiple Novel Labels in Multi-Instance Multi-Label Learning.",
+          "Multi-Instance Learning with Key Instance Shift.",
+          "An empirical study on image bag generators for multi-instance learning.",
+          "Fast Multi-Instance Multi-Label Learning.",
+          "Learning with Augmented Multi-Instance View.",
+          "Scalable Multi-instance Learning."
+        ]
+      },
+      {
+        "id": 38,
+        "code": 40,
+        "name": "Jiang Yuan",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": "南京大学计算机科学与技术系，新型软件技术国家重点实验室教授。研究方向机器学习和数据挖掘。",
+        "layoutList": [
+          "南京大学计算机科学与技术系，新型软件技术国家重点实验室教授。研究方向机器学习和数据挖掘。"
+        ]
+      },
+      {
+        "id": 39,
+        "code": 41,
+        "name": "Kai Ming Ting",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": "1996年悉尼大学计算机科学系博士 2004年莫纳什大学博士后方向为隔离内核、质量估计和基于质量的方法、整体方法、数据挖掘、机器学习",
+        "layoutList": [
+          "1996年悉尼大学计算机科学系博士 2004年莫纳什大学博士后方向为隔离内核、质量估计和基于质量的方法、整体方法、数据挖掘、机器学习"
+        ]
+      },
+      {
+        "id": 40,
+        "code": 42,
+        "name": "多标签学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 43,
+        "name": "推荐系统",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 44,
+        "name": "聚类",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 45,
+        "name": "贝叶斯",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 46,
+        "name": "Nitesh V. Chawla",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 47,
+        "name": "Shao-Yuan Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 48,
+        "name": "Shaowu Liu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 49,
+        "name": "Gang Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 48,
+        "code": 50,
+        "name": "Xiaoyu Qin",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 49,
+        "code": 51,
+        "name": "Ye Zhu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 52,
+        "name": "Zijian Zheng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 53,
+        "name": "Geoffrey I. Webb",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "周志华",
+        "layout": null,
+        "layoutList": null
       }
     ],
     "relations": [
       {
-        "source": "2365737_scholar",
-        "target": "C018972432_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "2121551_scholar",
-        "target": "C018942155_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "2332229_scholar",
-        "target": "C018819609_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "2365737_scholar",
-        "target": "C020031314_keyword",
-        "value": 0.625,
-        "type": "keyword"
+        "id": 19,
+        "source": 0,
+        "target": 20
       },
       {
-        "source": "2332229_scholar",
-        "target": "C018882261_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 35,
+        "source": 0,
+        "target": 37
       },
       {
-        "source": "2372995_scholar",
-        "target": "C018932782_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 4,
+        "source": 3,
+        "target": 4
       },
       {
-        "source": "2121551_scholar",
-        "target": "C018943336_keyword",
-        "value": 0.83333,
-        "type": "keyword"
+        "id": 5,
+        "source": 3,
+        "target": 6
       },
       {
-        "source": "715311_scholar",
-        "target": "2332229_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 6,
+        "source": 3,
+        "target": 7
       },
       {
-        "source": "2372995_scholar",
-        "target": "271984_keyword",
-        "value": 0.58333,
-        "type": "keyword"
+        "id": 7,
+        "source": 6,
+        "target": 8
       },
       {
-        "source": "715311_scholar",
-        "target": "2365737_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 8,
+        "source": 6,
+        "target": 9
       },
       {
-        "source": "2372995_scholar",
-        "target": "C018874645_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 9,
+        "source": 7,
+        "target": 10
       },
       {
-        "source": "2121551_scholar",
-        "target": "C018791541_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 10,
+        "source": 7,
+        "target": 11
       },
       {
-        "source": "2332229_scholar",
-        "target": "205273_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 11,
+        "source": 8,
+        "target": 12
       },
       {
-        "source": "2372995_scholar",
-        "target": "308509_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 12,
+        "source": 8,
+        "target": 13
       },
       {
-        "source": "5981_scholar",
-        "target": "2616_keyword",
-        "value": 0.50568,
-        "type": "keyword"
+        "id": 13,
+        "source": 9,
+        "target": 14
       },
       {
-        "source": "5981_scholar",
-        "target": "124184_keyword",
-        "value": 0.50568,
-        "type": "keyword"
+        "id": 14,
+        "source": 9,
+        "target": 15
       },
       {
-        "source": "715311_scholar",
-        "target": "60033100_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 15,
+        "source": 10,
+        "target": 16
       },
       {
-        "source": "5981_scholar",
-        "target": "C018811890_keyword",
-        "value": 0.55682,
-        "type": "keyword"
+        "id": 16,
+        "source": 10,
+        "target": 17
       },
       {
-        "source": "715311_scholar",
-        "target": "2121551_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 17,
+        "source": 11,
+        "target": 18
       },
       {
-        "source": "2332229_scholar",
-        "target": "2558127_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 18,
+        "source": 11,
+        "target": 19
       },
       {
-        "source": "2332229_scholar",
-        "target": "18571_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 20,
+        "source": 20,
+        "target": 21
       },
       {
-        "source": "2365737_scholar",
-        "target": "C019388244_keyword",
-        "value": 0.875,
-        "type": "keyword"
+        "id": 21,
+        "source": 20,
+        "target": 23
       },
       {
-        "source": "2121551_scholar",
-        "target": "C018964560_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 22,
+        "source": 20,
+        "target": 24
       },
       {
-        "source": "5981_scholar",
-        "target": "C020037235_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 23,
+        "source": 23,
+        "target": 25
       },
       {
-        "source": "2365737_scholar",
-        "target": "C018847356_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 24,
+        "source": 23,
+        "target": 26
       },
       {
-        "source": "715311_scholar",
-        "target": "5981_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 25,
+        "source": 24,
+        "target": 27
       },
       {
-        "source": "5981_scholar",
-        "target": "C018883638_keyword",
-        "value": 0.51705,
-        "type": "keyword"
+        "id": 26,
+        "source": 24,
+        "target": 28
       },
       {
-        "source": "715311_scholar",
-        "target": "2372995_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 27,
+        "source": 25,
+        "target": 29
       },
       {
-        "source": "2372995_scholar",
-        "target": "C018890891_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 28,
+        "source": 25,
+        "target": 30
       },
       {
-        "source": "2365737_scholar",
-        "target": "641532_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 29,
+        "source": 26,
+        "target": 31
       },
       {
-        "source": "2121551_scholar",
-        "target": "C018967851_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 30,
+        "source": 26,
+        "target": 32
+      },
+      {
+        "id": 31,
+        "source": 27,
+        "target": 33
+      },
+      {
+        "id": 32,
+        "source": 27,
+        "target": 34
+      },
+      {
+        "id": 33,
+        "source": 28,
+        "target": 35
+      },
+      {
+        "id": 34,
+        "source": 28,
+        "target": 36
+      },
+      {
+        "id": 36,
+        "source": 37,
+        "target": 38
+      },
+      {
+        "id": 37,
+        "source": 37,
+        "target": 40
+      },
+      {
+        "id": 38,
+        "source": 37,
+        "target": 41
+      },
+      {
+        "id": 39,
+        "source": 40,
+        "target": 42
+      },
+      {
+        "id": 40,
+        "source": 40,
+        "target": 43
+      },
+      {
+        "id": 41,
+        "source": 41,
+        "target": 44
+      },
+      {
+        "id": 42,
+        "source": 41,
+        "target": 45
+      },
+      {
+        "id": 43,
+        "source": 42,
+        "target": 46
+      },
+      {
+        "id": 44,
+        "source": 42,
+        "target": 47
+      },
+      {
+        "id": 45,
+        "source": 43,
+        "target": 48
+      },
+      {
+        "id": 46,
+        "source": 43,
+        "target": 49
+      },
+      {
+        "id": 47,
+        "source": 44,
+        "target": 50
+      },
+      {
+        "id": 48,
+        "source": 44,
+        "target": 51
+      },
+      {
+        "id": 49,
+        "source": 45,
+        "target": 52
+      },
+      {
+        "id": 50,
+        "source": 45,
+        "target": 53
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

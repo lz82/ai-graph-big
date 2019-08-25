@@ -7,87 +7,20 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
-        "type": "keyword",
-        "value": 0.7986,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
-        "type": "keyword",
-        "value": 0.8075,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039473_keyword",
-        "name": "machine translation",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018903429_keyword",
-        "name": "Natural Language Processing",
-        "type": "keyword",
-        "value": 0.8845,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018787109_keyword",
-        "name": "Speech recognition",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "291156_keyword",
-        "name": "Crowdsourcing",
-        "type": "keyword",
-        "value": 0.8134,
-        "releExpert": null,
-        "releSubject": null
-      }
-    ],
+      {"code":"0","name":"机器翻译","type":"keyword","level":"1","colorIdx":"0"},
+      {"code":"1","name":"语音识别","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"2","name":"词嵌入","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"3","name":"循环神经网络","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"4","name":"Hermann Ney","type":"expert","level":"2","colorIdx":"0"},
+      {"code":"5","name":"Raymond J. Mooney","type":"expert","level":"2","colorIdx":"0"}
+      ],
     "relations": [
-      {
-        "source": "C020039473_keyword",
-        "target": "C018787109_keyword",
-        "value": 1,
-        "type": "keyword"
-      },
-      {
-        "source": "C020039473_keyword",
-        "target": "407323_keyword",
-        "value": 0.8075,
-        "type": "keyword"
-      },
-      {
-        "source": "C020039473_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.7986,
-        "type": "keyword"
-      },
-      {
-        "source": "C020039473_keyword",
-        "target": "291156_keyword",
-        "value": 0.8134,
-        "type": "keyword"
-      },
-      {
-        "source": "C020039473_keyword",
-        "target": "C018903429_keyword",
-        "value": 0.8845,
-        "type": "keyword"
-      }
-    ],
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"3","source":"0","target":"4"},
+      {"id":"4","source":"0","target":"5"}
+      ],
     "expertReco": [
       {
         "id": 1074780,
