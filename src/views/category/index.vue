@@ -18,13 +18,20 @@
           v-for="item in cardList"
           :key="item.id"
         >
-          <img
+          <!-- <img
             :src="item.pic"
             alt=""
             width="450"
             height="669"
             @click="onPicClick(item.url)"
-          />
+          /> -->
+          <div
+            class="card"
+            @click="onPicClick(item.url)"
+          >
+            <h4 class="title sub">人工智能</h4>
+            <h3 class="title">{{item.title}}</h3>
+          </div>
         </swiper-slide>
         <div class="pagination swiper-pagination swiper-pagination-bullets" slot="pagination">
         </div>
@@ -59,19 +66,23 @@ export default {
 
   data () {
     return {
+      picEnterprise: picEnterprise,
       cardList: [
         {
           id: 1,
+          title: '企业发展',
           pic: picEnterprise,
           url: '/report/enterprise'
         },
         {
           id: 2,
+          title: '人才技术发展',
           pic: picTalent,
           url: '/report/talent'
         },
         {
           id: 3,
+          title: '投资分布',
           pic: picInvest,
           url: '/report/invest'
         }
@@ -167,6 +178,27 @@ export default {
 
     .content {
       padding: 150px;
+
+      .card {
+        width: 450px;
+        height: 670px;
+        border: solid 2px #2e4391;
+        border-radius: 10px;
+        background: transparent;
+        padding: 20px 0;
+
+        .title {
+          color: #fff;
+          font-size: 42px;
+          text-align: center;
+          line-height: 42px;
+          font-weight: 700;
+
+          &.sub {
+            font-size: 28px;
+          }
+        }
+      }
     }
   }
 </style>
@@ -185,7 +217,7 @@ export default {
     background-position: center;
     background-size: cover;
     width: 450px;
-    height: 720px;
+    /* height: 720px; */
   }
   .swiper-pagination-bullet-custom {
     width: 60px;
