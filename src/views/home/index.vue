@@ -74,7 +74,7 @@
         <Count
           :num="13763"
           type="usa"
-          txt="台湾地区"
+          txt="中国台湾"
           class="cnt tw"
           v-if="showTW"
         />
@@ -328,7 +328,7 @@ export default {
     setTimeout(() => {
       this.showCloud = true
       this.initCloud()
-    }, 2500)
+    }, 2000)
   },
 
   methods: {
@@ -580,16 +580,16 @@ export default {
 
     .cloud-left {
       position: absolute;
-      top: 100px;
-      left: 50px;
+      top: 10px;
+      left: 10px;
       z-index: 99;
       opacity: 0;
     }
 
     .cloud-right {
       position: absolute;
-      top: 100px;
-      right: 50px;
+      top: 10px;
+      right: 10px;
       z-index: 99;
       opacity: 0;
     }
