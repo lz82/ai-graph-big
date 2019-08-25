@@ -36,156 +36,1173 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "C018882914_keyword",
-        "name": "Network",
+        "id": 1,
+        "code": 0,
+        "name": "目标检测",
         "type": "keyword",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。",
+        "layoutList": [
+          "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。"
+        ]
       },
       {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
+        "id": 2,
+        "code": 1,
+        "name": "人脸识别",
         "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行脸部识别的一系列相关技术，通常也叫做人像识别、面部识别。",
+        "layoutList": [
+          "人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行脸部识别的一系列相关技术，通常也叫做人像识别、面部识别。"
+        ]
       },
       {
-        "id": "C018883638_keyword",
-        "name": "Cluster Analysis",
+        "id": 3,
+        "code": 2,
+        "name": "边缘检测",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "边缘检测（Edge Detection）是图像处理和计算机视觉中的基本问题，边缘检测的目的是标识数字图像中亮度变化明显的点。图像属性中的显着变化通常反映了属性的重要事件和变化。这些包括（i）深度上的不连续、（ii）表面方向不连续、（iii）物质属性变化和（iv）场景照明变化。",
+        "layoutList": [
+          "边缘检测（Edge Detection）是图像处理和计算机视觉中的基本问题，边缘检测的目的是标识数字图像中亮度变化明显的点。图像属性中的显着变化通常反映了属性的重要事件和变化。这些包括（i）深度上的不连续、（ii）表面方向不连续、（iii）物质属性变化和（iv）场景照明变化。"
+        ]
       },
       {
-        "id": "1794383_scholar",
-        "name": "Desmond Higham ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "358324_keyword",
-        "name": "Matrix logarithm",
+        "id": 4,
+        "code": 3,
+        "name": "图像分类",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "图像分类，根据各自在图像信息中所反映的不同特征，把不同类别的目标区分开来的图像处理方法。它利用计算机对图像进行定量分析，把图像或图像中的每个像元或区域划归为若干个类别中的某一种，以代替人的视觉判读。",
+        "layoutList": [
+          "图像分类，根据各自在图像信息中所反映的不同特征，把不同类别的目标区分开来的图像处理方法。它利用计算机对图像进行定量分析，把图像或图像中的每个像元或区域划归为若干个类别中的某一种，以代替人的视觉判读。"
+        ]
       },
       {
-        "id": "1316079_scholar",
-        "name": "Peter Grindrod ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "Ross B. Girshick",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。",
+        "layoutList": [
+          "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。"
+        ]
       },
       {
-        "id": "C018811885_keyword",
-        "name": "evolutionary algorithm",
+        "id": 6,
+        "code": 5,
+        "name": "Bastian Leibe",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。",
+        "layoutList": [
+          "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "图像识别",
         "type": "keyword",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020037235_keyword",
-        "name": "data mining",
+        "id": 8,
+        "code": 7,
+        "name": "计算机视觉",
         "type": "keyword",
-        "value": 0.6,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020043127_keyword",
-        "name": "Singular value decomposition",
+        "id": 9,
+        "code": 8,
+        "name": "路径规划",
         "type": "keyword",
-        "value": 0.7,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C019212973_keyword",
-        "name": "who tumor classification",
+        "id": 10,
+        "code": 9,
+        "name": "目标识别",
         "type": "keyword",
-        "value": 0.6,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "291156_keyword",
-        "name": "Crowdsourcing",
+        "id": 11,
+        "code": 10,
+        "name": "Kaiming He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Alexander Kirillov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "Jitendra Malik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Pablo Arbelaez",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Luc Van Gool",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Konrad Schindler",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Bernt Schiele",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Krystian Mikolajczyk",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "山世光",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "山世光，博士，研究员，博士生导师。分别于1997年和1999年在哈尔滨工业大学计算机系获得学士和硕士学位；2004年在中科院计算所获计算机应用专业博士学位。主要从事图像处理与理解、计算机视觉、模式识别、机器学习、智能人机交互界面等相关研究工作，特别是与人脸识别相关的研究工作。迄今已在国际/国内期刊、国际会议上发表/录用学术论文150余篇，其中IEEE Trans. on PAMI, IEEE Trans. on Image Processing等国际期刊论文30余篇，计算机视觉领域一流国际会议(CVPR, ICCV, ECCV)论文27篇。与博士生王瑞平合作完成的有关流形到流形距离的论文获CVPR2008 Best Student Poster Award Runner-up奖。现任国际刊物Neurocomputing和EURASIP Journal of Image and Video Processing的编委(AE)，Frontiers of Computer Science的青年编委，曾担任国际期刊IJPRAI、PRL专刊的客座编辑(Guest Editor)，应邀担任了ICPR2014, FG2013, ICPR2012, ACCV2012, ICCV2011的Area Chair，ACCV2014的Workshop Chair, ACM ICMI2010的Local Chair。长期担任IEEE T PAMI/IP/CSVT等十多个重要国际期刊以及国内主流学报的审稿人。",
+        "layoutList": [
+          "山世光，博士，研究员，博士生导师。分别于1997年和1999年在哈尔滨工业大学计算机系获得学士和硕士学位；2004年在中科院计算所获计算机应用专业博士学位。主要从事图像处理与理解、计算机视觉、模式识别、机器学习、智能人机交互界面等相关研究工作，特别是与人脸识别相关的研究工作。迄今已在国际/国内期刊、国际会议上发表/录用学术论文150余篇，其中IEEE Trans. on PAMI, IEEE Trans. on Image Processing等国际期刊论文30余篇，计算机视觉领域一流国际会议(CVPR, ICCV, ECCV)论文27篇。与博士生王瑞平合作完成的有关流形到流形距离的论文获CVPR2008 Best Student Poster Award Runner-up奖。现任国际刊物Neurocomputing和EURASIP Journal of Image and Video Processing的编委(AE)，Frontiers of Computer Science的青年编委，曾担任国际期刊IJPRAI、PRL专刊的客座编辑(Guest Editor)，应邀担任了ICPR2014, FG2013, ICPR2012, ACCV2012, ICCV2011的Area Chair，ACCV2014的Workshop Chair, ACM ICMI2010的Local Chair。长期担任IEEE T PAMI/IP/CSVT等十多个重要国际期刊以及国内主流学报的审稿人。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "李子青",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "IEEE院士，获得了工程学士从湖南大学，中国，工程硕士从萨里大学，英国国防科技，中国和博士学位的大学。目前，他是在一个教授模式识别国家重点实验室和主任中心的生物识别与安全技术研究（CBSR），自动化研究所（中科院自动化所），以及中心的物联网研究（VIOT）的视觉互联网的导演，中国科学院。从2000年到2004年，他在微软亚洲研究院担任研究员。在此之前，他是一名副教授南洋 理工大学， 新加坡。他因为对人脸识别，模式识别和计算机视觉领域的贡献而受到提升。",
+        "layoutList": [
+          "IEEE院士，获得了工程学士从湖南大学，中国，工程硕士从萨里大学，英国国防科技，中国和博士学位的大学。目前，他是在一个教授模式识别国家重点实验室和主任中心的生物识别与安全技术研究（CBSR），自动化研究所（中科院自动化所），以及中心的物联网研究（VIOT）的视觉互联网的导演，中国科学院。从2000年到2004年，他在微软亚洲研究院担任研究员。在此之前，他是一名副教授南洋 理工大学， 新加坡。他因为对人脸识别，模式识别和计算机视觉领域的贡献而受到提升。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "表情识别",
         "type": "keyword",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 22,
+        "code": 21,
+        "name": "目标检测",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 23,
+        "code": 22,
+        "name": "神经网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 24,
+        "code": 23,
+        "name": "人脸检测",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 24,
+        "name": "Xilin Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 25,
+        "name": "Yong Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "Kongming Liang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Hong Chang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Zhen Lei",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Dong Yi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Shifeng Zhang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Rui Zhu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Rachid Deriche",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "是法国IniaSophiaAntipolis（法国）的研究总监，在那里他领导了研究项目Athena，旨在利用计算成像来探索中枢神经系统。他已经出版了60多个期刊和180多个会议论文，其中谷歌学者H索引为67。他被称为边缘检测算法的开发，该算法被命名为在他之后。",
+        "layoutList": [
+          "是法国IniaSophiaAntipolis（法国）的研究总监，在那里他领导了研究项目Athena，旨在利用计算成像来探索中枢神经系统。他已经出版了60多个期刊和180多个会议论文，其中谷歌学者H索引为67。他被称为边缘检测算法的开发，该算法被命名为在他之后。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "Alan L. Yuille",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "Alan L. Yuille教授是约翰霍普金斯大学彭博社认知科学和计算机科学的杰出教授。他负责组成认知、视觉和学习的研究小组。他隶属于大脑、心智和机器中心，以及美国国家科学基金会（NSF）在计算、硅视觉皮层方面的研究。",
+        "layoutList": [
+          "Alan L. Yuille教授是约翰霍普金斯大学彭博社认知科学和计算机科学的杰出教授。他负责组成认知、视觉和学习的研究小组。他隶属于大脑、心智和机器中心，以及美国国家科学基金会（NSF）在计算、硅视觉皮层方面的研究。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "连通性映射",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 35,
+        "name": "图像分割",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 37,
+        "code": 36,
+        "name": "图像分类",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 38,
+        "code": 37,
+        "name": "随机森林",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 39,
+        "code": 38,
+        "name": "Olivier D. Faugeras",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 40,
+        "code": 39,
+        "name": "Christophe Lenglet",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 40,
+        "name": "Maxime Descoteaux",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 41,
+        "name": "Demian Wassermann",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Lingxi Xie",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Yan Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Wei Shen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Bo Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Andrew Zisserman",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "（1957年出生）是一位英国计算机科学家和牛津大学教授，以及计算机视觉研究人员。截至2014年，他与Deepad有关联。",
+        "layoutList": [
+          "（1957年出生）是一位英国计算机科学家和牛津大学教授，以及计算机视觉研究人员。截至2014年，他与Deepad有关联。"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "谭铁牛",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。",
+        "layoutList": [
+          "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "卷积神经网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 49,
+        "name": "物体识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 50,
+        "name": "人脸识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 51,
+        "name": "物体检测",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Andrea Vedaldi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Alison Noble",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "David A. Forsyth",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Joseph L. Mundy",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Zhenan Sun",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Xiang Wu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Kaiqi Huang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Ran He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "Query expansion for VHR image detection/Mining large satellite image repositories using semi-supervised methods/Underground object detection based on cross correlation and Hough transform\nObject detection by parts using appearance, structural and shape features/Finding objects at indoor environment combined with depth information/IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition/Improving sub-pixel accuracy for long range stereo",
+        "layoutList": [
+          "Query expansion for VHR image detection",
+          "Mining large satellite image repositories using semi-supervised methods",
+          "Underground object detection based on cross correlation and Hough transform\nObject detection by parts using appearance, structural and shape features",
+          "Finding objects at indoor environment combined with depth information",
+          "IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition",
+          "Improving sub-pixel accuracy for long range stereo"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "一种运动目标检测方法及装置/基于小波降噪的LS-SVM海面小目标检测的方法/基于增强约束稀疏回归的半监督高光谱亚像元目标检测法/基于角点高斯特性分析的红外小目标检测方法/基于纹理和运动模式融合的运动目标检测算法/一种基于混合高斯模型的运动目标检测方法/基于稀疏表示和视皮层注意机制的目标检测方法",
+        "layoutList": [
+          "一种运动目标检测方法及装置",
+          "基于小波降噪的LS-SVM海面小目标检测的方法",
+          "基于增强约束稀疏回归的半监督高光谱亚像元目标检测法",
+          "基于角点高斯特性分析的红外小目标检测方法",
+          "基于纹理和运动模式融合的运动目标检测算法",
+          "一种基于混合高斯模型的运动目标检测方法",
+          "基于稀疏表示和视皮层注意机制的目标检测方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "Face recognition using a fusion method based on bidirectional 2DPCA/Face recognition based on two subspaces linear discriminant analysis/Minimum Bayes error features for visual recognition/Subspace manifold learning with sample weights\nA critical band of phase alignment for discrimination but not recognition of human faces/The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration/Face recognition using spatially constrained earth mover's distance",
+        "layoutList": [
+          "Face recognition using a fusion method based on bidirectional 2DPCA",
+          "Face recognition based on two subspaces linear discriminant analysis",
+          "Minimum Bayes error features for visual recognition",
+          "Subspace manifold learning with sample weights\nA critical band of phase alignment for discrimination but not recognition of human faces",
+          "The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration",
+          "Face recognition using spatially constrained earth mover's distance"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "一种基于双目摄像头的智能电视人脸识别方法/一种基于局部对比模式的人脸识别方法/基于图像传感器成像系统的人脸识别算法/基于分布式压缩传感的近红外与可见光图像人脸识别方法/一种基于子空间的增量学习人脸识别方法/基于多尺度韦伯局部特征和分层决策融合的人脸识别方法/结合生物特征与局部图像特征的并行人脸识别方法",
+        "layoutList": [
+          "一种基于双目摄像头的智能电视人脸识别方法",
+          "一种基于局部对比模式的人脸识别方法",
+          "基于图像传感器成像系统的人脸识别算法",
+          "基于分布式压缩传感的近红外与可见光图像人脸识别方法",
+          "一种基于子空间的增量学习人脸识别方法",
+          "基于多尺度韦伯局部特征和分层决策融合的人脸识别方法",
+          "结合生物特征与局部图像特征的并行人脸识别方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "Extraction of the sonogram indices with mathematical morphology\nImproved multiresolution sequential edge linking and its application in medical image/Study on a fast method for sub-pixel edge detection/An Efficient Automatic Video Segmentation /ethod Based on Intersection of Frame Differences/Measurement of swollen volume of polymer melt due to gas dissolution/Algorithm for image edge detection based on two-dimension continuous wavelet transform/Feature extraction for structured surface based on surface networks and edge detection",
+        "layoutList": [
+          "Extraction of the sonogram indices with mathematical morphology\nImproved multiresolution sequential edge linking and its application in medical image",
+          "Study on a fast method for sub-pixel edge detection",
+          "An Efficient Automatic Video Segmentation ",
+          "ethod Based on Intersection of Frame Differences",
+          "Measurement of swollen volume of polymer melt due to gas dissolution",
+          "Algorithm for image edge detection based on two-dimension continuous wavelet transform",
+          "Feature extraction for structured surface based on surface networks and edge detection"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "一种音圈马达磁体边缘检测方法\n基于窗口改进的多级中值滤波的图像边缘检测方法\n一种数学形态学和LoG算子结合的边缘检测算法\n一种基于特定类灰度图像的边缘检测方法\n一种基于亚像素边缘检测的四一七条码识别方法\n挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法",
+        "layoutList": [
+          "一种音圈马达磁体边缘检测方法\n基于窗口改进的多级中值滤波的图像边缘检测方法\n一种数学形态学和LoG算子结合的边缘检测算法\n一种基于特定类灰度图像的边缘检测方法\n一种基于亚像素边缘检测的四一七条码识别方法\n挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy/Evenness control of rapier loom tension by using neural network/Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation/A neural network ensemble method with jittered training data for time series forecasting/Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process/Computational intelligence in photonics technology and optical networks: A survey and future perspectives/Polarized DIS structure functions from neural networks",
+        "layoutList": [
+          "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy",
+          "Evenness control of rapier loom tension by using neural network",
+          "Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation",
+          "A neural network ensemble method with jittered training data for time series forecasting",
+          "Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process",
+          "Computational intelligence in photonics technology and optical networks: A survey and future perspectives",
+          "Polarized DIS structure functions from neural networks"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "基于人工神经网络模型超声造影特征自动识别系统及方法/基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台/结合卷积神经网络和概念机递归神经网络的图像分类方法/神经网络训练方法、神经网络系统和计算机系统/基于多重孪生神经网络与区域神经网络的目标跟踪方法/神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序/卷积神经网络和脉冲神经网络的融合结构及方法",
+        "layoutList": [
+          "基于人工神经网络模型超声造影特征自动识别系统及方法",
+          "基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台",
+          "结合卷积神经网络和概念机递归神经网络的图像分类方法",
+          "神经网络训练方法、神经网络系统和计算机系统",
+          "基于多重孪生神经网络与区域神经网络的目标跟踪方法",
+          "神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序",
+          "卷积神经网络和脉冲神经网络的融合结构及方法"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "1316079_scholar",
-        "target": "C018882914_keyword",
-        "value": 0.83333,
-        "type": "keyword"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "1316079_scholar",
-        "target": "C018883638_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "1794383_scholar",
-        "target": "C020043127_keyword",
-        "value": 0.7,
-        "type": "keyword"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "1316079_scholar",
-        "target": "291156_keyword",
-        "value": 0.83333,
-        "type": "keyword"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "1316079_scholar",
-        "target": "C018811890_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "1794383_scholar",
-        "target": "C019212973_keyword",
-        "value": 0.6,
-        "type": "keyword"
+        "id": 60,
+        "source": 0,
+        "target": 60
       },
       {
-        "source": "358324_keyword",
-        "target": "1316079_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 61,
+        "source": 0,
+        "target": 61
       },
       {
-        "source": "358324_keyword",
-        "target": "1794383_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 18,
+        "source": 1,
+        "target": 18
       },
       {
-        "source": "1316079_scholar",
-        "target": "C018811885_keyword",
-        "value": 0.66667,
-        "type": "keyword"
+        "id": 19,
+        "source": 1,
+        "target": 19
       },
       {
-        "source": "1794383_scholar",
-        "target": "C020037235_keyword",
-        "value": 0.6,
-        "type": "keyword"
+        "id": 62,
+        "source": 1,
+        "target": 62
+      },
+      {
+        "id": 63,
+        "source": 1,
+        "target": 63
+      },
+      {
+        "id": 32,
+        "source": 2,
+        "target": 32
+      },
+      {
+        "id": 33,
+        "source": 2,
+        "target": 33
+      },
+      {
+        "id": 64,
+        "source": 2,
+        "target": 64
+      },
+      {
+        "id": 65,
+        "source": 2,
+        "target": 65
+      },
+      {
+        "id": 46,
+        "source": 3,
+        "target": 46
+      },
+      {
+        "id": 47,
+        "source": 3,
+        "target": 47
+      },
+      {
+        "id": 66,
+        "source": 3,
+        "target": 66
+      },
+      {
+        "id": 67,
+        "source": 3,
+        "target": 67
+      },
+      {
+        "id": 6,
+        "source": 4,
+        "target": 6
+      },
+      {
+        "id": 7,
+        "source": 4,
+        "target": 7
+      },
+      {
+        "id": 8,
+        "source": 5,
+        "target": 8
+      },
+      {
+        "id": 9,
+        "source": 5,
+        "target": 9
+      },
+      {
+        "id": 10,
+        "source": 6,
+        "target": 10
+      },
+      {
+        "id": 11,
+        "source": 6,
+        "target": 11
+      },
+      {
+        "id": 12,
+        "source": 7,
+        "target": 12
+      },
+      {
+        "id": 13,
+        "source": 7,
+        "target": 13
+      },
+      {
+        "id": 14,
+        "source": 8,
+        "target": 14
+      },
+      {
+        "id": 15,
+        "source": 8,
+        "target": 15
+      },
+      {
+        "id": 16,
+        "source": 9,
+        "target": 16
+      },
+      {
+        "id": 17,
+        "source": 9,
+        "target": 17
+      },
+      {
+        "id": 20,
+        "source": 18,
+        "target": 20
+      },
+      {
+        "id": 21,
+        "source": 18,
+        "target": 21
+      },
+      {
+        "id": 22,
+        "source": 19,
+        "target": 22
+      },
+      {
+        "id": 23,
+        "source": 19,
+        "target": 23
+      },
+      {
+        "id": 24,
+        "source": 20,
+        "target": 24
+      },
+      {
+        "id": 25,
+        "source": 20,
+        "target": 25
+      },
+      {
+        "id": 26,
+        "source": 21,
+        "target": 26
+      },
+      {
+        "id": 27,
+        "source": 21,
+        "target": 27
+      },
+      {
+        "id": 28,
+        "source": 22,
+        "target": 28
+      },
+      {
+        "id": 29,
+        "source": 22,
+        "target": 29
+      },
+      {
+        "id": 30,
+        "source": 23,
+        "target": 30
+      },
+      {
+        "id": 31,
+        "source": 23,
+        "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
+      },
+      {
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+ 
+  ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

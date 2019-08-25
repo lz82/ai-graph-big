@@ -87,842 +87,1180 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "1838213_scholar",
-        "name": "Mark john francis Gales",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1986845_scholar",
-        "name": "Wendy webber Chapman",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1972771_scholar",
-        "name": "Daniel Rubin",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018903429_keyword",
-        "name": "Natural Language Processing",
+        "id": 1,
+        "code": 0,
+        "name": "机器翻译",
         "type": "keyword",
-        "value": 0.8845,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": "机器翻译（Machine Translation），又称为自动翻译，是利用计算机将一种自然语言(源语言)转换为另一种自然语言(目标语言)的过程。它是计算语言学的一个分支，是人工智能的终极目标之一，具有重要的科学研究价值。",
+        "layoutList": [
+          "机器翻译（Machine Translation），又称为自动翻译，是利用计算机将一种自然语言(源语言)转换为另一种自然语言(目标语言)的过程。它是计算语言学的一个分支，是人工智能的终极目标之一，具有重要的科学研究价值。"
+        ]
       },
       {
-        "id": "C018892767_keyword",
-        "name": "Speech enhancement",
+        "id": 2,
+        "code": 1,
+        "name": "语音识别",
         "type": "keyword",
-        "value": 0.9553,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": "语音识别（Voice recognition）是一门交叉学科。近二十年来，语音识别技术取得显著进步，开始从实验室走向市场。人们预计，未来10年内，语音识别技术将进入工业、家电、通信、汽车电子、医疗、家庭服务、消费电子产品等各个领域。",
+        "layoutList": [
+          "语音识别（Voice recognition）是一门交叉学科。近二十年来，语音识别技术取得显著进步，开始从实验室走向市场。人们预计，未来10年内，语音识别技术将进入工业、家电、通信、汽车电子、医疗、家庭服务、消费电子产品等各个领域。"
+        ]
       },
       {
-        "id": "1055115_scholar",
-        "name": "Erik Cambria",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "407323_keyword",
-        "name": "Deep learning",
+        "id": 3,
+        "code": 2,
+        "name": "词嵌入",
         "type": "keyword",
-        "value": 0.8075,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": "词嵌入是自然语言处理（NLP）中语言模型与表征学习技术的统称。概念上而言，它是指把一个维数为所有词的数量的高维空间嵌入到一个维数低得多的连续向量空间中，每个单词或词组被映射为实数域上的向量。",
+        "layoutList": [
+          "词嵌入是自然语言处理（NLP）中语言模型与表征学习技术的统称。概念上而言，它是指把一个维数为所有词的数量的高维空间嵌入到一个维数低得多的连续向量空间中，每个单词或词组被映射为实数域上的向量。"
+        ]
       },
       {
-        "id": "1843480_scholar",
-        "name": "Brian Kingsbury",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 4,
+        "code": 3,
+        "name": "循环神经网络",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": "循环神经网络（Recurrent Neural Network, RNN）是一类以序列（sequence）数据为输入，在序列的演进方向进行递归（recursion）且所有节点（循环单元）按链式连接的递归神经网络（recursive neural network）。",
+        "layoutList": [
+          "循环神经网络（Recurrent Neural Network, RNN）是一类以序列（sequence）数据为输入，在序列的演进方向进行递归（recursion）且所有节点（循环单元）按链式连接的递归神经网络（recursive neural network）。"
+        ]
       },
       {
-        "id": "1893211_scholar",
+        "id": 5,
+        "code": 4,
         "name": "Hermann Ney",
-        "type": "scholar",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": "IEEE研究员，德国亚琛工业大学的教授。主要研究方向:统计分类与机器学习自动语音识别统计机器翻译",
+        "layoutList": [
+          "IEEE研究员，德国亚琛工业大学的教授。主要研究方向:统计分类与机器学习自动语音识别统计机器翻译"
+        ]
       },
       {
-        "id": "305302_keyword",
-        "name": "Convolutional neural network",
+        "id": 6,
+        "code": 5,
+        "name": "Raymond J. Mooney",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": "我在60年代和70年代在伊利诺伊州奥法隆小镇长大，从1967年开始，我就读于圣克莱尔小学，并于1975年开始在O'Fallon Township Highschool上学。在我17岁的时候看到我为高中英语课写的一篇论文的扫描版本（在打字机上！），题为 “高级人工智能：具有巨大潜力的高级人工智能”。我对AI的热情很早就开始了，并没有减弱; 然而，我对人工智能的进展速度及其积极的社会影响的预测已经成熟，并且（希望）变得更加现实。在1979年的秋天，我去了伊利诺伊大学的香槟 - 厄巴纳获得所有上面列出的程度。1987年12月，我完成了博士学位。在Gerald DeJong教授的指导下，他开始在德克萨斯大学奥斯汀分校的计算机科学系担任教职员工，在那里我享受着希望长期学术生涯的第四个十年的开始。",
+        "layoutList": [
+          "我在60年代和70年代在伊利诺伊州奥法隆小镇长大，从1967年开始，我就读于圣克莱尔小学，并于1975年开始在O'Fallon Township Highschool上学。在我17岁的时候看到我为高中英语课写的一篇论文的扫描版本（在打字机上！），题为 “高级人工智能：具有巨大潜力的高级人工智能”。我对AI的热情很早就开始了，并没有减弱; 然而，我对人工智能的进展速度及其积极的社会影响的预测已经成熟，并且（希望）变得更加现实。在1979年的秋天，我去了伊利诺伊大学的香槟 - 厄巴纳获得所有上面列出的程度。1987年12月，我完成了博士学位。在Gerald DeJong教授的指导下，他开始在德克萨斯大学奥斯汀分校的计算机科学系担任教职员工，在那里我享受着希望长期学术生涯的第四个十年的开始。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "语音识别",
         "type": "keyword",
-        "value": 0.9467,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018787109_keyword",
-        "name": "Speech recognition",
+        "id": 8,
+        "code": 7,
+        "name": "语言建模",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2117202_scholar",
-        "name": "Paolo Rosso",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "339293_scholar",
-        "name": "Ziyuan Tong",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2010020_scholar",
-        "name": "Jinghe Lang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020039473_keyword",
-        "name": "machine translation",
+        "id": 9,
+        "code": 8,
+        "name": "自然语言处理",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "6256132_scholar",
-        "name": "Antonio Cianci ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2118276_scholar",
-        "name": "Tomohiro Nakatani",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
+        "id": 10,
+        "code": 9,
+        "name": "强化学习",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
+        "id": 11,
+        "code": 10,
+        "name": "Yunsu Kim",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Yingbo Gao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "Kazuki Irie",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Albert Zeyer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Jesse Thomason",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Aishwarya Padmakumar",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Scott Niekum",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Prasoon Goyal",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Samy Bengio",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": "Samy Bengio（蒙特利尔大学计算机科学博士，1993年）自2007年以来一直是谷歌的研究科学家。在此之前，他是IDIAP研究所统计机器学习的高级研究员，在那里他监督博士生和博士后研究员。他的研究兴趣涉及机器学习的许多领域，如深层架构，表示学习，序列处理，语音识别，图像理解，支持向量机，混合模型，大规模问题，多模态（面部和语音）人员认证，大脑计算机接口和文档检索。他是2017年神经信息处理系统（NIPS）的项目主席 - 机器学习的主要会议场所，机器学习研究期刊的行动编辑和机器学习期刊的编辑委员会。他还是国际学习代表大会（ICLR 2015,2016），BayLearn（2012-2015）主席和多模式相互作用机器学习研讨会（MLMI'2004-2006）的项目主席，以及IEEE信号处理神经网络研讨会（NNSP'2002），以及NIPS，ICML，ICLR，ECML和IJCAI等多个国际会议的计划委员会。",
+        "layoutList": [
+          "Samy Bengio（蒙特利尔大学计算机科学博士，1993年）自2007年以来一直是谷歌的研究科学家。在此之前，他是IDIAP研究所统计机器学习的高级研究员，在那里他监督博士生和博士后研究员。他的研究兴趣涉及机器学习的许多领域，如深层架构，表示学习，序列处理，语音识别，图像理解，支持向量机，混合模型，大规模问题，多模态（面部和语音）人员认证，大脑计算机接口和文档检索。他是2017年神经信息处理系统（NIPS）的项目主席 - 机器学习的主要会议场所，机器学习研究期刊的行动编辑和机器学习期刊的编辑委员会。他还是国际学习代表大会（ICLR 2015,2016），BayLearn（2012-2015）主席和多模式相互作用机器学习研讨会（MLMI'2004-2006）的项目主席，以及IEEE信号处理神经网络研讨会（NNSP'2002），以及NIPS，ICML，ICLR，ECML和IJCAI等多个国际会议的计划委员会。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Fernando C. N. Pereira",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": "谷歌的研究总监。他之前的职务包括宾夕法尼亚大学计算机和信息科学系系主任、美国电话电报公司(AT&T)实验室机器学习和信息检索系系主任，以及斯坦福国际研究所(SRI International)的研究和管理职位。1982年，他在爱丁堡大学获得了人工智能博士学位。他的主要研究兴趣是语言和生物序列的机器可学模型。",
+        "layoutList": [
+          "谷歌的研究总监。他之前的职务包括宾夕法尼亚大学计算机和信息科学系系主任、美国电话电报公司(AT&T)实验室机器学习和信息检索系系主任，以及斯坦福国际研究所(SRI International)的研究和管理职位。1982年，他在爱丁堡大学获得了人工智能博士学位。他的主要研究兴趣是语言和生物序列的机器可学模型。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "特征提取",
         "type": "keyword",
-        "value": 0.9239,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1265417_scholar",
-        "name": "Wei Ding",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2010526_scholar",
-        "name": "Keisuke Kinoshita",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4768049_scholar",
-        "name": "Salvatore giovanni Vitale ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
-        "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "23592_scholar",
-        "name": "Diane Cook",
-        "type": "scholar",
-        "value": 0.55833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1937237_scholar",
-        "name": "Bhiksha Raj ",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2750276_scholar",
-        "name": "Luc De Raedt",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2420535_scholar",
-        "name": "Scott andrew Crossley",
-        "type": "scholar",
-        "value": 0.78571,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "417590_scholar",
-        "name": "邓力",
-        "type": "scholar",
-        "value": 0.51852,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "98415_keyword",
-        "name": "Sentiment analysis",
+        "id": 22,
+        "code": 21,
+        "name": "人脸认证",
         "type": "keyword",
-        "value": 0.8062,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020042104_keyword",
-        "name": "Artificial Intelligence",
+        "id": 23,
+        "code": 22,
+        "name": "语义分析",
         "type": "keyword",
-        "value": 0.7816,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018948469_keyword",
-        "name": "big data",
+        "id": 24,
+        "code": 23,
+        "name": "半监督学习",
         "type": "keyword",
-        "value": 0.9138,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2467379_scholar",
-        "name": "Run Wang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 25,
+        "code": 24,
+        "name": "Hervé Bourlard",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2046398_scholar",
-        "name": "Hongfang Liu ",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
+        "id": 26,
+        "code": 25,
+        "name": "Katrin Weber",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018882261_keyword",
-        "name": "text mining",
+        "id": 27,
+        "code": 26,
+        "name": "Norman Poh",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Sébastien Marcel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Rahul Gupta",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Michael Ringgaard",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Slav Petrov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Amarnag Subramanya",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Christopher D. Manning",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。",
+        "layoutList": [
+          "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "翟成祥",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": "研究兴趣:开发各种新颖的智能信息系统(如智能搜索引擎、推荐系统、文本分析引擎、智能任务助手等)，帮助人们管理和利用大量的数据(如，“大数据”)，尤其是文本数据。我特别感兴趣的是建立这样的智能系统，以改善健康、医疗、教育和加速科学发现，并建立在理论健全的框架、模型和算法的基础上，这些框架、模型和算法在经验上也是有效的。目前兴趣包括智能信息检索、文本数据挖掘、应用机器学习、人机协作优化、生物医学和健康信息学、智能教育系统。",
+        "layoutList": [
+          "研究兴趣:开发各种新颖的智能信息系统(如智能搜索引擎、推荐系统、文本分析引擎、智能任务助手等)，帮助人们管理和利用大量的数据(如，“大数据”)，尤其是文本数据。我特别感兴趣的是建立这样的智能系统，以改善健康、医疗、教育和加速科学发现，并建立在理论健全的框架、模型和算法的基础上，这些框架、模型和算法在经验上也是有效的。目前兴趣包括智能信息检索、文本数据挖掘、应用机器学习、人机协作优化、生物医学和健康信息学、智能教育系统。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "机器翻译",
         "type": "keyword",
-        "value": 0.9248,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1914599_scholar",
-        "name": "Junichi Imura ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "3209441_scholar",
-        "name": "Birger Kollmeier ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020037235_keyword",
-        "name": "data mining",
+        "id": 36,
+        "code": 35,
+        "name": "语义角色标注",
         "type": "keyword",
-        "value": 0.906,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "4478128_scholar",
-        "name": "Lawrence Deng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4121547_scholar",
-        "name": "Ying hsien Huang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2070165_scholar",
-        "name": "Guergana Savova",
-        "type": "scholar",
-        "value": 0.92857,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "10311_scholar",
-        "name": "Ralf Schlüter",
-        "type": "scholar",
-        "value": 0.59259,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "40940_scholar",
-        "name": "Ilsun You ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020043191_keyword",
-        "name": "computer vision",
+        "id": 37,
+        "code": 36,
+        "name": "信息检索",
         "type": "keyword",
-        "value": 0.9021,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "4250085_scholar",
-        "name": "Hongqing Liu ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
+        "id": 38,
+        "code": 37,
+        "name": "文本挖掘",
         "type": "keyword",
-        "value": 0.9383,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2118481_scholar",
-        "name": "Siani Pearson ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 39,
+        "code": 38,
+        "name": "Daniel Jurafsky",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "773833_scholar",
-        "name": "Lan Zhu ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 40,
+        "code": 39,
+        "name": "Daniel M. Cer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "964787_scholar",
-        "name": "Mor Peleg",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 41,
+        "code": 40,
+        "name": "Aria Haghighi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "291156_keyword",
-        "name": "Crowdsourcing",
+        "id": 42,
+        "code": 41,
+        "name": "Kristina Toutanova",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Stefano Mizzaro",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Hui Fang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Jiawei Han",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Duo Zhang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Geoffrey E. Hinton",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": "Geoffrey Everest Hinton（1947年12月6日出生）是一位英语加拿大认知心理学家和计算机科学家，最著名的是他在人工神经网络中的工作。自2013年起，他将他的时间划分为谷歌（谷歌）和多伦多大学。Hinton与DavidE.Rumelhart和RonaldJ.Williams共同撰写了一篇发表于1986年的论文，它推广了训练多层神经网络的反向传播算法，尽管他们不是第一个提出这种方法的。Hinton被一些人看作是深层学习社区的主要人物，被一些人称为\"深度学习(Deep)\"。由他的学生为ImaGenet挑战2012设计的Alexnet的引人注目的图像识别里程碑有助于彻底改变计算机视觉领域。欣顿与YoshuaBengio和YannLecun一起获得2018年图灵奖，用于深入学习。",
+        "layoutList": [
+          "Geoffrey Everest Hinton（1947年12月6日出生）是一位英语加拿大认知心理学家和计算机科学家，最著名的是他在人工神经网络中的工作。自2013年起，他将他的时间划分为谷歌（谷歌）和多伦多大学。Hinton与DavidE.Rumelhart和RonaldJ.Williams共同撰写了一篇发表于1986年的论文，它推广了训练多层神经网络的反向传播算法，尽管他们不是第一个提出这种方法的。Hinton被一些人看作是深层学习社区的主要人物，被一些人称为\"深度学习(Deep)\"。由他的学生为ImaGenet挑战2012设计的Alexnet的引人注目的图像识别里程碑有助于彻底改变计算机视觉领域。欣顿与YoshuaBengio和YannLecun一起获得2018年图灵奖，用于深入学习。"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "Alex (Sandy) Pentland",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": "麻省理工学院连接科学与人类动力学实验室的主任，他曾帮助创建和指导麻省理工学院媒体实验室和印度的亚洲媒体实验室。他是世界上被引用最多的科学家之一。他获得过许多奖项，比如《哈佛商业评论》的麦肯锡奖，DARPA的互联网40周年纪念，以及布兰代斯隐私奖。他是谷歌、美国电话电报公司(AT&T)、日产汽车(Nissan)咨询委员会的创始成员，也是联合国秘书长。他是一位连续创业家，与人共同创办了十多家公司，包括数据透明实验室(Data Transparency Lab)、哈佛大学-奥迪-麻省理工学院(harvard -奥迪- mit)数据运营联盟(Data apop Alliance)和数据驱动设计研究所(Institute for Data Driven Design)等社会企业。他是美国国家工程学院的成员，也是世界经济论坛的领导人。Sandy和他的学生一起开创了计算社会科学、组织工程、可穿戴计算(谷歌Glass)、图像理解和现代生物识别技术。他最近的著作是《社会物理学》和《诚实的信号》。",
+        "layoutList": [
+          "麻省理工学院连接科学与人类动力学实验室的主任，他曾帮助创建和指导麻省理工学院媒体实验室和印度的亚洲媒体实验室。他是世界上被引用最多的科学家之一。他获得过许多奖项，比如《哈佛商业评论》的麦肯锡奖，DARPA的互联网40周年纪念，以及布兰代斯隐私奖。他是谷歌、美国电话电报公司(AT&T)、日产汽车(Nissan)咨询委员会的创始成员，也是联合国秘书长。他是一位连续创业家，与人共同创办了十多家公司，包括数据透明实验室(Data Transparency Lab)、哈佛大学-奥迪-麻省理工学院(harvard -奥迪- mit)数据运营联盟(Data apop Alliance)和数据驱动设计研究所(Institute for Data Driven Design)等社会企业。他是美国国家工程学院的成员，也是世界经济论坛的领导人。Sandy和他的学生一起开创了计算社会科学、组织工程、可穿戴计算(谷歌Glass)、图像理解和现代生物识别技术。他最近的著作是《社会物理学》和《诚实的信号》。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "深度学习",
         "type": "keyword",
-        "value": 0.8134,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018811202_keyword",
-        "name": "Hidden Markov models",
+        "id": 50,
+        "code": 49,
+        "name": "计算机视觉",
         "type": "keyword",
-        "value": 0.9679,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3143505_scholar",
-        "name": "Kazuhiro Nakadai",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1787042_scholar",
-        "name": "Daniel Povey",
-        "type": "scholar",
-        "value": 0.62963,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1698932_scholar",
-        "name": "Faïez Gargouri ",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
+        "id": 51,
+        "code": 50,
+        "name": "社交网络",
         "type": "keyword",
-        "value": 0.7986,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "366996_scholar",
-        "name": "Michal Wozniak",
-        "type": "scholar",
-        "value": 0.90833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C019203844_keyword",
-        "name": "Experiential Learning",
+        "id": 52,
+        "code": 51,
+        "name": "物体跟踪",
         "type": "keyword",
-        "value": 0.9151,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "381285_scholar",
-        "name": "André de",
-        "type": "scholar",
-        "value": 0.50833,
-        "releExpert": null,
-        "releSubject": null
+        "id": 53,
+        "code": 52,
+        "name": "Ilya Sutskever",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018827506_keyword",
-        "name": "Knowledge acquisition",
-        "type": "keyword",
-        "value": 0.9051,
-        "releExpert": null,
-        "releSubject": null
+        "id": 54,
+        "code": 53,
+        "name": "Volodymyr Mnih",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1888596_scholar",
-        "name": "Taghi Khoshgoftaar",
-        "type": "scholar",
-        "value": 0.575,
-        "releExpert": null,
-        "releSubject": null
+        "id": 55,
+        "code": 54,
+        "name": "Richard S. Zemel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1463432_scholar",
-        "name": "Jungwon Lee ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 56,
+        "code": 55,
+        "name": "Max Welling",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Fabio Pianesi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Person information",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Trevor Darrell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Kenneth B. Russell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": "Speech translation enhanced ASR for European parliament speeches - On the influence of ASR performance on speech translation/Integrating speech recognition and machine translation/Improving speech transcription for Mandarin-english translation/Consensus network decoding for statistical machine translation system combination/Speech recognition system combination for machine translation/The impact of ASR on speech-to-speech translation performance/On efficient coupling of ASR and SMT for speech translation",
+        "layoutList": [
+          "Speech translation enhanced ASR for European parliament speeches - On the influence of ASR performance on speech translation",
+          "Integrating speech recognition and machine translation",
+          "Improving speech transcription for Mandarin-english translation",
+          "Consensus network decoding for statistical machine translation system combination",
+          "Speech recognition system combination for machine translation",
+          "The impact of ASR on speech-to-speech translation performance",
+          "On efficient coupling of ASR and SMT for speech translation"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "机器翻译",
+        "layout": "一种基于分布式并行计算框架的机器翻译方法/机器翻译反馈/面向统计机器翻译的训练语料质量评价及选取方法/一种用于统计机器翻译的参数调整方法/一种融合句法树和统计机器翻译技术的翻译方法与装置/机器翻译测评装置及方法/使用依存丛林的统计机器翻译方法",
+        "layoutList": [
+          "一种基于分布式并行计算框架的机器翻译方法",
+          "机器翻译反馈",
+          "面向统计机器翻译的训练语料质量评价及选取方法",
+          "一种用于统计机器翻译的参数调整方法",
+          "一种融合句法树和统计机器翻译技术的翻译方法与装置",
+          "机器翻译测评装置及方法",
+          "使用依存丛林的统计机器翻译方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": "Thai speech processing technology: A review/Prediction of speech recognition from audibility in older listeners with hearing loss: Effects of age, amplification, and background noise/Feature compensation with model-based estimation for noise masking/Incremental language modeling for automatic transcription of broadcast news/Reducing computation time of the rapid unsupervised speaker adaptation based on HMM-sufficient statistics/A speech-controlled environmental control system for people with severe dysarthria/Personal Digital Assistant in an orthopaedic wireless ward: The HandHealth project",
+        "layoutList": [
+          "Thai speech processing technology: A review",
+          "Prediction of speech recognition from audibility in older listeners with hearing loss: Effects of age, amplification, and background noise",
+          "Feature compensation with model-based estimation for noise masking",
+          "Incremental language modeling for automatic transcription of broadcast news",
+          "Reducing computation time of the rapid unsupervised speaker adaptation based on HMM-sufficient statistics",
+          "A speech-controlled environmental control system for people with severe dysarthria",
+          "Personal Digital Assistant in an orthopaedic wireless ward: The HandHealth project"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "机器翻译",
+        "layout": "一种移动终端的语音识别联系人的方法/基于单词级别的备选生成的语音识别系统及方法/一种语音识别控制方法/一种基于语音识别的智能电子记分牌/语音识别多功能笔/一种具有语音识别功能的宠物门系统/用于移动设备的语音识别系统和方法",
+        "layoutList": [
+          "一种移动终端的语音识别联系人的方法",
+          "基于单词级别的备选生成的语音识别系统及方法",
+          "一种语音识别控制方法",
+          "一种基于语音识别的智能电子记分牌",
+          "语音识别多功能笔",
+          "一种具有语音识别功能的宠物门系统",
+          "用于移动设备的语音识别系统和方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": "Convolution neural network for relation extraction/Word embedding: Continuous space representation for natural language/Continuous word embeddings for detecting local text reuses at the semantic level/Task specific continuous word representations for mono and multi-lingual spoken language understanding/Word embeddings: A semi-supervised learning method for slot-filling in spoken dialog systems/A short texts matching method using shallow features and deep features/Using recurrent neural networks for slot filling in spoken language understanding",
+        "layoutList": [
+          "Convolution neural network for relation extraction",
+          "Word embedding: Continuous space representation for natural language",
+          "Continuous word embeddings for detecting local text reuses at the semantic level",
+          "Task specific continuous word representations for mono and multi-lingual spoken language understanding",
+          "Word embeddings: A semi-supervised learning method for slot-filling in spoken dialog systems",
+          "A short texts matching method using shallow features and deep features",
+          "Using recurrent neural networks for slot filling in spoken language understanding"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "机器翻译",
+        "layout": "一种词嵌入向量的确定方法、装置及设备/一种将文本转化为词嵌入、文本分类方法和装置/基于词嵌入的流形主题模型的建模方法/一种基于词嵌入的高斯LDA的优化求解方式/词嵌入模型的训练方法及装置/小语种词嵌入模型的生成方法、系统及问答方法和系统/基于社交媒体的词嵌入方法、系统、终端设备及存储介质",
+        "layoutList": [
+          "一种词嵌入向量的确定方法、装置及设备",
+          "一种将文本转化为词嵌入、文本分类方法和装置",
+          "基于词嵌入的流形主题模型的建模方法",
+          "一种基于词嵌入的高斯LDA的优化求解方式",
+          "词嵌入模型的训练方法及装置",
+          "小语种词嵌入模型的生成方法、系统及问答方法和系统",
+          "基于社交媒体的词嵌入方法、系统、终端设备及存储介质"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": "Global exponential periodicity and global exponential stability of a class of recurrent neural networks with various activation functions and time-varying delays/An image-based feature tracking algorithm for real-time measurement of clad height/Exponential stability of reaction-diffusion fuzzy recurrent neural networks with time-varying delays/Using a wiener-type recurrent neural network with the minimum description length principle for dynamic system identification/Transient air-fuel ratio estimation in spark ignition engine using recurrent neural networks/Zhang neural network for linear time-varying equation solving and its robotic application/Two k-winners-take-all networks with discontinuous activation functions",
+        "layoutList": [
+          "Global exponential periodicity and global exponential stability of a class of recurrent neural networks with various activation functions and time-varying delays",
+          "An image-based feature tracking algorithm for real-time measurement of clad height",
+          "Exponential stability of reaction-diffusion fuzzy recurrent neural networks with time-varying delays",
+          "Using a wiener-type recurrent neural network with the minimum description length principle for dynamic system identification",
+          "Transient air-fuel ratio estimation in spark ignition engine using recurrent neural networks",
+          "Zhang neural network for linear time-varying equation solving and its robotic application",
+          "Two k-winners-take-all networks with discontinuous activation functions"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "机器翻译",
+        "layout": "基于差异循环神经网络的意图识别方法/一种改进鲸鱼算法的循环神经网络短期电力负荷预测方法/一种基于深度循环神经网络的心功能自动分析方法/一种基于循环神经网络的智能故障诊断方法/一种基于循环神经网络的数据预测方法/基于双向门控循环神经网络的序列中单一元素分类方法/一种基于循环神经网络的动态模型辨识方法及系统",
+        "layoutList": [
+          "基于差异循环神经网络的意图识别方法",
+          "一种改进鲸鱼算法的循环神经网络短期电力负荷预测方法",
+          "一种基于深度循环神经网络的心功能自动分析方法",
+          "一种基于循环神经网络的智能故障诊断方法",
+          "一种基于循环神经网络的数据预测方法",
+          "基于双向门控循环神经网络的序列中单一元素分类方法",
+          "一种基于循环神经网络的动态模型辨识方法及系统"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "C020042120_keyword",
-        "target": "23592_scholar",
-        "value": 0.55833,
-        "type": "scholar"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1838213_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "C020042120_keyword",
-        "target": "715311_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2467379_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "C018787109_keyword",
-        "target": "10311_scholar",
-        "value": 0.59259,
-        "type": "scholar"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "C018903429_keyword",
-        "target": "2070165_scholar",
-        "value": 0.92857,
-        "type": "scholar"
+        "id": 60,
+        "source": 0,
+        "target": 60
       },
       {
-        "source": "C018903429_keyword",
-        "target": "964787_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 61,
+        "source": 0,
+        "target": 61
       },
       {
-        "source": "C020042120_keyword",
-        "target": "1888596_scholar",
-        "value": 0.575,
-        "type": "scholar"
+        "id": 18,
+        "source": 1,
+        "target": 18
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4121547_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 19,
+        "source": 1,
+        "target": 19
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1463432_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 62,
+        "source": 1,
+        "target": 62
       },
       {
-        "source": "C018903429_keyword",
-        "target": "1265417_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 63,
+        "source": 1,
+        "target": 63
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1787042_scholar",
-        "value": 0.62963,
-        "type": "scholar"
+        "id": 32,
+        "source": 2,
+        "target": 32
       },
       {
-        "source": "C018903429_keyword",
-        "target": "2750276_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 33,
+        "source": 2,
+        "target": 33
       },
       {
-        "source": "C018903429_keyword",
-        "target": "1972771_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 64,
+        "source": 2,
+        "target": 64
       },
       {
-        "source": "C018787109_keyword",
-        "target": "40940_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 65,
+        "source": 2,
+        "target": 65
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2010526_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 46,
+        "source": 3,
+        "target": 46
       },
       {
-        "source": "C018903429_keyword",
-        "target": "2046398_scholar",
-        "value": 0.57143,
-        "type": "scholar"
+        "id": 47,
+        "source": 3,
+        "target": 47
       },
       {
-        "source": "C018903429_keyword",
-        "target": "2420535_scholar",
-        "value": 0.78571,
-        "type": "scholar"
+        "id": 66,
+        "source": 3,
+        "target": 66
       },
       {
-        "source": "291156_keyword",
-        "target": "C019203844_keyword",
-        "value": 0.9151,
-        "type": "keyword"
+        "id": 67,
+        "source": 3,
+        "target": 67
       },
       {
-        "source": "C020042120_keyword",
-        "target": "366996_scholar",
-        "value": 0.90833,
-        "type": "scholar"
+        "id": 6,
+        "source": 4,
+        "target": 6
       },
       {
-        "source": "C018787109_keyword",
-        "target": "C018892767_keyword",
-        "value": 0.9553,
-        "type": "keyword"
+        "id": 7,
+        "source": 4,
+        "target": 7
       },
       {
-        "source": "C018903429_keyword",
-        "target": "1055115_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 8,
+        "source": 5,
+        "target": 8
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2117202_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 9,
+        "source": 5,
+        "target": 9
       },
       {
-        "source": "C018787109_keyword",
-        "target": "C018811202_keyword",
-        "value": 0.9679,
-        "type": "keyword"
+        "id": 10,
+        "source": 6,
+        "target": 10
       },
       {
-        "source": "C018787109_keyword",
-        "target": "339293_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 11,
+        "source": 6,
+        "target": 11
       },
       {
-        "source": "C018903429_keyword",
-        "target": "C018882261_keyword",
-        "value": 0.9248,
-        "type": "keyword"
+        "id": 12,
+        "source": 7,
+        "target": 12
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1937237_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 13,
+        "source": 7,
+        "target": 13
       },
       {
-        "source": "C018903429_keyword",
-        "target": "98415_keyword",
-        "value": 0.8062,
-        "type": "keyword"
+        "id": 14,
+        "source": 8,
+        "target": 14
       },
       {
-        "source": "C018787109_keyword",
-        "target": "3209441_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 15,
+        "source": 8,
+        "target": 15
       },
       {
-        "source": "C020039473_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.7986,
-        "type": "keyword"
+        "id": 16,
+        "source": 9,
+        "target": 16
       },
       {
-        "source": "C018903429_keyword",
-        "target": "C020042104_keyword",
-        "value": 0.7816,
-        "type": "keyword"
+        "id": 17,
+        "source": 9,
+        "target": 17
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1698932_scholar",
-        "value": 0.58333,
-        "type": "scholar"
+        "id": 20,
+        "source": 18,
+        "target": 20
       },
       {
-        "source": "C020039473_keyword",
-        "target": "C018903429_keyword",
-        "value": 0.8845,
-        "type": "keyword"
+        "id": 21,
+        "source": 18,
+        "target": 21
       },
       {
-        "source": "291156_keyword",
-        "target": "C020043191_keyword",
-        "value": 0.9021,
-        "type": "keyword"
+        "id": 22,
+        "source": 19,
+        "target": 22
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1843480_scholar",
-        "value": 0.58333,
-        "type": "scholar"
+        "id": 23,
+        "source": 19,
+        "target": 23
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4250085_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 24,
+        "source": 20,
+        "target": 24
       },
       {
-        "source": "C020039473_keyword",
-        "target": "407323_keyword",
-        "value": 0.8075,
-        "type": "keyword"
+        "id": 25,
+        "source": 20,
+        "target": 25
       },
       {
-        "source": "C020042120_keyword",
-        "target": "381285_scholar",
-        "value": 0.50833,
-        "type": "scholar"
+        "id": 26,
+        "source": 21,
+        "target": 26
       },
       {
-        "source": "C020042120_keyword",
-        "target": "C018819637_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 27,
+        "source": 21,
+        "target": 27
       },
       {
-        "source": "C018903429_keyword",
-        "target": "2118481_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 28,
+        "source": 22,
+        "target": 28
       },
       {
-        "source": "C020042120_keyword",
-        "target": "C018918649_keyword",
-        "value": 0.9383,
-        "type": "keyword"
+        "id": 29,
+        "source": 22,
+        "target": 29
       },
       {
-        "source": "291156_keyword",
-        "target": "C018948469_keyword",
-        "value": 0.9138,
-        "type": "keyword"
+        "id": 30,
+        "source": 23,
+        "target": 30
       },
       {
-        "source": "C020039473_keyword",
-        "target": "291156_keyword",
-        "value": 0.8134,
-        "type": "keyword"
+        "id": 31,
+        "source": 23,
+        "target": 31
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2010020_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 34,
+        "source": 32,
+        "target": 34
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1893211_scholar",
-        "value": 0.83333,
-        "type": "scholar"
+        "id": 35,
+        "source": 32,
+        "target": 35
       },
       {
-        "source": "C018903429_keyword",
-        "target": "C018827506_keyword",
-        "value": 0.9051,
-        "type": "keyword"
+        "id": 36,
+        "source": 33,
+        "target": 36
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2118276_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 37,
+        "source": 33,
+        "target": 37
       },
       {
-        "source": "407323_keyword",
-        "target": "C020039005_keyword",
-        "value": 0.9239,
-        "type": "keyword"
+        "id": 38,
+        "source": 34,
+        "target": 38
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4768049_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 39,
+        "source": 34,
+        "target": 39
       },
       {
-        "source": "C020039473_keyword",
-        "target": "C018787109_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 40,
+        "source": 35,
+        "target": 40
       },
       {
-        "source": "C018787109_keyword",
-        "target": "3143505_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 41,
+        "source": 35,
+        "target": 41
       },
       {
-        "source": "C018903429_keyword",
-        "target": "1986845_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 42,
+        "source": 36,
+        "target": 42
       },
       {
-        "source": "C018787109_keyword",
-        "target": "773833_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 43,
+        "source": 36,
+        "target": 43
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1914599_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 44,
+        "source": 37,
+        "target": 44
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4478128_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 45,
+        "source": 37,
+        "target": 45
       },
       {
-        "source": "407323_keyword",
-        "target": "305302_keyword",
-        "value": 0.9467,
-        "type": "keyword"
+        "id": 48,
+        "source": 46,
+        "target": 48
       },
       {
-        "source": "C018787109_keyword",
-        "target": "417590_scholar",
-        "value": 0.51852,
-        "type": "scholar"
+        "id": 49,
+        "source": 46,
+        "target": 49
       },
       {
-        "source": "C018787109_keyword",
-        "target": "6256132_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 50,
+        "source": 47,
+        "target": 50
       },
       {
-        "source": "291156_keyword",
-        "target": "C020037235_keyword",
-        "value": 0.906,
-        "type": "keyword"
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

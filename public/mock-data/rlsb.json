@@ -57,386 +57,1180 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "60009697_affiliation",
-        "name": "University of Manitoba, Department of Electrical & Computer Engineering",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2039688_scholar",
-        "name": "Tianrui Li",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2016657_scholar",
-        "name": "Hungson Nguyen",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018791541_keyword",
-        "name": "Rough sets",
+        "id": 1,
+        "code": 0,
+        "name": "人脸识别",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": "人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行脸部识别的一系列相关技术，通常也叫做人像识别、面部识别。",
+        "layoutList": [
+          "人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行脸部识别的一系列相关技术，通常也叫做人像识别、面部识别。"
+        ]
       },
       {
-        "id": "14683_keyword",
-        "name": "Soft set",
+        "id": 2,
+        "code": 1,
+        "name": "目标检测",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。",
+        "layoutList": [
+          "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。"
+        ]
       },
       {
-        "id": "1892070_scholar",
-        "name": "苗夺谦",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020037235_keyword",
-        "name": "data mining",
+        "id": 3,
+        "code": 2,
+        "name": "表情识别",
         "type": "keyword",
-        "value": 0.6,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": "表情识别是指从给定的静态图像或动态视频序列中分离出特定的表情状态，从而确定被识别对象的心理情绪。",
+        "layoutList": [
+          "表情识别是指从给定的静态图像或动态视频序列中分离出特定的表情状态，从而确定被识别对象的心理情绪。"
+        ]
       },
       {
-        "id": "2079562_scholar",
-        "name": "Qingguo Li",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "298593_scholar",
-        "name": "吴伟志",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "975508_scholar",
-        "name": "Andrzej Skowron",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "25612_keyword",
-        "name": "Approximation space",
+        "id": 4,
+        "code": 3,
+        "name": "度量学习",
         "type": "keyword",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": "度量学习与回归和分类密切相关，但目标是从示例中学习测量两个对象有多相似或相关的相似性函数。它在排名，推荐系统，视觉识别跟踪，面部验证和说话人验证方面具有应用。",
+        "layoutList": [
+          "度量学习与回归和分类密切相关，但目标是从示例中学习测量两个对象有多相似或相关的相似性函数。它在排名，推荐系统，视觉识别跟踪，面部验证和说话人验证方面具有应用。"
+        ]
       },
       {
-        "id": "2019486_scholar",
-        "name": "姚静涛",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "山世光",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": "山世光，博士，研究员，博士生导师。分别于1997年和1999年在哈尔滨工业大学计算机系获得学士和硕士学位；2004年在中科院计算所获计算机应用专业博士学位。主要从事图像处理与理解、计算机视觉、模式识别、机器学习、智能人机交互界面等相关研究工作，特别是与人脸识别相关的研究工作。迄今已在国际/国内期刊、国际会议上发表/录用学术论文150余篇，其中IEEE Trans. on PAMI, IEEE Trans. on Image Processing等国际期刊论文30余篇，计算机视觉领域一流国际会议(CVPR, ICCV, ECCV)论文27篇。与博士生王瑞平合作完成的有关流形到流形距离的论文获CVPR2008 Best Student Poster Award Runner-up奖。现任国际刊物Neurocomputing和EURASIP Journal of Image and Video Processing的编委(AE)，Frontiers of Computer Science的青年编委，曾担任国际期刊IJPRAI、PRL专刊的客座编辑(Guest Editor)，应邀担任了ICPR2014, FG2013, ICPR2012, ACCV2012, ICCV2011的Area Chair，ACCV2014的Workshop Chair, ACM ICMI2010的Local Chair。长期担任IEEE T PAMI/IP/CSVT等十多个重要国际期刊以及国内主流学报的审稿人。",
+        "layoutList": [
+          "山世光，博士，研究员，博士生导师。分别于1997年和1999年在哈尔滨工业大学计算机系获得学士和硕士学位；2004年在中科院计算所获计算机应用专业博士学位。主要从事图像处理与理解、计算机视觉、模式识别、机器学习、智能人机交互界面等相关研究工作，特别是与人脸识别相关的研究工作。迄今已在国际/国内期刊、国际会议上发表/录用学术论文150余篇，其中IEEE Trans. on PAMI, IEEE Trans. on Image Processing等国际期刊论文30余篇，计算机视觉领域一流国际会议(CVPR, ICCV, ECCV)论文27篇。与博士生王瑞平合作完成的有关流形到流形距离的论文获CVPR2008 Best Student Poster Award Runner-up奖。现任国际刊物Neurocomputing和EURASIP Journal of Image and Video Processing的编委(AE)，Frontiers of Computer Science的青年编委，曾担任国际期刊IJPRAI、PRL专刊的客座编辑(Guest Editor)，应邀担任了ICPR2014, FG2013, ICPR2012, ACCV2012, ICCV2011的Area Chair，ACCV2014的Workshop Chair, ACM ICMI2010的Local Chair。长期担任IEEE T PAMI/IP/CSVT等十多个重要国际期刊以及国内主流学报的审稿人。"
+        ]
       },
       {
-        "id": "408136_scholar",
-        "name": "Feng Feng",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 6,
+        "code": 5,
+        "name": "李子青",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": "IEEE院士，获得了工程学士从湖南大学，中国，工程硕士从萨里大学，英国国防科技，中国和博士学位的大学。目前，他是在一个教授模式识别国家重点实验室和主任中心的生物识别与安全技术研究（CBSR），自动化研究所（中科院自动化所），以及中心的物联网研究（VIOT）的视觉互联网的导演，中国科学院。从2000年到2004年，他在微软亚洲研究院担任研究员。在此之前，他是一名副教授南洋 理工大学， 新加坡。他因为对人脸识别，模式识别和计算机视觉领域的贡献而受到提升。",
+        "layoutList": [
+          "IEEE院士，获得了工程学士从湖南大学，中国，工程硕士从萨里大学，英国国防科技，中国和博士学位的大学。目前，他是在一个教授模式识别国家重点实验室和主任中心的生物识别与安全技术研究（CBSR），自动化研究所（中科院自动化所），以及中心的物联网研究（VIOT）的视觉互联网的导演，中国科学院。从2000年到2004年，他在微软亚洲研究院担任研究员。在此之前，他是一名副教授南洋 理工大学， 新加坡。他因为对人脸识别，模式识别和计算机视觉领域的贡献而受到提升。"
+        ]
       },
       {
-        "id": "C018810513_keyword",
-        "name": "Computer based information systems",
+        "id": 7,
+        "code": 6,
+        "name": "表情识别",
         "type": "keyword",
-        "value": 0.7,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3481924_keyword",
-        "name": "Wisdom technology",
+        "id": 8,
+        "code": 7,
+        "name": "目标检测",
         "type": "keyword",
-        "value": 0.51136,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "377481_scholar",
-        "name": "James Peters",
-        "type": "scholar",
-        "value": 0.8,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "121418_keyword",
-        "name": "Near sets",
+        "id": 9,
+        "code": 8,
+        "name": "神经网络",
         "type": "keyword",
-        "value": 0.5625,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018900485_keyword",
-        "name": "Association rules",
+        "id": 10,
+        "code": 9,
+        "name": "人脸检测",
         "type": "keyword",
-        "value": 0.8,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1178_keyword",
-        "name": "Granular computing",
+        "id": 11,
+        "code": 10,
+        "name": "Xilin Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Yong Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "Kongming Liang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Hong Chang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Zhen Lei",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Dong Yi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Shifeng Zhang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Rui Zhu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Ross B. Girshick",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。",
+        "layoutList": [
+          "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Bastian Leibe",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。",
+        "layoutList": [
+          "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "图像识别",
         "type": "keyword",
-        "value": 0.73864,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018847356_keyword",
-        "name": "Pattern recognition",
+        "id": 22,
+        "code": 21,
+        "name": "计算机视觉",
         "type": "keyword",
-        "value": 0.53125,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "156078_scholar",
-        "name": "周挥宇",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2388837_scholar",
-        "name": "Bijan Davvaz",
-        "type": "scholar",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2119787_scholar",
-        "name": "祝峰",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020044178_keyword",
-        "name": "Computational intelligence",
+        "id": 23,
+        "code": 22,
+        "name": "路径规划",
         "type": "keyword",
-        "value": 0.53125,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "60013756_affiliation",
-        "name": "Uniwersytet Warszawski",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
+        "id": 24,
+        "code": 23,
+        "name": "目标识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2042458_scholar",
-        "name": "王国胤",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 25,
+        "code": 24,
+        "name": "Kaiming He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2020225_scholar",
-        "name": "Yiyu Yao",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 26,
+        "code": 25,
+        "name": "Alexander Kirillov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "Jitendra Malik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Pablo Arbelaez",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Luc Van Gool",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Konrad Schindler",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Bernt Schiele",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Krystian Mikolajczyk",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Jeffrey F. Cohn",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": "马萨诸塞大学博士影响分析组董事，首席研究员研究方向情感; 社交联系; 萧条; 强迫症; 面部表情; 影响",
+        "layoutList": [
+          "马萨诸塞大学博士影响分析组董事，首席研究员研究方向情感; 社交联系; 萧条; 强迫症; 面部表情; 影响"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "陈熙霖",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": "陈熙霖博士，研究员，IEEE Fellow, IAPR Fellow, 中国计算机学会会士，中科院“百人计划”入选者并获终期评估优秀，国家杰出青年基金获得者。主要研究领域为计算机视觉、模式识别、多媒体技术以及多模式人机接口。先后主持多项自然科学基金重大、重点项目、973计划课题等项目的研究。曾任IEEE Trans. on Image Processing的Associate Editor，目前是IEEE Trans. on Multimedia和Journal of Visual Communication and Image Representation的Associate Editor、Journal of Computer Science and Technology领域编委、计算机学报副主编、人工智能与模式识别副主编，担任过FG2013 / FG 2018 General Chair以及CVPR 2017 / CVPR 2019， ICCV 2019等的Area Chair。陈熙霖博士先后获得国家自然科学二等奖1项，国家科技进步二等奖4项，省部级科技进步奖九项。合作出版专著1本，在国内外重要刊物和会议上发表论文200多篇。",
+        "layoutList": [
+          "陈熙霖博士，研究员，IEEE Fellow, IAPR Fellow, 中国计算机学会会士，中科院“百人计划”入选者并获终期评估优秀，国家杰出青年基金获得者。主要研究领域为计算机视觉、模式识别、多媒体技术以及多模式人机接口。先后主持多项自然科学基金重大、重点项目、973计划课题等项目的研究。曾任IEEE Trans. on Image Processing的Associate Editor，目前是IEEE Trans. on Multimedia和Journal of Visual Communication and Image Representation的Associate Editor、Journal of Computer Science and Technology领域编委、计算机学报副主编、人工智能与模式识别副主编，担任过FG2013 / FG 2018 General Chair以及CVPR 2017 / CVPR 2019， ICCV 2019等的Area Chair。陈熙霖博士先后获得国家自然科学二等奖1项，国家科技进步二等奖4项，省部级科技进步奖九项。合作出版专著1本，在国内外重要刊物和会议上发表论文200多篇。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "动作单元",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 35,
+        "name": "多标签学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 37,
+        "code": 36,
+        "name": "人脸识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 38,
+        "code": 37,
+        "name": "对抗网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 39,
+        "code": 38,
+        "name": "Takeo Kanade",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 40,
+        "code": 39,
+        "name": "Mohammad H. Mahoor",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 40,
+        "name": "Fernando De la Torre",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 41,
+        "name": "Wen-Sheng Chu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Shiguang Shan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Wen Gao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Meina Kan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Lanqing Hu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Kilian Q. Weinberger",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": "是康奈尔大学计算机科学系的副教授。他获得了博士学位。来自宾夕法尼亚大学机器学习学院，在Lawrence Saul的监督下，以及他在牛津大学的数学和计算机学士学位。在他的职业生涯中，他曾在ICML（2004年），CVPR（2004年，2017年），AISTATS（2005年）和KDD（2014年，亚军奖）中获得多项最佳论文奖。2011年，他获得了杰出的AAAI高级课程主席奖，并于2012年获得了NSF职业奖。他当选为ICML 2016和AAAI 2018的联合项目主席。2016年，他获得了Daniel M Lazar '29卓越教学奖。基利安 温伯格“研究重点是机器学习及其应用。特别是，他专注于资源约束下的学习，度量学习，高斯过程，计算机视觉和深度学习。在加入康奈尔大学之前，他是圣路易斯华盛顿大学的副教授，之前他曾在雅虎担任研究科学家。",
+        "layoutList": [
+          "是康奈尔大学计算机科学系的副教授。他获得了博士学位。来自宾夕法尼亚大学机器学习学院，在Lawrence Saul的监督下，以及他在牛津大学的数学和计算机学士学位。在他的职业生涯中，他曾在ICML（2004年），CVPR（2004年，2017年），AISTATS（2005年）和KDD（2014年，亚军奖）中获得多项最佳论文奖。2011年，他获得了杰出的AAAI高级课程主席奖，并于2012年获得了NSF职业奖。他当选为ICML 2016和AAAI 2018的联合项目主席。2016年，他获得了Daniel M Lazar '29卓越教学奖。基利安 温伯格“研究重点是机器学习及其应用。特别是，他专注于资源约束下的学习，度量学习，高斯过程，计算机视觉和深度学习。在加入康奈尔大学之前，他是圣路易斯华盛顿大学的副教授，之前他曾在雅虎担任研究科学家。"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "李航",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": "字节跳动科技人工智能实验室的主任，。2017年加入字节跳动技术公司。1990年至2001年在NEC公司的研究实验室工作，2001年至2012年在微软亚洲研究院工作，2012年至2017年在华为技术有限公司工作。1988年在京都大学获得电子电气工程学士学位，1990年在京都大学获得电子电气工程硕士学位。1998年我在东京大学获得了计算机科学博士学位。研究领域包括自然语言处理、信息检索、机器学习和数据挖掘。",
+        "layoutList": [
+          "字节跳动科技人工智能实验室的主任，。2017年加入字节跳动技术公司。1990年至2001年在NEC公司的研究实验室工作，2001年至2012年在微软亚洲研究院工作，2012年至2017年在华为技术有限公司工作。1988年在京都大学获得电子电气工程学士学位，1990年在京都大学获得电子电气工程硕士学位。1998年我在东京大学获得了计算机科学博士学位。研究领域包括自然语言处理、信息检索、机器学习和数据挖掘。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "高斯过程",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 49,
+        "name": "卷积神经网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 50,
+        "name": "机器翻译",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 51,
+        "name": "信息检索",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Jacob R. Gardner",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Andrew Gordon Wilson",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "Gao Huang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Laurens van der Maaten",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Zhengdong Lu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Qun Liu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Tie-Yan Liu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Tao Qin",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": "Face recognition using a fusion method based on bidirectional 2DPCA/Face recognition based on two subspaces linear discriminant analysis/Minimum Bayes error features for visual recognition/Subspace manifold learning with sample weights/A critical band of phase alignment for discrimination but not recognition of human faces/The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration/Face recognition using spatially constrained earth mover's distance",
+        "layoutList": [
+          "Face recognition using a fusion method based on bidirectional 2DPCA",
+          "Face recognition based on two subspaces linear discriminant analysis",
+          "Minimum Bayes error features for visual recognition",
+          "Subspace manifold learning with sample weights",
+          "A critical band of phase alignment for discrimination but not recognition of human faces",
+          "The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration",
+          "Face recognition using spatially constrained earth mover's distance"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "人脸识别",
+        "layout": "一种基于双目摄像头的智能电视人脸识别方法/一种基于局部对比模式的人脸识别方法/基于图像传感器成像系统的人脸识别算法/基于分布式压缩传感的近红外与可见光图像人脸识别方法/一种基于子空间的增量学习人脸识别方法/基于多尺度韦伯局部特征和分层决策融合的人脸识别方法/结合生物特征与局部图像特征的并行人脸识别方法",
+        "layoutList": [
+          "一种基于双目摄像头的智能电视人脸识别方法",
+          "一种基于局部对比模式的人脸识别方法",
+          "基于图像传感器成像系统的人脸识别算法",
+          "基于分布式压缩传感的近红外与可见光图像人脸识别方法",
+          "一种基于子空间的增量学习人脸识别方法",
+          "基于多尺度韦伯局部特征和分层决策融合的人脸识别方法",
+          "结合生物特征与局部图像特征的并行人脸识别方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": "Query expansion for VHR image detection/Mining large satellite image repositories using semi-supervised methods/Underground object detection based on cross correlation and Hough transform/Object detection by parts using appearance, structural and shape features/Finding objects at indoor environment combined with depth information/IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition/Improving sub-pixel accuracy for long range stereo",
+        "layoutList": [
+          "Query expansion for VHR image detection",
+          "Mining large satellite image repositories using semi-supervised methods",
+          "Underground object detection based on cross correlation and Hough transform",
+          "Object detection by parts using appearance, structural and shape features",
+          "Finding objects at indoor environment combined with depth information",
+          "IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition",
+          "Improving sub-pixel accuracy for long range stereo"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "人脸识别",
+        "layout": "一种运动目标检测方法及装置/基于小波降噪的LS-SVM海面小目标检测的方法/基于增强约束稀疏回归的半监督高光谱亚像元目标检测法/基于角点高斯特性分析的红外小目标检测方法/基于纹理和运动模式融合的运动目标检测算法/一种基于混合高斯模型的运动目标检测方法/基于稀疏表示和视皮层注意机制的目标检测方法",
+        "layoutList": [
+          "一种运动目标检测方法及装置",
+          "基于小波降噪的LS-SVM海面小目标检测的方法",
+          "基于增强约束稀疏回归的半监督高光谱亚像元目标检测法",
+          "基于角点高斯特性分析的红外小目标检测方法",
+          "基于纹理和运动模式融合的运动目标检测算法",
+          "一种基于混合高斯模型的运动目标检测方法",
+          "基于稀疏表示和视皮层注意机制的目标检测方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": "Neural activities associated with emotion recognition observed in men and women/Cognitive and emotion recognition deficits in obsessive-compulsive disorder/Audio-visual affect recognition/Gender differences in facial emotion recognition in persons with chronic schizophrenia/Are the windows to the soul the same in the East and West? Cultural differences in using the eyes and mouth as cues to recognize emotions in Japan and the United States/Age differences in recognition of emotion in lexical stimuli and facial expressions/Research on E-learning system model based on affective computing",
+        "layoutList": [
+          "Neural activities associated with emotion recognition observed in men and women",
+          "Cognitive and emotion recognition deficits in obsessive-compulsive disorder",
+          "Audio-visual affect recognition",
+          "Gender differences in facial emotion recognition in persons with chronic schizophrenia",
+          "Are the windows to the soul the same in the East and West? Cultural differences in using the eyes and mouth as cues to recognize emotions in Japan and the United States",
+          "Age differences in recognition of emotion in lexical stimuli and facial expressions",
+          "Research on E-learning system model based on affective computing"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "人脸识别",
+        "layout": "一种人脸表情识别方法及人脸表情识别装置/人脸表情识别方法和人脸表情识别装置/一种人脸表情识别模型训练方法、装置及设备/面部表情识别方法和装置/一种表情识别的方法、装置、终端设备及存储介质/基于人脸表情识别的智慧家电控制系统及方法/人脸表情识别方法及人脸表情识别系统",
+        "layoutList": [
+          "一种人脸表情识别方法及人脸表情识别装置",
+          "人脸表情识别方法和人脸表情识别装置",
+          "一种人脸表情识别模型训练方法、装置及设备",
+          "面部表情识别方法和装置",
+          "一种表情识别的方法、装置、终端设备及存储介质",
+          "基于人脸表情识别的智慧家电控制系统及方法",
+          "人脸表情识别方法及人脸表情识别系统"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": "Extending the relevant component analysis algorithm for metric learning using both positive and negative equivalence constraints/Locally linear metric adaptation with application to semi-supervised clustering and image retrieval/A kernel approach for semisupervised metric learning/Kernel-based distance metric learning for content-based image retrieval/Efficient near-duplicate image detection by learning from examples/Semi-supervised dimensionality reduction using pairwise equivalence constraints/Distance metric learning for large margin nearest neighbor classification",
+        "layoutList": [
+          "Extending the relevant component analysis algorithm for metric learning using both positive and negative equivalence constraints",
+          "Locally linear metric adaptation with application to semi-supervised clustering and image retrieval",
+          "A kernel approach for semisupervised metric learning",
+          "Kernel-based distance metric learning for content-based image retrieval",
+          "Efficient near-duplicate image detection by learning from examples",
+          "Semi-supervised dimensionality reduction using pairwise equivalence constraints",
+          "Distance metric learning for large margin nearest neighbor classification"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "人脸识别",
+        "layout": "一种基于距离度量学习行人重验证的方法/一种工业过程中基于度量学习与时间序列的故障诊断方法/基于深度学习和度量学习的极化SAR地物分类方法/一种基于加权成对约束度量学习算法的说话人识别方法/一种同时实现聚类、分类和度量学习的模式识别方法/一种基于度量学习和支持向量机相集成的行人再识别方法/基于距离度量学习的交通警情等级预测方法",
+        "layoutList": [
+          "一种基于距离度量学习行人重验证的方法",
+          "一种工业过程中基于度量学习与时间序列的故障诊断方法",
+          "基于深度学习和度量学习的极化SAR地物分类方法",
+          "一种基于加权成对约束度量学习算法的说话人识别方法",
+          "一种同时实现聚类、分类和度量学习的模式识别方法",
+          "一种基于度量学习和支持向量机相集成的行人再识别方法",
+          "基于距离度量学习的交通警情等级预测方法"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "408136_scholar",
-        "target": "C018900485_keyword",
-        "value": 0.8,
-        "type": "keyword"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "975508_scholar",
-        "target": "298593_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "25612_keyword",
-        "target": "377481_scholar",
-        "value": 0.8,
-        "type": "scholar"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "377481_scholar",
-        "target": "25612_keyword",
-        "value": 0.625,
-        "type": "keyword"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "25612_keyword",
-        "target": "975508_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "975508_scholar",
-        "target": "2119787_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 60,
+        "source": 0,
+        "target": 60
       },
       {
-        "source": "377481_scholar",
-        "target": "C020044178_keyword",
-        "value": 0.53125,
-        "type": "keyword"
+        "id": 61,
+        "source": 0,
+        "target": 61
       },
       {
-        "source": "377481_scholar",
-        "target": "2042458_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 18,
+        "source": 1,
+        "target": 18
       },
       {
-        "source": "377481_scholar",
-        "target": "156078_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 19,
+        "source": 1,
+        "target": 19
       },
       {
-        "source": "25612_keyword",
-        "target": "408136_scholar",
-        "value": 0.53333,
-        "type": "scholar"
+        "id": 62,
+        "source": 1,
+        "target": 62
       },
       {
-        "source": "377481_scholar",
-        "target": "2020225_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 63,
+        "source": 1,
+        "target": 63
       },
       {
-        "source": "408136_scholar",
-        "target": "14683_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 32,
+        "source": 2,
+        "target": 32
       },
       {
-        "source": "25612_keyword",
-        "target": "2079562_scholar",
-        "value": 0.53333,
-        "type": "scholar"
+        "id": 33,
+        "source": 2,
+        "target": 33
       },
       {
-        "source": "975508_scholar",
-        "target": "1892070_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 64,
+        "source": 2,
+        "target": 64
       },
       {
-        "source": "25612_keyword",
-        "target": "2388837_scholar",
-        "value": 0.53333,
-        "type": "scholar"
+        "id": 65,
+        "source": 2,
+        "target": 65
       },
       {
-        "source": "975508_scholar",
-        "target": "2039688_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 46,
+        "source": 3,
+        "target": 46
       },
       {
-        "source": "975508_scholar",
-        "target": "2019486_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 47,
+        "source": 3,
+        "target": 47
       },
       {
-        "source": "975508_scholar",
-        "target": "3481924_keyword",
-        "value": 0.51136,
-        "type": "keyword"
+        "id": 66,
+        "source": 3,
+        "target": 66
       },
       {
-        "source": "975508_scholar",
-        "target": "60013756_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 67,
+        "source": 3,
+        "target": 67
       },
       {
-        "source": "377481_scholar",
-        "target": "121418_keyword",
-        "value": 0.5625,
-        "type": "keyword"
+        "id": 6,
+        "source": 4,
+        "target": 6
       },
       {
-        "source": "377481_scholar",
-        "target": "60009697_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 7,
+        "source": 4,
+        "target": 7
       },
       {
-        "source": "408136_scholar",
-        "target": "C018810513_keyword",
-        "value": 0.7,
-        "type": "keyword"
+        "id": 8,
+        "source": 5,
+        "target": 8
       },
       {
-        "source": "377481_scholar",
-        "target": "C018847356_keyword",
-        "value": 0.53125,
-        "type": "keyword"
+        "id": 9,
+        "source": 5,
+        "target": 9
       },
       {
-        "source": "975508_scholar",
-        "target": "1178_keyword",
-        "value": 0.73864,
-        "type": "keyword"
+        "id": 10,
+        "source": 6,
+        "target": 10
       },
       {
-        "source": "975508_scholar",
-        "target": "C018791541_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 11,
+        "source": 6,
+        "target": 11
       },
       {
-        "source": "408136_scholar",
-        "target": "C020037235_keyword",
-        "value": 0.6,
-        "type": "keyword"
+        "id": 12,
+        "source": 7,
+        "target": 12
       },
       {
-        "source": "377481_scholar",
-        "target": "2016657_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 13,
+        "source": 7,
+        "target": 13
+      },
+      {
+        "id": 14,
+        "source": 8,
+        "target": 14
+      },
+      {
+        "id": 15,
+        "source": 8,
+        "target": 15
+      },
+      {
+        "id": 16,
+        "source": 9,
+        "target": 16
+      },
+      {
+        "id": 17,
+        "source": 9,
+        "target": 17
+      },
+      {
+        "id": 20,
+        "source": 18,
+        "target": 20
+      },
+      {
+        "id": 21,
+        "source": 18,
+        "target": 21
+      },
+      {
+        "id": 22,
+        "source": 19,
+        "target": 22
+      },
+      {
+        "id": 23,
+        "source": 19,
+        "target": 23
+      },
+      {
+        "id": 24,
+        "source": 20,
+        "target": 24
+      },
+      {
+        "id": 25,
+        "source": 20,
+        "target": 25
+      },
+      {
+        "id": 26,
+        "source": 21,
+        "target": 26
+      },
+      {
+        "id": 27,
+        "source": 21,
+        "target": 27
+      },
+      {
+        "id": 28,
+        "source": 22,
+        "target": 28
+      },
+      {
+        "id": 29,
+        "source": 22,
+        "target": 29
+      },
+      {
+        "id": 30,
+        "source": 23,
+        "target": 30
+      },
+      {
+        "id": 31,
+        "source": 23,
+        "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
+      },
+      {
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

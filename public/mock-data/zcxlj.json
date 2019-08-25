@@ -87,1492 +87,1181 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "C018784191_keyword",
-        "name": "Artificial neural networks",
+        "id": 1,
+        "code": 0,
+        "name": "支持向量机",
         "type": "keyword",
-        "value": 0.9045,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": "在机器学习中，支持向量机（Support Vector Machine，常简称为SVM，又名支持向量网络）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法建立一个将新的实例分配给两个类别之一的模型，使其成为非概率线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。",
+        "layoutList": [
+          "在机器学习中，支持向量机（Support Vector Machine，常简称为SVM，又名支持向量网络）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法建立一个将新的实例分配给两个类别之一的模型，使其成为非概率线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。"
+        ]
       },
       {
-        "id": "2124892_scholar",
-        "name": "田英杰",
-        "type": "scholar",
-        "value": 0.82609,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "349010_scholar",
-        "name": "张大鹏",
-        "type": "scholar",
-        "value": 0.51163,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2067619_scholar",
-        "name": "Zoran Kapelan ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1939770_scholar",
-        "name": "Gary Bader",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1982557_scholar",
-        "name": "Tzung pei Hong ",
-        "type": "scholar",
-        "value": 0.57328,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "thousand030037_affiliation",
-        "name": "中科院虚拟经济与数据科学研究中心",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2042760_scholar",
-        "name": "Satyandra Gupta ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
+        "id": 2,
+        "code": 1,
+        "name": "集成学习",
         "type": "keyword",
-        "value": 0.8295,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": "集成学习是使用一系列学习器进行学习，并使用某种规则把各个学习结果进行整合从而获得比单个学习器更好的学习效果的一种机器学习方法。",
+        "layoutList": [
+          "集成学习是使用一系列学习器进行学习，并使用某种规则把各个学习结果进行整合从而获得比单个学习器更好的学习效果的一种机器学习方法。"
+        ]
       },
       {
-        "id": "407323_keyword",
-        "name": "Deep learning",
+        "id": 3,
+        "code": 2,
+        "name": "最优化方法",
         "type": "keyword",
-        "value": 0.8557,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": "最优化方法，是指解决最优化问题的方法。所谓最优化问题，指在某些约束条件下，决定某些可选择的变量应该取何值，使所选定的目标函数达到最优的问题。即运用最新科技手段和处理方法，使系统达到总体最优，从而为系统提出设计、施工、管理、运行的最优方案。由于实际的需要和计算技术的进步，最优化方法的研究发展迅速。",
+        "layoutList": [
+          "最优化方法，是指解决最优化问题的方法。所谓最优化问题，指在某些约束条件下，决定某些可选择的变量应该取何值，使所选定的目标函数达到最优的问题。即运用最新科技手段和处理方法，使系统达到总体最优，从而为系统提出设计、施工、管理、运行的最优方案。由于实际的需要和计算技术的进步，最优化方法的研究发展迅速。"
+        ]
       },
       {
-        "id": "1725148_scholar",
-        "name": "Fatos Xhafa",
-        "type": "scholar",
-        "value": 0.54741,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2381396_scholar",
-        "name": "李敏强",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2017358_scholar",
-        "name": "John Andrews ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "104287_scholar",
-        "name": "Hongjiu Liu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018847356_keyword",
-        "name": "Pattern recognition",
+        "id": 4,
+        "code": 3,
+        "name": "决策树",
         "type": "keyword",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": "决策树(Decision Tree）是在已知各种情况发生概率的基础上，通过构成决策树来求取净现值的期望值大于等于零的概率，评价项目风险，判断其可行性的决策分析方法，是直观运用概率分析的一种图解法。由于这种决策分支画成图形很像一棵树的枝干，故称决策树。在机器学习中，决策树是一个预测模型，他代表的是对象属性与对象值之间的一种映射关系。Entropy = 系统的凌乱程度，使用算法ID3, C4.5和C5.0生成树算法使用熵。这一度量是基于信息学理论中熵的概念。",
+        "layoutList": [
+          "决策树(Decision Tree）是在已知各种情况发生概率的基础上，通过构成决策树来求取净现值的期望值大于等于零的概率，评价项目风险，判断其可行性的决策分析方法，是直观运用概率分析的一种图解法。由于这种决策分支画成图形很像一棵树的枝干，故称决策树。在机器学习中，决策树是一个预测模型，他代表的是对象属性与对象值之间的一种映射关系。Entropy = 系统的凌乱程度，使用算法ID3, C4.5和C5.0生成树算法使用熵。这一度量是基于信息学理论中熵的概念。"
+        ]
       },
       {
-        "id": "C018956191_keyword",
-        "name": "Face recognition",
+        "id": 5,
+        "code": 4,
+        "name": "Andrew Zisserman",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": "（1957年出生）是一位英国计算机科学家和牛津大学教授，以及计算机视觉研究人员。截至2014年，他与Deepad有关联。",
+        "layoutList": [
+          "（1957年出生）是一位英国计算机科学家和牛津大学教授，以及计算机视觉研究人员。截至2014年，他与Deepad有关联。"
+        ]
+      },
+      {
+        "id": 6,
+        "code": 5,
+        "name": "Thorsten Joachims",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": "Thorsten Joachims是康奈尔大学计算机科学系和信息科学系的教授。2001年，他在多特蒙德大学AI部门担任Morik教授的博士后，于2001年加入该系，并于1997年获得计算机科学硕士学位。2000年至2001年期间，他曾在该部门工作。作为自主智能系统研究所知识发现团队GMD的PostDoc。从1994年到1996年，他在卡内基梅隆大学度过了一年半的时间，作为Tom Mitchell教授的访问学者。",
+        "layoutList": [
+          "Thorsten Joachims是康奈尔大学计算机科学系和信息科学系的教授。2001年，他在多特蒙德大学AI部门担任Morik教授的博士后，于2001年加入该系，并于1997年获得计算机科学硕士学位。2000年至2001年期间，他曾在该部门工作。作为自主智能系统研究所知识发现团队GMD的PostDoc。从1994年到1996年，他在卡内基梅隆大学度过了一年半的时间，作为Tom Mitchell教授的访问学者。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "图像处理",
         "type": "keyword",
-        "value": 0.8412,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
+        "id": 8,
+        "code": 7,
+        "name": "物体识别",
         "type": "keyword",
-        "value": 0.76712,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
+        "id": 9,
+        "code": 8,
+        "name": "推荐系统",
         "type": "keyword",
-        "value": 0.8034,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "60013551_affiliation",
-        "name": "China Agricultural University",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "87167_keyword",
-        "name": "One-class classification",
+        "id": 10,
+        "code": 9,
+        "name": "深度学习",
         "type": "keyword",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "23592_scholar",
-        "name": "Diane Cook",
-        "type": "scholar",
-        "value": 0.55833,
-        "releExpert": null,
-        "releSubject": null
+        "id": 11,
+        "code": 10,
+        "name": "Andrea Vedaldi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3292434_scholar",
-        "name": "Alessandra Lumini",
-        "type": "scholar",
-        "value": 0.52174,
-        "releExpert": null,
-        "releSubject": null
+        "id": 12,
+        "code": 11,
+        "name": "David A. Forsyth",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "87037_scholar",
-        "name": "Cheng hong Yang ",
-        "type": "scholar",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 13,
+        "code": 12,
+        "name": "Jeffrey Byrne",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2322023_scholar",
-        "name": "Gang Kou",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 14,
+        "code": 13,
+        "name": "Qiong Cao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2034984_scholar",
-        "name": "石勇",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 15,
+        "code": 14,
+        "name": "Adith Swaminathan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "418231_scholar",
-        "name": "Yong He",
-        "type": "scholar",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 16,
+        "code": 15,
+        "name": "Tobias Schnabel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "60028218_affiliation",
-        "name": "Alma Mater Studiorum Universita di Bologna",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
+        "id": 17,
+        "code": 16,
+        "name": "Maarten de Rijke",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1897078_scholar",
-        "name": "Patricia Melin",
-        "type": "scholar",
-        "value": 0.50575,
-        "releExpert": null,
-        "releSubject": null
+        "id": 18,
+        "code": 17,
+        "name": "Ivan Zaitsev",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1991910_scholar",
-        "name": "曹广益",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 19,
+        "code": 18,
+        "name": "姚欣",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": "从中国科学技术大学获得博士学位的Xin Yao教授目前领导着中科大 - 伯明翰联合研究所的智能计算及其应用，由五名全职教师组成，形成一个临界质量智能计算方面的专业知识。研究所主要关注两个主要领域：自适应优化和高级数据分析与挖掘。通过与工程师和技术人员密切合作，该研究所开展应用运营研究。这种跨学科的方法为日常问题提供了解决方案，例如车辆路径挑战。例如，专门研究冬季盐分扩散，Xin的团队会考虑关键因素，包括行程距离和产品数量，并开发算法来预测交通影响和车队可用性的影响，并就最佳路线规划提出建议。该研究所的其他重点，数据分析和挖掘，是数字时代的新挑战。",
+        "layoutList": [
+          "从中国科学技术大学获得博士学位的Xin Yao教授目前领导着中科大 - 伯明翰联合研究所的智能计算及其应用，由五名全职教师组成，形成一个临界质量智能计算方面的专业知识。研究所主要关注两个主要领域：自适应优化和高级数据分析与挖掘。通过与工程师和技术人员密切合作，该研究所开展应用运营研究。这种跨学科的方法为日常问题提供了解决方案，例如车辆路径挑战。例如，专门研究冬季盐分扩散，Xin的团队会考虑关键因素，包括行程距离和产品数量，并开发算法来预测交通影响和车队可用性的影响，并就最佳路线规划提出建议。该研究所的其他重点，数据分析和挖掘，是数字时代的新挑战。"
+        ]
       },
       {
-        "id": "C020037235_keyword",
-        "name": "data mining",
+        "id": 20,
+        "code": 19,
+        "name": "Lean Yu",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": "他在中国科学院数学与系统科学学院管理科学与工程学院获得博士学位，他是北京化工大学经济与管理学院的院长和博士主管。他是中国科学院杰出青年学者和“百位人才计划”国家科学基金的获得者。他是国际智能工程信息学杂志的主编、国际计算科学杂志的主编，以及几个国际期刊的编辑成员。到目前为止，他已经出版了四部专著(两部专著由斯普林格-维拉格出版)和60多篇SCI/SSCI论文，发表在一些顶级期刊上，包括IEEE进化计算交易和IEEE知识和数据工程交易。同时，他还获得了多项奖项和荣誉，如中国科学技术委员会组织部“中国青年科学技术奖”、中国国务院学位委员会和教育部颁发的“100 个全国最佳博士论文奖”、北京市政府颁发的“北京科学技术奖一等奖”、教育部颁发的自然科学奖一等奖、中国（ 中国）运营研究会颁发的“中国运营研究应用一等奖”、中国科学院颁发的“卢嘉熙青年人才奖”等。 他的研究兴趣包括商业智能、经济预测、能源经济学和智能决策支持系统。",
+        "layoutList": [
+          "他在中国科学院数学与系统科学学院管理科学与工程学院获得博士学位，他是北京化工大学经济与管理学院的院长和博士主管。他是中国科学院杰出青年学者和“百位人才计划”国家科学基金的获得者。他是国际智能工程信息学杂志的主编、国际计算科学杂志的主编，以及几个国际期刊的编辑成员。到目前为止，他已经出版了四部专著(两部专著由斯普林格-维拉格出版)和60多篇SCI/SSCI论文，发表在一些顶级期刊上，包括IEEE进化计算交易和IEEE知识和数据工程交易。同时，他还获得了多项奖项和荣誉，如中国科学技术委员会组织部“中国青年科学技术奖”、中国国务院学位委员会和教育部颁发的“100 个全国最佳博士论文奖”、北京市政府颁发的“北京科学技术奖一等奖”、教育部颁发的自然科学奖一等奖、中国（ 中国）运营研究会颁发的“中国运营研究应用一等奖”、中国科学院颁发的“卢嘉熙青年人才奖”等。 他的研究兴趣包括商业智能、经济预测、能源经济学和智能决策支持系统。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "多目标优化",
         "type": "keyword",
-        "value": 0.9552,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2046901_scholar",
-        "name": "Zhiming Wang",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "701267_scholar",
-        "name": "Bing Bing Xue",
-        "type": "scholar",
-        "value": 0.52326,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "244069_scholar",
-        "name": "Bijaya ketan Panigrahi ",
-        "type": "scholar",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1018574_scholar",
-        "name": "Yang Li ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
+        "id": 22,
+        "code": 21,
+        "name": "进化算法",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2091182_scholar",
-        "name": "Chee khiang Pang ",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1894757_scholar",
-        "name": "Tetsuya Yomo",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1838321_scholar",
-        "name": "Thomas Habetler",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "500242_scholar",
-        "name": "Huiling Chen",
-        "type": "scholar",
-        "value": 0.63043,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2128111_scholar",
-        "name": "郝泳涛",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1089336_scholar",
-        "name": "Mohamed Cheriet ",
-        "type": "scholar",
-        "value": 0.625,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "8457302_scholar",
-        "name": "Itaru Urabe",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2179_scholar",
-        "name": "宋杨",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1981285_scholar",
-        "name": "Ajith Abraham",
-        "type": "scholar",
-        "value": 0.50862,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "373647_scholar",
-        "name": "Xiaoli Li ",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1977169_scholar",
-        "name": "关治洪",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "8018115_scholar",
-        "name": "Soman",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1740379_scholar",
-        "name": "Dov Stekel ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811885_keyword",
-        "name": "evolutionary algorithm",
+        "id": 23,
+        "code": 22,
+        "name": "支持向量机",
         "type": "keyword",
-        "value": 0.9135,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "410277_scholar",
-        "name": "Min Liu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1954134_scholar",
-        "name": "Peter Švec ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "433065_scholar",
-        "name": "吴翠红",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018783399_keyword",
-        "name": "Fault diagnosis",
+        "id": 24,
+        "code": 23,
+        "name": "梯度优化",
         "type": "keyword",
-        "value": 0.8003,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2045557_scholar",
-        "name": "Yu Yang",
-        "type": "scholar",
-        "value": 0.78723,
-        "releExpert": null,
-        "releSubject": null
+        "id": 25,
+        "code": 24,
+        "name": "Ke Tang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "366996_scholar",
-        "name": "Michal Wozniak",
-        "type": "scholar",
-        "value": 0.90833,
-        "releExpert": null,
-        "releSubject": null
+        "id": 26,
+        "code": 25,
+        "name": "Renzhi Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "355_scholar",
-        "name": "Zhilin Feng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 27,
+        "code": 26,
+        "name": "Leandro L. Minku",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "57983_scholar",
-        "name": "Jianyu Shi",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 28,
+        "code": 27,
+        "name": "Chao Qian",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1008692_scholar",
-        "name": "Aziz Habibi-Yangjeh",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 29,
+        "code": 28,
+        "name": "Kin Keung Lai",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "157617_scholar",
-        "name": "Qinglai Wei",
-        "type": "scholar",
-        "value": 0.57471,
-        "releExpert": null,
-        "releSubject": null
+        "id": 30,
+        "code": 29,
+        "name": "Wei Huang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018903429_keyword",
-        "name": "Natural Language Processing",
+        "id": 31,
+        "code": 30,
+        "name": "Wang Shouyang Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Shouyang Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Michael I. Jordan",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": "美国科学家，加州大学伯克利分校教授，也是机器学习、统计学和人工智能方面的研究员。迈克尔·I·乔丹(MichaelI.Jordan)是机器学习领域的领军人物之一，2016年科学报告称他是世界上最具影响力的计算机科学家。",
+        "layoutList": [
+          "美国科学家，加州大学伯克利分校教授，也是机器学习、统计学和人工智能方面的研究员。迈克尔·I·乔丹(MichaelI.Jordan)是机器学习领域的领军人物之一，2016年科学报告称他是世界上最具影响力的计算机科学家。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "Jorge Nocedal",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": "生于1952 是一个应用数学家和计算机科学家，沃尔特·P·墨菲教授（WalterP.Murphy教授）在伊利诺斯州的Evanston西北大学的麦考密克工程学院（McCormickSchoolofEngineering）的工业工程和管理科学部教授。Noedal专门用于确定性和随机设置中的非线性优化。他目前的算法和理论研究的动机来源于图像和语音识别、推荐系统和搜索引擎中的应用。过去，他还致力于在机器人、交通和游戏、金融优化应用以及PDE约束优化中应用的均衡问题。",
+        "layoutList": [
+          "生于1952 是一个应用数学家和计算机科学家，沃尔特·P·墨菲教授（WalterP.Murphy教授）在伊利诺斯州的Evanston西北大学的麦考密克工程学院（McCormickSchoolofEngineering）的工业工程和管理科学部教授。Noedal专门用于确定性和随机设置中的非线性优化。他目前的算法和理论研究的动机来源于图像和语音识别、推荐系统和搜索引擎中的应用。过去，他还致力于在机器人、交通和游戏、金融优化应用以及PDE约束优化中应用的均衡问题。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "深度学习",
         "type": "keyword",
-        "value": 0.61765,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020053098_keyword",
-        "name": "wavelet transforms",
+        "id": 36,
+        "code": 35,
+        "name": "文本分类",
         "type": "keyword",
-        "value": 0.53571,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "224496_scholar",
-        "name": "Frank Lewis",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2117451_scholar",
-        "name": "Shawn Li",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2045653_scholar",
-        "name": "杨义先",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2827189_scholar",
-        "name": "Ali Azadeh ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2012711_scholar",
-        "name": "David He",
-        "type": "scholar",
-        "value": 0.71429,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2102178_scholar",
-        "name": "张孟杰",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "867168_scholar",
-        "name": "王鼎",
-        "type": "scholar",
-        "value": 0.64943,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1912858_scholar",
-        "name": "Oscar Castillo",
-        "type": "scholar",
-        "value": 0.50431,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
-        "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811700_keyword",
-        "name": "Particle swarm optimization",
+        "id": 37,
+        "code": 36,
+        "name": "最优化方法",
         "type": "keyword",
-        "value": 0.85714,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020043284_keyword",
-        "name": "adaptive control",
+        "id": 38,
+        "code": 37,
+        "name": "随机优化",
         "type": "keyword",
-        "value": 0.8656,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2112100_scholar",
-        "name": "张兆雷",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 39,
+        "code": 38,
+        "name": "Max Tegmark",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "60019499_affiliation",
-        "name": "Chinese Academy of Sciences",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
+        "id": 40,
+        "code": 39,
+        "name": "Yann LeCun",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "742787_scholar",
-        "name": "褚福磊",
-        "type": "scholar",
-        "value": 0.54255,
-        "releExpert": null,
-        "releSubject": null
+        "id": 41,
+        "code": 40,
+        "name": "Alexis Conneau",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2027991_scholar",
-        "name": "余昭旭",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 42,
+        "code": 41,
+        "name": "LoïcBarrault",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018804304_keyword",
-        "name": "Expert System",
+        "id": 43,
+        "code": 42,
+        "name": "Richard H. Byrd",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Gillian M. Chin",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Albert S. Berahas",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "LoïcBarrault",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Yishay Mansour",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": "他就职于特拉维夫大学，以色列计算机科学学院",
+        "layoutList": [
+          "他就职于特拉维夫大学，以色列计算机科学学院"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "Kevin W. Bowyer",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。",
+        "layoutList": [
+          "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "强化学习",
         "type": "keyword",
-        "value": 0.8211,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3467676_scholar",
-        "name": "Peilin Zhang ",
-        "type": "scholar",
-        "value": 0.51064,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "376525_scholar",
-        "name": "Jari Hyttinen ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2209006_scholar",
-        "name": "Zhan Bu ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2040176_scholar",
-        "name": "杨新民",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2753_scholar",
-        "name": "Peiling Yang",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1915504_scholar",
-        "name": "柴天佑",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1673137_scholar",
-        "name": "Ozgur Kisi",
-        "type": "scholar",
-        "value": 0.52874,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1972661_scholar",
-        "name": "Cȩdric Richard ",
-        "type": "scholar",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018840326_keyword",
-        "name": "Medical diagnosis",
+        "id": 50,
+        "code": 49,
+        "name": "判别学习",
         "type": "keyword",
-        "value": 0.58904,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "139964_scholar",
-        "name": "Chunnan Hsu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "932921_scholar",
-        "name": "刘德荣",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "49477_scholar",
-        "name": "José alfonso Antonino-Daviu",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1278002_scholar",
-        "name": "yì Wáng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "33809_scholar",
-        "name": "Giustolisi",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2106435_scholar",
-        "name": "Junsheng Cheng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
+        "id": 51,
+        "code": 50,
+        "name": "图像合成",
         "type": "keyword",
-        "value": 0.9276,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2384452_scholar",
-        "name": "Shumei Ren",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 52,
+        "code": 51,
+        "name": "半监督学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "381285_scholar",
-        "name": "André de",
-        "type": "scholar",
-        "value": 0.50833,
-        "releExpert": null,
-        "releSubject": null
+        "id": 53,
+        "code": 52,
+        "name": "Aryeh Kontorovich",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "244732_scholar",
-        "name": "马卫民",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 54,
+        "code": 53,
+        "name": "Idan Attias",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2049173_scholar",
-        "name": "Liyuan Li",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
+        "id": 55,
+        "code": 54,
+        "name": "Elad Yom-Tov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "87177_scholar",
-        "name": "Wenling Jiao ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 56,
+        "code": 55,
+        "name": "Nir Rosenfeld",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1888596_scholar",
-        "name": "Taghi Khoshgoftaar",
-        "type": "scholar",
-        "value": 0.63953,
-        "releExpert": null,
-        "releSubject": null
+        "id": 57,
+        "code": 56,
+        "name": "Patrick J. Flynn",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1907317_scholar",
-        "name": "Naiyang Deng",
-        "type": "scholar",
-        "value": 0.65217,
-        "releExpert": null,
-        "releSubject": null
+        "id": 58,
+        "code": 57,
+        "name": "Walter J. Scheirer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "381101_scholar",
-        "name": "Dragan Savić",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 59,
+        "code": 58,
+        "name": "W. Philip Kegelmeyer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "432115_scholar",
-        "name": "葛晓敏",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 60,
+        "code": 59,
+        "name": "Lawrence O. Hall",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2101120_scholar",
-        "name": "Zengyuan Li ",
-        "type": "scholar",
-        "value": 0.54167,
-        "releExpert": null,
-        "releSubject": null
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": "Usefulness of traditionally defined herbal properties for distinguishing prescriptions of traditional Chinese medicine from non-prescription recipes/Support vector machine method for forecasting future strong earth-quakes in Chinese mainland/Support vector machine modeling on NO emission property of high capacity power station boiler/Sequence-similarity kernels for SVMs to detect anomalies in system calls/Automatic news audio classification method based on selective ensemble SVMs/A support vector machine integrated system for the classification of operation anomalies in nuclear components and systems/Focusing on non-respondents: Response modeling with novelty detectors",
+        "layoutList": [
+          "Usefulness of traditionally defined herbal properties for distinguishing prescriptions of traditional Chinese medicine from non-prescription recipes",
+          "Support vector machine method for forecasting future strong earth-quakes in Chinese mainland",
+          "Support vector machine modeling on NO emission property of high capacity power station boiler",
+          "Sequence-similarity kernels for SVMs to detect anomalies in system calls",
+          "Automatic news audio classification method based on selective ensemble SVMs",
+          "A support vector machine integrated system for the classification of operation anomalies in nuclear components and systems",
+          "Focusing on non-respondents: Response modeling with novelty detectors"
+        ]
       },
       {
-        "id": "2311470_scholar",
-        "name": "Dengguo Lai ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "支持向量机",
+        "layout": "一种支持向量机和粗糙集的故障诊断知识获取方法/一种基于改进支持向量机的锅炉飞灰含碳量软测量方法/一种在地磁感应器上基于支持向量机的车型识别方法/基于支持向量机的图像反馈方法及系统/一种基于改进支持向量机的化工过程故障诊断方法/基于支持向量机的人脸两颧颜色分类的方法/一种基于支持向量机的信道环境检测方法",
+        "layoutList": [
+          "一种支持向量机和粗糙集的故障诊断知识获取方法",
+          "一种基于改进支持向量机的锅炉飞灰含碳量软测量方法",
+          "一种在地磁感应器上基于支持向量机的车型识别方法",
+          "基于支持向量机的图像反馈方法及系统",
+          "一种基于改进支持向量机的化工过程故障诊断方法",
+          "基于支持向量机的人脸两颧颜色分类的方法",
+          "一种基于支持向量机的信道环境检测方法"
+        ]
       },
       {
-        "id": "2089017_scholar",
-        "name": "Houbing Song",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": "Learning assignment order of instances for the constrained K-means clustering algorithm/Exploratory undersampling for class-imbalance learning/Network traffic classification based on ensemble learning and co-training/Mining extremely small data sets with application to software reuse/Categorizing and mining concept drifting data streams/Combo-dimensional kernels for graph classification/Construct support vector machine ensemble to detect traffic incident",
+        "layoutList": [
+          "Learning assignment order of instances for the constrained K-means clustering algorithm",
+          "Exploratory undersampling for class-imbalance learning",
+          "Network traffic classification based on ensemble learning and co-training",
+          "Mining extremely small data sets with application to software reuse",
+          "Categorizing and mining concept drifting data streams",
+          "Combo-dimensional kernels for graph classification",
+          "Construct support vector machine ensemble to detect traffic incident"
+        ]
       },
       {
-        "id": "2115102_scholar",
-        "name": "Yunkai Li",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "支持向量机",
+        "layout": "一种基于集成学习的模式训练和识别方法/基于集成学习思想的SVM-RFE导联优化方法/基于特征光流与在线集成学习的视频目标跟踪方法/一种基于集成学习的社会网络重叠社区发现方法/一种基于集成学习建模技术的半导体过程监测方法/一种基于多视集成学习的恶意软件检测方法/一种利用海洋遥感多环境要素的集成学习渔场预报方法",
+        "layoutList": [
+          "一种基于集成学习的模式训练和识别方法",
+          "基于集成学习思想的SVM-RFE导联优化方法",
+          "基于特征光流与在线集成学习的视频目标跟踪方法",
+          "一种基于集成学习的社会网络重叠社区发现方法",
+          "一种基于集成学习建模技术的半导体过程监测方法",
+          "一种基于多视集成学习的恶意软件检测方法",
+          "一种利用海洋遥感多环境要素的集成学习渔场预报方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": "Multi-objective optimization of technological parameters during the gas quenching process/Study on a generalized model updating method for offshore platforms/Linear antenna array synthesis using Taguchi's method: A novel optimization technique in electromagnetics/Multi-echelon inventory stochastic model of supply chain and its optimization/Velikost populacije pri algoritmu diferencialne evolucije/A utility optimization method of a high voltage vacuum interrupter design/Dual-wavelength quadrature phase-shifted demodulation of low-finesse short F-P cavity",
+        "layoutList": [
+          "Multi-objective optimization of technological parameters during the gas quenching process",
+          "Study on a generalized model updating method for offshore platforms",
+          "Linear antenna array synthesis using Taguchi's method: A novel optimization technique in electromagnetics",
+          "Multi-echelon inventory stochastic model of supply chain and its optimization",
+          "Velikost populacije pri algoritmu diferencialne evolucije",
+          "A utility optimization method of a high voltage vacuum interrupter design",
+          "Dual-wavelength quadrature phase-shifted demodulation of low-finesse short F-P cavity"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "支持向量机",
+        "layout": "元件种类配置的最优化方法及元件种类配置的最优化装置/水质采样巡航船路径规划最优化方法/基于可靠性感知的频谱资源最优化方法及系统/一种改进型最优化方法/基于最优化方法的湿地植物配置方法/一种基于蚁群路由算法连通预测的能效最优化方法/基于最短路径的消防救援路线最优化方法",
+        "layoutList": [
+          "元件种类配置的最优化方法及元件种类配置的最优化装置",
+          "水质采样巡航船路径规划最优化方法",
+          "基于可靠性感知的频谱资源最优化方法及系统",
+          "一种改进型最优化方法",
+          "基于最优化方法的湿地植物配置方法",
+          "一种基于蚁群路由算法连通预测的能效最优化方法",
+          "基于最短路径的消防救援路线最优化方法"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": "Input Decimated Ensemble based on Neighborhood Preserving Embedding for spectrogram classification/Prediction of periventricular leukomalacia. Part II: Selection of hemodynamic features using computational intelligence/A hybrid approach to design efficient learning classifiers/Multiple ecological pathways to extinction in mammals/Research on new classifier algorithms for support vector machine/Privacy preserving C4.5 algorithm over vertically distributed datasets/Thai word segmentation with hidden markov model and decision tree",
+        "layoutList": [
+          "Input Decimated Ensemble based on Neighborhood Preserving Embedding for spectrogram classification",
+          "Prediction of periventricular leukomalacia. Part II: Selection of hemodynamic features using computational intelligence",
+          "A hybrid approach to design efficient learning classifiers",
+          "Multiple ecological pathways to extinction in mammals",
+          "Research on new classifier algorithms for support vector machine",
+          "Privacy preserving C4.5 algorithm over vertically distributed datasets",
+          "Thai word segmentation with hidden markov model and decision tree"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "支持向量机",
+        "layout": "基于决策树高速并行处理的网络流量在线分类方法及装置/基于二叉决策树的高光谱遥感影像分类方法/并行处理机器学习决策树训练/一种基于决策树算法的固体农药分类方法/基于决策树的攻击检测系统/建立决策树的方法及装置、网络性能优化方法及装置/一种基于动态决策树的话务峰涌呼叫优化方法",
+        "layoutList": [
+          "基于决策树高速并行处理的网络流量在线分类方法及装置",
+          "基于二叉决策树的高光谱遥感影像分类方法",
+          "并行处理机器学习决策树训练",
+          "一种基于决策树算法的固体农药分类方法",
+          "基于决策树的攻击检测系统",
+          "建立决策树的方法及装置、网络性能优化方法及装置",
+          "一种基于动态决策树的话务峰涌呼叫优化方法"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "3292434_scholar",
-        "target": "57983_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "C018811890_keyword",
-        "target": "8457302_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "C018918649_keyword",
-        "target": "C018956191_keyword",
-        "value": 0.8412,
-        "type": "keyword"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1954134_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "C020042120_keyword",
-        "target": "23592_scholar",
-        "value": 0.55833,
-        "type": "scholar"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2091182_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 60,
+        "source": 0,
+        "target": 60
       },
       {
-        "source": "C020039005_keyword",
-        "target": "432115_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 61,
+        "source": 0,
+        "target": 61
       },
       {
-        "source": "C018819637_keyword",
-        "target": "2034984_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 18,
+        "source": 1,
+        "target": 18
       },
       {
-        "source": "1972661_scholar",
-        "target": "87167_keyword",
-        "value": 0.54167,
-        "type": "keyword"
+        "id": 19,
+        "source": 1,
+        "target": 19
       },
       {
-        "source": "1907317_scholar",
-        "target": "2040176_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 62,
+        "source": 1,
+        "target": 62
       },
       {
-        "source": "C018819637_keyword",
-        "target": "C018811890_keyword",
-        "value": 0.8295,
-        "type": "keyword"
+        "id": 63,
+        "source": 1,
+        "target": 63
       },
       {
-        "source": "C020039005_keyword",
-        "target": "867168_scholar",
-        "value": 0.64943,
-        "type": "scholar"
+        "id": 32,
+        "source": 2,
+        "target": 32
       },
       {
-        "source": "2124892_scholar",
-        "target": "2115102_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 33,
+        "source": 2,
+        "target": 33
       },
       {
-        "source": "C018819637_keyword",
-        "target": "2101120_scholar",
-        "value": 0.54167,
-        "type": "scholar"
+        "id": 64,
+        "source": 2,
+        "target": 64
       },
       {
-        "source": "C018918649_keyword",
-        "target": "701267_scholar",
-        "value": 0.52326,
-        "type": "scholar"
+        "id": 65,
+        "source": 2,
+        "target": 65
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1673137_scholar",
-        "value": 0.52874,
-        "type": "scholar"
+        "id": 46,
+        "source": 3,
+        "target": 46
       },
       {
-        "source": "C020039005_keyword",
-        "target": "932921_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 47,
+        "source": 3,
+        "target": 47
       },
       {
-        "source": "2124892_scholar",
-        "target": "2384452_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 66,
+        "source": 3,
+        "target": 66
       },
       {
-        "source": "C018819637_keyword",
-        "target": "500242_scholar",
-        "value": 0.63043,
-        "type": "scholar"
+        "id": 67,
+        "source": 3,
+        "target": 67
       },
       {
-        "source": "500242_scholar",
-        "target": "C018819637_keyword",
-        "value": 0.76712,
-        "type": "keyword"
+        "id": 6,
+        "source": 4,
+        "target": 6
       },
       {
-        "source": "C018819637_keyword",
-        "target": "3292434_scholar",
-        "value": 0.52174,
-        "type": "scholar"
+        "id": 7,
+        "source": 4,
+        "target": 7
       },
       {
-        "source": "2034984_scholar",
-        "target": "2322023_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 8,
+        "source": 5,
+        "target": 8
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1725148_scholar",
-        "value": 0.54741,
-        "type": "scholar"
+        "id": 9,
+        "source": 5,
+        "target": 9
       },
       {
-        "source": "C020039005_keyword",
-        "target": "410277_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 10,
+        "source": 6,
+        "target": 10
       },
       {
-        "source": "C020039005_keyword",
-        "target": "87177_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 11,
+        "source": 6,
+        "target": 11
       },
       {
-        "source": "2034984_scholar",
-        "target": "2209006_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 12,
+        "source": 7,
+        "target": 12
       },
       {
-        "source": "8018115_scholar",
-        "target": "C018903429_keyword",
-        "value": 0.61765,
-        "type": "keyword"
+        "id": 13,
+        "source": 7,
+        "target": 13
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1018574_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 14,
+        "source": 8,
+        "target": 14
       },
       {
-        "source": "C020039005_keyword",
-        "target": "157617_scholar",
-        "value": 0.57471,
-        "type": "scholar"
+        "id": 15,
+        "source": 8,
+        "target": 15
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1912858_scholar",
-        "value": 0.50431,
-        "type": "scholar"
+        "id": 16,
+        "source": 9,
+        "target": 16
       },
       {
-        "source": "C018819637_keyword",
-        "target": "C018918649_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 17,
+        "source": 9,
+        "target": 17
       },
       {
-        "source": "2124892_scholar",
-        "target": "2089017_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 20,
+        "source": 18,
+        "target": 20
       },
       {
-        "source": "C020039005_keyword",
-        "target": "433065_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 21,
+        "source": 18,
+        "target": 21
       },
       {
-        "source": "C018783399_keyword",
-        "target": "373647_scholar",
-        "value": 0.57143,
-        "type": "scholar"
+        "id": 22,
+        "source": 19,
+        "target": 22
       },
       {
-        "source": "1907317_scholar",
-        "target": "60013551_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 23,
+        "source": 19,
+        "target": 23
       },
       {
-        "source": "C018819637_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.9276,
-        "type": "keyword"
+        "id": 24,
+        "source": 20,
+        "target": 24
       },
       {
-        "source": "C018819637_keyword",
-        "target": "8018115_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 25,
+        "source": 20,
+        "target": 25
       },
       {
-        "source": "C018811890_keyword",
-        "target": "2067619_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 26,
+        "source": 21,
+        "target": 26
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1897078_scholar",
-        "value": 0.50575,
-        "type": "scholar"
+        "id": 27,
+        "source": 21,
+        "target": 27
       },
       {
-        "source": "C018811890_keyword",
-        "target": "C018811885_keyword",
-        "value": 0.9135,
-        "type": "keyword"
+        "id": 28,
+        "source": 22,
+        "target": 28
       },
       {
-        "source": "244069_scholar",
-        "target": "C020053098_keyword",
-        "value": 0.53571,
-        "type": "keyword"
+        "id": 29,
+        "source": 22,
+        "target": 29
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1278002_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 30,
+        "source": 23,
+        "target": 30
       },
       {
-        "source": "C020039005_keyword",
-        "target": "224496_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 31,
+        "source": 23,
+        "target": 31
       },
       {
-        "source": "244069_scholar",
-        "target": "C018811700_keyword",
-        "value": 0.85714,
-        "type": "keyword"
+        "id": 34,
+        "source": 32,
+        "target": 34
       },
       {
-        "source": "C018811890_keyword",
-        "target": "104287_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 35,
+        "source": 32,
+        "target": 35
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1894757_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 36,
+        "source": 33,
+        "target": 36
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1982557_scholar",
-        "value": 0.57328,
-        "type": "scholar"
+        "id": 37,
+        "source": 33,
+        "target": 37
       },
       {
-        "source": "C018783399_keyword",
-        "target": "3467676_scholar",
-        "value": 0.51064,
-        "type": "scholar"
+        "id": 38,
+        "source": 34,
+        "target": 38
       },
       {
-        "source": "C020042120_keyword",
-        "target": "C020037235_keyword",
-        "value": 0.9552,
-        "type": "keyword"
+        "id": 39,
+        "source": 34,
+        "target": 39
       },
       {
-        "source": "C018783399_keyword",
-        "target": "2012711_scholar",
-        "value": 0.71429,
-        "type": "scholar"
+        "id": 40,
+        "source": 35,
+        "target": 40
       },
       {
-        "source": "2034984_scholar",
-        "target": "2381396_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 41,
+        "source": 35,
+        "target": 41
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1740379_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 42,
+        "source": 36,
+        "target": 42
       },
       {
-        "source": "2034984_scholar",
-        "target": "2311470_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 43,
+        "source": 36,
+        "target": 43
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1008692_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 44,
+        "source": 37,
+        "target": 44
       },
       {
-        "source": "C018819637_keyword",
-        "target": "244069_scholar",
-        "value": 0.625,
-        "type": "scholar"
+        "id": 45,
+        "source": 37,
+        "target": 45
       },
       {
-        "source": "C018811890_keyword",
-        "target": "2827189_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 48,
+        "source": 46,
+        "target": 48
       },
       {
-        "source": "C018811890_keyword",
-        "target": "C018784191_keyword",
-        "value": 0.9045,
-        "type": "keyword"
+        "id": 49,
+        "source": 46,
+        "target": 49
       },
       {
-        "source": "C020042120_keyword",
-        "target": "715311_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 50,
+        "source": 47,
+        "target": 50
       },
       {
-        "source": "C018819637_keyword",
-        "target": "C018783399_keyword",
-        "value": 0.8003,
-        "type": "keyword"
+        "id": 51,
+        "source": 47,
+        "target": 51
       },
       {
-        "source": "C018783399_keyword",
-        "target": "C018804304_keyword",
-        "value": 0.8211,
-        "type": "keyword"
+        "id": 52,
+        "source": 48,
+        "target": 52
       },
       {
-        "source": "C018811890_keyword",
-        "target": "33809_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 53,
+        "source": 48,
+        "target": 53
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C020043284_keyword",
-        "value": 0.8656,
-        "type": "keyword"
+        "id": 54,
+        "source": 49,
+        "target": 54
       },
       {
-        "source": "C018783399_keyword",
-        "target": "2106435_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 55,
+        "source": 49,
+        "target": 55
       },
       {
-        "source": "1907317_scholar",
-        "target": "2117451_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 56,
+        "source": 50,
+        "target": 56
       },
       {
-        "source": "C018811890_keyword",
-        "target": "1915504_scholar",
-        "value": 0.58333,
-        "type": "scholar"
+        "id": 57,
+        "source": 50,
+        "target": 57
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2049173_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 58,
+        "source": 51,
+        "target": 58
       },
       {
-        "source": "C018783399_keyword",
-        "target": "2017358_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1907317_scholar",
-        "target": "2112100_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018918649_keyword",
-        "target": "1888596_scholar",
-        "value": 0.63953,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "1981285_scholar",
-        "value": 0.50862,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "2102178_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C020039005_keyword",
-        "target": "2027991_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "3292434_scholar",
-        "target": "376525_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "381101_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1907317_scholar",
-        "value": 0.65217,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "418231_scholar",
-        "value": 0.83333,
-        "type": "scholar"
-      },
-      {
-        "source": "2034984_scholar",
-        "target": "2179_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C020042120_keyword",
-        "target": "366996_scholar",
-        "value": 0.90833,
-        "type": "scholar"
-      },
-      {
-        "source": "1972661_scholar",
-        "target": "C018847356_keyword",
-        "value": 0.54167,
-        "type": "keyword"
-      },
-      {
-        "source": "C018783399_keyword",
-        "target": "49477_scholar",
-        "value": 0.57143,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "244732_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "2128111_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "2124892_scholar",
-        "target": "2045653_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "3292434_scholar",
-        "target": "60028218_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "1977169_scholar",
-        "value": 0.75,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "2042760_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "2124892_scholar",
-        "target": "2753_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018783399_keyword",
-        "target": "742787_scholar",
-        "value": 0.54255,
-        "type": "scholar"
-      },
-      {
-        "source": "C018783399_keyword",
-        "target": "2045557_scholar",
-        "value": 0.78723,
-        "type": "scholar"
-      },
-      {
-        "source": "C020042120_keyword",
-        "target": "407323_keyword",
-        "value": 0.8557,
-        "type": "keyword"
-      },
-      {
-        "source": "C020039005_keyword",
-        "target": "2046901_scholar",
-        "value": 0.66667,
-        "type": "scholar"
-      },
-      {
-        "source": "500242_scholar",
-        "target": "C018840326_keyword",
-        "value": 0.58904,
-        "type": "keyword"
-      },
-      {
-        "source": "C018783399_keyword",
-        "target": "1838321_scholar",
-        "value": 0.57143,
-        "type": "scholar"
-      },
-      {
-        "source": "2124892_scholar",
-        "target": "60019499_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "1991910_scholar",
-        "value": 0.58333,
-        "type": "scholar"
-      },
-      {
-        "source": "C018918649_keyword",
-        "target": "349010_scholar",
-        "value": 0.51163,
-        "type": "scholar"
-      },
-      {
-        "source": "C020042120_keyword",
-        "target": "381285_scholar",
-        "value": 0.50833,
-        "type": "scholar"
-      },
-      {
-        "source": "C018811890_keyword",
-        "target": "87037_scholar",
-        "value": 0.83333,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1972661_scholar",
-        "value": 0.54167,
-        "type": "scholar"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "2124892_scholar",
-        "value": 0.82609,
-        "type": "scholar"
-      },
-      {
-        "source": "3292434_scholar",
-        "target": "139964_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "2034984_scholar",
-        "target": "thousand030037_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "C020039005_keyword",
-        "value": 0.8034,
-        "type": "keyword"
-      },
-      {
-        "source": "C018819637_keyword",
-        "target": "1089336_scholar",
-        "value": 0.625,
-        "type": "scholar"
-      },
-      {
-        "source": "1907317_scholar",
-        "target": "355_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "1907317_scholar",
-        "target": "1939770_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+ 
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

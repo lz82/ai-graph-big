@@ -143,484 +143,17 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": 1,
-        "code": 0,
-        "name": "知识库",
-        "type": "keyword",
-        "level": 1,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 2,
-        "code": 1,
-        "name": "推荐系统",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 3,
-        "code": 2,
-        "name": "问答系统",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 4,
-        "code": 3,
-        "name": "信息抽取",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 5,
-        "code": 4,
-        "name": "Ian Horrocks",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 6,
-        "code": 5,
-        "name": "Amit P. Sheth",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 7,
-        "code": 6,
-        "name": "推理",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 8,
-        "code": 7,
-        "name": "本体",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 9,
-        "code": 8,
-        "name": "语义传感器",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 10,
-        "code": 9,
-        "name": "语义网",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 11,
-        "code": 10,
-        "name": "Bernardo Cuenca Grau",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 12,
-        "code": 11,
-        "name": "Boris Motik",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 13,
-        "code": 12,
-        "name": "ErnestoJiménez-Ruiz",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 14,
-        "code": 13,
-        "name": "Evgeny Kharlamov",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 15,
-        "code": 14,
-        "name": "Cory A. Henson",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 16,
-        "code": 15,
-        "name": "Krishnaprasad Thirunarayan",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 17,
-        "code": 16,
-        "name": "John A. Miller",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 18,
-        "code": 17,
-        "name": "Kunal Verma",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 0,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 19,
-        "code": 18,
-        "name": "Joseph A. Konstan",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 20,
-        "code": 19,
-        "name": "Bamshad Mobasher",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 21,
-        "code": 20,
-        "name": "协同过滤",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 22,
-        "code": 21,
-        "name": "用户反馈",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 23,
-        "code": 22,
-        "name": "上下文感知",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 24,
-        "code": 23,
-        "name": "社会化标注系统",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 25,
-        "code": 24,
-        "name": "John Riedl",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 26,
-        "code": 25,
-        "name": "Jonathan L. Herlocker",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 27,
-        "code": 26,
-        "name": "F. Maxwell Harper",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 28,
-        "code": 27,
-        "name": "Qian Zhao",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 29,
-        "code": 28,
-        "name": "Robin D. Burke",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 30,
-        "code": 29,
-        "name": "Yong Zheng",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 31,
-        "code": 30,
-        "name": "Jonathan Gemmell",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 32,
-        "code": 31,
-        "name": "Thomas Schimoler",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 1,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 33,
-        "code": 32,
-        "name": "Maarten de Rijke",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 34,
-        "code": 33,
-        "name": "Paolo Rosso",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 35,
-        "code": 34,
-        "name": "度量学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 36,
-        "code": 35,
-        "name": "搜索",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 37,
-        "code": 36,
-        "name": "WordNet",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 38,
-        "code": 37,
-        "name": "剽窃检测",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 39,
-        "code": 38,
-        "name": "Edgar Meij",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 40,
-        "code": 39,
-        "name": "Manos Tsagkias",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 41,
-        "code": 40,
-        "name": "Krisztian Balog",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 42,
-        "code": 41,
-        "name": "Wouter Weerkamp",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 43,
-        "code": 42,
-        "name": "Davide Buscaldi",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 44,
-        "code": 43,
-        "name": "Emilio Sanchis Arnal",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 45,
-        "code": 44,
-        "name": "Manuel Montes-y-Gómez",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 46,
-        "code": 45,
-        "name": "LuisVillaseñorPineda",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "center",
-        "layout": null
-      },
-      {
-        "id": 47,
-        "code": 46,
-        "name": "Daniel S. Weld",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
-      },
-      {
         "id": 48,
         "code": 47,
         "name": "Oren Etzioni",
         "type": "expert",
         "level": 3,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": "是美国企业家，计算机科学教授，以及艾伦人工智能研究所的CEO。他于1991年加入华盛顿大学，在那里他成为计算机科学与工程部门的华盛顿研究基金会企业家教授。2005年5月，他创办并成为大学中心主任。该中心研究数据挖掘、自然语言处理、语义Web和其他Web搜索主题中的问题。他创造了术语“机器阅读”，创造了第一个商业比较购物代理。",
+        "layoutList": [
+          "是美国企业家，计算机科学教授，以及艾伦人工智能研究所的CEO。他于1991年加入华盛顿大学，在那里他成为计算机科学与工程部门的华盛顿研究基金会企业家教授。2005年5月，他创办并成为大学中心主任。该中心研究数据挖掘、自然语言处理、语义Web和其他Web搜索主题中的问题。他创造了术语“机器阅读”，创造了第一个商业比较购物代理。"
+        ]
       },
       {
         "id": 49,
@@ -629,8 +162,9 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 50,
@@ -639,8 +173,9 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 51,
@@ -649,8 +184,9 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 52,
@@ -659,8 +195,9 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 53,
@@ -669,8 +206,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 54,
@@ -679,8 +217,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 55,
@@ -689,8 +228,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 56,
@@ -699,8 +239,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 57,
@@ -709,8 +250,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 58,
@@ -719,8 +261,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 59,
@@ -729,8 +272,9 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 60,
@@ -739,11 +283,739 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "center",
-        "layout": null
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": "A novel uncertain rule presentation method based on dual factors\nBayesian network modeling based on CBR and RBR\nReuse of sheet metal manufacturing knowledge based on flexible part coding\nHYDES: A Web-based hydro turbine fault diagnosis system\nDeveloping computational resources in cardiac gene expression\nApplying genetic programming technique in classification trees\nApplication of uncertainty inference represented by credence in expert system for soft ground improvement of highway",
+        "layoutList": [
+          "A novel uncertain rule presentation method based on dual factors\nBayesian network modeling based on CBR and RBR\nReuse of sheet metal manufacturing knowledge based on flexible part coding\nHYDES: A Web-based hydro turbine fault diagnosis system\nDeveloping computational resources in cardiac gene expression\nApplying genetic programming technique in classification trees\nApplication of uncertainty inference represented by credence in expert system for soft ground improvement of highway"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": "基于RDF知识库的语义标注方法/基于安全生产专业知识库的电网安全生产方法/一种面向领域服务目标的知识库构建方法/用于分割并使用知识库的装置及关联方法/基于统一配置库和知识库的集成化运维管理平台/一种基于知识库的FPGA故障自动诊断方法/异常处理方法、自动巡检控制台和知识库系统",
+        "layoutList": [
+          "基于RDF知识库的语义标注方法",
+          "基于安全生产专业知识库的电网安全生产方法",
+          "一种面向领域服务目标的知识库构建方法",
+          "用于分割并使用知识库的装置及关联方法",
+          "基于统一配置库和知识库的集成化运维管理平台",
+          "一种基于知识库的FPGA故障自动诊断方法",
+          "异常处理方法、自动巡检控制台和知识库系统"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": "Two-phase Blue-Red tree of rule-space model for the cognitive assessment evaluation and analysis - A case study of MTA course/An improved collaborative filtering recommendation algorithm not based on item rating/RR-UBPMF, A personalized music recommendation algorithm/Diversified Mobile App Recommendation Combining Topic Model and Collaborative Filtering",
+        "layoutList": [
+          "Two-phase Blue-Red tree of rule-space model for the cognitive assessment evaluation and analysis - A case study of MTA course",
+          "An improved collaborative filtering recommendation algorithm not based on item rating",
+          "RR-UBPMF, A personalized music recommendation algorithm",
+          "Diversified Mobile App Recommendation Combining Topic Model and Collaborative Filtering"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": "论坛的热帖推荐系统/一种软件推荐方法及推荐系统/一种数字电视节目推荐系统及方法/自适应推荐系统/一种基于用户亲密度的混合推荐系统及方法/权威作者和高质量论文推荐系统和推荐方法/基于主题的个性化研究方向推荐系统和推荐方法",
+        "layoutList": [
+          "论坛的热帖推荐系统",
+          "一种软件推荐方法及推荐系统",
+          "一种数字电视节目推荐系统及方法",
+          "自适应推荐系统",
+          "一种基于用户亲密度的混合推荐系统及方法",
+          "权威作者和高质量论文推荐系统和推荐方法",
+          "基于主题的个性化研究方向推荐系统和推荐方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": "SOS: A distributed mobile QandA system based on social networks/Towards designing social question-and-answer systems for behavioral support of individuals with autism/Bring Biomedical Ontologies to Personalized Healthcare: A Smart Inquiry Framework/SmartQ: A question and answer system for supplying high-quality and trustworthy answers",
+        "layoutList": [
+          "SOS: A distributed mobile QandA system based on social networks",
+          "Towards designing social question-and-answer systems for behavioral support of individuals with autism",
+          "Bring Biomedical Ontologies to Personalized Healthcare: A Smart Inquiry Framework",
+          "SmartQ: A question and answer system for supplying high-quality and trustworthy answers"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": "一种多媒体问答系统及方法/一种基于智能移动终端的多媒体问答系统和方法/基于微博的众包问答系统信息采集方法/一种问题推送方法和采用该方法的问答系统和搜索引擎/自动问答方法、自动问答系统及构建问答实例库的方法/一种带智能推荐的问答系统/一种基于人机结合的问答系统及方法",
+        "layoutList": [
+          "一种多媒体问答系统及方法",
+          "一种基于智能移动终端的多媒体问答系统和方法",
+          "基于微博的众包问答系统信息采集方法",
+          "一种问题推送方法和采用该方法的问答系统和搜索引擎",
+          "自动问答方法、自动问答系统及构建问答实例库的方法",
+          "一种带智能推荐的问答系统",
+          "一种基于人机结合的问答系统及方法"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "知识库",
+        "layout": "Self-supervised relation extraction from the Web/Unsupervised discovery of compound entities for relationship extraction/A fast events relationship extraction method based on semi-CRFs/Extracting 5W1H event semantic elements from Chinese online news/Using text to build semantic networks for pharmacogenomics/Entity relationship extraction based on potential relationship pattern/Multi-class relationship extraction from biomedical literature using Maximum Entropy",
+        "layoutList": [
+          "Self-supervised relation extraction from the Web",
+          "Unsupervised discovery of compound entities for relationship extraction",
+          "A fast events relationship extraction method based on semi-CRFs",
+          "Extracting 5W1H event semantic elements from Chinese online news",
+          "Using text to build semantic networks for pharmacogenomics",
+          "Entity relationship extraction based on potential relationship pattern",
+          "Multi-class relationship extraction from biomedical literature using Maximum Entropy"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "知识库",
+        "layout": "基于领域专家知识体系的信息抽取系统及信息抽取方法/一种网页信息抽取方法及抽取系统/一种作者信息抽取方法、装置、计算机装置及计算机可读存储介质/网页信息抽取方法及装置/基于规划?目标图的新闻事件信息抽取方法/一种基于层分类器和模板匹配的特定文本信息抽取方法/一种限定区域的文本信息抽取方法及装置",
+        "layoutList": [
+          "基于领域专家知识体系的信息抽取系统及信息抽取方法",
+          "一种网页信息抽取方法及抽取系统",
+          "一种作者信息抽取方法、装置、计算机装置及计算机可读存储介质",
+          "网页信息抽取方法及装置",
+          "基于规划?目标图的新闻事件信息抽取方法",
+          "一种基于层分类器和模板匹配的特定文本信息抽取方法",
+          "一种限定区域的文本信息抽取方法及装置"
+        ]
+      },
+      {
+        "id": 1,
+        "code": 0,
+        "name": "知识库",
+        "type": "keyword",
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": "知识库（Knowledge base）是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。",
+        "layoutList": [
+          "知识库（Knowledge base）是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。"
+        ]
+      },
+      {
+        "id": 2,
+        "code": 1,
+        "name": "推荐系统",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": "推荐系统是利用电子商务网站向客户提供商品信息和建议，帮助用户决定应该购买什么产品，模拟销售人员帮助客户完成购买过程。个性化推荐是根据用户的兴趣特点和购买行为，向用户推荐用户感兴趣的信息和商品。",
+        "layoutList": [
+          "推荐系统是利用电子商务网站向客户提供商品信息和建议，帮助用户决定应该购买什么产品，模拟销售人员帮助客户完成购买过程。个性化推荐是根据用户的兴趣特点和购买行为，向用户推荐用户感兴趣的信息和商品。"
+        ]
+      },
+      {
+        "id": 3,
+        "code": 2,
+        "name": "问答系统",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": "问答系统(Question Answering System, QA)是信息检索系统的一种高级形式，它能用准确、简洁的自然语言回答用户用自然语言提出的问题。其研究兴起的主要原因是人们对快速、准确地获取信息的需求。问答系统是目前人工智能和自然语言处理领域中一个倍受关注并具有广泛发展前景的研究方向。",
+        "layoutList": [
+          "问答系统(Question Answering System, QA)是信息检索系统的一种高级形式，它能用准确、简洁的自然语言回答用户用自然语言提出的问题。其研究兴起的主要原因是人们对快速、准确地获取信息的需求。问答系统是目前人工智能和自然语言处理领域中一个倍受关注并具有广泛发展前景的研究方向。"
+        ]
+      },
+      {
+        "id": 4,
+        "code": 3,
+        "name": "信息抽取",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "知识库",
+        "layout": "信息抽取 （Information Extraction: IE）是把文本里包含的信息进行结构化处理，变成表格一样的组织形式。输入信息抽取系统的是原始文本，输出的是固定格式的信息点。信息点从各种各样的文档中被抽取出来，然后以统一的形式集成在一起。这就是信息抽取的主要任务。信息以统一的形式集成在一起的好处是方便检查和比较。 信息抽取技术并不试图全面理解整篇文档，只是对文档中包含相关信息的部分进行分析。至于哪些信息是相关的，那将由系统设计时定下的领域范围而定。",
+        "layoutList": [
+          "信息抽取 （Information Extraction: IE）是把文本里包含的信息进行结构化处理，变成表格一样的组织形式。输入信息抽取系统的是原始文本，输出的是固定格式的信息点。信息点从各种各样的文档中被抽取出来，然后以统一的形式集成在一起。这就是信息抽取的主要任务。信息以统一的形式集成在一起的好处是方便检查和比较。 信息抽取技术并不试图全面理解整篇文档，只是对文档中包含相关信息的部分进行分析。至于哪些信息是相关的，那将由系统设计时定下的领域范围而定。"
+        ]
+      },
+      {
+        "id": 5,
+        "code": 4,
+        "name": "Ian Horrocks",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": "是英国牛津大学计算机科学教授和牛津奥里尔学院研究员。他的研究重点是知识表示和推理，特别是本体语言、描述逻辑和优化的表格决策过程。",
+        "layoutList": [
+          "是英国牛津大学计算机科学教授和牛津奥里尔学院研究员。他的研究重点是知识表示和推理，特别是本体语言、描述逻辑和优化的表格决策过程。"
+        ]
+      },
+      {
+        "id": 6,
+        "code": 5,
+        "name": "Amit P. Sheth",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": "南卡罗莱纳大学人工智能研究所创始所长。他正致力于将语义增强的物理网络社会计算和智能数据结合起来，实现人类体验计算的愿景。他最近的工作重点是语义增强Web 3.0，涉及企业、社交、传感器/物联网数据以及服务和云互操作性。他早期的工作是联邦数据库、语义互操作性和工作流管理。他与临床医生和生物医学研究人员的广泛合作包括生物医学知识的发现，以及社交媒体和传感器数据的新用途，以病人为中心的护理和病人授权。他最宝贵的成就是他过去的顾问取得的非凡成功;绝大多数前19名博士顾问都有1000+的被引频次，平均每名被引频次在1800次左右，平均每名被引频次在1400次左右;3篇论文被引用超过5000次。",
+        "layoutList": [
+          "南卡罗莱纳大学人工智能研究所创始所长。他正致力于将语义增强的物理网络社会计算和智能数据结合起来，实现人类体验计算的愿景。他最近的工作重点是语义增强Web 3.0，涉及企业、社交、传感器/物联网数据以及服务和云互操作性。他早期的工作是联邦数据库、语义互操作性和工作流管理。他与临床医生和生物医学研究人员的广泛合作包括生物医学知识的发现，以及社交媒体和传感器数据的新用途，以病人为中心的护理和病人授权。他最宝贵的成就是他过去的顾问取得的非凡成功;绝大多数前19名博士顾问都有1000+的被引频次，平均每名被引频次在1800次左右，平均每名被引频次在1400次左右;3篇论文被引用超过5000次。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "推理",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 8,
+        "code": 7,
+        "name": "本体",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 9,
+        "code": 8,
+        "name": "语义传感器",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 10,
+        "code": 9,
+        "name": "语义网",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 11,
+        "code": 10,
+        "name": "Bernardo Cuenca Grau",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Boris Motik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "ErnestoJiménez-Ruiz",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Evgeny Kharlamov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Cory A. Henson",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Krishnaprasad Thirunarayan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "John A. Miller",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Kunal Verma",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Joseph A. Konstan",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": "是美国计算机科学家、著名的麦克奈特大学教授和明尼苏达大学杰出的大学教授。他的研究兴趣是人机交互、社会计算、在线社区以及互联网技术的医疗卫生应用。他最出名的是他在协作过滤推荐人(小组项目)方面的工作，以及他在艾滋病毒在线预防方面的工作。",
+        "layoutList": [
+          "是美国计算机科学家、著名的麦克奈特大学教授和明尼苏达大学杰出的大学教授。他的研究兴趣是人机交互、社会计算、在线社区以及互联网技术的医疗卫生应用。他最出名的是他在协作过滤推荐人(小组项目)方面的工作，以及他在艾滋病毒在线预防方面的工作。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Bamshad Mobasher",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": "Bamshad Mobasher博士是芝加哥德保罗大学计算机学院计算机科学教授和网络智能中心主任。他被认为是web数据挖掘、web个性化、预测用户建模和推荐系统领域的主要权威之一。他关于web挖掘和个性化的一些原创文章是该领域引用最多的文章之一。他在这些领域的工作已经被包括亚马逊在内的许多公司用作分析和个性化系统的一部分。作为网络智能中心（center for web intelligence）的主任，Bamshad Mobasher博士负责人工智能和人工智能方面的研究，定期与业界合作，解决与web数据分析、用户行为建模、web营销和业务分析相关的问题。",
+        "layoutList": [
+          "Bamshad Mobasher博士是芝加哥德保罗大学计算机学院计算机科学教授和网络智能中心主任。他被认为是web数据挖掘、web个性化、预测用户建模和推荐系统领域的主要权威之一。他关于web挖掘和个性化的一些原创文章是该领域引用最多的文章之一。他在这些领域的工作已经被包括亚马逊在内的许多公司用作分析和个性化系统的一部分。作为网络智能中心（center for web intelligence）的主任，Bamshad Mobasher博士负责人工智能和人工智能方面的研究，定期与业界合作，解决与web数据分析、用户行为建模、web营销和业务分析相关的问题。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "协同过滤",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 22,
+        "code": 21,
+        "name": "用户反馈",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 23,
+        "code": 22,
+        "name": "上下文感知",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 24,
+        "code": 23,
+        "name": "社会化标注系统",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 24,
+        "name": "John Riedl",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 25,
+        "name": "Jonathan L. Herlocker",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "F. Maxwell Harper",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Qian Zhao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Robin D. Burke",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Yong Zheng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Jonathan Gemmell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Thomas Schimoler",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Maarten de Rijke",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": "Maarten de Rijke（ 生于 1961 年 8 月 1 日）是荷兰计算机科学家。 他的工作最初集中在模态逻辑和知识表示上，但自 21 世纪初以来，他主要从事信息检索。 他的工作得到了 Nederlandse organpatie Voor wetenschappelijk onderzoek (N WO) 、公私伙伴关系和欧洲委员会（ 在第六和第七个框架方案下）的资助。",
+        "layoutList": [
+          "Maarten de Rijke（ 生于 1961 年 8 月 1 日）是荷兰计算机科学家。 他的工作最初集中在模态逻辑和知识表示上，但自 21 世纪初以来，他主要从事信息检索。 他的工作得到了 Nederlandse organpatie Voor wetenschappelijk onderzoek (N WO) 、公私伙伴关系和欧洲委员会（ 在第六和第七个框架方案下）的资助。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "Paolo Rosso",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "度量学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 35,
+        "name": "搜索",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 37,
+        "code": 36,
+        "name": "WordNet",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 38,
+        "code": 37,
+        "name": "剽窃检测",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 39,
+        "code": 38,
+        "name": "Edgar Meij",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 40,
+        "code": 39,
+        "name": "Manos Tsagkias",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 40,
+        "name": "Krisztian Balog",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 41,
+        "name": "Wouter Weerkamp",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Davide Buscaldi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Emilio Sanchis Arnal",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Manuel Montes-y-Gómez",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "LuisVillaseñorPineda",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "知识库",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Daniel S. Weld",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "知识库",
+        "layout": "是华盛顿大学计算机科学与工程教授的托马斯·J.电缆/教授，他在自动化规划和调度、软件代理和互联网信息提取方面进行了研究。他是设在西雅图的风险投资公司MaddoniaVentureGroup的合伙人。焊接是1960年在波士顿出生的。他在Phillips学院参加了高中，从耶鲁大学获得计算机科学和分子生物物理学和生物化学学士学位(1982年)，以及麻省理工学院计算机科学硕士(1984)和博士(1988)。他是计算机械协会和提高人工智能协会的研究员。",
+        "layoutList": [
+          "是华盛顿大学计算机科学与工程教授的托马斯·J.电缆/教授，他在自动化规划和调度、软件代理和互联网信息提取方面进行了研究。他是设在西雅图的风险投资公司MaddoniaVentureGroup的合伙人。焊接是1960年在波士顿出生的。他在Phillips学院参加了高中，从耶鲁大学获得计算机科学和分子生物物理学和生物化学学士学位(1982年)，以及麻省理工学院计算机科学硕士(1984)和博士(1988)。他是计算机械协会和提高人工智能协会的研究员。"
+        ]
       }
     ],
     "relations": [
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
+      },
       {
         "id": 1,
         "source": 0,
@@ -770,6 +1042,16 @@
         "target": 5
       },
       {
+        "id": 60,
+        "source": 0,
+        "target": 0
+      },
+      {
+        "id": 61,
+        "source": 0,
+        "target": 0
+      },
+      {
         "id": 18,
         "source": 1,
         "target": 18
@@ -778,6 +1060,16 @@
         "id": 19,
         "source": 1,
         "target": 19
+      },
+      {
+        "id": 62,
+        "source": 1,
+        "target": 0
+      },
+      {
+        "id": 63,
+        "source": 1,
+        "target": 0
       },
       {
         "id": 32,
@@ -790,6 +1082,16 @@
         "target": 33
       },
       {
+        "id": 64,
+        "source": 2,
+        "target": 0
+      },
+      {
+        "id": 65,
+        "source": 2,
+        "target": 0
+      },
+      {
         "id": 46,
         "source": 3,
         "target": 46
@@ -798,6 +1100,16 @@
         "id": 47,
         "source": 3,
         "target": 47
+      },
+      {
+        "id": 66,
+        "source": 3,
+        "target": 0
+      },
+      {
+        "id": 67,
+        "source": 3,
+        "target": 0
       },
       {
         "id": 6,
@@ -988,58 +1300,9 @@
         "id": 49,
         "source": 46,
         "target": 49
-      },
-      {
-        "id": 50,
-        "source": 47,
-        "target": 50
-      },
-      {
-        "id": 51,
-        "source": 47,
-        "target": 51
-      },
-      {
-        "id": 52,
-        "source": 48,
-        "target": 52
-      },
-      {
-        "id": 53,
-        "source": 48,
-        "target": 53
-      },
-      {
-        "id": 54,
-        "source": 49,
-        "target": 54
-      },
-      {
-        "id": 55,
-        "source": 49,
-        "target": 55
-      },
-      {
-        "id": 56,
-        "source": 50,
-        "target": 56
-      },
-      {
-        "id": 57,
-        "source": 50,
-        "target": 57
-      },
-      {
-        "id": 58,
-        "source": 51,
-        "target": 58
-      },
-      {
-        "id": 59,
-        "source": 51,
-        "target": 59
       }
-    ],
+    ]
+  ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

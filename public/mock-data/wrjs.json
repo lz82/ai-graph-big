@@ -29,30 +29,1181 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "249924_keyword",
-        "name": "driverless car",
-        "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 47,
+        "code": 46,
+        "name": "吴恩达",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": "吴恩达1976年出生于英国。他的父母都是香港人。他曾在香港和新加坡待过一段时间，1992年毕业于新加坡莱佛士学院。1997年，他在宾夕法尼亚州匹兹堡的卡内基梅隆大学获得计算机科学学士学位。吴昌俊于1998年在麻省理工学院获得硕士学位，并于2002年在加州大学伯克利分校获得博士学位。那一年，他开始在斯坦福大学工作，目前住在加州洛斯阿尔托斯山。",
+        "layoutList": [
+          "吴恩达1976年出生于英国。他的父母都是香港人。他曾在香港和新加坡待过一段时间，1992年毕业于新加坡莱佛士学院。1997年，他在宾夕法尼亚州匹兹堡的卡内基梅隆大学获得计算机科学学士学位。吴昌俊于1998年在麻省理工学院获得硕士学位，并于2002年在加州大学伯克利分校获得博士学位。那一年，他开始在斯坦福大学工作，目前住在加州洛斯阿尔托斯山。"
+        ]
       },
       {
-        "id": "108830_scholar",
-        "name": "Rodrigo Benenson",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 48,
+        "code": 47,
+        "name": "Marco Dorigo",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": "生于1961年8月26日他是布鲁瑟尔大学人工智能实验室的研究主任和联席主任，也是蚁群优化元启发式(参见麻省理工学院出版社2004年出版的一本书)的支持者，也是群体智能研究领域的创始人之一。最近，他参与了群体机器人的研究：他是欧洲委员会未来和新兴技术项目资助的两个群体机器人项目的协调人。他也是“群智能”的创始编辑和主编，这是一份主要的同行评议出版物，致力于报告研究和这一多学科领域的新发展。",
+        "layoutList": [
+          "生于1961年8月26日他是布鲁瑟尔大学人工智能实验室的研究主任和联席主任，也是蚁群优化元启发式(参见麻省理工学院出版社2004年出版的一本书)的支持者，也是群体智能研究领域的创始人之一。最近，他参与了群体机器人的研究：他是欧洲委员会未来和新兴技术项目资助的两个群体机器人项目的协调人。他也是“群智能”的创始编辑和主编，这是一份主要的同行评议出版物，致力于报告研究和这一多学科领域的新发展。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "深度学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 49,
+        "name": "语义识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 50,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 51,
+        "name": "群体智能",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Adam Coates",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Surya P. N. Singh",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "Christopher D. Manning",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Richard Socher",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Mauro Birattari",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Simon Garnier",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Marco Antonio Montes de Oca",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Thomas Stützle",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": "Development of Autonomous Car - Part II: A Case Study on the Implementation of an Autonomous Driving System/Based on Distributed Architecture/Precise Localization of an Autonomous Car Based on Probabilistic Noise Models of Road Surface Marker Features Using Multiple Cameras/An APF and MPC combined collaborative driving controller using vehicular communication technologies/An efficient and reliable Green Light Optimal Speed Advisory system for autonomous cars/How visual motion cues can influence sickness for in-car VR/I am the passenger: Challenges in supporting AR/VR HMDs in-motion/I am the passenger: How visual motion cues can influence sickness for in-car VR",
+        "layoutList": [
+          "Development of Autonomous Car - Part II: A Case Study on the Implementation of an Autonomous Driving System",
+          "Based on Distributed Architecture",
+          "Precise Localization of an Autonomous Car Based on Probabilistic Noise Models of Road Surface Marker Features Using Multiple Cameras",
+          "An APF and MPC combined collaborative driving controller using vehicular communication technologies",
+          "An efficient and reliable Green Light Optimal Speed Advisory system for autonomous cars",
+          "How visual motion cues can influence sickness for in-car VR",
+          "I am the passenger: Challenges in supporting AR",
+          "VR HMDs in-motion",
+          "I am the passenger: How visual motion cues can influence sickness for in-car VR"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": "一种面向无人驾驶车的道路交通标志识别方法/基于Zigbee与RFID的无人驾驶车辆行驶控制方法/一种通道式无人驾驶自主行驶智能公共交通系统/一种用于无人驾驶电动汽车的整车控制器/无人驾驶水面清洁电动三体船/油电混合动力无人驾驶遥感飞机/无人驾驶车辆转向系统及其控制方法",
+        "layoutList": [
+          "一种面向无人驾驶车的道路交通标志识别方法",
+          "基于Zigbee与RFID的无人驾驶车辆行驶控制方法",
+          "一种通道式无人驾驶自主行驶智能公共交通系统",
+          "一种用于无人驾驶电动汽车的整车控制器",
+          "无人驾驶水面清洁电动三体船",
+          "油电混合动力无人驾驶遥感飞机",
+          "无人驾驶车辆转向系统及其控制方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": "Query expansion for VHR image detection/Mining large satellite image repositories using semi-supervised methods/Underground object detection based on cross correlation and Hough transform/Object detection by parts using appearance, structural and shape features/Finding objects at indoor environment combined with depth information/IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition/Improving sub-pixel accuracy for long range stereo",
+        "layoutList": [
+          "Query expansion for VHR image detection",
+          "Mining large satellite image repositories using semi-supervised methods",
+          "Underground object detection based on cross correlation and Hough transform",
+          "Object detection by parts using appearance, structural and shape features",
+          "Finding objects at indoor environment combined with depth information",
+          "IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition",
+          "Improving sub-pixel accuracy for long range stereo"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": "一种运动目标检测方法及装置/基于小波降噪的LS-SVM海面小目标检测的方法/基于增强约束稀疏回归的半监督高光谱亚像元目标检测法/基于角点高斯特性分析的红外小目标检测方法/基于纹理和运动模式融合的运动目标检测算法/一种基于混合高斯模型的运动目标检测方法/基于稀疏表示和视皮层注意机制的目标检测方法",
+        "layoutList": [
+          "一种运动目标检测方法及装置",
+          "基于小波降噪的LS-SVM海面小目标检测的方法",
+          "基于增强约束稀疏回归的半监督高光谱亚像元目标检测法",
+          "基于角点高斯特性分析的红外小目标检测方法",
+          "基于纹理和运动模式融合的运动目标检测算法",
+          "一种基于混合高斯模型的运动目标检测方法",
+          "基于稀疏表示和视皮层注意机制的目标检测方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": "The time series analysis and modeling simulation of dispensing adhesive for lay-down process of space solar cell array/Electromyography-controlled exoskeletal upper-limb-powered orthosis for exercise training after stroke\nComplementary stability and loop shaping for improved human-robot interaction/Natural orifice surgery with an endoluminal mobile robot/Image-guided robotic flexible needle steering/Localization with limited sensing/Review and synthesis of considerations in architecting heterogeneous teams of humans and robots for optimal space exploration",
+        "layoutList": [
+          "The time series analysis and modeling simulation of dispensing adhesive for lay-down process of space solar cell array",
+          "Electromyography-controlled exoskeletal upper-limb-powered orthosis for exercise training after stroke\nComplementary stability and loop shaping for improved human-robot interaction",
+          "Natural orifice surgery with an endoluminal mobile robot",
+          "Image-guided robotic flexible needle steering",
+          "Localization with limited sensing",
+          "Review and synthesis of considerations in architecting heterogeneous teams of humans and robots for optimal space exploration"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": "一种基于机器人的实验台/一种三自由度并联机器人装置/一种环境检测机器人采样装置/基于麦克纳姆轮的无线视频监控移动机器人系统/机器人协焊用随动式工装/蠕虫机器人/具有运动目标检测与跟踪功能的机器人视觉系统及机器人",
+        "layoutList": [
+          "一种基于机器人的实验台",
+          "一种三自由度并联机器人装置",
+          "一种环境检测机器人采样装置",
+          "基于麦克纳姆轮的无线视频监控移动机器人系统",
+          "机器人协焊用随动式工装",
+          "蠕虫机器人",
+          "具有运动目标检测与跟踪功能的机器人视觉系统及机器人"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": "Opposition-based reinforcement learning in the management of water resources/Q-learning based dynamic single machine scheduling/Dynamic parallel machine scheduling with mean weighted tardiness objective by Q-Learning/Transfer learning via inter-task mappings for temporal difference learning/Reinforcement learning for imitating constrained reaching movements/Transient and asymptotic dynamics of reinforcement learning in games/Adaptive HVDC supplementary (lamping controller based on reinforcement learning",
+        "layoutList": [
+          "Opposition-based reinforcement learning in the management of water resources",
+          "Q-learning based dynamic single machine scheduling",
+          "Dynamic parallel machine scheduling with mean weighted tardiness objective by Q-Learning",
+          "Transfer learning via inter-task mappings for temporal difference learning",
+          "Reinforcement learning for imitating constrained reaching movements",
+          "Transient and asymptotic dynamics of reinforcement learning in games",
+          "Adaptive HVDC supplementary (lamping controller based on reinforcement learning"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": "基于深度强化学习的对话系统生成方法和装置/强化学习网络的训练方法、装置、训练设备及存储介质/一种基于深度强化学习的列车运行调度方法及系统/一种基于分件强化学习技术的家具布局方法及系统/一种基于注意力的深度加速强化学习的目标定位方法/基于强化学习的多径TCP传输调度方法/用于强化学习的方法和设备",
+        "layoutList": [
+          "基于深度强化学习的对话系统生成方法和装置",
+          "强化学习网络的训练方法、装置、训练设备及存储介质",
+          "一种基于深度强化学习的列车运行调度方法及系统",
+          "一种基于分件强化学习技术的家具布局方法及系统",
+          "一种基于注意力的深度加速强化学习的目标定位方法",
+          "基于强化学习的多径TCP传输调度方法",
+          "用于强化学习的方法和设备"
+        ]
+      },
+      {
+        "id": 1,
+        "code": 0,
+        "name": "无人驾驶",
+        "type": "keyword",
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。",
+        "layoutList": [
+          "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。"
+        ]
+      },
+      {
+        "id": 2,
+        "code": 1,
+        "name": "目标检测",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。",
+        "layoutList": [
+          "目标检测是与计算机视觉和图像处理有关的计算机技术，其涉及在数字图像和视频中检测特定类（例如人，建筑物或汽车）的语义对象的实例。经过深入研究的目标检测领域包括人脸检测和行人检测。目标检测在计算机视觉的许多领域都有应用，包括图像检索和视频监控。"
+        ]
+      },
+      {
+        "id": 3,
+        "code": 2,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": "机器人（Robot）是自动执行工作的机器装置。它既可以接受人类指挥，又可以运行预先编排的程序，也可以根据以人工智能技术制定的原则纲领行动。它的任务是协助或取代人类工作的工作，例如生产业、建筑业，或是危险的工作。",
+        "layoutList": [
+          "机器人（Robot）是自动执行工作的机器装置。它既可以接受人类指挥，又可以运行预先编排的程序，也可以根据以人工智能技术制定的原则纲领行动。它的任务是协助或取代人类工作的工作，例如生产业、建筑业，或是危险的工作。"
+        ]
+      },
+      {
+        "id": 4,
+        "code": 3,
+        "name": "强化学习",
+        "type": "keyword",
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "无人驾驶",
+        "layout": "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。",
+        "layoutList": [
+          "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。"
+        ]
+      },
+      {
+        "id": 5,
+        "code": 4,
+        "name": "Sebastian Thrun",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
+        "layoutList": [
+          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
+        ]
+      },
+      {
+        "id": 6,
+        "code": 5,
+        "name": "Michael Montemerlo",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": "他在移动机器人的有效概率方法领域做出了贡献。他就读于卡内基梅隆大学，1997年获得学士和硕士学位，2003年获得博士学位。他的论文导师是威廉·l·惠特克(William L. Whittaker)和塞巴斯蒂安·特龙(Sebastian Thrun)，两人都将指导DARPA Grand Challenge的获奖团队。在Thrun的领导下，Montemerlo成为斯坦福大学为Stanley编写软件的团队的领导者。",
+        "layoutList": [
+          "他在移动机器人的有效概率方法领域做出了贡献。他就读于卡内基梅隆大学，1997年获得学士和硕士学位，2003年获得博士学位。他的论文导师是威廉·l·惠特克(William L. Whittaker)和塞巴斯蒂安·特龙(Sebastian Thrun)，两人都将指导DARPA Grand Challenge的获奖团队。在Thrun的领导下，Montemerlo成为斯坦福大学为Stanley编写软件的团队的领导者。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 8,
+        "code": 7,
+        "name": "深度学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 9,
+        "code": 8,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 10,
+        "code": 9,
+        "name": "路径规划",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 11,
+        "code": 10,
+        "name": "Wolfram Burgard",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Armin B. Cremers",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "Silvio Savarese",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "David Held",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Nicholas Roy",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Matt MacMahon",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Hendrik Dahlkamp",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "David Stavens",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Ross B. Girshick",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。",
+        "layoutList": [
+          "2012年在芝加哥大学，在Pedro Felzenszwalb教授下完成了计算机视觉的博士学位，随后两年在Jitendra Malik领导下担任加州大学伯克利分校的博士后，从伯克利开始，我在微软研究院雷德蒙做了一年多的研究员。 现在，我作为一名研究科学家，与 Face bookai Research(Fair) 中出色的研究人员和工程师一起开始了一次新的冒险。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Bastian Leibe",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。",
+        "layoutList": [
+          "主要研究方向:计算机视觉中的目标识别与分类，特别是与三维估计和跟踪相结合;自上而下的分割;机器学习。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "图像识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 22,
+        "code": 21,
+        "name": "计算机视觉",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 23,
+        "code": 22,
+        "name": "路径规划",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 24,
+        "code": 23,
+        "name": "目标识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 24,
+        "name": "Kaiming He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 25,
+        "name": "Alexander Kirillov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "Jitendra Malik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Pablo Arbelaez",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Luc Van Gool",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Konrad Schindler",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Bernt Schiele",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Krystian Mikolajczyk",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Wolfram Burgard",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": "(1961年生于德国盖尔森基兴)是一名德国机器人学家。他是阿尔伯特·路德维格斯大学弗赖堡分校的正式教授，在那里他领导着自主智能系统实验室。众所周知，他对同时定位和映射(SLAM)问题做出了重大贡献，同时也为机器人技术做出了各种各样的贡献。 ",
+        "layoutList": [
+          "(1961年生于德国盖尔森基兴)是一名德国机器人学家。他是阿尔伯特·路德维格斯大学弗赖堡分校的正式教授，在那里他领导着自主智能系统实验室。众所周知，他对同时定位和映射(SLAM)问题做出了重大贡献，同时也为机器人技术做出了各种各样的贡献。 "
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "Dieter Fox",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": "德国机器人专家和西雅图华盛顿大学计算机科学与工程系教授。他最令人称道的贡献等几个领域的机器人,人工智能,机器学习,无处不在的计算。Sebastian Thrun Wolfram Burgard和他是这本书的作者之一。",
+        "layoutList": [
+          "德国机器人专家和西雅图华盛顿大学计算机科学与工程系教授。他最令人称道的贡献等几个领域的机器人,人工智能,机器学习,无处不在的计算。Sebastian Thrun Wolfram Burgard和他是这本书的作者之一。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "同步定位与地图构建",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 35,
+        "name": "贝叶斯",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 37,
+        "code": 36,
+        "name": "目标识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 38,
+        "code": 37,
+        "name": "多目标跟踪",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 39,
+        "code": 38,
+        "name": "Cyrill Stachniss",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 40,
+        "code": 39,
+        "name": "Giorgio Grisetti",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 40,
+        "name": "Kristian Kersting",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 41,
+        "name": "Christian Plagemann",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Xiaofeng Ren",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Liefeng Bo",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Armin B. Cremers",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Dirk Schulz",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "无人驾驶",
+        "layout": null,
+        "layoutList": null
       }
     ],
     "relations": [
       {
-        "source": "249924_keyword",
-        "target": "108830_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
+      },
+      {
+        "id": 1,
+        "source": 0,
+        "target": 1
+      },
+      {
+        "id": 2,
+        "source": 0,
+        "target": 2
+      },
+      {
+        "id": 3,
+        "source": 0,
+        "target": 3
+      },
+      {
+        "id": 4,
+        "source": 0,
+        "target": 4
+      },
+      {
+        "id": 5,
+        "source": 0,
+        "target": 5
+      },
+      {
+        "id": 60,
+        "source": 0,
+        "target": 0
+      },
+      {
+        "id": 61,
+        "source": 0,
+        "target": 0
+      },
+      {
+        "id": 18,
+        "source": 1,
+        "target": 18
+      },
+      {
+        "id": 19,
+        "source": 1,
+        "target": 19
+      },
+      {
+        "id": 62,
+        "source": 1,
+        "target": 0
+      },
+      {
+        "id": 63,
+        "source": 1,
+        "target": 0
+      },
+      {
+        "id": 32,
+        "source": 2,
+        "target": 32
+      },
+      {
+        "id": 33,
+        "source": 2,
+        "target": 33
+      },
+      {
+        "id": 64,
+        "source": 2,
+        "target": 0
+      },
+      {
+        "id": 65,
+        "source": 2,
+        "target": 0
+      },
+      {
+        "id": 46,
+        "source": 3,
+        "target": 46
+      },
+      {
+        "id": 47,
+        "source": 3,
+        "target": 47
+      },
+      {
+        "id": 66,
+        "source": 3,
+        "target": 0
+      },
+      {
+        "id": 67,
+        "source": 3,
+        "target": 0
+      },
+      {
+        "id": 6,
+        "source": 4,
+        "target": 6
+      },
+      {
+        "id": 7,
+        "source": 4,
+        "target": 7
+      },
+      {
+        "id": 8,
+        "source": 5,
+        "target": 8
+      },
+      {
+        "id": 9,
+        "source": 5,
+        "target": 9
+      },
+      {
+        "id": 10,
+        "source": 6,
+        "target": 10
+      },
+      {
+        "id": 11,
+        "source": 6,
+        "target": 11
+      },
+      {
+        "id": 12,
+        "source": 7,
+        "target": 12
+      },
+      {
+        "id": 13,
+        "source": 7,
+        "target": 13
+      },
+      {
+        "id": 14,
+        "source": 8,
+        "target": 14
+      },
+      {
+        "id": 15,
+        "source": 8,
+        "target": 15
+      },
+      {
+        "id": 16,
+        "source": 9,
+        "target": 16
+      },
+      {
+        "id": 17,
+        "source": 9,
+        "target": 17
+      },
+      {
+        "id": 20,
+        "source": 18,
+        "target": 20
+      },
+      {
+        "id": 21,
+        "source": 18,
+        "target": 21
+      },
+      {
+        "id": 22,
+        "source": 19,
+        "target": 22
+      },
+      {
+        "id": 23,
+        "source": 19,
+        "target": 23
+      },
+      {
+        "id": 24,
+        "source": 20,
+        "target": 24
+      },
+      {
+        "id": 25,
+        "source": 20,
+        "target": 25
+      },
+      {
+        "id": 26,
+        "source": 21,
+        "target": 26
+      },
+      {
+        "id": 27,
+        "source": 21,
+        "target": 27
+      },
+      {
+        "id": 28,
+        "source": 22,
+        "target": 28
+      },
+      {
+        "id": 29,
+        "source": 22,
+        "target": 29
+      },
+      {
+        "id": 30,
+        "source": 23,
+        "target": 30
+      },
+      {
+        "id": 31,
+        "source": 23,
+        "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

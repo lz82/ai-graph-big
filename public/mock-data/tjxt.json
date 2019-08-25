@@ -37,100 +37,1176 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "C018784962_keyword",
-        "name": "stoichiometry",
+        "id": 1,
+        "code": 0,
+        "name": "推荐系统",
         "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": "推荐系统是利用电子商务网站向客户提供商品信息和建议，帮助用户决定应该购买什么产品，模拟销售人员帮助客户完成购买过程。个性化推荐是根据用户的兴趣特点和购买行为，向用户推荐用户感兴趣的信息和商品。",
+        "layoutList": [
+          "推荐系统是利用电子商务网站向客户提供商品信息和建议，帮助用户决定应该购买什么产品，模拟销售人员帮助客户完成购买过程。个性化推荐是根据用户的兴趣特点和购买行为，向用户推荐用户感兴趣的信息和商品。"
+        ]
       },
       {
-        "id": "C019204842_keyword",
-        "name": "principal components analysis",
+        "id": 2,
+        "code": 1,
+        "name": "知识库",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": "知识库（Knowledge base）是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。",
+        "layoutList": [
+          "知识库（Knowledge base）是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。"
+        ]
       },
       {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
+        "id": 3,
+        "code": 2,
+        "name": "协同过滤",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": "协同过滤（Collaborative Filtering），简单来说是利用某兴趣相投、拥有共同经验之群体的喜好来推荐使用者感兴趣的资讯，个人透过合作的机制给予资讯相当程度的回应（如评分）并记录下来以达到过滤的目的进而帮助别人筛选资讯，回应不一定侷限于特别感兴趣的，特别不感兴趣资讯的纪录也相当重要。协同过滤又可分为评比（rating）或者群体过滤（social filtering）。其后成为电子商务当中很重要的一环，即根据某顾客以往的购买行为以及从具有相似购买行为的顾客群的购买行为去推荐这个顾客其「可能喜欢的品项」，也就是借由社群的喜好提供个人化的资讯、商品等的推荐服务。除了推荐之外，近年来也发展出数学运算让系统自动计算喜好的强弱进而去芜存菁使得过滤的内容更有依据，也许不是百分之百完全准确，但由于加入了强弱的评比让这个概念的应用更为广泛，除了电子商务之外尚有资讯检索领域、网路个人影音柜、个人书架等的应用等。",
+        "layoutList": [
+          "协同过滤（Collaborative Filtering），简单来说是利用某兴趣相投、拥有共同经验之群体的喜好来推荐使用者感兴趣的资讯，个人透过合作的机制给予资讯相当程度的回应（如评分）并记录下来以达到过滤的目的进而帮助别人筛选资讯，回应不一定侷限于特别感兴趣的，特别不感兴趣资讯的纪录也相当重要。协同过滤又可分为评比（rating）或者群体过滤（social filtering）。其后成为电子商务当中很重要的一环，即根据某顾客以往的购买行为以及从具有相似购买行为的顾客群的购买行为去推荐这个顾客其「可能喜欢的品项」，也就是借由社群的喜好提供个人化的资讯、商品等的推荐服务。除了推荐之外，近年来也发展出数学运算让系统自动计算喜好的强弱进而去芜存菁使得过滤的内容更有依据，也许不是百分之百完全准确，但由于加入了强弱的评比让这个概念的应用更为广泛，除了电子商务之外尚有资讯检索领域、网路个人影音柜、个人书架等的应用等。"
+        ]
       },
       {
-        "id": "772729_keyword",
-        "name": "Bacteria identification",
+        "id": 4,
+        "code": 3,
+        "name": "用户建模",
         "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": "个性化系统就是能够针对不同用户的信息需求表现出不同运行效果的软件，而这样的软件提供的服务就是个性化服务。个性化系统的核心是用户建模，即对用户信息需求的模型表示。",
+        "layoutList": [
+          "个性化系统就是能够针对不同用户的信息需求表现出不同运行效果的软件，而这样的软件提供的服务就是个性化服务。个性化系统的核心是用户建模，即对用户信息需求的模型表示。"
+        ]
       },
       {
-        "id": "1909015_scholar",
-        "name": "Wolfgang Schade",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "Joseph A. Konstan",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": "是美国计算机科学家、著名的麦克奈特大学教授和明尼苏达大学杰出的大学教授。他的研究兴趣是人机交互、社会计算、在线社区以及互联网技术的医疗卫生应用。他最出名的是他在协作过滤推荐人(小组项目)方面的工作，以及他在艾滋病毒在线预防方面的工作。",
+        "layoutList": [
+          "是美国计算机科学家、著名的麦克奈特大学教授和明尼苏达大学杰出的大学教授。他的研究兴趣是人机交互、社会计算、在线社区以及互联网技术的医疗卫生应用。他最出名的是他在协作过滤推荐人(小组项目)方面的工作，以及他在艾滋病毒在线预防方面的工作。"
+        ]
       },
       {
-        "id": "C018844334_keyword",
-        "name": "detonation hazard",
-        "type": "keyword",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 6,
+        "code": 5,
+        "name": "Bamshad Mobasher",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": "Bamshad Mobasher博士是芝加哥德保罗大学计算机学院计算机科学教授和网络智能中心主任。他被认为是web数据挖掘、web个性化、预测用户建模和推荐系统领域的主要权威之一。他关于web挖掘和个性化的一些原创文章是该领域引用最多的文章之一。他在这些领域的工作已经被包括亚马逊在内的许多公司用作分析和个性化系统的一部分。作为网络智能中心（center for web intelligence）的主任，Bamshad Mobasher博士负责人工智能和人工智能方面的研究，定期与业界合作，解决与web数据分析、用户行为建模、web营销和业务分析相关的问题。",
+        "layoutList": [
+          "Bamshad Mobasher博士是芝加哥德保罗大学计算机学院计算机科学教授和网络智能中心主任。他被认为是web数据挖掘、web个性化、预测用户建模和推荐系统领域的主要权威之一。他关于web挖掘和个性化的一些原创文章是该领域引用最多的文章之一。他在这些领域的工作已经被包括亚马逊在内的许多公司用作分析和个性化系统的一部分。作为网络智能中心（center for web intelligence）的主任，Bamshad Mobasher博士负责人工智能和人工智能方面的研究，定期与业界合作，解决与web数据分析、用户行为建模、web营销和业务分析相关的问题。"
+        ]
       },
       {
-        "id": "5015007_keyword",
-        "name": "CBRE-test",
+        "id": 7,
+        "code": 6,
+        "name": "协同过滤",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 8,
+        "code": 7,
+        "name": "用户反馈",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 9,
+        "code": 8,
+        "name": "上下文感知",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 10,
+        "code": 9,
+        "name": "社会化标注系统",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 11,
+        "code": 10,
+        "name": "John Riedl",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 12,
+        "code": 11,
+        "name": "Jonathan L. Herlocker",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "F. Maxwell Harper",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Qian Zhao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Robin D. Burke",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Yong Zheng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Jonathan Gemmell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Thomas Schimoler",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Ian Horrocks",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": "是英国牛津大学计算机科学教授和牛津奥里尔学院研究员。他的研究重点是知识表示和推理，特别是本体语言、描述逻辑和优化的表格决策过程。",
+        "layoutList": [
+          "是英国牛津大学计算机科学教授和牛津奥里尔学院研究员。他的研究重点是知识表示和推理，特别是本体语言、描述逻辑和优化的表格决策过程。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Amit P. Sheth",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": "南卡罗莱纳大学人工智能研究所创始所长。他正致力于将语义增强的物理网络社会计算和智能数据结合起来，实现人类体验计算的愿景。他最近的工作重点是语义增强Web 3.0，涉及企业、社交、传感器/物联网数据以及服务和云互操作性。他早期的工作是联邦数据库、语义互操作性和工作流管理。他与临床医生和生物医学研究人员的广泛合作包括生物医学知识的发现，以及社交媒体和传感器数据的新用途，以病人为中心的护理和病人授权。他最宝贵的成就是他过去的顾问取得的非凡成功;绝大多数前19名博士顾问都有1000+的被引频次，平均每名被引频次在1800次左右，平均每名被引频次在1400次左右;3篇论文被引用超过5000次。",
+        "layoutList": [
+          "南卡罗莱纳大学人工智能研究所创始所长。他正致力于将语义增强的物理网络社会计算和智能数据结合起来，实现人类体验计算的愿景。他最近的工作重点是语义增强Web 3.0，涉及企业、社交、传感器/物联网数据以及服务和云互操作性。他早期的工作是联邦数据库、语义互操作性和工作流管理。他与临床医生和生物医学研究人员的广泛合作包括生物医学知识的发现，以及社交媒体和传感器数据的新用途，以病人为中心的护理和病人授权。他最宝贵的成就是他过去的顾问取得的非凡成功;绝大多数前19名博士顾问都有1000+的被引频次，平均每名被引频次在1800次左右，平均每名被引频次在1400次左右;3篇论文被引用超过5000次。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "推理",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 22,
+        "code": 21,
+        "name": "本体",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 23,
+        "code": 22,
+        "name": "语义传感器",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 24,
+        "code": 23,
+        "name": "语义网",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 25,
+        "code": 24,
+        "name": "Bernardo Cuenca Grau",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 25,
+        "name": "Boris Motik",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "ErnestoJiménez-Ruiz",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Evgeny Kharlamov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Cory A. Henson",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Krishnaprasad Thirunarayan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "John A. Miller",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Kunal Verma",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "John T. Riedl",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": "1962年1月16日 – 2013年7月15日) 是一位美国计算机科学家，也是明尼苏达大学著名的麦克奈特教授。他发表的著作包括对社交网络、推荐系统和协作系统的高度影响的研究。",
+        "layoutList": [
+          "1962年1月16日 – 2013年7月15日) 是一位美国计算机科学家，也是明尼苏达大学著名的麦克奈特教授。他发表的著作包括对社交网络、推荐系统和协作系统的高度影响的研究。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "杨强",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": "香港科技大学计算机科学与工程学院教授，研究方向为转移学习，机器学习，规划，数据挖掘。",
+        "layoutList": [
+          "香港科技大学计算机科学与工程学院教授，研究方向为转移学习，机器学习，规划，数据挖掘。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "用户偏好",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 36,
+        "code": 35,
+        "name": "标签",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 37,
+        "code": 36,
+        "name": "文本分类",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 38,
+        "code": 37,
+        "name": "GPS",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 39,
+        "code": 38,
+        "name": "Joseph A. Konstan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 40,
+        "code": 39,
+        "name": "Sean M. McNee",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 41,
+        "code": 40,
+        "name": "Shilad Sen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 42,
+        "code": 41,
+        "name": "Jesse Vig",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 43,
+        "code": 42,
+        "name": "Zheng Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 44,
+        "code": 43,
+        "name": "Dou Shen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Vincent Wenchen Zheng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Yu Zheng",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Peter Brusilovsky",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": "是匹兹堡大学的信息科学和人工智能教授。他被誉为自适应超媒体、自适应网络和基于网络的自适应学习的先驱之一，他还在用户建模、个性化、教育技术、智能辅导系统和信息访问方面发表了大量文章。 根据谷歌学者的说法，他有超过25,000次的引文和67的H指数。Brusilovsky的团队在自适应超媒体、用户建模、超文本、IUI、ICALT和EC-TEL会议系列中获得了最佳的论文奖。在这些奖项中，有5名有声望的詹姆斯·陈最佳学生论文奖。Brusilovsky研究了莫斯科国立大学应用数学和计算机科学。他博士顾问是LevNikolayevichKollowov。在BenduBoulay、GerhardWeber和JohnAnderson的指导下，他在苏塞克斯大学、特里耶大学和卡内基梅隆大学获得博士后培训。这项研究得到了来自皇家学会的研究金、AlexanderVonHumpholdt基金会和JamesS.McDonnell基金会的支持。自2000年起，他担任助理P他还担任ieee学习技术交易的创始副主编(2007-2012年)和主编(2013-2018年)。布鲁斯洛夫斯基是NSF职业奖、SFI ETS Walton访客奖和富布赖特-诺基亚信息和通信技术杰出主席的获奖者。他还拥有布拉迪斯拉发斯洛伐克科技大学荣誉学位。布鲁西洛夫斯基发明了“可外露的解释”这个词，指的是使用互动模式传播科学思想的媒体。",
+        "layoutList": [
+          "是匹兹堡大学的信息科学和人工智能教授。他被誉为自适应超媒体、自适应网络和基于网络的自适应学习的先驱之一，他还在用户建模、个性化、教育技术、智能辅导系统和信息访问方面发表了大量文章。 根据谷歌学者的说法，他有超过25,000次的引文和67的H指数。Brusilovsky的团队在自适应超媒体、用户建模、超文本、IUI、ICALT和EC-TEL会议系列中获得了最佳的论文奖。在这些奖项中，有5名有声望的詹姆斯·陈最佳学生论文奖。Brusilovsky研究了莫斯科国立大学应用数学和计算机科学。他博士顾问是LevNikolayevichKollowov。在BenduBoulay、GerhardWeber和JohnAnderson的指导下，他在苏塞克斯大学、特里耶大学和卡内基梅隆大学获得博士后培训。这项研究得到了来自皇家学会的研究金、AlexanderVonHumpholdt基金会和JamesS.McDonnell基金会的支持。自2000年起，他担任助理P他还担任ieee学习技术交易的创始副主编(2007-2012年)和主编(2013-2018年)。布鲁斯洛夫斯基是NSF职业奖、SFI ETS Walton访客奖和富布赖特-诺基亚信息和通信技术杰出主席的获奖者。他还拥有布拉迪斯拉发斯洛伐克科技大学荣誉学位。布鲁西洛夫斯基发明了“可外露的解释”这个词，指的是使用互动模式传播科学思想的媒体。"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "唐杰",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": "清华大学计算机科学系一名全职教授被称为2006年3月启动的学术社交网络搜索系统ARNetMiner，现在已经吸引了2,766,356个独立的IP访问，从220个countries.his研究兴趣，包括社交网络和数据挖掘。",
+        "layoutList": [
+          "清华大学计算机科学系一名全职教授被称为2006年3月启动的学术社交网络搜索系统ARNetMiner，现在已经吸引了2,766,356个独立的IP访问，从220个countries.his研究兴趣，包括社交网络和数据挖掘。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "开放学生",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 49,
+        "name": "基于知识",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 50,
+        "name": "本体",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 51,
+        "name": "网络嵌入",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Julio Guerra",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Roya Hosseini",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "Daqing He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Shuguang Han",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Juan-Zi Li",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Bangyong Liang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Yuxiao Dong",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Kuansan Wang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": "Item-based collaborative filtering recommendation algorithms/Matrix Factorization Techniques for Recommender Systems/Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions/Two-phase Blue-Red tree of rule-space model for the cognitive assessment evaluation and analysis - A case study of MTA course/An improved collaborative filtering recommendation algorithm not based on item rating\nRR-UBPMF, A personalized music recommendation algorithm/Diversified Mobile App Recommendation Combining Topic Model and Collaborative Filtering",
+        "layoutList": [
+          "Item-based collaborative filtering recommendation algorithms",
+          "Matrix Factorization Techniques for Recommender Systems",
+          "Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions",
+          "Two-phase Blue-Red tree of rule-space model for the cognitive assessment evaluation and analysis - A case study of MTA course",
+          "An improved collaborative filtering recommendation algorithm not based on item rating\nRR-UBPMF, A personalized music recommendation algorithm",
+          "Diversified Mobile App Recommendation Combining Topic Model and Collaborative Filtering"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "推荐系统",
+        "layout": "论坛的热帖推荐系统/一种软件推荐方法及推荐系统/一种数字电视节目推荐系统及方法/自适应推荐系统/一种基于用户亲密度的混合推荐系统及方法/权威作者和高质量论文推荐系统和推荐方法/基于主题的个性化研究方向推荐系统和推荐方法",
+        "layoutList": [
+          "论坛的热帖推荐系统",
+          "一种软件推荐方法及推荐系统",
+          "一种数字电视节目推荐系统及方法",
+          "自适应推荐系统",
+          "一种基于用户亲密度的混合推荐系统及方法",
+          "权威作者和高质量论文推荐系统和推荐方法",
+          "基于主题的个性化研究方向推荐系统和推荐方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": "Fault diagnosis of computer network based on rough sets and BP neural network/Dragon exploration system on marine sponge compounds interactions/Creating personalised clinical pathways by semantic interoperability with electronic health records/Creating and Exploiting a Hybrid Knowledge Base for Linked Data/Sharing distributed knowledge on the Web/Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results/Web shield: A modified firewall to detect malicious request",
+        "layoutList": [
+          "Fault diagnosis of computer network based on rough sets and BP neural network",
+          "Dragon exploration system on marine sponge compounds interactions",
+          "Creating personalised clinical pathways by semantic interoperability with electronic health records",
+          "Creating and Exploiting a Hybrid Knowledge Base for Linked Data",
+          "Sharing distributed knowledge on the Web",
+          "Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results",
+          "Web shield: A modified firewall to detect malicious request"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "推荐系统",
+        "layout": "基于RDF知识库的语义标注方法/基于安全生产专业知识库的电网安全生产方法/一种面向领域服务目标的知识库构建方法/用于分割并使用知识库的装置及关联方法/基于统一配置库和知识库的集成化运维管理平台/一种基于知识库的FPGA故障自动诊断方法/异常处理方法、自动巡检控制台和知识库系统",
+        "layoutList": [
+          "基于RDF知识库的语义标注方法",
+          "基于安全生产专业知识库的电网安全生产方法",
+          "一种面向领域服务目标的知识库构建方法",
+          "用于分割并使用知识库的装置及关联方法",
+          "基于统一配置库和知识库的集成化运维管理平台",
+          "一种基于知识库的FPGA故障自动诊断方法",
+          "异常处理方法、自动巡检控制台和知识库系统"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": "Investigating interactions of trust and interest similarity\nEfficient collaborative filtering in content-addressable spaces/Collaborative filtering recommendation algorithm incorporated with user interest change/A content-collaborative recommender that exploits WordNet-based user profiles for neighborhood formation/Personalized Service System Based on Hybrid Filtering for Digital Library/Fuzzy collaborative filtering with multiple agents/A collaborative filtering recommendation algorithm based on influence sets",
+        "layoutList": [
+          "Investigating interactions of trust and interest similarity\nEfficient collaborative filtering in content-addressable spaces",
+          "Collaborative filtering recommendation algorithm incorporated with user interest change",
+          "A content-collaborative recommender that exploits WordNet-based user profiles for neighborhood formation",
+          "Personalized Service System Based on Hybrid Filtering for Digital Library",
+          "Fuzzy collaborative filtering with multiple agents",
+          "A collaborative filtering recommendation algorithm based on influence sets"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "推荐系统",
+        "layout": "基于用户间多相似度的协同过滤推荐方法/融合偏好和信任关系的协同过滤推荐方法/联合基于用户和项目的协同过滤提高准确度的方法及装置/一种基于协同过滤的智能预案系统/一种协同过滤推荐模型的优化训练方法/一种基于蚁群协同过滤算法的物品推荐方法和装置/一种用于mashup应用推荐的协同过滤方法",
+        "layoutList": [
+          "基于用户间多相似度的协同过滤推荐方法",
+          "融合偏好和信任关系的协同过滤推荐方法",
+          "联合基于用户和项目的协同过滤提高准确度的方法及装置",
+          "一种基于协同过滤的智能预案系统",
+          "一种协同过滤推荐模型的优化训练方法",
+          "一种基于蚁群协同过滤算法的物品推荐方法和装置",
+          "一种用于mashup应用推荐的协同过滤方法"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": "Translation evaluation without reference based on user behavior model/Collaborative filtering recommendation algorithm based on hybrid user model/A knowledge recommend system based on user model/User model of personalized search engine for product design based on machine learning/An open user model service platform/Semi-supervised learning classifier system based on bayes/A cognitive service adaptation decision algorithm: XCSCAP",
+        "layoutList": [
+          "Translation evaluation without reference based on user behavior model",
+          "Collaborative filtering recommendation algorithm based on hybrid user model",
+          "A knowledge recommend system based on user model",
+          "User model of personalized search engine for product design based on machine learning",
+          "An open user model service platform",
+          "Semi-supervised learning classifier system based on bayes",
+          "A cognitive service adaptation decision algorithm: XCSCAP"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "推荐系统",
+        "layout": "一种用于药店会员分析的H?RFM用户建模方法及系统\n对用户建模的方法、系统及终端设备/User model-improvement-data-driven selection and update of user-oriented recognition model of a given type for word recognition at network server/METHOD OF GENERATING AN IMAGE FILE OF A 3D BODY MODEL OF A USER WEARING A GARMENT\nVIRTUALLY TRYING CLOTHS ON REALISTIC BODY MODEL OF USER/Initiating a client-side user model/System and process for generating a user model for use in providing personalized advertisements to retail customers",
+        "layoutList": [
+          "一种用于药店会员分析的H?RFM用户建模方法及系统\n对用户建模的方法、系统及终端设备",
+          "User model-improvement-data-driven selection and update of user-oriented recognition model of a given type for word recognition at network server",
+          "METHOD OF GENERATING AN IMAGE FILE OF A 3D BODY MODEL OF A USER WEARING A GARMENT\nVIRTUALLY TRYING CLOTHS ON REALISTIC BODY MODEL OF USER",
+          "Initiating a client-side user model",
+          "System and process for generating a user model for use in providing personalized advertisements to retail customers"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "1909015_scholar",
-        "target": "C018844334_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "1909015_scholar",
-        "target": "772729_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "5015007_keyword",
-        "target": "1909015_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "1909015_scholar",
-        "target": "C018784962_keyword",
-        "value": 0.75,
-        "type": "keyword"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "1909015_scholar",
-        "target": "C020039005_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "1909015_scholar",
-        "target": "C019204842_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 60,
+        "source": 0,
+        "target": 60
+      },
+      {
+        "id": 61,
+        "source": 0,
+        "target": 61
+      },
+      {
+        "id": 18,
+        "source": 1,
+        "target": 18
+      },
+      {
+        "id": 19,
+        "source": 1,
+        "target": 19
+      },
+      {
+        "id": 62,
+        "source": 1,
+        "target": 62
+      },
+      {
+        "id": 63,
+        "source": 1,
+        "target": 63
+      },
+      {
+        "id": 32,
+        "source": 2,
+        "target": 32
+      },
+      {
+        "id": 33,
+        "source": 2,
+        "target": 33
+      },
+      {
+        "id": 64,
+        "source": 2,
+        "target": 64
+      },
+      {
+        "id": 65,
+        "source": 2,
+        "target": 65
+      },
+      {
+        "id": 46,
+        "source": 3,
+        "target": 46
+      },
+      {
+        "id": 47,
+        "source": 3,
+        "target": 47
+      },
+      {
+        "id": 66,
+        "source": 3,
+        "target": 66
+      },
+      {
+        "id": 67,
+        "source": 3,
+        "target": 67
+      },
+      {
+        "id": 6,
+        "source": 4,
+        "target": 6
+      },
+      {
+        "id": 7,
+        "source": 4,
+        "target": 7
+      },
+      {
+        "id": 8,
+        "source": 5,
+        "target": 8
+      },
+      {
+        "id": 9,
+        "source": 5,
+        "target": 9
+      },
+      {
+        "id": 10,
+        "source": 6,
+        "target": 10
+      },
+      {
+        "id": 11,
+        "source": 6,
+        "target": 11
+      },
+      {
+        "id": 12,
+        "source": 7,
+        "target": 12
+      },
+      {
+        "id": 13,
+        "source": 7,
+        "target": 13
+      },
+      {
+        "id": 14,
+        "source": 8,
+        "target": 14
+      },
+      {
+        "id": 15,
+        "source": 8,
+        "target": 15
+      },
+      {
+        "id": 16,
+        "source": 9,
+        "target": 16
+      },
+      {
+        "id": 17,
+        "source": 9,
+        "target": 17
+      },
+      {
+        "id": 20,
+        "source": 18,
+        "target": 20
+      },
+      {
+        "id": 21,
+        "source": 18,
+        "target": 21
+      },
+      {
+        "id": 22,
+        "source": 19,
+        "target": 22
+      },
+      {
+        "id": 23,
+        "source": 19,
+        "target": 23
+      },
+      {
+        "id": 24,
+        "source": 20,
+        "target": 24
+      },
+      {
+        "id": 25,
+        "source": 20,
+        "target": 25
+      },
+      {
+        "id": 26,
+        "source": 21,
+        "target": 26
+      },
+      {
+        "id": 27,
+        "source": 21,
+        "target": 27
+      },
+      {
+        "id": 28,
+        "source": 22,
+        "target": 28
+      },
+      {
+        "id": 29,
+        "source": 22,
+        "target": 29
+      },
+      {
+        "id": 30,
+        "source": 23,
+        "target": 30
+      },
+      {
+        "id": 31,
+        "source": 23,
+        "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
+      },
+      {
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+  ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,

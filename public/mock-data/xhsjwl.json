@@ -68,1128 +68,1179 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": "1838213_scholar",
-        "name": "Mark john francis Gales",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018784191_keyword",
-        "name": "Artificial neural networks",
+        "id": 1,
+        "code": 0,
+        "name": "循环神经网络",
         "type": "keyword",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
+        "level": 1,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": "循环神经网络（Recurrent Neural Network, RNN）是一类以序列（sequence）数据为输入，在序列的演进方向进行递归（recursion）且所有节点（循环单元）按链式连接的递归神经网络（recursive neural network）。",
+        "layoutList": [
+          "循环神经网络（Recurrent Neural Network, RNN）是一类以序列（sequence）数据为输入，在序列的演进方向进行递归（recursion）且所有节点（循环单元）按链式连接的递归神经网络（recursive neural network）。"
+        ]
       },
       {
-        "id": "1206955_scholar",
-        "name": "王钧",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "157617_scholar",
-        "name": "Qinglai Wei",
-        "type": "scholar",
-        "value": 0.57471,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018892767_keyword",
-        "name": "Speech enhancement",
+        "id": 2,
+        "code": 1,
+        "name": "自然语言处理",
         "type": "keyword",
-        "value": 0.9553,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": "自然语言处理是计算机科学领域与人工智能领域中的一个重要方向。它研究能实现人与计算机之间用自然语言进行有效通信的各种理论和方法。自然语言处理是一门融语言学、计算机科学、数学于一体的科学。因此，这一领域的研究将涉及自然语言，即人们日常使用的语言，所以它与语言学的研究有着密切的联系，但又有重要的区别。自然语言处理并不是一般地研究自然语言，而在于研制能有效地实现自然语言通信的计算机系统，特别是其中的软件系统。因而它是计算机科学的一部分。",
+        "layoutList": [
+          "自然语言处理是计算机科学领域与人工智能领域中的一个重要方向。它研究能实现人与计算机之间用自然语言进行有效通信的各种理论和方法。自然语言处理是一门融语言学、计算机科学、数学于一体的科学。因此，这一领域的研究将涉及自然语言，即人们日常使用的语言，所以它与语言学的研究有着密切的联系，但又有重要的区别。自然语言处理并不是一般地研究自然语言，而在于研制能有效地实现自然语言通信的计算机系统，特别是其中的软件系统。因而它是计算机科学的一部分。"
+        ]
       },
       {
-        "id": "1122482_scholar",
-        "name": "Xie Chen",
-        "type": "scholar",
-        "value": 0.53571,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2072807_scholar",
-        "name": "虞文武",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1080538_scholar",
-        "name": "wei Wu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "224496_scholar",
-        "name": "Frank Lewis",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811890_keyword",
-        "name": "Genetic Algorithm (GA)",
+        "id": 3,
+        "code": 2,
+        "name": "卷积神经网络",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": "卷积神经网络是一种前馈人工神经网络，其神经元之间的连接模式受到动物视觉皮层组织的启发。个体皮质神经元响应于被称为感受野的空间受限区域中的刺激。不同神经元的感受区域部分重叠，使得它们平铺视野。单个神经元对其感受野内的刺激的响应可以通过卷积运算在数学上近似。",
+        "layoutList": [
+          "卷积神经网络是一种前馈人工神经网络，其神经元之间的连接模式受到动物视觉皮层组织的启发。个体皮质神经元响应于被称为感受野的空间受限区域中的刺激。不同神经元的感受区域部分重叠，使得它们平铺视野。单个神经元对其感受野内的刺激的响应可以通过卷积运算在数学上近似。"
+        ]
       },
       {
-        "id": "407323_keyword",
-        "name": "Deep learning",
+        "id": 4,
+        "code": 3,
+        "name": "图神经网络",
         "type": "keyword",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "level": 2,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": "图神经网络(GraphNeural Networks, GNNs)，主要针对非欧几里得空间结构（图结构）的数据进行处理。具有以下特点：忽略节点的输入顺序；在计算过程中，节点的表示受其周围邻居节点的影响，而图本身连接不变；图结构的表示，使得可以进行基于图的推理。",
+        "layoutList": [
+          "图神经网络(GraphNeural Networks, GNNs)，主要针对非欧几里得空间结构（图结构）的数据进行处理。具有以下特点：忽略节点的输入顺序；在计算过程中，节点的表示受其周围邻居节点的影响，而图本身连接不变；图结构的表示，使得可以进行基于图的推理。"
+        ]
       },
       {
-        "id": "1843480_scholar",
-        "name": "Brian Kingsbury",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
+        "id": 5,
+        "code": 4,
+        "name": "Geoffrey E. Hinton",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": "Geoffrey Everest Hinton（1947年12月6日出生）是一位英语加拿大认知心理学家和计算机科学家，最著名的是他在人工神经网络中的工作。自2013年起，他将他的时间划分为谷歌（谷歌）和多伦多大学。Hinton与DavidE.Rumelhart和RonaldJ.Williams共同撰写了一篇发表于1986年的论文，它推广了训练多层神经网络的反向传播算法，尽管他们不是第一个提出这种方法的。Hinton被一些人看作是深层学习社区的主要人物，被一些人称为\"深度学习(Deep)\"。由他的学生为ImaGenet挑战2012设计的Alexnet的引人注目的图像识别里程碑有助于彻底改变计算机视觉领域。欣顿与YoshuaBengio和YannLecun一起获得2018年图灵奖，用于深入学习。",
+        "layoutList": [
+          "Geoffrey Everest Hinton（1947年12月6日出生）是一位英语加拿大认知心理学家和计算机科学家，最著名的是他在人工神经网络中的工作。自2013年起，他将他的时间划分为谷歌（谷歌）和多伦多大学。Hinton与DavidE.Rumelhart和RonaldJ.Williams共同撰写了一篇发表于1986年的论文，它推广了训练多层神经网络的反向传播算法，尽管他们不是第一个提出这种方法的。Hinton被一些人看作是深层学习社区的主要人物，被一些人称为\"深度学习(Deep)\"。由他的学生为ImaGenet挑战2012设计的Alexnet的引人注目的图像识别里程碑有助于彻底改变计算机视觉领域。欣顿与YoshuaBengio和YannLecun一起获得2018年图灵奖，用于深入学习。"
+        ]
       },
       {
-        "id": "C018879989_keyword",
-        "name": "GRAPPER PICK UP",
+        "id": 6,
+        "code": 5,
+        "name": "Alex (Sandy) Pentland",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": "麻省理工学院连接科学与人类动力学实验室的主任，他曾帮助创建和指导麻省理工学院媒体实验室和印度的亚洲媒体实验室。他是世界上被引用最多的科学家之一。他获得过许多奖项，比如《哈佛商业评论》的麦肯锡奖，DARPA的互联网40周年纪念，以及布兰代斯隐私奖。他是谷歌、美国电话电报公司(AT&T)、日产汽车(Nissan)咨询委员会的创始成员，也是联合国秘书长。他是一位连续创业家，与人共同创办了十多家公司，包括数据透明实验室(Data Transparency Lab)、哈佛大学-奥迪-麻省理工学院(harvard -奥迪- mit)数据运营联盟(Data apop Alliance)和数据驱动设计研究所(Institute for Data Driven Design)等社会企业。他是美国国家工程学院的成员，也是世界经济论坛的领导人。Sandy和他的学生一起开创了计算社会科学、组织工程、可穿戴计算(谷歌Glass)、图像理解和现代生物识别技术。他最近的著作是《社会物理学》和《诚实的信号》。",
+        "layoutList": [
+          "麻省理工学院连接科学与人类动力学实验室的主任，他曾帮助创建和指导麻省理工学院媒体实验室和印度的亚洲媒体实验室。他是世界上被引用最多的科学家之一。他获得过许多奖项，比如《哈佛商业评论》的麦肯锡奖，DARPA的互联网40周年纪念，以及布兰代斯隐私奖。他是谷歌、美国电话电报公司(AT&T)、日产汽车(Nissan)咨询委员会的创始成员，也是联合国秘书长。他是一位连续创业家，与人共同创办了十多家公司，包括数据透明实验室(Data Transparency Lab)、哈佛大学-奥迪-麻省理工学院(harvard -奥迪- mit)数据运营联盟(Data apop Alliance)和数据驱动设计研究所(Institute for Data Driven Design)等社会企业。他是美国国家工程学院的成员，也是世界经济论坛的领导人。Sandy和他的学生一起开创了计算社会科学、组织工程、可穿戴计算(谷歌Glass)、图像理解和现代生物识别技术。他最近的著作是《社会物理学》和《诚实的信号》。"
+        ]
+      },
+      {
+        "id": 7,
+        "code": 6,
+        "name": "深度学习",
         "type": "keyword",
-        "value": 0.64706,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1977065_scholar",
-        "name": "Qinggang Meng ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1893211_scholar",
-        "name": "Hermann Ney",
-        "type": "scholar",
-        "value": 0.83333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "305302_keyword",
-        "name": "Convolutional neural network",
+        "id": 8,
+        "code": 7,
+        "name": "计算机视觉",
         "type": "keyword",
-        "value": 0.8147,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018787109_keyword",
-        "name": "Speech recognition",
+        "id": 9,
+        "code": 8,
+        "name": "社交网络",
         "type": "keyword",
-        "value": 0.8549,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2114992_scholar",
-        "name": "金耀初",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1976731_scholar",
-        "name": "Mingqing Xiao ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2117202_scholar",
-        "name": "Paolo Rosso",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "339293_scholar",
-        "name": "Ziyuan Tong",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2010020_scholar",
-        "name": "Jinghe Lang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "31119_scholar",
-        "name": "Xunying Liu",
-        "type": "scholar",
-        "value": 0.57143,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "6256132_scholar",
-        "name": "Antonio Cianci ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018819637_keyword",
-        "name": "Support Vector Machines",
+        "id": 10,
+        "code": 9,
+        "name": "物体跟踪",
         "type": "keyword",
-        "value": 0.6371,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2118276_scholar",
-        "name": "Tomohiro Nakatani",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 11,
+        "code": 10,
+        "name": "Ilya Sutskever",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020039005_keyword",
-        "name": "Neural network",
+        "id": 12,
+        "code": 11,
+        "name": "Volodymyr Mnih",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 13,
+        "code": 12,
+        "name": "Richard S. Zemel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 14,
+        "code": 13,
+        "name": "Max Welling",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 15,
+        "code": 14,
+        "name": "Fabio Pianesi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 16,
+        "code": 15,
+        "name": "Person information",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 17,
+        "code": 16,
+        "name": "Trevor Darrell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 18,
+        "code": 17,
+        "name": "Kenneth B. Russell",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 19,
+        "code": 18,
+        "name": "Christopher D. Manning",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。",
+        "layoutList": [
+          "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。"
+        ]
+      },
+      {
+        "id": 20,
+        "code": 19,
+        "name": "Raymond J. Mooney",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": "我在60年代和70年代在伊利诺伊州奥法隆小镇长大，从1967年开始，我就读于圣克莱尔小学，并于1975年开始在O'Fallon Township Highschool上学。在我17岁的时候看到我为高中英语课写的一篇论文的扫描版本（在打字机上！），题为 “高级人工智能：具有巨大潜力的高级人工智能”。我对AI的热情很早就开始了，并没有减弱; 然而，我对人工智能的进展速度及其积极的社会影响的预测已经成熟，并且（希望）变得更加现实。在1979年的秋天，我去了伊利诺伊大学的香槟 - 厄巴纳获得所有上面列出的程度。1987年12月，我完成了博士学位。在Gerald DeJong教授的指导下，他开始在德克萨斯大学奥斯汀分校的计算机科学系担任教职员工，在那里我享受着希望长期学术生涯的第四个十年的开始。",
+        "layoutList": [
+          "我在60年代和70年代在伊利诺伊州奥法隆小镇长大，从1967年开始，我就读于圣克莱尔小学，并于1975年开始在O'Fallon Township Highschool上学。在我17岁的时候看到我为高中英语课写的一篇论文的扫描版本（在打字机上！），题为 “高级人工智能：具有巨大潜力的高级人工智能”。我对AI的热情很早就开始了，并没有减弱; 然而，我对人工智能的进展速度及其积极的社会影响的预测已经成熟，并且（希望）变得更加现实。在1979年的秋天，我去了伊利诺伊大学的香槟 - 厄巴纳获得所有上面列出的程度。1987年12月，我完成了博士学位。在Gerald DeJong教授的指导下，他开始在德克萨斯大学奥斯汀分校的计算机科学系担任教职员工，在那里我享受着希望长期学术生涯的第四个十年的开始。"
+        ]
+      },
+      {
+        "id": 21,
+        "code": 20,
+        "name": "机器翻译",
         "type": "keyword",
-        "value": 0.7788,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "867168_scholar",
-        "name": "王鼎",
-        "type": "scholar",
-        "value": 0.64943,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2010526_scholar",
-        "name": "Keisuke Kinoshita",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4768049_scholar",
-        "name": "Salvatore giovanni Vitale ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "715311_scholar",
-        "name": "周志华",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "23592_scholar",
-        "name": "Diane Cook",
-        "type": "scholar",
-        "value": 0.55833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1937237_scholar",
-        "name": "Bhiksha Raj ",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020043284_keyword",
-        "name": "adaptive control",
+        "id": 22,
+        "code": 21,
+        "name": "语义角色标注",
         "type": "keyword",
-        "value": 0.8656,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018884576_keyword",
-        "name": "recurrent neural nets",
+        "id": 23,
+        "code": 22,
+        "name": "语义理解",
         "type": "keyword",
-        "value": 0.5942,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "417590_scholar",
-        "name": "邓力",
-        "type": "scholar",
-        "value": 0.51852,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2376278_scholar",
-        "name": "Xiaoping Xue ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2467379_scholar",
-        "name": "Run Wang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2027991_scholar",
-        "name": "余昭旭",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1914599_scholar",
-        "name": "Junichi Imura ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1897078_scholar",
-        "name": "Patricia Melin",
-        "type": "scholar",
-        "value": 0.50575,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "60002798_affiliation",
-        "name": "Chinese University of Hong Kong",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "3209441_scholar",
-        "name": "Birger Kollmeier ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020037235_keyword",
-        "name": "data mining",
+        "id": 24,
+        "code": 23,
+        "name": "文本挖掘",
         "type": "keyword",
-        "value": 0.9552,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C020051657_keyword",
-        "name": "Landslips",
+        "id": 25,
+        "code": 24,
+        "name": "Daniel Jurafsky",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 26,
+        "code": 25,
+        "name": "Daniel M. Cer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 27,
+        "code": 26,
+        "name": "Aria Haghighi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 28,
+        "code": 27,
+        "name": "Kristina Toutanova",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 29,
+        "code": 28,
+        "name": "Jesse Thomason",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 30,
+        "code": 29,
+        "name": "Jivko Sinapov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 31,
+        "code": 30,
+        "name": "Subhashini Venugopalan",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 32,
+        "code": 31,
+        "name": "Kate Saenko",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Yann Lecun",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": "Yann LeCun 生于1960年7月8日)是一名法国裔美国计算机科学家，主要从事机器学习、计算机视觉、移动机器人和计算神经科学等领域。他是纽约大学数学科学学院的银教授，以及Facebook首席人工智能科学家副总裁。他以使用卷积神经网络(CNN)在光学字符识别和计算机视觉方面的工作而闻名，也是卷积网的创始人之一。他也是djvu图像压缩技术的主要创建者之一。他与莱昂·伯杜合作开发了繁茂的编程语言。他是2018年ACM上午会议的共同获奖者。",
+        "layoutList": [
+          "Yann LeCun 生于1960年7月8日)是一名法国裔美国计算机科学家，主要从事机器学习、计算机视觉、移动机器人和计算神经科学等领域。他是纽约大学数学科学学院的银教授，以及Facebook首席人工智能科学家副总裁。他以使用卷积神经网络(CNN)在光学字符识别和计算机视觉方面的工作而闻名，也是卷积网的创始人之一。他也是djvu图像压缩技术的主要创建者之一。他与莱昂·伯杜合作开发了繁茂的编程语言。他是2018年ACM上午会议的共同获奖者。"
+        ]
+      },
+      {
+        "id": 34,
+        "code": 33,
+        "name": "Anil K. Jain",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": "Anil K. Jain(博士，1973年，俄亥俄州立大学;B. Tech, IIT Kanpur)是密歇根州立大学(Michigan State University)的著名教授，在那里他从事模式识别、机器学习、计算机视觉和生物识别方面的研究。他是美国国防科学委员会和法医科学标准委员会的成员。他的奖项包括古根海姆、洪堡、富布赖特和景荪甫奖。为了提高模式识别能力，Jain被马德里自治大学授予荣誉博士学位。他是IEEE模式分析和机器智能学报的主编，也是ACM、IEEE、AAAS和SPIE的研究员。杰恩获得了8项美国和韩国专利，并积极参与技术转让，因此他被选入美国国家发明家学会。Jain是美国国家工程学院(NAE)的成员，印度国家工程学院(INAE)的外国研究员，以及世界科学院(TWAS)的外国研究员。",
+        "layoutList": [
+          "Anil K. Jain(博士，1973年，俄亥俄州立大学;B. Tech, IIT Kanpur)是密歇根州立大学(Michigan State University)的著名教授，在那里他从事模式识别、机器学习、计算机视觉和生物识别方面的研究。他是美国国防科学委员会和法医科学标准委员会的成员。他的奖项包括古根海姆、洪堡、富布赖特和景荪甫奖。为了提高模式识别能力，Jain被马德里自治大学授予荣誉博士学位。他是IEEE模式分析和机器智能学报的主编，也是ACM、IEEE、AAAS和SPIE的研究员。杰恩获得了8项美国和韩国专利，并积极参与技术转让，因此他被选入美国国家发明家学会。Jain是美国国家工程学院(NAE)的成员，印度国家工程学院(INAE)的外国研究员，以及世界科学院(TWAS)的外国研究员。"
+        ]
+      },
+      {
+        "id": 35,
+        "code": 34,
+        "name": "图像识别",
         "type": "keyword",
-        "value": 0.53333,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2046901_scholar",
-        "name": "Zhiming Wang",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4478128_scholar",
-        "name": "Lawrence Deng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4121547_scholar",
-        "name": "Ying hsien Huang ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2111523_scholar",
-        "name": "廖晓峰",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "10311_scholar",
-        "name": "Ralf Schlüter",
-        "type": "scholar",
-        "value": 0.59259,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "40940_scholar",
-        "name": "Ilsun You ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020043191_keyword",
-        "name": "computer vision",
+        "id": 36,
+        "code": 35,
+        "name": "几何深度学习",
         "type": "keyword",
-        "value": 0.7635,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "27629_scholar",
-        "name": "黄德双",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "4250085_scholar",
-        "name": "Hongqing Liu ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018918649_keyword",
-        "name": "Feature extraction",
+        "id": 37,
+        "code": 36,
+        "name": "图像检索",
         "type": "keyword",
-        "value": 0.873,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2091182_scholar",
-        "name": "Chee khiang Pang ",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "773833_scholar",
-        "name": "Lan Zhu ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1673137_scholar",
-        "name": "Ozgur Kisi",
-        "type": "scholar",
-        "value": 0.52874,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "123947_scholar",
-        "name": "肖明军",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "932921_scholar",
-        "name": "刘德荣",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C018811202_keyword",
-        "name": "Hidden Markov models",
+        "id": 38,
+        "code": 37,
+        "name": "指纹识别",
         "type": "keyword",
-        "value": 0.9679,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "1278002_scholar",
-        "name": "yì Wáng",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 39,
+        "code": 38,
+        "name": "Lawrence D. Jackel",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "355143_scholar",
-        "name": "曾志刚",
-        "type": "scholar",
-        "value": 0.53571,
-        "releExpert": null,
-        "releSubject": null
+        "id": 40,
+        "code": 39,
+        "name": "John S. Denker",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "60025761_affiliation",
-        "name": "Huazhong University of Science and Technology",
-        "type": "affiliation",
-        "value": 0.5,
-        "releExpert": null,
-        "releSubject": null
+        "id": 41,
+        "code": 40,
+        "name": "Joan Bruna",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "3143505_scholar",
-        "name": "Kazuhiro Nakadai",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
+        "id": 42,
+        "code": 41,
+        "name": "Arthur Szlam",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "410277_scholar",
-        "name": "Min Liu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 43,
+        "code": 42,
+        "name": "Jung-Eun Lee",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "C018945072_keyword",
-        "name": "Memristors",
+        "id": 44,
+        "code": 43,
+        "name": "Rong Jin",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 45,
+        "code": 44,
+        "name": "Kai Cao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Sunpreet S. Arora",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "俞士纶",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": "清华数据科学研究院院长Philip S. Yu，拥有超过300项美国专利，在谷歌学术上的H-index高达138，跟Michael I. Jordan伯仲之间，是名列全球计算机科学领域高引作者前十的华人。他主要研究领域是数据挖掘，特别是图数据/网络挖掘, 机器学习、社交媒体、保留隐私数据发布、数据流、数据库、互联网应用技术。",
+        "layoutList": [
+          "清华数据科学研究院院长Philip S. Yu，拥有超过300项美国专利，在谷歌学术上的H-index高达138，跟Michael I. Jordan伯仲之间，是名列全球计算机科学领域高引作者前十的华人。他主要研究领域是数据挖掘，特别是图数据/网络挖掘, 机器学习、社交媒体、保留隐私数据发布、数据流、数据库、互联网应用技术。"
+        ]
+      },
+      {
+        "id": 48,
+        "code": 47,
+        "name": "严熙锋",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": "Xifeng Yan是加州大学圣巴巴拉分校的副教授。他拥有Venkatesh Narayanamurti计算机科学系主任。他获得了博士学位。他于2006年在伊利诺伊大学厄巴纳 - 香槟分校获得计算机科学学士学位。他在2006年至2008年间担任IBM TJ Watson研究中心的研究人员。他一直致力于信息网络中的图形建模，管理和挖掘，计算机系统，社交媒体和生物信息学。他的作品被广泛引用，每个Google学术搜索引用超过9,000次，下载数千次。他获得了NSF职业奖，IBM发明成就奖，ACM-SIGMOD论文亚军奖和IEEE ICDM 10年最高影响力论奖。",
+        "layoutList": [
+          "Xifeng Yan是加州大学圣巴巴拉分校的副教授。他拥有Venkatesh Narayanamurti计算机科学系主任。他获得了博士学位。他于2006年在伊利诺伊大学厄巴纳 - 香槟分校获得计算机科学学士学位。他在2006年至2008年间担任IBM TJ Watson研究中心的研究人员。他一直致力于信息网络中的图形建模，管理和挖掘，计算机系统，社交媒体和生物信息学。他的作品被广泛引用，每个Google学术搜索引用超过9,000次，下载数千次。他获得了NSF职业奖，IBM发明成就奖，ACM-SIGMOD论文亚军奖和IEEE ICDM 10年最高影响力论奖。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "聚类",
         "type": "keyword",
-        "value": 0.76667,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "433065_scholar",
-        "name": "吴翠红",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1787042_scholar",
-        "name": "Daniel Povey",
-        "type": "scholar",
-        "value": 0.62963,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1698932_scholar",
-        "name": "Faïez Gargouri ",
-        "type": "scholar",
-        "value": 0.58333,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042120_keyword",
-        "name": "Machine Learning",
+        "id": 50,
+        "code": 49,
+        "name": "社区网络",
         "type": "keyword",
-        "value": 0.796,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "366996_scholar",
-        "name": "Michal Wozniak",
-        "type": "scholar",
-        "value": 0.90833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "381285_scholar",
-        "name": "André de",
-        "type": "scholar",
-        "value": 0.50833,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "2049173_scholar",
-        "name": "Liyuan Li",
-        "type": "scholar",
-        "value": 0.66667,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "87177_scholar",
-        "name": "Wenling Jiao ",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1888596_scholar",
-        "name": "Taghi Khoshgoftaar",
-        "type": "scholar",
-        "value": 0.575,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "1463432_scholar",
-        "name": "Jungwon Lee ",
-        "type": "scholar",
-        "value": 0.75,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "432115_scholar",
-        "name": "葛晓敏",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
-      },
-      {
-        "id": "C020042059_keyword",
-        "name": "modelling languages",
+        "id": 51,
+        "code": 50,
+        "name": "文本分类",
         "type": "keyword",
-        "value": 0.51852,
-        "releExpert": null,
-        "releSubject": null
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
       },
       {
-        "id": "2020774_scholar",
-        "name": "Pei Yu",
-        "type": "scholar",
-        "value": 1,
-        "releExpert": null,
-        "releSubject": null
+        "id": 52,
+        "code": 51,
+        "name": "知识图",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Charu C. Aggarwal",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Yuchen Zhao",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "Ming-Syan Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Chih-Hua Tai",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Yu Su",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Wenhu Chen",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Huan Sun",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Mudhakar Srivatsa",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": "Global exponential periodicity and global exponential stability of a class of recurrent neural networks with various activation functions and time-varying delays/An image-based feature tracking algorithm for real-time measurement of clad height/Exponential stability of reaction-diffusion fuzzy recurrent neural networks with time-varying delays/Using a wiener-type recurrent neural network with the minimum description length principle for dynamic system identification/Transient air-fuel ratio estimation in spark ignition engine using recurrent neural networks/Zhang neural network for linear time-varying equation solving and its robotic application/Two k-winners-take-all networks with discontinuous activation functions",
+        "layoutList": [
+          "Global exponential periodicity and global exponential stability of a class of recurrent neural networks with various activation functions and time-varying delays",
+          "An image-based feature tracking algorithm for real-time measurement of clad height",
+          "Exponential stability of reaction-diffusion fuzzy recurrent neural networks with time-varying delays",
+          "Using a wiener-type recurrent neural network with the minimum description length principle for dynamic system identification",
+          "Transient air-fuel ratio estimation in spark ignition engine using recurrent neural networks",
+          "Zhang neural network for linear time-varying equation solving and its robotic application",
+          "Two k-winners-take-all networks with discontinuous activation functions"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "循环神经网络",
+        "layout": "基于差异循环神经网络的意图识别方法/一种改进鲸鱼算法的循环神经网络短期电力负荷预测方法/一种基于深度循环神经网络的心功能自动分析方法/一种基于循环神经网络的智能故障诊断方法/一种基于循环神经网络的数据预测方法/基于双向门控循环神经网络的序列中单一元素分类方法/一种基于循环神经网络的动态模型辨识方法及系统",
+        "layoutList": [
+          "基于差异循环神经网络的意图识别方法",
+          "一种改进鲸鱼算法的循环神经网络短期电力负荷预测方法",
+          "一种基于深度循环神经网络的心功能自动分析方法",
+          "一种基于循环神经网络的智能故障诊断方法",
+          "一种基于循环神经网络的数据预测方法",
+          "基于双向门控循环神经网络的序列中单一元素分类方法",
+          "一种基于循环神经网络的动态模型辨识方法及系统"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": "A study of textual entailment/Word segmentation for the Myanmar language/Designing and realization on surface syntactic analysis based on rule and statistical approach/Study on the Chinese named entity recognition using small scale character tail hints/Detection of incoherences in a technical and normative document corpus/Simulating expert clinical comprehension: Adapting latent semantic analysis to accurately extract clinical concepts from psychiatric narrative/Word sense disambiguation across two domains: Biomedical literature and clinical notes",
+        "layoutList": [
+          "A study of textual entailment",
+          "Word segmentation for the Myanmar language",
+          "Designing and realization on surface syntactic analysis based on rule and statistical approach",
+          "Study on the Chinese named entity recognition using small scale character tail hints",
+          "Detection of incoherences in a technical and normative document corpus",
+          "Simulating expert clinical comprehension: Adapting latent semantic analysis to accurately extract clinical concepts from psychiatric narrative",
+          "Word sense disambiguation across two domains: Biomedical literature and clinical notes"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "循环神经网络",
+        "layout": "自然语言处理装置、方法、以及程序/一种面向室内智能机器人导航的路径自然语言处理方法/一种中文疾病诊断信息的自然语言处理方法及系统/基于自然语言处理的搜索/一种基于自然语言处理的汽车造型推导方法/基于语音输入的自然语言处理选择演示广告的系统和方法/基于语音输入的自然语言处理选择演示广告的系统和方法",
+        "layoutList": [
+          "自然语言处理装置、方法、以及程序",
+          "一种面向室内智能机器人导航的路径自然语言处理方法",
+          "一种中文疾病诊断信息的自然语言处理方法及系统",
+          "基于自然语言处理的搜索",
+          "一种基于自然语言处理的汽车造型推导方法",
+          "基于语音输入的自然语言处理选择演示广告的系统和方法",
+          "基于语音输入的自然语言处理选择演示广告的系统和方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": "Tracking people in RGBD videos using deep learning and motion clues/Deep Learning for Image Retrieval: What Works and What Doesn't/Human activity recognition with smartphone sensors using deep learning neural networks/3D-based Deep Convolutional Neural Network for action recognition with depth sequences/A real-time facial expression recognizer using deep neural network/A deep feature based framework for breast masses classification/Car plate character recognition using a convolutional neural network with shared hidden layers",
+        "layoutList": [
+          "Tracking people in RGBD videos using deep learning and motion clues",
+          "Deep Learning for Image Retrieval: What Works and What Doesn't",
+          "Human activity recognition with smartphone sensors using deep learning neural networks",
+          "3D-based Deep Convolutional Neural Network for action recognition with depth sequences",
+          "A real-time facial expression recognizer using deep neural network",
+          "A deep feature based framework for breast masses classification",
+          "Car plate character recognition using a convolutional neural network with shared hidden layers"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "循环神经网络",
+        "layout": "一种基于深度卷积神经网络的图像质量测试方法/一种基于卷积神经网络的车辆前方可通行性分析方法/神经网络处理器和卷积神经网络处理器/一种基于卷积神经网络的服装分类方法/基于分层稀疏滤波卷积神经网络的SAR图像分类方法/基于小波池化卷积神经网络的SAR图像分割方法/用于卷积神经网络的权重移位机制",
+        "layoutList": [
+          "一种基于深度卷积神经网络的图像质量测试方法",
+          "一种基于卷积神经网络的车辆前方可通行性分析方法",
+          "神经网络处理器和卷积神经网络处理器",
+          "一种基于卷积神经网络的服装分类方法",
+          "基于分层稀疏滤波卷积神经网络的SAR图像分类方法",
+          "基于小波池化卷积神经网络的SAR图像分割方法",
+          "用于卷积神经网络的权重移位机制"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": "Graph Attention Networks/Graph Partition Neural Networks for Semi-Supervised Classification/Stochastic Training of Graph Convolutional Networks with Variance Reduction/Adversarial Attacks on Neural Networks for Graph Data/Neural Message Passing for Quantum Chemistry\nSpectral Networks and Locally Connected Networks on Graphs/Diffusion-Convolutional Neural Networks",
+        "layoutList": [
+          "Graph Attention Networks",
+          "Graph Partition Neural Networks for Semi-Supervised Classification",
+          "Stochastic Training of Graph Convolutional Networks with Variance Reduction",
+          "Adversarial Attacks on Neural Networks for Graph Data",
+          "Neural Message Passing for Quantum Chemistry\nSpectral Networks and Locally Connected Networks on Graphs",
+          "Diffusion-Convolutional Neural Networks"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "循环神经网络",
+        "layout": "一种基于图神经网络的通信信号调制方式的识别方法/一种基于图神经网络分析斑块进展因子的方法及装置/一种基于Horn逻辑与图神经网络的场景图谱向量化方法/一种基于力导图的图神经网络可视分析方法/基于曲面法向分量图神经网络表示的三维人脸识别方法/基于压缩图神经网络的自动心律失常分析方法/异质图神经网络生成方法、装置、电子设备及存储介质",
+        "layoutList": [
+          "一种基于图神经网络的通信信号调制方式的识别方法",
+          "一种基于图神经网络分析斑块进展因子的方法及装置",
+          "一种基于Horn逻辑与图神经网络的场景图谱向量化方法",
+          "一种基于力导图的图神经网络可视分析方法",
+          "基于曲面法向分量图神经网络表示的三维人脸识别方法",
+          "基于压缩图神经网络的自动心律失常分析方法",
+          "异质图神经网络生成方法、装置、电子设备及存储介质"
+        ]
       }
     ],
     "relations": [
       {
-        "source": "C018884576_keyword",
-        "target": "1838213_scholar",
-        "value": 0.57143,
-        "type": "scholar"
+        "id": 1,
+        "source": 0,
+        "target": 1
       },
       {
-        "source": "1838213_scholar",
-        "target": "C018884576_keyword",
-        "value": 0.5942,
-        "type": "keyword"
+        "id": 2,
+        "source": 0,
+        "target": 2
       },
       {
-        "source": "C018884576_keyword",
-        "target": "1206955_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 3,
+        "source": 0,
+        "target": 3
       },
       {
-        "source": "1206955_scholar",
-        "target": "60002798_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 4,
+        "source": 0,
+        "target": 4
       },
       {
-        "source": "C020042120_keyword",
-        "target": "23592_scholar",
-        "value": 0.55833,
-        "type": "scholar"
+        "id": 5,
+        "source": 0,
+        "target": 5
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2091182_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 60,
+        "source": 0,
+        "target": 60
       },
       {
-        "source": "C020042120_keyword",
-        "target": "715311_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 61,
+        "source": 0,
+        "target": 61
       },
       {
-        "source": "C020039005_keyword",
-        "target": "432115_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 18,
+        "source": 1,
+        "target": 18
       },
       {
-        "source": "355143_scholar",
-        "target": "C018945072_keyword",
-        "value": 0.76667,
-        "type": "keyword"
+        "id": 19,
+        "source": 1,
+        "target": 19
       },
       {
-        "source": "C018884576_keyword",
-        "target": "31119_scholar",
-        "value": 0.57143,
-        "type": "scholar"
+        "id": 62,
+        "source": 1,
+        "target": 62
       },
       {
-        "source": "1206955_scholar",
-        "target": "2376278_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 63,
+        "source": 1,
+        "target": 63
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C020043284_keyword",
-        "value": 0.8656,
-        "type": "keyword"
+        "id": 32,
+        "source": 2,
+        "target": 32
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2467379_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 33,
+        "source": 2,
+        "target": 33
       },
       {
-        "source": "407323_keyword",
-        "target": "C020043191_keyword",
-        "value": 0.7635,
-        "type": "keyword"
+        "id": 64,
+        "source": 2,
+        "target": 64
       },
       {
-        "source": "C018787109_keyword",
-        "target": "10311_scholar",
-        "value": 0.59259,
-        "type": "scholar"
+        "id": 65,
+        "source": 2,
+        "target": 65
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2049173_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 46,
+        "source": 3,
+        "target": 46
       },
       {
-        "source": "C020042120_keyword",
-        "target": "1888596_scholar",
-        "value": 0.575,
-        "type": "scholar"
+        "id": 47,
+        "source": 3,
+        "target": 47
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4121547_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 66,
+        "source": 3,
+        "target": 66
       },
       {
-        "source": "C018884576_keyword",
-        "target": "355143_scholar",
-        "value": 0.53571,
-        "type": "scholar"
+        "id": 67,
+        "source": 3,
+        "target": 67
       },
       {
-        "source": "C020039005_keyword",
-        "target": "867168_scholar",
-        "value": 0.64943,
-        "type": "scholar"
+        "id": 6,
+        "source": 4,
+        "target": 6
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1463432_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 7,
+        "source": 4,
+        "target": 7
       },
       {
-        "source": "355143_scholar",
-        "target": "60025761_affiliation",
-        "value": 0.5,
-        "type": "affiliation"
+        "id": 8,
+        "source": 5,
+        "target": 8
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1787042_scholar",
-        "value": 0.62963,
-        "type": "scholar"
+        "id": 9,
+        "source": 5,
+        "target": 9
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2027991_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 10,
+        "source": 6,
+        "target": 10
       },
       {
-        "source": "C018787109_keyword",
-        "target": "40940_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 11,
+        "source": 6,
+        "target": 11
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2010526_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 12,
+        "source": 7,
+        "target": 12
       },
       {
-        "source": "355143_scholar",
-        "target": "1976731_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 13,
+        "source": 7,
+        "target": 13
       },
       {
-        "source": "1206955_scholar",
-        "target": "2114992_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 14,
+        "source": 8,
+        "target": 14
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1673137_scholar",
-        "value": 0.52874,
-        "type": "scholar"
+        "id": 15,
+        "source": 8,
+        "target": 15
       },
       {
-        "source": "C020039005_keyword",
-        "target": "932921_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 16,
+        "source": 9,
+        "target": 16
       },
       {
-        "source": "C018884576_keyword",
-        "target": "C020039005_keyword",
-        "value": 0.7788,
-        "type": "keyword"
+        "id": 17,
+        "source": 9,
+        "target": 17
       },
       {
-        "source": "355143_scholar",
-        "target": "C018784191_keyword",
-        "value": 0.53333,
-        "type": "keyword"
+        "id": 20,
+        "source": 18,
+        "target": 20
       },
       {
-        "source": "1206955_scholar",
-        "target": "2072807_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 21,
+        "source": 18,
+        "target": 21
       },
       {
-        "source": "C020042120_keyword",
-        "target": "366996_scholar",
-        "value": 0.90833,
-        "type": "scholar"
+        "id": 22,
+        "source": 19,
+        "target": 22
       },
       {
-        "source": "1206955_scholar",
-        "target": "123947_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 23,
+        "source": 19,
+        "target": 23
       },
       {
-        "source": "C018787109_keyword",
-        "target": "C018892767_keyword",
-        "value": 0.9553,
-        "type": "keyword"
+        "id": 24,
+        "source": 20,
+        "target": 24
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2117202_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 25,
+        "source": 20,
+        "target": 25
       },
       {
-        "source": "C020039005_keyword",
-        "target": "C018811890_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 26,
+        "source": 21,
+        "target": 26
       },
       {
-        "source": "C018787109_keyword",
-        "target": "C018811202_keyword",
-        "value": 0.9679,
-        "type": "keyword"
+        "id": 27,
+        "source": 21,
+        "target": 27
       },
       {
-        "source": "C018884576_keyword",
-        "target": "407323_keyword",
-        "value": 1,
-        "type": "keyword"
+        "id": 28,
+        "source": 22,
+        "target": 28
       },
       {
-        "source": "31119_scholar",
-        "target": "C020042059_keyword",
-        "value": 0.51852,
-        "type": "keyword"
+        "id": 29,
+        "source": 22,
+        "target": 29
       },
       {
-        "source": "C018787109_keyword",
-        "target": "339293_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 30,
+        "source": 23,
+        "target": 30
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1937237_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 31,
+        "source": 23,
+        "target": 31
       },
       {
-        "source": "C020039005_keyword",
-        "target": "410277_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 34,
+        "source": 32,
+        "target": 34
       },
       {
-        "source": "C020039005_keyword",
-        "target": "87177_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 35,
+        "source": 32,
+        "target": 35
       },
       {
-        "source": "355143_scholar",
-        "target": "C020051657_keyword",
-        "value": 0.53333,
-        "type": "keyword"
+        "id": 36,
+        "source": 33,
+        "target": 36
       },
       {
-        "source": "C020039005_keyword",
-        "target": "2046901_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 37,
+        "source": 33,
+        "target": 37
       },
       {
-        "source": "C018787109_keyword",
-        "target": "3209441_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 38,
+        "source": 34,
+        "target": 38
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1698932_scholar",
-        "value": 0.58333,
-        "type": "scholar"
+        "id": 39,
+        "source": 34,
+        "target": 39
       },
       {
-        "source": "C020039005_keyword",
-        "target": "157617_scholar",
-        "value": 0.57471,
-        "type": "scholar"
+        "id": 40,
+        "source": 35,
+        "target": 40
       },
       {
-        "source": "C020039005_keyword",
-        "target": "433065_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 41,
+        "source": 35,
+        "target": 41
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1843480_scholar",
-        "value": 0.58333,
-        "type": "scholar"
+        "id": 42,
+        "source": 36,
+        "target": 42
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4250085_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 43,
+        "source": 36,
+        "target": 43
       },
       {
-        "source": "355143_scholar",
-        "target": "1977065_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 44,
+        "source": 37,
+        "target": 44
       },
       {
-        "source": "C020042120_keyword",
-        "target": "381285_scholar",
-        "value": 0.50833,
-        "type": "scholar"
+        "id": 45,
+        "source": 37,
+        "target": 45
       },
       {
-        "source": "355143_scholar",
-        "target": "1080538_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 48,
+        "source": 46,
+        "target": 48
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2010020_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 49,
+        "source": 46,
+        "target": 49
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1897078_scholar",
-        "value": 0.50575,
-        "type": "scholar"
+        "id": 50,
+        "source": 47,
+        "target": 50
       },
       {
-        "source": "C018787109_keyword",
-        "target": "1893211_scholar",
-        "value": 0.83333,
-        "type": "scholar"
+        "id": 51,
+        "source": 47,
+        "target": 51
       },
       {
-        "source": "C020039005_keyword",
-        "target": "1278002_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 52,
+        "source": 48,
+        "target": 52
       },
       {
-        "source": "C018787109_keyword",
-        "target": "2118276_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 53,
+        "source": 48,
+        "target": 53
       },
       {
-        "source": "C018787109_keyword",
-        "target": "4768049_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 54,
+        "source": 49,
+        "target": 54
       },
       {
-        "source": "C020039005_keyword",
-        "target": "224496_scholar",
-        "value": 0.66667,
-        "type": "scholar"
+        "id": 55,
+        "source": 49,
+        "target": 55
       },
       {
-        "source": "305302_keyword",
-        "target": "C018819637_keyword",
-        "value": 0.6371,
-        "type": "keyword"
+        "id": 56,
+        "source": 50,
+        "target": 56
       },
       {
-        "source": "1122482_scholar",
-        "target": "C018879989_keyword",
-        "value": 0.64706,
-        "type": "keyword"
+        "id": 57,
+        "source": 50,
+        "target": 57
       },
       {
-        "source": "C018787109_keyword",
-        "target": "3143505_scholar",
-        "value": 0.75,
-        "type": "scholar"
+        "id": 58,
+        "source": 51,
+        "target": 58
       },
       {
-        "source": "C018884576_keyword",
-        "target": "C020042120_keyword",
-        "value": 0.796,
-        "type": "keyword"
-      },
-      {
-        "source": "C018787109_keyword",
-        "target": "773833_scholar",
-        "value": 0.75,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "1122482_scholar",
-        "value": 0.53571,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "305302_keyword",
-        "value": 0.8147,
-        "type": "keyword"
-      },
-      {
-        "source": "C018787109_keyword",
-        "target": "1914599_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "355143_scholar",
-        "target": "27629_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018787109_keyword",
-        "target": "4478128_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "355143_scholar",
-        "target": "2020774_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C018884576_keyword",
-        "target": "C018787109_keyword",
-        "value": 0.8549,
-        "type": "keyword"
-      },
-      {
-        "source": "C020042120_keyword",
-        "target": "C020037235_keyword",
-        "value": 0.9552,
-        "type": "keyword"
-      },
-      {
-        "source": "C018787109_keyword",
-        "target": "417590_scholar",
-        "value": 0.51852,
-        "type": "scholar"
-      },
-      {
-        "source": "1206955_scholar",
-        "target": "2111523_scholar",
-        "value": 1,
-        "type": "scholar"
-      },
-      {
-        "source": "C020039005_keyword",
-        "target": "C018918649_keyword",
-        "value": 0.873,
-        "type": "keyword"
-      },
-      {
-        "source": "C018787109_keyword",
-        "target": "6256132_scholar",
-        "value": 1,
-        "type": "scholar"
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,
