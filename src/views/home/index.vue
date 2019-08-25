@@ -190,51 +190,61 @@ export default {
       expertTags: [
         {
           // Geoffrey Hinton
+          text: 'Geoffrey Hinton',
           img: tagGH,
           url: '/search/Geoffrey Hinton'
         },
         {
           // 韩家炜
+          text: '韩家炜',
           img: tagHjw,
           url: '/search/韩家炜'
         },
         {
           // 李飞飞
+          text: '李飞飞',
           img: tagLiff,
           url: '/search/李飞飞'
         },
         {
           // Michael I.Jordan
+          text: 'Michael I.Jordan',
           img: tagMj,
           url: '/search/Michael I. Jordan'
         },
         {
           // SebastianThrun
+          text: 'SebastianThrun',
           img: tagSt,
           url: '/search/SebastianThrun'
         },
         {
           // 吴恩达
+          text: '吴恩达',
           img: tagWed,
           url: '/search/吴恩达'
         },
         {
           // William T. Freeman
+          text: 'William T. Freeman',
           img: tagWf,
           url: '/search/William T. Freeman'
         },
         {
           // Yoshua Bengio
+          text: 'Yoshua Bengio',
           img: tagYb,
           url: '/search/Yoshua Bengio'
         },
         {
           // Yann Lecun
+          text: 'Yann Lecun',
           img: tagYl,
           url: '/search/Yann Lecun'
         },
         {
           // 周志华
+          text: '周志华',
           img: tagZzh,
           url: '/search/周志华'
         }
@@ -242,51 +252,61 @@ export default {
       keywordTags: [
         {
           // 度量学习
+          text: '度量学习',
           img: tagDlxx,
           url: '/search/度量学习'
         },
         {
           // 机器翻译
+          text: '机器翻译',
           img: tagJqfy,
           url: '/search/机器翻译'
         },
         {
           // 可解释人工智能
+          text: '可解释人工智能',
           img: tagKjsrgzn,
           url: '/search/可解释人工智能'
         },
         {
           // 目标检测
+          text: '目标检测',
           img: tagMbjc,
           url: '/search/目标检测'
         },
         {
           // 人脸识别
+          text: '人脸识别',
           img: tagRlsb,
           url: '/search/人脸识别'
         },
         {
           // 推荐系统
+          text: '推荐系统',
           img: tagTjxt,
           url: '/search/推荐系统'
         },
         {
           // 无人驾驶
+          text: '无人驾驶',
           img: tagWrjs,
           url: '/search/无人驾驶'
         },
         {
           // 循环神经网络
+          text: '循环神经网络',
           img: tagXhsjwl,
           url: '/search/循环神经网络'
         },
         {
           // 支持向量机
+          text: '支持向量机',
           img: tagZcxlj,
           url: '/search/支持向量机'
         },
         {
           // 知识库
+          text: '知识库',
           img: tagZsk,
           url: '/search/知识库'
         }
