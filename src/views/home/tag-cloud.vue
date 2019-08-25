@@ -11,7 +11,7 @@
             <router-link
               :to="item.url"
             >
-              <img :src="item.img" width="72px" height='72px'>
+              <img :src="item.img" width="80px" height='80px'>
             </router-link>
           </li>
         </ul>
@@ -31,7 +31,7 @@ export default {
     },
     containerHeight: {
       type: Number,
-      default: 800
+      default: 1000
     },
     tags: {
       type: Array
@@ -50,7 +50,8 @@ export default {
     return {
       ttags: 'taglist',
       lock: 'y',
-      shape: 'vcylinder'
+      shape: 'hcylinder'
+      // shape: 'hring'
     }
   },
 
@@ -79,7 +80,7 @@ export default {
       window.TagCanvas.imageMode = 'image'
       window.TagCanvas.imageRadius = '50%'
       window.TagCanvas.imageScale = 1
-      window.TagCanvas.radiusY = 2
+      window.TagCanvas.radiusY = 2.5
       window.TagCanvas.radiusX = 0.6
       window.TagCanvas.activeCursor = 'pointer'
       // window.TagCanvas.radiusZ = 0.5
@@ -87,8 +88,8 @@ export default {
       window.TagCanvas.outlineIncrease = 16
       window.TagCanvas.dragControl = true
       // window.TagCanvas.shape = 'hring'
-      window.TagCanvas.lock = 'x'
-      // window.TagCanvas.offsetY = -60
+      // window.TagCanvas.lock = 'x'
+      window.TagCanvas.offsetY = -60
       window.TagCanvas.Start(this.guid, this.taglist)
     },
 

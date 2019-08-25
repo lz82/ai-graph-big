@@ -83,11 +83,11 @@ export default {
         slidesPerView: 'auto',
         speed: 1500,
         slideToClickedSlide: false,
-        // autoplay: false,
-        autoplay: {
-          delay: 2000,
-          disableOnInteraction: false
-        },
+        autoplay: false,
+        // autoplay: {
+        //   delay: 2000,
+        //   disableOnInteraction: false
+        // },
         loop: false,
         initialSlide: 1,
         coverflowEffect: {
