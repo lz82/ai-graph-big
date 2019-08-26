@@ -17,7 +17,7 @@
           <li v-for="item in tabContent.paperVO" :key="item.id">
             <h3 v-html="item.title"></h3>
             <p>
-              <span v-html="'作者：'+keyword"></span>
+              <span class="paper-author" v-html="'作者：'+getAuthor(item.author)"></span>
               <span>发表时间：{{item.publishDate}}</span>
               <!-- <span>被引指数：{{item.citedIndex}}</span> -->
             </p>
@@ -57,7 +57,8 @@ export default {
 
   props: {
     tabContent: Object,
-    keyword: String
+    keyword: String,
+    type: String
   },
 
   data () {
@@ -71,6 +72,9 @@ export default {
     switchTab (item, index) {
       this.nowIndex = index
       // this.$root.evenHub.$emit('switchTab',item, index)
+    },
+    getAuthor (item) {
+      return this.type === 'expert' ? this.keyword : item.split(',')[0]
     }
   },
 
@@ -131,6 +135,12 @@ export default {
     margin-bottom: 15px;
     letter-spacing: 1px;
     box-sizing: border-box;
+    .paper-author{
+      width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
   }
   .conItem li h3 {
     font-size: 16px;

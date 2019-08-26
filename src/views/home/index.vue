@@ -211,7 +211,7 @@ export default {
         {
           // SebastianThrun
           img: tagSt,
-          url: '/search/SebastianThrun'
+          url: '/search/Sebastian Thrun'
         },
         {
           // 吴恩达

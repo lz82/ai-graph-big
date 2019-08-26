@@ -264,6 +264,7 @@ export default {
           })
           .attr('x', '-20')
           .attr('y', '-40')
+
         gs.filter(d => {
           if ((d.level && d.level > 3)) {
             return this
@@ -278,7 +279,9 @@ export default {
           .attr('height', d => {
             return `${this.fontSizeList[d.level] * 2}px`
           })
-          .attr('x', '-15')
+          .attr('x', d => {
+            return d.level === 5 ? '-15' : '-18'
+          })
           .attr('y', d => {
             console.log(d)
             return d.level === 5 ? '-15' : '-20'
@@ -326,9 +329,14 @@ export default {
     },
 
     showLayout (node) {
-      console.log(node.layout)
-      this.popList = node.layoutList
-      this.popTitle = node.name
+      console.log(node)
+      if (node.layout) {
+        this.popList = node.layoutList
+        this.popTitle = node.name
+      } else {
+        this.popList = ['']
+        this.popTitle = node.name
+      }
     },
 
     showPannel () {
@@ -394,7 +402,7 @@ export default {
     .side-right{
       width: 450px;
       .side-right-con{
-        padding: 0px 30px 35px;
+        padding: 0px 30px 5px;
         border-radius: 5px;
         border:1px solid @borderColor;
         background: @bgColor;

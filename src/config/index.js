@@ -48,28 +48,6 @@ const centerWordMap = {
   'Yann Lecun': 'Yann',
   'Yoshua Bengio': 'Yoshua'
 }
-const centerWordList = [
-  '李飞飞',
-  '吴恩达',
-  '周志华',
-  '韩家炜',
-  '知识库',
-  '度量学习',
-  '机器翻译',
-  'Feifei Li',
-  '目标检测',
-  '人脸识别',
-  '推荐系统',
-  '无人驾驶',
-  '循环神经网络',
-  '支持向量机',
-  '可解释人工智能',
-  'Geoffrey Hinton',
-  'Michael I. Jordan',
-  'SebastianThrun',
-  'William T. Freeman',
-  'Yann Lecun',
-  'Yoshua Bengio']
 
 const typeList = [
   { key: 'expert', name: '专家' },
@@ -84,8 +62,7 @@ const typeList = [
 const appConfig = {
   baseUrl: getBaseUrl(env).baseUrl,
   centerWordMap: centerWordMap,
-  typeList: typeList,
-  centerWordList: centerWordList
+  typeList: typeList
 }
 
 export default appConfig
