@@ -16,7 +16,7 @@ const getBaseUrl = env => {
       }
     case 'qa':
       return {
-        baseUrl: 'http://192.168.200:8899'
+        baseUrl: 'http://192.168.200.199:8899'
       }
     // default: dev
     default:
