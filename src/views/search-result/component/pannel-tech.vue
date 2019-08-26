@@ -9,9 +9,12 @@
 <script>
 export default {
   name: 'PannelTech',
+  props: {
+    list: Array
+  },
   data () {
     return {
-      list: ['Object recognition', 'Supervised learning', 'learning (artificial intelligence)', 'Computer vision']
+      // list: ['Object recognition', 'Supervised learning', 'learning (artificial intelligence)', 'Computer vision']
     }
   }
 
@@ -25,7 +28,7 @@ export default {
     flex-flow: row wrap;
     padding-bottom: 35px;
     li{
-      text-decoration: underline;
+      // text-decoration: underline;
       padding: 15px 25px 0 0;
     }
   }

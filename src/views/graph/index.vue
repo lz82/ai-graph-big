@@ -64,9 +64,11 @@ export default {
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
+      // colorList: ['#a29bfe', '#fab1a0', '#e17055']
+      colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#ded295', '#d6744d', '#4e88af', '#d2907c'], // 图1
       // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
-      colorList: ['#6abdf3', '#49C5FE', '#F4E28F', '#E97383', '#7E48DA', '#8CECB9', '#1E90FF'],
-      rediusList: [100, 80, 50, 40, 20],
+      // colorList: ['#7E48DA', '#6abdf3', '#F4E28F', '#E97383', '#8CECB9', '#4b6ff4', '#3aafb9'],
+      rediusList: [110, 80, 50, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       alphaDecay: 0.0228, // 控制力学模拟衰减率
@@ -136,10 +138,11 @@ export default {
         // .alpha(0.07) // 活力  渲染之后再自动动多久
           .force('link', d3.forceLink().id(data => data.code).distance(data => {
           // 无分支的节点
+            // console.log(data)
             if (data.target.name === '荣誉' || data.target.name === '组织') {
-              return 300
+              return 200
             } else {
-              return 80
+              return data.target.level === 5 ? data.target.level * 20 : data.target.level * 10
             }
           })) // 映射id & 线的长度
           .force('charge', d3.forceManyBody().strength(this.chargeStrength))
@@ -212,11 +215,12 @@ export default {
             return this.rediusList[data.level - 1]
           })
           .attr('fill', d => {
-            return '#10162d'
-            // return this.colorList[d.colorIdx]
+            // return '#10162d'
+            return this.colorList[d.colorIdx]
           })
           .attr('stroke', d => {
-            return this.colorList[d.colorIdx]
+            // return this.colorList[d.colorIdx]
+            return '#fff'
           })
           .attr('stroke-width', '4px')
           .attr('style', 'cursor: pointer;')
@@ -227,11 +231,10 @@ export default {
           }
         }).append('text')
           .attr('style', d => {
-            console.log(d)
             return `cursor: pointer; text-anchor: middle;font-size:${this.fontSizeList[d.level - 1]}px`
           })
           .selectAll('tspan')
-          .data(d => d.name ? d.name.split(' ') : '')
+          .data(d => d.name ? d.name.split('.') : '')
           .join('tspan')
           .attr('fill', '#f1f1f1')
           .attr('x', 0)
@@ -283,7 +286,6 @@ export default {
             return d.level === 5 ? '-15' : '-18'
           })
           .attr('y', d => {
-            console.log(d)
             return d.level === 5 ? '-15' : '-20'
           })
       } catch (error) {

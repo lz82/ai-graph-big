@@ -22,6 +22,14 @@ export default {
 
 }
 </script>
-<style scoped>
-
+<style lang='less' scoped>
+ @import '~@/style/variables.less';
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 35px;
+  li{
+    padding: 15px 25px 0 0;
+  }
+}
 </style>

@@ -41,7 +41,7 @@
       {
         "id": 224535,
         "name": "Swagatam Das",
-        "headImg": "/img/expert_logo/2019-03/SwagatamDas.jpg",
+        "headImg": "/img/expert_logo/2019-03/SwagatamDas.png",
         "institution": "Indian Statistical Institute, Kolkata",
         "subjectArea": null,
         "country": null,
@@ -1246,38 +1246,49 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [
-    {
-      "id": "Periodical_jsjyjyfz200104003",
-      "title": "Web挖掘研究",
-      "summary": "因特网目前是一个巨大、分布广泛、全球性的信息服务中心，它涉及新闻、广告、消费信息、金融",
-      "summaryAll": "因特网目前是一个巨大、分布广泛、全球性的信息服务中心，它涉及新闻、广告、消费信息、金融管理、教育、政府、电子商务和许多其它信息服务.Web包含了丰富和动态的超链接信息，以及Web页面的访问和使用信息，这为数据挖掘提供了丰富的资源.Web挖掘就是从Web文档和Web活动中抽取感兴趣的潜在的有用模式和隐藏的信息.对Web挖掘最新技术及发展方向做了全面分析，包括Web结构挖掘、多层次Web数据仓库方法以及Web Log挖掘等.The World Wide Web serves as huge, widely distributed, global information service center for various applications. Web contains a rich and dynamic collection of hyperlink information and Web page access and usage information, providing rich sources for data mining. The goal of Web mining is to discover the access pattern and hidden information from the huge collection of documents plus hyperlink information, access and usage information. Given in this paper is an overview of Web mining techniques and new trends, mainly involving Web structure mining, a multilayered Web information base building, and Web Log mining.\n",
-      "author": "<mark class=highlight>韩家炜</mark>",
-      "keywords": "TP3,G35,数据挖掘,Web挖掘,Web仓库,WebLog挖掘,Web使用记录挖掘",
-      "citedIndex": 0,
-      "publishDate": "2001-04-20",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "NSTLQK_10.1016-j.jconrel.2011.04.004",
-      "title": "数据挖掘:概念与技术",
-      "summary": "\n\n         ",
-      "summaryAll": "\n\n          ",
-      "author": "<mark class=highlight>韩家炜</mark>",
-      "keywords": "\n\n          ",
-      "citedIndex": 0,
-      "publishDate": "2001-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    }
-  ],
+  "paperVO": [{
+		"title": "STFNets: Learning Sensing Signals from the Time-Frequency Perspective with Short-Time Fourier Neural NetworksEI",
+		"author": "Shuochao Yao, Ailing Piao, Wenjun Jiang, Yiran Zhao, Huajie Shao, Shengzhong Liu, Dongxin Liu, Jinyang Li, Tianshi Wang, Shaohan Hu, ",
+		"publishDate": "2019",
+		"summaryAll": "Recent advances in deep learning motivate the use of deep neural networks in Internet-of-Things (IoT) applications. These networks are modelled after signal processing in the human brain, thereby leading to significant advantages at perceptual tasks such as vision and speech recognition. "
+	},
+	{
+		"title": "Cyberbullying Ends Here: Towards Robust Detection of Cyberbullying in Social MediaEI",
+		"author": "Carl Yang, Huy Hoang Do, Tomas Mikolov, Jiawei Han",
+		"publishDate": "2019",
+		"summaryAll": "The potentially detrimental effects of cyberbullying have led to the development of numerous automated, data-driven approaches, with emphasis on classification accuracy. Cyberbullying, as a form of abusive online behavior, although not well-defined, is a repetitive process, i.e., a sequence of aggressive messages sent from a bully to a victim over a period of time with the intent to harm the victim."
+	},
+	{
+		"title": "Performance Investigation of DFT-Spread OFDM Signal for Short Reach Communication Systems Beyond NG-PON2.EI",
+		"author": "Yupeng Li, Jiawei Han, Xiaonan Zhao",
+		"publishDate": "2019",
+		"summaryAll": "In this paper, we investigate the performance of a discrete Fourier transform (DFT)-spread OFDM signal in an intensity-modulation/direct-detection system. We find that DFT-spread OFDM could reduce the peak-to-average power ratio effectively and hence improve the nonlinearity tolerance."
+	},
+	{
+		"title": "Constructing and Mining Heterogeneous Information Networks from Massive TextEI",
+		"author": "Jingbo Shang, Jiaming Shen, Liyuan Liu, Jiawei Han",
+		"publishDate": "2019",
+		"summaryAll": "Real-world data exists largely in the form of unstructured texts. A grand challenge on data mining research is to develop effective and scalable methods that may transform unstructured text into structured knowledge. Based on our vision, it is highly beneficial to transform such text into structured heterogeneous information networks, on which actionable knowledge can be generated based on the user's need. In this tutorial, we provide a comprehensive overview on recent research and development in this direction. "
+	},
+	{
+		"title": "Annotating gene sets by mining large literature collections with protein networks.WOSEI",
+		"author": "Wang Sheng, Ma Jianzhu, Yu Michael Ku, Zheng Fan, Huang Edward W, Han Jiawei, Peng Jian, Ideker Trey",
+		"publishDate": "2018",
+		"summaryAll": "Analysis of patient genomes and transcriptomes routinely recognizes new gene sets associated with human disease. Here we present an integrative natural language processing system which infers common functions for a gene set through automatic mining of the scientific literature with biological networks. This system links genes with associated literature phrases and combines these links with protein interactions in a single heterogeneous network."
+	},
+	{
+		"title": "Towards Quality Aware Information Integration in Distributed Sensing Systems.EI",
+		"author": "Wenjun Jiang, Chenglin Miao, Lu Su, Qi Li, Shaohan Hu, Shiguang Wang, Jing Gao, Hengchang Liu, Tarek F. Abdelzaher, Jiawei Han, ",
+		"publishDate": "2018",
+		"summaryAll": "In this paper, we present GDA, a generalized decision aggregation framework that integrates information from distributed sensor nodes for decision making in a resource efficient manner. Different from traditional approaches, our proposed GDA framework is able to not only estimate the reliability of each sensor, but also take advantage of its confidence information, and thus achieves higher decision accuracy. "
+	},
+	{
+		"title": "SHINE+: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks.EI",
+		"author": "Wei Shen, Jiawei Han, Jianyong Wang, Xiaojie Yuan, Zhenglu Yang",
+		"publishDate": "2018",
+		"summaryAll": "Heterogeneous information networks that consist of multi-type, interconnected objects are becoming increasingly popular, such as social media networks and bibliographic networks. The task of linking named entity mentions detected from unstructured Web text with their corresponding entities in a heterogeneous information network is of practical importance for the problem of information network population."
+	}
+],
   "patentVO": null,
   "bookVO": [],
   "standardVO": [
