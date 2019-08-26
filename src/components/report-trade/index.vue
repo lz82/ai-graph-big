@@ -136,7 +136,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|4.64}\n{title|电子商务}'
+                    return '{num|4.64%}\n{title|电子商务}'
                   },
                   rich: rich
                 }
