@@ -44,7 +44,8 @@ export default {
         margin-top: 15px;
         img{
           width: 85px;
-          height: 100px;
+          // height: 100px;
+          object-fit: cover;
         }
         .expert-info{
           padding-left: 25px;

@@ -76,6 +76,7 @@ export default {
       width: 130px;
       height: 150px;
       border-radius: 5px;
+      object-fit: cover;
     }
     // wiki data
     .wiki-data{
