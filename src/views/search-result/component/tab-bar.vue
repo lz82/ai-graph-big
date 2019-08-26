@@ -125,7 +125,7 @@ export default {
   overflow-x: hidden;
   padding: 5px 8px 5px 0px;
   .conItem li {
-    width: 410px;
+    width: 405px;
     height: 140px;
     border: 1px solid #4b6ff4;
     border-radius: 5px;
