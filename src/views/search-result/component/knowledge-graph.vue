@@ -160,7 +160,11 @@ export default {
           // .text(data => data.name)
           .attr('style', 'cursor: pointer; text-anchor: middle;font-size:22px')
           .selectAll('tspan')
-          .data(d => d.name ? d.name.split(' ') : '')
+          .data(d => {
+            if (d.name) {
+              return d.name === '机构' ? '组织'.split(' ') : d.name.split(' ')
+            }
+          })
           .join('tspan')
           .attr('fill', '#f1f1f1')
           .attr('x', 0)

@@ -214,7 +214,7 @@ export default {
         },
         {
           // SebastianThrun
-          text: 'SebastianThrun',
+          text: 'Sebastian Thrun',
           img: tagSt,
           url: '/search/Sebastian Thrun'
         },
@@ -263,10 +263,10 @@ export default {
           url: '/search/机器翻译'
         },
         {
-          // 可解释人工智能
-          text: '可解释人工智能',
+          // 可解释性
+          text: '可解释性',
           img: tagKjsrgzn,
-          url: '/search/可解释人工智能'
+          url: '/search/可解释性'
         },
         {
           // 目标检测

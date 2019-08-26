@@ -921,37 +921,37 @@
 	{
 		"title": "Unsupervised Discovery of Parts, Structure, and Dynamics.EI",
 		"author": "Zhenjia Xu, Zhijian Liu, Chen Sun, Kevin Murphy, William T. Freeman, Joshua B. Tenenbaum, Jiajun Wu",
-		"publishDate": "CoRR(2019)",
+		"publishDate": "2019",
 		"summaryAll": "Humans easily recognize object parts and their hierarchical structure by watching how they move; they can then predict how each part moves in the future. In this paper, we propose a novel formulation that simultaneously learns a hierarchical, disentangled object representation and a dynamics model for object parts from unlabeled videos. "
 	},
 	{
 		"title": "Visualizing and Understanding Generative Adversarial Networks (Extended Abstract).EI",
 		"author": "David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba",
-		"publishDate": "CoRR(2019)",
+		"publishDate": "2019",
 		"summaryAll": "Generative Adversarial Networks (GANs) have achieved impressive results for many real-world applications. As an active research topic, many GAN variants have emerged with improvements in sample quality and training stability. However, visualization and understanding of GANs is largely missing. How does a GAN represent our visual world internally? What causes the artifacts in GAN results? How do architectural choices affect GAN learning? Answering such questions could enable us to develop new insights and better models. "
 	},
 	{
 		"title": "Cognitive Load Estimation in the Wild.EI",
 		"author": "Lex Fridman, Bryan Reimer, Bruce Mehler, William T. Freeman",
-		"publishDate": "CHI(2018)",
+		"publishDate": "2018",
 		"summaryAll": "Cognitive load has been shown, over hundreds of validated studies, to be an important variable for understanding human performance. However, establishing practical, non-contact approaches for automated estimation of cognitive load under real-world conditions is far from a solved problem. Toward the goal of designing such a system, we propose two novel vision-based methods for cognitive load estimation, and evaluate them on a large-scale dataset collected under real-world driving conditions. "
 	},
 	{
 		"title": "3D Interpreter Networks for Viewer-Centered Wireframe Modeling.EI",
 		"author": "Jiajun Wu, Tianfan Xue, Joseph J. Lim, Yuandong Tian, Joshua B. Tenenbaum, Antonio Torralba, William T. Freeman",
-		"publishDate": "International Journal of Computer Vision(2018)",
+		"publishDate": "2018",
 		"summaryAll": "Understanding 3D object structure from a single image is an important but challenging task in computer vision, mostly due to the lack of 3D object annotations to real images. Previous research tackled this problem by either searching for a 3D shape that best explains 2D annotations, or training purely on synthetic data with ground truth 3D information. In this work, we propose 3D INterpreter Networks (3D-INN), an end-to-end trainable framework that sequentially estimates 2D keypoint heatmaps and 3D object skeletons and poses. "
 	},
 	{
 		"title": "Learning-based Video Motion Magnification.EI",
 		"author": "Tae-Hyun Oh, Ronnachai Jaroensri, Changil Kim, Mohamed A. Elgharib, Frédo Durand, William T. Freeman, Wojciech Matusik",
-		"publishDate": "ECCV(2018)",
+		"publishDate": "2018",
 		"summaryAll": "Video motion magnification techniques allow us to see small motions previously invisible to the naked eyes, such as those of vibrating airplane wings, or swaying buildings under the influence of the wind. Because the motion is small, the magnification results are prone to noise or excessive blurring. The state of the art relies on hand-designed filters to extract representations that may not be optimal. In this paper, we seek to learn the filters directly from examples using deep convolutional neural networks."
 	},
 	{
 		"title": "Looking to Listen at the Cocktail Party: A Speaker-Independent Audio-Visual Model for Speech Separation.EI",
 		"author": "Ariel Ephrat, Inbar Mosseri, Oran Lang, Tali Dekel, Kevin Wilson, Avinatan Hassidim, William T. Freeman, Michael Rubinstein",
-		"publishDate": "ACM Trans. Graph.(2018)",
+		"publishDate": "2018",
 		"summaryAll": "We present a joint audio-visual model for isolating a single speech signal from a mixture of sounds such as other speakers and background noise. Solving this task using only audio as input is extremely challenging and does not provide an association of the separated speech signals with speakers in the video."
 	}
 ],

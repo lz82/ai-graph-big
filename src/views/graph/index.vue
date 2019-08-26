@@ -57,7 +57,7 @@ export default {
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 1160,
+      svgW: 1920,
       svgH: 1060,
       links: null,
       nodes: null,
@@ -148,13 +148,13 @@ export default {
           .force('charge', d3.forceManyBody().strength(this.chargeStrength))
           .force('xPos', d3.forceX(this.svgW / 2))
           .force('yPos', d3.forceY(this.svgH / 2))
-          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
+          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 2))
           .force('collide', d3.forceCollide(d => {
-            if (d.name === this.keyword) {
-              d.fx = this.svgW / 2 // 设置特定节点固定x坐标
+            if (d.name === this.keyword && d.level === 1) {
+              d.fx = this.svgW / 5 // 设置特定节点固定x坐标
               d.fy = this.svgH / 2.5
             }
-            return 135 - d.level * 20
+            return 130 - d.level * 20
           }))
       } catch (error) {
         console.log('initSvgContainer===' + error)
@@ -224,7 +224,7 @@ export default {
           })
           .attr('stroke-width', '4px')
           .attr('style', 'cursor: pointer;')
-
+          .attr('nodeTest', d => JSON.stringify(d))
         gs.filter(d => {
           if (d.level && d.level < 4) {
             return this
@@ -234,7 +234,15 @@ export default {
             return `cursor: pointer; text-anchor: middle;font-size:${this.fontSizeList[d.level - 1]}px`
           })
           .selectAll('tspan')
-          .data(d => d.name ? d.name.split('.') : '')
+          .data(d => {
+            if (d.name) {
+              if (d.name.includes('.')) {
+                return d.name.split('.')
+              } else {
+                return d.name.split(' ')
+              }
+            }
+          })
           .join('tspan')
           .attr('fill', '#f1f1f1')
           .attr('x', 0)
@@ -257,7 +265,11 @@ export default {
           }
         }).append('image')
           .attr('href', d => {
-            return this[`${d.type}Ico`]
+            if (d.name === '专利') {
+              return this.patentIco
+            } else {
+              return this[`${d.type}Ico`]
+            }
           })
           .attr('width', d => {
             return `${this.fontSizeList[d.level] * 2}px`
@@ -274,7 +286,11 @@ export default {
           }
         }).append('image')
           .attr('href', d => {
-            return this[`${d.type}Ico`]
+            if (d.name === '专利') {
+              return this.patentIco
+            } else {
+              return this[`${d.type}Ico`]
+            }
           })
           .attr('width', d => {
             return `${this.fontSizeList[d.level] * 2}px`
@@ -385,6 +401,7 @@ export default {
       justify-content: center;
     }
     .graph-side{
+      position: absolute;
       color: #fff;
       margin-top: 60px;
       border-radius: 5px;
@@ -403,6 +420,8 @@ export default {
     }
     .side-right{
       width: 450px;
+      position: absolute;
+      right: 0;
       .side-right-con{
         padding: 0px 30px 5px;
         border-radius: 5px;
@@ -412,7 +431,7 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1160px;
+      width: 1920px;
       height: 100%;
     }
   }
