@@ -8,6 +8,7 @@
         <tab-bar v-if="result"
           :tabContent='result'
           :keyword='keyword'
+          :type='type'
           :class="{'tab-wrap-expert':isExpert(),'tab-wrap-key':!isExpert()}">
         </tab-bar>
       </div>
@@ -107,6 +108,8 @@ export default {
         if (data) {
           // console.log(data)
           this.result = data
+          this.type = data.mapVO.nodes[0].type
+          console.log(this.type)
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -135,6 +138,20 @@ export default {
           return param + '<span class="subTitle"> Recurrent Neural Networks</span>'
         case '支持向量机':
           return param + '<span class="subTitle"> Support Vector Machine（SVM）</span>'
+        case '度量学习':
+          return param + '<span class="subTitle"> Metric Learning</span>'
+        case '机器翻译':
+          return param + '<span class="subTitle"> Machine Translation</span>'
+        case '可解释性':
+          return param + '<span class="subTitle"> Interpretability</span>'
+        case '目标检测':
+          return param + '<span class="subTitle"> Object Detection</span>'
+        case '人脸识别':
+          return param + '<span class="subTitle"> Face Recognition</span>'
+        case '推荐系统':
+          return param + '<span class="subTitle"> Recommender System</span>'
+        case '无人驾驶':
+          return param + '<span class="subTitle"> Autonomous Vehicle</span>'
         default:
           return param
       }
@@ -143,7 +160,6 @@ export default {
 
   computed: {
     getTitle () {
-      console.log(this.type)
       return this.result && this.result.expertVO ? '专家信息' : this.getSubTitle(this.keyword)
     },
     showRelatedExpert () {

@@ -2,7 +2,7 @@
   <div class="relate-subject-wrapper">
     <h3 class="comm-title">{{title}}</h3>
     <ul>
-      <li v-for="item in list" :key="item" @click="goSearch(item)">{{item}}</li>
+      <li v-for="item in list" :key="item">{{item}}</li>
     </ul>
   </div>
 </template>
@@ -43,7 +43,7 @@ export default {
     ul {
       margin-bottom: 25px;
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: column wrap;
       li {
         font-size: 16px;
         color: #fff;
