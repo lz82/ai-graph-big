@@ -32,7 +32,7 @@
             <h4 class="title sub">人工智能</h4>
             <h3 class="title">{{item.title}}</h3>
             <div class="img-container">
-              <img :src="r1" alt="" width="450px">
+              <img :src="item.pic" alt="" width="350px">
             </div>
           </div>
         </swiper-slide>
@@ -53,10 +53,13 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
 import { mapMutations } from 'vuex'
 
-import picEnterprise from './img/enterprise.png'
-import picTalent from './img/talent.png'
-import picInvest from './img/invest.png'
-import r1 from './img/r1.png'
+// import picEnterprise from './img/enterprise.png'
+// import picTalent from './img/talent.png'
+// import picInvest from './img/invest.png'
+// import r1 from './img/r1.png'
+import re from './img/re.png'
+import rt from './img/rt.png'
+import ri from './img/ri.png'
 
 export default {
   name: 'Category',
@@ -70,26 +73,23 @@ export default {
 
   data () {
     return {
-      picEnterprise: picEnterprise,
-      picTalent: picTalent,
-      r1: r1,
       cardList: [
         {
           id: 1,
           title: '企业发展',
-          pic: picEnterprise,
+          pic: re,
           url: '/report/enterprise'
         },
         {
           id: 2,
           title: '人才技术发展',
-          pic: picTalent,
+          pic: rt,
           url: '/report/talent'
         },
         {
           id: 3,
           title: '投资分布',
-          pic: picInvest,
+          pic: ri,
           url: '/report/invest'
         }
       ],
@@ -203,6 +203,14 @@ export default {
           &.sub {
             font-size: 28px;
           }
+        }
+
+        .img-container {
+          display: flex;
+          flex-flow: column nowrap;
+          height: 500px;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
