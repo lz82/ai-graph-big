@@ -44,7 +44,7 @@ export default {
         grid: {
           left: '10px',
           top: '20px',
-          right: '10px',
+          right: '20px',
           bottom: '20px'
         },
         legend: {
@@ -107,10 +107,13 @@ export default {
           stack: 'total',
           label: {
             show: true,
-            formatter: '{c}',
+            formatter: '{c}\n',
             position: 'right'
+            // padding: [250, 0, 250, 0]
+            // lineHeight: 56
           },
           barWidth: '35px',
+          barMinHeight: 10,
           data: item.data
         }
       })
