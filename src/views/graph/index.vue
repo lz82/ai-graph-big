@@ -64,12 +64,9 @@ export default {
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
-      // colorList: ['#a29bfe', '#fab1a0', '#e17055']
-      // colorList: ['#ac92ec', '#4dc1e6'],
       // colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#a29bfe', '#d6744d', '#4e88af', '#d2907c'], // 图1
-      colorList: ['#6abdf3', '#a0d468', '#ca635f', '#ac92ec', '#d6744d', '#4e88af', '#d2907c'], // 图1
-      // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
-      // colorList: ['#7E48DA', '#6abdf3', '#F4E28F', '#E97383', '#8CECB9', '#4b6ff4', '#3aafb9'],
+      // colorList: ['#6abdf3', '#a0d468', '#ca635f', '#ac92ec', '#d6744d', '#4e88af', '#d2907c'], // 图2, 紫4、绿2、橘色5、青灰6
+      colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'], // 图3
       rediusList: [110, 80, 50, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
@@ -98,7 +95,7 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          console.log(temp)
+          // console.log(temp)
           this.nodes = temp.mapInfo.nodes
           this.links = temp.mapInfo.relations
         }
@@ -144,7 +141,7 @@ export default {
             if (data.target.name === '荣誉' || data.target.name === '组织') {
               return 200
             } else {
-              return data.target.level === 5 ? data.target.level * 20 : data.target.level * 10
+              return data.target.level === 5 ? data.target.level * 22 : data.target.level * 8
             }
           })) // 映射id & 线的长度
           .force('charge', d3.forceManyBody().strength(this.chargeStrength))
@@ -221,8 +218,8 @@ export default {
             return this.colorList[d.colorIdx]
           })
           .attr('stroke', d => {
-            // return this.colorList[d.colorIdx]
-            return '#fff'
+            return this.colorList[d.colorIdx]
+            // return '#fff'
           })
           .attr('stroke-width', '4px')
           .attr('style', 'cursor: pointer;')
