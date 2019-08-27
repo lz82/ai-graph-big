@@ -135,12 +135,6 @@ export default {
     margin-bottom: 15px;
     letter-spacing: 1px;
     box-sizing: border-box;
-    .paper-author{
-      width: 200px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
   }
   .conItem li h3 {
     font-size: 16px;

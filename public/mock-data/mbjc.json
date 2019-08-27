@@ -36,6 +36,302 @@
   "mapInfo": {
     "nodes": [
       {
+        "id": 48,
+        "code": 47,
+        "name": "谭铁牛",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。",
+        "layoutList": [
+          "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。"
+        ]
+      },
+      {
+        "id": 49,
+        "code": 48,
+        "name": "卷积神经网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 50,
+        "code": 49,
+        "name": "物体识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 51,
+        "code": 50,
+        "name": "人脸识别",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 52,
+        "code": 51,
+        "name": "物体检测",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 53,
+        "code": 52,
+        "name": "Andrea Vedaldi",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 54,
+        "code": 53,
+        "name": "Alison Noble",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 55,
+        "code": 54,
+        "name": "David A. Forsyth",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 56,
+        "code": 55,
+        "name": "Joseph L. Mundy",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 57,
+        "code": 56,
+        "name": "Zhenan Sun",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 58,
+        "code": 57,
+        "name": "Xiang Wu",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 59,
+        "code": 58,
+        "name": "Kaiqi Huang",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Ran He",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "Query expansion for VHR image detection/Mining large satellite image repositories using semi-supervised methods/Underground object detection based on cross correlation and Hough transform/Object detection by parts using appearance, structural and shape features/Finding objects at indoor environment combined with depth information/IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition/Improving sub-pixel accuracy for long range stereo",
+        "layoutList": [
+          "Query expansion for VHR image detection",
+          "Mining large satellite image repositories using semi-supervised methods",
+          "Underground object detection based on cross correlation and Hough transform",
+          "Object detection by parts using appearance, structural and shape features",
+          "Finding objects at indoor environment combined with depth information",
+          "IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition",
+          "Improving sub-pixel accuracy for long range stereo"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "目标检测",
+        "layout": "一种运动目标检测方法及装置/基于小波降噪的LS-SVM海面小目标检测的方法/基于增强约束稀疏回归的半监督高光谱亚像元目标检测法/基于角点高斯特性分析的红外小目标检测方法/基于纹理和运动模式融合的运动目标检测算法/一种基于混合高斯模型的运动目标检测方法/基于稀疏表示和视皮层注意机制的目标检测方法",
+        "layoutList": [
+          "一种运动目标检测方法及装置",
+          "基于小波降噪的LS-SVM海面小目标检测的方法",
+          "基于增强约束稀疏回归的半监督高光谱亚像元目标检测法",
+          "基于角点高斯特性分析的红外小目标检测方法",
+          "基于纹理和运动模式融合的运动目标检测算法",
+          "一种基于混合高斯模型的运动目标检测方法",
+          "基于稀疏表示和视皮层注意机制的目标检测方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "Face recognition using a fusion method based on bidirectional 2DPCA/Face recognition based on two subspaces linear discriminant analysis/Minimum Bayes error features for visual recognition/Subspace manifold learning with sample weights/A critical band of phase alignment for discrimination but not recognition of human faces/The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration/Face recognition using spatially constrained earth mover's distance",
+        "layoutList": [
+          "Face recognition using a fusion method based on bidirectional 2DPCA",
+          "Face recognition based on two subspaces linear discriminant analysis",
+          "Minimum Bayes error features for visual recognition",
+          "Subspace manifold learning with sample weights",
+          "A critical band of phase alignment for discrimination but not recognition of human faces",
+          "The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration",
+          "Face recognition using spatially constrained earth mover's distance"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "目标检测",
+        "layout": "一种基于双目摄像头的智能电视人脸识别方法/一种基于局部对比模式的人脸识别方法/基于图像传感器成像系统的人脸识别算法/基于分布式压缩传感的近红外与可见光图像人脸识别方法/一种基于子空间的增量学习人脸识别方法/基于多尺度韦伯局部特征和分层决策融合的人脸识别方法/结合生物特征与局部图像特征的并行人脸识别方法",
+        "layoutList": [
+          "一种基于双目摄像头的智能电视人脸识别方法",
+          "一种基于局部对比模式的人脸识别方法",
+          "基于图像传感器成像系统的人脸识别算法",
+          "基于分布式压缩传感的近红外与可见光图像人脸识别方法",
+          "一种基于子空间的增量学习人脸识别方法",
+          "基于多尺度韦伯局部特征和分层决策融合的人脸识别方法",
+          "结合生物特征与局部图像特征的并行人脸识别方法"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "Extraction of the sonogram indices with mathematical morphology/Improved multiresolution sequential edge linking and its application in medical image/Study on a fast method for sub-pixel edge detection/An Efficient Automatic Video Segmentation Method Based on Intersection of Frame Differences/Measurement of swollen volume of polymer melt due to gas dissolution/Algorithm for image edge detection based on two-dimension continuous wavelet transform/Feature extraction for structured surface based on surface networks and edge detection",
+        "layoutList": [
+          "Extraction of the sonogram indices with mathematical morphology",
+          "Improved multiresolution sequential edge linking and its application in medical image",
+          "Study on a fast method for sub-pixel edge detection",
+          "An Efficient Automatic Video Segmentation Method Based on Intersection of Frame Differences",
+          "Measurement of swollen volume of polymer melt due to gas dissolution",
+          "Algorithm for image edge detection based on two-dimension continuous wavelet transform",
+          "Feature extraction for structured surface based on surface networks and edge detection"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "目标检测",
+        "layout": "一种音圈马达磁体边缘检测方法/基于窗口改进的多级中值滤波的图像边缘检测方法/一种数学形态学和LoG算子结合的边缘检测算法/一种基于特定类灰度图像的边缘检测方法/一种基于亚像素边缘检测的四一七条码识别方法/挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法",
+        "layoutList": [
+          "一种音圈马达磁体边缘检测方法",
+          "基于窗口改进的多级中值滤波的图像边缘检测方法",
+          "一种数学形态学和LoG算子结合的边缘检测算法",
+          "一种基于特定类灰度图像的边缘检测方法",
+          "一种基于亚像素边缘检测的四一七条码识别方法",
+          "挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法"
+        ]
+      },
+      {
+        "id": 67,
+        "code": 66,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy/Evenness control of rapier loom tension by using neural network/Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation/A neural network ensemble method with jittered training data for time series forecasting/Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process/Computational intelligence in photonics technology and optical networks: A survey and future perspectives/Polarized DIS structure functions from neural networks",
+        "layoutList": [
+          "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy",
+          "Evenness control of rapier loom tension by using neural network",
+          "Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation",
+          "A neural network ensemble method with jittered training data for time series forecasting",
+          "Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process",
+          "Computational intelligence in photonics technology and optical networks: A survey and future perspectives",
+          "Polarized DIS structure functions from neural networks"
+        ]
+      },
+      {
+        "id": 68,
+        "code": 67,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "目标检测",
+        "layout": "基于人工神经网络模型超声造影特征自动识别系统及方法/基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台/结合卷积神经网络和概念机递归神经网络的图像分类方法/神经网络训练方法、神经网络系统和计算机系统/基于多重孪生神经网络与区域神经网络的目标跟踪方法/神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序/卷积神经网络和脉冲神经网络的融合结构及方法",
+        "layoutList": [
+          "基于人工神经网络模型超声造影特征自动识别系统及方法",
+          "基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台",
+          "结合卷积神经网络和概念机递归神经网络的图像分类方法",
+          "神经网络训练方法、神经网络系统和计算机系统",
+          "基于多重孪生神经网络与区域神经网络的目标跟踪方法",
+          "神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序",
+          "卷积神经网络和脉冲神经网络的融合结构及方法"
+        ]
+      },
+      {
         "id": 1,
         "code": 0,
         "name": "目标检测",
@@ -573,298 +869,59 @@
         "layoutList": [
           "（1957年出生）是一位英国计算机科学家和牛津大学教授，以及计算机视觉研究人员。截至2014年，他与Deepad有关联。"
         ]
-      },
-      {
-        "id": 48,
-        "code": 47,
-        "name": "谭铁牛",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。",
-        "layoutList": [
-          "谭铁牛，男， 1964 年生，研究员、博士生导师，中国科学院院士。中国科学技术大学兼职教授。1984 年获西安交通大学学士学位，1986 年和1989 年分别获英国伦敦大学帝国理工学院硕士与博士学位。 1989-1997 年在英国 Reading 大学计算机科学系工作，历任该系博士后研究员、高级研究员和讲师 (lecturer) 研究员。研究方向：图象处理、计算机视觉和模式识别。曾担任中国科学院自动化研究所所长、中国科学技术大学自动化系主任等职务。2013年当选中国科学院院士。现任中国科学院副院长。在国内外重要学术期刊和国际学术会议上已发表论文 250 多篇 , 获准和申请专利20项。主持多项由 973 计划、 863 计划、国家自然科学基金委、国家杰出青年科学基金以及国际合作等资助的科研项目。曾当选为中科院十大杰出青年，获得中科院盈科优秀青年学者奖、中国青年五四奖章。现为 IEEE Fellow ，还担任中国图象图形学会常务副理事长、中国计算机学会和中国自动化学会副理事长、国家高技术研究发展计划（ 863 计划）信息技术领域专家委员会成员、国际权威期刊《 Pattern Recognition 》和《 Image and Vision Computing 》以及国内核心期刊《自动化学报》和《中国图象图形学报》等多种刊物的副主编或编委。作为 IEEE 北京分会副主席和 IEEE 国际视觉监控系列研讨会创始人与会议主席 , 为众多的国际学术会议和国际学术期刊担当审稿人。是全国青联常委、中央国家机关青联副主席、中科院青年联合会主席、欧美同学会理事留英分会副会长、中国青年科技工作者协会副会长。"
-        ]
-      },
-      {
-        "id": 49,
-        "code": 48,
-        "name": "卷积神经网络",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 50,
-        "code": 49,
-        "name": "物体识别",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 51,
-        "code": 50,
-        "name": "人脸识别",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 52,
-        "code": 51,
-        "name": "物体检测",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 53,
-        "code": 52,
-        "name": "Andrea Vedaldi",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 54,
-        "code": 53,
-        "name": "Alison Noble",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 55,
-        "code": 54,
-        "name": "David A. Forsyth",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 56,
-        "code": 55,
-        "name": "Joseph L. Mundy",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 57,
-        "code": 56,
-        "name": "Zhenan Sun",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 58,
-        "code": 57,
-        "name": "Xiang Wu",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 59,
-        "code": 58,
-        "name": "Kaiqi Huang",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 60,
-        "code": 59,
-        "name": "Ran He",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 61,
-        "code": 60,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "目标检测",
-        "layout": "Query expansion for VHR image detection/Mining large satellite image repositories using semi-supervised methods/Underground object detection based on cross correlation and Hough transform\nObject detection by parts using appearance, structural and shape features/Finding objects at indoor environment combined with depth information/IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition/Improving sub-pixel accuracy for long range stereo",
-        "layoutList": [
-          "Query expansion for VHR image detection",
-          "Mining large satellite image repositories using semi-supervised methods",
-          "Underground object detection based on cross correlation and Hough transform\nObject detection by parts using appearance, structural and shape features",
-          "Finding objects at indoor environment combined with depth information",
-          "IAIR-CarPed: A psychophysically annotated dataset with fine-grained and layered semantic labels for object recognition",
-          "Improving sub-pixel accuracy for long range stereo"
-        ]
-      },
-      {
-        "id": 62,
-        "code": 61,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "目标检测",
-        "layout": "一种运动目标检测方法及装置/基于小波降噪的LS-SVM海面小目标检测的方法/基于增强约束稀疏回归的半监督高光谱亚像元目标检测法/基于角点高斯特性分析的红外小目标检测方法/基于纹理和运动模式融合的运动目标检测算法/一种基于混合高斯模型的运动目标检测方法/基于稀疏表示和视皮层注意机制的目标检测方法",
-        "layoutList": [
-          "一种运动目标检测方法及装置",
-          "基于小波降噪的LS-SVM海面小目标检测的方法",
-          "基于增强约束稀疏回归的半监督高光谱亚像元目标检测法",
-          "基于角点高斯特性分析的红外小目标检测方法",
-          "基于纹理和运动模式融合的运动目标检测算法",
-          "一种基于混合高斯模型的运动目标检测方法",
-          "基于稀疏表示和视皮层注意机制的目标检测方法"
-        ]
-      },
-      {
-        "id": 63,
-        "code": 62,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "目标检测",
-        "layout": "Face recognition using a fusion method based on bidirectional 2DPCA/Face recognition based on two subspaces linear discriminant analysis/Minimum Bayes error features for visual recognition/Subspace manifold learning with sample weights\nA critical band of phase alignment for discrimination but not recognition of human faces/The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration/Face recognition using spatially constrained earth mover's distance",
-        "layoutList": [
-          "Face recognition using a fusion method based on bidirectional 2DPCA",
-          "Face recognition based on two subspaces linear discriminant analysis",
-          "Minimum Bayes error features for visual recognition",
-          "Subspace manifold learning with sample weights\nA critical band of phase alignment for discrimination but not recognition of human faces",
-          "The Effects of Face Inversion on the Perception of Long-Range and Local Spatial Relations in Eye and Mouth Configuration",
-          "Face recognition using spatially constrained earth mover's distance"
-        ]
-      },
-      {
-        "id": 64,
-        "code": 63,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "目标检测",
-        "layout": "一种基于双目摄像头的智能电视人脸识别方法/一种基于局部对比模式的人脸识别方法/基于图像传感器成像系统的人脸识别算法/基于分布式压缩传感的近红外与可见光图像人脸识别方法/一种基于子空间的增量学习人脸识别方法/基于多尺度韦伯局部特征和分层决策融合的人脸识别方法/结合生物特征与局部图像特征的并行人脸识别方法",
-        "layoutList": [
-          "一种基于双目摄像头的智能电视人脸识别方法",
-          "一种基于局部对比模式的人脸识别方法",
-          "基于图像传感器成像系统的人脸识别算法",
-          "基于分布式压缩传感的近红外与可见光图像人脸识别方法",
-          "一种基于子空间的增量学习人脸识别方法",
-          "基于多尺度韦伯局部特征和分层决策融合的人脸识别方法",
-          "结合生物特征与局部图像特征的并行人脸识别方法"
-        ]
-      },
-      {
-        "id": 65,
-        "code": 64,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "目标检测",
-        "layout": "Extraction of the sonogram indices with mathematical morphology\nImproved multiresolution sequential edge linking and its application in medical image/Study on a fast method for sub-pixel edge detection/An Efficient Automatic Video Segmentation /ethod Based on Intersection of Frame Differences/Measurement of swollen volume of polymer melt due to gas dissolution/Algorithm for image edge detection based on two-dimension continuous wavelet transform/Feature extraction for structured surface based on surface networks and edge detection",
-        "layoutList": [
-          "Extraction of the sonogram indices with mathematical morphology\nImproved multiresolution sequential edge linking and its application in medical image",
-          "Study on a fast method for sub-pixel edge detection",
-          "An Efficient Automatic Video Segmentation ",
-          "ethod Based on Intersection of Frame Differences",
-          "Measurement of swollen volume of polymer melt due to gas dissolution",
-          "Algorithm for image edge detection based on two-dimension continuous wavelet transform",
-          "Feature extraction for structured surface based on surface networks and edge detection"
-        ]
-      },
-      {
-        "id": 66,
-        "code": 65,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "目标检测",
-        "layout": "一种音圈马达磁体边缘检测方法\n基于窗口改进的多级中值滤波的图像边缘检测方法\n一种数学形态学和LoG算子结合的边缘检测算法\n一种基于特定类灰度图像的边缘检测方法\n一种基于亚像素边缘检测的四一七条码识别方法\n挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法",
-        "layoutList": [
-          "一种音圈马达磁体边缘检测方法\n基于窗口改进的多级中值滤波的图像边缘检测方法\n一种数学形态学和LoG算子结合的边缘检测算法\n一种基于特定类灰度图像的边缘检测方法\n一种基于亚像素边缘检测的四一七条码识别方法\n挡风玻璃边缘检测传感器\n基于directionlet变换的彩色图像边缘检测方法"
-        ]
-      },
-      {
-        "id": 67,
-        "code": 66,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy/Evenness control of rapier loom tension by using neural network/Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation/A neural network ensemble method with jittered training data for time series forecasting/Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process/Computational intelligence in photonics technology and optical networks: A survey and future perspectives/Polarized DIS structure functions from neural networks",
-        "layoutList": [
-          "Multilevel structure in behaviour and in the brain: A model of Fuster's hierarchy",
-          "Evenness control of rapier loom tension by using neural network",
-          "Application of genetic algorithm for self adaptation, symmetry and congruity in reservoir mid-long hydraulic power operation",
-          "A neural network ensemble method with jittered training data for time series forecasting",
-          "Mining the fuzzy control rules of aeration in a Submerged Biofilm Wastewater Treatment Process",
-          "Computational intelligence in photonics technology and optical networks: A survey and future perspectives",
-          "Polarized DIS structure functions from neural networks"
-        ]
-      },
-      {
-        "id": 68,
-        "code": 67,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "目标检测",
-        "layout": "基于人工神经网络模型超声造影特征自动识别系统及方法/基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台/结合卷积神经网络和概念机递归神经网络的图像分类方法/神经网络训练方法、神经网络系统和计算机系统/基于多重孪生神经网络与区域神经网络的目标跟踪方法/神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序/卷积神经网络和脉冲神经网络的融合结构及方法",
-        "layoutList": [
-          "基于人工神经网络模型超声造影特征自动识别系统及方法",
-          "基于最优结构搜索的神经网络动态加速平台设计方法及神经网络动态加速平台",
-          "结合卷积神经网络和概念机递归神经网络的图像分类方法",
-          "神经网络训练方法、神经网络系统和计算机系统",
-          "基于多重孪生神经网络与区域神经网络的目标跟踪方法",
-          "神经网络电路装置、神经网络、神经网络处理方法及神经网络的执行程序",
-          "卷积神经网络和脉冲神经网络的融合结构及方法"
-        ]
       }
     ],
     "relations": [
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
+      },
       {
         "id": 1,
         "source": 0,
@@ -1149,59 +1206,8 @@
         "id": 49,
         "source": 46,
         "target": 49
-      },
-      {
-        "id": 50,
-        "source": 47,
-        "target": 50
-      },
-      {
-        "id": 51,
-        "source": 47,
-        "target": 51
-      },
-      {
-        "id": 52,
-        "source": 48,
-        "target": 52
-      },
-      {
-        "id": 53,
-        "source": 48,
-        "target": 53
-      },
-      {
-        "id": 54,
-        "source": 49,
-        "target": 54
-      },
-      {
-        "id": 55,
-        "source": 49,
-        "target": 55
-      },
-      {
-        "id": 56,
-        "source": 50,
-        "target": 56
-      },
-      {
-        "id": 57,
-        "source": 50,
-        "target": 57
-      },
-      {
-        "id": 58,
-        "source": 51,
-        "target": 58
-      },
-      {
-        "id": 59,
-        "source": 51,
-        "target": 59
       }
     ]
- 
   ,
     "expertReco": null,
     "subjectReco": null,

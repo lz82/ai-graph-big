@@ -95,7 +95,7 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          // console.log(temp)
+          console.log(temp)
           this.nodes = temp.mapInfo.nodes
           this.links = temp.mapInfo.relations
         }

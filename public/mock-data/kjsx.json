@@ -29,412 +29,6 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": 33,
-        "code": 32,
-        "name": "Sebastian Thrun",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
-        "layoutList": [
-          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
-        ]
-      },
-      {
-        "id": 34,
-        "code": 33,
-        "name": "Christos Faloutsos",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。",
-        "layoutList": [
-          "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。"
-        ]
-      },
-      {
-        "id": 35,
-        "code": 34,
-        "name": "回归网络",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 36,
-        "code": 35,
-        "name": "机器人",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 37,
-        "code": 36,
-        "name": "知识图谱",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 38,
-        "code": 37,
-        "name": "数据挖掘",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 39,
-        "code": 38,
-        "name": "Silvio Savarese",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 40,
-        "code": 39,
-        "name": "David Held",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 41,
-        "code": 40,
-        "name": "Armin B. Cremers",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 42,
-        "code": 41,
-        "name": "Dieter Fox",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 43,
-        "code": 42,
-        "name": "Namyong Park",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 44,
-        "code": 43,
-        "name": "Xin Luna Dong",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 45,
-        "code": 44,
-        "name": "Evangelos E. Papalexakis",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 46,
-        "code": 45,
-        "name": "Nicholas D. Sidiropoulos",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 47,
-        "code": 46,
-        "name": "Yishay Mansour",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": "他就职于特拉维夫大学，以色列计算机科学学院",
-        "layoutList": [
-          "他就职于特拉维夫大学，以色列计算机科学学院"
-        ]
-      },
-      {
-        "id": 48,
-        "code": 47,
-        "name": "Kevin W. Bowyer",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。",
-        "layoutList": [
-          "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。"
-        ]
-      },
-      {
-        "id": 49,
-        "code": 48,
-        "name": "强化学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 50,
-        "code": 49,
-        "name": "判别学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 51,
-        "code": 50,
-        "name": "图像合成",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 52,
-        "code": 51,
-        "name": "半监督学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 53,
-        "code": 52,
-        "name": "Aryeh Kontorovich",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 54,
-        "code": 53,
-        "name": "Idan Attias",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 55,
-        "code": 54,
-        "name": "Elad Yom-Tov",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 56,
-        "code": 55,
-        "name": "Nir Rosenfeld",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 57,
-        "code": 56,
-        "name": "Patrick J. Flynn",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 58,
-        "code": 57,
-        "name": "Walter J. Scheirer",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 59,
-        "code": 58,
-        "name": "W. Philip Kegelmeyer",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 60,
-        "code": 59,
-        "name": "Lawrence O. Hall",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 61,
-        "code": 60,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "可解释性",
-        "layout": "Using Explainability for Constrained Matrix Factorization/Improving the explainability of Random Forest classifier - user centered approach/Feature Engineering and Explainability with Vadalog: A Recommender Systems Application/Plan Explainability and Predictability for Cobots/Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations/IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT/Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges",
-        "layoutList": [
-          "Using Explainability for Constrained Matrix Factorization",
-          "Improving the explainability of Random Forest classifier - user centered approach",
-          "Feature Engineering and Explainability with Vadalog: A Recommender Systems Application",
-          "Plan Explainability and Predictability for Cobots",
-          "Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations",
-          "IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT",
-          "Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges"
-        ]
-      },
-      {
-        "id": 62,
-        "code": 61,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "可解释性",
-        "layout": "可解释性竞争对手建模方法/一种融合用户隐式物品偏好与隐式信任的可解释推荐方法/一种融合方面信息的习题可解释推荐评分预测方法/基于细粒度数据的可解释商品推荐方法/一种基于评论的可解释推荐方法/开源社区PR评审者可解释推荐模型/基于深度模糊认知图模型的可解释预测方法",
-        "layoutList": [
-          "可解释性竞争对手建模方法",
-          "一种融合用户隐式物品偏好与隐式信任的可解释推荐方法",
-          "一种融合方面信息的习题可解释推荐评分预测方法",
-          "基于细粒度数据的可解释商品推荐方法",
-          "一种基于评论的可解释推荐方法",
-          "开源社区PR评审者可解释推荐模型",
-          "基于深度模糊认知图模型的可解释预测方法"
-        ]
-      },
-      {
-        "id": 63,
-        "code": 62,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "可解释性",
-        "layout": "Fault diagnosis of computer network based on rough sets and BP neural network\nDragon exploration system on marine sponge compounds interactions\nCreating personalised clinical pathways by semantic interoperability with electronic health records\nCreating and Exploiting a Hybrid Knowledge Base for Linked Data\nSharing distributed knowledge on the Web\nIindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results\nWeb shield: A modified firewall to detect malicious request",
-        "layoutList": [
-          "Fault diagnosis of computer network based on rough sets and BP neural network\nDragon exploration system on marine sponge compounds interactions\nCreating personalised clinical pathways by semantic interoperability with electronic health records\nCreating and Exploiting a Hybrid Knowledge Base for Linked Data\nSharing distributed knowledge on the Web\nIindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results\nWeb shield: A modified firewall to detect malicious request"
-        ]
-      },
-      {
-        "id": 64,
-        "code": 63,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "可解释性",
-        "layout": "基于RDF知识库的语义标注方法\n基于安全生产专业知识库的电网安全生产方法\n一种面向领域服务目标的知识库构建方法\n用于分割并使用知识库的装置及关联方法\n基于统一配置库和知识库的集成化运维管理平台\n一种基于知识库的FPGA故障自动诊断方法\n异常处理方法、自动巡检控制台和知识库系统",
-        "layoutList": [
-          "基于RDF知识库的语义标注方法\n基于安全生产专业知识库的电网安全生产方法\n一种面向领域服务目标的知识库构建方法\n用于分割并使用知识库的装置及关联方法\n基于统一配置库和知识库的集成化运维管理平台\n一种基于知识库的FPGA故障自动诊断方法\n异常处理方法、自动巡检控制台和知识库系统"
-        ]
-      },
-      {
-        "id": 65,
-        "code": 64,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "High-level concept annotation using ontology and probabilistic inference\nImage segmentation with a unified graphical model\nColor to gray: Visual cue preservation\nA Hierarchical visual model for video object summarization\nA hierarchical approach to simulation of the melodic harmonization process\nDistributed cognitive radio network management via algorithms in probabilistic graphical models\nA probabilistic-graphical-model based approach for representing lineages in uncertain data",
-        "layoutList": [
-          "High-level concept annotation using ontology and probabilistic inference\nImage segmentation with a unified graphical model\nColor to gray: Visual cue preservation\nA Hierarchical visual model for video object summarization\nA hierarchical approach to simulation of the melodic harmonization process\nDistributed cognitive radio network management via algorithms in probabilistic graphical models\nA probabilistic-graphical-model based approach for representing lineages in uncertain data"
-        ]
-      },
-      {
-        "id": 66,
-        "code": 65,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "基于概率图模型的身份盗用检测方法\n基于概率图模型的配电网开关状态辨识方法\n一种基于概率图模型的共享单车逆行行为实时识别方法\n基于概率图模型的行为识别系统及方法、设备及存储介质\n一种基于概率图模型的用户用电行为预测方法\n一种基于概率图模型的目标预测跟踪方法\n一种基于概率图模型的个性化旅游游记推荐方法",
-        "layoutList": [
-          "基于概率图模型的身份盗用检测方法\n基于概率图模型的配电网开关状态辨识方法\n一种基于概率图模型的共享单车逆行行为实时识别方法\n基于概率图模型的行为识别系统及方法、设备及存储介质\n一种基于概率图模型的用户用电行为预测方法\n一种基于概率图模型的目标预测跟踪方法\n一种基于概率图模型的个性化旅游游记推荐方法"
-        ]
-      },
-      {
         "id": 67,
         "code": 66,
         "name": "论文",
@@ -839,129 +433,439 @@
         "keyword": "可解释性",
         "layout": null,
         "layoutList": null
-      }
-    ],
-    "relations": [
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Sebastian Thrun",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
+        "layoutList": [
+          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
+        ]
+      },
       {
         "id": 34,
-        "source": 32,
-        "target": 34
+        "code": 33,
+        "name": "Christos Faloutsos",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。",
+        "layoutList": [
+          "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。"
+        ]
       },
       {
         "id": 35,
-        "source": 32,
-        "target": 35
+        "code": 34,
+        "name": "回归网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 36,
-        "source": 33,
-        "target": 36
+        "code": 35,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 37,
-        "source": 33,
-        "target": 37
+        "code": 36,
+        "name": "知识图谱",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 38,
-        "source": 34,
-        "target": 38
+        "code": 37,
+        "name": "数据挖掘",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 39,
-        "source": 34,
-        "target": 39
+        "code": 38,
+        "name": "Silvio Savarese",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 40,
-        "source": 35,
-        "target": 40
+        "code": 39,
+        "name": "David Held",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 41,
-        "source": 35,
-        "target": 41
+        "code": 40,
+        "name": "Armin B. Cremers",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 42,
-        "source": 36,
-        "target": 42
+        "code": 41,
+        "name": "Dieter Fox",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 43,
-        "source": 36,
-        "target": 43
+        "code": 42,
+        "name": "Namyong Park",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 44,
-        "source": 37,
-        "target": 44
+        "code": 43,
+        "name": "Xin Luna Dong",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 45,
-        "source": 37,
-        "target": 45
+        "code": 44,
+        "name": "Evangelos E. Papalexakis",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Nicholas D. Sidiropoulos",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Yishay Mansour",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": "他就职于特拉维夫大学，以色列计算机科学学院",
+        "layoutList": [
+          "他就职于特拉维夫大学，以色列计算机科学学院"
+        ]
       },
       {
         "id": 48,
-        "source": 46,
-        "target": 48
+        "code": 47,
+        "name": "Kevin W. Bowyer",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。",
+        "layoutList": [
+          "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。"
+        ]
       },
       {
         "id": 49,
-        "source": 46,
-        "target": 49
+        "code": 48,
+        "name": "强化学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 50,
-        "source": 47,
-        "target": 50
+        "code": 49,
+        "name": "判别学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 51,
-        "source": 47,
-        "target": 51
+        "code": 50,
+        "name": "图像合成",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 52,
-        "source": 48,
-        "target": 52
+        "code": 51,
+        "name": "半监督学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 53,
-        "source": 48,
-        "target": 53
+        "code": 52,
+        "name": "Aryeh Kontorovich",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 54,
-        "source": 49,
-        "target": 54
+        "code": 53,
+        "name": "Idan Attias",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 55,
-        "source": 49,
-        "target": 55
+        "code": 54,
+        "name": "Elad Yom-Tov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 56,
-        "source": 50,
-        "target": 56
+        "code": 55,
+        "name": "Nir Rosenfeld",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 57,
-        "source": 50,
-        "target": 57
+        "code": 56,
+        "name": "Patrick J. Flynn",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 58,
-        "source": 51,
-        "target": 58
+        "code": 57,
+        "name": "Walter J. Scheirer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 59,
-        "source": 51,
-        "target": 59
+        "code": 58,
+        "name": "W. Philip Kegelmeyer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Lawrence O. Hall",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "可解释性",
+        "layout": "Using Explainability for Constrained Matrix Factorization/Improving the explainability of Random Forest classifier - user centered approach/Feature Engineering and Explainability with Vadalog: A Recommender Systems Application/Plan Explainability and Predictability for Cobots/Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations/IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT/Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges",
+        "layoutList": [
+          "Using Explainability for Constrained Matrix Factorization",
+          "Improving the explainability of Random Forest classifier - user centered approach",
+          "Feature Engineering and Explainability with Vadalog: A Recommender Systems Application",
+          "Plan Explainability and Predictability for Cobots",
+          "Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations",
+          "IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT",
+          "Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "可解释性",
+        "layout": "可解释性竞争对手建模方法/一种融合用户隐式物品偏好与隐式信任的可解释推荐方法/一种融合方面信息的习题可解释推荐评分预测方法/基于细粒度数据的可解释商品推荐方法/一种基于评论的可解释推荐方法/开源社区PR评审者可解释推荐模型/基于深度模糊认知图模型的可解释预测方法",
+        "layoutList": [
+          "可解释性竞争对手建模方法",
+          "一种融合用户隐式物品偏好与隐式信任的可解释推荐方法",
+          "一种融合方面信息的习题可解释推荐评分预测方法",
+          "基于细粒度数据的可解释商品推荐方法",
+          "一种基于评论的可解释推荐方法",
+          "开源社区PR评审者可解释推荐模型",
+          "基于深度模糊认知图模型的可解释预测方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "可解释性",
+        "layout": "Fault diagnosis of computer network based on rough sets and BP neural network/Dragon exploration system on marine sponge compounds interactions/Creating personalised clinical pathways by semantic interoperability with electronic health records/Creating and Exploiting a Hybrid Knowledge Base for Linked Data/Sharing distributed knowledge on the Web/Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results/Web shield: A modified firewall to detect malicious request",
+        "layoutList": [
+          "Fault diagnosis of computer network based on rough sets and BP neural network",
+          "Dragon exploration system on marine sponge compounds interactions",
+          "Creating personalised clinical pathways by semantic interoperability with electronic health records",
+          "Creating and Exploiting a Hybrid Knowledge Base for Linked Data",
+          "Sharing distributed knowledge on the Web",
+          "Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results",
+          "Web shield: A modified firewall to detect malicious request"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "可解释性",
+        "layout": "基于RDF知识库的语义标注方法/基于安全生产专业知识库的电网安全生产方法/一种面向领域服务目标的知识库构建方法/用于分割并使用知识库的装置及关联方法/基于统一配置库和知识库的集成化运维管理平台/一种基于知识库的FPGA故障自动诊断方法/异常处理方法、自动巡检控制台和知识库系统",
+        "layoutList": [
+          "基于RDF知识库的语义标注方法",
+          "基于安全生产专业知识库的电网安全生产方法",
+          "一种面向领域服务目标的知识库构建方法",
+          "用于分割并使用知识库的装置及关联方法",
+          "基于统一配置库和知识库的集成化运维管理平台",
+          "一种基于知识库的FPGA故障自动诊断方法",
+          "异常处理方法、自动巡检控制台和知识库系统"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "High-level concept annotation using ontology and probabilistic inference/Image segmentation with a unified graphical model/Color to gray: Visual cue preservation/A Hierarchical visual model for video object summarization/A hierarchical approach to simulation of the melodic harmonization process/Distributed cognitive radio network management via algorithms in probabilistic graphical models/A probabilistic-graphical-model based approach for representing lineages in uncertain data",
+        "layoutList": [
+          "High-level concept annotation using ontology and probabilistic inference",
+          "Image segmentation with a unified graphical model",
+          "Color to gray: Visual cue preservation",
+          "A Hierarchical visual model for video object summarization",
+          "A hierarchical approach to simulation of the melodic harmonization process",
+          "Distributed cognitive radio network management via algorithms in probabilistic graphical models",
+          "A probabilistic-graphical-model based approach for representing lineages in uncertain data"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "基于概率图模型的身份盗用检测方法/基于概率图模型的配电网开关状态辨识方法/一种基于概率图模型的共享单车逆行行为实时识别方法/基于概率图模型的行为识别系统及方法、设备及存储介质/一种基于概率图模型的用户用电行为预测方法/一种基于概率图模型的目标预测跟踪方法/一种基于概率图模型的个性化旅游游记推荐方法",
+        "layoutList": [
+          "基于概率图模型的身份盗用检测方法",
+          "基于概率图模型的配电网开关状态辨识方法",
+          "一种基于概率图模型的共享单车逆行行为实时识别方法",
+          "基于概率图模型的行为识别系统及方法、设备及存储介质",
+          "一种基于概率图模型的用户用电行为预测方法",
+          "一种基于概率图模型的目标预测跟踪方法",
+          "一种基于概率图模型的个性化旅游游记推荐方法"
+        ]
+      }
+    ],
+    "relations": [
       {
         "id": 1,
         "source": 0,
@@ -1176,6 +1080,126 @@
         "id": 31,
         "source": 23,
         "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
+      },
+      {
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
     ]
   ,
