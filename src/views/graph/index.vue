@@ -65,7 +65,9 @@ export default {
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
       // colorList: ['#a29bfe', '#fab1a0', '#e17055']
-      colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#a29bfe', '#d6744d', '#4e88af', '#d2907c'], // 图1
+      // colorList: ['#ac92ec', '#4dc1e6'],
+      // colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#a29bfe', '#d6744d', '#4e88af', '#d2907c'], // 图1
+      colorList: ['#6abdf3', '#a0d468', '#ca635f', '#ac92ec', '#d6744d', '#4e88af', '#d2907c'], // 图1
       // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
       // colorList: ['#7E48DA', '#6abdf3', '#F4E28F', '#E97383', '#8CECB9', '#4b6ff4', '#3aafb9'],
       rediusList: [110, 80, 50, 40, 20],
@@ -135,7 +137,7 @@ export default {
       try {
       // 力导向图
         this.forceSimulation = d3.forceSimulation()
-        // .alpha(0.07) // 活力  渲染之后再自动动多久
+          .alpha(0.9) // 活力，渲染之后再自动动多久
           .force('link', d3.forceLink().id(data => data.code).distance(data => {
           // 无分支的节点
             // console.log(data)
