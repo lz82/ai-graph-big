@@ -1266,53 +1266,49 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [
-    {
-      "id": "Periodical_zwxxxb201704007",
-      "title": "基于动态词对齐的交互式<mark class=highlight>机器翻译</mark>",
-      "summary": "在传统的<mark class=highlight>机器翻译</mark>(<mark class=highlight>machine</mark> <mark class=highlight>translation</mark>,<mark class=highlight>MT</mark>)与计算机辅助翻译",
-      "summaryAll": "在传统的机器翻译(machine translation,MT)与计算机辅助翻译(computer aided translation,CAT)中,译员与翻译引擎之间的交互受到很大限制,于是产生了交互式机器翻译(interactive machine translation,IMT)技术.但传统的模型只考虑当前源语与部分翻译的目标语的信息,没有将用户交互后的对齐信息加入到之后的预测模型中.该文基于词预测交互式机器翻译的研究思路,将用户交互翻译过程中的鼠标点选行为转化为中间译文的词对齐信息,进而在翻译交互过程中实现了对译文的动态词对齐标注,并在词对齐信息和输入译文的约束下提高了传统词预测的准确性.The traditional interactive machine translation (IMT ) is focused on the current source language and the partial translation of the target language ,neglecting the feedback from the translators to better predict the subse-quent translations .This paper investigates the translation selection clicks ,and proposes a dynamic word alignment model for the partial translation .Experiment indicates this method improves the word prediction accuracy during the interactive machine translation process .",
-      "author": "马斌",
-      "keywords": "交互式<mark class=highlight>机器翻译</mark>,词对齐,预测模型,interactive <mark class=highlight>machine</mark> <mark class=highlight>translation</mark>",
-      "citedIndex": 0,
-      "publishDate": "2017-07-30",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_yyzlyj201606003",
-      "title": "从<mark class=highlight>机器翻译</mark>历程看自然语言处理研究的发展策略",
-      "summary": "<mark class=highlight>Machine</mark> <mark class=highlight>translation</mark> (<mark class=highlight>MT</mark>) is one of the",
-      "summaryAll": "本文试图从超脱细节的宏观角度，对机器翻译的发展历程进行扼要的总结和深刻的评介，着重于刻画各个时期在基本方法和核心技术上的主要特征，从而勾勒出机器翻译的全过程演进脉络。在上述考察和分析的基础上，文章对国内机器翻译乃至自然语言处理研究的近期发展策略提出了若干建议。Machine translation (MT) is one of the major research fi elds of natural language processing (NLP), and it always spearheads the research frontier in NLP. In this paper, after a systematic survey of the development history of MT from a macroscopic perspective, with particular emphasis on the main development path of underlying methodologies and core technologies in MT, we drew a general picture of the milestones that marked the key points of a long journey for both theoretical study and practical accomplishment for the past seven decades. The latest fruitful development achieved in the area of MT application shows that, the paradigm shift from the tradi-tional linguistic rule-based approaches to the so-called empirical approach, based on increasingly available amounts of “raw data” in the form of massive collections of texts and their translations, compounded by the phenomenal advancement of computer technology, will become the driving force that will potentially lead to the breakthrough in MT. Based on the above observation and analysis, some sug-gestions on the short-term development strategy for machine translation as well as natural language processing in China are proposed.",
-      "author": "孙茂松",
-      "keywords": "TP3,G2,<mark class=highlight>机器翻译</mark>,自然语言处理,发展历史,策略,<mark class=highlight>machine</mark> <mark class=highlight>translation</mark>",
-      "citedIndex": 0,
-      "publishDate": "2016-12-28",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_xajzkjdxxb-shkx201604014",
-      "title": "基于统计方法的多译本翻译质量评测",
-      "summary": "<mark class=highlight>translations</mark> (<mark class=highlight>MT</mark>) and the human <mark class=highlight>translations</mark>",
-      "summaryAll": "研究以《傲慢与偏见》的人机译本为例，使用问卷调查法和统计学的方法，试图寻找一种有效对比和评测机器翻译与人工翻译质量的方法。将定性定量分析相结合，通过测算统计学上的基本概念，如均值、标准差、中数、众数、极值、偏度、峰度等，分析了各个译本的得分集中趋势、离散程度和分布情况等。结果表明，机器翻译在处理短句时，能产生质量非常高的译句，但整体上与人工译本仍存在较大差距，其总的翻译得分基本处于最底端。人工译本得分基本呈正态分布，各译本相互之间差异不显著。通过讨论分析文学翻译的限制因素，发现时代因素对翻译的影响很大。同时，研究发现，在翻译文学作品应综合考虑原作的语义和语篇信息结构，较完整地保留原有风格，并适应读者群的阅读习惯，方能实现较好的翻译质量。此外，设计有效的问卷可以客观评估翻译质量，对改善机器翻译和人工翻译质量具有借鉴意义。Based on various translation versions ofPride and Prejudice, this paper presents a statistic approach to evaluate comparatively the qualities of both machine translations (MT) and the human translations (HT) by using data retrieved from a large-scale questionnaire. With the combination of quantitative and qualitative analysis, several statistical concepts (means, standard variance, median, mode, extremum, skewness and kurtoness) are applied to measure the concentric tendency, distribution and discrete degree of the scores. Results show that MT could produce some translations of high qualities when rendering simple and short sentences. However, most MT scores are at the lower end of qualities and have a long way to go in comparison with HT. On the other hand, all the four human translations are normally distributed and no significant difference is found between them. The analysis of the restraints in literary translation reveals that the age factor has greater impact on translation. The textual information structure, the semantic meanings, and the styles of the source text, should be taken into account to adapt to the reading habit of target readers. Besides, a questionnaire, if necessary, can serve as an efficient method to evaluate qualities of translation and provide some reference to improve both MT and HT.",
-      "author": "张英贤",
-      "keywords": "H31,H05,<mark class=highlight>机器翻译</mark>,翻译评价,问卷调查,傲慢与偏见,统计,<mark class=highlight>machine</mark>",
-      "citedIndex": 0,
-      "publishDate": "2016-08-28",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    }
-  ],
+  "paperVO":[{
+		"title": "BLEU: a method for automatic evaluation of machine translation",
+		"author": "Kishore Papineni,Salim Roukos,Todd Ward,Wei-jing Zhu",
+		"publishDate": "2002",
+		"summaryAll": "Human evaluations of machine translation are extensive but expensive. Human evaluations can take months to finish and involve human labor that can not be reused."
+	},
+	{
+		"title": "Moses: open source toolkit for statistical machine translation",
+		"author": "Philipp Koehn,Hieu Hoang,Alexandra Birch,Chris Callison-Burch,Marcello Federico,Nicola Bertoldi,Brooke Cowan,Wade Shen,Christine Moran,Richard Zens,Chris Dyer,Ondřej Bojar",
+		"publishDate": "2007",
+		"summaryAll": "We describe an open-source toolkit for statistical machine translation whose novel contributions are (a) support for linguistically motivated factors, (b) confusion network decoding, and (c) efficient data formats for translation models and language models. "
+	},
+	{
+		"title": "The mathematics of statistical machine translation: parameter estimation",
+		"author": "Peter F. Brown,Vincent J. Della Pietra,Stephen A. Della Pietra,Robert L. Mercer",
+		"publishDate": "1993",
+		"summaryAll": "We describe a series of five statistical models of the translation process and give algorithms for estimating the parameters of these models given a set of pairs of sentences that are translations of one another."
+	},
+	{
+		"title": "Minimum error rate training in statistical machine translation",
+		"author": "Franz Josef Och",
+		"publishDate": "2003",
+		"summaryAll": "Often, the training procedure for statistical machine translation models is based on maximum likelihood or related criteria. A general problem of this approach is that there is only a loose relation to the final translation quality on unseen text. "
+	},
+	{
+		"title": "EuroParl: A Parallel Corpus for Statistical Machine Translation",
+		"author": "Koehn Philipp",
+		"publishDate": "2005",
+		"summaryAll": "We collected a corpus of parallel text in 11 lan- guages from the proceedings of the European Par- liament, which are published on the web1. This cor- pus has found widespread use in the NLP commu- nity."
+	},
+	{
+		"title": "A statistical approach to machine translation",
+		"author": "Peter F. Brown,John Cocke,Stephen A. Della Pietra,Vincent J. Della Pietra,Fredrick Jelinek,John D. Lafferty,Robert L. Mercer,Paul S. Roossin",
+		"publishDate": "1990",
+		"summaryAll": "In this paper, we present a statistical approach to machine translation. We describe the application of our approach to translation from French to English and give preliminary results."
+	},
+	{
+		"title": "Statistical Machine Translation",
+		"author": "Philipp Koehn,Kevin Knight",
+		"publishDate": "2010",
+		"summaryAll": "This introductory text to statistical machine translation (SMT) provides all of the theories and methods needed to build a statistical machine translator, such as Google Language Tools and Babelfish."
+	}
+],
   "patentVO": null,
   "bookVO": [],
   "standardVO": [

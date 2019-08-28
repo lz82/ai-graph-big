@@ -19,7 +19,7 @@ export default {
       forceSimulation: null,
       svg: null,
       svgW: 840,
-      svgH: 800,
+      svgH: 900,
       searchKey: this.$route.path.split('/')[2]
     }
   },
@@ -72,7 +72,7 @@ export default {
               d.fx = this.svgW / 2 // 设置特定节点固定x坐标
               d.fy = this.svgH / 2
             }
-            return 60 * Math.random() + 100
+            return 60 * Math.random() + 112
             // return 100 * d.value + 5
           }))
       } catch (error) {
@@ -125,7 +125,7 @@ export default {
           .attr('class', 'circle-outer')
           .attr('id', d => 'id-' + d.code)
           .attr('r', data => {
-            return data.name === this.searchKey ? 85 : 60 + Math.random() * 10
+            return data.name === this.searchKey ? 95 : 70 + Math.random() * 10
           })
           // .attr('fill', data => this.calcColor(data.type))
           .attr('fill', '#10172d')
@@ -148,7 +148,7 @@ export default {
             const id = `id-${data.code}`
             let outerR = d3.select('#' + id).attr('r') // 外围圆半径***选择器不能数字开头***
             let innerR = outerR - 8
-            let degree = (data.index * 1 + 1) * 10 / 100 * 360 // 根据index生成的角度弧度
+            let degree = data.index === 0 ? 359.9 : (data.index * 1 + 3) * 10 / 100 * 360 // 根据index生成的角度弧度
             let radian = data.index > 9 ? 60 : degree * Math.PI / 180
             let x = (Math.sin(radian) * innerR).toFixed(2)
             let y = -(Math.cos(radian) * innerR).toFixed(2)

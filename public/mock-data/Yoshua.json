@@ -1270,6 +1270,36 @@
       "journals": null,
       "categoryNo": null,
       "fundProject": null
+    },
+    {
+      "title": "InfoMask: Masked Variational Latent Representation to Localize Chest Disease.EI",
+      "author": "Saeid Asgari Taghanaki, Mohammad Havaei, Tess Berthier, Francis Dutil, Lisa Di-Jorio, Ghassan Hamarneh, Yoshua Bengio",
+      "publishDate": "2019",
+      "summaryAll": "The scarcity of richly annotated medical images is limiting supervised deep learning based solutions to medical image analysis tasks, such as localizing discriminatory radiomic disease signatures. Therefore, it is desirable to leverage unsupervised and weakly supervised models. Most recent weakly supervised localization methods apply attention maps or region proposals in a multiple instance learning formulation. "
+    },
+    {
+      "title": "Towards Non-saturating Recurrent Units for Modelling Long-term Dependencies.EI",
+      "author": "Sarath Chandar, Chinnadhurai Sankar, Eugene Vorontsov, Samira Ebrahimi Kahou, Yoshua Bengio",
+      "publishDate": "2019",
+      "summaryAll": "Modelling long-term dependencies is a challenge for recurrent neural networks. This is primarily due to the fact that gradients vanish during training, as the sequence length increases. Gradients can be attenuated by transition operators and are attenuated or dropped by activation functions. Canonical architectures like LSTM alleviate this issue by skipping information through a memory mechanism. "
+    },
+    {
+      "title": "Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks.EI",
+      "author": "Santiago Pascual, Mirco Ravanelli, Joan Serr&agrave;, Antonio Bonafonte, Yoshua Bengio",
+      "publishDate": "2019",
+      "summaryAll": "Learning good representations without supervision is still an open issue in machine learning, and is particularly challenging for speech signals, which are often characterized by long sequences with a complex hierarchical structure. Some recent works, however, have shown that it is possible to derive useful speech representations by employing a self-supervised encoder-discriminator approach. "
+    },
+    {
+      "title": "Speech Model Pre-training for End-to-End Spoken Language Understanding.EI",
+      "author": "Loren Lugosch, Mirco Ravanelli, Patrick Ignoto, Vikrant Singh Tomar, Yoshua Bengio",
+      "publishDate": "2019",
+      "summaryAll": "Whereas conventional spoken language understanding (SLU) systems map speech to text, and then text to intent, end-to-end SLU systems map speech directly to intent through a single trainable model. Achieving high accuracy with these end-to-end models without a large amount of training data is difficult. We propose a method to reduce the data requirements of end-to-end SLU in which the model is first pre-trained to predict words and phonemes, thus learning good features for SLU. "
+    },
+    {
+      "title": "Hyperbolic Discounting and Learning over Multiple Horizons.EI",
+      "author": "William Fedus, Carles Gelada, Yoshua Bengio, Marc G. Bellemare, Hugo Larochelle",
+      "publishDate": "2019",
+      "summaryAll": "Reinforcement learning (RL) typically defines a discount factor as part of the Markov Decision Process. The discount factor values future rewards by an exponential scheme that leads to theoretical convergence guarantees of the Bellman equation. However, evidence from psychology, economics and neuroscience suggests that humans and animals instead have hyperbolic time-preferences. "
     }
   ],
   "patentVO": null,

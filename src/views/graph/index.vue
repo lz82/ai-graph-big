@@ -57,22 +57,20 @@ export default {
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 1920,
-      svgH: 1060,
+      svgW: 1825,
+      svgH: 990,
       links: null,
       nodes: null,
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
-      // colorList: ['#a29bfe', '#fab1a0', '#e17055']
-      colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#a29bfe', '#d6744d', '#4e88af', '#d2907c'], // 图1
-      // colorList: ['#6abdf3', '#f44b63', '#4beaf4', '#7ef44b', '#f4e64b', '#ba4bf4', '#4b6ff4'],
-      // colorList: ['#7E48DA', '#6abdf3', '#F4E28F', '#E97383', '#8CECB9', '#4b6ff4', '#3aafb9'],
-      rediusList: [110, 80, 50, 40, 20],
+      colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'],
+      // rediusList: [110, 80, 50, 40, 20],
+      rediusList: [130, 100, 70, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -400, // 万有引力
+      chargeStrength: -600, // 万有引力
       paperIco: paperIco, // 论文小图标
       orgIco: orgIco,
       expertIco: expertIco1,
@@ -96,9 +94,11 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          console.log(temp)
+          // console.log(temp)
           this.nodes = temp.mapInfo.nodes
           this.links = temp.mapInfo.relations
+          // this.popList = temp.mapInfo.nodes.filter(d => d.name === this.keyword)[0].layoutList
+          // this.popTitle = this.keyword
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -135,26 +135,27 @@ export default {
       try {
       // 力导向图
         this.forceSimulation = d3.forceSimulation()
-        // .alpha(0.07) // 活力  渲染之后再自动动多久
+          .alpha(0.9) // 活力，渲染之后再自动动多久
           .force('link', d3.forceLink().id(data => data.code).distance(data => {
           // 无分支的节点
             // console.log(data)
             if (data.target.name === '荣誉' || data.target.name === '组织') {
               return 200
             } else {
-              return data.target.level === 5 ? data.target.level * 20 : data.target.level * 10
+              return data.target.level === 5 ? data.target.level * 22 : data.target.level * 8
             }
           })) // 映射id & 线的长度
           .force('charge', d3.forceManyBody().strength(this.chargeStrength))
           .force('xPos', d3.forceX(this.svgW / 2))
-          .force('yPos', d3.forceY(this.svgH / 2))
-          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 2))
+          .force('yPos', d3.forceY(this.svgH / 2.5))
+          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 1.9))
           .force('collide', d3.forceCollide(d => {
             if (d.name === this.keyword && d.level === 1) {
               d.fx = this.svgW / 5 // 设置特定节点固定x坐标
-              d.fy = this.svgH / 2.5
+              d.fy = this.svgH / 2
             }
-            return 130 - d.level * 20
+            // return 130 - d.level * 20
+            return 145 - d.level * 20
           }))
       } catch (error) {
         console.log('initSvgContainer===' + error)
@@ -219,8 +220,8 @@ export default {
             return this.colorList[d.colorIdx]
           })
           .attr('stroke', d => {
-            // return this.colorList[d.colorIdx]
-            return '#fff'
+            return this.colorList[d.colorIdx]
+            // return '#fff'
           })
           .attr('stroke-width', '4px')
           .attr('style', 'cursor: pointer;')
@@ -421,7 +422,7 @@ export default {
     .side-right{
       width: 450px;
       position: absolute;
-      right: 0;
+      right: 50px;
       .side-right-con{
         padding: 0px 30px 5px;
         border-radius: 5px;
@@ -431,8 +432,8 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1920px;
-      height: 100%;
+      width: 1825px;
+      height: 990px;
     }
   }
   .vue{

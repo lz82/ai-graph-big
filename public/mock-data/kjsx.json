@@ -29,412 +29,6 @@
   "mapInfo": {
     "nodes": [
       {
-        "id": 33,
-        "code": 32,
-        "name": "Sebastian Thrun",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
-        "layoutList": [
-          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
-        ]
-      },
-      {
-        "id": 34,
-        "code": 33,
-        "name": "Christos Faloutsos",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。",
-        "layoutList": [
-          "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。"
-        ]
-      },
-      {
-        "id": 35,
-        "code": 34,
-        "name": "回归网络",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 36,
-        "code": 35,
-        "name": "机器人",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 37,
-        "code": 36,
-        "name": "知识图谱",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 38,
-        "code": 37,
-        "name": "数据挖掘",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 39,
-        "code": 38,
-        "name": "Silvio Savarese",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 40,
-        "code": 39,
-        "name": "David Held",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 41,
-        "code": 40,
-        "name": "Armin B. Cremers",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 42,
-        "code": 41,
-        "name": "Dieter Fox",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 43,
-        "code": 42,
-        "name": "Namyong Park",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 44,
-        "code": 43,
-        "name": "Xin Luna Dong",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 45,
-        "code": 44,
-        "name": "Evangelos E. Papalexakis",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 46,
-        "code": 45,
-        "name": "Nicholas D. Sidiropoulos",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 47,
-        "code": 46,
-        "name": "Yishay Mansour",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": "他就职于特拉维夫大学，以色列计算机科学学院",
-        "layoutList": [
-          "他就职于特拉维夫大学，以色列计算机科学学院"
-        ]
-      },
-      {
-        "id": 48,
-        "code": 47,
-        "name": "Kevin W. Bowyer",
-        "type": "expert",
-        "level": 3,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。",
-        "layoutList": [
-          "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。"
-        ]
-      },
-      {
-        "id": 49,
-        "code": 48,
-        "name": "强化学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 50,
-        "code": 49,
-        "name": "判别学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 51,
-        "code": 50,
-        "name": "图像合成",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 52,
-        "code": 51,
-        "name": "半监督学习",
-        "type": "keyword",
-        "level": 4,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 53,
-        "code": 52,
-        "name": "Aryeh Kontorovich",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 54,
-        "code": 53,
-        "name": "Idan Attias",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 55,
-        "code": 54,
-        "name": "Elad Yom-Tov",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 56,
-        "code": 55,
-        "name": "Nir Rosenfeld",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 57,
-        "code": 56,
-        "name": "Patrick J. Flynn",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 58,
-        "code": 57,
-        "name": "Walter J. Scheirer",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 59,
-        "code": 58,
-        "name": "W. Philip Kegelmeyer",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 60,
-        "code": 59,
-        "name": "Lawrence O. Hall",
-        "type": "expert",
-        "level": 5,
-        "colorIdx": 3,
-        "keyword": "可解释性",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 61,
-        "code": 60,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "可解释性",
-        "layout": "Using Explainability for Constrained Matrix Factorization/Improving the explainability of Random Forest classifier - user centered approach/Feature Engineering and Explainability with Vadalog: A Recommender Systems Application/Plan Explainability and Predictability for Cobots/Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations/IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT/Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges",
-        "layoutList": [
-          "Using Explainability for Constrained Matrix Factorization",
-          "Improving the explainability of Random Forest classifier - user centered approach",
-          "Feature Engineering and Explainability with Vadalog: A Recommender Systems Application",
-          "Plan Explainability and Predictability for Cobots",
-          "Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations",
-          "IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT",
-          "Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges"
-        ]
-      },
-      {
-        "id": 62,
-        "code": 61,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 0,
-        "keyword": "可解释性",
-        "layout": "可解释性竞争对手建模方法/一种融合用户隐式物品偏好与隐式信任的可解释推荐方法/一种融合方面信息的习题可解释推荐评分预测方法/基于细粒度数据的可解释商品推荐方法/一种基于评论的可解释推荐方法/开源社区PR评审者可解释推荐模型/基于深度模糊认知图模型的可解释预测方法",
-        "layoutList": [
-          "可解释性竞争对手建模方法",
-          "一种融合用户隐式物品偏好与隐式信任的可解释推荐方法",
-          "一种融合方面信息的习题可解释推荐评分预测方法",
-          "基于细粒度数据的可解释商品推荐方法",
-          "一种基于评论的可解释推荐方法",
-          "开源社区PR评审者可解释推荐模型",
-          "基于深度模糊认知图模型的可解释预测方法"
-        ]
-      },
-      {
-        "id": 63,
-        "code": 62,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "可解释性",
-        "layout": "Fault diagnosis of computer network based on rough sets and BP neural network\nDragon exploration system on marine sponge compounds interactions\nCreating personalised clinical pathways by semantic interoperability with electronic health records\nCreating and Exploiting a Hybrid Knowledge Base for Linked Data\nSharing distributed knowledge on the Web\nIindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results\nWeb shield: A modified firewall to detect malicious request",
-        "layoutList": [
-          "Fault diagnosis of computer network based on rough sets and BP neural network\nDragon exploration system on marine sponge compounds interactions\nCreating personalised clinical pathways by semantic interoperability with electronic health records\nCreating and Exploiting a Hybrid Knowledge Base for Linked Data\nSharing distributed knowledge on the Web\nIindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results\nWeb shield: A modified firewall to detect malicious request"
-        ]
-      },
-      {
-        "id": 64,
-        "code": 63,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 1,
-        "keyword": "可解释性",
-        "layout": "基于RDF知识库的语义标注方法\n基于安全生产专业知识库的电网安全生产方法\n一种面向领域服务目标的知识库构建方法\n用于分割并使用知识库的装置及关联方法\n基于统一配置库和知识库的集成化运维管理平台\n一种基于知识库的FPGA故障自动诊断方法\n异常处理方法、自动巡检控制台和知识库系统",
-        "layoutList": [
-          "基于RDF知识库的语义标注方法\n基于安全生产专业知识库的电网安全生产方法\n一种面向领域服务目标的知识库构建方法\n用于分割并使用知识库的装置及关联方法\n基于统一配置库和知识库的集成化运维管理平台\n一种基于知识库的FPGA故障自动诊断方法\n异常处理方法、自动巡检控制台和知识库系统"
-        ]
-      },
-      {
-        "id": 65,
-        "code": 64,
-        "name": "论文",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "High-level concept annotation using ontology and probabilistic inference\nImage segmentation with a unified graphical model\nColor to gray: Visual cue preservation\nA Hierarchical visual model for video object summarization\nA hierarchical approach to simulation of the melodic harmonization process\nDistributed cognitive radio network management via algorithms in probabilistic graphical models\nA probabilistic-graphical-model based approach for representing lineages in uncertain data",
-        "layoutList": [
-          "High-level concept annotation using ontology and probabilistic inference\nImage segmentation with a unified graphical model\nColor to gray: Visual cue preservation\nA Hierarchical visual model for video object summarization\nA hierarchical approach to simulation of the melodic harmonization process\nDistributed cognitive radio network management via algorithms in probabilistic graphical models\nA probabilistic-graphical-model based approach for representing lineages in uncertain data"
-        ]
-      },
-      {
-        "id": 66,
-        "code": 65,
-        "name": "专利",
-        "type": "paper",
-        "level": 3,
-        "colorIdx": 2,
-        "keyword": "可解释性",
-        "layout": "基于概率图模型的身份盗用检测方法\n基于概率图模型的配电网开关状态辨识方法\n一种基于概率图模型的共享单车逆行行为实时识别方法\n基于概率图模型的行为识别系统及方法、设备及存储介质\n一种基于概率图模型的用户用电行为预测方法\n一种基于概率图模型的目标预测跟踪方法\n一种基于概率图模型的个性化旅游游记推荐方法",
-        "layoutList": [
-          "基于概率图模型的身份盗用检测方法\n基于概率图模型的配电网开关状态辨识方法\n一种基于概率图模型的共享单车逆行行为实时识别方法\n基于概率图模型的行为识别系统及方法、设备及存储介质\n一种基于概率图模型的用户用电行为预测方法\n一种基于概率图模型的目标预测跟踪方法\n一种基于概率图模型的个性化旅游游记推荐方法"
-        ]
-      },
-      {
         "id": 67,
         "code": 66,
         "name": "论文",
@@ -839,129 +433,439 @@
         "keyword": "可解释性",
         "layout": null,
         "layoutList": null
-      }
-    ],
-    "relations": [
+      },
+      {
+        "id": 33,
+        "code": 32,
+        "name": "Sebastian Thrun",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
+        "layoutList": [
+          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
+        ]
+      },
       {
         "id": 34,
-        "source": 32,
-        "target": 34
+        "code": 33,
+        "name": "Christos Faloutsos",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。",
+        "layoutList": [
+          "在美国卡内基梅隆大学（CarnegieMellonUniversity）的一名希腊计算机科学家和一名教授，他是一名希腊计算机科学家和一名教授。他已获得国家科学基金会(1989年)颁发的总统年轻调查员奖、22份最佳论文奖和若干教学奖。他曾担任Sigkdd执行委员会的成员。他已经出版了超过300篇文章，一本专著，并持有5项专利。他的研究兴趣包括数据流和网络的数据挖掘、分形、多媒体和生物信息学数据库的索引和性能。他还收到了ACM2010SIGKDD创新奖，并于2010年被任命为ACM的研究员。"
+        ]
       },
       {
         "id": 35,
-        "source": 32,
-        "target": 35
+        "code": 34,
+        "name": "回归网络",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 36,
-        "source": 33,
-        "target": 36
+        "code": 35,
+        "name": "机器人",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 37,
-        "source": 33,
-        "target": 37
+        "code": 36,
+        "name": "知识图谱",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 38,
-        "source": 34,
-        "target": 38
+        "code": 37,
+        "name": "数据挖掘",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 39,
-        "source": 34,
-        "target": 39
+        "code": 38,
+        "name": "Silvio Savarese",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 40,
-        "source": 35,
-        "target": 40
+        "code": 39,
+        "name": "David Held",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 41,
-        "source": 35,
-        "target": 41
+        "code": 40,
+        "name": "Armin B. Cremers",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 42,
-        "source": 36,
-        "target": 42
+        "code": 41,
+        "name": "Dieter Fox",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 43,
-        "source": 36,
-        "target": 43
+        "code": 42,
+        "name": "Namyong Park",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 44,
-        "source": 37,
-        "target": 44
+        "code": 43,
+        "name": "Xin Luna Dong",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 45,
-        "source": 37,
-        "target": 45
+        "code": 44,
+        "name": "Evangelos E. Papalexakis",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 46,
+        "code": 45,
+        "name": "Nicholas D. Sidiropoulos",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 47,
+        "code": 46,
+        "name": "Yishay Mansour",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": "他就职于特拉维夫大学，以色列计算机科学学院",
+        "layoutList": [
+          "他就职于特拉维夫大学，以色列计算机科学学院"
+        ]
       },
       {
         "id": 48,
-        "source": 46,
-        "target": 48
+        "code": 47,
+        "name": "Kevin W. Bowyer",
+        "type": "expert",
+        "level": 3,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。",
+        "layoutList": [
+          "KevinBowyer是巴黎圣母院计算机科学与工程系的Schubmehl-Prefin家庭教授，目前还担任工程暑期国际programs.in补充学院的主任，他在工程学院和信息部NuiGalway担任生物统计技术荣誉教授。是ieee新的生物识别、行为和身份科学交易(t-biom)的首任主编。"
+        ]
       },
       {
         "id": 49,
-        "source": 46,
-        "target": 49
+        "code": 48,
+        "name": "强化学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 50,
-        "source": 47,
-        "target": 50
+        "code": 49,
+        "name": "判别学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 51,
-        "source": 47,
-        "target": 51
+        "code": 50,
+        "name": "图像合成",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 52,
-        "source": 48,
-        "target": 52
+        "code": 51,
+        "name": "半监督学习",
+        "type": "keyword",
+        "level": 4,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 53,
-        "source": 48,
-        "target": 53
+        "code": 52,
+        "name": "Aryeh Kontorovich",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 54,
-        "source": 49,
-        "target": 54
+        "code": 53,
+        "name": "Idan Attias",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 55,
-        "source": 49,
-        "target": 55
+        "code": 54,
+        "name": "Elad Yom-Tov",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 56,
-        "source": 50,
-        "target": 56
+        "code": 55,
+        "name": "Nir Rosenfeld",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 57,
-        "source": 50,
-        "target": 57
+        "code": 56,
+        "name": "Patrick J. Flynn",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 58,
-        "source": 51,
-        "target": 58
+        "code": 57,
+        "name": "Walter J. Scheirer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
       {
         "id": 59,
-        "source": 51,
-        "target": 59
+        "code": 58,
+        "name": "W. Philip Kegelmeyer",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
       },
+      {
+        "id": 60,
+        "code": 59,
+        "name": "Lawrence O. Hall",
+        "type": "expert",
+        "level": 5,
+        "colorIdx": 3,
+        "keyword": "可解释性",
+        "layout": null,
+        "layoutList": null
+      },
+      {
+        "id": 61,
+        "code": 60,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "可解释性",
+        "layout": "Using Explainability for Constrained Matrix Factorization/Improving the explainability of Random Forest classifier - user centered approach/Feature Engineering and Explainability with Vadalog: A Recommender Systems Application/Plan Explainability and Predictability for Cobots/Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations/IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT/Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges",
+        "layoutList": [
+          "Using Explainability for Constrained Matrix Factorization",
+          "Improving the explainability of Random Forest classifier - user centered approach",
+          "Feature Engineering and Explainability with Vadalog: A Recommender Systems Application",
+          "Plan Explainability and Predictability for Cobots",
+          "Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations",
+          "IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT",
+          "Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges"
+        ]
+      },
+      {
+        "id": 62,
+        "code": 61,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 0,
+        "keyword": "可解释性",
+        "layout": "可解释性竞争对手建模方法/一种融合用户隐式物品偏好与隐式信任的可解释推荐方法/一种融合方面信息的习题可解释推荐评分预测方法/基于细粒度数据的可解释商品推荐方法/一种基于评论的可解释推荐方法/开源社区PR评审者可解释推荐模型/基于深度模糊认知图模型的可解释预测方法",
+        "layoutList": [
+          "可解释性竞争对手建模方法",
+          "一种融合用户隐式物品偏好与隐式信任的可解释推荐方法",
+          "一种融合方面信息的习题可解释推荐评分预测方法",
+          "基于细粒度数据的可解释商品推荐方法",
+          "一种基于评论的可解释推荐方法",
+          "开源社区PR评审者可解释推荐模型",
+          "基于深度模糊认知图模型的可解释预测方法"
+        ]
+      },
+      {
+        "id": 63,
+        "code": 62,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "可解释性",
+        "layout": "Fault diagnosis of computer network based on rough sets and BP neural network/Dragon exploration system on marine sponge compounds interactions/Creating personalised clinical pathways by semantic interoperability with electronic health records/Creating and Exploiting a Hybrid Knowledge Base for Linked Data/Sharing distributed knowledge on the Web/Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results/Web shield: A modified firewall to detect malicious request",
+        "layoutList": [
+          "Fault diagnosis of computer network based on rough sets and BP neural network",
+          "Dragon exploration system on marine sponge compounds interactions",
+          "Creating personalised clinical pathways by semantic interoperability with electronic health records",
+          "Creating and Exploiting a Hybrid Knowledge Base for Linked Data",
+          "Sharing distributed knowledge on the Web",
+          "Iindex: A knowledge-model driven index to estimate the capability of medical diagnosis systems to produce results",
+          "Web shield: A modified firewall to detect malicious request"
+        ]
+      },
+      {
+        "id": 64,
+        "code": 63,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 1,
+        "keyword": "可解释性",
+        "layout": "基于RDF知识库的语义标注方法/基于安全生产专业知识库的电网安全生产方法/一种面向领域服务目标的知识库构建方法/用于分割并使用知识库的装置及关联方法/基于统一配置库和知识库的集成化运维管理平台/一种基于知识库的FPGA故障自动诊断方法/异常处理方法、自动巡检控制台和知识库系统",
+        "layoutList": [
+          "基于RDF知识库的语义标注方法",
+          "基于安全生产专业知识库的电网安全生产方法",
+          "一种面向领域服务目标的知识库构建方法",
+          "用于分割并使用知识库的装置及关联方法",
+          "基于统一配置库和知识库的集成化运维管理平台",
+          "一种基于知识库的FPGA故障自动诊断方法",
+          "异常处理方法、自动巡检控制台和知识库系统"
+        ]
+      },
+      {
+        "id": 65,
+        "code": 64,
+        "name": "论文",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "High-level concept annotation using ontology and probabilistic inference/Image segmentation with a unified graphical model/Color to gray: Visual cue preservation/A Hierarchical visual model for video object summarization/A hierarchical approach to simulation of the melodic harmonization process/Distributed cognitive radio network management via algorithms in probabilistic graphical models/A probabilistic-graphical-model based approach for representing lineages in uncertain data",
+        "layoutList": [
+          "High-level concept annotation using ontology and probabilistic inference",
+          "Image segmentation with a unified graphical model",
+          "Color to gray: Visual cue preservation",
+          "A Hierarchical visual model for video object summarization",
+          "A hierarchical approach to simulation of the melodic harmonization process",
+          "Distributed cognitive radio network management via algorithms in probabilistic graphical models",
+          "A probabilistic-graphical-model based approach for representing lineages in uncertain data"
+        ]
+      },
+      {
+        "id": 66,
+        "code": 65,
+        "name": "专利",
+        "type": "paper",
+        "level": 3,
+        "colorIdx": 2,
+        "keyword": "可解释性",
+        "layout": "基于概率图模型的身份盗用检测方法/基于概率图模型的配电网开关状态辨识方法/一种基于概率图模型的共享单车逆行行为实时识别方法/基于概率图模型的行为识别系统及方法、设备及存储介质/一种基于概率图模型的用户用电行为预测方法/一种基于概率图模型的目标预测跟踪方法/一种基于概率图模型的个性化旅游游记推荐方法",
+        "layoutList": [
+          "基于概率图模型的身份盗用检测方法",
+          "基于概率图模型的配电网开关状态辨识方法",
+          "一种基于概率图模型的共享单车逆行行为实时识别方法",
+          "基于概率图模型的行为识别系统及方法、设备及存储介质",
+          "一种基于概率图模型的用户用电行为预测方法",
+          "一种基于概率图模型的目标预测跟踪方法",
+          "一种基于概率图模型的个性化旅游游记推荐方法"
+        ]
+      }
+    ],
+    "relations": [
       {
         "id": 1,
         "source": 0,
@@ -1176,6 +1080,126 @@
         "id": 31,
         "source": 23,
         "target": 31
+      },
+      {
+        "id": 34,
+        "source": 32,
+        "target": 34
+      },
+      {
+        "id": 35,
+        "source": 32,
+        "target": 35
+      },
+      {
+        "id": 36,
+        "source": 33,
+        "target": 36
+      },
+      {
+        "id": 37,
+        "source": 33,
+        "target": 37
+      },
+      {
+        "id": 38,
+        "source": 34,
+        "target": 38
+      },
+      {
+        "id": 39,
+        "source": 34,
+        "target": 39
+      },
+      {
+        "id": 40,
+        "source": 35,
+        "target": 40
+      },
+      {
+        "id": 41,
+        "source": 35,
+        "target": 41
+      },
+      {
+        "id": 42,
+        "source": 36,
+        "target": 42
+      },
+      {
+        "id": 43,
+        "source": 36,
+        "target": 43
+      },
+      {
+        "id": 44,
+        "source": 37,
+        "target": 44
+      },
+      {
+        "id": 45,
+        "source": 37,
+        "target": 45
+      },
+      {
+        "id": 48,
+        "source": 46,
+        "target": 48
+      },
+      {
+        "id": 49,
+        "source": 46,
+        "target": 49
+      },
+      {
+        "id": 50,
+        "source": 47,
+        "target": 50
+      },
+      {
+        "id": 51,
+        "source": 47,
+        "target": 51
+      },
+      {
+        "id": 52,
+        "source": 48,
+        "target": 52
+      },
+      {
+        "id": 53,
+        "source": 48,
+        "target": 53
+      },
+      {
+        "id": 54,
+        "source": 49,
+        "target": 54
+      },
+      {
+        "id": 55,
+        "source": 49,
+        "target": 55
+      },
+      {
+        "id": 56,
+        "source": 50,
+        "target": 56
+      },
+      {
+        "id": 57,
+        "source": 50,
+        "target": 57
+      },
+      {
+        "id": 58,
+        "source": 51,
+        "target": 58
+      },
+      {
+        "id": 59,
+        "source": 51,
+        "target": 59
       }
     ]
   ,
@@ -1184,458 +1208,49 @@
     "journalsReco": null,
     "institutionsReco": null
   },
-  "paperVO": [
-    {
-      "id": "Periodical_zgsy-xby201905039",
-      "title": "基于ANFIS网络模型的城市泵站优化控制",
-      "summary": "(3)两条If-Then规则可高效地完成模型的推理计算,人工神经网络模型的可<mark class=highlight>解释性</mark>得到增强",
-      "summaryAll": "水是生命的源泉,是经济社会发展不可获缺的资源.城市河网地区水流缓慢、水体自净能力差,水质问题突出.另一方面,城市化的发展使得城市不透水面积增大,城市对暴雨洪水的敏感性增强.泵站是城市防洪排涝与水资源优化调度的主要设施,所以实现城市泵站的优化控制十分重要.自适应模糊神经网络综合了模糊系统与神经网络的优点,具有模糊性、自学习与自适应性.为提高城区河道配水的科学化水平,本研究开发了以自适应模糊神经网络(adaptive neuro fuzzy inference system,ANFIS)为核心的城市泵站优化控制模型.研究区域位于杭州市上塘河流域,七堡闸站是流域的出境控制站.为验证模型的有效性,加入倒传递神经网络(back propagation neural network,即BP)模型进行对比,评价指标选取平均绝对误差、均方误差、相关系数.对七堡泵站的控制预测结果表明(1)人工神经网络可实现对泵站的智能控制,当丁桥水位T(t)与泵站开机P(t)、P(t-1)三个变量作为输入变量时,BP模型的表现要优于ANFIS模型.(2)在模型的输入变量中加入丁桥的预报水位T(t+1)、T(t+2)时,各模型表现排序如下:ANFIS(5)>BP(5)>BP(3)>ANFIS(3).(3)两条If-Then规则可高效地完成模型的推理计算,人工神经网络模型的可解释性得到增强.",
-      "author": "赵海明",
-      "keywords": "ANFIS,河道配水,泵站控制",
-      "citedIndex": 0,
-      "publishDate": "2019-05-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_jsshkx201903027",
-      "title": "国际新闻报道主题模型分析及<mark class=highlight>解释性</mark>理论探思",
-      "summary": ",分析显在意图的“国家利益理论”和揭示隐藏意图的“镜像理论”在隐含主题分析时<mark class=highlight>可</mark>互为表里",
-      "summaryAll": "意义与意图共生共存于文本之中,解读意义和透视意图一直是国际新闻报道研究的重要维度.基于海量文本数据的计算机主题模型分析,能够在字符关联中显现意义,在语义结构中洞见意图,正在成为国际传播研究的新方法.然而,当前引入隐含主题挖掘技术的人文社科研究存在一个共同的瓶颈,即多数囿于方法创新,缺乏学科理论阐释.以国际新闻报道主题模型研究为例,在意义解读层面,具有结构分析能力的“框架理论”和拥有内容深究优势的“语境理论”在隐含主题分析上呈互补之态;而在意图透视层面,分析显在意图的“国家利益理论”和揭示隐藏意图的“镜像理论”在隐含主题分析时可互为表里.单纯的隐合主题挖掘及其文本关联聚类的主题模型数据结果,只有结合能够与之互洽的学科解释性理论才能实现其学术和应用价值,人文社科其它研究领域亦同此理.",
-      "author": "金苗",
-      "keywords": "国际新闻报道,主题模型,框架理论,语境理论,国家利益理论,镜像理论",
-      "citedIndex": 0,
-      "publishDate": "2019-03-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_kjldxyxb201804012",
-      "title": "基于局部离群因子的军事训练数据异常值检测",
-      "summary": "给出了实例分析.实例分析表明,运用本文LOF异常值检测方法,检测出的异常数据具有较好的<mark class=highlight>解释性</mark>和<mark class=highlight>可</mark>参考性",
-      "summaryAll": "为了对军事训练数据异常值进行检测,针对军事训练数据多属性特点,提出了一种按照属性方差进行有权重放缩变换的局部离群因子(LOF)异常值检测方法,给出了实例分析.实例分析表明,运用本文LOF异常值检测方法,检测出的异常数据具有较好的解释性和可参考性.这为改进常规训练方法、制定训练计划提供了参考.",
-      "author": "李广强",
-      "keywords": "军事训练,异常值检测,数据挖掘,局部离群因子",
-      "citedIndex": 0,
-      "publishDate": "2018-04-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3377369",
-      "title": "基于信息粒的模糊聚类方法研究",
-      "summary": "还采用所提出的算法实现了对盾构施工过程数据的聚类分析,从聚类结果中隶属度的可<mark class=highlight>解释性</mark>和类原型的<mark class=highlight>可</mark>代表性两方面展示了算法的优越性",
-      "summaryAll": "随着数据密集型时代的到来,如何有效地利用数据并释放其衍生价值变得愈发重要而现实。聚类作为一种重要的数据分析方法,人们可以通过它来挖掘数据潜在的结构,获得对数据更加细致的洞察结果,生成假设和发现规律等;也可以通过它产生天然的分类信息和实现对数据的压缩。因此,聚类问题的研究具有十分重要的意义。<br>　　本博士学位论文主要针对模糊聚类中的模糊C均值(FCM)算法,研究了如下三方面的问题:1）属性赋权的不确定性与加权模糊聚类;2）缺失值填补的不确定性与不完整数据的模糊聚类;3）数据与类原型的对偶关系及由此引出的完整数据FCM算法的扩展。并以上述问题中对不确定性因素的描述作为突破口,在信息粒的概念框架下,提出了多种聚类模型与算法,所完成的主要工作如下:<br>　　(1)针对加权模糊聚类中属性赋权的不确定性,将属性权描述为区间信息粒,并视属性权为受区间约束的变量,建立了区间加权FCM聚类模型。在类原型、隶属度和属性权三者交替迭代格式的基础上,提出了人机结合式和遗传-梯度混杂式两种模型求解算法。实验结果表明,所提出的方法能在传统的常值加权聚类的基础上起到进一步优调的作用,同时属性权的区间约束有助于避免迭代计算陷入不适宜的局部极小解。<br>　　(2)针对不完整数据聚类中缺失值填补的不确定性,将缺失值描述为区间信息粒。在视缺失值为受区间约束的变量的情况下,分析了缺失值区间填补聚类与区间加权聚类在模型结构上的相似性,并以此为基础建立了两者的类比求解框架。重点研究了将缺失值的区间型填补视作常的区间数的情况,借助区间数据集的聚类模型,结合机器学习中的核方法,提出了不完整数据的区间核FCM聚类算法,可获得具有粒特征的区间型类原型,能有效提高对不完整数据划分的准确性。<br>　　(3)仍然针对不完整数据聚类中缺失值填补的不确定性,依据不完整数据近邻样本的属性值信息,采用非参数假设检验的方法,将服从高斯分布的缺失值描述为概率信息粒。在此基础上,通过最大似然准则将缺失值的概率信息粒引入到不完整数据的FCM聚类,提出了相应的聚类模型以及类原型、隶属度和缺失值三类变量交替迭代的模型求解算法,挖掘出了存在于缺失值与类原型间的可相互表示的对偶关系。实验结果展示了缺失值的概率信息粒对不完整数据聚类所起到的有效引导作用。<br>　　(4)为了将类似于不完整数据聚类中缺失值与类原型的对偶关系引入到完整数据的FCM聚类,首先引入了受原始数据邻域信息粒监督的重构数据的概念,提出了一种让重构数据作为变量并直接参与到聚类迭代的新的FCM聚类模型与算法。并通过引入重构偏移指标,采用近似分析与实验相结合的方法研究了算法中参数的作用规律。理论与实验研究表明,在合适的参数取值下,重构数据在原始数据的基础上会有向各自的类原型靠拢的趋势,更有助于对数据类结构的捕捉。此外,还采用所提出的算法实现了对盾构施工过程数据的聚类分析,从聚类结果中隶属度的可解释性和类原型的可代表性两方面展示了算法的优越性。",
-      "author": "张立勇",
-      "keywords": "数据挖掘,模糊聚类,属性赋权,不确定性,信息粒",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_zghd201801013",
-      "title": "用原创的DUCG人工智能技术提高核电站的安全性和可用度",
-      "summary": ",具有知识库全图形表达、诊断正确率高、推理结果可<mark class=highlight>解释性</mark>强、计算效率高、对概率参数精度要求低",
-      "summaryAll": "核电站的安全性和可用度通常是矛盾的.各种新堆型无法用于大量在役核电站.实践及理论研究表明,各种常规故障及其叠加以及操作员的误判是导致核电站停堆和安全事故的主因.动态不确定因果图(Dynamic Uncertain Causality Graph,DUCG)是原创的人工智能理论模型和软件平台,可有效用于核电站等大型复杂工业过程系统的故障监测、预报、诊断、发展预测和决策支持.DUCG主要基于领域专家的确定或不确定因果知识而非对难以获得的大量故障数据的黑箱学习,可诊断从未发生过的故障,具有知识库全图形表达、诊断正确率高、推理结果可解释性强、计算效率高、对概率参数精度要求低、对知识库和信号的容错能力强等特点.在已经完成的各项实验中,DUCG的诊断正确率达到100％.采用DUCG技术,可在很小投入的情况下有效提高在役和新建核电站的安全性和可用度.",
-      "author": "张勤",
-      "keywords": "安全性,可用度,故障诊断,人工智能,DUCG",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3398987",
-      "title": "结合认知诊断方法的学生建模与应用研究",
-      "summary": "然而,目前的学生建模和应用方面仍然有许多待研究和<mark class=highlight>可</mark>改进的空间。",
-      "summaryAll": "近年来,信息技术不断地渗透到人们日常生活的方方面面,在带来了极大的便利的同时,信息技术也正悄悄的改变着人们的生活方式。信息技术除了在购物、出行、娱乐、通讯等传统互联网服务方面带来的改变之外,也正逐步影响着当前的教育模式。从互联网到移动互联网,近年来学生的学习方式除了传统的离线课堂教学之外,还出现了一种全新的教学模式——计算机辅助教学(computer-based learning)。这种新型的教学模式在突破了时间和空间限制的同时,降低了教育的成本,可向大规模的学生提供开放的前沿性课程和全新的学习体验。然而,伴随着教育辅助系统的不断发展和教育信息化的不断推进,产生并累积了大量的、复杂的教育数据,如何对这些教育数据进行更充分的挖掘,从中发现隐藏的信息,并对这些信息进行更有效的利用,成为教育数据挖掘领域重要的研究课题之一。<br>　　教育数据挖掘作为一个新兴的研究领域,已经有学者提出了诸多的学生建模方法,并且这些方法在教育领域有许多的应用。认知诊断作为常用的学生建模方法,提供了一系列用于诊断学生学习状态的诊断模型。然而,目前的学生建模和应用方面仍然有许多待研究和可改进的空间。首先,针对学生建模,当前主流的认知诊断模型大多针对一次考试中收集到的学生答题记录,对学生的认知状态进行建模,从而缺少对多个独立建模工作的关联,无法充分利用相似建模任务之间的共性,建模得到准确的学生认知状态。其次,针对建模结果的应用方面,缺少认知诊断结果和传统应用方法的有效结合。因此,针对以上研究问题,本文对结合认知诊断的学生建模及应用进行了研究,主要研究内容和贡献有:<br>　　1提出了多任务认知诊断框架MT-MCD,该框架可以通过联系多个独立的学生认知诊断任务,诊断得到更准确、可比较的学生认知状态。<br>　　2.提出了PFM-CD个性化试题推荐方法,该方法在传统的推荐模型中,加入了学生的认知诊断状态,从而可以依据每个学生不同的认知状态,进有效且具有可解释性的行个性化试题推荐。<br>　　3.针对以上两个工作,在真实数据集上进行了大量的实验。实验结果证明了本文所提出的认知诊断框架和试题推荐方法的有效性。",
-      "author": "朱天宇",
-      "keywords": "教育数据挖掘,认知诊断,学生建模,多任务学习,推荐系统",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3487385",
-      "title": "儿童文学英译的审美再现——以《青铜葵花》英译为例",
-      "summary": "同时，本文基于案例分析提出，译者在实际儿童文学英译过程中<mark class=highlight>可</mark>参考两种翻译原则，模仿和补偿",
-      "summaryAll": "儿童文学的语言、情感、主题等极具艺术性，有独特的文学意义与审美价值。儿童文学中灵动的韵律、细腻的情感和丰富的意象，具有形象性和表现力。2016年“国际安徒生奖”获得者曹文轩的儿童文学作品纯美、深刻、苦痛而温暖，其经典作品《青铜葵花》用优美的语言塑造痛苦中的坚强，纯真、童趣与苦难相互映衬，特色鲜明。由Helen Wang翻译、沃克出版社出版的英文版Bronze and Sunflower在英语世界也获得了较高的关注度。<br>　　翻译是有关审美的实践，中外翻译理论研究均有其美学渊源。刘宓庆教授提出的翻译美学，是中国译论与美学思想相融合的结晶，它以美学视角认识翻译实践，结合审美理论研究翻译的审美标准、审美效果等。文学翻译中的审美再现是对语言、文化本质特点和内在美感的充分反映。儿童文学的翻译更是译者进行审美感知、融入审美情感、转换审美意象、再现审美特征的一种审美活动。<br>　　本文以翻译美学为理论视角，以《青铜葵花》及其英译本为案例，采用对比分析和定量分析的方法，从形式系统和非形式系统两方面分析英译本对于原文本审美特征的再现程度，分析表明:一、译者对于形式系统中的音韵美、字词美、句式美采用直译为主，创造性翻译、删减为辅的方法，基本忠实于原文，对于语篇则根据英文表达习惯和目的语读者的阅读需求做了较大变动;二、译者在处理非形式系统中的意象美、情感美时主要进行直译，对于文化美采用解释性翻译和音译的方法，但因审美主体受到语言文化差异的限制，造成部分美感的缺失。同时，本文基于案例分析提出，译者在实际儿童文学英译过程中可参考两种翻译原则，模仿和补偿，即通过模仿原文意义、形式、风格和整体审美效果和补偿译文可能造成的文化、审美缺失，尽可能保留或再创造“意”与“艺”的最佳审美效果。",
-      "author": "高卓群",
-      "keywords": "儿童文学,汉英翻译,审美表现,翻译策略",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3479759",
-      "title": "文本向量表示方法研究",
-      "summary": "受此启发，提出了一种基于注意力机制的句子表示学习方法，该方法<mark class=highlight>可</mark>自动对句子中重要的词汇赋予较高的权重",
-      "summaryAll": "文本表示指通过某种方式将自然语言文本编码为计算机可以处理的形式，这是实现自然语言理解最基础也是最重要的步骤。高质量的文本表示可以使计算机有效地完成各种自然语言相关的任务，如机器翻译、自动问答、人机对话等，因此开展这项研究具有重要的理论意义和应用价值。<br>　　对文本表示模型来说，将不同类型信息进行有效地融合对获取高质量文本表示至关重要。本文围绕如何设计有效的信息融合方法来学习高质量的文本表示展开，重点关注三种类型信息的融合方法:词汇表示中多种模态信息的融合、短语或句子表示中底层词汇信息的融合、以及句子表示中字符与词汇信息的融合。另外，本文借鉴人脑语义表征研究的最新成果对分布式向量表示的语义可解释性进行了研究。<br>　　论文的主要工作和创新点归纳如下:<br>　　1.提出了一种基于动态融合机制的多模态词汇表示方法<br>　　词汇可由字符串、语音和图像等不同模态形式呈现，如何综合利用各模态信息学习更好的词汇表示是一个挑战。已有的多模态词汇表示模型平等地对待不同模态的信息，但是相关研究表明，不同模态的信息对于不同类型词汇含义的贡献程度是不同的。因此，提出了一种动态融合机制，通过自动针对不同类型的词汇学习不同模态的权重来对不同模态的信息进行有效地融合。实验表明，提出的方法有效地为不同类型词汇的文本和视觉模态信息赋予了不同的权重，显著提高了词汇表示的质量。在抽象词和具象词集合中，模型得到的权重符合认知科学的研究结论，即抽象词更依赖文本模态，而具象词的词义学习同时依赖文本和感知觉模态。<br>　　2.系统对比分析了不同因素对汉语和英语短语表示学习方法的影响<br>　　短语表示通常由词汇表示组合得到，已有的短语表示学习方法主要关注如何选择合适的组合函数，而忽略了组合模型的其他重要环节，如词汇表示的质量、模型的训练目标等。因此，对于不同环节对模型性能的影响以及在何种条件下模型可以学到最优的短语表示，目前没有明确的结论。为此，通过大量的实验系统地比较了来自不同模型的词汇表示、组合函数、训练语料和目标函数对短语表示质量的影响。对比分析发现，词汇表示的质量和词汇信息的融合方法对短语向量表示质量的影响最大，在进行短语组合表示学习时应使用语义增强的词汇向量和形式简单的组合函数，在缺乏高质量的复述短语数据集的情况下，从文本中直接学到的短语向量可以作为一种有效的学习目标。另外，公开了用于汉语短语相似度计算研究的数据集，为汉语短语表示方法研究提供了重要的数据资源。<br>　　3.提出了一种受人类注意力机制启发的和基于字词融合机制的句子表示方法<br>　　已有的句子表示模型对不同词汇的重要性并不做区分，而认知心理学研究表明，人在阅读句子时会选择性地注视或跳读某些词汇，这种注意力机制使人类对句子的阅读和理解变的更加高效。受此启发，提出了一种基于注意力机制的句子表示学习方法，该方法可自动对句子中重要的词汇赋予较高的权重，从而实现词汇级别信息的有效融合。实验表明，该方法显著提升了句子表示的质量，而且模型预测的词汇重要性分布在一定程度上与人的阅读时间分布相吻合，进一步证明了该方法的正确性。<br>　　另外，汉语与英语不同，汉语的字包含了丰富的语义信息，而已有的句子表示学习方法并没有充分利用字的信息。为此，研究了汉字在学习通用句子表示中的作用，并提出了一种混合字词的网络结构，用于对汉字和词汇级别的信息进行有效地融合。在多种任务上的实验结果表明，提出的方法与已有的汉语句子表示方法相比具有明显的优势。并且，公开了用于汉语句子相似度计算研究的数据集。<br>　　4.提出了一种分布式语义向量表示可解释性分析的方法<br>　　已有的词汇向量表示方法研究表明，多模态模型与单模态模型相比可以学到更好的词汇语义表示。但是，词汇的多模态表示中到底编码了什么信息，它们在哪些方面的效果优于单模态的模型，词汇在不同模态的语义组合过程中有什么区别和联系，以及不同类型的组合模型是如何组合词汇向量表示的，若干问题并没有得到清晰的解释。为此，对来自不同模型的词汇表示向量及其语义组合过程进行了深入研究，提出了一种分布式语义向量表示可解释性分析的方法，该方法利用大脑成分语义表征理论研究中对词汇语义维度的划分和数据，并利用表征相似性分析和空间映射方法对分布式向量表示的编码信息进行了解释，得出了多模态表示模型与文本表示模型相比更多地编码了感觉和运动属性，词汇在不同模态中具有相似的语义组合过程等结论。这些解释和结论对于进一步探索和建立更加有效的文本表示方法具有重要的指导意义。",
-      "author": "王少楠",
-      "keywords": "文本表示,信息融合,语义特征,可<mark class=highlight>解释性</mark>",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3399050",
-      "title": "面向在线媒体的信息流动模式分析及流行度预测方法研究",
-      "summary": "他的好友可能受其影响也去体验这个连载内容，并重复上述<mark class=highlight>可</mark>程。",
-      "summaryAll": "互联网应用的普及使得在线媒体已成为人们获取与分享信息的主要方式之一。很多实际的互联网应用都包含网络结构，如社交网络、公司之间的竞争关系网络。在线媒体数据在网络节点之间的相互传递就形成了信息的流动。一方面，数据中可能包含谣言、虚假广告等恶意信息的撒布;另一方面，大部分互联网应用具有开放性，允许与其他应用之间进行数据共享与信息交流，进而形成一个正反馈的信息流动效应。因此，深入研究在线媒体数据中的信息流动，不仅对准确刻画网络信息传播机制，还是对群体行为分析与社会舆情监控、避免恶意信息传播，乃至对社会学、行政学、管理学等相关学科的理论研究，都具有十分重要的意义。为此，围绕在线媒体的信息流动模式分析及流行度预测，分别从刻画网络节点之间信息流动（微观层面）、发现网络信息传播源头（宏观层面）、结合在线媒体信息流动进行预测（应用层面），开展了三方面研究:基于潜在影响因素的在线招聘需求分析，网络信息传播源头检测，以及基于信息流动的在线连载内容流行度预测。具体如下，<br>　　首先，从以潜在影响因素刻画竞争关系网络中节点之间信息流动的角度，研究了在线招聘需求分析问题。公司之间因人才、业务等竞争形成了以公司为节点的竞争关系网络。每个公司的招聘需求不仅受本身业务需求影响，还受竞争对手（即相邻节点）及整个行业发展趋势的影响。而传统的在线招聘需求分析方法不仅忽略了竞争关系网络结构，也没有同时考虑上述三种影响因素。为此，提出了一种基于潜在影响因素的在线招聘需求分析方法(TMRDA)。该方法设计了一种无监督学习的概率生成模型，将上述三种因素集成到在线招聘数据文本建模的过程中。同时，设计了一种从在线招聘数据获取关于竞争对手招聘需求及整个行业发展趋势的先验知识。该方法使得一些更深层次的招聘分析成为可能，如招聘需求预测、市场竞争分析。真实在线招聘数据集的实验结果验证了该方法在招聘需求分析方面的有效性与可解释性。<br>　　其次，以发现恶意信息传播源头为目标，研究了网络信息传播源头检测问题。当信息在人群中广泛传播时，如何根据观察到的传播结果发现信息传播的源头，对传染病爆发抑制、互联网病毒源识别、社交网络恶意信息追踪等至关重要。相关研究虽然注意到其重要性，但是，他们所提出的算法要么时间复杂度过高，无法应用到大规模网络，要么检测精度不够，难以准确发现信息传播源头。为此，针对无向带权图，提出了一种基于最大化后验概率(MAP)的网络信息传播源头检测方法。与已有方法不同的是，该方法以某些方法的输出作为先验知识，并利用被影响节点和其邻居节点数据计算出有效传播概率，进而推导出似然函数的精确形式。为了进一步提高算法效率，又设计了两种MAP近似估计:暴力搜索近似(BFSA)和贪心搜索边界近似(GSBA)。BFSA尝试枚举出观察数据对应的所有可能情况，而GSBA利用贪心策略降低了时间复杂度。在四个网络结构上的信息传播源头检测结果表明，本文方法在基本保证精度的同时，大大降低了时间复杂度。<br>　　最后，以结合在线媒体网络信息流动进行预测为出发点，研究了在线连载内容流行度预测问题。如果某用户发现了一个感兴趣的连载内容（如电视剧、网络小说），他就可能在其他社交网络中分享给其好友。他的好友可能受其影响也去体验这个连载内容，并重复上述可程。这样的信息流动提供了一种正反馈的助力，进一步增强了连载内容的流行度。而已有连载内容流行度预测方法大多从时间序列分析的角度思考问题，忽略了上述过程。为此，以在线连载电视剧为例，先利用相邻集流行度之间的相关性，提出了一种朴素自回归流行度预测方法(NAR)。但是，该方法忽略了用户的观看行为和与外部应用交互信息的可能。进而，又设计了一种转移自回归流行度预测模型(TAR)。它假设每个时间段的观众由两部分组成:追剧者和新增者。基于该模型参数，构造了一种可以自动地评估连载内容品质的新指标。真实的优酷网在线电视剧播放量数据验证了本文方法在流行度预测方面的优势。",
-      "author": "常标",
-      "keywords": "在线媒体,信息流动,流行度预测,信息源检测",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3394615",
-      "title": "基于正则化框架的脑网络构建与应用研究",
-      "summary": "尽管目前脑网络的研究工作已经取得大量进展，但脑网络模型仍然存在<mark class=highlight>可</mark>扩展性低、可<mark class=highlight>解释性</mark>差及无法有效利用先验信息等缺点",
-      "summaryAll": "近年来，大量研究表明，脑网络在结构和功能上具有一定的拓扑结构和组织特征，并能够提供稳定的生物标记，这为人们理解大脑机制提供了新的视角。因此，针对脑网络的研究吸引了大量学者的研究兴趣。<br>　　目前功能性脑网络（functional brain network，FBN）已经成为探索大脑工作机制和挖掘信息生物标记以协助诊断某些神经性疾病的重要手段(如帕金森症(Parkinson's disease，PD)、自闭症(autism spectrum disease，ASD)以及阿尔兹海默症(Alzheimer's disease，AD))。尽管目前脑网络的研究工作已经取得大量进展，但脑网络模型仍然存在可扩展性低、可解释性差及无法有效利用先验信息等缺点。<br>　　为解决现有脑网络模型存在的问题，本文基于正则化框架，对现有脑网络模型进行改进。通过正则化框架中的数据拟合项和正则项分别对脑网络的统计特性以及生理先验进行建模，尝试从新的角度提出一个稳定、系统的脑网络建模框架。在此框架基础上，本文的主要工作和创新之处如下:<br>　　(1)将传统基于Pearson相关的脑网络建模方法重新构造成一个新的优化模型，并将其引入到正则化框架中，从而极大的扩展了Pearson方法的模型空间。并且利用脑网络的稀疏性和无标度性作为先验知识，将其转化为对应的正则项，以此作为一个简单尝试引入到模型中，从而得到了具有稀疏性和无标度性的脑网络。<br>　　(2)将数据中的噪声假设进行建模并转化为脑网络模型中的正则项。通过这种方式提出了一种与脑网络相关的核磁数据清洗方法。这种新的模型能够在构建脑网络的同时，有效的剔除潜在的数据噪声点。通过实验发现，去除的噪声点与一些特殊的静息状态显著相关。<br>　　(3)将模型扩展到张量空间，通过张量正则化的形式，引入脑网络的组约束信息。利用张量的低秩正则化作为简单尝试，来逼近组内脑网络的相似性先验信息。并通过PARAFAC分解求解张量的低秩正则化，得到具有组约束的脑网络。<br>　　为进一步验证本文所构建的脑网络模型，将其用于神经性疾病的预测和诊断，同时为了避免特征提取和分类器给分类诊断结果带来的混淆效应，本文全部采用最简单的特征提取以及分类器训练分类模型。实验结果发现，通过正则化框架，能够有效的引入先验信息，对构建的脑网络进行约束。这种先验信息的引入，能够提高脑网络对神经性疾病的辨识性。本文模型构建的脑网络模型在精度、灵敏性和特异性几个指标中均较传统方法有很大的提升。",
-      "author": "李伟凯",
-      "keywords": "脑网络,建模方法,正则化框架,特征提取,分类器",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3463904",
-      "title": "基于上下文的音乐推荐技术研究",
-      "summary": "、可<mark class=highlight>解释性</mark>等问题。",
-      "summaryAll": "随着互联网、物联网、云计算、移动计算、大数据等众多信息技术的快速发展，网民用户和网络产品服务的数量呈爆炸式增长。然而，在享受网络提供的丰富的内容信息以及便利的服务产品的同时，人们也受到了不断增长的海量数据中大量无效信息的严重影响，导致难以从互联网中找到真正需要或感兴趣的信息和内容，造成了信息过载(Information Overload)问题。<br>　　在此背景下，推荐系统通过从历史交互行为数据中挖掘分析用户的兴趣偏好，并向用户推荐与其兴趣一致的信息和内容，更好地满足用户的需求，成为解决信息过载问题最有效的手段之一。推荐系统和算法在工业界和学术界均获得了广泛的关注、研究和应用。基于内容的推荐算法和基于协同过滤的推荐算法凭借其简单、易用、精度高等优点成为最受欢迎的推荐算法。然而，随着应用场景愈加复杂，数据规模和类型不断增加，传统协同过滤算法正面临着严峻的数据稀疏性、冷启动、准确度低、可扩展性、可解释性等问题。基于内容的推荐算法则往往需要专业知识和繁重的特征工程。此外，传统推荐算法较少考虑用户所处的上下文环境，无法生成准确的推荐。从已有的基于上下文信息的相关工作可以看出，各种上下文信息与用户的兴趣偏好紧密相关，有助于准确预测用户的兴趣偏好，在一定程度上缓解传统推荐系统所面临的问题。<br>　　鉴于此，本文对推荐系统的已有相关工作进行了系统分析，并深入探讨了各种上下文信息的提取、建模及其与推荐系统的结合策略，进而针对音乐交互数据和应用场景设计了新的上下文感知音乐推荐算法。本文主要研究内容和贡献如下:<br>　　1.研究了情感信息的提取与建模技术，并提出了基于情感上下文的音乐推荐算法。<br>　　音乐是情感的载体，收听音乐是一种与用户情感状态紧密关联的行为。用户情感信息是进一步理解用户的音乐偏好和兴趣的重要手段，有助于对用户进行准确建模。但情感获取及其与推荐系统融合的过程存在诸多困难，已有工作尚未对此进行充分研究。本工作从用户的社交网络中提取其情感信息，并将该信息作为一种约束条件引入推荐系统，结合用户与音乐的交互数据，在已有推荐算法的基础上对用户或者音乐的相似度度量方式进行改进，使得推荐结果既考虑了用户的全局兴趣，也考虑了用户在当前情感状态下的上下文兴趣，从而生成精准的推荐，更好地满足用户的需求。实验结果表明，与基准方法相比，本方法能够在多种准确率指标上取得更好的效果，证明了情感上下文的重要作用以及该推荐算法的有效性。<br>　　2.研究了基于收听序列的音乐表示学习与用户兴趣建模技术，并提出了序列上下文感知的音乐推荐算法。<br>　　用户可以随时随地收听音乐，因此用户的上下文信息动态多变且难以直接获取。通过对用户音乐交互数据和已有工作的分析可知，用户的上下文兴趣反映在用户的交互行为中，例如音乐收听序列。用户喜欢或播放的音乐序列是他们在相应的时间段内对音乐的特定的上下文偏好的表现，同时反映了音乐的内在特征信息和相似度信息。本研究工作提出了序列上下文感知的音乐推荐方法，从音乐收听序列中推测用户偏好并推荐合适的音乐。首先，该方法从用户的音乐收听序列中学习音乐的低维特征向量表示（嵌入）;然后，基于学习得到的嵌入，分别从用户的长期收听序列和短期收听序列中推测用户的全局兴趣和上下文兴趣并建模;最后，根据用户的兴趣推荐合适的音乐，满足用户的实时需求。实验结果表明，相比于基准方法，该方法能够在多种准确率指标上取得更好的效果。<br>　　3.研究了多源异构信息的集成与建模技术，并提出了基于异构信息的上下文感知音乐推荐算法。<br>　　由于用户音乐交互数据的稀疏性，传统的音乐推荐技术的效果会受到一定程度的影响。本工作研究了基于多源异构信息的上下文感知音乐推荐方法，利用多源异构数据作为辅助信息以缓解数据稀疏问题。本工作首先构建了嵌入表示学习模型来编码不同种类的信息，包括用户和音乐之间的交互信息、音乐播放序列信息以及音乐的元数据，并从中学习音乐的隐性特征向量。在此基础上，进一步提出上下文感知音乐推荐方法，从用户的交互记录中获取用户的全局兴趣和上下文兴趣，结合二者向用户推荐合适的音乐，更准确地满足用户的实时需求。在大量真实数据集上的实验结果表明，所提出的方法的效果好于基准方法，尤其是在稀疏数据集上。另外，可视化结果表明该方法所学习得到的音乐特征向量能够用于分类聚类、自动标注、数据可视化、检索、相似度度量等多项任务。",
-      "author": "王东京",
-      "keywords": "推荐系统,音乐数据,上下文信息,用户偏好",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3478681",
-      "title": "基于签到数据的POI个性化推荐方法研究",
-      "summary": "推荐中存在的以上两个问题，本论文首先提出了一种基于矩阵分解的、融合时空信息的、具有可<mark class=highlight>解释性</mark>和<mark class=highlight>可</mark>扩展性的",
-      "summaryAll": "得益于移动设备的广泛普及和定位技术的飞速发展，许多基于位置的社交网络应运而生，如Foursquare，Gowalla，街旁，大众点评等等。一方面，在虚拟世界中，人们可以在基于位置的社交网络上分享自己的经历，产生了大量与位置有关的数据;而另一方面，在物理世界中，人们实时地通过线上网络信息为自身空间活动提供便利，能够从线上获得基于位置的线下服务。这些基于位置的社交媒体成为连接现实世界与虚拟世界的纽带。如何有效利用位置相关的线上信息为人们的线下活动提供便利是当前基于位置服务研究的主要内容。其中，帮助人们从海量的兴趣点(points of interest，POI)中发现他们没去过但可能感兴趣的位置，即POI推荐技术的研究占据重要的地位。<br>　　POI推荐是一种数据敏感的技术。尽管POI签到总数量很庞大，但每个用户签到的POI的数量是有限的;同时，签到数据是一种隐式用户反馈，不能直接反映用户对项目的偏好。如何克服数据稀疏性和解决隐式数据反馈的问题是POI推荐面临的一大难题。而另一方面，虽然大量附加信息可以辅助POI推荐，但要充分利用多种附加信息需保证算法的可扩展性，这是POI推荐面临的又一大难题。<br>　　针对POI推荐中存在的以上两个问题，本论文首先提出了一种基于矩阵分解的、融合时空信息的、具有可解释性和可扩展性的POI推荐模型。该推荐模型以实体特征空间分离的思想为基础，巧妙地将地理聚集现象、时间序列现象等附加信息以独立矩阵的形式建模在矩阵分解过程中。其次，本论文分析了两种目前十分流行的推荐目标函数（即带权最二乘目标函数和成对排序优化函数）的各自优劣，构建了一个以成对排序优化函数为主要优化项，带权最小二乘函数为约束项的目标函数，并借助随机梯度下降的思想完成了模型求解。最后，利用两个真实的签到数据集（分别来自Gowalla和Foursquare）验证本论文方法的推荐效果。结果表明，相较其他算法，本论文提出的推荐模型的推荐性能明显提高。提出的推荐框架本身，融入的地理信息、时间序列信息及优化求解方法均对推荐性能的提升起到了不同程度的积极作用。<br>　　综上，本论文的主要成果为：1）本论文提出了一种融合时空信息的、具有可扩展性的、可解释性的推荐模型。2）构建了一种混合优化目标函数及求解方法。3）设计实验分析并验证了本论文推荐模型和优化求解对推荐性能的积极影响。",
-      "author": "蔡玲",
-      "keywords": "兴趣点推荐,矩阵分解,目标函数,地理因子,时间序列,签到数据",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3464053",
-      "title": "结合先验知识的深度学习算法研究与应用",
-      "summary": "这种“端到端”的做法将一些<mark class=highlight>可</mark>灵活引入先验知识的手段（如特征设计与选择等）交由模型来处理",
-      "summaryAll": "随着互联网的发展，移动终端的普及，海量数据正在以指数级速度爆炸式增长。随着数据不断积累以及计算能力不断提高，以深度学习手段为代表的数据驱动式机器学习方法逐渐成为了学术界研究与产业应用的热点。<br>　　当前深度学习方法往往依赖大量标注训练数据，依据具体任务，来设计针对特定目标损失函数，通过逐层前向传播与误差反向传播算法，以“端到端”方式逐步优化整个网络。这种“端到端”的做法将一些可灵活引入先验知识的手段（如特征设计与选择等）交由模型来处理。虽其可减轻研究人员负担，但这一“数据驱动”方法却带来了学习结果解释性差、泛化能力不强等不足。<br>　　将数据中所隐含的特定先验知识与深度学习算法相结合，可使算法优化有的放矢，避免其在求解空间中盲目搜索，从而得到性能更加优良，用途更加广泛的模型。为此，本文主要研究了将不同类型与来源的先验知识与深度学习相结合，以设计有效算法来解决实际问题的思路与方法:<br>　　1)结合跨媒体组合语义知识的深度学习方法。在跨媒体数据中存在着大量的组合语义，这些组合语义刻画了大量知识（如文本中主谓宾三元组知识及图像中视觉对象空间知识）。跨媒体数据中不同模态知识之间存在着对应关系（本文将其称为跨媒体组合语义关联知识）。例如在一篇描述观众在路边观看运动员骑自行车比赛的新闻报道中，文本中包含了<运动员，骑，自行车>，<观众，观看，比赛>等三元组知识，图像中包含了“骑车的运动员”及“看比赛的观众”这样的视觉对象空间知识。同时，文本内容与图像视觉内容相互对应，协同表达了高层语义，体现了跨媒体组合语义关联知识。这些知识在人看来是显而易见的，但是许多算法却没有很好利用这些知识。跨媒体组合语义知识在语义层面，将不同媒体内容有效关联在了一起，为跨越多媒体数据语义鸿沟提供了十分重要的线索。因此，本文介绍的算法将跨媒体组合语义知识与深度学习相结合，更有效地学习跨媒体数据分布式表示，其本质在于通过特征表示与语义对齐学习跨媒体数据中丰富的组合语义知识。将该方法应用到跨媒体数据分布式表示学习中，能使学习到的分布式表示更加充分地表达数据语义。该方法在跨媒体检索，跨媒体推理等应用中均能取得不错的成绩。<br>　　2)结合用户隐性行为知识的循环神经网络方法。互联网应用中积累的大量用户行为信息是学习与分析用户行为的重要资源。用户历史行为会对后续行为产生指导与影响。例如:在互联网上买过衣服的用户很可能也会在互联网上买裤子;去过故宫的用户很可能也会去北海公园。在使用深度学习方法学习用户行为时，如何有效从用户隐性行为知识中学习出用户行为模式与习惯是值得探讨的研究内容。因此，本文设计了一种结合用户隐性行为知识的循环神经网络方法。通过多层循环神经网络结合方法，对用户短时行为和长时行为分别建模，再利用注意力机制将用户历史行为中隐性知识作为辅助参考，有效计算并预测用户未来行为。本文将该方法应用于地图检索推荐任务，通过分析学习大量地图检索记录数据，其能有效计算并预测用户下一次检索行为。利用该方法同时还能学习到富含语义信息的地图关键词分布式表示。<br>　　3)结合局部知识与全局知识的记忆神经网络方法。在大量记录所包含的知识中，一些知识体现了个体特征，可称之为局部知识;另一些则体现了群体特征，可称之为全局知识。例如:局部知识可为某个人是否对某种药物过敏，全局知识可为几乎所有人感冒了都会发热。在深度学习模型中使用不同方式学习局部知识与全局知识将能更好的在模型层面体现出这两种知识的差异，并且使模型同时具有理解个体特征与理解全体特征的能力。因此，本文将局部知识与全局知识和深度学习方法结合起来，提出了结合局部知识与全局知识的记忆神经网络方法。通过将局部知识记录在局部记忆模块中，同时将全局知识记录在全局记忆模块中，该方法有效学习了大量记录中的隐含信息。本文将该方法用于分析预测医疗病历数据，将某种疾病单个病人个体知识作为局部知识，该种疾病群体知识作为全局知识，并据此计算并预测病人病情发展，以及需要使用的药物。<br>　　4)结合短距离关联知识与长距离交互知识的深度学习方法。在一个以实体为节点和以关系为边的知识库中，每一条联结两个节点的边都表示了一种短距离关联知识（如节点“Andrew”通过边“son”与节点“James”相连，又如节点“James”通过边“mother”与节点“Christine”相连）。两个有边相连的节点之间通过多条边组成的路径刻画了长距离交互知识（如节点“Andrew”通过边“wife”与节点“Christine”相连，同时节点“Andrew”通过边“son”与“James”相连，继而通过边“mother”与“Christine”相连，这表示了边“wife”与路径“son→mother”在某种程度上具有等效语义）。知识库中短距离关联知识与长距离交互知识均包含了丰富语义。在学习知识库中实体和关系表示时，若能同时学习其中的短距离关联知识与长距离交互知识，就能学习到具有丰富语义信息，且能保持知识库原有结构的表示方式。因此本文将短距离关联知识与长距离交互知识和基于深度学习的分布式表示学习方法相结合，提出了结合短距离关联知识与长距离交互知识的深度学习方法。该方法通过挖掘知识库中有价值的长距离交互知识，并将其用于知识库分布式表示学习中，在约束短距离关联知识的同时约束长距离交互知识，从而学习到能用于有效补全知识，发现新关系的知识库分布式表示。<br>　　本文围绕将数据中所包含的先验知识与深度学习算法相结合这一思路，研究了包括将跨媒体组合语义知识、用户隐性行为知识和局部知识与全局知识，以及短距离关联知识与长距离交互知识与深度学习方法相结合的多种模型。本文所设计的方法通过挖掘与合理利用数据中知识，并将其与深度学习模型相结合，得到了与应用结合更为紧密的机器学习模型。",
-      "author": "宋骏",
-      "keywords": "深度学习,先验知识,算法设计,数据驱动",
-      "citedIndex": 0,
-      "publishDate": "2018-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_zjdxxb-gx201710003",
-      "title": "增量式0阶TSK模糊分类器及鲁棒改进",
-      "summary": "为了克服传统的分类器难以在具有令人满意的分类性能、快速的学习效率的同时兼顾高可<mark class=highlight>解释性</mark>之不足",
-      "summaryAll": "为了克服传统的分类器难以在具有令人满意的分类性能、快速的学习效率的同时兼顾高可解释性之不足,提出增量式0阶模糊分类器TSK-IFC0IRLs.该分类器通过使用增量式模糊聚类算法IFCM(c+p)对训练样本进行聚类,使用高斯隶属度函数将聚类结果映射到模糊子空间,使用迭代重加权最小二乘优化算法IRLS对模糊规则的后件参数进行学习.通过提出基于伪Huber函数的代价函数,它的鲁棒性改进版本TSK-IFC0PHub被提出来以提高分类器的抗噪能力.仿真实验表明,与FCPM-IRLS、RBF、ANFIS分类器相比,提出的2种模糊分类器均具有良好的分类性能及数据规模的可扩展性,TSK-IFC0PHub具有良好的鲁棒性.An incremental zero-order TSK fuzzy classifier called TSK-IFC0IRLs was proposed based on iteratively reweighted least squares optimization algorithm in order to circumvent the drawback that traditional non-fuzzy classifiers had no any interpretability and that fuzzy classifiers could not always be feasible for many datasets with satisfied classification performance.The incremental fuzzy clustering algorithm IFCM(c+p) for large-scale datasets was used to quickly train antecedent parameters of fuzzy rules by clustering and using Gauss function to map the clustering results into fuzzy subspace.The iteratively reweighted least squares optimization algorithm was used to learn consequent parameters of fuzzy rules.The robust version called TSK-IFC0PHub was developed based on pseudo-Huber loss function with the purpose of improving anti-noise ability of TSK-IFC0IRLs.The proposed fuzzy classifiers were experimentally compared with conventional fuzzy classifier FCPM-IRLS,RBF neural network and ANFIS.Results indicated the power of the proposed fuzzy classifiers on interpretability,classification performance and scalability.The strong robust capability of TSK-IFC0PHub was verified by the experimental results.",
-      "author": "李滔",
-      "keywords": "增量式模糊聚类,迭代重加权最小二乘法,伪Huber函数,TSK模糊分类器,鲁棒性,incremental fuzzy clustering,iteratively reweighted least squares,pseudo-Huber function,TSK fuzzy classifier,robustness",
-      "citedIndex": 0,
-      "publishDate": "2017-10-25",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_flkx201705016",
-      "title": "论人工智能的民事责任:以自动驾驶汽车和智能机器人为切入点",
-      "summary": "、可<mark class=highlight>解释性</mark>、因果关系等问题将使得证明产品缺陷责任等既有侵权责任变得越来越困难,",
-      "summaryAll": "随着自动驾驶汽车等智能机器人的自主性、学习和适应能力不断增强,一方面很难将其看作是人类手中的简单工具;另一方面伴随而来的可预测性、可解释性、因果关系等问题将使得证明产品缺陷责任等既有侵权责任变得越来越困难,可能带来责任鸿沟,使得被侵权人的损害难以得到弥补.面对可预期的责任挑战,侵权法、合同法等法律规则的不充足性和局限性将逐渐显现出来,对新的法律规则的需求也将变得越来越迫切.为此,欧盟、英国、美国等已经开始探索新的责任框架.为了更合理、有效地对智能机器人造成的损害分配法律责任,严格责任、差别化责任、强制保险和赔偿基金、智能机器人法律人格等都是潜在的法律方案;但立法者或者法院最终选择何种方案,需要进行全方位的论证,以便实现法律的利益平衡目的.",
-      "author": "司晓",
-      "keywords": "自动驾驶汽车,智能机器人,严格责任,差别化责任",
-      "citedIndex": 0,
-      "publishDate": "2017-09-10",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_qqhryxyxb201716003",
-      "title": "BOOST方法在1型糖尿病通路发现中的应用",
-      "summary": ",为通路发现提供更多的可<mark class=highlight>解释性</mark>.",
-      "summaryAll": "目的 利用BOOST交互作用筛选方法,查找交互作用后进行通路的发现,为疾病易感性基因的查找提供帮助.方法 以WTCCC的Ⅰ期公开数据中1型糖尿病的数据为原始数据,结合BOOST方法进行交互作用分析,通过通路富集分析发现通路.结果 发现了10条通路,其中有2条通路位于HLA区域外部,其余8条通路都在HLA区域内部,且通路中所包含的主要交互作用基因彼此之间存在重叠.结论 利用BOOST交互作用筛选方法可有效地作为通路发现的手段,可弥补传统只考虑单变量的不足,为通路发现提供更多的可解释性.",
-      "author": "李昂",
-      "keywords": "糖尿病,单核苷酸多态性,BOOST",
-      "citedIndex": 0,
-      "publishDate": "2017-08-30",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_scdxxb-gckx201703018",
-      "title": "基于关联性的动态分类模型——以皮肤与体质为例",
-      "summary": ",以适用于测试数据从小到大积累过程中分类模型均具有较好分类特性及可<mark class=highlight>解释性</mark>的应用要求",
-      "summaryAll": "针对人体面部皮肤状态指标与中医体质类型之间的关联性进行科学、定量研究,从测试数据持续累积与知识发现深入推进的过程视角,尝试揭示人体内在中医体质与外观皮肤状态指标间的复杂动态演化规律.综合小样本条件下决策树的良好归纳特性及大样本条件下贝叶斯算法分类准确率高的优势.提出基于建模数据量会不断增多的趋势,构建可自适应修订决策树和模糊朴素贝叶斯融合分类算法的权重,以适用于测试数据从小到大积累过程中分类模型均具有较好分类特性及可解释性的应用要求.其中决策树采用最佳后剪枝方式,避免了常规决策树存在的过拟合弊端;朴素贝叶斯算法则通过定义指标归属区间的模糊隶属度来解决皮肤属性测试与分类中存在的随机性与模糊性.实证结果表明本文提出的分类模型的融合权重可动态调整且随着建模数据的增多分类精度会相应提高.目前对应151个建模数据的分类模型的分类准确率为86.7％,高于独立决策树、朴素贝叶斯的83.3％和80％,亦高于对照组80个建模数据对应分类准确率的76.7％.分析可得:此皮肤与体质动态分类模型通过有效利用参与建模的数据信息,能识别出人体面部外观皮肤状态指标与内在中医体质之间的复杂关联性,建立的分类模型具有较好的精度与可解释性,为基于数据驱动的中医理论的科学化、智能化发展进行了有益的探索.It is valuable to recognize the correlation between the skin state index of human face and the type of Traditional Chinese Medicine (TCM) constitution with scientific and quantitative research methods,and from the process perspective of the accumulation of data and the further advance of knowledge discovery in database,the complex dynamic evolution law of TCM constitution and the appearance skin state index would be revealed.A classification model was proposed that combined the good inductive properties of decision tree for small sample data and the high classification accuracy of Bayes algorithm for large sample data.The decision tree and fuzzy Naive Bayes algorithm were fused to optimize adaptively the weight of index under the trend of the test data accumulation from less to more with a better classification accuracy and interpretation performance.The post-pruning way was used to avoid the over fitting of the conventional decision tree.The fuzzy membership function was introduced to the Naive Bayes by defming interval boundary to solve the randomness and fuzziness in testing and classification of skin state index.The results showed that the fusion weights of the proposed classification model could be adjusted dynamically and the classification accuracy would be increased with the increase of modeling data.The classification accuracy of the classification model with 151 data is 86.7％,higher than 83.3％ of independent decision tree,80％ of Naive Bayes,and 76.7％ of the matched group with 80 data.The dynamic classification model of facial skin and TCM constitution could effectively identify the complex relationship between the facial skin index and the internal type of TCM constitution by utilizing the data information involved in modeling.The classification model has good accuracy and interpretability,which is a beneficial exploration for the scientific and intelligent development of TCM theory based on data-driven.",
-      "author": "张慧妍",
-      "keywords": "关联性,信息融合,决策树,模糊朴素贝叶斯,correlation,information fusion,Decision Trees,fuzzy Naive Bayes",
-      "citedIndex": 0,
-      "publishDate": "2017-05-30",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_jsjyjyfz201705009",
-      "title": "知识嵌入的贝叶斯MA型模糊系统",
-      "summary": "其获得的规则可对应于不同的特征空间.其次,KE-B-MA基于贝叶斯推理使用马尔<mark class=highlight>可</mark>夫蒙特卡洛",
-      "summaryAll": "模糊系统的独特优势在于其高度的可解释性,然而传统的基于聚类的模糊系统往往需要使用输入空间的全部特征且常出现模糊集交叉的现象,系统的可解释性不高;此外,此类模糊系统对高维数据处理时还会因使用大量的特征而使规则过于复杂.针对此问题,探讨了一种知识嵌入的贝叶斯MA型模糊系统(knowledge embedded Bayesian Mamdan-Assilan type fuzzy system,KE-B-MA).首先,KE-B-MA使用DC(don't care)方法进行知识嵌入的模糊集划分,对模糊隶属度函数中心和输入空间特征的选择进行有效指导,其获得的规则可对应于不同的特征空间.其次,KE-B-MA基于贝叶斯推理使用马尔可夫蒙特卡洛(Markov chain Monte Carlo,MCMC)方法对模糊规则的前后件参数同时学习,所得结果为全局最优解.实验结果表明:与一些经典模糊系统相比,KE-B-MA具有令人满意的分类性能且具有更强的可解释性和清晰性.The most distinctive characteristic of fuzzy system is its high interpretability.But the fuzzy rules obtained by classical cluster based fuzzy systems commonly need to cover all features of input space and often overlap each other.Specially,when facing the high-dimension problem,the fuzzy rules often become more sophisticated because of too much features involved in antecedent parameters.In order to overcome these shortcomings,based on the Bayesian inference framework,knowledge embedded Bayesian Mamdan-Assilan type fuzzy system (KE-B-MA) is proposed by focusing on the Mamdan-Assilan (MA) type fuzzy system.First,the DC (don't care) approach is incorporated into the selection of fuzzy membership centers and features of input space.Second,in order to enhance the classification performance of obtained fuzzy systems,KE-B-MA learns both antecedent and consequent parameter of fuzzy rules simultaneously by a Markov chain Monte Carlo (MCMC) method,and the obtained parameters can be guaranteed to be global optimal solutions.The experimental results on a synthetic dataset and several UCI machine datasets show that the classification accuracy of KE-B-MA is comparable to several classical fuzzy systems with distinctive ability of providing explicit knowledge in the form of interpretable fuzzy rules.Rather than being rivals,fuzziness in KE-B-MA and probability can be well incorporated.",
-      "author": "顾晓清",
-      "keywords": "分类,贝叶斯推理,Mamdan-Assilan型模糊系统,知识嵌入,马尔<mark class=highlight>可</mark>夫链蒙特卡洛方法",
-      "citedIndex": 0,
-      "publishDate": "2017-05-20",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_wyjx201705016",
-      "title": "机器学习算法在翻译风格研究中的应用",
-      "summary": "且具有很强的预测功能,有助于判定或预测译本或者译者的风格.与传统方法相比,该方法省时省力,过程<mark class=highlight>可</mark>重复",
-      "summaryAll": "支持向量机是文本分析领域应用最多的机器学习算法之一,但其在翻译风格研究中的应用却并不多见.本研究基于语言计量特征,运用机器学习的方法对比王科一、张经浩两译者《傲慢与偏见》译本的翻译风格.首先,用信息增益算法获取两译者具有差异性的语言特征,然后基于这些特征构建文本分类器即支持向量机(SVM),对两译者的翻译文本进行自动分类,最后用十折交叉法对分类器的有效性进行验证.研究证明,机器学习算法分类准确率高,且具有很强的预测功能,有助于判定或预测译本或者译者的风格.与传统方法相比,该方法省时省力,过程可重复,结果精确可靠,便于处理大量陌生语料和海量特征,能发现文本间更细微的特征差异,为大数据时代的探索性翻译研究提供了便利,是翻译研究科学化的一种新的尝试.另外,本研究结合统计数据对差异性语言特征进行分析,分析结果与前期研究和研究者对文本的感受高度吻合,具有很强的可解释性.",
-      "author": "詹菊红",
-      "keywords": "机器学习算法,信息增益法,支持向量机,翻译风格",
-      "citedIndex": 0,
-      "publishDate": "2017-05-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Periodical_jlgydxzrkxxb201702040",
-      "title": "基于特征选择和支持向量机的HIV-1型蛋白酶剪切位点预测",
-      "summary": "个样本的HIV-1型蛋白酶剪切位点数据集进行分析,根据最小冗余最大相关理念,采用<mark class=highlight>可</mark>自动终止法选择剪切位点的特征向量",
-      "summaryAll": "为了提高HIV-1型蛋白酶剪切位点的预测准确性,提出一种基于特征选择和支持向量机的剪切位点预测模型.首先,通过对5830个样本的HIV-1型蛋白酶剪切位点数据集进行分析,根据最小冗余最大相关理念,采用可自动终止法选择剪切位点的特征向量;然后,将特征向量输入到支持向量机进行学习和训练,建立HIV-1型蛋白酶剪切位点的分类模型;最后,采用Matlab 2014的仿真工具箱进行仿真测试.实验结果表明:本文模型在特征最少的条件下,剪切位点预测精度优于参比模型及文献报道,且所选择的特征向量具有较好的可解释性及生物学意义.In order to improve the prediction accuracy of the HIV-1 protease cleavage site,a shear prediction model based on feature selection and support vector machine is proposed.First,by analysis of the cleavage site dataset of 5830 samples,and using absorption minimum redundancy maximum relevance concept,the automatic termination method is employed to select the cleavage site feature vectors.Then,the feature vector is input to a support vector machine for learning and training to build the classification model of splice sites.Finally,simulation is carried out using MATLAB 2004 simulation toolbox.Results show that the proposed model has better prediction accuracy than that of the reference models and literature report.The selected features have good interpretability and biological significance.",
-      "author": "袁哲明",
-      "keywords": "生物物理学,剪切位点预测,特征选择,最小冗余最大相关,支持向量机,biophysics,cleavage site prediction,feature selection,minimal redundancy maximal relevance(mRMR),support vector machine(SVM)",
-      "citedIndex": 0,
-      "publishDate": "2017-04-28",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_D01197524",
-      "title": "有关南海问题发言的两个英文版本的对比研究——从批评话语分析角度",
-      "summary": "，作者意在证明费氏三维话语分析模式对于翻研文本究尤其是政治语篇翻译文本研究有<mark class=highlight>可</mark>实践性的意义",
-      "summaryAll": "在复杂的国际环境下，政治话语一直是占据话语权优势的重要的方法之一。正因为如此，许多学者尝试从不同的角度研究政治话语。在政治语篇的翻译领域，批评话语分析吸引了越来越多的学者的关注。批评话语分析（CDA）的研究方法满足了结合宏观研究与微观分析的研究要求。CDA理论在翻译中的意识形态研究提供了一个新的视角。本文以两个可以代表主流意识形态的大众媒体，纽约时报和中国外交部网站中涉及到中国外交部发言人针对南海问题的发言的英文翻译的8篇报道作为文本进行了对比研究。文中用了CDA理论中一个重要的的理论，费尔克劳夫的三维话语分析理论作为文章的理论框架。<br>　　本文先梳理了国内外对于政治语篇翻译的研究，又对国内外CDA各个视角下的翻译研究进行了梳理，之后发现作为CDA一个重要理论，费尔克劳夫的三维话语分析模式对于翻译文本研究尤其是政治语篇的翻译文本研究有实践意义也有一定的挖掘空间，于是对批评话语分析与费尔克劳夫的三维话语分析理论的渊源也进行了介绍。基于费尔克劳夫的三维话语分析理论模型，本文对这两个英文翻译版本进行对比研究，试图找出差异并分析原因。分析从三个阶段着手：描述性阶段，阐述阶段和解释性的阶段。描述阶段主要分析两个英文文本的语言学特征不同，阐述阶段主要分析进行报道所运用的语言模式的不同，解释性阶段主要分析南海问题产生的历史，国际政治背景以及这两大媒体所代表的利益即这两个不同文本所产生的根本的愿意即意识形态的差异。通过研究，作者意在证明费氏三维话语分析模式对于翻研文本究尤其是政治语篇翻译文本研究有可实践性的意义。",
-      "author": "李亚文",
-      "keywords": "英文版本,政治语篇翻译,南海问题发言,意识形态,批评话语分析",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3336451",
-      "title": "若干单指标模型的统计推断",
-      "summary": "半参模型是非参模型和参数模型的结合，它既保持了非参模型的灵活性，同时又具有参数模型良好的可<mark class=highlight>解释性</mark>",
-      "summaryAll": "近几十年来，在识别响应变量和预测变量的回归结构问题中，半参回归模型受到了越来越多统计学者的关注。半参模型是非参模型和参数模型的结合，它既保持了非参模型的灵活性，同时又具有参数模型良好的可解释性，特别的它还有效的避免了纯非参回归的维数灾难问题。<br>　　单指标模型作为一种常见的半参模型，已经广泛的应用到了生物统计、医学药物、经济学、金融学等学科中。令Y是一个随机变量，X∈x是一个d维随机向量，β是未知指标参数，常见的单指标模型有:<br>　　1.单指标回归模型:Y关于X的条件期望与Y关于X(Τ)β的条件期望相等，即E[Y|X]=E[Y|X(Τ)β]=g(X(Τ)β),其中函数g(·)是未知的。相关文献有Hall et al.(1993)，Hristache et al.(2001)、Delecroix et al.(2006)、Xia et al.(2002)、Cui et al.(2011)等。<br>　　2.单指标条件分布模型:Y关于X的条件分布与Y关于X(Τ)β的条件分布相等，即F(Y|X)=F(Y|X(Τ)β)=g(X(Τ)β)，其中函数g(·)是未知的。相关文献有Delecroix et al.(2003)、Hall&Yao(2005)、Ma&Zhu(2013)等。<br>　　3.单指标分位数模型:假设Qα(Y|X)表示Y关于X的条件α分位数，其中0≤α≤1，那么单指标分位数模型定义为Qα(Y|X)=g(X(Τ)β)，其中函数g(·)是未知的。相关文献有Chaudhuri et al.(1997)、Kong&Xia(2012)、Wu et al.(2010)、Ma&He(2016)等。<br>　　在单指标模型中，因为涉及到未知函数g，参数β并不是唯一的。因此为了模型的可识别性，需要对参数β进行限制。常用的方法有两个:第一个是假设‖β‖=1和它的第一个元素β1＞0，见Lin&Kulasekera(2007);第二种是假设参数β的第一个元素为固定值，如β1=1。在本文中，将采用第二种可识别条件。<br>　　本篇论文中，针对单指标模型的估计问题进行研究。讨论了三种不同单指标模型，分别是一种广义的单指标模型假设（包括单指标回归模型和单指标条件分布模型）、删失数据的单指标模型和包含条件方差信息的单指标模型。给出了它们的估计方法、渐近性质，以及相关的置信区间的构造、单指标假设的检验等内容。<br>　　在第一章中，将提出关于单指标模型的一个新的估计方法。单指标是一种非常自然的降维方法，这一方法对参数模型的精确性和非参模型的灵活性进行了折衷。假设Tu，u∈u是Y的转换函数族。在单指标假设下，存在唯一的β0，使得对于任意的u∈u，E[Tu(Y)|X]=E[Tu(Y)|X(Τ)β0],(0.0.1)其中向量β0是需要估计的指标向量，它属于参数集合B(C)[（β1,…βd）:β1=1}(C)Rd。<br>　　我们的方法基于以下的思路。对于每一个β∈B，假设X(Τ)β有密度函数fβ(·)。令gu(Y,X，β)={Tu(Y)-E[Tu(Y)|X(Τ)β]}fβ（X(Τ)β），u∈u，β∈B.那么条件(0.0.1)可转化为，对于任意的u∈u，E[gu(Y,X，β)|X]=0α.s.(→)β=β0.因此，定义函数Q（β)=∫u E[gu（Y1，X(Τ)1β;β)(Τ)gu（Y2，X2(Τ)β;β)ω（X1-X2）]dμ(u），β∈B，其中ω(·)是空间x上的实值可积函数并且具有可积的严格正的傅立叶转换，μ是某个概率测度，它的支撑集有波雷尔σ-域。β0是Q(β）=0的唯一根。那么构造Q(β)的基于样本的近似值(Q)（β)，然后关于参数β最小化(Q)(β），就可以得到β0的估计(β)。<br>　　在我们的模型中函数gu是未知的，在构造(Q)（β)时，使用的是gu的不含分母的核估计，这种估计可以避免使用修正函数并且不用限制协变量的取值范围。据所知，目前在单指标模型的估计方法中，我们的方法是唯一不需要这两种限制的。<br>　　我们的估计值是一致的，并且是√n-渐近正态的。由于渐近方差的结构非常复杂，提出了一种类似于Lavergne&Patilea(2013)中给出的重抽样方法来构造置信区间，也见于Jin et al.(2001)。在该方法中，构造了准则(Q)(β）的一个随机扰动版本并计算其最小值点。这个最小值点的分布接近于(β)的分布。通过多次重复这一过程，可以得到(β)分布的一个近似。<br>　　还利用几个模拟实验和真实数据来评估我们的估计方法。结果表明我们的方法要优于现有的方法。<br>　　在第二章中，研究了删失数据的估计问题。提出了一种降维方法，利用单指标假设，在SMD类型方法的帮助下估计指标参数β。<br>　　假设T是在（-∞，∞]中取值的随机变量。这类模型常常假设T是非负的，但是我们的方法并不需要这一限制条件。令Y是实值随机变量，δ是一个标识变量，X是在某个空间x中取值的协变量。标识变量用来标识Y的取值是寿命时间T，还是小于T的某个随机量。也就是说，δ=1如果Y=Tδ=0如果Y＜T.我们的目标是估计T关于X的分布。事件{T=∞}的条件概率允许为正。<br>　　观察值可以用条件子概率来描述，令H1（（-∞，t]|x）=P(Y≤t，δ=1|X=x)H0（（-∞，t]|x）=P(Y≤t，δ=0|X=x），t∈R，x∈x.那么Y的分布为H（（-∞，t]|x）=P(Y≤t|X=x)=H0（（-∞，t]|x）+H1（（-∞，t]|x）.为了估计T的条件分布，通常用如下方法来构造模型:存在一个随机变量C作为右删失时间，Y=T∧C，δ=1{T≤C}.在适当的可识别假设下，例如T和C是关于X条件独立的，T关于X的条件分布可以表示为关于H0(·|x)和H1(·|x)的解析表达式，那么就可以通过代入H0(·|x)和H1(·|x)的非参估计来得到相应的估计。这种估计通常被称为条件Kaplan-Meier估计。见Beran(1981)、Dabrowska(1989)、van Keilegom&Veraverbeke(1996)。但是这些方法在x是一个维度高于1的空间时都将遇到维数灾难问题。在本文中，将提出一种单指标降维方法，这一方法可以看作是第一章中的估计方法在删失数据模型中的推广。方法的原创性在于仅对观察值(Y,δ）做了限制。更精确的说，在x=Rd上，要求对于某个未知向量β0∈B(C)Rd，有(Y,δ)⊥X|X(Τ)β0.为了估计β0，将第一章中的估计方法推广到了存在删失的情况下。并且证明了估计结果的一致收敛性和渐近正态性。用第一章中给出的重抽样方法来构造置信区间。最后给出了事件{T=∞}的条件概率的估计，它是Xu&Peng(2014)中的结果的推广。<br>　　值得一提的是，不同于现有的检验删失数据的单指标假设的方法，如Bouaziz&Lopez(2010),Xia et al.(2010)和Strzalkowska-Kominiak&Cao(2013)，利用Maistre&Patilea(2014)中的方法，给出了一种简便的检验方法。<br>　　在第§2.6节，利用了模拟实验和真实数据来验证新方法的性能。<br>　　在第三章中，考虑了具有额外方差限制的单指标模型。在实际应用中，由第一和第二阶条件矩定义的模型是一种非常常见的统计模型。最近的参考文献有Ziegler(2011)。在这里，考虑的是Cui et al.(2011)中的模型结构的扩展形式。考虑变量(Y,X(Τ))(Τ)其中Y是计数变量、X是d维解释变量，假定存在唯一的β0∈Rd，使得单指标模型条件E(Y|X)=E（Y|X(Τ)β0）=r（X(Τ)β0;β0）成立，并且对于某一实值α0，有Var(Y|X)=g(E(Y|X),α0)=g(r(X(Τ)β0;β0),α0),其中函数r(·)是未知的，函数g(·，·)是已知的，并且对于每一个r，映射α→g(r，α)是一一映射。<br>　　提出了关于这类具有条件方差信息的单指标回归模型的一个新的估计方法。该方法将Gouriéroux et al.(1984a，1984b)提出的拟似然伪最大似然方法扩展到半参结构中。更精确的说，使用基于具有讨厌参数的线性指数族密度的两步伪最大似然(PML)方法去估计参数β0和函数r(·)。所使用的密度可由均值r和包含在方差中的讨厌参数进行参数化。尽管使用了似然类型的准则，但是推导渐近结果时并不要求Y拥有关于X的条件分布。<br>　　因为回归函数r(·)未知，在构造伪似然准则时需要使用它的非参估计，因此面临光滑参数如何选取的问题。现有的半参指标回归文献虽然包含了大量的关于如何估计指标的内容，但是对于如何选取光滑参数却很少提及。尽管光滑参数并不影响β0的半参估计的渐近方差，可是实际上β0和回归函数的估计对于光滑参数的取值非常敏感。<br>　　我们的另外一个贡献是给出了一个自动选择光滑参数的方法。为此，扩展了H(a)rdle et al.(1993)中提出的方法(也见Xia&Li(1999)，Xia et al.(1999)和Delecroix et al.(2006))。这个方法是同时对于β和光滑参数（核估计的窗宽）最大化伪似然。窗宽取值于n-1/4到n-1/8之间。在某种意义上，该方法将窗宽认为是一个辅助工具，伪似然可以提供它的一个估计值。通过对伪对数似然进行合适的分解，可以发现这个联合最大化问题渐近等价于分别关于参数θ最大化非线性函数和关于窗宽最小化加权交叉验证平方均值函数。<br>　　此外，还给出了估计值的渐近性质的证明以及关于该方法的模拟实验和真实数据验证。",
-      "author": "李蔚郁",
-      "keywords": "单指标模型,估计方法,渐近性质,置信区间,单指标假设",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3228039",
-      "title": "基于邻域的协同过滤推荐系统相似度研究",
-      "summary": "，<mark class=highlight>可</mark>扩展性和稳定性强等特点，被广泛应用于商业系统之中。",
-      "summaryAll": "在当今这个信息过载的时代，如何有效地选择和推荐满足用户需求的信息，已经成为服务计算领域的关键问题之一。推荐系统能有效地减轻用户的认知负担，为其提供个性化的服务和信息。协同过滤推荐系统是现有推荐系统中最流行，应用最广泛一种。基于邻域的协同过滤推荐系统是最早出现的协同过滤系统，因其简单、高效及可解释性好，可扩展性和稳定性强等特点，被广泛应用于商业系统之中。其主要思想是根据近邻的喜好来产生推荐，没有近邻就无法进行推荐。近邻的选择是通过度量彼此之间的相似度来完成的。现有的相似度计算方法是通过比较评价矩阵中两个向量的共同评价部分得到的。没有共同评价就无法度量相似度，从而导致无法推荐。在实际应用中，评价矩阵的稀疏性往往导致共同评价部分过少甚至没有，造成现有的相似度度量方法会出现计算不准确甚至无法计算的问题。<br>　　本文针对现有的相似度计算方法中存在的计算不准确，不完整，以及无法计算的问题，展开一系列研究工作，主要的研究内容和创新性可以归纳为以下几个方面:<br>　　(1)本文提出了一种整体性相似度计算方法。现有的相似度计算方法是通过比较共同评价而不是所有评价得到的。评价数据的稀疏性会导致共同评价部分往往较少，由此造成所得到的相似度只能反映出局部的相似性，而与其实际整体的相似性存在偏差。用户和物品评价矩阵越稀疏，共同评价就越少，相似度偏差也越大。为此，我们将所有评价的整体相似度和原有的共同评价的局部相似度相结合，提出一种新的相似度度量方法，并在此基础上对其准确性做出进一步改进。该方法能保持其原有方法的简单性和高效性。实验结果表明，新的相似度计算方法产生的推荐结果比现有方法更准确。<br>　　(2)本文提出了一种传递相似度计算方法。基于邻域的推荐方法是依靠相似的近邻来产生推荐的，而近邻的选择则是根据相似度来筛选的。用户和物品评价矩阵的稀疏性会导致共同评价部分非常稀少甚至没有。没有共同评价部分就意味着相似度无法度量，无法度量相似度也就无法选择近邻，最终导致无法产生推荐结果。对此，我们采用“朋友的朋友是朋友”的策略，将两个无法直接度量相似性的用户或物品，通过与第三方的相似关系，间接地计算出双方之间的相似性。该方法不仅可以处理因为没有共同评价而无法度量相似度问题，还可以修正因共同评价过少而造成相似度不准确的情况。实验结果表明，传递相似度计算方法是有效的，尤其是在评价非常稀疏时，能产生更多的推荐结果，对现有相似度计算方法是一个很好的补充。<br>　　(3)本文提出了一种基于负相关的相似度计算方法。基于邻域的协同过滤推荐系统中通常都是采用基于相关性的相似度计算方法，由此得到相关性有正相关和负相关。正相关可以直接反映出两个用户或两个物品之间的相似关系相似度，因此被认为是可靠的相似度。而负相关由于不能直接反映出相似关系而往往被过滤掉。没有正相关就意味着相似性无法计算。对此，在两个用户或物品因为没有正相关而无法度量其相似性的时候，我们采用“敌人的敌人是朋友”的策略，通过负相关找到“敌人”的“敌人”，并将其作为自己的朋友来产生推荐。该方法可以应对因没有正相关性而无法度量相似度的问题，同时也可以修正因共同评价过少而正相关相似度不准确的情况。实验结果表明，该方法能产生更多的推荐结果，尤其是在正相关相似度不准确或无法获得时，是一个很好的补充。",
-      "author": "邓琨",
-      "keywords": "推荐系统,协同过滤,整体性相似度,近邻选择",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3254703",
-      "title": "基于表示学习的新闻推荐关键技术研究与系统实现",
-      "summary": "实验结果表明本文提出的联合表示学习模型不仅有更好的推荐结果，还能得到具有较好可<mark class=highlight>解释性</mark>的新闻和用户的表示向量",
-      "summaryAll": "信息技术和互联网的发展，深刻地影响了人们获取资讯的方式。人们的新闻消费模式已经从传统的订阅报纸，转变成了通过互联网访问成千上万的不同来源的新闻。互联网不仅加速了人们的新闻消费速度，也开拓了消费的渠道，与此同时也带来了信息过载问题。推荐系统是解决信息过载问题的有效方法之一，因此新闻推荐系统也吸引了工业界和学术界越来越多的关注。新闻推荐系统面临3个关键的挑战:(1)推荐对象是由非结构化的文本组成的新闻文章，由于语言本身的复杂性，原始的文本信息无法被计算机有效处理，需要表示成便于数学计算的向量形式。同样的，也需要将用户的阅读兴趣等信息表示成向量形式。新闻和用户的表示是新闻推荐中的关键，向量表示的好坏直接影响到推荐结果的准确性。(2)新闻热点随时间变化，用户的兴趣也会随时间发生变化，时间因素是新闻推荐中不可忽略的因素。(3)面对海量的用户行为日志和新闻数据，需要一个灵活的可扩展的系统架构来支撑新闻推荐任务。<br>　　本论文着重于解决上面提到的3个问题，以新闻推荐中新闻与用户的表示模型为研究主体，在此基础上结合时间因素提高推荐的精度，同时给出一个基于分布式计算引擎的可拓展的新闻推荐原型系统。本文的主要工作和贡献如下:<br>　　1、在传统的基于因子分解的协同过滤模型的基础上结合文档与词的组合关系语义，提出用于推荐领域的联合表示学习模型CJE(Collaborative Jointly Embedding)，能同时学习用户和新闻带语义信息的表示向量。在此基础上进一步融入词的聚合关系语义，提出强化语义信息的联合表示学习模型。实验结果表明本文提出的联合表示学习模型不仅有更好的推荐结果，还能得到具有较好可解释性的新闻和用户的表示向量。<br>　　2、在联合表示学习模型的基础上，结合时间因素，提出基于时间区间划分的时间动态模型。通过对每个时间区间内的新闻热点和用户短期兴趣建模，在联合表示学习模型中考虑了热点新闻和用户的兴趣偏移对新闻点击的影响。实验结果表明加入时间因素的联合表示学习模型在推荐结果上有显著的提升。<br>　　3、基于前面的算法研究，在Spark分布式计算引擎和Spark Streaming流计算引擎上，设计了一个高效可拓展的新闻推荐系统原型，并结合本文提出的算法实现其中的离线模型训练模块与流式新闻表示向量预测模块。",
-      "author": "梁仕威",
-      "keywords": "新闻推荐,表示学习,联合建模,协同过滤",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_D01246497",
-      "title": "HIV-1蛋白酶抑制剂解离速率常数的定量预测及解离机理研究",
-      "summary": "，亦可准确预测解离速率常数和结合速率常数，且三个模型具有较好的可<mark class=highlight>解释性</mark>和一致性",
-      "summaryAll": "药物与受体结合与解离动力学性质是影响药效的重要因素。然而截止目前，对药物与受体结合与解离动力学性质的定量预测研究尚不多见。论文以HIV-1蛋白酶抑制剂(Protease Inhibitors,PIs)为研究对象，采用定量构效关系(Quantitative Structure-Activity Relationship,QSAR)、分子对接(Molecular Docking)、分子动力学模拟(Molecular Dynamics,MD)等计算模拟方法，对小分子抑制剂与HIV-1蛋白酶结合的热力学和动力学性质进行了定量预测与解离机理研究。论文研究结果可为HIV-1 PIs药物研发以及解离机理研究提供重要的理论参考依据。<br>　　主要研究内容和结果：<br>　　①HIV-1蛋白酶抑制剂结合/解离速率常数的定量预测研究：采用3-D分子场Volsurf描述子以及物化性质类描述子对37个HIV-1 PIs进行结构表征，在此基础上运用偏最小二乘(Partial Least Squares,PLS)和支持向量机(Support Vector Machine,SVM)分别对解离速率常数（-log(koff)）、结合速率常数（log(kon)）以及解离平衡常数（-log(KD)）进行了QSAR研究。研究结果显示：Volsurf方法可较好表征与小分子结合与解离相关的结构特征，所建立的构效关系模型既可准确预测解离平衡常数，亦可准确预测解离速率常数和结合速率常数，且三个模型具有较好的可解释性和一致性。模型分析结果表明：9个Volsurf描述子：BV31-OH2、BV12-OH2、Cw5-OH2、ID6-DRY、D23-DRY、HB1-O、W6、CP和D23-OH2是决定37个HIV-1 PIs与蛋白酶结合/解离动力学性质的主要因素。<br>　　②HIV-1 PIs分子对接研究。基于已有HIV-1蛋白酶晶体结构(1AJX)，采用Surflex方法结合5种打分函数，对37个HIV-1 PIs进行了分子对接研究。研究结果显示：5种打分函数的对接得分与解离平衡常数无显著相关性，且均不能准确预测抑制剂与HIV-1蛋白酶的结合自由能大小。推测可能的原因有如下两点：1)分子对接无法考虑HIV-1蛋白酶Flap部分的构象变化；2)打分函数不能准确预测抑制剂与受体的疏水性相互作用。<br>　　③HIV-1 PIs分子动力学模拟。以分子对接得分最高的构象为初始构象，对37个HIV-1蛋白酶复合物进行了MD模拟研究。研究结果显示：经10ns的MD模拟，37个复合物体系在结构和能量上均达到了平衡状态。对7个临床药物复合物体系的最低能量构象分析结果显示：药物小分子与Asp25、Asp29和Asp30残基的氢键作用，以及与Leu23、Ala28、Val32、Ile47、Ile50、Phe53、Pro81、Val82、Ile84、Leu23’、Ala28’、Ile47’、Ile50’、Pro81’、Val82’和Ile84’等残基的疏水相互作用是影响亲和活性的重要因素；此外，药物与Flap区Ile47、Gly48、Gly49、Ile50、Ile47’、Gly48’、Gly49’和 Ile50’等残基的疏水作用对维持 Flap区封闭状态具有重要意义。<br>　　④37个HIV-1 PIs解离过程的拉伸动力学模拟(Steered molecular dynamics,SMD)研究。基于MD轨迹最后2ns的最低能量构象，对小分子抑制剂进行SMD研究。基于SMD拉伸轨迹，分别计算配体与受体关键残基间的静电相互作用、范德华相互作用以及总相互作用，得到表征解离过程的2880个相互作用指纹图谱描述子。在此基础上，以解离速率常数为目标变量，采用向前逐步回归结合 PLS回归进行定量构效关系研究。研究结果显示：仅采用5个描述子的最优PLS模型的决定系数(R2)、3-fold交互验证的决定系数(Q2)和外部预测的决定系数(R2pred)分别为0.749，0.742和0.834。经Y随机排序验证以及随机重复取样建模，结果表明模型具有较好的鲁棒性和预测能力。研究结果表明：HIV-1蛋白酶A链Asp25、Ile47和Ile50以及B链Ile47’和Ile50’是影响抑制剂解离速率的关键残基。此外，Ile47、Ile47’、Ile50、Ile50’和Thr80残基的构象变化对配体解离过程亦有重要影响。",
-      "author": "屈素君",
-      "keywords": "HIV-1蛋白酶抑制剂,受体结合,解离速率,构效关系,分子动力学",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3489105",
-      "title": "环境犯罪归责研究",
-      "summary": "以1997年为界，从环境犯罪相关司法<mark class=highlight>解释性</mark>文件与判例立场，透视出环境司法前后主客观立场倾向",
-      "summaryAll": "环境损害与危机的蔓延，折射出当前环境规制策略的挫败与环境治理态势的严峻。鉴于当前环境情势，世界各国在环境刑事政策走向上步调一致，一改传统矜持节制的面容，调整、加大在环境领域的刑事处置手段与力度，结果是前置性的干预措施不断延伸。避免环境风险与危害是人理性的一部分，但人类理性的局限使其在选择刑法这把利剑处置环境问题时，难免出现片面与盲目，从极端的一头滑向另一头，导致严重的间接损害。过度强调前置化的环境刑罚措施，在根本上挑战了人类的文明、秩序与法治。为了形塑与维护人类共享的环境价值观念，防止运用刑法规制环境问题出现侵犯人权与危害法治之弊，在环境犯罪归责中坚持何种立场、何种归责体系、运用何种原则，如何具体展开，是需要深入思考的根本性问题。基于此，本文以七章的内容对环境犯罪归责相关问题展开研究。<br>　　第一章，导论。本章传导出环境危机信号，指出环境问题被纳入风险理论框架中讨论。就环境犯罪领域研究而言，学界虽然隐约窥察到归责理论的危机，但其却将更多目光集中投射至环境刑事立法面及其附随问题研究，以期实现环境刑法的良善之治。而问题是，这类研究未触及环境刑法存立的社会根基，未将环境犯罪归责相关理论放在其预设的社会背景下审视，未警惕“幽暗”刑事政策基调下环境犯罪归责理论坚守的根基及其归责原则，存在诸多不足之处;另外，为了后述论述需要，本章还交代了关涉环境犯罪归责的相关概念、社会基底及其学理支撑。<br>　　第二章，环境犯罪归责之立场倾向:客观主义。本章通过论证刑法“主客观”主义与法治的关联和距离，进而以“主义”之视角，对环境犯罪刑事立法、归责根据、犯罪构成体系、因果关系、责任要素进行透视，指出我国环境刑法整体概况为主观主义倾向。由于客观主义在环境犯罪归责的方法论意义以及实践理性方面具有极大的优越性，并基于当前我国环境刑事司法实际，主张环境犯罪归责应坚持客观主义之立场，进而形成客观主义对环境领域犯罪化抑制的目标策略。<br>　　第三章，环境犯罪客观面归责Ⅰ:犯罪构成体系与构成要件。本章通过比较分析犯罪论体系之间的优劣，主张在环境犯罪归责体系抉择与改造中否定平面犯罪构成体系，坚持阶层犯罪构成体系。在建构环境犯罪构成体系时，应坚持安全与人权协调原则、遵循司法规律原则，在其犯罪构成逻辑体系上需呈现三阶层，并符合主客观要素定位的原则。在客观面具体归责上，应当坚持环境法益保护之目的，各构成要件须在行为理论的审视下进行，环境犯罪行为主体体系定位定当在阶层犯罪构成体系中断定。环境犯罪主体包括自然人和单位，村民（居民）委员会、一人公司并不当然排除在单位犯罪的范围。国家作为环境犯罪的主体不具有操作性。环境犯罪构成要件要素中的“情节严重”要素是表明对环境法益侵害程度的客观的违法要素，是对可罚的违法性的程度指示。<br>　　第四章，环境犯罪客观面归责Ⅱ:因果关系与客观归责。本章通过分析比较因果关系在环境犯罪中遭遇的障碍，指出传统因果关系的本体缺陷。尝试突围中的疫学因果关系因其未完全突破概念思维模式，在环境犯罪中仍难以与客观罪责相比。客观归责理论是类型化思维的产物，其并非仅为因果关系，还涉及构成要件判断，且结构更加精致、归责程序设置更为合理，与环境犯罪归责机理具有契合性，在环境刑事司法实践中表现优越，基于其精密之结构，在归责过程中能够对各构成要件要素反复检验、交错进行，并以环境监管失职罪责任排除为例展示环境犯罪客观面的具体归责。<br>　　第五章，环境犯罪主观面之归责。风险语境下的环境犯罪归责在传统的主观罪过理论面前遭遇了阻碍，传统归责理论难以满足环境刑法对环境风险源的控制，其预防功能被矮化、阉割。本章指出，环境犯罪主观罪过在环境犯罪故意理论倾向中，应以认识因素为核心，将环境罪过形态分为故意、轻率与过失。新过失论对于环境犯罪而言具有更强烈的现实意义。经限定重释后的新新过失论对环境监督过失类犯罪的归责意义重大。双重罪过有在环境犯罪中存在的余地。严格责任妥当界定后，可在环境犯罪归责中适用。同时，以污染环境罪与环境监督过失为例在主观面具体展开归责，以展示环境犯罪归责主观面的具体路径。<br>　　第六章，环境犯罪归责在中国的司法实践。本章通过客观归责等相关理论对多个环境犯罪案例样本进行分析，力图全面、客观、立体性地析出我国环境犯罪司法实践的现实映像，并据此对我国环境犯罪应然策略之走向进行展望。以1997年为界，从环境犯罪相关司法解释性文件与判例立场，透视出环境司法前后主客观立场倾向。客观归责在部分环境司法案件归责中隐形运用，风险观念在环境司法中已渗透至裁判者的判断规则框架内，环境法益保护观念在各地司法上体现不一，阶层犯罪论体系在环境犯罪归责中已经展开。未来，国家形态决定了环境犯罪归责的客观主义立场倾向，阶层犯罪论体系在环境犯罪归责中运用愈加频繁，客观归责对环境犯罪归责的独特价值将愈加明显，环境犯罪的责任要素发生裂变与位移。<br>　　第七章，结语。该部分指出，环境犯罪归责是在客观主义立场的大前提下以阶层犯罪构成体系从客观面与主观面逐层展开，为实现其预期设定的宏伟目标，环境犯罪归责体系通过不断调适自身适应着时代的变迁。<br>　　社会是孕育规制的土壤，离开社会对法的探讨难言深刻。本文将环境犯罪归责置于其存立之社会的大背景下，因循“社会基础——理论转向——应然抉择——实践透视”的进路，将风险理论、环境犯罪、法治立场进行勾连，从法治立场与精细化环境刑事司法这一大前提下出发，聚焦于环境犯罪归责体系各构成要件要素的研讨，进而提出环境犯罪归责体系与时代变迁可遵循的妥当理论，并以此为据，对环境司法进行检验，从而投射出目前我国环境司法的真实映像，并进而展望其应然策略之走向。",
-      "author": "李国庆",
-      "keywords": "环境犯罪,归责理论,构成要件,司法实践",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_Y3309215",
-      "title": "融合用户评分和评语的贝叶斯推荐算法研究",
-      "summary": "对于给定的用户和物品，该模型<mark class=highlight>可</mark>预测出用户对物品的评分值。",
-      "summaryAll": "随着互联网的高速发展，人类已经步入一个全新的智能化时代。由于信息的数据量正呈现指数级增长，且数据的种类日益繁多，传统的推荐系统已不能满足商家和消费者的双重需求。推荐算法的核心在于如何挖掘出更多的用户偏好信息，然后根据用户的兴趣点给出推荐。能反映用户偏好的信息除评分外，还包含伴随评分给出的评语。对评语进行语义分析可以挖掘出大量的用户偏好信息以及物品的潜在特征属性，有助于改善数据稀疏性和“冷启动”问题。本文研究的是推荐系统中的评分预测问题。本文将抽象的用户偏好融入到LDA(Latent Dirichlet Allocation)主题模型中，提出了引入用户评分和评语的贝叶斯评分预测模型。在互联网公开的数据集上做实验，证明了本文提出的理论方法能显著提高评分预测的准确度。本文的主要工作和贡献有以下两点:<br>　　(1)本文将LDA文档生成模型引入到协同过滤推荐算法中，用主题解释抽象的用户偏好，并由此提出了基于贝叶斯理论的评分生成模型。该模型采用Gibbs采样算法对可观测到的样本信息进行参数估计。对于给定的用户和物品，该模型可预测出用户对物品的评分值。在MovieLens数据集上做实验，实验结果证明本文提出的评分预测算法比Item-CF、SVD++和PLSA-CF等传统算法的评分预测准确度更高。<br>　　(2)为了挖掘更多的用户偏好信息，本文对伴随评分生成的评语信息进行了语义分析，模拟了评语中每个词的生成过程。本文提出了融合用户评分和评语的贝叶斯评分预测模型，并建立了基于LSTM的文本情感分析模型，对评语进行情感分析，解决了评分和评语不一致问题。<br>　　(3)在京东商城的23个数据集上进行实验，证明了本文算法的评分预测准确度得到了显著的提高。最后，本文论证了该推荐算法具备较好的可解释性，且对推荐系统的冷启动问题以及数据稀疏性问题有一定的改善。",
-      "author": "洪常乐",
-      "keywords": "推荐系统,评分预测,主题模型,用户偏好,语义分析",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_D01234845",
-      "title": "融合知识的改进ANN癌症诊断方法研究",
-      "summary": "基于知识元的模型管理方法能够很好的对癌症诊断模型进行知识化表示和管理，提高癌症诊断模型的<mark class=highlight>可</mark>重用性",
-      "summaryAll": "随着社会经济的发展，人们的生活节奏加快、压力增大，再加上环境的污染和恶化等，导致各类疾病特别是癌症的发病率和死亡率逐年上升。而癌症一直以来都是医学上难以攻克的恶疾，是生命健康和社会发展的巨大威胁。通过对癌症的有效诊断，可以尽早进行治疗，降低癌症造成的死亡率。因此，研究利用临床信息进行癌症的诊断，提高癌症诊断的准确率和效率是癌症防控工作中的重要内容。<br>　　针对癌症诊断过程中的病理检查给病人身体带来严重负担的现状，以及现有基于数据挖掘的癌症诊断方法只关注诊断结果准确性或者只关注可解释性的问题，而且现有关于癌症诊断的研究多是离散重复的研究现状，本文提出一种基于知识元的改进人工神经网络（Artificial Neural Network，ANN）癌症诊断方法。本文研究通过特征选择提取对诊断结果最具有解释性的特征子集，以提高模型的可解释性和准确度；通过采用进化计算的方式进行改进人工神经网络的结构和权重学习，从而构建有效的能够充分体现临床信息与特定癌症之间关联的多目标神经网络模型进行癌症诊断，并通过多目标优化方法对模型训练过程中的结构和参数进行优化，从而提供多个有效的诊断模型以满足医务工作者不同的决策偏好；本文针对获得的可解释模型，分析其网络结构和形成过程从中提取出易于理解的可解释规则；并基于知识元理论将得到的癌症诊断模型进行知识化表示和管理；最后，使用国家临床医学科学数据中心提供的前列腺癌检查数据进行数值实验，验证本研究提出的方法的有效性和科学性。<br>　　结果表明，本文提出的基于知识元的改进ANN癌症诊断方法在进行前列腺癌诊断时是行之有效的，能够根据不同决策偏好和实际需要为医务工作者提供多个可供选择的模型和诊断方法，相关系数-遗传算法混合特征选择方法能够有效的对特征进行选择并改模型性能，基于知识元的模型管理方法能够很好的对癌症诊断模型进行知识化表示和管理，提高癌症诊断模型的可重用性。",
-      "author": "孔倩",
-      "keywords": "癌症诊断,改进人工神经网络,多目标优化,特征选择提取,知识表示",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_D01223619",
-      "title": "基于用户偏好的信任网络随机游走推荐模型研究",
-      "summary": "利用用户偏好选择对用户评分预测有所参考的项目，加快模型收敛的同时保证了推荐的效果与易<mark class=highlight>解释性</mark>",
-      "summaryAll": "随着网络通信技术的发展和互联网信息资源的不断扩大，信息过载现象日趋严重。传统信息服务的出现在缓解了信息过载问题同时因其面向公众的通用性需求特性，无法满足用户的个性化需求。而以个性化推荐系统为代表的信息过滤方式通过分析用户需求，对用户兴趣建模预测，能够为用户提供有价值或者具有潜在价值的信息，解决了用户个性化需求的问题。推荐系统已被广泛应用于信息服务中，成为各大主流信息服务提供商不可或缺的信息服务形式。随着社会网络研究的兴起，许多研究者将社会网络与个性化推荐结合以解决传统推荐中存在的数据稀疏性、”冷启动”问题、模型可扩展性以及健壮性等问题，有效提高了推荐的可扩展性和准确度。但大多算法仅简单利用信任关系寻找最近邻居集合，未能考虑到信任用户的建议并不一定适用于目标用户。<br>　　本研究主要内容包括：⑴利用矩阵分解对用户评分矩阵进行降维，保留主要信息特征。在高维稀疏评分矩阵下可以高效精确的计算相似度，缓解了高维稀疏评分矩阵的相似度无法计算、计算难的问题。⑵利用聚类思想减少项目搜索空间的同时结合用户偏好度深入挖掘用户对项目类别的关系以及兴趣权重，并以此获取用户对项目类别的偏好程度。在随机游走的相似项目选择过程中，利用用户偏好选择对用户评分预测有所参考的项目，加快模型收敛的同时保证了推荐的效果与易解释性。⑶充分考虑到用户信任关系信息，利用权威度和局部信任度等手段将信任度细化，深入挖掘了用户信任与兴趣度关系，提出了一种基于用户偏好的信任网络随机游走模型PTTrustWalker。",
-      "author": "张萌",
-      "keywords": "信息检索,数据挖掘,个性化推荐,程序语言",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
-    {
-      "id": "Thesis_D01249559",
-      "title": "基于云计算和机器学习的短期风电功率预测研究",
-      "summary": "机器学习算法中存在较多迭代计算场景，云计算技术中的Spark分布式内存计算框架，<mark class=highlight>可</mark>高效进行迭代式数据处理",
-      "summaryAll": "随着我国能源结构的调整，风电装机容量快速增长，及时准确地预测风电功率可为电网合理调度提供重要依据，减少弃风，有效地提高风电利用率。同时，随着风电场智能化水平的提高，风电监测数据规模不断增长，对传统风电功率预测模型的计算性能提出了新的挑战。<br>　　近年来，以机器学习理论为基础的人工神经网络法和支持向量机法及其改进算法在短期风电功率预测中得到广泛应用，机器学习算法中存在较多迭代计算场景，云计算技术中的Spark分布式内存计算框架，可高效进行迭代式数据处理，有效提高算法的执行性能。针对现有短期风电功率预测模型存在泛化性较弱、模型结构和参数确定困难、可解释性差等问题，本文综合随机森林回归算法、M5P模型树、差分进化算法、选择性集成方法，提出了一种基于改进随机森林回归算法的短期风电功率预测方法，并采用Spark云计算平台实现算法并行化，主要开展了以下几个方面的研究工作：<br>　　（1）传统随机森林回归算法以分类回归树为元决策树，针对分类回归树预测精度较低、不能给出一个连续的输出且预测值无法超出训练集数据范围等问题，本文采用 M5P模型树作为元决策树，在叶节点上构造多元线性回归模型，有效提高了元决策树的预测精度。<br>　　（2）针对随机森林中存在部分预测性能较差且多样性较低的元决策树，本文提出了一种改进的差分进化算法，并将其应用到随机森林元决策树的选择性集成中，在所有元决策树中选择部分最优的元决策树子集构成新的随机森林，进行加权计算得到最终预测结果。<br>　　（3）针对随机森林算法计算复杂度较高的问题，分析了随机森林算法和差分进化算法的并行性，研究了云计算体系架构，采用云计算技术中的Spark分布式内存计算框架，对上述预测算法进行并行化改进，有效提高了算法的执行性能。<br>　　（4）以内蒙古某地区风电监测数据作为实际算例，将本文方法与现有短期风电功率预测算法和传统的随机森林回归算法进行对比；同时在实验室服务器上采用 Cloudera公司的发行版 CDH5版本搭建云计算平台，对提出的算法进行并行化性能测试。实验结果表明本文提出的方法具有较高的预测精度、泛化性能、可解释性，且具有较好的并行性能。",
-      "author": "王辉",
-      "keywords": "风电功率预测,随机森林,差分进化,选择性集成,云计算,机器学习",
-      "citedIndex": 0,
-      "publishDate": "2017-01-01",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    }
-  ],
+  "paperVO":[{
+		"title": "Using Explainability for Constrained Matrix Factorization",
+		"author": "Behnoush Abdollahi, Olfa Nasraoui",
+		"publishDate": "2017",
+		"summaryAll": "Accurate model-based Collaborative Filtering (CF) approaches, such as Matrix Factorization (MF), tend to be black-box machine learning models that lack interpretability and do not provide a straightforward explanation for their outputs. Yet explanations have been shown to improve the transparency of a recommender system by justifying recommendations, and this in turn can enhance the user's trust in the recommendations. Hence, one main challenge in designing a recommender system is mitigating the trade-off between an explainable technique with moderate prediction accuracy and a more accurate technique with no explainable recommendations. In this paper, we focus on factorization models and further assume the absence of any additional data source, such as item content or user attributes. We propose an explainability constrained MF technique that computes the top-n recommendation list from items that are explainable. Experimental results show that our method is effective in generating accurate and explainable recommendations."
+	},
+	{
+		"title": "Improving the explainability of Random Forest classifier - user centered approach",
+		"author": "Draqutin Petkovic, Altman Russ, Wong Mike, Vigil Arthur",
+		"publishDate": "2018",
+		"summaryAll": "Machine Learning (ML) methods are now influencing major decisions about patient care, new medical methods, drug development and their use and importance are rapidly increasing in all areas. However, these ML methods are inherently complex and often difficult to understand and explain resulting in barriers to their adoption and validation. Our work (RFEX) focuses on enhancing Random Forest (RF) classifier explainability by developing easy to interpret explainability summary reports from trained RF classifiers as a way to improve the explainability for (often non-expert) users. RFEX is implemented and extensively tested on Stanford FEATURE data where RF is tasked with predicting functional sites in 3D molecules based on their electrochemical signatures (features). In developing RFEX method we apply user-centered approach driven by explainability questions and requirements collected by discussions with interested practitioners. We performed formal usability testing with 13 expert and non-expert users to verify RFEX usefulness. Analysis of RFEX explainability report and user feedback indicates its usefulness in significantly increasing explainability and user confidence in RF classification on FEATURE data. Notably, RFEX summary reports easily reveal that one needs very few (from 2-6 depending on a model) top ranked features to achieve 90% or better of the accuracy when all 480 features are used."
+	},
+	{
+		"title": "Feature Engineering and Explainability with Vadalog: A Recommender Systems Application",
+		"author": "Jack Clearman, Ruslan R. Fayzrakhmanov, Georg Gottlob, YavorNenov, St ́ephane Reissfelder, Emanuel Sallinger,Evgeny Sherkhonov",
+		"publishDate": "2018",
+		"summaryAll": "Vadalog  is an extension of Datalog that features existential rules and a richset of functions, libraries, and methods for connecting to external data sources,which make it a powerful tool for building advanced industrial AI applications[1]. Vadalog forms the core of an ongoing research collaboration between theUniversity of Oxford and the media intelligence company Meltwater, that aimsat a recommender system for the most relevant insights about companies fromoutside data, including Meltwater’s repository of millions of news articles. Inthis application paper, we demonstrate various aspects of such a recommendersystem in the movies domain, and show how Vadalog can be used for featureengineering and the computation of explainable recommendations."
+	},
+	{
+		"title": "Plan Explainability and Predictability for Cobots",
+		"author": "Yu Zhang, Hankz Hankui Zhuo, Subbarao Kambhampati",
+		"publishDate": "2015",
+		"summaryAll": "Robots are becoming pervasive in human populated environments. A desirable capability of these robots (cobots) is to respond to goal-oriented commands by autonomously constructing plans. However, such autonomy can add significant cognitive load and even potentially introduce safety risks to the humans when robots choose their plans unexpectedly. As a result, for cobots to be more helpful, one important requirement is for them to synthesize plans that do not {it surprise} the humans. While there are previous works that studied socially acceptable robots which discuss ``natural waysu0027u0027 for cobots to interact with humans, there still lacks a general solution, especially for cobots that can construct their own plans. In this paper, we introduce the notions of plan {it explainability} and {it predictability}. To compute these measures, first, we postulate that humans understand robot plans by associating high level tasks with robot actions, which can be considered as a labeling process. We learn the labeling scheme of humans for robot plans from training examples using conditional random fields (CRFs). Then, we use the learned model to label a new plan to compute its explainability and predictability. These measures can be used by cobots to proactively choose plans, or directly incorporated into the planning process to generate plans that are more explainable and predictable. We provide an evaluation on a synthetic dataset to demonstrate the effectiveness of our approach."
+	},
+	{
+		"title": "Enhancing explainability of social recommendation using 2D graphs and word cloud visualizations",
+		"author": "Peter Brusilocsky, Einat Minkov, Tsvi Kuflik",
+		"publishDate": "2019",
+		"summaryAll": "Explainability is an important desired property of recommendation systems. We consider a graph-based recommendation approach, which generates detailed explanations to users in the form of labelled connecting relational paths and present a visualization interface intended to convey such detailed relational information in clear and intuitive manner. As initial evaluation, we performed a user study at an academic conference, recommending participants the users may be interested to meet (using <u>rsr.cloud</u>). The feedbacks were enthusiastic, indicating that the proposed visualizations of relational explanations are engaging and useful. "
+	},
+	{
+		"title": "IMPROVED EXPLAINABILITY OF CAPSULE NETWORKS: RELEVANCE PATH BY AGREEMENT",
+		"author": "Atefeh Shahroudnejad, Arash Mohammadi, Konstantinos N. Plataniotis",
+		"publishDate": "2018",
+		"summaryAll": "Recent advancements in signal processing domain have resulted in a surge of interest in deep neural networks (DNNs) due to their unprecedented performance and high accuracy for challenging problems of significant engineering importance. However, when such deep learning architectures are utilized for making critical decisions such as the ones that involve human lives (e.g., in medical applications), it is of paramount importance to understand, trust, and in one word \"explain\" the rational behind deep models’ decisions. Generally, DNNs are considered as black-box systems, which do not provide any clue on their internal processing actions. Although some recent efforts have been initiated to explain behavior/decisions of deep networks, explainable artificial intelligence (XAI) domain is still in its infancy. In this regard, we consider capsule networks (referred to as CapsNets), which are novel deep structures; recently proposed as an alternative counterpart to convolutional neural networks (CNNs), and posed to change the future of machine intelligence. In this paper, we investigate and analyze structure and behavior of CapsNets and illustrate potential explainability properties of such networks. Furthermore, we show possibility of transforming deep architectures in to transparent networks via incorporation of capsules in different layers instead of convolution layers of the CNNs."
+	},
+	{
+		"title": "Asking 'why' in AI: Explainability of intelligent systems - perspectives and challenges",
+		"author": "Preece, A",
+		"publishDate": "2018",
+		"summaryAll": "Recent rapid progress in machine learning (ML), particularly so‐called ‘deep learning’, has led to a resurgence in interest in explainability of artificial intelligence (AI) systems, reviving an area of research dating back to the 1970s. The aim of this article is to view current issues concerning ML‐based AI systems from the perspective of classical AI, showing that the fundamental problems are far from new, and arguing that elements of that earlier work offer routes to making progress towards explainable AI today."
+	}
+],
   "patentVO": [
     {
       "id": "CN201910056918.0",

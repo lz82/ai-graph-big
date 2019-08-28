@@ -915,7 +915,7 @@
   "paperVO": [{
 		"title": "Learning to Infer and Execute 3D Shape Programs.EI",
 		"author": "Yonglong Tian, Andrew Luo, Xingyuan Sun, Kevin Ellis, William T. Freeman, Joshua B. Tenenbaum, Jiajun Wu",
-		"publishDate": "CoRR(2019)",
+		"publishDate": "2019",
 		"summaryAll": "Human perception of 3D shapes goes beyond reconstructing them as a set of points or a composition of geometric primitives: we also effortlessly understand higher-level shape structure such as the repetition and reflective symmetry of object parts. In contrast, recent advances in 3D shape sensing focus more on low-level geometry but less on these higher-level relationships. "
 	},
 	{

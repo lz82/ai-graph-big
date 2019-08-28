@@ -22,116 +22,22 @@
   },
   "mapVO": {
     "nodes": [
-      {
-        "id": 1,
-        "code": 0,
-        "name": "吴恩达",
-        "type": "expert",
-        "level": 1,
-        "colorIdx": 0,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 2,
-        "code": 1,
-        "name": "荣誉",
-        "type": "honor",
-        "level": 2,
-        "colorIdx": 5,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 3,
-        "code": 2,
-        "name": "机构",
-        "type": "org",
-        "level": 2,
-        "colorIdx": 6,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 4,
-        "code": 3,
-        "name": "三维重建",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 1,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 5,
-        "code": 4,
-        "name": "深度学习",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 2,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 6,
-        "code": 5,
-        "name": "强化学习",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 3,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      },
-      {
-        "id": 7,
-        "code": 6,
-        "name": "语义识别",
-        "type": "keyword",
-        "level": 2,
-        "colorIdx": 4,
-        "keyword": "Andrew",
-        "layout": null,
-        "layoutList": null
-      }
-    ],
+      {"code":"0","name":"吴恩达","type":"expert","level":"1","colorIdx":"0"},
+      {"code":"1","name":"荣誉","type":"honor","level":"2","colorIdx":"5"},
+      {"code":"2","name":"组织","type":"org","level":"2","colorIdx":"6"},
+      {"code":"3","name":"无人驾驶","type":"keyword","level":"2","colorIdx":"1"},
+      {"code":"20","name":"语音识别","type":"keyword","level":"2","colorIdx":"2"},
+      {"code":"37","name":"强化学习","type":"keyword","level":"2","colorIdx":"3"},
+      {"code":"54","name":"语义识别","type":"keyword","level":"2","colorIdx":"4"}
+      ],
     "relations": [
-      {
-        "id": 1,
-        "source": 0,
-        "target": 1
-      },
-      {
-        "id": 2,
-        "source": 0,
-        "target": 2
-      },
-      {
-        "id": 3,
-        "source": 0,
-        "target": 3
-      },
-      {
-        "id": 4,
-        "source": 0,
-        "target": 4
-      },
-      {
-        "id": 5,
-        "source": 0,
-        "target": 5
-      },
-      {
-        "id": 6,
-        "source": 0,
-        "target": 6
-      }
-    ]
+      {"id":"0","source":"0","target":"1"},
+      {"id":"1","source":"0","target":"2"},
+      {"id":"2","source":"0","target":"3"},
+      {"id":"19","source":"0","target":"20"},
+      {"id":"36","source":"0","target":"37"},
+      {"id":"53","source":"0","target":"54"}
+      ]
  ,
     "expertReco": [
       {
@@ -169,7 +75,7 @@
         "type": "expert",
         "level": 1,
         "colorIdx": 0,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -180,16 +86,10 @@
         "type": "honor",
         "level": 2,
         "colorIdx": 5,
-        "keyword": "Andrew",
-        "layout": "2007. 斯隆管理学院奖学金/2008. 麻省理工学院技术评论TR35[26][27]/2009. IJCAI计算机与思维奖/2013. 乘以100位最有影响力的人[28]/2013. 《财富》杂志公布了40位40岁以下的女性/2013. 美国有线电视新闻网10/2014. Fast Company最有创意的商业人士",
+        "keyword": "吴恩达",
+        "layout": "2007. 斯隆管理学院奖学金\n2008. 麻省理工学院技术评论TR35[26][27]\n2009. IJCAI计算机与思维奖\n2013. 乘以100位最有影响力的人[28]\n2013. 《财富》杂志公布了40位40岁以下的女性\n2013. 美国有线电视新闻网10\n2014. Fast Company最有创意的商业人士",
         "layoutList": [
-          "2007. 斯隆管理学院奖学金",
-          "2008. 麻省理工学院技术评论TR35[26][27]",
-          "2009. IJCAI计算机与思维奖",
-          "2013. 乘以100位最有影响力的人[28]",
-          "2013. 《财富》杂志公布了40位40岁以下的女性",
-          "2013. 美国有线电视新闻网10",
-          "2014. Fast Company最有创意的商业人士"
+          "2007. 斯隆管理学院奖学金\n2008. 麻省理工学院技术评论TR35[26][27]\n2009. IJCAI计算机与思维奖\n2013. 乘以100位最有影响力的人[28]\n2013. 《财富》杂志公布了40位40岁以下的女性\n2013. 美国有线电视新闻网10\n2014. Fast Company最有创意的商业人士"
         ]
       },
       {
@@ -199,7 +99,7 @@
         "type": "org",
         "level": 2,
         "colorIdx": 6,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "斯坦福大学",
         "layoutList": [
           "斯坦福大学"
@@ -208,14 +108,14 @@
       {
         "id": 4,
         "code": 3,
-        "name": "三维重建",
+        "name": "无人驾驶",
         "type": "keyword",
         "level": 2,
         "colorIdx": 1,
-        "keyword": "Andrew",
-        "layout": "三维重建是指对三维物体建立适合计算机表示和处理的数学模型,是在计算机环境下对其进行处理、操作和分析其性质的基础,也是在计算机中建立表达客观世界的虚拟现实的关键技术。",
+        "keyword": "吴恩达",
+        "layout": "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。",
         "layoutList": [
-          "三维重建是指对三维物体建立适合计算机表示和处理的数学模型,是在计算机环境下对其进行处理、操作和分析其性质的基础,也是在计算机中建立表达客观世界的虚拟现实的关键技术。"
+          "无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。"
         ]
       },
       {
@@ -225,29 +125,29 @@
         "type": "paper",
         "level": 3,
         "colorIdx": 1,
-        "keyword": "Andrew",
-        "layout": "Make3D: Learning 3D Scene Structure from a Single Still Image./3-D Depth Reconstruction from a Single Still Image./Make3D: Depth Perception from a Single Still Image./Learning 3-D Scene Structure from a Single Still Image./3-D Reconstruction from Sparse Views using Monocular Vision./High speed obstacle avoidance using monocular vision and reinforcement learning./Learning Depth from Single Monocular Images.",
+        "keyword": "吴恩达",
+        "layout": "An Empirical Evaluation of Deep Learning on Highway Driving./Driverseat: Crowdstrapping Learning Tasks for Autonomous Driving./Autonomous Helicopter Flight Using Reinforcement Learning./A probabilistic approach to mixed open-loop and closed-loop control, with application to extreme autonomous driving./Apprenticeship learning for motion planning with application to parking lot navigation./Make3D: Learning 3D Scene Structure from a Single Still Image./Reactive grasping using optical proximity sensors.",
         "layoutList": [
+          "An Empirical Evaluation of Deep Learning on Highway Driving.",
+          "Driverseat: Crowdstrapping Learning Tasks for Autonomous Driving.",
+          "Autonomous Helicopter Flight Using Reinforcement Learning.",
+          "A probabilistic approach to mixed open-loop and closed-loop control, with application to extreme autonomous driving.",
+          "Apprenticeship learning for motion planning with application to parking lot navigation.",
           "Make3D: Learning 3D Scene Structure from a Single Still Image.",
-          "3-D Depth Reconstruction from a Single Still Image.",
-          "Make3D: Depth Perception from a Single Still Image.",
-          "Learning 3-D Scene Structure from a Single Still Image.",
-          "3-D Reconstruction from Sparse Views using Monocular Vision.",
-          "High speed obstacle avoidance using monocular vision and reinforcement learning.",
-          "Learning Depth from Single Monocular Images."
+          "Reactive grasping using optical proximity sensors."
         ]
       },
       {
         "id": 6,
         "code": 6,
-        "name": "孙民",
+        "name": "Sebastian Thrun",
         "type": "expert",
         "level": 3,
         "colorIdx": 1,
-        "keyword": "Andrew",
-        "layout": "国立清华大学（NTHU）电子工程硕士助理教授。在加入NTHU之前，他是CSE @UW的博士后工作，与Steve Seitz和Ali Farhadi一起工作。他毕业于安娜堡的UofM，获得博士学位。学位和斯坦福大学硕士学位 学位。他的研究兴趣包括2D + 3D物体识别，人体姿态估计和场景理解。最近，他专注于在大数据时代开发可扩展的对象分类和视频分析方法。他赢得了3DRR最佳论文奖，并且还获得了W. Michael Blumenthal家庭基金奖学金。",
+        "keyword": "吴恩达",
+        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
         "layoutList": [
-          "国立清华大学（NTHU）电子工程硕士助理教授。在加入NTHU之前，他是CSE @UW的博士后工作，与Steve Seitz和Ali Farhadi一起工作。他毕业于安娜堡的UofM，获得博士学位。学位和斯坦福大学硕士学位 学位。他的研究兴趣包括2D + 3D物体识别，人体姿态估计和场景理解。最近，他专注于在大数据时代开发可扩展的对象分类和视频分析方法。他赢得了3DRR最佳论文奖，并且还获得了W. Michael Blumenthal家庭基金奖学金。"
+          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
         ]
       },
       {
@@ -257,7 +157,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "Ashutosh Saxena是一家高科技初创公司Caspar的联合创始人兼首席执行官。此前，Ashutosh在康奈尔大学(Cornell University)计算机科学系担任了四年的助理教授，在那里他创建了机器人学习实验室(Robot Learning Lab)，并与人共同创办了Zibby。他的愿景是为机器人、汽车和家庭等实体系统构建人工智能。他在斯坦福大学获得人工智能博士学位，师从吴恩达教授(顾问)、塞巴斯蒂安·特龙教授、达芙妮·科勒教授和斯蒂芬·博伊德教授。",
         "layoutList": [
           "Ashutosh Saxena是一家高科技初创公司Caspar的联合创始人兼首席执行官。此前，Ashutosh在康奈尔大学(Cornell University)计算机科学系担任了四年的助理教授，在那里他创建了机器人学习实验室(Robot Learning Lab)，并与人共同创办了Zibby。他的愿景是为机器人、汽车和家庭等实体系统构建人工智能。他在斯坦福大学获得人工智能博士学位，师从吴恩达教授(顾问)、塞巴斯蒂安·特龙教授、达芙妮·科勒教授和斯蒂芬·博伊德教授。"
@@ -266,33 +166,33 @@
       {
         "id": 8,
         "code": 8,
-        "name": "物体检测",
+        "name": "机器人",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 9,
         "code": 9,
-        "name": "视频分析",
+        "name": "深度学习",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 10,
         "code": 10,
-        "name": "无人驾驶",
+        "name": "无监督学习",
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -303,73 +203,73 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 12,
         "code": 12,
-        "name": "Silvio Savarese",
+        "name": "Wolfram Burgard",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 13,
         "code": 13,
-        "name": "Gary R. Bradski",
+        "name": "Dieter Fox",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 14,
         "code": 14,
-        "name": "Juan Carlos Niebles",
+        "name": "Silvio Savarese",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 15,
         "code": 15,
-        "name": "Kuo-Hao Zeng",
+        "name": "David Held",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 16,
         "code": 16,
-        "name": "Hema Swetha Koppula",
+        "name": "Silvio Savarese",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 17,
         "code": 17,
-        "name": "Ashesh Jain",
+        "name": "Ozan Sener",
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -380,7 +280,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -391,21 +291,21 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 1,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 20,
         "code": 20,
-        "name": "深度学习",
+        "name": "语音识别",
         "type": "keyword",
         "level": 2,
         "colorIdx": 2,
-        "keyword": "Andrew",
-        "layout": "深度学习是机器学习的技术和研究领域之一，通过建立具有层次结构的人工神经网络，在计算系统中实现人工智能 。由于阶层ANN能够对输入信息进行逐层提取和筛选，因此深度学习具有表征学习能力 ，可以实现端到端的监督学习和非监督学习。",
+        "keyword": "吴恩达",
+        "layout": "语音识别（Voice recognition）是一门交叉学科。近二十年来，语音识别技术取得显著进步，开始从实验室走向市场。人们预计，未来10年内，语音识别技术将进入工业、家电、通信、汽车电子、医疗、家庭服务、消费电子产品等各个领域。",
         "layoutList": [
-          "深度学习是机器学习的技术和研究领域之一，通过建立具有层次结构的人工神经网络，在计算系统中实现人工智能 。由于阶层ANN能够对输入信息进行逐层提取和筛选，因此深度学习具有表征学习能力 ，可以实现端到端的监督学习和非监督学习。"
+          "语音识别（Voice recognition）是一门交叉学科。近二十年来，语音识别技术取得显著进步，开始从实验室走向市场。人们预计，未来10年内，语音识别技术将进入工业、家电、通信、汽车电子、医疗、家庭服务、消费电子产品等各个领域。"
         ]
       },
       {
@@ -415,16 +315,16 @@
         "type": "paper",
         "level": 3,
         "colorIdx": 2,
-        "keyword": "Andrew",
-        "layout": "Deep Voice: Real-time Neural Text-to-Speech./Deep learning for class-generic object detection./Deep learning with COTS HPC systems./End-to-end text recognition with convolutional neural networks./On optimization methods for deep learning./Selecting Receptive Fields in Deep Networks./An Analysis of Single-Layer Networks in Unsupervised Feature Learning.",
+        "keyword": "吴恩达",
+        "layout": "Building DNN acoustic models for large vocabulary speech recognition./Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones./Deep Voice: Real-time Neural Text-to-Speech./Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin./Increasing Deep Neural Network Acoustic Model Size for Large Vocabulary Continuous Speech Recognition./Deep Speech: Scaling up end-to-end speech recognition./Deep learning with COTS HPC systems.",
         "layoutList": [
+          "Building DNN acoustic models for large vocabulary speech recognition.",
+          "Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones.",
           "Deep Voice: Real-time Neural Text-to-Speech.",
-          "Deep learning for class-generic object detection.",
-          "Deep learning with COTS HPC systems.",
-          "End-to-end text recognition with convolutional neural networks.",
-          "On optimization methods for deep learning.",
-          "Selecting Receptive Fields in Deep Networks.",
-          "An Analysis of Single-Layer Networks in Unsupervised Feature Learning."
+          "Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin.",
+          "Increasing Deep Neural Network Acoustic Model Size for Large Vocabulary Continuous Speech Recognition.",
+          "Deep Speech: Scaling up end-to-end speech recognition.",
+          "Deep learning with COTS HPC systems."
         ]
       },
       {
@@ -434,7 +334,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "曾任百度硅谷人工智能实验室主任。现任苹果公司的董事。在斯坦福大学获得了计算机科学本科、硕士、博士学位，并致力在用于自动驾驶汽车的计算机视觉、用于语言识别的深度学习及用于直升机特技的机器学习等方面进行研究。",
         "layoutList": [
           "曾任百度硅谷人工智能实验室主任。现任苹果公司的董事。在斯坦福大学获得了计算机科学本科、硕士、博士学位，并致力在用于自动驾驶汽车的计算机视觉、用于语言识别的深度学习及用于直升机特技的机器学习等方面进行研究。"
@@ -443,14 +343,14 @@
       {
         "id": 23,
         "code": 24,
-        "name": "Sebastian Thrun",
+        "name": "Bryan Catanzaro",
         "type": "expert",
         "level": 3,
         "colorIdx": 2,
-        "keyword": "Andrew",
-        "layout": "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”",
+        "keyword": "吴恩达",
+        "layout": "Bryan Catanzaro 现任英伟达副总裁、深度学习应用研究部负责人，他于 2011 年加入英伟达任职研究科学家，在此期间领导研发了目前深度学习中不可或缺的 cuDNN 库。他还曾在百度硅谷实验室工作，为基于超大规模数据集的中英文端到端语音识别模型研发了高效的训练算法。",
         "layoutList": [
-          "(生于1967年5月14日)是一位来自德国的创新者(推广语言)、企业家教育家和计算机科学家。他是猫鹰公司的首席执行官，Udacity的董事长和联合创始人。在此之前，他曾任谷歌副总裁兼研究员，斯坦福大学计算机科学教授，以及卡内基梅隆大学(Carnegie Mellon University)的计算机科学教授。在google，他创建了google x和google的自动驾驶汽车团队。他也是斯坦福大学和佐治亚理工学院的兼职教授。特伦领导开发了机器人车辆斯坦利，它赢得了2005年DARPA的重大挑战，并在史密森学会的美国国家历史博物馆展出。他的团队还开发了一款名为“少年”的汽车，在2007年的DARPA大赛中名列第二。Thrun领导了google自动驾驶汽车的开发。Thrun还以他在机器人应用程序中的概率算法方面的工作而闻名。为了表彰他的贡献，在39岁的时候，他被选为国家工程学院的成员，并于2007年被选入了勒奥波特迪纳科学院。“卫报”承认他是20名“互联网自由战士”之一。2005年，科普获美国国家科学基金会(National Science Foundation)颁发的杰出5项职业奖之一，1999-2003奥林巴斯奖，德国社会表彰模式奖(2001FAST Company：2011年度外交政策杂志2012年全球前100名思想家奖max-Planck-研究奖，2011[18]首个AAAI ed Fgenbaum奖)中最具创造力的人之一。2011年，特伦被FAST公司选为商界第五位最具创造力的人，他在2012年获得了史密森尼(Smithsonian)杂志“美国教育界独创性奖”"
+          "Bryan Catanzaro 现任英伟达副总裁、深度学习应用研究部负责人，他于 2011 年加入英伟达任职研究科学家，在此期间领导研发了目前深度学习中不可或缺的 cuDNN 库。他还曾在百度硅谷实验室工作，为基于超大规模数据集的中英文端到端语音识别模型研发了高效的训练算法。"
         ]
       },
       {
@@ -460,40 +360,40 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 25,
         "code": 26,
-        "name": "语音识别",
+        "name": "文本识别",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 26,
         "code": 27,
-        "name": "机器人",
+        "name": "视频分析",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 27,
         "code": 28,
-        "name": "无人驾驶",
+        "name": "并行计算",
         "type": "keyword",
         "level": 4,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -504,7 +404,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -515,73 +415,73 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 30,
         "code": 31,
-        "name": "Zhenyao Zhu",
+        "name": "Tao Wang",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 31,
         "code": 32,
-        "name": "Eric Battenberg",
+        "name": "David J. Wu",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 32,
         "code": 33,
-        "name": "Wolfram Burgard",
+        "name": "Andrew Tao",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 33,
         "code": 34,
-        "name": "Dieter Fox",
+        "name": "Guilin Liu",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 34,
         "code": 35,
-        "name": "Michael Montemerlo",
+        "name": "Kurt Keutzer",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
       {
         "id": 35,
         "code": 36,
-        "name": "David Stavens",
+        "name": "Bor-Yiing Su",
         "type": "expert",
         "level": 5,
         "colorIdx": 2,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -592,7 +492,7 @@
         "type": "keyword",
         "level": 2,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。",
         "layoutList": [
           "强化学习（Reinforcement Learning, RL），又称再励学习、评价学习或增强学习，是机器学习的范式和方法论之一，用于描述和解决智能体（agent）在与环境的交互过程中通过学习策略以达成回报最大化或实现特定目标的问题。"
@@ -605,7 +505,7 @@
         "type": "paper",
         "level": 3,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "Apprenticeship learning for helicopter control./Hierarchical Apprenticeship Learning with Application to Quadruped Locomotion./Using inaccurate models in reinforcement learning./An Application of Reinforcement Learning to Aerobatic Helicopter Flight./Exploration and apprenticeship learning in reinforcement learning./Apprenticeship learning via inverse reinforcement learning./Learning first-order Markov models for control.",
         "layoutList": [
           "Apprenticeship learning for helicopter control.",
@@ -624,7 +524,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "PieterAbbeel是加州大学伯克利分校(UniversityofCalifornia，Berkeley)的机器人专家，以加强学习而闻名。在斯坦福大学，他在达芙妮·科勒和安德鲁·吴顾问的指导下学习了机器人技术。2008年完成博士学位后，彼得成为伯克利EECS系的助理教授，现在是伯克利人工智能研究实验室(Bair)的联席主任。2014年，他共同创立了gradescope，并于2018年被Turnitin收购。2016年，彼得加入了OpenAI，在那里他发表了几篇关于他在生成模型、机器人系统和策略梯度方面的工作的文章。2017年，他共同创立了具体化智能，后来又更名为“共变”。",
         "layoutList": [
           "PieterAbbeel是加州大学伯克利分校(UniversityofCalifornia，Berkeley)的机器人专家，以加强学习而闻名。在斯坦福大学，他在达芙妮·科勒和安德鲁·吴顾问的指导下学习了机器人技术。2008年完成博士学位后，彼得成为伯克利EECS系的助理教授，现在是伯克利人工智能研究实验室(Bair)的联席主任。2014年，他共同创立了gradescope，并于2018年被Turnitin收购。2016年，彼得加入了OpenAI，在那里他发表了几篇关于他在生成模型、机器人系统和策略梯度方面的工作的文章。2017年，他共同创立了具体化智能，后来又更名为“共变”。"
@@ -637,7 +537,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "美国科学家，加州大学伯克利分校教授，也是机器学习、统计学和人工智能方面的研究员。迈克尔·I·乔丹(MichaelI.Jordan)是机器学习领域的领军人物之一，2016年科学报告称他是世界上最具影响力的计算机科学家。",
         "layoutList": [
           "美国科学家，加州大学伯克利分校教授，也是机器学习、统计学和人工智能方面的研究员。迈克尔·I·乔丹(MichaelI.Jordan)是机器学习领域的领军人物之一，2016年科学报告称他是世界上最具影响力的计算机科学家。"
@@ -650,7 +550,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -661,7 +561,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -672,7 +572,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -683,7 +583,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -694,7 +594,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -705,7 +605,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -716,7 +616,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -727,7 +627,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -738,7 +638,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -749,7 +649,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -760,7 +660,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -771,7 +671,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 3,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -782,7 +682,7 @@
         "type": "keyword",
         "level": 2,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "在机器学习中，语料库的语义分析是构建从大量文档中近似概念的结构的任务。 它通常不涉及对文档的先前语义理解。",
         "layoutList": [
           "在机器学习中，语料库的语义分析是构建从大量文档中近似概念的结构的任务。 它通常不涉及对文档的先前语义理解。"
@@ -795,7 +695,7 @@
         "type": "paper",
         "level": 3,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "Noising and Denoising Natural Language: Diverse Backtranslation for Grammar Correction./Building DNN acoustic models for large vocabulary speech recognition. /Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones./Deep Voice: Real-time Neural Text-to-Speech. /Data Noising as Smoothing in Neural Network Language Models./Neural Language Correction with Character-Based Attention./Lexicon-Free Conversational Speech Recognition with Neural Networks.",
         "layoutList": [
           "Noising and Denoising Natural Language: Diverse Backtranslation for Grammar Correction.",
@@ -814,7 +714,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。",
         "layoutList": [
           "斯坦福大学语言学教授、斯坦福人工智能实验室(SAIL)主任。他的研究目标是能够智能处理、理解和生成人类语言材料的计算机。Manning是将深度学习应用于自然语言处理领域的领军人物，在树递归神经网络、词向量手套模型、情感分析、神经网络依赖分析、神经机器翻译、问答、深度语言理解等方面都有著名的研究成果。他还专注于分析的计算语言方法、健壮的文本推理和多语言语言处理，包括斯坦福依赖关系和通用依赖关系的主要开发人员。Manning与人合著了关于自然语言处理统计方法(NLP) (Manning and Schutze 1999)和信息检索(Manning, Raghavan, and Schutze, 2008)的领先教科书，以及关于ergativity和复杂谓词的语言学专著。他是ACM研究员，AAAI研究员，ACL研究员，ACL前主席(2015)。他的研究获得ACL、Coling、EMNLP和CHI最佳论文奖。1994年，他在澳大利亚国立大学获得学士学位，在斯坦福大学获得博士学位。在回到斯坦福大学之前，他曾在卡内基梅隆大学和悉尼大学担任教职。他是斯坦福NLP集团的创始人，负责斯坦福CoreNLP软件的开发。"
@@ -827,7 +727,7 @@
         "type": "expert",
         "level": 3,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": "Salesforce的首席科学家。此前是斯坦福大学计算机科学系的兼职教授，也是2016年被Salesforce收购的MetaMind的创始人兼首席执行官/首席技术官。喜欢通过研究（深度学习，自然语言处理和计算机）提高人工智能的最新水平让每个人都能轻松访问AI。2014年，获得斯坦福大学计算机科学系的博士学位。",
         "layoutList": [
           "Salesforce的首席科学家。此前是斯坦福大学计算机科学系的兼职教授，也是2016年被Salesforce收购的MetaMind的创始人兼首席执行官/首席技术官。喜欢通过研究（深度学习，自然语言处理和计算机）提高人工智能的最新水平让每个人都能轻松访问AI。2014年，获得斯坦福大学计算机科学系的博士学位。"
@@ -840,7 +740,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -851,7 +751,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -862,7 +762,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -873,7 +773,7 @@
         "type": "keyword",
         "level": 4,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -884,7 +784,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -895,7 +795,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -906,7 +806,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -917,7 +817,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -928,7 +828,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -939,7 +839,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -950,7 +850,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       },
@@ -961,7 +861,7 @@
         "type": "expert",
         "level": 5,
         "colorIdx": 4,
-        "keyword": "Andrew",
+        "keyword": "吴恩达",
         "layout": null,
         "layoutList": null
       }
@@ -1297,7 +1197,8 @@
         "source": 62,
         "target": 70
       }
-    ],
+    ]
+ ,
     "expertReco": null,
     "subjectReco": null,
     "journalsReco": null,
