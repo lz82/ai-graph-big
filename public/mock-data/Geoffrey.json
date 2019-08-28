@@ -1245,43 +1245,43 @@
   "paperVO": [{
 		"title": "Analyzing and Improving Representations with the Soft Nearest Neighbor Loss.EI",
 		"author": "Nicholas Frosst, Nicolas Papernot, Geoffrey E. Hinton",
-		"publishDate": "CoRR(2019)",
+		"publishDate": "2019",
 		"summaryAll": "We explore and expand the $textit{Soft Nearest Neighbor Loss}$ to measure the $textit{entanglement}$ of class manifolds in representation space: i.e., how close pairs of points from the same class are relative to pairs of points from different classes. We demonstrate several use cases of the loss. As an analytical tool, it provides insights into the evolution of class similarity structures during learning. Surprisingly, we find that $textit{maximizing}$ the entanglement of representations of different classes in the hidden layers is "
 	},
 	{
 		"title": "Large scale distributed neural network training through online distillation.EI",
 		"author": "Rohan Anil, Gabriel Pereyra, Alexandre Passos, Robert Ormándi, George E. Dahl, Geoffrey E. Hinton",
-		"publishDate": "CoRR(2018)",
+		"publishDate": "2018",
 		"summaryAll": "Techniques such as ensembling and distillation promise model quality improvements when paired with almost any base model. However, due to increased test-time cost (for ensembles) and increased complexity of the training pipeline (for distillation), these techniques are challenging to use in industrial settings. In this paper we explore a variant of distillation which is relatively straightforward to use as it does not require a complicated multi-stage setup or many new hyperparameters. "
 	},
 	{
 		"title": "DARCCC: Detecting Adversaries by Reconstruction from Class Conditional Capsules.EI",
 		"author": "Nicholas Frosst, Sara Sabour, Geoffrey E. Hinton",
-		"publishDate": "CoRR(2018)",
+		"publishDate": "2018",
 		"summaryAll": "We present a simple technique that allows capsule models to detect images. In addition to being trained to classify images, the capsule model is trained to reconstruct the images from the pose parameters and identity of the correct top-level capsule. Adversarial images do not look like a typical member of the predicted class and they have much larger reconstruction errors when the reconstruction is produced from the top-level capsule for that class. "
 	},
 	{
 		"title": "Matrix capsules with EM routingEI",
 		"author": "Geoffrey E. Hinton, Sara Sabour, Nicholas Frosst",
-		"publishDate": "international conference on learning representations(2018)",
+		"publishDate": "2018",
 		"summaryAll": "A capsule is a group of neurons whose outputs represent different properties of the same entity. Each layer in a capsule network contains many capsules [a group of capsules forms a capsule layer and can be used in place of a traditional layer in a neural net]. We describe a version of capsules in which each capsule has a logistic unit to represent the presence of an entity and a 4x4 matrix which could learn to represent the relationship between that entity and the viewer (the pose). "
 	},
 	{
 		"title": " ImageNet Classification with Deep Convolutional Neural Networks.EI",
 		"author": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
-		"publishDate": "Commun. ACM(2017)",
+		"publishDate": "2017",
 		"summaryAll": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. "
 	},
 	{
 		"title": "Regularizing Neural Networks by Penalizing Confident Output Distributions.EI",
 		"author": "Gabriel Pereyra, George Tucker, Jan Chorowski, Lukasz Kaiser, Geoffrey E. Hinton",
-		"publishDate": "CoRR(2017)",
+		"publishDate": "2017",
 		"summaryAll": "We propose regularizing neural networks by penalizing low entropy output distributions. We show that penalizing low entropy output distributions, which has been shown to improve exploration in reinforcement learning, acts as a strong regularizer in supervised learning. We connect our confidence penalty to label smoothing through the direction of the KL divergence between networks output distribution and the uniform distribution. "
 	},
 	{
 		"title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer.EI",
 		"author": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V. Le, Geoffrey E. Hinton, Jeff Dean",
-		"publishDate": "CoRR(2017)",
+		"publishDate": "2017",
 		"summaryAll": "The capacity of a neural network to absorb information is limited by its number of parameters. Conditional computation, where parts of the network are active on a per-example basis, has been proposed in theory as a way of dramatically increasing model capacity without a proportional increase in computation. In practice, however, there are significant algorithmic and performance challenges. "
 	}
 ],
