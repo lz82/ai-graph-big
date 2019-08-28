@@ -57,8 +57,8 @@ export default {
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 1920,
-      svgH: 1060,
+      svgW: 1825,
+      svgH: 990,
       links: null,
       nodes: null,
       typeList: appConfig.typeList,
@@ -420,7 +420,7 @@ export default {
     .side-right{
       width: 450px;
       position: absolute;
-      right: 0;
+      right: 50px;
       .side-right-con{
         padding: 0px 30px 5px;
         border-radius: 5px;
@@ -430,8 +430,8 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1920px;
-      height: 100%;
+      width: 1825px;
+      height: 990px;
     }
   }
   .vue{
