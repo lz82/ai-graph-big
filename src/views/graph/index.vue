@@ -64,14 +64,13 @@ export default {
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
-      // colorList: ['#6abdf3', '#6ca46c', '#ca635f', '#a29bfe', '#d6744d', '#4e88af', '#d2907c'], // 图1
-      // colorList: ['#6abdf3', '#a0d468', '#ca635f', '#ac92ec', '#d6744d', '#4e88af', '#d2907c'], // 图2, 紫4、绿2、橘色5、青灰6
-      colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'], // 图3
-      rediusList: [110, 80, 50, 40, 20],
+      colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'],
+      // rediusList: [110, 80, 50, 40, 20],
+      rediusList: [130, 100, 70, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       alphaDecay: 0.0228, // 控制力学模拟衰减率
-      chargeStrength: -400, // 万有引力
+      chargeStrength: -600, // 万有引力
       paperIco: paperIco, // 论文小图标
       orgIco: orgIco,
       expertIco: expertIco1,
@@ -95,9 +94,11 @@ export default {
       try {
         const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
         if (temp) {
-          console.log(temp)
+          // console.log(temp)
           this.nodes = temp.mapInfo.nodes
           this.links = temp.mapInfo.relations
+          // this.popList = temp.mapInfo.nodes.filter(d => d.name === this.keyword)[0].layoutList
+          // this.popTitle = this.keyword
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -146,14 +147,15 @@ export default {
           })) // 映射id & 线的长度
           .force('charge', d3.forceManyBody().strength(this.chargeStrength))
           .force('xPos', d3.forceX(this.svgW / 2))
-          .force('yPos', d3.forceY(this.svgH / 2))
-          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 2))
+          .force('yPos', d3.forceY(this.svgH / 2.5))
+          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 1.9))
           .force('collide', d3.forceCollide(d => {
             if (d.name === this.keyword && d.level === 1) {
               d.fx = this.svgW / 5 // 设置特定节点固定x坐标
-              d.fy = this.svgH / 2.5
+              d.fy = this.svgH / 2
             }
-            return 130 - d.level * 20
+            // return 130 - d.level * 20
+            return 145 - d.level * 20
           }))
       } catch (error) {
         console.log('initSvgContainer===' + error)
