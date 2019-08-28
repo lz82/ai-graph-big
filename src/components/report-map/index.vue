@@ -3,7 +3,7 @@
     <div id="chart" ref="mychart" style="width: 850px; height: 800px;"></div>
     <h3>{{ title }}</h3>
     <transition-group name="fade" mode="out-in" tag="div">
-      <div class="table" v-if="showTop10" key="10">
+      <div class="table" key="10">
         <div class="row header">
           <span>地区</span>
           <span>数量</span>
@@ -49,7 +49,7 @@
           <span>1573</span>
         </div>
       </div>
-      <div class="table" v-else key="20">
+      <div class="table right" key="20">
         <div class="row header">
           <span>地区</span>
           <span>数量</span>
@@ -341,7 +341,7 @@ export default {
     }
     .table {
       position: absolute;
-      width: 200px;
+      width: 110px;
       height: 300px;
       border: solid 1px #fff;
       left: 10px;
@@ -364,6 +364,10 @@ export default {
       }
       .header {
         border-bottom: solid 1px #fff;
+      }
+      &.right {
+        left: 120px;
+        border-left-width: 0;
       }
     }
   }

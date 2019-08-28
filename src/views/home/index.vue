@@ -3,7 +3,7 @@
     <div class="logo">
       <img :src="logo" alt="">
     </div>
-    <div class="title">
+    <div class="title" @click="onMapClick">
       <img :src="title" alt="">
     </div>
     <div class="map-wrapper"
@@ -316,7 +316,6 @@ export default {
 
   mounted () {
     this.initLogo()
-    this.initTitle()
     setTimeout(() => {
       this.initMap()
     }, 900)
@@ -348,6 +347,7 @@ export default {
     setTimeout(() => {
       this.showCloud = true
       this.initCloud()
+      this.initTitle()
     }, 2000)
   },
 
@@ -373,17 +373,17 @@ export default {
 
     initTitle () {
       anime({
-        targets: '.title img',
-        duration: 900,
+        targets: '.title',
+        duration: 2500,
         opacity: {
           value: [0, 1]
         },
         loop: false,
-        // easing: 'linear',
-        easing: 'cubicBezier(.5, .05, .1, .3)',
-        translateY: {
-          value: [-20, 0]
-        }
+        easing: 'linear'
+        // easing: 'cubicBezier(.5, .05, .1, .3)',
+        // translateY: {
+        //   value: [400, 0]
+        // },
         // scale: {
         //   value: [0.2, 1]
         // }
@@ -501,13 +501,16 @@ export default {
     .logo {
       text-align: center;
       padding-top: 80px;
+      padding-bottom: 150px;
       // opacity: 0.1;
     }
 
     .title {
+      position: absolute;
       text-align: center;
-      padding-top: 30px;
-      padding-bottom: 100px;
+      bottom: 420px;
+      z-index: 999;
+      opacity: 0;
     }
 
     .map-wrapper {
