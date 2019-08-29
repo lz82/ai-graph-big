@@ -22,7 +22,7 @@ export default {
       chart: null,
       option: {
         title: {
-          text: 'AI投资总额\n   8500万',
+          text: 'AI投资总额\n   8500亿',
           left: 100,
           top: 70,
           textStyle: {

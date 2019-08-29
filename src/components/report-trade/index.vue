@@ -60,7 +60,7 @@ export default {
                 x: 500,
                 y: 450,
                 fixed: true,
-                value: '8500万',
+                value: '8500亿',
                 symbolSize: 220,
                 draggable: true,
                 itemStyle: {
@@ -75,7 +75,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|8500万}\n{title|AI投资总额}'
+                    return '{num|8500亿}\n{title|AI投资总额}'
                   },
                   rich: rich
                 }
