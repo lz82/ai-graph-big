@@ -95,7 +95,7 @@ export default {
           }
           const now = new Date() - 0
 
-          if (now - this.lastTime > 1000 * 60 * 5) {
+          if (now - this.lastTime > 1000 * 60 * 15) {
             // document.getElementById('video').play()
             anime.timeline({
               targets: '.mask',
