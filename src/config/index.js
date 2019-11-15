@@ -12,7 +12,7 @@ const getBaseUrl = env => {
     // production
     case 'prod':
       return {
-        baseUrl: 'http://localhost:8899'
+        baseUrl: ''
       }
     case 'qa':
       return {
