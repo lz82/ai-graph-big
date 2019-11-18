@@ -389,7 +389,7 @@ export default {
   .graph-wrapper {
     width: 100%;
     height: 100%;
-    background: url('../home/img/bg.png') center no-repeat fixed;
+    // background: url('../home/img/bg.png') center no-repeat fixed;
     background-size: cover;
     color: #fff;
     display: flex;

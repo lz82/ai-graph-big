@@ -29,11 +29,11 @@ export default {
   props: {
     containerWidth: {
       type: Number,
-      default: 400
+      default: 450
     },
     containerHeight: {
       type: Number,
-      default: 1000
+      default: 500
     },
     tags: {
       type: Array
@@ -80,10 +80,10 @@ export default {
       window.TagCanvas.wheelZoom = false
       window.TagCanvas.outlineRadius = 40
       // window.TagCanvas.imageMode = 'image'
-      window.TagCanvas.imageRadius = '50%'
-      window.TagCanvas.imageScale = 1
-      window.TagCanvas.radiusY = 3
-      window.TagCanvas.radiusX = 0.6
+      // window.TagCanvas.imageRadius = '50%'
+      // window.TagCanvas.imageScale = 1
+      window.TagCanvas.radiusY = 1.2
+      window.TagCanvas.radiusX = 0.8
       window.TagCanvas.activeCursor = 'pointer'
       // window.TagCanvas.radiusZ = 0.5
       window.TagCanvas.outlineMethod = 'size'
@@ -91,7 +91,7 @@ export default {
       window.TagCanvas.dragControl = true
       // window.TagCanvas.shape = 'hring'
       window.TagCanvas.lock = 'x'
-      window.TagCanvas.offsetY = -60
+      // window.TagCanvas.offsetY = -60
 
       window.TagCanvas.textColour = null
       window.TagCanvas.textHeight = 24

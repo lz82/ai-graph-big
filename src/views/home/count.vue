@@ -139,10 +139,10 @@ export default {
       width: 100px;
 
       .cnt {
-        font-size: 24px;
+        font-size: 18px;
       }
       span {
-        padding-top: 10px;
+        padding-top: 5px;
       }
     }
     .inner-circle {

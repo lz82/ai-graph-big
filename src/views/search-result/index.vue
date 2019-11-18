@@ -221,7 +221,7 @@ export default {
   position: relative;
   width: 1920px;
   height: 1080px;
-  background: url('../home/img/bg.png') center no-repeat fixed;
+  // background: url('../home/img/bg.png') center no-repeat fixed;
   background-size: cover;
   display: flex;
   padding: 50px 55px;
