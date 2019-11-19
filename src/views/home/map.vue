@@ -11,6 +11,12 @@
     <Count :num="jpNum" type="ujpa" txt="日本" class="cnt jp" v-if="showJP" />
     <Count :num="koreaNum" type="korea" txt="韩国" class="cnt korea" v-if="showKorea" />
     <Count :num="auNum" type="au" txt="澳大利亚" class="cnt au" v-if="showAu" />
+
+    <Count :num="indiaNum" type="india" txt="印度" class="cnt india" v-if="showIndia" />
+    <Count :num="italyNum" type="italy" txt="意大利" class="cnt italy" v-if="showItaly" />
+    <Count :num="spainNum" type="spain" txt="西班牙" class="cnt spain" v-if="showSpain" />
+    <Count :num="iranNum" type="iran" txt="伊朗" class="cnt iran" v-if="showIran" />
+    <Count :num="brazilNum" type="brazil" txt="巴西" class="cnt brazil" v-if="showBrazil" />
   </div>
 </template>
 
@@ -33,28 +39,39 @@ export default {
 
   data() {
     return {
+      timer: [],
       showEupo: false,
-      eupoNum: 57390,
-      showChina: false,
-      chinaNum: 200784,
       showCanada: false,
-      canadaNum: 12050,
+      showChina: false,
       showUsa: false,
-      usaNum: 189106,
       showEngland: false,
-      englandNum: 10581,
       showFrance: false,
-      franceNum: 4003,
       showGe: false,
-      geNum: 17445,
       showTW: false,
-      twNum: 13763,
       showJP: false,
-      jpNum: 116875,
       showKorea: false,
-      koreaNum: 48719,
       showAu: false,
-      auNum: 11130,
+      showIndia: false,
+      showItaly: false,
+      showSpain: false,
+      showIran: false,
+      showBrazil: false,
+      eupoNum: 0,
+      chinaNum: 0,
+      canadaNum: 0,
+      usaNum: 0,
+      englandNum: 0,
+      franceNum: 0,
+      geNum: 0,
+      twNum: 0,
+      jpNum: 0,
+      koreaNum: 0,
+      auNum: 0,
+      indiaNum: 0,
+      italyNum: 0,
+      spainNum: 0,
+      iranNum: 0,
+      brazilNum: 0,
       dataSet: [
         {
           type: 'patent',
@@ -75,33 +92,31 @@ export default {
         {
           type: 'doc',
           data: {
-            eupoNum: 111,
-            chinaNum: 222,
-            canadaNum: 333,
-            usaNum: 444,
-            englandNum: 555,
-            franceNum: 666,
-            geNum: 777,
-            twNum: 888,
-            jpNum: 999,
-            koreaNum: 101010,
-            auNum: 111111
+            chinaNum: 389588,
+            canadaNum: 61782,
+            usaNum: 327034,
+            englandNum: 98536,
+            franceNum: 72281,
+            geNum: 85587,
+            jpNum: 94112,
+            indiaNum: 75128,
+            italyNum: 61466,
+            spainNum: 58582
           }
         },
         {
           type: 'talent',
           data: {
-            eupoNum: 111111,
-            chinaNum: 222222,
-            canadaNum: 333333,
-            usaNum: 444444,
-            englandNum: 555555,
-            franceNum: 666666,
-            geNum: 777777,
-            twNum: 888888,
-            jpNum: 999999,
-            koreaNum: 101010101010,
-            auNum: 111111111111
+            chinaNum: 18232,
+            usaNum: 28536,
+            englandNum: 7998,
+            franceNum: 6395,
+            geNum: 9441,
+            indiaNum: 17384,
+            iranNum: 6219,
+            brazilNum: 5982,
+            spainNum: 4942,
+            italyNum: 4740
           }
         }
       ]
@@ -110,46 +125,114 @@ export default {
 
   mounted() {
     this.$nextTick(() => {
-      this.initData()
+      this.initData(this.type)
     })
   },
 
   methods: {
-    initData() {
-      setTimeout(() => {
+    initData(type) {
+      // 全部不展示
+      this.clearAll()
+      // 设置指数
+      const { data } = this.dataSet.find(item => item.type === type)
+      for (let [k, v] of Object.entries(data)) {
+        this[k] = v
+      }
+      this[`${type}Show`]()
+    },
+
+    patentShow() {
+      let timerIndex = 0
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showChina = true
       }, 500)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showEupo = true
       }, 1200)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showEngland = true
         this.showFrance = true
         this.showGe = true
       }, 1700)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showUsa = true
       }, 2400)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showCanada = true
       }, 3000)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showTW = true
         this.showJP = true
         this.showKorea = true
       }, 3700)
-      setTimeout(() => {
+      this.timer[timerIndex++] = setTimeout(() => {
         this.showAu = true
+        // 清除timeout
+        this.clearTimer()
       }, 4400)
-    }
-  },
+    },
 
-  watch: {
-    type(newVal) {
-      const { data } = this.dataSet.find(item => item.type === newVal)
-      for (let [k, v] of Object.entries(data)) {
-        this[k] = v
-      }
+    docShow() {
+      let timerIndex = 0
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showChina = true
+      }, 500)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showUsa = true
+      }, 1200)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showEngland = true
+      }, 1700)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showJP = true
+        this.showGe = true
+        this.showIndia = true
+      }, 2400)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showFrance = true
+      }, 3000)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showCanada = true
+        this.showItaly = true
+      }, 3700)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showSpain = true
+        // 清除timeout
+        this.clearTimer()
+      }, 4400)
+    },
+
+    talentShow() {
+      let timerIndex = 0
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showUsa = true
+      }, 500)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showChina = true
+      }, 1200)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showIndia = true
+      }, 1700)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showGe = true
+        this.showFrance = true
+        this.showEngland = true
+      }, 2400)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showIran = true
+        this.showBrazil = true
+      }, 3000)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showSpain = true
+      }, 3700)
+      this.timer[timerIndex++] = setTimeout(() => {
+        this.showItaly = true
+        // 清除timeout
+        this.clearTimer()
+      }, 4400)
+    },
+
+    clearAll() {
       this.showEupo = false
       this.showFrance = false
       this.showGe = false
@@ -161,7 +244,24 @@ export default {
       this.showCanada = false
       this.showUsa = false
       this.showEngland = false
-      this.initData()
+      this.showIndia = false
+      this.showItaly = false
+      this.showSpain = false
+      this.showIran = false
+      this.showBrazil = false
+    },
+
+    clearTimer() {
+      this.timer.forEach(timer => {
+        clearTimeout(timer)
+      })
+    }
+  },
+
+  watch: {
+    type(newVal) {
+      this.clearTimer()
+      this.initData(newVal)
     }
   }
 }
@@ -231,6 +331,31 @@ export default {
   .au {
     top: 355px;
     left: 385px;
+  }
+
+  .india {
+    top: 255px;
+    left: 250px;
+  }
+
+  .italy {
+    top: 190px;
+    left: 100px;
+  }
+
+  .spain {
+    top: 220px;
+    left: 50px;
+  }
+
+  .iran {
+    top: 240px;
+    left: 180px;
+  }
+
+  .brazil {
+    top: 320px;
+    right: 100px;
   }
 }
 </style>
