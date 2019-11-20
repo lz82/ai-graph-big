@@ -58,6 +58,18 @@ export default {
                 fontSize: 14
               }
             }
+          },
+          {
+            axisTick: 'none',
+            axisLine: 'none',
+            axisLabel: {
+              margin: 10,
+              textStyle: {
+                color: '#ffffff',
+                fontSize: '12'
+              }
+            },
+            data: [18185454, 14350268, 13035680, 10597534, 5991822]
           }
         ],
         series: [
@@ -66,69 +78,34 @@ export default {
               show: false
             },
             z: 4,
-            type: 'pictorialBar',
-            symbolSize: ['20', '20'],
-            symbolRepeat: 'fixed',
-            data: [
-              {
-                value: 1,
-                symbol: 'image://' + '/img/b.png'
-              },
-              {
-                value: 1,
-                symbol: 'image://' + '/img/b.png'
-              },
-              {
-                value: 1,
-                symbol: 'image://' + '/img/b.png'
-              },
-              {
-                value: 1,
-                symbol: 'image://' + '/img/b.png'
-              },
-              {
-                value: 1,
-                symbol: 'image://' + '/img/b.png'
+            yAxisIndex: 0,
+            type: 'bar',
+            barGap: '-100%',
+            data: [20000000, 20000000, 20000000, 20000000, 20000000],
+            itemStyle: {
+              normal: {
+                color: '#6791de'
               }
-            ]
+            }
           },
           {
             z: 6,
-            type: 'pictorialBar',
-            symbolSize: ['20', '20'],
+            type: 'bar',
+            yAxisIndex: 0,
+            // barWidth: 20,
             animation: true,
-            symbolRepeat: 'fixed',
-            symbolClip: true,
-            symbolPosition: 'start',
-            symbolOffset: [0, 0],
-            data: [
-              {
-                value: 18185454,
-                symbol: 'image://' + '/img/a.png'
-              },
-              {
-                value: 14350268,
-                symbol: 'image://' + '/img/a.png'
-              },
-              {
-                value: 13035680,
-                symbol: 'image://' + '/img/a.png'
-              },
-              {
-                value: 10597534,
-                symbol: 'image://' + '/img/a.png'
-              },
-              {
-                value: 5991822,
-                symbol: 'image://' + '/img/a.png'
+            data: [18185454, 14350268, 13035680, 10597534, 5991822],
+            itemStyle: {
+              normal: {
+                color: '#66ccff'
               }
-            ],
+            },
             label: {
               normal: {
-                show: true,
+                // show: true,
                 textStyle: {
                   color: '#FFF',
-                  fontSize: 8
+                  fontSize: 12
                 },
                 position: 'right',
                 offset: [1, 0]

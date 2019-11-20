@@ -107,7 +107,7 @@ export default {
           background: #8cc152;
         }
         p{
-          font-size: 26px;
+          font-size: 20px;
           padding-bottom: 8px;
         }
       }
