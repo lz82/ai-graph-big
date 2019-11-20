@@ -23,7 +23,7 @@
         <p>{{info.top1Citations | percentFormat}}</p>
         <span>前1%高被引</span>
       </li>
-      <li style="width:70px">
+      <li>
         <p>{{info.hIndex || 0}}</p>
         <span>H指数</span>
       </li>
@@ -56,25 +56,26 @@ export default {
 <style lang='less' scoped>
  @import '~@/style/variables.less';
   .wiki-wraper{
-    color: @fontColor;
     .wiki-info{
       display: flex;
       align-items: center;
       .expert-intro{
         padding-left: 20px;
         h4{
+          padding-bottom: 10px;
           font-size: 24px;
           font-weight: 500;
-          padding-bottom: 10px;
+          color: @fontColor;
         }
         p{
           line-height:30px;
+          color: #fff;
         }
       }
     }
     img{
-      width: 130px;
-      height: 150px;
+      width: 160px;
+      height: 160px;
       border-radius: 5px;
       object-fit: cover;
     }
@@ -82,20 +83,32 @@ export default {
     .wiki-data{
       display: flex;
       justify-content: space-between;
-      padding: 20px 0 10px;
+      padding: 20px 5px 10px 0;
+      color: #fff;
       li{
-        width: 98px;
-        height: 108px;
+        width: 140px;
+        height: 90px;
         background: @bgColor;
-        border: 1px solid @borderColor;
         border-radius: 5px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: center;
+        &:first-child{
+          background: #967adc;
+        }
+        &:nth-child(2){
+          background: #f6bb42;
+        }
+        &:nth-child(3){
+          background: #3bafda;
+        }
+        &:nth-child(4){
+          background: #8cc152;
+        }
         p{
-          font-size: 24px;
-          padding-bottom: 18px;
+          font-size: 26px;
+          padding-bottom: 8px;
         }
       }
     }

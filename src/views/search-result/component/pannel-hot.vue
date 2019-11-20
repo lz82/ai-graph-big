@@ -1,18 +1,26 @@
 <template>
   <div class="hot-pannel-wrapper">
-    <h3 class="comm-title">热词推荐</h3>
-    <ul>
-      <li v-for="item in list1" :key="item">{{item}}</li>
-    </ul>
-    <ul>
-      <li v-for="item in list2" :key="item">{{item}}</li>
-    </ul>
+    <pannel class="pannel">
+      <template #title>
+        <span class="comm-title">热词推荐</span>
+      </template>
+      <ul>
+        <li v-for="item in list1" :key="item">{{item}}</li>
+      </ul>
+      <ul>
+        <li v-for="item in list2" :key="item">{{item}}</li>
+      </ul>
+    </pannel>
   </div>
 </template>
 
 <script>
+import Pannel from '@/components/pannel'
 export default {
   name: 'HotPannel',
+  components: {
+    Pannel
+  },
   inject: ['routerRefresh'], // 在子组件中注入在父组件中出创建的属性
   data () {
     return {
@@ -34,13 +42,13 @@ export default {
   @import '~@/style/variables.less';
 
   .hot-pannel-wrapper {
-    padding-top: 30px;
-    .comm-title{
-      padding: 15px 0;
-      color: #fff;
-      font-size: 20px;
-      font-weight: 600;
-    }
+    padding-top: 15px;
+    // .comm-title{
+    //   padding: 15px 0;
+    //   color: #fff;
+    //   font-size: 20px;
+    //   font-weight: 600;
+    // }
     ul {
       display: flex;
       flex-flow: row wrap;

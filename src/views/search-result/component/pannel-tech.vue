@@ -1,14 +1,20 @@
 <template>
   <div class="teach-wrapper text-wrapper">
-    <h2 class="comm-title">相关技术推荐</h2>
-    <ul>
-      <li v-for="item in list" :key="item">{{item}}</li>
-    </ul>
+    <pannel class="pannel">
+      <template #title><span class="comm-title">相关技术推荐</span></template>
+      <ul>
+        <li v-for="item in list" :key="item">{{item}}</li>
+      </ul>
+    </pannel>
   </div>
 </template>
 <script>
+import Pannel from '@/components/pannel'
 export default {
   name: 'PannelTech',
+  components: {
+    Pannel
+  },
   props: {
     list: Array
   },
@@ -23,13 +29,15 @@ export default {
 <style lang='less' scoped>
  @import '~@/style/variables.less';
 .teach-wrapper{
+  .pannel{
+    margin-bottom: 15px;
+  }
   ul{
     display: flex;
     flex-flow: row wrap;
-    padding-bottom: 35px;
     li{
       // text-decoration: underline;
-      padding: 15px 25px 0 0;
+      padding: 10px 25px 0 0;
     }
   }
 }

@@ -4,10 +4,7 @@
     <ul>
       <li v-for="item in list" :key="item.id">
         <img :src="baseURL + item.headImg" alt="">
-        <div class="expert-info">
-          <h3>{{item.name}}</h3>
-          <span>{{ item.institution }}</span>
-        </div>
+        <span>{{item.name}}</span>
       </li>
     </ul>
   </div>
@@ -31,26 +28,31 @@ export default {
 <style lang="less" scoped>
 @import '~@/style/variables.less';
   .pannel-expert-wrapper{
-      display: flex;
       color: #fff;
-      flex-flow: column nowrap;
+      .comm-title{
+        font-size: 20px;
+        // font-weight: 600;
+        color: @fontColor;
+      }
       ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -25px;
         padding-bottom: 25px;
       }
       li{
         display: flex;
         justify-content: flex-start;
+        flex-flow: column nowrap;
         align-items: center;
         margin-top: 15px;
+        margin-left: 26px;
         img{
-          width: 85px;
-          // height: 100px;
+          width: 106px;
+          height: 106px;
           object-fit: cover;
-        }
-        .expert-info{
-          padding-left: 25px;
-          font-size: 16px;
-          line-height: 30px;
+          border-radius: 5px;
+          margin-bottom: 10px;
         }
       }
     }

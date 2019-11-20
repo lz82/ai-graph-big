@@ -4,47 +4,65 @@
       <li
         class="item"
         v-for="(item, index) in tabBarData"
-        :class="{'active': nowIndex===index}"
+        :class="{ active: nowIndex === index }"
         @click="switchTab(item, index)"
         :key="index"
-      >{{item.name}}</li>
+      >
+        {{ item.name }}
+      </li>
     </ul>
     <!-- tab con -->
-    <div class="tabConWrap">
+    <div class="tab-con-wrapper">
       <div class="conItem">
         <!-- 论文 -->
         <ul v-if="showPaper">
           <li v-for="item in tabContent.paperVO" :key="item.id">
-            <h3 v-html="item.title"></h3>
-            <p>
-              <span class="paper-author" v-html="'作者：'+getAuthor(item.author)"></span>
-              <span>发表时间：{{item.publishDate}}</span>
-              <!-- <span>被引指数：{{item.citedIndex}}</span> -->
-            </p>
-            <div class="remark">摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+            <pannel class="pannel">
+              <template #title>
+                <span v-html="item.title"></span>
+              </template>
+              <p>
+                <span class="paper-author">
+                  <i>作者：</i>
+                  <span v-html="getAuthor(item.author)"></span>
+                </span>
+                <span>
+                  <i>发表时间：</i>{{ item.publishDate }}</span>
+              </p>
+              <div class="remark"><i>摘要：</i> {{ item.summaryAll }}</div>
+            </pannel>
           </li>
         </ul>
         <!-- 专利 -->
         <ul v-if="showPatent">
           <li v-for="item in tabContent.patentVO" :key="item.id">
-            <h3 v-html="item.title"></h3>
-            <p>
-              <span v-html="'专利权人：'+item.inventor"></span>
-              <span>分类号：{{item.categoryNo}}</span>
-            </p>
-            <div class="remark">摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+            <pannel class="pannel">
+              <template #title>
+                <span v-html="item.title"></span>
+              </template>
+              <p>
+                <span>
+                  <i>专利权人：</i>
+                  <span v-html="item.inventor"></span>
+                </span>
+                <span><i> 分类号：</i>{{ item.categoryNo }}</span>
+              </p>
+              <div class="remark"><i>摘要：</i>{{ item.summaryAll }}</div>
+            </pannel>
           </li>
         </ul>
         <!-- 标准 -->
         <ul v-if="showStandard">
           <li v-for="item in tabContent.standardVO" :key="item.id">
-            <h3 v-html="item.nameCN"></h3>
-            <p>
-              <span>标准号：{{item.standardNo}}</span>
-              <!-- <span>发布时间：{{item.publishDate}}</span> -->
-              <!-- <span>状态：{{item.status}}</span> -->
-            </p>
-            <div class="remark">摘&nbsp;&nbsp;要：{{item.summaryAll}}</div>
+            <pannel class="pannel">
+              <template #title><span v-html="item.nameCN"></span></template>
+              <p>
+                <span><i>标准号：</i>{{ item.standardNo }}</span>
+                <!-- <span>发布时间：{{item.publishDate}}</span> -->
+                <!-- <span>状态：{{item.status}}</span> -->
+              </p>
+              <div class="remark"><i>摘要：</i>{{ item.summaryAll }}</div>
+            </pannel>
           </li>
         </ul>
       </div>
@@ -52,8 +70,14 @@
   </div>
 </template>
 <script>
+import Pannel from '@/components/pannel'
+
 export default {
   name: 'TabBar',
+
+  components: {
+    Pannel
+  },
 
   props: {
     tabContent: Object,
@@ -61,7 +85,7 @@ export default {
     type: String
   },
 
-  data () {
+  data() {
     return {
       tabBarData: [{ name: '论文' }, { name: '专利' }, { name: '标准' }],
       nowIndex: 0
@@ -69,94 +93,105 @@ export default {
   },
 
   methods: {
-    switchTab (item, index) {
+    switchTab(item, index) {
       this.nowIndex = index
       // this.$root.evenHub.$emit('switchTab',item, index)
     },
-    getAuthor (item) {
+    getAuthor(item) {
       return this.type === 'expert' ? this.keyword : item.split(',')[0]
     }
   },
 
   computed: {
-    showPaper () {
+    showPaper() {
       return this.nowIndex === 0 && this.tabContent.paperVO && this.tabContent.paperVO.length > 0
     },
-    showPatent () {
+    showPatent() {
       return this.nowIndex === 1 && this.tabContent.patentVO && this.tabContent.patentVO.length > 0
     },
-    showStandard () {
-      return this.nowIndex === 2 && this.tabContent.standardVO.length && this.tabContent.standardVO.length > 0
+    showStandard() {
+      return (
+        this.nowIndex === 2 &&
+        this.tabContent.standardVO.length &&
+        this.tabContent.standardVO.length > 0
+      )
     }
   }
 }
 </script>
 <style>
-.tabConWrap .conItem .highlight {
+.tab-con-wrapper .highlight {
   background-color: rgba(0, 0, 0, 0) !important;
-  color: #fff!important;
+  color: #3bcef8 !important;
+}
+.tab-con-wrapper .title .highlight {
+  font-size: 20px;
+  font-weight:bold;
 }
 </style>
-<style lang='less' scoped>
-@import "~@/style/variables.less";
+<style lang="less" scoped>
+@import '~@/style/variables.less';
 .tab-bar {
+  width: 640px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #4b6ff4;
-  font-size: 16px;
-  height: 50px;
-  border-bottom: 2px solid @borderColor;
-  margin: 20px 0;
+  font-size: 20px;
+  height: 35px;
+  margin-bottom: 20px;
+  .item {
+    width: 25%;
+    padding: 16px 20px;
+    text-align: center;
+    background: #20498a;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .item.active {
+    color: #01c5f8;
+  }
 }
-.tab-bar .item {
-  padding: 19px 20px;
-}
-.tab-bar .item.active {
-  color: @fontColor;
-  border-bottom: 3px solid #fff;
-  padding-bottom: 16px;
-}
+
 /* tab con */
-.tabConWrap {
-  // height: 770px;
+.tab-con-wrapper {
+  width: 645px;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 5px 8px 5px 0px;
-  .conItem li {
-    width: 405px;
-    height: 140px;
-    border: 1px solid #4b6ff4;
-    border-radius: 5px;
-    background: rgba(46, 67, 145, 0.3);
-    color: #fff;
-    padding: 20px 15px;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-    box-sizing: border-box;
-  }
-  .conItem li h3 {
-    font-size: 16px;
-    padding-bottom: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 390px;
-  }
-  .conItem li p {
-    font-size: 14px;
-    line-height: 26px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .conItem li .remark {
-    font-size: 14px;
-    line-height: 26px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
+  .conItem {
+    .pannel {
+      margin-bottom: 10px;
+      color: #fff;
+      // padding: 20px 15px;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        justify-content: space-between;
+        i{
+          color: #01c5f8;
+          font-style: normal;
+        }
+      }
+
+      .remark {
+        font-size: 16px;
+        line-height: 26px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        i{
+          color: #01c5f8;
+          font-style: normal;
+        }
+      }
+    }
   }
 }
 </style>

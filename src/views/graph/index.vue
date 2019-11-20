@@ -2,22 +2,22 @@
 <template>
   <div>
     <div class="graph-wrapper">
-      <div class="graph-side">
+      <!-- <div class="graph-side">
         <ul>
           <li v-for="(item, index) in typeList" :key="index">
             <img :src="getIcon(item.key)" alt="">
             <span>{{item.name}}</span>
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="graph-left">
-        <header>
+        <!-- <header>
           <page-header :title="title" class="title"></page-header>
-        </header>
+        </header> -->
         <div class="svg-detail-wrapper"></div>
       </div>
       <div class="side-right">
-        <btn-group></btn-group>
+        <!-- <btn-group></btn-group> -->
         <transition name="slide-fade" mode="in-out">
           <div class="side-right-con" v-show="showPannel()" :key="currentWord">
             <relate-pannel v-show="popList && popList.length>0" :title="popTitle" :list='popList'></relate-pannel>
@@ -38,38 +38,37 @@ import patentIco from './img/ico-patent.png'
 import paperIco from './img/ico-paper.png'
 import honorIco from './img/ico-honor.png'
 import keywordIco from './img/ico-keyword.png'
-import PageHeader from '@/components/page-header'
-import BtnGroup from '@/components/btn-group'
+// import PageHeader from '@/components/page-header'
+// import BtnGroup from '@/components/btn-group'
 import RelatePannel from './relate-pannel'
 import { graphApi } from '@/service'
 import appConfig from '@/config'
 export default {
   name: 'GraphDetail',
   components: {
-    PageHeader,
-    BtnGroup,
+    // PageHeader,
+    // BtnGroup,
     RelatePannel
   },
-
+  props: {
+    nodes: Array,
+    links: Array
+  },
   data () {
     return {
       title: '知识图谱',
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 1825,
-      svgH: 990,
-      links: null,
-      nodes: null,
+      svgW: 800,
+      svgH: 524,
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
       colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'],
-      // rediusList: [110, 80, 50, 40, 20],
-      rediusList: [130, 100, 70, 40, 20],
+      rediusList: [100, 70, 60, 40, 20],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
-      alphaDecay: 0.0228, // 控制力学模拟衰减率
       chargeStrength: -600, // 万有引力
       paperIco: paperIco, // 论文小图标
       orgIco: orgIco,
@@ -90,23 +89,7 @@ export default {
 
   methods: {
 
-    async getData () {
-      try {
-        const temp = await graphApi.QueryGraphDetailByKeyword(this.keyword)
-        if (temp) {
-          // console.log(temp)
-          this.nodes = temp.mapInfo.nodes
-          this.links = temp.mapInfo.relations
-          // this.popList = temp.mapInfo.nodes.filter(d => d.name === this.keyword)[0].layoutList
-          // this.popTitle = this.keyword
-        }
-      } catch (error) {
-        this.$message.error(error.toString())
-      }
-    },
-
     async initData () {
-      await this.getData()
       this.initForceSimulation()
       this.initSvgContainer()
       this.drawSvg()
@@ -122,41 +105,48 @@ export default {
 
       this.svg = d3.select('.svg-detail-wrapper')
         .append('svg')
-        .attr('viewBox', '-100 -100 1500 1300')
+        .attr('viewBox', '-100 -200 1200 1000')
         .attr('width', this.svgW)
         .attr('height', this.svgH)
         .append('g')
         .attr('transform', `translate(${padding.top}, ${padding.left})`)
-        // .alphaDecay(this.alphaDecay)
-        // .size([1766, 1000])
     },
 
     initSvgContainer () {
       try {
       // 力导向图
         this.forceSimulation = d3.forceSimulation()
-          .alpha(0.9) // 活力，渲染之后再自动动多久
-          .force('link', d3.forceLink().id(data => data.code).distance(data => {
-          // 无分支的节点
-            // console.log(data)
-            if (data.target.name === '荣誉' || data.target.name === '组织') {
-              return 200
-            } else {
-              return data.target.level === 5 ? data.target.level * 22 : data.target.level * 8
-            }
-          })) // 映射id & 线的长度
-          .force('charge', d3.forceManyBody().strength(this.chargeStrength))
-          .force('xPos', d3.forceX(this.svgW / 2))
-          .force('yPos', d3.forceY(this.svgH / 2.5))
-          .force('center', d3.forceCenter(this.svgW / 5, this.svgH / 1.9))
+          .alpha(2) // 活力，渲染之后再自动动多久
+          .force('link', d3.forceLink().id(data => data.code)
+            // .distance(data => {
+            //   // 无分支的节点
+            // // console.log(data)
+            //   if (data.target.name === '荣誉' || data.target.name === '组织') {
+            //     return 200
+            //   } else {
+            //     return data.target.level === 5 ? data.target.level * 22 : data.target.level * 8
+            //   }
+            // })
+          ) // 映射id & 线的长度
+          .force('charge', d3.forceManyBody()
+            .strength(d => -(8 - d.level) * 30)
+            .theta(0.01)
+            .distanceMin(10)
+            .distanceMax(20)
+          )
+          // .force('x', d3.forceX(this.svgW / 2).strength(0.2))
+          // .force('y', d3.forceY(this.svgH / 5).strength(0.5))
+          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 3))
           .force('collide', d3.forceCollide(d => {
-            if (d.name === this.keyword && d.level === 1) {
-              d.fx = this.svgW / 5 // 设置特定节点固定x坐标
-              d.fy = this.svgH / 2
-            }
-            // return 130 - d.level * 20
-            return 145 - d.level * 20
-          }))
+            // if (d.name === this.keyword && d.level === 1) {
+            //   d.fx = this.svgW / 2// 设置特定节点固定x坐标
+            //   d.fy = this.svgH / 4
+            // }
+            return 100 - d.level * 10
+          })
+            .iterations(0.5)
+            .strength(0.4)
+          )
       } catch (error) {
         console.log('initSvgContainer===' + error)
       }
@@ -189,7 +179,7 @@ export default {
           .data(this.links)
           .enter()
           .append('line')
-          .attr('stroke', (data, index) => 'rgba(255,255,255,0.4)')
+          .attr('stroke', '#143263')
           .attr('stroke-width', '2px')
           .attr('target', data => data.target.name)
           .attr('source', data => data.source.name)
@@ -395,7 +385,7 @@ export default {
     display: flex;
     justify-content: space-between;
     touch-action: none;
-    padding: 10px 55px;
+    // padding: 10px 55px;
     box-sizing: border-box;
     header{
       display: flex;
@@ -432,8 +422,8 @@ export default {
       }
     }
     .svg-detail-wrapper{
-      width: 1825px;
-      height: 990px;
+      // width: 850px;
+      // height: 990px;
     }
   }
   .vue{
