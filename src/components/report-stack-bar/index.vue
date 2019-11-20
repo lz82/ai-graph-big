@@ -112,7 +112,7 @@ export default {
             // padding: [250, 0, 250, 0]
             // lineHeight: 56
           },
-          barWidth: '35px',
+          barWidth: '20px',
           barMinHeight: 10,
           data: item.data
         }

@@ -1,7 +1,7 @@
 <template>
   <div class="report-muliti-line-wrapper">
-    <h3 v-if="title">{{ title }}</h3>
     <div ref="mychart" :style="{width: width, height: height}"></div>
+    <h3 v-if="title">{{ title }}</h3>
   </div>
 </template>
 
@@ -49,6 +49,10 @@ export default {
     empty: {
       type: Boolean,
       default: false
+    },
+    symbol: {
+      type: String,
+      default: 'circle'
     },
     legendsize: {
       type: Number,
@@ -127,16 +131,17 @@ export default {
           type: 'line',
           stack: this.isstack ? 'total' : '',
           smooth: true,
-          symbol: this.empty ? 'emptyCircle' : 'circle', // 'circle',
+          symbol: this.symbol, // this.empty ? 'emptyCircle' : 'circle'
+          symbolSize: 2,
           itemStyle: {
             borderColor: reportConfig.colorList[index]
             // color: this.empty ? '#0F162D' : reportConfig.colorList[index]
             // opacity: 0.5
           },
           lineStyle: {
-            color: reportConfig.colorList[index]
+            color: reportConfig.colorList[index],
+            width: 1
           },
-          symbolSize: 8,
           data: item.data
         }
       })
@@ -155,9 +160,8 @@ export default {
 
     h3 {
       font-size: 16px;
-      font-weight: 500;
       color: #fff;
-      padding: 0 0 10px 0;
+      padding: 0 0 0 0;
     }
   }
 </style>

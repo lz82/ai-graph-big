@@ -1,7 +1,7 @@
 <template>
   <div class="liquidfill-wrapper">
-    <h3>{{ title }}</h3>
     <div id="chart" ref="mychart" style="width: 100%; height: 80%;"></div>
+    <h3>{{ title }}</h3>
   </div>
 </template>
 
@@ -36,12 +36,12 @@ export default {
         series: [{
           type: 'liquidFill',
           data: [this.data],
-          radius: '100%',
+          radius: '80px',
           label: {
             fontSize: 24,
             color: this.num > 0.3 ? '#4b6ff4' : '#fff',
             formatter: () => {
-              return `{c|${this.cnt}}{a|家}\n{b|${this.num}}`
+              return `{b|${this.num}}{d|%}`
             },
             rich: {
               a: {
@@ -51,13 +51,19 @@ export default {
               },
               b: {
                 color: '#fff',
-                fontSize: 16,
-                marginTop: '10px'
+                fontSize: 20,
+                fontWeight: 'bolder'
+                // marginTop: '10px'
               },
               c: {
                 color: '#fff',
                 fontSize: 24,
-                fontWeight: 700
+                fontWeight: 900
+              },
+              d: {
+                fontSize: 12,
+                color: '#fff',
+                padding: [-5, 0, 0, 0]
               }
             }
           },
@@ -89,14 +95,16 @@ export default {
 <style lang="less" scoped>
   .liquidfill-wrapper {
     display: flex;
+    height: 100%;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
 
     h3 {
       font-size: 16px;
-      font-weight: 500;
+      // font-weight: 500;
       color: #fff;
-      padding: 0 0 45px 0;
+      padding: 15px 0 0  0;
     }
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="report-muliti-pie-wrapper">
     <div id="chart" ref="mychart" :style="{width: width, height: height}"></div>
-    <h3 :style="{fontSize: numsize}">{{num}}</h3>
+    <h3 :style="{fontSize: numsize, color: '#fff'}">{{num}}</h3>
   </div>
 </template>
 
@@ -60,7 +60,7 @@ export default {
             animation: true,
             animationDuration: 2000,
             selectedMode: false,
-            radius: ['70%', '100%'],
+            radius: ['80%', '100%'],
             data: [
               { name: '机器学习', value: this.num },
               { name: '', value: this.other }
@@ -86,7 +86,7 @@ export default {
             }
           }
         ],
-        color: [this.color, '#2a3d85']
+        color: this.color // [this.color, '#2a3d85']
       }
     }
   },

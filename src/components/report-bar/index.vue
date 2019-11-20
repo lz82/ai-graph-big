@@ -1,7 +1,7 @@
 <template>
   <div class="report-bar-wrapper">
-    <h3>{{ title }}</h3>
     <div ref="mychart" :style="{width: width, height: height}"></div>
+    <h3>{{ title }}</h3>
   </div>
 </template>
 
@@ -51,6 +51,10 @@ export default {
     position: {
       type: String,
       default: 'right'
+    },
+    barWidth: {
+      type: String,
+      default: '10px'
     }
   },
 
@@ -71,7 +75,7 @@ export default {
         color: this.color,
         grid: {
           top: '20px',
-          bottom: '50px',
+          bottom: '25px',
           left: '10px',
           right: '10px'
         },
@@ -142,10 +146,11 @@ export default {
         return {
           name: item.name,
           type: 'bar',
-          barGap: 0,
+          // barGap: '20px',
           label: this.labelOption,
           data: item.data,
-          barWidth: '15px',
+          barWidth: this.barWidth,
+          barMinHeight: 7,
           stack: item.stack ? item.stack : ''
         }
       })
@@ -164,9 +169,9 @@ export default {
 
     h3 {
       font-size: 16px;
-      font-weight: 500;
+      // font-weight: 500;
       color: #fff;
-      padding: 0 0 10px 0;
+      padding: 0 0 0 0;
     }
   }
 </style>
