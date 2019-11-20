@@ -42,6 +42,7 @@
 <script>
 import HomeMap from './map'
 import TagCloud from './tag-cloud'
+import { clearInterval } from 'timers'
 
 export default {
   name: 'Home',
@@ -53,67 +54,57 @@ export default {
 
   data() {
     return {
+      balls: ['patent', 'doc', 'talent'],
       currentBall: 'patent',
       showCloud: true,
       expertTags: [
         {
-          // Geoffrey Hinton
           text: 'Geoffrey Hinton',
-          // img: tagGH,
           url: '/search/Geoffrey Hinton'
         },
         {
           // 韩家炜
           text: '韩家炜',
-          // img: tagHjw,
           url: '/search/韩家炜'
         },
         {
           // 李飞飞
           text: '李飞飞',
-          // img: tagLiff,
           url: '/search/李飞飞'
         },
         {
           // Michael I.Jordan
           text: 'Michael I.Jordan',
-          // img: tagMj,
           url: '/search/Michael I. Jordan'
         },
         {
           // SebastianThrun
           text: 'Sebastian Thrun',
-          // img: tagSt,
           url: '/search/Sebastian Thrun'
         },
         {
           // 吴恩达
           text: '吴恩达',
-          // img: tagWed,
           url: '/search/吴恩达'
         },
         {
           // William T. Freeman
           text: 'William T. Freeman',
-          // img: tagWf,
           url: '/search/William T. Freeman'
         },
         {
           // Yoshua Bengio
           text: 'Yoshua Bengio',
-          // img: tagYb,
           url: '/search/Yoshua Bengio'
         },
         {
           // Yann Lecun
           text: 'Yann Lecun',
-          // img: tagYl,
           url: '/search/Yann Lecun'
         },
         {
           // 周志华
           text: '周志华',
-          // img: tagZzh,
           url: '/search/周志华'
         }
       ],
@@ -121,71 +112,74 @@ export default {
         {
           // 度量学习
           text: '度量学习',
-          // img: tagDlxx,
           url: '/search/度量学习'
         },
         {
           // 机器翻译
           text: '机器翻译',
-          // img: tagJqfy,
           url: '/search/机器翻译'
         },
         {
           // 可解释性
           text: '可解释性',
-          // img: tagKjsrgzn,
           url: '/search/可解释性'
         },
         {
           // 目标检测
           text: '目标检测',
-          // img: tagMbjc,
           url: '/search/目标检测'
         },
         {
           // 人脸识别
           text: '人脸识别',
-          // img: tagRlsb,
           url: '/search/人脸识别'
         },
         {
           // 推荐系统
           text: '推荐系统',
-          // img: tagTjxt,
           url: '/search/推荐系统'
         },
         {
           // 无人驾驶
           text: '无人驾驶',
-          // img: tagWrjs,
           url: '/search/无人驾驶'
         },
         {
           // 循环神经网络
           text: '循环神经网络',
-          // img: tagXhsjwl,
           url: '/search/循环神经网络'
         },
         {
           // 支持向量机
           text: '支持向量机',
-          // img: tagZcxlj,
           url: '/search/支持向量机'
         },
         {
           // 知识库
           text: '知识库',
-          // img: tagZsk,
           url: '/search/知识库'
         }
-      ]
+      ],
+      timer: null
     }
+  },
+
+  mounted() {
+    // 设置1分钟自动切换一次
+    this.timer = setInterval(() => {
+      const temp = this.balls.findIndex(item => item === this.currentBall)
+      this.currentBall = this.balls[temp + 1 > (this.balls.length - 1) ? 0 : temp + 1]
+    }, 1000 * 60)
   },
 
   methods: {
     onBallClick(val) {
       this.currentBall = val
     }
+  },
+
+  beforeDestroy() {
+    clearInterval(this.timer)
   }
 }
 </script>
@@ -211,7 +205,7 @@ export default {
       height: 100px;
       border-radius: 50%;
       border: solid 1px rgb(0, 161, 254);
-      background: rgb(38, 84, 133);
+      background: rgba(60, 113, 213, 0.3);
       color: rgb(102, 204, 255);
       position: relative;
       .title {
@@ -222,7 +216,7 @@ export default {
         font-size: 24px;
       }
       &.active {
-        background: rgb(11, 129, 153);
+        background: rgba(0, 204, 204, 0.5);
         color: #fff;
       }
     }
