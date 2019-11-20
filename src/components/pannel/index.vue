@@ -24,9 +24,9 @@ export default {
 
 <style lang="less" scoped>
 .pannel-wrapper {
-  border: solid 1px #0c64a8;
+  border: solid 2px #0c64a8;
   background: rgba(60, 113, 213, 0.3);
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 15px 15px;
   box-sizing: border-box;
 

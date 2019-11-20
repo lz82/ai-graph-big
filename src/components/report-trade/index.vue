@@ -1,6 +1,6 @@
 <template>
   <div class="report-trade-wrapper">
-    <div ref="mychart" style="width: 100%; height: 910px"></div>
+    <div ref="mychart" style="width: 100%; height: 524px"></div>
   </div>
 </template>
 
@@ -8,20 +8,19 @@
 import reportConfig from '@/config/report'
 const { colorList } = reportConfig
 
-const bg = 'rgba(26, 21, 45, 1)'
+// const bg = 'rgba(26, 21, 45, 1)'
 const borderWidth = 2
 
-const newColor = ['#5efde8', '#61ff65', '#ffbe61', '#ff67e4', '#8fa4ff']
+const newColor = ['#fb8585', '#e7affe', '#967adc', '#8dd1e1', '#3dd5ff', '#9cacf1', '#f6bb42', '#8cc152', '#20cec8']
 
 const rich = {
   num: {
-    fontWeight: 700,
-    fontSize: 24,
+    fontSize: 20,
     color: '#fff',
     align: 'center'
   },
   title: {
-    fontSize: 26,
+    fontSize: 18,
     color: '#fff',
     align: 'center'
   }
@@ -35,7 +34,9 @@ export default {
       option: {
         animationDurationUpdate: 1500,
         animationEasingUpdate: 'quinticInOut',
-        color: reportConfig.colorList,
+        color: colorList,
+        symbol: 'roundRect',
+        symbolSize: 1,
         series: [
           {
             type: 'graph',
@@ -45,7 +46,7 @@ export default {
               repulsion: 200,
               gravity: 0.02,
               layoutAnimation: 1000,
-              edgeLength: [250, 360],
+              edgeLength: [130, 210],
               focusNodeAdjacency: true
             },
             roam: false,
@@ -57,19 +58,17 @@ export default {
             data: [
               {
                 name: 'AI投资总额',
-                x: 500,
-                y: 450,
+                x: 400,
+                y: 250,
                 fixed: true,
                 value: '8500亿',
-                symbolSize: 220,
+                symbolSize: 130,
                 draggable: true,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[0],
-                    borderWidth: 4,
-                    shadowBlur: 20,
-                    shadowColor: colorList[0],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[0]
                   }
                 },
                 label: {
@@ -82,15 +81,13 @@ export default {
               },
               {
                 name: '汽车交通',
-                symbolSize: 150,
+                symbolSize: 100,
                 // draggable: true,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[1],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[1],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[1]
                   }
                 },
                 label: {
@@ -103,14 +100,12 @@ export default {
               },
               {
                 name: '游戏',
-                symbolSize: 150,
+                symbolSize: 80,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[2],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[2],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[2]
                   }
                 },
                 label: {
@@ -123,14 +118,12 @@ export default {
               },
               {
                 name: '电子商务',
-                symbolSize: 150,
+                symbolSize: 90,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[3],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[3],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[3]
                   }
                 },
                 label: {
@@ -143,14 +136,12 @@ export default {
               },
               {
                 name: '硬件',
-                symbolSize: 160,
+                symbolSize: 80,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[4],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[4],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[4]
                   }
                 },
                 label: {
@@ -163,14 +154,12 @@ export default {
               },
               {
                 name: '文娱传媒',
-                symbolSize: 150,
+                symbolSize: 110,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[5],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[5],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[5]
                   }
                 },
                 label: {
@@ -183,14 +172,12 @@ export default {
               },
               {
                 name: '医疗健康',
-                symbolSize: 150,
+                symbolSize: 110,
                 itemStyle: {
                   normal: {
-                    borderColor: newColor[0],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: newColor[0],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[6]
                   }
                 },
                 label: {
@@ -203,14 +190,12 @@ export default {
               },
               {
                 name: '教育',
-                symbolSize: 150,
+                symbolSize: 90,
                 itemStyle: {
                   normal: {
-                    borderColor: newColor[1],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: newColor[1],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[7]
 
                   }
                 },
@@ -224,14 +209,12 @@ export default {
               },
               {
                 name: '物流',
-                symbolSize: 180,
+                symbolSize: 90,
                 itemStyle: {
                   normal: {
-                    borderColor: newColor[2],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: newColor[2],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[8]
                   }
                 },
                 label: {
@@ -244,14 +227,12 @@ export default {
               },
               {
                 name: '企业服务',
-                symbolSize: 200,
+                symbolSize: 100,
                 itemStyle: {
                   normal: {
-                    borderColor: newColor[3],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: newColor[3],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[9]
                   }
                 },
                 label: {
@@ -264,14 +245,12 @@ export default {
               },
               {
                 name: '金融',
-                symbolSize: 200,
+                symbolSize: 80,
                 itemStyle: {
                   normal: {
-                    borderColor: newColor[4],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: newColor[4],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[0]
                   }
                 },
                 label: {
@@ -284,14 +263,12 @@ export default {
               },
               {
                 name: '本地生活',
-                symbolSize: 200,
+                symbolSize: 100,
                 itemStyle: {
                   normal: {
-                    borderColor: colorList[5],
-                    borderWidth: 4,
-                    shadowBlur: 10,
-                    shadowColor: colorList[5],
-                    color: bg
+                    borderColor: '#fff',
+                    borderWidth: 3,
+                    color: newColor[1]
                   }
                 },
                 label: {
@@ -307,12 +284,12 @@ export default {
               {
                 source: 'AI投资总额',
                 target: '汽车交通',
-                value: 400
+                value: 300
               },
               {
                 source: 'AI投资总额',
                 target: '游戏',
-                value: 150
+                value: 350
               },
               {
                 source: 'AI投资总额',
@@ -357,14 +334,15 @@ export default {
               {
                 source: 'AI投资总额',
                 target: '本地生活',
-                value: 100
+                value: 80
               }
             ],
             lineStyle: {
               normal: {
                 opacity: 0.9,
                 width: borderWidth,
-                curveness: 0
+                curveness: 0,
+                color: '#fff'
               }
             }
           }

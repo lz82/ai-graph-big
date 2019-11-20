@@ -22,12 +22,17 @@ export default {
       chart: null,
       option: {
         title: {
-          text: 'AI投资总额\n   8500亿',
-          left: 100,
-          top: 70,
-          textStyle: {
+          text: ' 8500亿',
+          subtext: '\n     AI投资总额',
+          subtextStyle: {
             color: '#fff',
-            fontSize: 14
+            fontSize: 16
+          },
+          left: 90,
+          top: 60,
+          textStyle: {
+            color: '#3bcef8',
+            fontSize: 36
           }
         },
         legend: {
@@ -37,7 +42,8 @@ export default {
         series: [{
           type: 'pie',
           clockWise: false,
-          radius: [50, 60],
+          radius: [50, 70],
+          center: ['70%', '50%'],
           hoverAnimation: false,
           itemStyle: {
             normal: {
@@ -73,32 +79,7 @@ export default {
       this.series.forEach((item, index) => {
         data.push({
           value: item.value,
-          name: item.name,
-          itemStyle: {
-            normal: {
-              borderWidth: 5,
-              shadowBlur: 20,
-              borderColor: colorList[index],
-              shadowColor: colorList[index]
-            }
-          }
-        })
-        data.push({
-          value: 300,
-          name: '',
-          itemStyle: {
-            normal: {
-              label: {
-                show: false
-              },
-              labelLine: {
-                show: false
-              },
-              color: 'rgba(0, 0, 0, 0)',
-              borderWidth: 0,
-              borderColor: 'rgba(0, 0, 0, 0)'
-            }
-          }
+          name: item.name
         })
       })
       this.option.series[0].data = data

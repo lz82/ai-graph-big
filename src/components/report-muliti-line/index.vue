@@ -24,16 +24,12 @@ export default {
       type: String,
       required: true
     },
-    legend: {
-      type: Array,
-      required: true
-    },
-    xaxis: {
-      type: Array,
-      default () {
-        return ['2015', '2016', '2017', '2018']
-      }
-    },
+    // xaxis: {
+    //   type: Array,
+    //   default () {
+    //     return ['2015', '2016', '2017', '2018']
+    //   }
+    // },
     series: {
       type: Array,
       required: true
@@ -52,12 +48,16 @@ export default {
     },
     symbol: {
       type: String,
-      default: 'circle'
+      default: 'none'
     },
     legendsize: {
       type: Number,
       default: 10
     }
+    // legendsize: {
+    //   type: Number,
+    //   default: 10
+    // }
   },
 
   data () {
@@ -65,15 +65,6 @@ export default {
       chart: null,
       option: {
         color: reportConfig.colorList,
-        legend: {
-          data: this.legend,
-          textStyle: {
-            color: 'rgba(255, 255, 255, 0.7)',
-            fontSize: this.legendsize
-          },
-          itemWidth: 10,
-          itemHeight: 6
-        },
         grid: {
           left: this.left,
           right: '20px',
@@ -134,6 +125,7 @@ export default {
           symbol: this.symbol, // this.empty ? 'emptyCircle' : 'circle'
           symbolSize: 2,
           itemStyle: {
+            borderWidth: 1,
             borderColor: reportConfig.colorList[index]
             // color: this.empty ? '#0F162D' : reportConfig.colorList[index]
             // opacity: 0.5

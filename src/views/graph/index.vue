@@ -66,7 +66,7 @@ export default {
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
       colorList: ['#967adc', '#8cc152', '#3bafda', '#f6bb42', '#37bc9b', '#ff7e90', '#ff7043'],
-      rediusList: [100, 70, 60, 40, 20],
+      rediusList: [100, 70, 60, 40, 25],
       keyword: this.$route.query.keyword, // 如：李飞飞
       currentWord: this.$route.path.split('/')[2], // id
       chargeStrength: -600, // 万有引力
@@ -118,34 +118,35 @@ export default {
         this.forceSimulation = d3.forceSimulation()
           .alpha(2) // 活力，渲染之后再自动动多久
           .force('link', d3.forceLink().id(data => data.code)
-            // .distance(data => {
-            //   // 无分支的节点
-            // // console.log(data)
-            //   if (data.target.name === '荣誉' || data.target.name === '组织') {
-            //     return 200
-            //   } else {
-            //     return data.target.level === 5 ? data.target.level * 22 : data.target.level * 8
-            //   }
-            // })
+            .distance(data => {
+              // 无分支的节点
+            // console.log(data)
+              if (data.target.name === '荣誉' || data.target.name === '组织') {
+                return 200
+              } else {
+                return data.target.level === 5 ? data.target.level * 22 : data.target.level * 3
+              }
+            })
           ) // 映射id & 线的长度
           .force('charge', d3.forceManyBody()
-            .strength(d => -(8 - d.level) * 30)
+            .strength(d => -(9 - d.level) * 30)
             .theta(0.01)
-            .distanceMin(10)
+            .distanceMin(15)
             .distanceMax(20)
           )
-          // .force('x', d3.forceX(this.svgW / 2).strength(0.2))
-          // .force('y', d3.forceY(this.svgH / 5).strength(0.5))
-          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 3))
+          // .force('x', d3.forceX())
+          // .force('y', d3.forceY())
+          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
           .force('collide', d3.forceCollide(d => {
             // if (d.name === this.keyword && d.level === 1) {
-            //   d.fx = this.svgW / 2// 设置特定节点固定x坐标
-            //   d.fy = this.svgH / 4
+            //   d.fx = this.svgW // 设置特定节点固定x坐标
+            //   d.fy = this.svgH
             // }
-            return 100 - d.level * 10
+            return 100 - d.level * 11
+            // return this.rediusList[d.level] * d.level
           })
             .iterations(0.5)
-            .strength(0.4)
+            .strength(0.5)
           )
       } catch (error) {
         console.log('initSvgContainer===' + error)
