@@ -23,7 +23,7 @@ export default {
       required: true
     },
     color: {
-      type: String
+      type: Array
     },
     width: {
       type: String,
