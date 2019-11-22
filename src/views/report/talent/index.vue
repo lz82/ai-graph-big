@@ -97,6 +97,7 @@
           :series="patentRateList"
           :empty="true"
           top="40px"
+          symbol="emptyCircle"
         />
         <report-stack-bar :xaxis="domainList" :series="patentDomainList" height="160px" />
       </pannel>
