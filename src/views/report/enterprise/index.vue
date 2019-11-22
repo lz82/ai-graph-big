@@ -63,7 +63,7 @@
         </div>
       </template>
       <div class="map">
-        map
+        <report-map title="人工智能企业国内分布" />
       </div>
       <template #right>
         <div class="right-wrapper">
@@ -146,6 +146,7 @@ import ReportMulitiLine from '@/components/report-muliti-line'
 import ReportBar from '@/components/report-bar'
 import ReportStackBar from '@/components/report-stack-bar'
 import ReportMulitiPie from '@/components/report-muliti-pie'
+import ReportMap from '@/components/report-map'
 
 export default {
   name: 'ReportEnterprise',
@@ -157,7 +158,8 @@ export default {
     ReportMulitiLine,
     ReportBar,
     ReportStackBar,
-    ReportMulitiPie
+    ReportMulitiPie,
+    ReportMap
   },
 
   data() {

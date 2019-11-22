@@ -1,7 +1,7 @@
 <template>
   <div class="report-map-wrapper">
-    <div id="chart" ref="mychart" style="width: 850px; height: 800px;"></div>
     <h3>{{ title }}</h3>
+    <div id="chart" ref="mychart" style="width: 600px; height: 485px;"></div>
     <transition-group name="fade" mode="out-in" tag="div">
       <div class="table" key="10">
         <div class="row header">
@@ -44,15 +44,15 @@
           <span>天津</span>
           <span>1784</span>
         </div>
-        <div class="row">
-          <span>湖北</span>
-          <span>1573</span>
-        </div>
       </div>
       <div class="table right" key="20">
         <div class="row header">
           <span>地区</span>
           <span>数量</span>
+        </div>
+        <div class="row">
+          <span>湖北</span>
+          <span>1573</span>
         </div>
         <div class="row">
           <span>福建</span>
@@ -86,14 +86,14 @@
           <span>广西</span>
           <span>475</span>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <span>江西</span>
           <span>378</span>
         </div>
         <div class="row">
           <span>黑龙江</span>
           <span>314</span>
-        </div>
+        </div> -->
       </div>
     </transition-group>
   </div>
@@ -134,7 +134,7 @@ export default {
     }
   },
 
-  data () {
+  data() {
     return {
       chart: null,
       showTop10: true,
@@ -180,136 +180,137 @@ export default {
             }
           ]
         },
-        series: [{
-          name: '散点',
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          data: mapData,
-          // data: [
-          //   { name: '北京', value: [116.46, 39.92, 2] },
-          //   { name: '新疆', value: [87.617733, 43.792818, 3] },
-          //   { name: '河南', value: [113.665412, 34.757975, 4] },
-          //   { name: '浙江', value: [120.153576, 30.287459, 5] },
-          //   { name: '广东', value: [113.280637, 23.125178, 6] }
-          // ],
-          // symbolSize: 24,
-          geoIndex: 0,
-          // symbolSize: function (val) {
-          //   return val[2] / 10
-          // },
-          symbolSize: 8,
-          label: {
-            normal: {
-              formatter (val) {
-                // return `${val.name}-${val.value[2]}`
-                return `${val.name}`
-                // return `${val.value[2]}`
+        series: [
+          {
+            name: '散点',
+            type: 'scatter',
+            coordinateSystem: 'geo',
+            data: mapData,
+            // data: [
+            //   { name: '北京', value: [116.46, 39.92, 2] },
+            //   { name: '新疆', value: [87.617733, 43.792818, 3] },
+            //   { name: '河南', value: [113.665412, 34.757975, 4] },
+            //   { name: '浙江', value: [120.153576, 30.287459, 5] },
+            //   { name: '广东', value: [113.280637, 23.125178, 6] }
+            // ],
+            // symbolSize: 24,
+            geoIndex: 0,
+            // symbolSize: function (val) {
+            //   return val[2] / 10
+            // },
+            symbolSize: 8,
+            label: {
+              normal: {
+                formatter(val) {
+                  // return `${val.name}-${val.value[2]}`
+                  return `${val.name}`
+                  // return `${val.value[2]}`
+                },
+                fontWeight: 'bolder',
+                fontSize: 12,
+                show: true,
+                align: 'center',
+                position: 'bottom',
+                distance: 0,
+                offset: [0, 10]
               },
-              fontWeight: 'bolder',
-              fontSize: 12,
-              show: true,
-              align: 'center',
-              position: 'bottom',
-              distance: 0,
-              offset: [0, 10]
+              emphasis: {
+                show: true
+              }
             },
-            emphasis: {
-              show: true
-            }
-          },
-          itemStyle: {
-            normal: {
-              color: '#fff'
-            }
-          }
-        },
-        {
-          type: 'map',
-          map: 'china',
-          geoIndex: 1,
-          left: 0,
-          top: '20px',
-          right: 0,
-          aspectScale: 0.75, // 长宽比
-          showLegendSymbol: false, // 存在legend时显示
-          label: {
-            normal: {
-              show: false
-            },
-            emphasis: {
-              show: false,
-              textStyle: {
+            itemStyle: {
+              normal: {
                 color: '#fff'
               }
             }
           },
-          roam: false,
-
-          itemStyle: {
-            normal: {
-              borderColor: '#5ab6e2',
-              borderWidth: 1,
-              areaColor: '#10172d',
-              fontWeightL: 700
-            },
-            emphasis: {
-              areaColor: '#10172d'
-            }
-          },
-          regions: [
-            {
-              name: '南海诸岛',
-              value: 0,
-              itemStyle: {
-                normal: {
-                  opacity: 0
-                },
-                emphasis: {
-                  opacity: 0
+          {
+            type: 'map',
+            map: 'china',
+            geoIndex: 1,
+            left: 0,
+            top: '20px',
+            right: 0,
+            aspectScale: 0.75, // 长宽比
+            showLegendSymbol: false, // 存在legend时显示
+            label: {
+              normal: {
+                show: false
+              },
+              emphasis: {
+                show: false,
+                textStyle: {
+                  color: '#fff'
                 }
               }
-            }
-          ]
-        },
-        {
-          name: '点',
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          zlevel: 6
-        },
-        {
-          name: 'Top 10',
-          type: 'effectScatter',
-          coordinateSystem: 'geo',
-          data: mapData,
-          symbolSize: 12,
-          showEffectOn: 'render',
-          rippleEffect: {
-            brushType: 'stroke'
+            },
+            roam: false,
+
+            itemStyle: {
+              normal: {
+                borderColor: '#1b3362',
+                borderWidth: 1,
+                areaColor: '#68c2ee',
+                fontWeightL: 700
+              },
+              emphasis: {
+                areaColor: '#10172d'
+              }
+            },
+            regions: [
+              {
+                name: '南海诸岛',
+                value: 0,
+                itemStyle: {
+                  normal: {
+                    opacity: 0
+                  },
+                  emphasis: {
+                    opacity: 0
+                  }
+                }
+              }
+            ]
           },
-          hoverAnimation: true,
-          label: {
-            normal: {
-              formatter: '{b}',
-              position: 'left',
-              show: false
-            }
+          {
+            name: '点',
+            type: 'scatter',
+            coordinateSystem: 'geo',
+            zlevel: 6
           },
-          itemStyle: {
-            normal: {
-              color: 'yellow',
-              shadowBlur: 10,
-              shadowColor: 'yellow'
-            }
-          },
-          zlevel: 1
-        }
+          {
+            name: 'Top 10',
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            data: mapData,
+            symbolSize: 12,
+            showEffectOn: 'render',
+            rippleEffect: {
+              brushType: 'stroke'
+            },
+            hoverAnimation: true,
+            label: {
+              normal: {
+                formatter: '{b}',
+                position: 'left',
+                show: false
+              }
+            },
+            itemStyle: {
+              normal: {
+                color: 'yellow',
+                shadowBlur: 10,
+                shadowColor: 'yellow'
+              }
+            },
+            zlevel: 1
+          }
         ]
       }
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.initChart()
     })
@@ -319,7 +320,7 @@ export default {
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
 
       this.chart.setOption(this.option)
@@ -329,46 +330,47 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-map-wrapper {
+.report-map-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .table {
+    position: absolute;
+    width: 70px;
+    // height: 155px;
+    border: solid 1px #fff;
+    left: 15px;
+    bottom: 0px;
+
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    position: relative;
-    h3 {
-      font-size: 24px;
-      font-weight: 700;
-      color: #fff;
-    }
-    .table {
-      position: absolute;
-      width: 110px;
-      height: 300px;
-      border: solid 1px #fff;
-      left: 10px;
-      bottom: -90px;
+    color: #fff;
+    font-size: 12px;
 
+    .row {
       display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      color: #fff;
-
-      .row {
-        display: flex;
-        flex-flow: row nowrap;
-        width: 100%;
-        span {
-          flex: 0 0 50%;
-          text-align: center;
-          line-height: 26px;
-        }
+      flex-flow: row nowrap;
+      width: 100%;
+      span {
+        flex: 0 0 50%;
+        text-align: center;
+        line-height: 14px;
       }
-      .header {
-        border-bottom: solid 1px #fff;
-      }
-      &.right {
-        left: 120px;
-        border-left-width: 0;
-      }
+    }
+    .header {
+      border-bottom: solid 1px #fff;
+    }
+    &.right {
+      left: 86px;
+      border-left-width: 0;
     }
   }
+}
 </style>
