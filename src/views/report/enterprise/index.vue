@@ -3,7 +3,7 @@
     <report-layout>
       <template #left>
         <div class="column-wrapper">
-          <pannel>
+          <pannel width="640px">
             <div class="row">
               <div class="title">上海小巨人企业</div>
               <div class="ball">
@@ -12,6 +12,7 @@
               <div class="chart">
                 <report-muliti-line
                   title="AI企业增速"
+                  width="290px"
                   height="100px"
                   symbol="none"
                   :legend="domainList"
@@ -22,7 +23,7 @@
               </div>
             </div>
           </pannel>
-          <pannel>
+          <pannel width="640px">
             <div class="row">
               <div class="title">上海双创企业</div>
               <div class="ball">
@@ -31,6 +32,7 @@
               <div class="chart">
                 <report-bar
                   title="AI企业增速"
+                  width="290px"
                   height="100px"
                   :rotate="0"
                   position="top"
@@ -42,7 +44,7 @@
               </div>
             </div>
           </pannel>
-          <pannel>
+          <pannel width="640px">
             <div class="row">
               <div class="title">上海高新技术企业</div>
               <div class="ball">
@@ -51,6 +53,7 @@
               <div class="chart">
                 <report-bar
                   title="AI企业增速"
+                  width="290px"
                   height="100px"
                   :xaxis="domainList"
                   :legend="['2015', '2016', '2017', '2018']"
@@ -283,6 +286,7 @@ export default {
   .row {
     display: flex;
     flex-flow: row nowrap;
+    box-sizing: border-box;
 
     .title {
       flex: 0 0 170px;
@@ -293,8 +297,8 @@ export default {
     }
 
     .chart {
-      flex: 1 0 auto;
-      padding: 0 0 0 25px;
+      flex: 0 0 306px;
+      padding: 0;
     }
   }
   .right-wrapper {

@@ -1,11 +1,11 @@
 <template>
   <div class="report-timeline-wrapper">
-    <div ref="mychart" style="width: 100%; height: 230px"></div>
+    <div ref="mychart" style="width: 100%; height: 190px"></div>
   </div>
 </template>
 
 <script>
-import reportConfig from '@/config/report'
+// import reportConfig from '@/config/report'
 export default {
   name: 'ReportTimeline',
 
@@ -24,8 +24,9 @@ export default {
               color: '#fff'
             },
             checkpointStyle: {
-              color: reportConfig.colorList[2],
-              borderColor: reportConfig.colorList[2]
+              symbolSize: 5,
+              color: '#20cec8', // reportConfig.colorList[2],
+              borderColor: '#20cec8' // reportConfig.colorList[2]
             },
             controlStyle: {
               showPlayBtn: false,
@@ -87,11 +88,11 @@ export default {
               barWidth: 30,
               label: {
                 show: true,
-                position: 'inside'
+                position: 'top' // 'inside'
               }
             }
           ],
-          color: reportConfig.colorList
+          color: '#20cec8' // reportConfig.colorList
         },
         options: [
           {
