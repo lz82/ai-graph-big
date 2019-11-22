@@ -46,7 +46,7 @@ export default {
               repulsion: 200,
               gravity: 0.02,
               layoutAnimation: 1000,
-              edgeLength: [130, 210],
+              edgeLength: [130, 205],
               focusNodeAdjacency: true
             },
             roam: false,
@@ -81,7 +81,7 @@ export default {
               },
               {
                 name: '汽车交通',
-                symbolSize: 100,
+                symbolSize: 95,
                 // draggable: true,
                 itemStyle: {
                   normal: {
@@ -154,7 +154,7 @@ export default {
               },
               {
                 name: '文娱传媒',
-                symbolSize: 110,
+                symbolSize: 95,
                 itemStyle: {
                   normal: {
                     borderColor: '#fff',
@@ -172,7 +172,7 @@ export default {
               },
               {
                 name: '医疗健康',
-                symbolSize: 110,
+                symbolSize: 105,
                 itemStyle: {
                   normal: {
                     borderColor: '#fff',
@@ -263,7 +263,7 @@ export default {
               },
               {
                 name: '本地生活',
-                symbolSize: 100,
+                symbolSize: 80,
                 itemStyle: {
                   normal: {
                     borderColor: '#fff',

@@ -16,7 +16,12 @@
     "journalSend": null,
     "subjectMatch": null,
     "citedSituation": null,
-    "fwciinedx": 5.654
+    "fwciinedx": 5.654,
+    "layoutList": [
+      "1949年8月11日－ ，现为美国伊利诺伊大学香槟分校计算机系教授，美国计算机协会院士和IEEE院士。",
+      "1949年8月11日出生于中国上海，1979年毕业于中国科学技术大学，1985年在威斯康星麦迪逊大学获得博士学位。他是2009年麦克道尔奖（the McDowell Award）的得主，由国际电气与电子工程师学会（IEEE）颁发的最高技术奖。",
+      "他是数据挖掘方面的研究专家，著有 Data Mining: Concepts and Techniques, 2nd edition, Morgan Kaufmann, ISBN 9781558609013 （中文译本：《数据挖掘：概念和技术》"
+    ]
   },
   "mapVO": {
     "nodes": [

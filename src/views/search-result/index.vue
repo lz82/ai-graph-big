@@ -7,7 +7,7 @@
 
         <!-- expert info -->
         <expert-info v-if="result && result.expertVO" :info='result.expertVO'></expert-info>
-        <div class="side-bar side-right-con">
+        <div class="side-bar side-right-con" v-if="result && !result.expertVO">
           <!-- 同领域专家 -->
           <expert-pannel v-if="showRelatedExpert" :list='result.mapVO.expertReco'></expert-pannel>
 
@@ -219,8 +219,8 @@ export default {
   }
   .side-left{
     height: 524px;
-    overflow-y: scroll;
     flex: 0 0 640px;
+    padding-top: 20px;
     .pannel{
       height: 70px;
     }

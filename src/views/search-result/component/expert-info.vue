@@ -28,13 +28,24 @@
         <span>H指数</span>
       </li>
     </ul>
+    <pannel class="pannel">
+      <ul>
+        <li v-for="item in info.layoutList" :key="item">
+          {{item}}
+        </li>
+      </ul>
+    </pannel>
   </div>
 </div>
 </template>
 <script>
+import Pannel from '@/components/pannel'
 import appConfig from '@/config'
 export default {
   name: 'ExpertInfo',
+  components: {
+    Pannel
+  },
   props: {
     info: Object
   },
@@ -83,7 +94,7 @@ export default {
     .wiki-data{
       display: flex;
       justify-content: space-between;
-      padding: 20px 5px 10px 0;
+      padding: 30px 5px 10px 0;
       color: #fff;
       li{
         width: 140px;
@@ -112,7 +123,13 @@ export default {
         }
       }
     }
-
+    .pannel{
+      height: 180px;
+      overflow-y: scroll;
+      color: #fff;
+      line-height: 25px;
+      margin-top: 25px;
+    }
   }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="report-light-pie-wrapper">
-    <div ref="mychart" style="width:100%; height: 170px;"></div>
+    <div ref="mychart" style="width:100%; height: 154px;"></div>
   </div>
 </template>
 
@@ -28,8 +28,8 @@ export default {
             color: '#fff',
             fontSize: 16
           },
-          left: 90,
-          top: 60,
+          left: 80,
+          top: 40,
           textStyle: {
             color: '#3bcef8',
             fontSize: 36
@@ -42,7 +42,7 @@ export default {
         series: [{
           type: 'pie',
           clockWise: false,
-          radius: [50, 70],
+          radius: [30, 60],
           center: ['70%', '50%'],
           hoverAnimation: false,
           itemStyle: {

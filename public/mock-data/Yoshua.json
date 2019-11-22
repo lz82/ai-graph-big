@@ -16,7 +16,12 @@
     "journalSend": null,
     "subjectMatch": null,
     "citedSituation": null,
-    "fwciinedx": 11.334
+    "fwciinedx": 11.334,
+    "layoutList":[
+      "1964年－ ，加拿大计算机科学家，因人工神经网络和深度学习领域的研究而闻名。",
+      "与Ian Goodfellow、Aaron Courville两人合著 Deep Learning 。",
+      "与Geoffrey Hinton,Yann Lecun同为2018年图灵奖得主。"
+    ]
   },
   "mapVO": {
     "nodes": [

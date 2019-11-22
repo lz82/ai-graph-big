@@ -126,7 +126,6 @@ export default {
 }
 .tab-con-wrapper .title .highlight {
   font-size: 20px;
-  font-weight:bold;
 }
 </style>
 <style lang="less" scoped>
@@ -137,12 +136,12 @@ export default {
   justify-content: space-between;
   align-items: center;
   color: #4b6ff4;
-  font-size: 20px;
+  font-size: 18px;
   height: 35px;
   margin-bottom: 20px;
   .item {
     width: 25%;
-    padding: 16px 20px;
+    padding: 15px 20px;
     text-align: center;
     background: #20498a;
     border-radius: 5px;
