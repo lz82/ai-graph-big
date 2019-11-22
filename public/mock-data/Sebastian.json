@@ -16,7 +16,14 @@
     "journalSend": null,
     "subjectMatch": null,
     "citedSituation": null,
-    "fwciinedx": 7.35
+    "fwciinedx": 7.35,
+    "layoutList": [
+      "德国人，谷歌无人车之父。",
+      "创办的Udacity，其目的就是要成为无人驾驶人才市场的稳定“货源”。",
+      "2003年开始就在斯坦福大学担任研究教授。",
+      "2011年，借助于斯坦福大学的“兼职”身份，Thrun参与了谷歌的“登月（Moonshot）”计划——Google X，其中包括自动驾驶汽车、谷歌眼镜和Project Loon热气球项目。其中，不少项目都与机器学习和人工智能技术相关。",
+      "在这期间，Thrun创立了自己的公司——Udacity。2011年7月5日，该公司正式成立，借助于斯坦福大学得天独厚的资源优势，Thrun和他的同事计算科学家Peter Norvig在Udacity平台上推出了一个免费在线课程“人工智能介绍”，吸引了190多个国家16万用户的关注。2014年8月，Thrun离开了Google X项目，全身心投入到Udacity公司。"
+    ]
   },
   "mapVO": {
     "nodes": [

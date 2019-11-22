@@ -16,7 +16,11 @@
     "journalSend": null,
     "subjectMatch": null,
     "citedSituation": null,
-    "fwciinedx": 10.618
+    "fwciinedx": 10.618,
+    "layoutList": [
+      "Facebook人工智能研究中心主任，NYU数据科学中心主任，纽约大学纽约大学工程学院系计算机科学、神经科学、以及电子与计算机工程教授。",
+      "主要研究兴趣是机器学习，计算机视觉，移动机器人和计算神经科学。也对数据压缩，数字图书馆，计算物理以及机器学习的所有应用（视觉，语音，语言，文档理解，数据挖掘，生物信息学）感兴趣。"
+    ]
   },
   "mapVO": {
     "nodes": [

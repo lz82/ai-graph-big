@@ -4,21 +4,19 @@
       <pannel class="pannel">
         <template #title>
           <span>近五年各领域投资额增长</span>
-          <div class="report-line-wrapper">
-          <report-muliti-line
+        </template>
+        <report-muliti-line
             width="100%"
             height="156px"
             :xaxis="['2014', '2015', '2016', '2017', '2018']"
             :series="rateData"
           />
-        </div>
-        </template>
       </pannel>
       <pannel>
         <template #title>
           <span>TOP5投资领域</span>
-          <report-img-bar />
         </template>
+        <report-img-bar />
       </pannel>
     </div>
 
@@ -30,10 +28,10 @@
       <pannel class="pannel">
         <template #title>
           <span>投资阶段分布</span>
-          <report-light-pie
+        </template>
+        <report-light-pie
               :series="petentRate"
             />
-        </template>
       </pannel>
       <pannel class="hot-sort-wrapper">
         <template #title>
@@ -173,6 +171,7 @@ export default {
 <style lang="less" scoped>
   .report-invest-wrapper {
     display: flex;
+    pannel{height:220px;}
     .pannel{
       margin-bottom:30px;
     }
@@ -185,6 +184,7 @@ export default {
     }
     .right-wrapper{
       width: 640px;
+      padding-top: 20px;
       .hot-sort-wrapper{
         .table {
         width: 100%;
