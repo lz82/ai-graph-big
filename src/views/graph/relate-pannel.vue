@@ -33,22 +33,19 @@ export default {
   @import '~@/style/variables.less';
 
   .relate-subject-wrapper {
-    margin-top: 20px;
     .comm-title{
-      padding: 20px 0;
+      padding: 15px 0;
       color: #fff;
       font-size: 20px;
       font-weight: 600;
     }
     ul {
-      margin-bottom: 25px;
       display: flex;
       flex-flow: column wrap;
       li {
-        font-size: 16px;
+        font-size: 12px;
         color: #fff;
-        margin-right: 20px;
-        line-height: 30px;
+        line-height: 25px;
         cursor: pointer;
       }
     }

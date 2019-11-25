@@ -2,28 +2,33 @@
 <template>
   <div>
     <div class="graph-wrapper">
-      <!-- <div class="graph-side">
+      <div class="graph-side">
         <ul>
           <li v-for="(item, index) in typeList" :key="index">
             <img :src="getIcon(item.key)" alt="">
             <span>{{item.name}}</span>
           </li>
         </ul>
-      </div> -->
-      <div class="graph-left">
+        <transition name="slide-fade" mode="in-out">
+          <div class="side-layout-con" v-show="showPannel()" :key="currentWord">
+            <relate-pannel v-show="popList && popList.length>0" :title="popTitle" :list='popList'></relate-pannel>
+          </div>
+        </transition>
+      </div>
+      <div class="graph-wrapper">
         <!-- <header>
           <page-header :title="title" class="title"></page-header>
         </header> -->
         <div class="svg-detail-wrapper"></div>
       </div>
-      <div class="side-right">
-        <!-- <btn-group></btn-group> -->
+      <!-- <div class="side-right">
+        <btn-group></btn-group>
         <transition name="slide-fade" mode="in-out">
-          <div class="side-right-con" v-show="showPannel()" :key="currentWord">
+          <div class="side-layout-con" v-show="showPannel()" :key="currentWord">
             <relate-pannel v-show="popList && popList.length>0" :title="popTitle" :list='popList'></relate-pannel>
           </div>
         </transition>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -60,8 +65,8 @@ export default {
       forceSimulation: null,
       transitionName: '',
       svg: null,
-      svgW: 800,
-      svgH: 524,
+      svgW: 510,
+      svgH: 471,
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
@@ -105,7 +110,7 @@ export default {
 
       this.svg = d3.select('.svg-detail-wrapper')
         .append('svg')
-        .attr('viewBox', '-100 -200 1200 1000')
+        .attr('viewBox', '-100 -200 1200 1105')
         .attr('width', this.svgW)
         .attr('height', this.svgH)
         .append('g')
@@ -134,16 +139,16 @@ export default {
             .distanceMin(15)
             .distanceMax(20)
           )
-          // .force('x', d3.forceX())
-          // .force('y', d3.forceY())
-          .force('center', d3.forceCenter(this.svgW / 2, this.svgH / 2))
+          .force('x', d3.forceX())
+          .force('y', d3.forceY())
+          .force('center', d3.forceCenter(this.svgW, this.svgH / 1.5))
           .force('collide', d3.forceCollide(d => {
-            // if (d.name === this.keyword && d.level === 1) {
-            //   d.fx = this.svgW // 设置特定节点固定x坐标
-            //   d.fy = this.svgH
-            // }
-            return 100 - d.level * 11
-            // return this.rediusList[d.level] * d.level
+            if (d.name === this.currentWord) {
+              d.fx = this.svgW // 设置特定节点固定x坐标
+              d.fy = this.svgH / 1.5
+            }
+            return 100 - d.level * 10
+            // return 130 - this.rediusList[d.level]
           })
             .iterations(0.5)
             .strength(0.5)
@@ -160,7 +165,6 @@ export default {
           .nodes(this.nodes)
           .on('tick', function (d) {
             if (!that.graphFlag) {
-              console.log(that.graphFlag)
               return
             }
             edges
@@ -384,7 +388,7 @@ export default {
     background-size: cover;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     touch-action: none;
     // padding: 10px 55px;
     box-sizing: border-box;
@@ -393,38 +397,50 @@ export default {
       justify-content: center;
     }
     .graph-side{
-      position: absolute;
+      width: 150px;
       color: #fff;
-      margin-top: 60px;
+      margin-left: 15px;
+      margin-right: 15px;
       border-radius: 5px;
-      padding: 15px;
       box-sizing: border-box;
+      font-size: 12px;
+      ul{
+        width: 100%;
+        border: solid 2px #0c64a8;
+        border-radius: 10px;
+        padding: 5px 15px;
+        box-sizing: border-box;
+      }
       li{
-        line-height: 40px;
+        line-height: 22px;
+        text-align: left;
       }
       img{
-        width: 25px;
+        width: 16px;
         vertical-align: middle;
       }
       span{
+        display: inline-block;
+        width: 30px;
+        white-space: nowrap;
         padding-left: 15px;
       }
-    }
-    .side-right{
-      width: 450px;
-      position: absolute;
-      right: 50px;
-      .side-right-con{
-        padding: 0px 30px 5px;
+
+      .side-layout-con{
+        width: 150px;
+        height: 316px;
+        margin-top: 10px;
+        overflow-y: scroll;
+        padding: 0px 10px 5px;
         border-radius: 5px;
-        border:1px solid @borderColor;
-        background: @bgColor;
+        border: solid 2px #0c64a8;
+        text-align: left;
         box-sizing: border-box;
       }
     }
-    .svg-detail-wrapper{
-      // width: 850px;
-      // height: 990px;
+    .graph-wrapper{
+      width: 510px;
+      height: 471px;
     }
   }
   .vue{
