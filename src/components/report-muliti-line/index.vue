@@ -53,6 +53,10 @@ export default {
     legendsize: {
       type: Number,
       default: 10
+    },
+    top: {
+      type: String,
+      default: '20px'
     }
     // legendsize: {
     //   type: Number,
@@ -64,11 +68,21 @@ export default {
     return {
       chart: null,
       option: {
+        legend: {
+          show: true,
+          type: 'scroll',
+          // orient: 'vertical',
+          textStyle: {
+            color: '#3BCEF8'
+          }
+          // padding: [0, 10, 0, 0]
+          // width: '80%'
+        },
         color: reportConfig.colorList,
         grid: {
           left: this.left,
           right: '20px',
-          top: '30px',
+          top: this.top,
           bottom: '10px',
           containLabel: true
         },
@@ -100,7 +114,8 @@ export default {
           },
           axisLine: {
             show: false
-          }
+          },
+          min: 0
         },
         series: []
       }
@@ -120,7 +135,7 @@ export default {
         return {
           name: item.name,
           type: 'line',
-          stack: this.isstack ? 'total' : '',
+          stack: this.isstack ? 'total' : null,
           smooth: true,
           symbol: this.symbol, // this.empty ? 'emptyCircle' : 'circle'
           symbolSize: 2,

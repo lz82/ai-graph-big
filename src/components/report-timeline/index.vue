@@ -1,11 +1,11 @@
 <template>
   <div class="report-timeline-wrapper">
-    <div ref="mychart" style="width: 100%; height: 230px"></div>
+    <div ref="mychart" style="width: 100%; height: 190px"></div>
   </div>
 </template>
 
 <script>
-import reportConfig from '@/config/report'
+// import reportConfig from '@/config/report'
 export default {
   name: 'ReportTimeline',
 
@@ -24,8 +24,9 @@ export default {
               color: '#fff'
             },
             checkpointStyle: {
-              color: reportConfig.colorList[2],
-              borderColor: reportConfig.colorList[2]
+              symbolSize: 5,
+              color: '#20cec8', // reportConfig.colorList[2],
+              borderColor: '#20cec8' // reportConfig.colorList[2]
             },
             controlStyle: {
               showPlayBtn: false,
@@ -42,6 +43,8 @@ export default {
           },
           grid: {
             top: '20px',
+            left: '15px',
+            right: '20px',
             bottom: '80px'
           },
           xAxis: {
@@ -49,7 +52,8 @@ export default {
             type: 'category',
             boundaryGap: false,
             axisLabel: {
-              color: '#fff'
+              color: '#fff',
+              fontSize: 10
             },
             axisTick: {
               show: false
@@ -57,7 +61,7 @@ export default {
             axisLine: {
               show: false
             },
-            data: ['AI基础', '人机混合', '机器学习', '神经网络', '自然语言', '视觉技术']
+            data: ['AI基础', '人机混合', '机器学习', '神经网络', 'NLP', '视觉技术']
           },
           yAxis: {
             name: '',
@@ -84,14 +88,14 @@ export default {
             {
               name: 'total',
               type: 'bar',
-              barWidth: 30,
+              barWidth: 20,
               label: {
                 show: true,
-                position: 'inside'
+                position: 'top' // 'inside'
               }
             }
           ],
-          color: reportConfig.colorList
+          color: '#20cec8' // reportConfig.colorList
         },
         options: [
           {

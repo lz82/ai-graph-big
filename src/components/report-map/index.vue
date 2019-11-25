@@ -337,21 +337,21 @@ export default {
   position: relative;
   h3 {
     font-size: 24px;
-    font-weight: 700;
-    color: #fff;
+    // font-weight: 700;
+    color: #3BCEF8;
   }
   .table {
     position: absolute;
     width: 70px;
     // height: 155px;
-    border: solid 1px #fff;
+    border: solid 1px #3BCEF8;
     left: 15px;
     bottom: 0px;
 
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    color: #fff;
+    color: #3BCEF8;
     font-size: 12px;
 
     .row {
@@ -365,7 +365,7 @@ export default {
       }
     }
     .header {
-      border-bottom: solid 1px #fff;
+      border-bottom: solid 1px #3BCEF8;
     }
     &.right {
       left: 86px;

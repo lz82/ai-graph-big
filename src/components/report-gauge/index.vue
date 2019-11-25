@@ -1,5 +1,6 @@
 <template>
   <div class="report-gauge-wrapper">
+    <h4>专家分布</h4>
     <div ref="mychart" :style="{width: width, height: height}"></div>
   </div>
 </template>
@@ -120,14 +121,14 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#4b6ff4']
+                  [1, '#3BCEF8']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 width: 1
               },
               length: -15,
@@ -137,14 +138,14 @@ export default {
               show: true,
               length: 5,
               lineStyle: {
-                color: '#4b6ff4'
+                color: '#3BCEF8'
               }
             },
             axisLabel: {
               show: true,
               distance: -30,
               textStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 fontSize: 12,
                 fontWeight: 'bold'
               },
@@ -278,14 +279,14 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#4b6ff4']
+                  [1, '#3BCEF8']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 width: 1
               },
               length: -15,
@@ -295,14 +296,14 @@ export default {
               show: true,
               length: 5,
               lineStyle: {
-                color: '#4b6ff4'
+                color: '#3BCEF8'
               }
             },
             axisLabel: {
               show: true,
               distance: -40,
               textStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 fontSize: 12,
                 fontWeight: 'bold'
               },
@@ -432,14 +433,14 @@ export default {
                 width: 2,
                 shadowBlur: 0,
                 color: [
-                  [1, '#4b6ff4']
+                  [1, '#3BCEF8']
                 ]
               }
             },
             axisTick: {
               show: false,
               lineStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 width: 1
               },
               length: -15,
@@ -449,13 +450,13 @@ export default {
               show: true,
               length: 5,
               lineStyle: {
-                color: '#4b6ff4'
+                color: '#3BCEF8'
               }
             },
             axisLabel: {
               distance: -30,
               textStyle: {
-                color: '#4b6ff4',
+                color: '#3BCEF8',
                 fontSize: 12,
                 fontWeight: 'bold'
               },
@@ -592,5 +593,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+  .report-gauge-wrapper {
+    h4 {
+      color: #3BCEF8;
+      font-size: 20px;
+    }
+  }
 </style>
