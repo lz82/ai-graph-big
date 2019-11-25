@@ -191,7 +191,7 @@ export default {
           color: ['#3dd5ff', '#d5f0f8']
         },
         {
-          title: '自然语言',
+          title: 'NLP',
           num: 127216,
           other: 1820851,
           color: ['#8cc152', '#c1cbb6']

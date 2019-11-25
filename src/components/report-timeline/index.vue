@@ -43,6 +43,8 @@ export default {
           },
           grid: {
             top: '20px',
+            left: '15px',
+            right: '20px',
             bottom: '80px'
           },
           xAxis: {
@@ -50,7 +52,8 @@ export default {
             type: 'category',
             boundaryGap: false,
             axisLabel: {
-              color: '#fff'
+              color: '#fff',
+              fontSize: 10
             },
             axisTick: {
               show: false
@@ -58,7 +61,7 @@ export default {
             axisLine: {
               show: false
             },
-            data: ['AI基础', '人机混合', '机器学习', '神经网络', '自然语言', '视觉技术']
+            data: ['AI基础', '人机混合', '机器学习', '神经网络', 'NLP', '视觉技术']
           },
           yAxis: {
             name: '',
@@ -85,7 +88,7 @@ export default {
             {
               name: 'total',
               type: 'bar',
-              barWidth: 30,
+              barWidth: 20,
               label: {
                 show: true,
                 position: 'top' // 'inside'
