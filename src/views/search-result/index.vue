@@ -29,6 +29,7 @@
             v-if="result"
             :nodes='result.mapInfo.nodes'
             :links='result.mapInfo.relations'
+            v-on:changeKey="changeKey"
           ></graph-detail>
       </div>
       <div class="side-right">
@@ -98,12 +99,11 @@ export default {
   methods: {
     async getData () {
       try {
-        const data = await searchApi.QueryDataByKeyword(this.keyword, this.type)
+        const data = await searchApi.QueryDataByKeyword(this.keyword)
         if (data) {
           // console.log(data)
           this.result = data
           this.type = data.mapVO.nodes[0].type
-          console.log(this.type)
         }
       } catch (error) {
         this.$message.error(error.toString())
@@ -149,6 +149,10 @@ export default {
         default:
           return `<b class='title'>${param}</b>`
       }
+    },
+    changeKey (newKey) {
+      this.keyword = newKey
+      this.getData()
     }
   },
 
@@ -196,6 +200,11 @@ export default {
         this.transitionName = 'slide-left'
       } else {
         this.transitionName = 'slide-right'
+      }
+    },
+    keyword1 (val, oldval) {
+      if (oldval !== val) {
+        this.getData()
       }
     }
   }

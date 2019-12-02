@@ -35,7 +35,6 @@
 
 <script>
 import * as d3 from 'd3'
-/* eslint-disable no-unused-vars */
 import expertIco1 from './img/ico-expert.png'
 import orgIco from './img/ico-org.png'
 import projectIco from './img/ico-project.png'
@@ -43,16 +42,11 @@ import patentIco from './img/ico-patent.png'
 import paperIco from './img/ico-paper.png'
 import honorIco from './img/ico-honor.png'
 import keywordIco from './img/ico-keyword.png'
-// import PageHeader from '@/components/page-header'
-// import BtnGroup from '@/components/btn-group'
 import RelatePannel from './relate-pannel'
-import { graphApi } from '@/service'
 import appConfig from '@/config'
 export default {
   name: 'GraphDetail',
   components: {
-    // PageHeader,
-    // BtnGroup,
     RelatePannel
   },
   props: {
@@ -89,6 +83,7 @@ export default {
   },
 
   mounted () {
+    d3.selectAll('svg').remove() // 移除svg节点
     this.initData()
   },
 
@@ -330,7 +325,8 @@ export default {
     clickHandel (d) {
       if (d.level < 4) {
         if (this.centerWordMap.hasOwnProperty(d.name)) {
-          console.log(d.name)
+          this.currentWord = d.name
+          this.$emit('changeKey', d.name)
           this.$router.push(`/search/${d.name}`)
         } else {
           this.currentWord = d.code
@@ -343,7 +339,6 @@ export default {
     },
 
     showLayout (node) {
-      console.log(node)
       if (node.layout) {
         this.popList = node.layoutList
         this.popTitle = node.name
@@ -375,6 +370,15 @@ export default {
       } else {
         this.transitionName = 'slide-left'
       }
+    },
+
+    nodes: {
+      handler(newVal) {
+        console.log('nodes changed')
+        d3.selectAll('svg').remove() // 移除svg节点
+        this.initData()
+      },
+      deep: true
     }
   }
 }
