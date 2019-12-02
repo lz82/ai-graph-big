@@ -323,7 +323,7 @@ export default {
     },
 
     clickHandel (d) {
-      if (d.level < 4) {
+      if (d.level < 4 && d.level !== 1) {
         if (this.centerWordMap.hasOwnProperty(d.name)) {
           this.currentWord = d.name
           this.$emit('changeKey', d.name)
@@ -374,7 +374,6 @@ export default {
 
     nodes: {
       handler(newVal) {
-        console.log('nodes changed')
         d3.selectAll('svg').remove() // 移除svg节点
         this.initData()
       },
