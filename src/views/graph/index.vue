@@ -143,12 +143,11 @@ export default {
           .force('y', d3.forceY())
           .force('center', d3.forceCenter(this.svgW, this.svgH / 1.5))
           .force('collide', d3.forceCollide(d => {
-            if (d.name === this.currentWord) {
+            if (d.name === this.currentWord && d.level === 1) {
               d.fx = this.svgW // 设置特定节点固定x坐标
               d.fy = this.svgH / 1.5
             }
-            return 100 - d.level * 10
-            // return 130 - this.rediusList[d.level]
+            return 120 - d.level * 14
           })
             .iterations(0.5)
             .strength(0.5)
@@ -331,6 +330,7 @@ export default {
     clickHandel (d) {
       if (d.level < 4) {
         if (this.centerWordMap.hasOwnProperty(d.name)) {
+          console.log(d.name)
           this.$router.push(`/search/${d.name}`)
         } else {
           this.currentWord = d.code

@@ -273,6 +273,7 @@ export default {
 ::-webkit-scrollbar
 {
 width: 5px;
+height: 5px;
 }
 
 /*定义滚动条轨道 内阴影+圆角*/
@@ -289,6 +290,6 @@ background-color: rgba(0,0,0,0);
 border-radius: 5px 5px;
 /* -webkit-box-shadow: inset 0 0 4px rgba(75,111,244,.3); */
 background-color: #3bcef8;
-height: 10px!important;
+height: 5px!important;
 }
 </style>
