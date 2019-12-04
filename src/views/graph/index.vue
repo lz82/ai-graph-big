@@ -1,6 +1,5 @@
 
 <template>
-  <div>
     <div class="graph-wrapper">
       <div class="graph-side">
         <ul>
@@ -15,22 +14,10 @@
           </div>
         </transition>
       </div>
-      <div class="graph-wrapper">
-        <!-- <header>
-          <page-header :title="title" class="title"></page-header>
-        </header> -->
+      <!-- <div class="graph-wrapper"> -->
         <div class="svg-detail-wrapper"></div>
-      </div>
-      <!-- <div class="side-right">
-        <btn-group></btn-group>
-        <transition name="slide-fade" mode="in-out">
-          <div class="side-layout-con" v-show="showPannel()" :key="currentWord">
-            <relate-pannel v-show="popList && popList.length>0" :title="popTitle" :list='popList'></relate-pannel>
-          </div>
-        </transition>
-      </div> -->
+      <!-- </div> -->
     </div>
-  </div>
 </template>
 
 <script>
@@ -60,7 +47,7 @@ export default {
       transitionName: '',
       svg: null,
       svgW: 510,
-      svgH: 471,
+      svgH: 514,
       typeList: appConfig.typeList,
       centerWordMap: appConfig.centerWordMap,
       fontSizeList: [26, 24, 20, 20, 20, 15],
@@ -83,13 +70,13 @@ export default {
   },
 
   mounted () {
-    d3.selectAll('svg').remove() // 移除svg节点
     this.initData()
   },
 
   methods: {
 
     async initData () {
+      d3.selectAll('svg').remove() // 移除svg节点
       this.initForceSimulation()
       this.initSvgContainer()
       this.drawSvg()
@@ -105,7 +92,7 @@ export default {
 
       this.svg = d3.select('.svg-detail-wrapper')
         .append('svg')
-        .attr('viewBox', '-100 -200 1200 1105')
+        .attr('viewBox', '-100 -200 1300 1105')
         .attr('width', this.svgW)
         .attr('height', this.svgH)
         .append('g')
@@ -139,7 +126,7 @@ export default {
           .force('center', d3.forceCenter(this.svgW, this.svgH / 1.5))
           .force('collide', d3.forceCollide(d => {
             if (d.name === this.currentWord && d.level === 1) {
-              d.fx = this.svgW // 设置特定节点固定x坐标
+              d.fx = this.svgW / 1.1 // 设置特定节点固定x坐标
               d.fy = this.svgH / 1.5
             }
             return 120 - d.level * 14
@@ -326,6 +313,7 @@ export default {
       if (d.level < 4 && d.level !== 1) {
         if (this.centerWordMap.hasOwnProperty(d.name)) {
           this.currentWord = d.name
+          this.popList = [] // 清空layout
           this.$emit('changeKey', d.name)
           this.$router.push(`/search/${d.name}`)
         } else {
@@ -374,7 +362,6 @@ export default {
 
     nodes: {
       handler(newVal) {
-        d3.selectAll('svg').remove() // 移除svg节点
         this.initData()
       },
       deep: true
@@ -385,8 +372,8 @@ export default {
 <style lang="less" scoped>
  @import '~@/style/variables.less';
   .graph-wrapper {
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 514px;
     // background: url('../home/img/bg.png') center no-repeat fixed;
     background-size: cover;
     color: #fff;
@@ -404,6 +391,7 @@ export default {
       color: #fff;
       margin-left: 15px;
       margin-right: 15px;
+      padding-top: 20px;
       border-radius: 5px;
       box-sizing: border-box;
       font-size: 12px;
@@ -441,9 +429,9 @@ export default {
         box-sizing: border-box;
       }
     }
-    .graph-wrapper{
+    .svg-detail-wrapper{
       width: 510px;
-      height: 471px;
+      height: 514px;
     }
   }
   .vue{
