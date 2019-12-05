@@ -67,6 +67,7 @@ export default {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  line-height: 30px;
   .nav-wrapper {
     width: 605px;
     display: flex;
