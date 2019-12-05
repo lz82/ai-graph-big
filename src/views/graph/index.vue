@@ -419,7 +419,7 @@ export default {
 
       .side-layout-con{
         width: 150px;
-        height: 316px;
+        height: 338px;
         margin-top: 10px;
         overflow-y: scroll;
         padding: 0px 10px 5px;

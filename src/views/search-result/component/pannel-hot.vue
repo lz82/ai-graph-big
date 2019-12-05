@@ -24,7 +24,7 @@ export default {
   inject: ['routerRefresh'], // 在子组件中注入在父组件中出创建的属性
   data () {
     return {
-      list1: ['知识库', '机器学习', '支持向量机', '人脸识别', '模式识别', '深度学习', '卷积神经网络', '人工智能', '计算机视觉', '自然语言处理'],
+      list1: ['可解释性', '知识库', '度量学习', '推荐系统', '机器翻译', '目标检测', '人脸识别', '无人驾驶', '循环神经网络', '支持向量机'],
       list2: ['吴恩达', '周志华', '韩家炜', 'Geoffrey Hinton', 'Yoshua Bengio', 'Yann Lecun', 'Michael I. Jordan', '谭铁牛', '李飞飞', 'Sebastian Thrun']
     }
   },

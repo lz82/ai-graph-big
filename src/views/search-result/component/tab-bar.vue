@@ -52,19 +52,17 @@
           </li>
         </ul>
         <!-- 标准 -->
-        <ul v-if="showStandard">
+        <!-- <ul v-if="showStandard">
           <li v-for="item in tabContent.standardVO" :key="item.id">
             <pannel class="pannel">
               <template #title><span v-html="item.nameCN"></span></template>
               <p>
                 <span><i>标准号：</i>{{ item.standardNo }}</span>
-                <!-- <span>发布时间：{{item.publishDate}}</span> -->
-                <!-- <span>状态：{{item.status}}</span> -->
               </p>
               <div class="remark"><i>摘要：</i>{{ item.summaryAll }}</div>
             </pannel>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
@@ -87,7 +85,8 @@ export default {
 
   data() {
     return {
-      tabBarData: [{ name: '论文' }, { name: '专利' }, { name: '标准' }],
+      tabBarData: [{ name: '论文' }, { name: '专利' }],
+      // tabBarData: [{ name: '论文' }, { name: '专利' }, { name: '标准' }],
       nowIndex: 0
     }
   },
@@ -140,12 +139,13 @@ export default {
   height: 35px;
   margin-bottom: 20px;
   .item {
-    width: 25%;
+    flex:0 0 48%;
     padding: 15px 20px;
     text-align: center;
     background: #20498a;
     border-radius: 5px;
     color: #fff;
+    box-sizing: border-box;
   }
   .item.active {
     color: #01c5f8;
@@ -155,7 +155,7 @@ export default {
 /* tab con */
 .tab-con-wrapper {
   width: 645px;
-  height: 100%;
+  height: 510px;
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 5px 8px 5px 0px;
