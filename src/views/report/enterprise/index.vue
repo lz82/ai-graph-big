@@ -7,7 +7,7 @@
             <div class="row">
               <div class="title">上海小巨人企业</div>
               <div class="ball">
-                <Liquidfill title="AI企业总数及占比" :data="0.17" num="17.22" :cnt="31" />
+                <Liquidfill title="AI企业占比" :data="0.17" num="17.22" :cnt="31" />
               </div>
               <div class="chart">
                 <report-muliti-line
@@ -27,7 +27,7 @@
             <div class="row">
               <div class="title">上海双创企业</div>
               <div class="ball">
-                <Liquidfill title="AI企业总数及占比" :data="0.1" num="9.66" :cnt="169" />
+                <Liquidfill title="AI企业占比" :data="0.1" num="9.66" :cnt="169" />
               </div>
               <div class="chart">
                 <report-bar
@@ -48,7 +48,7 @@
             <div class="row">
               <div class="title">上海高新技术企业</div>
               <div class="ball">
-                <Liquidfill title="AI企业总数及占比" :data="0.12" num="11.26" :cnt="417" />
+                <Liquidfill title="AI企业占比" :data="0.12" num="11.26" :cnt="417" />
               </div>
               <div class="chart">
                 <report-bar

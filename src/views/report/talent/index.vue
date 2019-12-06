@@ -3,7 +3,7 @@
     <div class="left">
       <pannel width="640px" style="margin-bottom: 20px;">
         <template #title>
-          <h4>论文增长增长</h4>
+          <h4>论文增长</h4>
         </template>
         <report-muliti-line
           height="120px"

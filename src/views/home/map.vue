@@ -92,11 +92,11 @@ export default {
         {
           type: 'doc',
           data: {
-            chinaNum: 389588,
+            chinaNum: 369588,
             canadaNum: 61782,
             usaNum: 327034,
-            englandNum: 98536,
-            franceNum: 72281,
+            englandNum: 96536,
+            franceNum: 72261,
             geNum: 85587,
             jpNum: 94112,
             indiaNum: 75128,

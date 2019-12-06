@@ -78,14 +78,14 @@ export default {
           url: '/search/Michael I. Jordan'
         },
         {
-          // SebastianThrun
-          text: 'Sebastian Thrun',
-          url: '/search/Sebastian Thrun'
-        },
-        {
           // 吴恩达
           text: '吴恩达',
           url: '/search/吴恩达'
+        },
+        {
+          // 周志华
+          text: '周志华',
+          url: '/search/周志华'
         },
         {
           // William T. Freeman
@@ -103,9 +103,9 @@ export default {
           url: '/search/Yann Lecun'
         },
         {
-          // 周志华
-          text: '周志华',
-          url: '/search/周志华'
+          // SebastianThrun
+          text: 'Sebastian Thrun',
+          url: '/search/Sebastian Thrun'
         }
       ],
       keywordTags: [
@@ -168,7 +168,7 @@ export default {
     // 设置1分钟自动切换一次
     this.timer = setInterval(() => {
       const temp = this.balls.findIndex(item => item === this.currentBall)
-      this.currentBall = this.balls[temp + 1 > (this.balls.length - 1) ? 0 : temp + 1]
+      this.currentBall = this.balls[temp + 1 > this.balls.length - 1 ? 0 : temp + 1]
     }, 1000 * 60)
   },
 
