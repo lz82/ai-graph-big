@@ -91,7 +91,7 @@ export default {
       window.TagCanvas.dragControl = true
       // window.TagCanvas.shape = 'hring'
       window.TagCanvas.lock = 'x'
-      // window.TagCanvas.offsetY = -60
+      window.TagCanvas.outlineIncrease = 1 // 鼠标移入标签尺寸的像素数。支持负值来减小大小。
 
       window.TagCanvas.textColour = null
       window.TagCanvas.textHeight = 24
