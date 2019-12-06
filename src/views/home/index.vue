@@ -83,9 +83,9 @@ export default {
           url: '/search/吴恩达'
         },
         {
-          // SebastianThrun
-          text: 'Sebastian Thrun',
-          url: '/search/Sebastian Thrun'
+          // 周志华
+          text: '周志华',
+          url: '/search/周志华'
         },
         {
           // William T. Freeman
@@ -103,9 +103,9 @@ export default {
           url: '/search/Yann Lecun'
         },
         {
-          // 周志华
-          text: '周志华',
-          url: '/search/周志华'
+          // SebastianThrun
+          text: 'Sebastian Thrun',
+          url: '/search/Sebastian Thrun'
         }
       ],
       keywordTags: [
