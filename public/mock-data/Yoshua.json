@@ -19,7 +19,7 @@
     "fwciinedx": 11.334,
     "layoutList":[
       "1964年－ ，加拿大计算机科学家，因人工神经网络和深度学习领域的研究而闻名。",
-      "与Ian Goodfellow、Aaron Courville两人合著 Deep Learning 。",
+      "与Ian Goodfellow、Aaron Courville两人合著 Deep Learning。",
       "与Geoffrey Hinton,Yann Lecun同为2018年图灵奖得主。"
     ]
   },
@@ -1246,21 +1246,6 @@
     "institutionsReco": null
   },
   "paperVO": [
-    {
-      "id": "Periodical_kjzg201608002",
-      "title": "深度学习崛起带来人工智能的春天",
-      "summary": "20世纪50年代,计算机开始在象棋领域战胜人类,证明数学定理,让人类狂喜不已.60年代",
-      "summaryAll": "20世纪50年代,计算机开始在象棋领域战胜人类,证明数学定理,让人类狂喜不已.60年代,人们越来越希望,不久以后,科学家就能用硬件和软件复制人类大脑,「人工智能」可以完成任何任务,其表现不逊于人类.1967年,麻省理工学院教授Marvin Minsky (MIT人工智能实验室的联合创始人,人工智能先驱, 2016年年初去世)宣称,十年之内,人们可以解决人工智能这个难题.",
-      "author": "<mark class=highlight>Yoshua Bengio</mark>",
-      "keywords": "\n\n          ",
-      "citedIndex": 0,
-      "publishDate": "2016-08-28",
-      "subject": "",
-      "sourceDB": "",
-      "journals": null,
-      "categoryNo": null,
-      "fundProject": null
-    },
     {
       "id": "NSTLQK_NSTL_QKJJ0224798468",
       "title": "Learning Deep Architectures for AI",
