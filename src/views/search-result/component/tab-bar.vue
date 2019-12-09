@@ -13,7 +13,7 @@
     </ul>
     <!-- tab con -->
     <div class="tab-con-wrapper">
-      <div class="conItem">
+      <div class="content-item">
         <!-- 论文 -->
         <ul v-if="showPaper">
           <li v-for="item in tabContent.paperVO" :key="item.id">
@@ -159,7 +159,8 @@ export default {
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 5px 8px 5px 0px;
-  .conItem {
+  .content-item {
+    ul{padding-bottom: 40px;}
     .pannel {
       margin-bottom: 10px;
       color: #fff;
