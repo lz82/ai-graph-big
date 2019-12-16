@@ -9,6 +9,9 @@
       <a href="http://www.csjpt.cn/visualScreen" class="nav-item triangle-resource"></a>
       <a href="http://rg.sgst.cn/city" class="nav-item inter-data"></a>
     </div>
+    <div class="tip">
+      数据截至：２０１８年１２月
+    </div>
   </div>
 </template>
 
@@ -65,6 +68,13 @@ export default {
   .inter-data{
     background: url('./img/inter-data.png');
     right: 340px;
+  }
+
+  .tip {
+    position: absolute;
+    color: #999;
+    top: 40px;
+    left: 50px;
   }
 }
 </style>
