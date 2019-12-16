@@ -165,7 +165,8 @@ export default {
           .data(this.links)
           .enter()
           .append('line')
-          .attr('stroke', '#143263')
+          // .attr('stroke', '#143263')
+          .attr('stroke', 'rgba(255,255,255,0.4)')
           .attr('stroke-width', '2px')
           .attr('target', data => data.target.name)
           .attr('source', data => data.source.name)
@@ -188,6 +189,7 @@ export default {
 
         gs.append('circle')
           .attr('class', 'circle-node')
+          .attr('nodes', d => d)
           .attr('r', data => {
             return this.rediusList[data.level - 1]
           })
