@@ -8,7 +8,7 @@
 export default {
   name: 'ReportImgBar',
 
-  data () {
+  data() {
     return {
       chart: null,
       option: {
@@ -37,7 +37,8 @@ export default {
           {
             type: 'category',
             inverse: false,
-            data: ['企业服务', '医疗健康', '物流', '汽车交通', '硬件'],
+            // data: ['企业服务', '医疗健康', '物流', '汽车交通', '硬件'],
+            data: ['硬件', '汽车交通', '物流', '医疗健康', '企业服务'],
             axisLine: {
               show: false
             },
@@ -66,10 +67,15 @@ export default {
               margin: 10,
               textStyle: {
                 color: '#ffffff',
-                fontSize: '12'
+                fontSize: '14'
+              },
+              formatter(value) {
+                const temp = (value / 10000).toFixed(2)
+                return `${temp}亿`
               }
             },
-            data: [18185454, 14350268, 13035680, 10597534, 5991822]
+            // data: [18185454, 14350268, 13035680, 10597534, 5991822],
+            data: [5991822, 10597534, 13035680, 14350268, 18185454]
           }
         ],
         series: [
@@ -94,7 +100,8 @@ export default {
             yAxisIndex: 0,
             // barWidth: 20,
             animation: true,
-            data: [18185454, 14350268, 13035680, 10597534, 5991822],
+            // data: [18185454, 14350268, 13035680, 10597534, 5991822],
+            data: [5991822, 10597534, 13035680, 14350268, 18185454],
             itemStyle: {
               normal: {
                 color: '#66ccff'
@@ -120,14 +127,14 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.initChart()
     })
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
       this.chart.setOption(this.option)
     }
@@ -135,6 +142,4 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-
-</style>
+<style lang="less" scoped></style>

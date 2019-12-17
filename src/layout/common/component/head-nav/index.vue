@@ -1,7 +1,7 @@
 <template>
   <div class="head-nav-wrapper">
     <div class="title">
-      上海人工智能公共研发资源图谱
+      人工智能公共研发资源图谱
     </div>
     <div class="nav">
       <a href="http://rg.sgst.cn/rc/qqrcgl.html" class="nav-item global"></a>
