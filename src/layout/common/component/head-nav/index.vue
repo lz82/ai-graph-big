@@ -1,13 +1,16 @@
 <template>
   <div class="head-nav-wrapper">
     <div class="title">
-      上海人工智能公共研发资源图谱
+      人工智能公共研发资源图谱
     </div>
     <div class="nav">
       <a href="http://rg.sgst.cn/rc/qqrcgl.html" class="nav-item global"></a>
       <a href="http://10.11.0.40:8090/" class="nav-item sh-resource"></a>
       <a href="http://www.csjpt.cn/visualScreen" class="nav-item triangle-resource"></a>
       <a href="http://rg.sgst.cn/city" class="nav-item inter-data"></a>
+    </div>
+    <div class="tip">
+      数据截至：２０１８年１２月
     </div>
   </div>
 </template>
@@ -65,6 +68,13 @@ export default {
   .inter-data{
     background: url('./img/inter-data.png');
     right: 340px;
+  }
+
+  .tip {
+    position: absolute;
+    color: #999;
+    top: 40px;
+    left: 50px;
   }
 }
 </style>

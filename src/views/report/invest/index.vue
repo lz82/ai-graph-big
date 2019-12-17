@@ -3,58 +3,59 @@
     <div class="left-wrapper">
       <pannel class="pannel">
         <template #title>
-          <span>近五年各领域投资额增长</span>
+          <span>近五年各领域投资额增长趋势</span>
         </template>
         <report-muliti-line
-            width="100%"
-            height="156px"
-            :xaxis="['2014', '2015', '2016', '2017', '2018']"
-            :series="rateData"
-          />
+          width="100%"
+          height="156px"
+          :xaxis="['2014', '2015', '2016', '2017', '2018']"
+          :series="rateData"
+          symbol="emptyCircle"
+          :showXLabel="true"
+        />
       </pannel>
       <pannel>
         <template #title>
-          <span>TOP5投资领域</span>
+          <span>2018年TOP5投资领域</span>
         </template>
         <report-img-bar />
       </pannel>
     </div>
 
     <div class="main-wrapper">
+      <div class="report-title">
+        2018年投资分布
+      </div>
       <report-trade />
     </div>
 
     <div class="right-wrapper">
       <pannel class="pannel">
         <template #title>
-          <span>投资阶段分布</span>
+          <span>2018年投资阶段分布</span>
         </template>
-        <report-light-pie
-              :series="petentRate"
-            />
+        <report-light-pie :series="petentRate" />
       </pannel>
       <pannel class="hot-sort-wrapper">
         <template #title>
-          <span>投资机构热度排行</span>
+          <span>2018年投资机构热度排行</span>
         </template>
         <div class="table">
-              <div class="row header">
-                <span>机构名称</span>
-                <span>主投领域</span>
-                <span>基金规模</span>
-                <span>被投明星企业</span>
-              </div>
-              <template
-                v-for="(item, index) in investList"
-              >
-                <div class="row" :key="index">
-                  <span>{{item.name}}</span>
-                  <span>{{item.domain}}</span>
-                  <span>{{item.fund}}</span>
-                  <span>{{item.company}}</span>
-                </div>
-              </template>
+          <div class="row header">
+            <span>机构名称</span>
+            <span>主投领域</span>
+            <span>基金规模</span>
+            <span>被投明星企业</span>
+          </div>
+          <template v-for="(item, index) in investList">
+            <div class="row" :key="index">
+              <span>{{ item.name }}</span>
+              <span>{{ item.domain }}</span>
+              <span>{{ item.fund }}</span>
+              <span>{{ item.company }}</span>
             </div>
+          </template>
+        </div>
       </pannel>
     </div>
   </div>
@@ -76,7 +77,7 @@ export default {
     ReportImgBar,
     ReportLightPie
   },
-  data () {
+  data() {
     return {
       domainList: ['企业服务', '医疗健康', '物流', '汽车交通', '硬件', '游戏'],
       rateData: [
@@ -133,10 +134,10 @@ export default {
       ],
       investList: [
         {
-          name: '高通Qualcomm Ventures',
-          domain: '硬件',
-          fund: '60.2亿',
-          company: 'RealWear | OneWeb'
+          name: '软银愿景基金',
+          domain: '房产服务',
+          fund: '567.1亿',
+          company: 'Grab | 车好多集团'
         },
         {
           name: '微软Microsoft',
@@ -151,16 +152,16 @@ export default {
           company: '贝壳找房 | 呆萝卜'
         },
         {
+          name: '高通Qualcomm Ventures',
+          domain: '硬件',
+          fund: '60.2亿',
+          company: 'RealWear | OneWeb'
+        },
+        {
           name: '英特尔投资Intel Capital ',
           domain: '汽车交通',
           fund: '16亿',
           company: 'Exo Imaging | TriEye'
-        },
-        {
-          name: '软银愿景基金',
-          domain: '房产服务',
-          fund: '567.1亿',
-          company: 'Grab | 车好多集团'
         }
       ]
     }
@@ -169,24 +170,36 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-invest-wrapper {
-    display: flex;
-    pannel{height:220px;}
-    .pannel{
-      margin-bottom:30px;
+.report-invest-wrapper {
+  display: flex;
+  pannel {
+    height: 220px;
+  }
+  .pannel {
+    margin-bottom: 30px;
+  }
+  .left-wrapper {
+    width: 640px;
+    padding-top: 20px;
+  }
+  .main-wrapper {
+    width: 800px;
+    position: relative;
+
+    .report-title {
+      position: absolute;
+      right: 50px;
+      bottom: 20px;
+      color: #3bcef8;
+      font-size: 20px;
+      // margin-bottom: 10px;
     }
-    .left-wrapper{
-      width: 640px;
-      padding-top: 20px;
-    }
-    .main-wrapper{
-      width: 800px;
-    }
-    .right-wrapper{
-      width: 640px;
-      padding-top: 20px;
-      .hot-sort-wrapper{
-        .table {
+  }
+  .right-wrapper {
+    width: 640px;
+    padding-top: 20px;
+    .hot-sort-wrapper {
+      .table {
         width: 100%;
         display: flex;
         flex-flow: column nowrap;
@@ -212,7 +225,7 @@ export default {
           border-bottom: none;
         }
       }
-      }
     }
   }
+}
 </style>

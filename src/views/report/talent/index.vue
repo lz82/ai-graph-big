@@ -12,6 +12,7 @@
           :series="paperRateData"
           :isstack="false"
           symbol="emptyCircle"
+          :showXLabel="true"
         />
       </pannel>
       <pannel width="640px">

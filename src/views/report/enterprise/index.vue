@@ -14,11 +14,12 @@
                   title="AI企业增速"
                   width="290px"
                   height="100px"
-                  symbol="none"
+                  symbol="emptyCircle"
                   :legend="domainList"
                   :legendsize="8"
                   :series="bigData"
                   :isstack="true"
+                  :showXLabel="true"
                 />
               </div>
             </div>

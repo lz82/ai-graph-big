@@ -24,12 +24,16 @@ export default {
       type: String,
       required: true
     },
-    // xaxis: {
-    //   type: Array,
-    //   default () {
-    //     return ['2015', '2016', '2017', '2018']
-    //   }
-    // },
+    xaxis: {
+      type: Array,
+      default () {
+        return ['2015', '2016', '2017', '2018']
+      }
+    },
+    showXLabel: {
+      type: Boolean,
+      default: false
+    },
     series: {
       type: Array,
       required: true
@@ -89,8 +93,10 @@ export default {
         xAxis: {
           type: 'category',
           boundaryGap: false,
+          // show: true,
           data: this.xaxis,
           axisLabel: {
+            show: this.showXLabel,
             color: '#fff'
           },
           axisTick: {

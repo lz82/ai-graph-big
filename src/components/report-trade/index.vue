@@ -1,6 +1,6 @@
 <template>
   <div class="report-trade-wrapper">
-    <div ref="mychart" style="width: 100%; height: 524px"></div>
+    <div ref="mychart" style="width: 800px; height: 504px"></div>
   </div>
 </template>
 
@@ -32,6 +32,10 @@ export default {
     return {
       chart: null,
       option: {
+        grid: {
+          top: '10px',
+          bottom: '10px'
+        },
         animationDurationUpdate: 1500,
         animationEasingUpdate: 'quinticInOut',
         color: colorList,
@@ -43,7 +47,7 @@ export default {
             layout: 'force',
             force: {
               // initLayout: 'circular',
-              repulsion: 200,
+              repulsion: 150,
               gravity: 0.02,
               layoutAnimation: 1000,
               edgeLength: [130, 205],
@@ -190,7 +194,7 @@ export default {
               },
               {
                 name: '教育',
-                symbolSize: 90,
+                symbolSize: 80,
                 itemStyle: {
                   normal: {
                     borderColor: '#fff',
@@ -202,7 +206,7 @@ export default {
                 label: {
                   show: true,
                   formatter () {
-                    return '{num|16.87%}\n{title|教育}'
+                    return '{num|1.2%}\n{title|教育}'
                   },
                   rich: rich
                 }
