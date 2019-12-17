@@ -11,7 +11,7 @@ export default {
 
   props: {},
 
-  data () {
+  data() {
     return {
       chart: null,
       option: {
@@ -36,14 +36,14 @@ export default {
             data: ['2014', '2015', '2016', '2017', '2018'],
             label: {
               color: '#fff',
-              formatter (s) {
+              formatter(s) {
                 return `${s}年`
               }
             }
           },
           grid: {
             top: '20px',
-            left: '15px',
+            left: '25px',
             right: '20px',
             bottom: '80px'
           },
@@ -61,7 +61,8 @@ export default {
             axisLine: {
               show: false
             },
-            data: ['AI基础', '人机混合', '机器学习', '神经网络', 'NLP', '视觉技术']
+            // data: ['机器学习', 'AI基础', 'NLP', '人机混合', '神经网络', '视觉技术']
+            data: ['AI基础', '机器学习', 'NLP', '视觉技术', '神经网络', '人机混合']
           },
           yAxis: {
             name: '',
@@ -101,35 +102,35 @@ export default {
           {
             series: [
               {
-                data: [694, 86, 749, 247, 341, 295]
+                data: [694, 749, 341, 295, 247, 86]
               }
             ]
           },
           {
             series: [
               {
-                data: [744, 118, 757, 226, 347, 275]
+                data: [744, 757, 347, 275, 226, 118]
               }
             ]
           },
           {
             series: [
               {
-                data: [673, 86, 731, 257, 331, 236]
+                data: [673, 731, 331, 236, 257, 86]
               }
             ]
           },
           {
             series: [
               {
-                data: [633, 90, 627, 257, 314, 238]
+                data: [633, 627, 314, 238, 257, 90]
               }
             ]
           },
           {
             series: [
               {
-                data: [274, 28, 261, 117, 110, 77]
+                data: [274, 261, 110, 77, 117, 28]
               }
             ]
           }
@@ -138,14 +139,14 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.initChart()
     })
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
       this.chart.setOption(this.option)
     }
@@ -154,7 +155,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-timeline-wrapper {
-    box-sizing: border-box;
-  }
+.report-timeline-wrapper {
+  box-sizing: border-box;
+}
 </style>

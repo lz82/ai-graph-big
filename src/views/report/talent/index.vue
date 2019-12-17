@@ -100,7 +100,7 @@
           top="40px"
           symbol="emptyCircle"
         />
-        <report-stack-bar :xaxis="domainList" :series="patentDomainList" height="160px" />
+        <report-stack-bar :xaxis="domainList" :series="patentDomainList" height="160px" :minheight="5" />
       </pannel>
     </div>
   </div>
@@ -174,22 +174,16 @@ export default {
           color: ['#fb8585', '#f8cdcd']
         },
         {
-          title: '人机混合',
-          num: 85285,
-          other: 1862782,
-          color: ['#e7affe', '#f9eaff']
-        },
-        {
           title: '机器学习',
           num: 595997,
           other: 1352070,
           color: ['#20cec8', '#d1f8f7']
         },
         {
-          title: '神经网络',
-          num: 96344,
-          other: 1851723,
-          color: ['#3dd5ff', '#d5f0f8']
+          title: '视觉技术',
+          num: 128461,
+          other: 1819606,
+          color: ['#f6bb42', '#fdf0d6']
         },
         {
           title: 'NLP',
@@ -198,10 +192,16 @@ export default {
           color: ['#8cc152', '#c1cbb6']
         },
         {
-          title: '视觉技术',
-          num: 128461,
-          other: 1819606,
-          color: ['#f6bb42', '#fdf0d6']
+          title: '神经网络',
+          num: 96344,
+          other: 1851723,
+          color: ['#3dd5ff', '#d5f0f8']
+        },
+        {
+          title: '人机混合',
+          num: 85285,
+          other: 1862782,
+          color: ['#e7affe', '#f9eaff']
         }
       ],
       patentRateList: [

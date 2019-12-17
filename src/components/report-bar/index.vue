@@ -1,6 +1,6 @@
 <template>
   <div class="report-bar-wrapper">
-    <div ref="mychart" :style="{width: width, height: height}"></div>
+    <div ref="mychart" :style="{ width: width, height: height }"></div>
     <h3>{{ title }}</h3>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
     },
     xaxis: {
       type: Array,
-      default () {
+      default() {
         return ['2015', '2016', '2017', '2018']
       }
     },
@@ -40,7 +40,7 @@ export default {
     },
     color: {
       type: Array,
-      default () {
+      default() {
         return reportConfig.colorList
       }
     },
@@ -49,8 +49,7 @@ export default {
       default: 0
     },
     position: {
-      type: String,
-      default: 'right'
+      type: String
     },
     barWidth: {
       type: String,
@@ -58,7 +57,7 @@ export default {
     }
   },
 
-  data () {
+  data() {
     return {
       chart: null,
       labelOption: {
@@ -69,7 +68,8 @@ export default {
         position: this.position,
         rotate: this.rotate,
         show: true,
-        verticalAlign: 'middle'
+        verticalAlign: 'middle',
+        padding: [20, 0]
       },
       option: {
         color: this.color,
@@ -133,24 +133,34 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.initChart()
     })
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
-      this.option.series = this.series.map(item => {
+      this.option.series = this.series.map((item, index) => {
         return {
           name: item.name,
           type: 'bar',
           // barGap: '20px',
-          label: this.labelOption,
+          label: {
+            align: 'center',
+            distance: 10,
+            fontSize: 6,
+            formatter: '{c}',
+            position: this.position || (index % 2 ? 'left' : 'right'),
+            rotate: this.rotate,
+            show: true,
+            verticalAlign: 'middle',
+            padding: [20, 0]
+          },
           data: item.data,
           barWidth: this.barWidth,
-          barMinHeight: 7,
+          barMinHeight: 2,
           stack: item.stack ? item.stack : ''
         }
       })
@@ -161,17 +171,17 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-bar-wrapper {
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+.report-bar-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 
-    h3 {
-      font-size: 16px;
-      // font-weight: 500;
-      color: #fff;
-      padding: 0 0 0 0;
-    }
+  h3 {
+    font-size: 16px;
+    // font-weight: 500;
+    color: #fff;
+    padding: 0 0 0 0;
   }
+}
 </style>

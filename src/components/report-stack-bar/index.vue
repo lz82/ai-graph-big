@@ -1,6 +1,6 @@
 <template>
   <div class="report-stack-bar-wrapper">
-    <div id="chart" ref="mychart" :style="{width: width, height: height}"></div>
+    <div id="chart" ref="mychart" :style="{ width: width, height: height }"></div>
   </div>
 </template>
 
@@ -21,29 +21,33 @@ export default {
     },
     legend: {
       type: Array,
-      default () {
+      default() {
         return ['2016', '2017', '2018']
       }
     },
     xaxis: {
       type: Array,
-      default () {
-        return ['AI基础', '人机混合', '机器学习', '视觉技术']
+      default() {
+        // return ['AI基础', '人机混合', '机器学习', '视觉技术']
+        return ['AI基础', '视觉技术', '机器学习', '人机混合']
       }
     },
     series: {
       type: Array,
       required: true
+    },
+    minheight: {
+      type: Number
     }
   },
 
-  data () {
+  data() {
     return {
       chart: null,
       option: {
         grid: {
           left: '10px',
-          top: '20px',
+          top: '5px',
           right: '20px',
           bottom: '20px'
         },
@@ -91,29 +95,30 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.initChart()
     })
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
-      this.option.series = this.series.map(item => {
+      this.option.series = this.series.map((item, index) => {
         return {
           name: item.name,
           type: 'bar',
           stack: 'total',
           label: {
             show: true,
-            formatter: '{c}\n',
-            position: 'right'
+            formatter: '{c}',
+            position: this.minheight ? (index % 2 ? 'left' : 'right') : 'right',
+            fontSize: 8
             // padding: [250, 0, 250, 0]
             // lineHeight: 56
           },
-          barWidth: '20px',
-          barMinHeight: 10,
+          barWidth: '15px',
+          barMinHeight: this.minheight || 0,
           data: item.data
         }
       })
@@ -123,6 +128,4 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-
-</style>
+<style lang="less" scoped></style>

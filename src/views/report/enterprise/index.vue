@@ -89,10 +89,10 @@
                     <span>2018</span>
                   </div>
                   <div class="row">
-                    <span>技术咨询</span>
-                    <span>6.99%</span>
-                    <span>5.75%</span>
-                    <span>5.83%</span>
+                    <span>技术转让</span>
+                    <span>10.28%</span>
+                    <span>8.48%</span>
+                    <span>8.7%</span>
                   </div>
                   <div class="row">
                     <span>技术开发</span>
@@ -101,16 +101,16 @@
                     <span>7.62%</span>
                   </div>
                   <div class="row">
+                    <span>技术咨询</span>
+                    <span>6.99%</span>
+                    <span>5.75%</span>
+                    <span>5.83%</span>
+                  </div>
+                  <div class="row">
                     <span>技术服务</span>
                     <span>7.62%</span>
                     <span>7.01%</span>
                     <span>5.81%</span>
-                  </div>
-                  <div class="row">
-                    <span>技术转让</span>
-                    <span>10.28%</span>
-                    <span>8.48%</span>
-                    <span>8.7%</span>
                   </div>
                 </div>
               </template>
@@ -168,7 +168,7 @@ export default {
 
   data() {
     return {
-      domainList: ['AI基础', '人机混合', '机器学习', '视觉技术'],
+      domainList: ['AI基础', '视觉技术', '机器学习', '人机混合'],
       bigData: [
         {
           name: 'AI基础',
@@ -190,47 +190,56 @@ export default {
       creativeData: [
         {
           name: '2017',
-          data: [98, 16, 32, 52]
+          // data: [98, 16, 32, 52],
+          data: [98, 52, 32, 16]
         },
         {
           name: '2018',
-          data: [103, 19, 27, 58]
+          // data: [103, 19, 27, 58]
+          data: [103, 58, 27, 19]
         }
       ],
       highTech: [
         {
           name: '2015',
-          data: [101, 25, 55, 85],
+          // data: [101, 25, 55, 85],
+          data: [101, 85, 55, 25],
           stack: 'cnt'
         },
         {
           name: '2016',
-          data: [219, 69, 92, 143],
+          // data: [219, 69, 92, 143],
+          data: [219, 143, 92, 69],
           stack: 'cnt'
         },
         {
           name: '2017',
-          data: [291, 87, 164, 196],
+          // data: [291, 87, 164, 196],
+          data: [291, 196, 164, 87],
           stack: 'cnt'
         },
         {
           name: '2018',
-          data: [237, 55, 97, 140],
+          // data: [237, 55, 97, 140],
+          data: [237, 140, 97, 55],
           stack: 'cnt'
         }
       ],
       aiAddRate: [
         {
           name: '2016',
-          data: [7898, 5668, 4552, 3554]
+          // data: [7898, 5668, 4552, 3554]
+          data: [7898, 3554, 4552, 5668]
         },
         {
           name: '2017',
-          data: [9889, 4059, 5559, 7078]
+          // data: [9889, 4059, 5559, 7078],
+          data: [9889, 7078, 5559, 4059]
         },
         {
           name: '2018',
-          data: [12481, 2900, 5521, 8061]
+          // data: [12481, 2900, 5521, 8061],
+          data: [12481, 8061, 5521, 2900]
         }
       ],
       mulitiPieList: [
@@ -241,10 +250,10 @@ export default {
           color: ['#fb8585', '#f8cdcd']
         },
         {
-          title: '人机混合',
-          num: 2900,
-          other: 33730,
-          color: ['#20cec8', '#d1f8f7']
+          title: '视觉技术',
+          num: 8601,
+          other: 28029,
+          color: ['#f6bb42', '#fdf0d6']
         },
         {
           title: '机器学习',
@@ -253,22 +262,23 @@ export default {
           color: ['#3dd5ff', '#d5f0f8']
         },
         {
-          title: '神经网络',
-          num: 2671,
-          other: 33959,
-          color: ['#8cc152', '#c1cbb6']
-        },
-        {
           title: '自然语言',
           num: 4456,
           other: 32174,
           color: ['#e7affe', '#f9eaff']
         },
         {
-          title: '视觉技术',
-          num: 8601,
-          other: 28029,
-          color: ['#f6bb42', '#fdf0d6']
+          title: '人机混合',
+          num: 2900,
+          other: 33730,
+          color: ['#20cec8', '#d1f8f7']
+        },
+
+        {
+          title: '神经网络',
+          num: 2671,
+          other: 33959,
+          color: ['#8cc152', '#c1cbb6']
         }
       ]
     }

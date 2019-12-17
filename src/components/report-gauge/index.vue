@@ -1,7 +1,7 @@
 <template>
   <div class="report-gauge-wrapper">
     <h4>专家分布</h4>
-    <div ref="mychart" :style="{width: width, height: height}"></div>
+    <div ref="mychart" :style="{ width: width, height: height }"></div>
   </div>
 </template>
 
@@ -61,44 +61,42 @@ export default {
     }
   },
 
-  data () {
+  data() {
     const self = this
     return {
       chart: null,
       option: {
-        title: [{
-          x: '12%',
-          bottom: '10px',
-          text: this.left.title,
-          textStyle: {
-            // fontWeight: 'border',
-            fontSize: 18,
-            color: '#fff'
+        title: [
+          {
+            bottom: '10px',
+            text: this.left.title,
+            textStyle: {
+              // fontWeight: 'border',
+              fontSize: 18,
+              color: '#fff'
+            },
+            left: '17%'
           },
-          left: '15%'
-        },
-        {
-          x: '42%',
-          bottom: '10px',
-          text: this.middle.title,
-          textStyle: {
-            // fontWeight: 'border',
-            fontSize: 18,
-            color: '#fff'
+          {
+            bottom: '10px',
+            text: this.middle.title,
+            textStyle: {
+              // fontWeight: 'border',
+              fontSize: 18,
+              color: '#fff'
+            },
+            left: '43%'
           },
-          left: '43%'
-        },
-        {
-          x: '75%',
-          bottom: '10px',
-          text: this.right.title,
-          textStyle: {
-            // fontWeight: 'border',
-            fontSize: 18,
-            color: '#fff'
-          },
-          left: '75%'
-        }
+          {
+            bottom: '10px',
+            text: this.right.title,
+            textStyle: {
+              // fontWeight: 'border',
+              fontSize: 18,
+              color: '#fff'
+            },
+            left: '77%'
+          }
         ],
         tooltip: {
           show: false
@@ -120,9 +118,7 @@ export default {
               lineStyle: {
                 width: 2,
                 shadowBlur: 0,
-                color: [
-                  [1, '#3BCEF8']
-                ]
+                color: [[1, '#3BCEF8']]
               }
             },
             axisTick: {
@@ -149,7 +145,7 @@ export default {
                 fontSize: 12,
                 fontWeight: 'bold'
               },
-              formatter (val) {
+              formatter(val) {
                 if (val === 0 || val === (self.middle.max || 20000)) {
                   return val
                 } else {
@@ -157,16 +153,19 @@ export default {
                 }
               }
             },
-            pointer: { // 仪表盘指针
+            pointer: {
+              // 仪表盘指针
               show: 0
             },
             detail: {
               show: false
             },
-            data: [{
-              name: '',
-              value: this.middle.num
-            }]
+            data: [
+              {
+                name: '',
+                value: this.middle.num
+              }
+            ]
           },
           {
             // 中间白线
@@ -178,7 +177,8 @@ export default {
             min: 0,
             max: this.middle.max || 10000,
             splitNumber: 0,
-            axisLine: { // 坐标轴线
+            axisLine: {
+              // 坐标轴线
               lineStyle: {
                 color: [
                   [0.66, '#dddddd'],
@@ -187,21 +187,26 @@ export default {
                 width: 4
               }
             },
-            axisLabel: { // 坐标轴小标记
-              textStyle: { // 属性lineStyle控制线条样式
+            axisLabel: {
+              // 坐标轴小标记
+              textStyle: {
+                // 属性lineStyle控制线条样式
                 fontWeight: 'bolder',
                 fontSize: 16,
                 color: 'rgba(30,144,255,0)'
               }
             },
-            splitLine: { // 分隔线
+            splitLine: {
+              // 分隔线
               length: 10, // 属性length控制线长
-              lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+              lineStyle: {
+                // 属性lineStyle（详见lineStyle）控制线条样式
                 width: 0,
                 color: '#444'
               }
             },
-            pointer: { // 分隔线 指针
+            pointer: {
+              // 分隔线 指针
               color: '#666666',
               width: 0,
               length: 230
@@ -229,12 +234,10 @@ export default {
             },
             axisTick: {
               show: false
-
             },
             splitLine: {
               show: false,
               length: 20
-
             },
             axisLabel: {
               show: false
@@ -258,29 +261,30 @@ export default {
               }
             },
             animationDuration: 3000,
-            data: [{
-              value: this.middle.num
-            }]
+            data: [
+              {
+                value: this.middle.num
+              }
+            ]
           },
 
           {
             // left外圈
             type: 'gauge',
-            center: ['20%', '55%'], // 默认全局居中
-            radius: '80%',
+            center: ['20%', '65%'], // 默认全局居中
+            radius: '75%',
             splitNumber: 10, // 刻度数量
             min: 0,
             max: this.left.max || 10000,
-            endAngle: 45,
+            startAngle: 180,
+            endAngle: 0,
             clockwise: true,
             axisLine: {
               show: true,
               lineStyle: {
                 width: 2,
                 shadowBlur: 0,
-                color: [
-                  [1, '#3BCEF8']
-                ]
+                color: [[1, '#3BCEF8']]
               }
             },
             axisTick: {
@@ -301,13 +305,13 @@ export default {
             },
             axisLabel: {
               show: true,
-              distance: -40,
+              distance: 25,
               textStyle: {
                 color: '#3BCEF8',
                 fontSize: 12,
                 fontWeight: 'bold'
               },
-              formatter (val) {
+              formatter(val) {
                 if (val === 0 || val === (self.left.max || 10000)) {
                   return val
                 } else {
@@ -315,27 +319,32 @@ export default {
                 }
               }
             },
-            pointer: { // 仪表盘指针
+            pointer: {
+              // 仪表盘指针
               show: 0
             },
             detail: {
               show: false
             },
-            data: [{
-              name: '',
-              value: this.left.num
-            }]
+            data: [
+              {
+                name: '',
+                value: this.left.num
+              }
+            ]
           },
           {
             // left白线
             type: 'gauge',
-            center: ['20%', '55%'], // 默认全局居中
-            radius: '70%',
+            center: ['20%', '65%'], // 默认全局居中
+            radius: '65%',
             min: 0,
             max: this.left.max || 10000,
-            endAngle: 45,
+            startAngle: 180,
+            endAngle: 0,
             splitNumber: 0,
-            axisLine: { // 坐标轴线
+            axisLine: {
+              // 坐标轴线
               lineStyle: {
                 color: [
                   [0.66, '#dddddd'],
@@ -344,21 +353,26 @@ export default {
                 width: 4
               }
             },
-            axisLabel: { // 坐标轴小标记
-              textStyle: { // 属性lineStyle控制线条样式
+            axisLabel: {
+              // 坐标轴小标记
+              textStyle: {
+                // 属性lineStyle控制线条样式
                 fontWeight: 'bolder',
                 fontSize: 16,
                 color: 'rgba(30,144,255,0)'
               }
             },
-            splitLine: { // 分隔线
+            splitLine: {
+              // 分隔线
               length: 10, // 属性length控制线长
-              lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+              lineStyle: {
+                // 属性lineStyle（详见lineStyle）控制线条样式
                 width: 0,
                 color: '#444'
               }
             },
-            pointer: { // 分隔线 指针
+            pointer: {
+              // 分隔线 指针
               color: '#666666',
               width: 0,
               length: 230
@@ -370,9 +384,10 @@ export default {
           {
             name: 'left',
             type: 'gauge',
-            endAngle: 45,
-            radius: '60%',
-            center: ['20%', '55%'], // 默认全局居中
+            startAngle: 180,
+            endAngle: 0,
+            radius: '55%',
+            center: ['20%', '65%'], // 默认全局居中
             min: 0,
             max: this.left.max || 10000,
             axisLine: {
@@ -399,11 +414,11 @@ export default {
             },
             detail: {
               show: true,
-              offsetCenter: ['10%', '60%'],
+              offsetCenter: ['0%', '50%'],
               color: '#fff',
               textStyle: {
-                fontSize: 30,
-                fontWeight: 700
+                fontSize: 18
+                // fontWeight: 700
               }
             },
             itemStyle: {
@@ -412,29 +427,29 @@ export default {
               }
             },
             animationDuration: 3000,
-            data: [{
-              value: this.left.num
-            }]
+            data: [
+              {
+                value: this.left.num
+              }
+            ]
           },
           {
             // right外圈
             type: 'gauge',
-            center: ['80%', '55%'], // 默认全局居中
-            radius: '80%',
+            center: ['80%', '65%'], // 默认全局居中
+            radius: '75%',
             splitNumber: 10, // 刻度数量
             min: 0,
             max: this.right.max || 10000,
-            startAngle: 140,
-            endAngle: -45,
+            startAngle: 180,
+            endAngle: 0,
             clockwise: true,
             axisLine: {
               show: false,
               lineStyle: {
                 width: 2,
                 shadowBlur: 0,
-                color: [
-                  [1, '#3BCEF8']
-                ]
+                color: [[1, '#3BCEF8']]
               }
             },
             axisTick: {
@@ -454,13 +469,13 @@ export default {
               }
             },
             axisLabel: {
-              distance: -30,
+              distance: 25,
               textStyle: {
                 color: '#3BCEF8',
                 fontSize: 12,
                 fontWeight: 'bold'
               },
-              formatter (val) {
+              formatter(val) {
                 if (val === 0 || val === (self.right.max || 10000)) {
                   return val
                 } else {
@@ -468,27 +483,32 @@ export default {
                 }
               }
             },
-            pointer: { // 仪表盘指针
+            pointer: {
+              // 仪表盘指针
               show: 0
             },
             detail: {
               show: false
             },
-            data: [{
-              name: '',
-              value: this.right.num
-            }]
-          }, {
+            data: [
+              {
+                name: '',
+                value: this.right.num
+              }
+            ]
+          },
+          {
             // right白线
             type: 'gauge',
-            center: ['80%', '55%'], // 默认全局居中
-            radius: '70%',
+            center: ['80%', '65%'], // 默认全局居中
+            radius: '65%',
             min: 0,
             max: this.right.max || 10000,
-            startAngle: 140,
-            endAngle: -45,
+            startAngle: 180,
+            endAngle: 0,
             splitNumber: 0,
-            axisLine: { // 坐标轴线
+            axisLine: {
+              // 坐标轴线
               lineStyle: {
                 color: [
                   [0.66, '#dddddd'],
@@ -497,21 +517,26 @@ export default {
                 width: 4
               }
             },
-            axisLabel: { // 坐标轴小标记
-              textStyle: { // 属性lineStyle控制线条样式
+            axisLabel: {
+              // 坐标轴小标记
+              textStyle: {
+                // 属性lineStyle控制线条样式
                 fontWeight: 'bolder',
                 fontSize: 16,
                 color: 'rgba(30,144,255,0)'
               }
             },
-            splitLine: { // 分隔线
+            splitLine: {
+              // 分隔线
               length: 10, // 属性length控制线长
-              lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+              lineStyle: {
+                // 属性lineStyle（详见lineStyle）控制线条样式
                 width: 0,
                 color: '#444'
               }
             },
-            pointer: { // 分隔线 指针
+            pointer: {
+              // 分隔线 指针
               color: '#666666',
               width: 0,
               length: 230
@@ -523,10 +548,10 @@ export default {
           {
             name: 'right',
             type: 'gauge',
-            startAngle: 140,
-            endAngle: -45,
-            radius: '60%',
-            center: ['80%', '55%'], // 默认全局居中
+            startAngle: 180,
+            endAngle: 0,
+            radius: '55%',
+            center: ['80%', '65%'], // 默认全局居中
             min: 0,
             max: this.right.max || 10000,
             axisLine: {
@@ -553,10 +578,10 @@ export default {
             },
             detail: {
               show: true,
-              offsetCenter: ['-20%', '60%'],
+              offsetCenter: ['0%', '50%'],
               textStyle: {
-                fontSize: 30,
-                fontWeight: 700
+                fontSize: 18
+                // fontWeight: 700
               },
               color: '#fff'
             },
@@ -566,16 +591,18 @@ export default {
               }
             },
             animationDuration: 3000,
-            data: [{
-              value: this.right.num
-            }]
+            data: [
+              {
+                value: this.right.num
+              }
+            ]
           }
         ]
       }
     }
   },
 
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       setTimeout(() => {
         this.initChart()
@@ -584,7 +611,7 @@ export default {
   },
 
   methods: {
-    initChart () {
+    initChart() {
       this.chart = this.$echarts.init(this.$refs.mychart)
       this.chart.setOption(this.option)
     }
@@ -593,10 +620,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .report-gauge-wrapper {
-    h4 {
-      color: #3BCEF8;
-      font-size: 20px;
-    }
+.report-gauge-wrapper {
+  h4 {
+    color: #3bcef8;
+    font-size: 20px;
   }
+}
 </style>
