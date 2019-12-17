@@ -22,7 +22,9 @@
       {"id":"4","source":"0","target":"5"}
       ],
     "expertReco": null,
-    "subjectReco": null,
+    "subjectReco": [
+      "概率图模型","知识库","决策树","回归网络","语义网","语义传感器","判别学习","强化学习"
+    ],
     "journalsReco": null,
     "institutionsReco": null
   },

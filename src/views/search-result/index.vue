@@ -1,28 +1,35 @@
 <template>
     <div class="search-layout-wrapper">
       <div class="side-bar side-left">
-        <pannel class="pannel" v-if="getTitle">
-          <span class='comm-title' v-html="getTitle"></span>
-        </pannel>
-
+        <div class="subject-title-wrapper">
+          <pannel class="pannel" v-if="getTitle">
+            <span class='comm-title' v-html="getTitle"></span>
+          </pannel>
+        </div>
         <!-- expert info -->
         <expert-info v-if="result && result.expertVO" :info='result.expertVO'></expert-info>
-        <div class="side-bar side-right-con" v-if="result && !result.expertVO">
-          <!-- 同领域专家 -->
-          <expert-pannel v-if="showRelatedExpert" :list='result.mapVO.expertReco'></expert-pannel>
 
-          <!-- 相关技术推荐 -->
-          <tech-pannel v-if="showRelatedTech" :list='result.mapVO.subjectReco'></tech-pannel>
+        <!-- <div class="side-subject-wrapper"> -->
+          <div class="side-bar side-subject-con" v-if="result && !result.expertVO">
+            <!-- 维基词条 -->
+            <wiki-entry v-if="result && !result.expertVO" :info='result.subjectVO'></wiki-entry>
+            <!-- 同领域专家 -->
+            <expert-pannel v-if="showRelatedExpert" :list='result.mapVO.expertReco'></expert-pannel>
 
-          <!-- 合作机构 -->
-          <org-pannel v-if="showRelatedOrg" :list='result.mapVO.institutionsReco'></org-pannel>
+            <!-- 相关技术推荐 -->
+            <tech-pannel v-if="showRelatedTech" :list='result.mapVO.subjectReco'></tech-pannel>
 
-          <!-- 热词推荐 -->
-          <hot-pannel v-if="showHot"></hot-pannel>
+            <!-- 合作机构 -->
+            <org-pannel v-if="showRelatedOrg" :list='result.mapVO.institutionsReco'></org-pannel>
 
-          <!-- 专家推荐 -->
-          <!-- <expert-rec></expert-rec> -->
-        </div>
+            <!-- 热词推荐 -->
+            <!-- <hot-pannel v-if="showHot"></hot-pannel> -->
+
+            <!-- 专家推荐 -->
+            <!-- <expert-rec></expert-rec> -->
+          </div>
+        <!-- </div> -->
+
       </div>
       <div class="main-wrap">
           <graph-detail
@@ -32,7 +39,7 @@
             v-on:changeKey="changeKey"
           ></graph-detail>
       </div>
-      <div class="side-right">
+      <div class="side-tab-wrapper">
         <!-- tab bar  -->
         <tab-bar v-if="result"
           :tabContent='result'
@@ -48,7 +55,7 @@
 <script>
 import ExpertInfo from './component/expert-info'
 import TabBar from './component/tab-bar'
-import HotPannel from './component/pannel-hot'
+import WikiEntry from './component/wiki-entry'
 import GraphDetail from '../graph'
 import ExpertPannel from './component/pannel-expert'
 import TechPannel from './component/pannel-tech'
@@ -62,7 +69,7 @@ export default {
   components: {
     ExpertInfo,
     TabBar,
-    HotPannel,
+    WikiEntry,
     GraphDetail,
     ExpertPannel,
     TechPannel,
@@ -210,14 +217,7 @@ export default {
   }
 }
 </script>
-<style>
-/* .tab-wrap-expert{
-  height: 485px;
-}
-.tab-wrap-key{
-  height: 770px;
-} */
-</style>
+
 <style lang="less"  scoped>
 @import '~@/style/variables.less';
 .search-layout-wrapper{
@@ -226,43 +226,46 @@ export default {
   .side-bar{
     box-sizing: border-box;
   }
+
   .side-left{
+    width: 630px;
     height: 524px;
     flex: 0 0 640px;
     padding-top: 20px;
-    .pannel{
-      height: 70px;
-    }
-    .comm-title{
-      position: relative;
-      top: -5px;
-      /deep/ .title{
-        font-size: 26px;
-        color: @fontColor;
-        box-sizing: border-box;
-        font-weight: 600;
+    overflow-y: scroll;
+    .subject-title-wrapper{
+      padding-right: 5px;
+      .pannel{
+        height: 70px;
       }
-      /deep/ .sub-title{
-        color: #fff;
-        font-weight: normal!important;
-        font-size: 16px;
+      .comm-title{
         position: relative;
-        top: 3px;
+        top: -5px;
+        /deep/ .title{
+          font-size: 26px;
+          color: @fontColor;
+          box-sizing: border-box;
+          font-weight: 600;
+        }
+        /deep/ .sub-title{
+          color: #fff;
+          font-weight: normal!important;
+          font-size: 16px;
+          position: relative;
+          top: 3px;
+        }
       }
     }
-
   }
-  .side-right-con{
-    // height: 860px;
-    margin-top: 18px;
+  .side-subject-con{
+    // margin-top: 18px;
     color: #fff;
     overflow-y: scroll;
+    // padding: 15px 30px 35px;
   }
-  .side-right{
+
+  .side-tab-wrapper{
     flex: 0 0 640px;
-    .side-right-con{
-      padding: 15px 30px 35px;
-    }
     .org-wrapper li{
       padding-top: 15px;
     }
