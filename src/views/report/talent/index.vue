@@ -100,7 +100,12 @@
           top="40px"
           symbol="emptyCircle"
         />
-        <report-stack-bar :xaxis="domainList" :series="patentDomainList" height="160px" :minheight="5" />
+        <report-stack-bar
+          :xaxis="domainList"
+          :series="patentDomainList"
+          height="160px"
+          :minheight="4"
+        />
       </pannel>
     </div>
   </div>
@@ -132,7 +137,8 @@ export default {
 
   data() {
     return {
-      domainList: ['AI基础', '人机混合', '机器学习', '神经网络', 'NLP', '视觉技术'],
+      // domainList: ['AI基础', '人机混合', '机器学习', '神经网络', 'NLP', '视觉技术'],
+      domainList: ['AI基础', '机器学习', '视觉技术', '人机混合', 'NLP', '神经网络'],
       patentList: [
         '电数字数据处理',
         '数字信息的传输',
@@ -229,15 +235,15 @@ export default {
       patentDomainList: [
         {
           name: '2016',
-          data: [124463, 20616, 43693, 7062, 14767, 39378]
+          data: [124463, 43693, 39378, 20616, 14767, 7062]
         },
         {
           name: '2017',
-          data: [153918, 24076, 50511, 8849, 16530, 46901]
+          data: [153918, 50511, 46901, 24076, 16530, 8849]
         },
         {
           name: '2018',
-          data: [192047, 28105, 58927, 12114, 19064, 54901]
+          data: [192047, 58927, 54901, 28105, 19064, 12114]
         }
       ],
       expertGauge: {
