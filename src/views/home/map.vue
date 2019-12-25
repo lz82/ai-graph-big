@@ -7,7 +7,7 @@
     <Count :num="englandNum" type="england" txt="英国" class="cnt england" v-if="showEngland" />
     <Count :num="franceNum" type="france" txt="法国" class="cnt france" v-if="showFrance" />
     <Count :num="geNum" type="ge" txt="德国" class="cnt ge" v-if="showGe" />
-    <Count :num="twNum" type="tw" txt="中国台湾" class="cnt tw" v-if="showTW" />
+    <!-- <Count :num="twNum" type="tw" txt="中国台湾" class="cnt tw" v-if="showTW" /> -->
     <Count :num="jpNum" type="ujpa" txt="日本" class="cnt jp" v-if="showJP" />
     <Count :num="koreaNum" type="korea" txt="韩国" class="cnt korea" v-if="showKorea" />
     <Count :num="auNum" type="au" txt="澳大利亚" class="cnt au" v-if="showAu" />
@@ -77,7 +77,7 @@ export default {
           type: 'patent',
           data: {
             eupoNum: 57390,
-            chinaNum: 200784,
+            chinaNum: 214547,
             canadaNum: 12050,
             usaNum: 189106,
             englandNum: 10581,
