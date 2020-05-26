@@ -5,7 +5,7 @@
     </div>
     <div class="nav">
       <a href="http://rg.sgst.cn/rc/qqrcgl.html" class="nav-item global"></a>
-      <a href="http://10.11.0.40:8090/" class="nav-item sh-resource"></a>
+      <a href="http://hhl.sgst.cn/shmap" class="nav-item sh-resource"></a>
       <a href="http://www.csjpt.cn/visualScreen" class="nav-item triangle-resource"></a>
       <a href="http://rg.sgst.cn/city" class="nav-item inter-data"></a>
     </div>
